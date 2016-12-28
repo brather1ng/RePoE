@@ -65,7 +65,7 @@ def _convert(tr):
     }
 
 
-def write_stat_descriptions(ggpk, data_path):
+def write_stat_translations(ggpk, data_path):
     tc = TranslationFileCache(path_or_ggpk=ggpk, files=STAT_FILES)
     previous = set()
     root = []
@@ -89,7 +89,7 @@ def write_stat_descriptions(ggpk, data_path):
         result = _convert(tr)
         result['hidden'] = True
         root.append(result)
-    write_json(root, data_path, 'stat_descriptions')
+    write_json(root, data_path, 'stat_translations')
 
 
 # 'stat_descriptions.txt' tree
@@ -119,15 +119,4 @@ STAT_FILES = [
 
 if __name__ == '__main__':
     ggpk = load_ggpk('C:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk')
-    write_stat_descriptions(ggpk, '../data/')
-
-# format: how values are formatted when inserted into the string
-# - "#": unchanged
-# - "+#": prepend with a "+" char, if values are positive
-# - "#%": append "%" char after it
-# - "ignored": value is not inserted (but still part of the numbering in the format string)
-# - if value is range and both are negative: prepend with "-" ("-(#-#) to ...")
-# index_handlers: which handlers to apply to which indexes (before before formatting)
-#                 see PyPoE.poe.file.translations, line 861ff
-# hidden: if true, stats are not shown in-game (e.g. armour movement speed reduction implicits)
-#         Wiki suffixes these with " (Hidden)"
+    write_stat_translations(ggpk, '../data/')

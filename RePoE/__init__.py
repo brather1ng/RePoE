@@ -1,13 +1,19 @@
 from functools import partial
 import argparse
 
-from RePoE.stat_descriptions import write_stat_descriptions
+from RePoE.mods import write_mods
+from RePoE.stat_translations import write_stat_translations
 from RePoE.util import load_ggpk
 
 if __name__ == '__main__':
     modules = {
-        'stats': partial(write_stat_descriptions, data_path='../data/'),
-        'mods': lambda g: None  # todo
+        'stat_translations': partial(write_stat_translations, data_path='../data/'),
+        'mods': partial(write_mods, data_path='../data/')
+        # todo 'stats': Stats.dat: Id, IsLocal, IsWeaponLocal, maybe find out what other flags do
+        # todo 'buffs': BuffDefinitions.dat?
+        # todo 'master_crafting': CraftingBenchOptions.dat
+        # todo 'essences': Essences.dat
+        # todo 'tags': Tags.dat (just an array of the tag ids)
     }
 
     parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
