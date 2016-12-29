@@ -13,7 +13,6 @@ if __name__ == '__main__':
         # todo 'buffs': BuffDefinitions.dat?
         # todo 'master_crafting': CraftingBenchOptions.dat
         # todo 'essences': Essences.dat
-        # todo 'tags': Tags.dat (just an array of the tag ids)
     }
 
     parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")

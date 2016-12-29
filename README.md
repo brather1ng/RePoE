@@ -15,6 +15,6 @@ here.
 
 ## Files
 
-The `data` folder contains the generated data in Json format. Each file has a nicely
-formatted and a compact version. The formatted versions complement the descriptions
+The `data` folder contains the generated data in Json format. Each file has a
+formatted and a compact version. The formatted versions complement their descriptions
 in the `docs` folder.

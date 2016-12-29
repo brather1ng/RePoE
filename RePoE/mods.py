@@ -35,6 +35,13 @@ def _convert_buff(buff_definition, buff_value):
     }
 
 
+def _convert_tags_keys(tags_keys):
+    r = []
+    for tag in tags_keys:
+        r.append(tag['Id'])
+    return r
+
+
 DOMAINS = {
     1: "wearable_item",
     2: "flask",
@@ -63,7 +70,6 @@ GENERATION_TYPES = {
 
 # todo enable when useful
 # ignored information about mods:
-# - TagsKeys (tags introduced on an item when the mod is present, 'has_attack_mod' and 'hast_caster_mod')
 # - GenerationWeight_{TagsKeys, Values} (changes mod spawning weight when the item has specific tags, e.g. those above)
 # - GrantedEffectsPerLevelKey (these have stat representations that can be worked with)
 # ignored mods:
@@ -90,7 +96,8 @@ def write_mods(ggpk, data_path):
             'group': mod['CorrectGroup'],
             'spawns_on': _convert_spawn_weights(mod['SpawnWeight']),
             'buff': _convert_buff(mod['BuffDefinitionsKey'], mod['BuffValue']),
-            'is_essence_only': mod['IsEssenceOnlyModifier'] > 0
+            'is_essence_only': mod['IsEssenceOnlyModifier'] > 0,
+            'adds_tags': _convert_tags_keys(mod['TagsKeys'])
         }
         if mod['Id'] in root:
             print("Duplicate mod id:", mod['Id'])

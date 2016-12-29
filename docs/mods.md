@@ -6,6 +6,8 @@ values they have.
 The file is an object where each key is a mod id that has its description object
 as value. That description object has the following fields:
 
+- `adds_tags`: Tags that are added to an item if it has this mod. These are taken into
+  consideration when spawning other mods, see `spawns_on`.
 - `buff`: The stats of this mod may be applied to allies or enemies around the mod
   carrier. If they are, this field contains the buff id (resolved in `Buffs.dat`)
   and the range the buff is applied. If the range is 0 and the buff is applied to
@@ -38,7 +40,8 @@ as value. That description object has the following fields:
   `AddedChaosDamageCorrupted1`, for example, has `"no_attack_mods": false`,
   `"ring": true` and `"default": false`. It can therefore spawn on items that do
   not have Catarina's "Cannot roll Attack Mods" mod and are rings, but not on
-  any other item.
+  any other item. The tags that appear on the mods in the file are listed at the bottom.
+  All can be found in the `Tags.dat` file in the GGPK.
 - `stats`: Array of the stats this mod gives. `id` is the stat id and `min` and `max`
   (both inclusive) define the range the stat can roll. These can be converted to
   text with the help of `stat_translations.json` (see above).
@@ -46,3 +49,64 @@ as value. That description object has the following fields:
 Mods of the domains 'monster', 'chest', 'area', 'monster_behaviour' and 'sextant' are
 not included. These are not necessary for my use cases atm and would nearly double
 the file size.
+
+#### Tags
+
+Below are the tags that appear in the `spawns_on` fields. These are grouped into
+the domains they can appear on.
+
+##### All domains
+
+`default` matches all items of the given domain.
+
+##### `wearable_item`
+
+**Base item types:**
+
+Obvious:
+`ring`, `amulet`, `belt`, `sword`, `mace`, `sceptre`, `staff`, `axe`, `gloves`,
+`quiver`, `bow`, `claw`, `dagger`, `helmet`, `wand`, `fishing_rod`, `boots`,
+`shield`, `body_armour`, `rapier`
+
+Unknown: `focus`
+
+**Groups:**
+
+`armour`: matches items with one of `gloves`, `helmet`, `boots`, `shield`, 
+`body_armour`.
+
+`armour` of specific types: `str_armour`, `str_dex_armour`, `str_int_armour`,
+`str_dex_int_armour`, `dex_armour`, `dex_int_armour`, `int_armour`
+
+`weapon`: matches items with one of `sword`, `mace`, `sceptre`, `staff`, `axe`,
+`bow`, `claw`, `dagger`, `wand`, `rapier`.
+
+All items with `weapon` have `one_hand_weapon` or `two_hand_weapon` assigned:
+
+- Items with either exist: `sword`, `mace`, `axe`
+- Only `one_hand_weapon`: `sceptre`, `claw`, `dagger`, `wand`, `rapier`
+- Only `two_hand_weapon`: `bow`, `staff`
+
+`ranged`: matches item with `bow` or `wand`.
+
+**Added by mods:**
+
+If an item has Catarina's "Cannot roll Attack Mods", it has the tag `no_attack_mods`.
+If it has Vagan's "Cannot roll Caster Mod", it has the tag `no_caster_mods`.
+
+##### `flask`
+
+Obvious groups: `utility_flask`, `life_flask`, `hybrid_flask`, `mana_flask`
+
+Only Diamond flasks have the tag `critical_utility_flask`. They still have
+`utility_flask`.
+
+##### `jewel`
+
+All jewels have the tag `jewel`. Viridian jewels have `not_int` and `not_str`,
+Cobalt jewels `not_dex` and `not_str`, Crimson jewels `not_dex` and `not_int`
+and Prismatic jewels all three of these.
+
+Jewel mods add tags to an item. These are `specific_weapon`, `one_handed_mod`,
+`melee_mod`, `dual_wielding_mod`, `shield_mod`, `two_handed_mod` and all weapon
+base item type tags from the `wearable_item` section above.
