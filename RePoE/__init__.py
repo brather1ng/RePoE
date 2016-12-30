@@ -10,9 +10,11 @@ if __name__ == '__main__':
         'stat_translations': partial(write_stat_translations, data_path='../data/'),
         'mods': partial(write_mods, data_path='../data/')
         # todo 'stats': Stats.dat: Id, IsLocal, IsWeaponLocal, maybe find out what other flags do
+        # todo 'gems': SkillGems.dat or BaseItemTypes.dat
         # todo 'buffs': BuffDefinitions.dat?
         # todo 'master_crafting': CraftingBenchOptions.dat
         # todo 'essences': Essences.dat
+        # todo GrantedEffects.dat and GrantedEffectsPerLevel.dat
     }
 
     parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
@@ -27,5 +29,5 @@ if __name__ == '__main__':
     print(" Done!")
 
     for module in args.modules:
-        print("Running module '", module, "'")
+        print("Running module '%s'" % module)
         modules[module](ggpk)

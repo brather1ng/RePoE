@@ -53,6 +53,8 @@ negative, the '-' character is moved outside the parentheses (e.g. `(-20, -10)` 
 formatted as `-(20 to 10)`). 
 
 `index_handlers` are applied to values before formatting. These change the actual
-values, see `PyPoE.poe.file.translations`, line 861ff, for their Python definitions.
+values, see 
+[`PyPoE.poe.file.translations`, line 861ff](https://github.com/OmegaK2/PyPoE/blob/dev/PyPoE/poe/file/translations.py#L861)
+for their Python definitions.
 If, for example, `divide_by_one_hundred` is a handler for a value, the value must
 be divided by 100 before being formatted.

@@ -1,4 +1,5 @@
 from PyPoE.poe.file import RelationalReader
+from PyPoE.poe.constants import MOD_DOMAIN, MOD_GENERATION_TYPE
 from RePoE.util import load_ggpk, write_json
 
 
@@ -35,6 +36,16 @@ def _convert_buff(buff_definition, buff_value):
     }
 
 
+def _convert_granted_effects(granted_effects_per_level):
+    if granted_effects_per_level is None:
+        return {}
+    # These two identify a row in GrantedEffectsPerLevel.dat
+    return {
+        'granted_effect_id': granted_effects_per_level['GrantedEffectsKey']['Id'],
+        'level': granted_effects_per_level['Level']
+    }
+
+
 def _convert_tags_keys(tags_keys):
     r = []
     for tag in tags_keys:
@@ -42,38 +53,11 @@ def _convert_tags_keys(tags_keys):
     return r
 
 
-DOMAINS = {
-    1: "wearable_item",
-    2: "flask",
-    3: "monster",
-    4: "chest",              # chests and strongboxes
-    5: "area",               # areas and maps
-    9: "monster_behaviour",  # e.g. StanceBanditRun
-    10: "master_crafted",
-    11: "jewel",
-    12: "sextant"
-}
-GENERATION_TYPES = {
-    1: "prefix",             # not necessarily craftable with orbs, e.g. monster mods or some sextant mods are prefixes
-    2: "suffix",             # not necessarily craftable with orbs, e.g. monster mods
-    3: "other",              # generic, not-craftable mod, e.g. unique explicits, item implicits, prophecies, ...
-    4: "monster_nemesis",
-    5: "item_corruption",
-    6: "monster_bloodlines",
-    7: "monster_torment",
-    8: "map_tempest",
-    9: "monster_talisman",
-    10: "item_enchantment",
-    11: "monster_essence"
-}
-
-
 # todo enable when useful
 # ignored information about mods:
 # - GenerationWeight_{TagsKeys, Values} (changes mod spawning weight when the item has specific tags, e.g. those above)
-# - GrantedEffectsPerLevelKey (these have stat representations that can be worked with)
 # ignored mods:
-# - domain of 'monster', 'chest', 'area', 'monster_behaviour' and 'sextant'
+# - domain of 'monster', 'chest', 'area', 'stance' and 'atlas'
 def write_mods(ggpk, data_path):
     opt = {
         'use_dat_value': False,
@@ -83,19 +67,20 @@ def write_mods(ggpk, data_path):
 
     root = {}
     for mod in rr['Mods.dat']:
-        domain = DOMAINS[mod['Domain']]
-        if (domain == "monster" or domain == "chest" or domain == "area" or domain == "monster_behaviour"
-                or domain == "sextant"):
+        domain = MOD_DOMAIN(mod['Domain'])
+        if (domain is MOD_DOMAIN.AREA or domain is MOD_DOMAIN.ATLAS or domain is MOD_DOMAIN.CHEST
+                or domain is MOD_DOMAIN.MONSTER or domain is MOD_DOMAIN.STANCE):
             continue
         obj = {
-            'level': mod['Level'],
+            'required_level': mod['Level'],
             'stats': _convert_stats(mod['Stats']),
-            'domain': domain,
+            'domain': domain.name.lower(),
             'name': mod['Name'],
-            'generation_type': GENERATION_TYPES[mod['GenerationType']],
+            'generation_type': MOD_GENERATION_TYPE(mod['GenerationType']).name.lower(),
             'group': mod['CorrectGroup'],
-            'spawns_on': _convert_spawn_weights(mod['SpawnWeight']),
-            'buff': _convert_buff(mod['BuffDefinitionsKey'], mod['BuffValue']),
+            'spawn_tags': _convert_spawn_weights(mod['SpawnWeight']),
+            'grants_buff': _convert_buff(mod['BuffDefinitionsKey'], mod['BuffValue']),
+            'grants_effect': _convert_granted_effects(mod['GrantedEffectsPerLevelKey']),
             'is_essence_only': mod['IsEssenceOnlyModifier'] > 0,
             'adds_tags': _convert_tags_keys(mod['TagsKeys'])
         }
