@@ -647,12 +647,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Quality of Socketed Support Gems"
+        "string": "{0} to Quality of Socketed Support Gems"
       }
     ],
     "ids": [
@@ -2054,14 +2054,14 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "divide_by_one_hundred"
           ]
         ],
-        "string": "Socketed Gems have {0}% Critical Strike Chance"
+        "string": "Socketed Gems have {0} Critical Strike Chance"
       }
     ],
     "ids": [
@@ -4252,12 +4252,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% Chance to Block with Shields"
+        "string": "{0} Chance to Block with Shields"
       }
     ],
     "ids": [
@@ -10492,14 +10492,14 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "divide_by_one_hundred"
           ]
         ],
-        "string": "{0}% to Critical Strike Chance"
+        "string": "{0} to Critical Strike Chance"
       }
     ],
     "ids": [
@@ -11068,12 +11068,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Two Handed Melee Weapons"
+        "string": "{0} to Critical Strike Multiplier with Two Handed Melee Weapons"
       }
     ],
     "ids": [
@@ -11458,12 +11458,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Global Critical Strike Multiplier"
+        "string": "{0} to Global Critical Strike Multiplier"
       }
     ],
     "ids": [
@@ -11477,12 +11477,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier"
+        "string": "{0} to Critical Strike Multiplier"
       }
     ],
     "ids": [
@@ -11496,12 +11496,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier for Spells"
+        "string": "{0} to Critical Strike Multiplier for Spells"
       }
     ],
     "ids": [
@@ -11515,12 +11515,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier for Spells"
+        "string": "{0} to Critical Strike Multiplier for Spells"
       }
     ],
     "ids": [
@@ -11534,12 +11534,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Daggers"
+        "string": "{0} to Critical Strike Multiplier with Daggers"
       }
     ],
     "ids": [
@@ -11553,12 +11553,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Maces"
+        "string": "{0} to Critical Strike Multiplier with Maces"
       }
     ],
     "ids": [
@@ -11572,12 +11572,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Axes"
+        "string": "{0} to Critical Strike Multiplier with Axes"
       }
     ],
     "ids": [
@@ -11591,12 +11591,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Bows"
+        "string": "{0} to Critical Strike Multiplier with Bows"
       }
     ],
     "ids": [
@@ -11610,12 +11610,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Swords"
+        "string": "{0} to Critical Strike Multiplier with Swords"
       }
     ],
     "ids": [
@@ -11629,12 +11629,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Wands"
+        "string": "{0} to Critical Strike Multiplier with Wands"
       }
     ],
     "ids": [
@@ -11648,12 +11648,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Claws"
+        "string": "{0} to Critical Strike Multiplier with Claws"
       }
     ],
     "ids": [
@@ -11667,12 +11667,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Staves"
+        "string": "{0} to Critical Strike Multiplier with Staves"
       }
     ],
     "ids": [
@@ -11686,12 +11686,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with One Handed Melee Weapons"
+        "string": "{0} to Critical Strike Multiplier with One Handed Melee Weapons"
       }
     ],
     "ids": [
@@ -11705,12 +11705,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Melee Critical Strike Multiplier"
+        "string": "{0} to Melee Critical Strike Multiplier"
       }
     ],
     "ids": [
@@ -11724,12 +11724,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Weapon Critical Strike Multiplier while Dual Wielding"
+        "string": "{0} to Weapon Critical Strike Multiplier while Dual Wielding"
       }
     ],
     "ids": [
@@ -11743,12 +11743,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Melee Critical Strike Multiplier while holding a Shield"
+        "string": "{0} to Melee Critical Strike Multiplier while holding a Shield"
       }
     ],
     "ids": [
@@ -11762,12 +11762,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Traps"
+        "string": "{0} to Critical Strike Multiplier with Traps"
       }
     ],
     "ids": [
@@ -11781,12 +11781,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Mines"
+        "string": "{0} to Critical Strike Multiplier with Mines"
       }
     ],
     "ids": [
@@ -11800,12 +11800,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Fire Skills"
+        "string": "{0} to Critical Strike Multiplier with Fire Skills"
       }
     ],
     "ids": [
@@ -11819,12 +11819,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Lightning Skills"
+        "string": "{0} to Critical Strike Multiplier with Lightning Skills"
       }
     ],
     "ids": [
@@ -11838,12 +11838,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Cold Skills"
+        "string": "{0} to Critical Strike Multiplier with Cold Skills"
       }
     ],
     "ids": [
@@ -11857,12 +11857,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Elemental Skills"
+        "string": "{0} to Critical Strike Multiplier with Elemental Skills"
       }
     ],
     "ids": [
@@ -11876,12 +11876,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Chaos Skills"
+        "string": "{0} to Critical Strike Multiplier with Chaos Skills"
       }
     ],
     "ids": [
@@ -11988,12 +11988,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier with Totem Skills"
+        "string": "{0} to Critical Strike Multiplier with Totem Skills"
       }
     ],
     "ids": [
@@ -12248,12 +12248,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to maximum Armour"
+        "string": "{0} to maximum Armour"
       }
     ],
     "ids": [
@@ -13998,12 +13998,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to all Elemental Resistances"
+        "string": "{0} to all Elemental Resistances"
       }
     ],
     "ids": [
@@ -14017,12 +14017,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to all Elemental Resistances per Endurance Charge"
+        "string": "{0} to all Elemental Resistances per Endurance Charge"
       }
     ],
     "ids": [
@@ -14036,12 +14036,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% Elemental Resistances while holding a Shield"
+        "string": "{0} Elemental Resistances while holding a Shield"
       }
     ],
     "ids": [
@@ -14055,12 +14055,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to all Elemental Resistances while on Low Life"
+        "string": "{0} to all Elemental Resistances while on Low Life"
       }
     ],
     "ids": [
@@ -14074,12 +14074,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to maximum Fire Resistance"
+        "string": "{0} to maximum Fire Resistance"
       }
     ],
     "ids": [
@@ -14093,12 +14093,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Fire Resistance"
+        "string": "{0} to Fire Resistance"
       }
     ],
     "ids": [
@@ -14112,12 +14112,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Fire Resistance when Socketed with a Red Gem"
+        "string": "{0} to Fire Resistance when Socketed with a Red Gem"
       }
     ],
     "ids": [
@@ -14133,12 +14133,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Fire Resistance while on Low Life"
+        "string": "{0} to Fire Resistance while on Low Life"
       },
       {
         "condition": [
@@ -14147,14 +14147,14 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "negate"
           ]
         ],
-        "string": "{0}% to Fire Resistance while on Low Life"
+        "string": "{0} to Fire Resistance while on Low Life"
       }
     ],
     "ids": [
@@ -14168,12 +14168,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to maximum Cold Resistance"
+        "string": "{0} to maximum Cold Resistance"
       }
     ],
     "ids": [
@@ -14187,12 +14187,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Cold Resistance"
+        "string": "{0} to Cold Resistance"
       }
     ],
     "ids": [
@@ -14206,12 +14206,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Cold Resistance when Socketed with a Green Gem"
+        "string": "{0} to Cold Resistance when Socketed with a Green Gem"
       }
     ],
     "ids": [
@@ -14225,12 +14225,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to maximum Lightning Resistance"
+        "string": "{0} to maximum Lightning Resistance"
       }
     ],
     "ids": [
@@ -14244,12 +14244,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Lightning Resistance"
+        "string": "{0} to Lightning Resistance"
       }
     ],
     "ids": [
@@ -14263,12 +14263,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Lightning Resistance when Socketed with a Blue Gem"
+        "string": "{0} to Lightning Resistance when Socketed with a Blue Gem"
       }
     ],
     "ids": [
@@ -14282,12 +14282,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to maximum Chaos Resistance"
+        "string": "{0} to maximum Chaos Resistance"
       }
     ],
     "ids": [
@@ -14301,12 +14301,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Chaos Resistance"
+        "string": "{0} to Chaos Resistance"
       }
     ],
     "ids": [
@@ -14320,12 +14320,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to all maximum Resistances"
+        "string": "{0} to all maximum Resistances"
       }
     ],
     "ids": [
@@ -14339,12 +14339,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to all maximum Elemental Resistances"
+        "string": "{0} to all maximum Elemental Resistances"
       }
     ],
     "ids": [
@@ -15713,14 +15713,14 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "per_minute_to_per_second"
           ]
         ],
-        "string": "{0}% of maximum Life per second to maximum Life Leech rate"
+        "string": "{0} of maximum Life per second to maximum Life Leech rate"
       }
     ],
     "ids": [
@@ -15736,14 +15736,14 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "per_minute_to_per_second"
           ]
         ],
-        "string": "{0}% of maximum Mana per second to maximum Mana Leech rate"
+        "string": "{0} of maximum Mana per second to maximum Mana Leech rate"
       }
     ],
     "ids": [
@@ -22360,12 +22360,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to maximum Block Chance"
+        "string": "{0} to maximum Block Chance"
       }
     ],
     "ids": [
@@ -26822,12 +26822,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Dodge Attacks"
+        "string": "{0} chance to Dodge Attacks"
       }
     ],
     "ids": [
@@ -27476,12 +27476,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% Chance to Block"
+        "string": "{0} Chance to Block"
       }
     ],
     "ids": [
@@ -29573,12 +29573,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Monster Critical Strike Multiplier"
+        "string": "{0} to Monster Critical Strike Multiplier"
       }
     ],
     "ids": [
@@ -29594,12 +29594,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% Monster Life Leech Resistance"
+        "string": "{0} Monster Life Leech Resistance"
       },
       {
         "condition": [
@@ -29629,12 +29629,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% Monster Mana Leech Resistance"
+        "string": "{0} Monster Mana Leech Resistance"
       },
       {
         "condition": [
@@ -31187,12 +31187,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% additional Block Chance against Projectiles"
+        "string": "{0} additional Block Chance against Projectiles"
       }
     ],
     "ids": [
@@ -31630,12 +31630,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Global Critical Strike Multiplier while wielding a Staff"
+        "string": "{0} to Global Critical Strike Multiplier while wielding a Staff"
       }
     ],
     "ids": [
@@ -31686,12 +31686,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Global Critical Strike Multiplier while wielding a Bow"
+        "string": "{0} to Global Critical Strike Multiplier while wielding a Bow"
       }
     ],
     "ids": [
@@ -33046,12 +33046,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% Chaos Resistance when on Low Life"
+        "string": "{0} Chaos Resistance when on Low Life"
       }
     ],
     "ids": [
@@ -34112,12 +34112,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to all maximum Elemental Resistances during Flask effect"
+        "string": "{0} to all maximum Elemental Resistances during Flask effect"
       }
     ],
     "ids": [
@@ -37343,12 +37343,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to all Elemental Resistances per 10 Levels"
+        "string": "{0} to all Elemental Resistances per 10 Levels"
       }
     ],
     "ids": [
@@ -38054,12 +38054,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Totems gain {0}% to all Elemental Resistances"
+        "string": "Totems gain {0} to all Elemental Resistances"
       }
     ],
     "ids": [
@@ -38073,12 +38073,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Ancestral Protector Totems gain {0}% to all Elemental Resistances"
+        "string": "Ancestral Protector Totems gain {0} to all Elemental Resistances"
       }
     ],
     "ids": [
@@ -38278,12 +38278,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Fire and Cold Resistances"
+        "string": "{0} to Fire and Cold Resistances"
       }
     ],
     "ids": [
@@ -38297,12 +38297,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Fire and Lightning Resistances"
+        "string": "{0} to Fire and Lightning Resistances"
       }
     ],
     "ids": [
@@ -38316,12 +38316,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Cold and Lightning Resistances"
+        "string": "{0} to Cold and Lightning Resistances"
       }
     ],
     "ids": [
@@ -39004,12 +39004,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Quality of Supported Active Skill Gems"
+        "string": "{0} to Quality of Supported Active Skill Gems"
       }
     ],
     "ids": [
@@ -40997,12 +40997,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Minions have {0}% to all Elemental Resistances"
+        "string": "Minions have {0} to all Elemental Resistances"
       }
     ],
     "ids": [
@@ -41016,12 +41016,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Minions have {0}% to Chaos Resistance"
+        "string": "Minions have {0} to Chaos Resistance"
       }
     ],
     "ids": [
@@ -42064,12 +42064,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to be Ignited"
+        "string": "{0} chance to be Ignited"
       }
     ],
     "ids": [
@@ -42083,12 +42083,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to be Shocked"
+        "string": "{0} chance to be Shocked"
       }
     ],
     "ids": [
@@ -44389,12 +44389,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to be Pierced by Projectiles"
+        "string": "{0} chance to be Pierced by Projectiles"
       }
     ],
     "ids": [
@@ -45800,12 +45800,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Vaal Skill Critical Strike Multiplier"
+        "string": "{0} to Vaal Skill Critical Strike Multiplier"
       }
     ],
     "ids": [
@@ -46355,14 +46355,14 @@
           }
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           [
             "milliseconds_to_seconds"
           ]
         ],
-        "string": "Chill Enemy for %1$d second when Hit"
+        "string": "Chill Enemy for {0} second when Hit"
       },
       {
         "condition": [
@@ -46371,14 +46371,14 @@
           }
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           [
             "milliseconds_to_seconds"
           ]
         ],
-        "string": "Chill Enemy for %1$d seconds when Hit"
+        "string": "Chill Enemy for {0} seconds when Hit"
       }
     ],
     "ids": [
@@ -46509,7 +46509,7 @@
         ],
         "format": [
           "ignore",
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           [],
@@ -46517,7 +46517,7 @@
             "milliseconds_to_seconds"
           ]
         ],
-        "string": "Removes all but one Life on use\nRemoved life is regenerated as Energy Shield over %2$d seconds"
+        "string": "Removes all but one Life on use\nRemoved life is regenerated as Energy Shield over {1} seconds"
       }
     ],
     "ids": [
@@ -46532,12 +46532,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Physical Attack Damage is increased by 1% per %1$d Strength from Allocated Passives in Radius"
+        "string": "Physical Attack Damage is increased by 1% per {0} Strength from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46551,12 +46551,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Fortify Duration is increased by 1% per %1$d Intelligence from Allocated Passives in Radius"
+        "string": "Fortify Duration is increased by 1% per {0} Intelligence from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46570,12 +46570,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Fire Damage is increased by 1% per %1$d Intelligence from Allocated Passives in Radius"
+        "string": "Fire Damage is increased by 1% per {0} Intelligence from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46589,12 +46589,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Cold Damage is increased by 1% per %1$d Intelligence from Allocated Passives in Radius"
+        "string": "Cold Damage is increased by 1% per {0} Intelligence from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46608,12 +46608,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Physical Damage is increased by 1% per %1$d Intelligence from Allocated Passives in Radius"
+        "string": "Physical Damage is increased by 1% per {0} Intelligence from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46627,12 +46627,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Physical Attack Damage is increased by 1% per %1$d Dexterity from Allocated Passives in Radius"
+        "string": "Physical Attack Damage is increased by 1% per {0} Dexterity from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46646,12 +46646,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Projectile Damage is increased by 1% per %1$d Dexterity from Allocated Passives in Radius"
+        "string": "Projectile Damage is increased by 1% per {0} Dexterity from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46665,12 +46665,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Glacial Cascade gains an additional stage with %1$d Intelligence from Allocated Passives in Radius"
+        "string": "Glacial Cascade gains an additional stage with {0} Intelligence from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46684,12 +46684,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Animate Weapon will Animate Bows and Wands with %1$d Dexterity from Allocated Passives in Radius"
+        "string": "Animate Weapon will Animate Bows and Wands with {0} Dexterity from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46703,12 +46703,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Split Arrow will fire an additional arrow with %1$d Dexterity from Allocated Passives in Radius"
+        "string": "Split Arrow will fire an additional arrow with {0} Dexterity from Allocated Passives in Radius"
       }
     ],
     "ids": [
@@ -46724,12 +46724,12 @@
           }
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Split Arrow will fire %1$d additional arrow"
+        "string": "Split Arrow will fire {0} additional arrow"
       },
       {
         "condition": [
@@ -46738,12 +46738,12 @@
           }
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Split Arrow will fire %1$d additional arrows"
+        "string": "Split Arrow will fire {0} additional arrows"
       }
     ],
     "ids": [
@@ -46795,14 +46795,14 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           [
             "per_minute_to_per_second"
           ]
         ],
-        "string": "Nearby Enemies take %1$d Lightning Damage per second"
+        "string": "Nearby Enemies take {0} Lightning Damage per second"
       }
     ],
     "ids": [
@@ -47387,12 +47387,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier against Bleeding Enemies"
+        "string": "{0} to Critical Strike Multiplier against Bleeding Enemies"
       }
     ],
     "ids": [
@@ -47406,12 +47406,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier per 1% Block Chance"
+        "string": "{0} to Critical Strike Multiplier per 1% Block Chance"
       }
     ],
     "ids": [
@@ -49926,12 +49926,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier per Power Charge"
+        "string": "{0} to Critical Strike Multiplier per Power Charge"
       }
     ],
     "ids": [
@@ -50441,12 +50441,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Chaos Resistance while using a Flask"
+        "string": "{0} to Chaos Resistance while using a Flask"
       }
     ],
     "ids": [
@@ -53740,12 +53740,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier against Enemies that are on Full Life"
+        "string": "{0} to Critical Strike Multiplier against Enemies that are on Full Life"
       }
     ],
     "ids": [
@@ -54319,12 +54319,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Auras you Cast grant {0}% Physical Damage Reduction to you and Allies"
+        "string": "Auras you Cast grant {0} Physical Damage Reduction to you and Allies"
       }
     ],
     "ids": [
@@ -54562,14 +54562,14 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "divide_by_one_hundred"
           ]
         ],
-        "string": "{0}% Critical Strike Chance per Power Charge"
+        "string": "{0} Critical Strike Chance per Power Charge"
       }
     ],
     "ids": [
@@ -57415,12 +57415,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier against Enemies that are affected\nby Elemental Status Ailments"
+        "string": "{0} to Critical Strike Multiplier against Enemies that are affected\nby Elemental Status Ailments"
       }
     ],
     "ids": [
@@ -57625,14 +57625,14 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "divide_by_one_hundred"
           ]
         ],
-        "string": "{0}% Unarmed Critical Strike Chance"
+        "string": "{0} Unarmed Critical Strike Chance"
       }
     ],
     "ids": [
@@ -70169,12 +70169,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Burning Arrow has {0}% chance to Ignite"
+        "string": "Burning Arrow has {0} chance to Ignite"
       }
     ],
     "ids": [
@@ -70284,12 +70284,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Fireball has {0}% chance to Ignite"
+        "string": "Fireball has {0} chance to Ignite"
       }
     ],
     "ids": [
@@ -70320,12 +70320,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Glacial Hammer has {0}% chance to Freeze"
+        "string": "Glacial Hammer has {0} chance to Freeze"
       }
     ],
     "ids": [
@@ -70356,12 +70356,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Ice Nova has {0}% chance to Freeze"
+        "string": "Ice Nova has {0} chance to Freeze"
       }
     ],
     "ids": [
@@ -70377,12 +70377,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Lightning Strike Pierce Chance"
+        "string": "{0} to Lightning Strike Pierce Chance"
       },
       {
         "condition": [
@@ -70391,14 +70391,14 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "negate"
           ]
         ],
-        "string": "{0}% to Lightning Strike Pierce Chance"
+        "string": "{0} to Lightning Strike Pierce Chance"
       }
     ],
     "ids": [
@@ -70561,12 +70561,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Arc has {0}% chance to Shock"
+        "string": "Arc has {0} chance to Shock"
       }
     ],
     "ids": [
@@ -70698,12 +70698,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% Lightning Trap Pierce Chance"
+        "string": "{0} Lightning Trap Pierce Chance"
       },
       {
         "condition": [
@@ -70712,14 +70712,14 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "negate"
           ]
         ],
-        "string": "{0}% Lightning Trap Pierce Chance"
+        "string": "{0} Lightning Trap Pierce Chance"
       }
     ],
     "ids": [
@@ -70830,12 +70830,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% Sweep Knockback Chance"
+        "string": "{0} Sweep Knockback Chance"
       }
     ],
     "ids": [
@@ -70924,12 +70924,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Elemental Hit has {0}% chance to Freeze, Shock and Ignite"
+        "string": "Elemental Hit has {0} chance to Freeze, Shock and Ignite"
       }
     ],
     "ids": [
@@ -71006,12 +71006,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Raised Spectre Elemental Resistances"
+        "string": "{0} to Raised Spectre Elemental Resistances"
       }
     ],
     "ids": [
@@ -71025,12 +71025,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Raised Zombie Elemental Resistances"
+        "string": "{0} to Raised Zombie Elemental Resistances"
       }
     ],
     "ids": [
@@ -71044,12 +71044,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Stone Golem Elemental Resistances"
+        "string": "{0} to Stone Golem Elemental Resistances"
       }
     ],
     "ids": [
@@ -71063,12 +71063,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to increased Flame Golem Elemental Resistances"
+        "string": "{0} to increased Flame Golem Elemental Resistances"
       }
     ],
     "ids": [
@@ -71082,12 +71082,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Ice Golem Elemental Resistances"
+        "string": "{0} to Ice Golem Elemental Resistances"
       }
     ],
     "ids": [
@@ -71101,12 +71101,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Lightning Golem Elemental Resistances"
+        "string": "{0} to Lightning Golem Elemental Resistances"
       }
     ],
     "ids": [
@@ -71120,12 +71120,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Chaos Golem Elemental Resistances"
+        "string": "{0} to Chaos Golem Elemental Resistances"
       }
     ],
     "ids": [
@@ -71139,12 +71139,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Animated Guardian Elemental Resistances"
+        "string": "{0} to Animated Guardian Elemental Resistances"
       }
     ],
     "ids": [
@@ -71214,14 +71214,14 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "divide_by_one_hundred_2dp"
           ]
         ],
-        "string": "Essence Drain Regenerates {0}% of Debuff Damage as Life"
+        "string": "Essence Drain Regenerates {0} of Debuff Damage as Life"
       }
     ],
     "ids": [
@@ -73328,12 +73328,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Enemies you Curse have {0}% to Chaos Resistance"
+        "string": "Enemies you Curse have {0} to Chaos Resistance"
       }
     ],
     "ids": [
@@ -74770,12 +74770,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Ancestral Protector Totem Elemental Resistances"
+        "string": "{0} to Ancestral Protector Totem Elemental Resistances"
       }
     ],
     "ids": [
@@ -74917,12 +74917,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Bone Offering grants an additional {0}% Block Chance"
+        "string": "Bone Offering grants an additional {0} Block Chance"
       }
     ],
     "ids": [
@@ -75913,12 +75913,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Frostbolt has {0}% chance to Freeze"
+        "string": "Frostbolt has {0} chance to Freeze"
       }
     ],
     "ids": [
@@ -76383,12 +76383,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Totems gain {0}% to all Elemental Resistances per active Totem"
+        "string": "Totems gain {0} to all Elemental Resistances per active Totem"
       }
     ],
     "ids": [
@@ -76600,12 +76600,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Spirit Offering grants {0}% of Physical Damage as Extra Chaos Damage"
+        "string": "Spirit Offering grants {0} of Physical Damage as Extra Chaos Damage"
       }
     ],
     "ids": [
@@ -76752,12 +76752,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Minions have {0}% to Cold Resistance"
+        "string": "Minions have {0} to Cold Resistance"
       }
     ],
     "ids": [
@@ -78198,12 +78198,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "You and Allies affected by your Auras have {0}% to all Elemental Resistances"
+        "string": "You and Allies affected by your Auras have {0} to all Elemental Resistances"
       },
       {
         "condition": [
@@ -78212,14 +78212,14 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           [
             "negate"
           ]
         ],
-        "string": "You and Allies affected by your Auras have {0}% to all Elemental Resistances"
+        "string": "You and Allies affected by your Auras have {0} to all Elemental Resistances"
       }
     ],
     "ids": [
@@ -78924,12 +78924,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier while Dual Wielding"
+        "string": "{0} to Critical Strike Multiplier while Dual Wielding"
       }
     ],
     "ids": [
@@ -79857,12 +79857,12 @@
           }
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% Physical Damage taken while stationary"
+        "string": "{0} Physical Damage taken while stationary"
       }
     ],
     "ids": [
@@ -80717,12 +80717,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% to Critical Strike Multiplier if you've dealt a Non-Critical Strike Recently"
+        "string": "{0} to Critical Strike Multiplier if you've dealt a Non-Critical Strike Recently"
       }
     ],
     "ids": [
@@ -81130,12 +81130,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Scorching Ray Debuff applies {0}% Fire Resistance at max stages"
+        "string": "Scorching Ray Debuff applies {0} Fire Resistance at max stages"
       }
     ],
     "ids": [
@@ -81149,12 +81149,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Scorching Ray Debuff applies {0}% Fire Resistance per stage"
+        "string": "Scorching Ray Debuff applies {0} Fire Resistance per stage"
       }
     ],
     "ids": [
@@ -88206,12 +88206,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Totems and Minions summoned by Supported Skills have {0}% Fire Resistance"
+        "string": "Totems and Minions summoned by Supported Skills have {0} Fire Resistance"
       }
     ],
     "ids": [
@@ -88225,12 +88225,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Totems and Minions summoned by Supported Skills have {0}% Cold Resistance"
+        "string": "Totems and Minions summoned by Supported Skills have {0} Cold Resistance"
       }
     ],
     "ids": [
@@ -88244,12 +88244,12 @@
           {}
         ],
         "format": [
-          "+#"
+          "+#%"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Totems and Minions summoned by Supported Skills have {0}% Lightning Resistance"
+        "string": "Totems and Minions summoned by Supported Skills have {0} Lightning Resistance"
       }
     ],
     "ids": [

@@ -5,14 +5,12 @@ from RePoE.util import write_json,call_with_default_args
 def _convert_tags(n_ids, tags, tags_types):
     f = ["ignore" for _ in range(n_ids)]
     for tag, tag_type in zip(tags, tags_types):
-        if tag_type == "%":
+        if tag_type == '%':
             f[tag] = "#"
-        elif tag_type == "$+d":
-            f[tag] = "+#"
-        elif tag_type == "$d%":
+        elif tag_type == 'd%':
             f[tag] = "#%"
-        elif tag_type == "d%":
-            f[tag] = "#%"
+        elif tag_type.startswith('$') and 'd' in tag_type:
+            f[tag] = tag_type[1:].replace('d', "#")
         else:
             print("Unknown tag type:", tag_type)
     return f
@@ -48,17 +46,17 @@ def _convert_handlers(n_ids, index_handlers):
     return hs
 
 
-def _convert(tr):
+def _convert(tr, tag_set):
     ids = tr.ids
     n_ids = len(ids)
     english = []
     for s in tr.get_language('English').strings:
-        # todo: '%1$d' is not converted to format correctly
-        # see e.g. "split_arrow_number_of_additional_arrows"
+        tags = _convert_tags(n_ids, s.tags, s.tags_types)
+        tag_set.update(tags)
         english.append({
             'condition': _convert_range(s.range),
             'string': s.as_format_string,
-            'format': _convert_tags(n_ids, s.tags, s.tags_types),
+            'format': tags,
             'index_handlers': _convert_handlers(n_ids, s.quantifier.index_handlers)
         })
     return {
@@ -70,6 +68,7 @@ def _convert(tr):
 def write_stat_translations(ggpk, data_path, **kwargs):
     tc = TranslationFileCache(path_or_ggpk=ggpk, files=STAT_FILES)
     previous = set()
+    tag_set = set()
     root = []
     for f in STAT_FILES:
         previous_f = set()
@@ -81,16 +80,17 @@ def write_stat_translations(ggpk, data_path, **kwargs):
                 continue
             previous.add(id_str)
             previous_f.add(id_str)
-            root.append(_convert(tr))
+            root.append(_convert(tr, tag_set))
     for tr in get_custom_translation_file().translations:
         id_str = " ".join(tr.ids)
         if id_str in previous:
             print("Duplicate custom id", tr.ids)
             continue
         previous.add(id_str)
-        result = _convert(tr)
+        result = _convert(tr, tag_set)
         result['hidden'] = True
         root.append(result)
+    print("Possible format tags: {}".format(tag_set))
     write_json(root, data_path, 'stat_translations')
 
 

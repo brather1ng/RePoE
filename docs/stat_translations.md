@@ -46,6 +46,7 @@ being inserted, they may be modified. How is defined in `formats` and `index_han
 - `+#`: value is prepended with a '+' character, iff the value (or all values if the
   stat value is a range) is (are) positive
 - `#%`: a '%' character is appended after the value
+- `+#%`: same as `+#`, plus a '%' character is appended after the value
 - `ignored`: the value is not referenced in the format string
 
 Range values are inserted as `(value1 to value2)`. If both values of the range are
