@@ -1,15 +1,15 @@
-from functools import partial
 import argparse
 
 from RePoE.mods import write_mods
 from RePoE.stat_translations import write_stat_translations
-from RePoE.util import load_ggpk
+from RePoE.stats import write_stats
+from RePoE.util import load_ggpk, create_relational_reader
 
 if __name__ == '__main__':
     modules = {
-        'stat_translations': partial(write_stat_translations, data_path='../data/'),
-        'mods': partial(write_mods, data_path='../data/')
-        # todo 'stats': Stats.dat: Id, IsLocal, IsWeaponLocal, maybe find out what other flags do
+        'stat_translations': write_stat_translations,
+        'mods': write_mods,
+        'stats': write_stats
         # todo 'gems': SkillGems.dat or BaseItemTypes.dat
         # todo 'buffs': BuffDefinitions.dat?
         # todo 'master_crafting': CraftingBenchOptions.dat
@@ -28,6 +28,7 @@ if __name__ == '__main__':
     ggpk = load_ggpk(args.file)
     print(" Done!")
 
+    rr = create_relational_reader(ggpk)
     for module in args.modules:
         print("Running module '%s'" % module)
-        modules[module](ggpk)
+        modules[module](ggpk=ggpk, data_path='../data/', relational_reader=rr)

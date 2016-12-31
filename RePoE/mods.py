@@ -1,6 +1,5 @@
-from PyPoE.poe.file import RelationalReader
 from PyPoE.poe.constants import MOD_DOMAIN, MOD_GENERATION_TYPE
-from RePoE.util import load_ggpk, write_json
+from RePoE.util import write_json, call_with_default_args
 
 
 def _convert_stats(stats):
@@ -58,15 +57,9 @@ def _convert_tags_keys(tags_keys):
 # - GenerationWeight_{TagsKeys, Values} (changes mod spawning weight when the item has specific tags, e.g. those above)
 # ignored mods:
 # - domain of 'monster', 'chest', 'area', 'stance' and 'atlas'
-def write_mods(ggpk, data_path):
-    opt = {
-        'use_dat_value': False,
-        'auto_build_index': True,
-    }
-    rr = RelationalReader(path_or_ggpk=ggpk, files=['Mods.dat'], read_options=opt)
-
+def write_mods(data_path, relational_reader, **kwargs):
     root = {}
-    for mod in rr['Mods.dat']:
+    for mod in relational_reader['Mods.dat']:
         domain = MOD_DOMAIN(mod['Domain'])
         if (domain is MOD_DOMAIN.AREA or domain is MOD_DOMAIN.ATLAS or domain is MOD_DOMAIN.CHEST
                 or domain is MOD_DOMAIN.MONSTER or domain is MOD_DOMAIN.STANCE):
@@ -93,5 +86,4 @@ def write_mods(ggpk, data_path):
 
 
 if __name__ == '__main__':
-    ggpk = load_ggpk('C:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk')
-    write_mods(ggpk, '../data/')
+    call_with_default_args(write_mods)

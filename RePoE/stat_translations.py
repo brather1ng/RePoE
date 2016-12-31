@@ -1,5 +1,5 @@
 from PyPoE.poe.file.translations import TranslationFileCache, get_custom_translation_file
-from RePoE.util import write_json, load_ggpk
+from RePoE.util import write_json,call_with_default_args
 
 
 def _convert_tags(n_ids, tags, tags_types):
@@ -53,6 +53,8 @@ def _convert(tr):
     n_ids = len(ids)
     english = []
     for s in tr.get_language('English').strings:
+        # todo: '%1$d' is not converted to format correctly
+        # see e.g. "split_arrow_number_of_additional_arrows"
         english.append({
             'condition': _convert_range(s.range),
             'string': s.as_format_string,
@@ -65,7 +67,7 @@ def _convert(tr):
     }
 
 
-def write_stat_translations(ggpk, data_path):
+def write_stat_translations(ggpk, data_path, **kwargs):
     tc = TranslationFileCache(path_or_ggpk=ggpk, files=STAT_FILES)
     previous = set()
     root = []
@@ -118,5 +120,4 @@ STAT_FILES = [
 
 
 if __name__ == '__main__':
-    ggpk = load_ggpk('C:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk')
-    write_stat_translations(ggpk, '../data/')
+    call_with_default_args(write_stat_translations)
