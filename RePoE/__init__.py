@@ -1,5 +1,7 @@
 import argparse
 
+from RePoE.gem_tags import write_gem_tags
+from RePoE.gems import write_gems
 from RePoE.mods import write_mods
 from RePoE.stat_translations import write_stat_translations
 from RePoE.stats import write_stats
@@ -9,8 +11,10 @@ if __name__ == '__main__':
     modules = {
         'stat_translations': write_stat_translations,
         'mods': write_mods,
-        'stats': write_stats
-        # todo 'gems': SkillGems.dat or BaseItemTypes.dat
+        'stats': write_stats,
+        'gems': write_gems,
+        'gem_tags': write_gem_tags,
+        # todo 'gems_display': like gems but with keys and translations resolved so it can directly be used
         # todo 'buffs': BuffDefinitions.dat?
         # todo 'master_crafting': CraftingBenchOptions.dat
         # todo 'essences': Essences.dat
