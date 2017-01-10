@@ -2,16 +2,15 @@
 
 Repository of Path of Exile resources for tool developers.
 
-Contains only information about stat and mod id resolution at the moment. See the `data`
+Contains information about stats, mods and gems at the moment. See the `data`
 folder for those files and the `docs` folder for their documentation.
 
 For the actual GGPK parsing, [PyPoE](https://github.com/OmegaK2/PyPoE) is used.
 The code here just converts PyPoE's Python objects to JSON.
 
 Developed to supply [PoESkillTree](https://github.com/EmmittJ/PoESkillTree) with the
-game data information it requires. I'll only convert files that are necessary for
-PoESkillTree. But I'm open to requests about converted files or Pull Requests that
-add conversion for more files.
+game data information it requires. If you need other files converted, feel free to
+open an Issue or Pull Request for that.
 
 ## Files
 
