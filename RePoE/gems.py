@@ -1,7 +1,7 @@
 from PyPoE.cli.exporter.wiki.parsers.item import ItemsParser
 from PyPoE.poe.constants import MOD_DOMAIN
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
-from RePoE.constants import ActiveSkillType, ReleaseState, UNRELEASED_GEMS, DROP_DISABLED_GEMS
+from RePoE.constants import ActiveSkillType, ReleaseState, UNRELEASED_GEMS, LEGACY_GEMS, CooldownBypassType
 from RePoE.util import write_json, call_with_default_args
 
 
@@ -116,13 +116,9 @@ class GemConverter:
         }
         if gepl['Cooldown'] > 0:
             r['cooldown'] = gepl['Cooldown']
-            charge_type = gepl['Unknown29']
-            if charge_type == 1:
-                r['expend_charge_to_bypass_cooldown'] = 'endurance'
-            elif charge_type == 2:
-                r['expend_charge_to_bypass_cooldown'] = 'frenzy'
-            elif charge_type == 3:
-                r['expend_charge_to_bypass_cooldown'] = 'power'
+            cooldown_bypass_type = CooldownBypassType(gepl['Unknown29'])
+            if cooldown_bypass_type is not CooldownBypassType.NONE:
+                r['cooldown_bypass_type'] = cooldown_bypass_type.name.lower()
         if gepl['StoredUses'] > 0:
             r['stored_uses'] = gepl['StoredUses']
 
@@ -184,8 +180,8 @@ class GemConverter:
 
         if granted_effect['Id'] in UNRELEASED_GEMS:
             release_state = ReleaseState.UNRELEASED
-        elif granted_effect['Id'] in DROP_DISABLED_GEMS:
-            release_state = ReleaseState.DROP_DISABLED
+        elif granted_effect['Id'] in LEGACY_GEMS:
+            release_state = ReleaseState.LEGACY
         else:
             release_state = ReleaseState.RELEASED
         obj['base_item'] = {

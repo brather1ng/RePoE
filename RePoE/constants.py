@@ -130,10 +130,25 @@ class ActiveSkillType(IntEnum):
 
 
 @unique
+class CooldownBypassType(IntEnum):
+    # Cooldown can be bypassed by expending an endurance charge
+    EXPEND_ENDURANCE_CHARGE = 1,
+    # Cooldown can be bypassed by expending a frenzy charge
+    EXPEND_FRENZY_CHARGE = 2,
+    # Cooldown can be bypassed by expending a power charge
+    EXPEND_POWER_CHARGE = 3,
+    # Cooldown can not be bypassed
+    NONE = 4
+
+
+@unique
 class ReleaseState(Enum):
+    # Item never existed in any released version of the game.
     UNRELEASED = 0,
+    # Item currently exists in the in-game.
     RELEASED = 1,
-    DROP_DISABLED = 2
+    # Item can no longer be obtained (excluding via trade from other players).
+    LEGACY = 2
 
 
 # gems that could never drop (unreleased mod only effects are not listed)
@@ -172,7 +187,7 @@ UNRELEASED_GEMS = {
     "NewShockNova",
 }
 
-# gems that can no longer drop
-DROP_DISABLED_GEMS = {
+# gems that can no longer be obtained
+LEGACY_GEMS = {
     "SupportItemQuantity"
 }
