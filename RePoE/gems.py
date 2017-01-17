@@ -1,5 +1,6 @@
 from PyPoE.cli.exporter.wiki.parsers.item import ItemsParser
 from PyPoE.poe.constants import MOD_DOMAIN
+from PyPoE.poe.file import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
 from RePoE.constants import ActiveSkillType, ReleaseState, UNRELEASED_GEMS, LEGACY_GEMS, CooldownBypassType
 from RePoE.util import write_json, call_with_default_args
@@ -82,8 +83,9 @@ def _handle_primitives(representative, per_level):
 
 class GemConverter:
 
-    def __init__(self, relational_reader):
+    def __init__(self, ggpk, relational_reader, translation_file_cache):
         self.relational_reader = relational_reader
+        self.translation_file_cache = translation_file_cache
 
         self.gepls = {}
         for gepl in self.relational_reader['GrantedEffectsPerLevel.dat']:
@@ -92,7 +94,24 @@ class GemConverter:
                 self.gepls[ge_id] = []
             self.gepls[ge_id].append(gepl)
 
+        self.tags = {}
+        for tag in self.relational_reader['GemTags.dat']:
+            name = tag['Tag']
+            self.tags[tag['Id']] = name if name != '' else None
+
+        self.max_levels = {}
+        for row in self.relational_reader['ItemExperiencePerLevel.dat']:
+            base_item = row['BaseItemTypesKey']['Id']
+            level = row['ItemCurrentLevel']
+            if base_item not in self.max_levels:
+                self.max_levels[base_item] = level
+            elif self.max_levels[base_item] < level:
+                self.max_levels[base_item] = level
+
         self.max_totem_id = relational_reader['SkillTotems.dat'].table_rows
+
+        self.skill_stat_filter = StatFilterFile()
+        self.skill_stat_filter.read(ggpk['Metadata/StatDescriptions/skillpopup_stat_filters.txt'].record.extract())
 
     def _convert_active_skill(self, active_skill):
         stat_conversions = {}
@@ -102,7 +121,7 @@ class GemConverter:
             'id': active_skill['Id'],
             'display_name': active_skill['DisplayedName'],
             'description': active_skill['Description'],
-            'types': [ActiveSkillType(t).name.lower() for t in active_skill['ActiveSkillTypeData']],
+            'types': [ActiveSkillType(t).name for t in active_skill['ActiveSkillTypeData']],
             'weapon_restrictions': [ic['Id'] for ic in active_skill['WeaponRestriction_ItemClassesKeys']],
             'is_skill_totem': (active_skill['SkillTotemId'] <= self.max_totem_id),
             'is_manually_casted': active_skill['IsManuallyCasted'],
@@ -117,8 +136,8 @@ class GemConverter:
         if gepl['Cooldown'] > 0:
             r['cooldown'] = gepl['Cooldown']
             cooldown_bypass_type = CooldownBypassType(gepl['Unknown29'])
-            if cooldown_bypass_type is not CooldownBypassType.NONE:
-                r['cooldown_bypass_type'] = cooldown_bypass_type.name.lower()
+            if cooldown_bypass_type is not CooldownBypassType.none:
+                r['cooldown_bypass_type'] = cooldown_bypass_type.name
         if gepl['StoredUses'] > 0:
             r['stored_uses'] = gepl['StoredUses']
 
@@ -179,15 +198,15 @@ class GemConverter:
             return
 
         if granted_effect['Id'] in UNRELEASED_GEMS:
-            release_state = ReleaseState.UNRELEASED
+            release_state = ReleaseState.unreleased
         elif granted_effect['Id'] in LEGACY_GEMS:
-            release_state = ReleaseState.LEGACY
+            release_state = ReleaseState.legacy
         else:
-            release_state = ReleaseState.RELEASED
+            release_state = ReleaseState.released
         obj['base_item'] = {
             'id': base_item_type['Id'],
             'display_name': base_item_type['Name'],
-            'release_state': release_state.name.lower(),
+            'release_state': release_state.name,
         }
 
         key = ItemsParser._skill_gem_to_projectile_map.get(base_item_type['Name'])
@@ -220,35 +239,249 @@ class GemConverter:
             gepls_dict[gepl['Level']] = self._convert_gepl(gepl, multipliers, is_support)
         obj['per_level'] = gepls_dict
 
+        tp_per_level = {level: self._to_tooltip(obj, level, for_level)
+                        for level, for_level in gepls_dict.items()}
+        tooltip = {
+            'per_level': tp_per_level
+        }
+        if len(gepls) > 0:
+            values = tp_per_level.values()
+            # normalize arrays for each level so they all contain the same stats (set to None if missing for a level)
+            i = 0
+            while i < max(len(pl['stats']) for pl in values):
+                id_map = {}
+                for pl in values:
+                    stats = pl['stats']
+                    if i >= len(stats):
+                        stats.append(None)
+                        continue
+                    if stats[i] is None:
+                        continue
+                    if stats[i]['id'] not in id_map:
+                        id_map[stats[i]['id']] = 1
+                    else:
+                        id_map[stats[i]['id']] += 1
+                if len(id_map) > 1:
+                    # not all are the same stat
+                    # take the most often occurring stat, insert None when pl has a different stat
+                    taken = max(id_map, key=lambda k: id_map[k])
+                    for pl in values:
+                        stats = pl['stats']
+                        if stats[i] is not None and stats[i]['id'] != taken:
+                            stats.insert(i, None)
+
+                i += 1
+            # 'id' was only there for normalizing the arrays. For the tooltip, only the content of 'text' is needed.
+            for pl in values:
+                stats = pl['stats']
+                for i in range(len(stats)):
+                    if stats[i] is not None:
+                        stats[i] = stats[i]['text']
+
         # GrantedEffectsPerLevel that do not change with level
         # makes using the json harder, but makes the json *a lot* smaller (would be like 3 times larger)
         obj['static'] = {}
+        tooltip['static'] = {}
         if len(gepls) > 1:
             representative = gepls_dict[gepls[0]['Level']]
             static, _ = _handle_dict(representative, gepls_dict.values())
             if static is not None:
                 obj['static'] = static
+            representative = next(iter(tooltip['per_level'].values()))
+            static, _ = _handle_dict(representative, tooltip['per_level'].values())
+            if static is not None:
+                tooltip['static'] = static
 
         self._convert_base_item_specific(base_item_type, granted_effect, obj)
 
-        return obj
+        return obj, tooltip
+
+    def _to_tooltip(self, gem, level, for_level):
+        has_base_item = 'base_item' in gem
+        has_active_skill = 'active_skill' in gem
+
+        # name
+        if has_base_item:
+            name = gem['base_item']['display_name']
+        elif has_active_skill:
+            name = gem['active_skill']['display_name']
+        else:
+            name = "Unknown"
+
+        properties = []
+        # tags
+        if gem['tags'] is not None:
+            ts = (self.tags[t] for t in gem['tags'] if self.tags[t] is not None)
+            properties.append(", ".join(ts))
+        else:
+            properties.append("")
+        # level
+        p = "Level: {0}"
+        if has_base_item:
+            max_level = self.max_levels.get(gem['base_item']['id'])
+            if max_level is None or level >= max_level:
+                p += " (Max)"
+        properties.append({
+            "text": p,
+            "value": level
+        })
+        if 'mana_multiplier' in for_level:
+            properties.append({
+                "text": "Mana Multiplier: {0}%",
+                "value": for_level['mana_multiplier']
+            })
+        if 'mana_cost' in for_level:
+            p = "Mana Cost: {0}"
+            if has_active_skill:
+                types = gem['active_skill']['types']
+                if ActiveSkillType.mana_cost_is_reservation.name in types \
+                        and ActiveSkillType.totem.name not in types:
+                    p = "Mana Reserved: {0}"
+                    if ActiveSkillType.mana_cost_is_percentage.name in types:
+                        p += "%"
+            properties.append({
+                "text": p,
+                "value": for_level['mana_cost']
+            })
+        if 'vaal' in for_level:
+            properties.append({
+                "text": "Souls Per Use: {0}",
+                "value": for_level['vaal']['souls']
+            })
+            properties.append({
+                "text": "Can Store {0} Use",
+                "value": for_level['vaal']['stored_uses']
+            })
+        if 'cooldown' in for_level:
+            p = "Cooldown Time: {0} sec"
+            vs = [for_level['cooldown'] / 1000]
+            if 'stored_uses' in for_level:
+                p += " ({1} uses)"
+                vs.append(for_level['stored_uses'])
+            properties.append({
+                "text": p,
+                "values": vs
+            })
+        if 'cast_time' in gem:
+            properties.append({
+                "text": "Cast Time: {0} sec",
+                "value": gem['cast_time'] / 1000
+            })
+        if 'crit_chance' in for_level:
+            properties.append({
+                "text": "Critical Strike Chance: {0}%",
+                "value": for_level['crit_chance'] / 100
+            })
+        if 'damage_effectiveness' in for_level:
+            properties.append({
+                "text": "Damage Effectiveness: {0}%",
+                "value": for_level['damage_effectiveness'] + 100
+            })
+
+        requirements = []
+        p = "Requires Level {0}"
+        vs = [for_level['required_level']]
+        if 'stat_requirements' in for_level:
+            i = 1
+            sr = for_level['stat_requirements']
+            if 'str' in sr and sr['str'] > 0:
+                p += ", {%i} Str" % i
+                vs.append(sr['str'])
+                i += 1
+            if 'dex' in sr and sr['dex'] > 0:
+                p += ", {%i} Dex" % i
+                vs.append(sr['dex'])
+                i += 1
+            if 'int' in sr and sr['int'] > 0:
+                p += ", {%i} Int" % i
+                vs.append(sr['int'])
+                i += 1
+        requirements.append({
+            "text": p,
+            "values": vs
+        })
+
+        description = []
+        if has_active_skill and gem['active_skill']['description'] is not None:
+            description.append(gem['active_skill']['description'])
+
+        if has_active_skill:
+            stat_filter_group = self.skill_stat_filter.skills.get(gem['active_skill']['id'])
+            if stat_filter_group is not None:
+                tf = self.translation_file_cache[stat_filter_group.translation_file_path]
+            else:
+                tf = self.translation_file_cache['skill_stat_descriptions.txt']
+        else:
+            tf = self.translation_file_cache['gem_stat_descriptions.txt']
+
+        stat_ids = []
+        stat_values = []
+        for s in for_level['stats']:
+            stat_ids.append(s['id'])
+            stat_values.append(s['value'])
+        stats_tr = tf.get_translation(
+            tags=stat_ids,
+            values=stat_values,
+            full_result=True
+        )
+        stats = []
+        if 'damage_multiplier' in for_level:
+            text = "Deals %.2f%% of Base Attack Damage" % ((for_level['damage_multiplier'] / 100) + 100)
+            stats.append({
+                "id": ' ',  # spaces can't appear in stat ids
+                "text": text,
+            })
+        for i, line in enumerate(stats_tr.lines):
+            stats.append({
+                "id": ','.join(stats_tr.found_ids[i]),
+                "text": line
+            })
+
+        qs_ids = []
+        qs_values = []
+        for s in for_level['quality_stats']:
+            qs_ids.append(s['id'])
+            qs_values.append(s['value'])
+        qs_tr = tf.get_translation(
+            tags=qs_ids,
+            values=qs_values,
+            use_placeholder=lambda i: "{%s}" % i,
+            full_result=True
+        )
+        quality_stats = []
+        for i, line in enumerate(qs_tr.lines):
+            quality_stats.append({
+                "text": line,
+                "values": [v / 1000 for v in qs_tr.values_parsed[i]]
+            })
+
+        return {
+            'name': name,
+            'properties': properties,
+            'requirements': requirements,
+            'description': description,
+            'stats': stats,
+            'quality_stats': quality_stats
+        }
 
 
-def write_gems(data_path, relational_reader, **kwargs):
-    root = {}
-    converter = GemConverter(relational_reader)
+def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwargs):
+    gems = {}
+    tooltips = {}
+    converter = GemConverter(ggpk, relational_reader, translation_file_cache)
 
     for gem in relational_reader['SkillGems.dat']:
         granted_effect = gem['GrantedEffectsKey']
         ge_id = granted_effect['Id']
-        if ge_id in root:
+        if ge_id in gems:
             print("Duplicate GrantedEffectsKey.Id '%s'" % ge_id)
         multipliers = {
             'str': gem['Str'],
             'dex': gem['Dex'],
             'int': gem['Int']
         }
-        root[ge_id] = converter.convert(gem['BaseItemTypesKey'], granted_effect, gem['GemTagsKeys'], multipliers)
+        gems[ge_id], tooltips[ge_id] = \
+            converter.convert(gem['BaseItemTypesKey'], granted_effect, gem['GemTagsKeys'], multipliers)
 
     for mod in relational_reader['Mods.dat']:
         if mod['GrantedEffectsPerLevelKey'] is None:
@@ -259,12 +492,14 @@ def write_gems(data_path, relational_reader, **kwargs):
             continue
         granted_effect = mod['GrantedEffectsPerLevelKey']['GrantedEffectsKey']
         ge_id = granted_effect['Id']
-        if ge_id in root:
+        if ge_id in gems:
             # mod effects may exist as gems, those are handled above
             continue
-        root[ge_id] = converter.convert(None, granted_effect, None, None)
+        gems[ge_id], tooltips[ge_id] = \
+            converter.convert(None, granted_effect, None, None)
 
-    write_json(root, data_path, 'gems')
+    write_json(gems, data_path, 'gems')
+    write_json(tooltips, data_path, 'gem_tooltips')
 
 
 if __name__ == '__main__':

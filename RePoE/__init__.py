@@ -5,7 +5,7 @@ from RePoE.gems import write_gems
 from RePoE.mods import write_mods
 from RePoE.stat_translations import write_stat_translations
 from RePoE.stats import write_stats
-from RePoE.util import load_ggpk, create_relational_reader
+from RePoE.util import load_ggpk, create_relational_reader, create_translation_file_cache
 
 if __name__ == '__main__':
     modules = {
@@ -14,7 +14,6 @@ if __name__ == '__main__':
         'stats': write_stats,
         'gems': write_gems,
         'gem_tags': write_gem_tags,
-        # todo 'gems_display': like gems but with keys and translations resolved so it can directly be used
         # todo 'buffs': BuffDefinitions.dat?
         # todo 'master_crafting': CraftingBenchOptions.dat
         # todo 'essences': Essences.dat
@@ -24,7 +23,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
     parser.add_argument('modules', metavar="module", nargs='+', choices=modules.keys(),
                         help="the converter modules to run (choose from '" + "', '".join(modules.keys()) + "')")
-    parser.add_argument('-f', '--file', default='C:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk',
+    parser.add_argument('-f', '--file', default='D:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk',
                         help="path to your Content.ggpk file")
     args = parser.parse_args()
 
@@ -33,6 +32,7 @@ if __name__ == '__main__':
     print(" Done!")
 
     rr = create_relational_reader(ggpk)
+    tfc = create_translation_file_cache(ggpk)
     for module in args.modules:
         print("Running module '%s'" % module)
-        modules[module](ggpk=ggpk, data_path='../data/', relational_reader=rr)
+        modules[module](ggpk=ggpk, data_path='../data/', relational_reader=rr, translation_file_cache=tfc)

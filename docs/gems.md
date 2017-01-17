@@ -44,9 +44,9 @@ recursion.
   Acts as a multiplier on added damage from support gems and other sources.
   Given as percentage with 0 = 100%.
 - `damage_multiplier`: Damage multiplier for attack skills. Only set when not 0.
-  Divide by 10 000 and add 1 to get the multiplier.
+  Divide by 100 and add 100 to get as percentage.
 - `crit_chance`: Critical strike chance of the skill. Only set when not 0.
-  Divide by 100 to as percent value.
+  Divide by 100 to get as percentage.
 - `vaal`: Set for vaal skills. Contains the field `souls` and `stored_uses`.
 - `stats`: Array of the stats this skill provides. Each array element is an object
   containing the stat id (`id`) and value (`value`) of the stat at the given level.
@@ -55,7 +55,7 @@ recursion.
   value is the value with 1000 quality, divide by 1000 to get the value per
   point of quality.
 - `stat_requirements`: Character stats required to equip and use the skill.
-  Only defined for skills that exist as actual gem item (see below).
+  Only set for skills that exist as actual gem item (see below).
   Is an object that has the fields `str`, `dex` and `int`, each containing the
   requirement for the corresponding stat.
 

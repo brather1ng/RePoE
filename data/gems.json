@@ -19158,9 +19158,9 @@
     },
     "static": {
       "cooldown": 4000,
+      "cooldown_bypass_type": "expend_power_charge",
       "crit_chance": 500,
       "damage_effectiveness": 20,
-      "expend_charge_to_bypass_cooldown": "power",
       "quality_stats": [
         {
           "id": "base_skill_area_of_effect_+%",
@@ -39650,7 +39650,7 @@
         "spell_totem_supportable",
         "deals_damage_over_time",
         "fire",
-        "applies_buring",
+        "applies_burning",
         "duration",
         "channelling",
         "unknown_59",
@@ -42199,7 +42199,7 @@
         "unknown_10",
         "remote_mine_supportable",
         "aoe",
-        "applies_buring",
+        "applies_burning",
         "trap",
         "deals_damage_over_time",
         "fire"
@@ -49344,7 +49344,7 @@
     },
     "static": {
       "cooldown": 2000,
-      "expend_charge_to_bypass_cooldown": "frenzy",
+      "cooldown_bypass_type": "expend_frenzy_charge",
       "mana_cost": 10,
       "quality_stats": [
         {
@@ -59151,7 +59151,7 @@
         "buff",
         "mana_cost_is_reservation",
         "mana_cost_is_percentage",
-        "applies_buring",
+        "applies_burning",
         "aoe",
         "deals_damage_over_time",
         "unknown_20",
@@ -66959,7 +66959,7 @@
         "spell_echo_supportable",
         "triggerable",
         "deals_damage_over_time",
-        "applies_buring",
+        "applies_burning",
         "aoe",
         "fire"
       ],
@@ -87736,7 +87736,7 @@
         "buff",
         "aoe",
         "spell_totem_supportable",
-        "applies_buring",
+        "applies_burning",
         "triggerable",
         "deals_damage_over_time",
         "fire"
@@ -89700,7 +89700,7 @@
         "trap_supportable",
         "remote_mine_supportable",
         "unknown_27",
-        "applies_buring",
+        "applies_burning",
         "totem",
         "triggerable",
         "fire"
@@ -123549,7 +123549,7 @@
     "base_item": {
       "display_name": "Item Quantity Support",
       "id": "Metadata/Items/Gems/SupportGemItemQuantity",
-      "release_state": "drop_disabled"
+      "release_state": "legacy"
     },
     "is_support": true,
     "per_level": {
@@ -150433,7 +150433,7 @@
         "unknown_10",
         "remote_mine_supportable",
         "aoe",
-        "applies_buring",
+        "applies_burning",
         "trap",
         "deals_damage_over_time",
         "vaal",
@@ -164433,7 +164433,7 @@
     },
     "static": {
       "cooldown": 4000,
-      "expend_charge_to_bypass_cooldown": "endurance",
+      "cooldown_bypass_type": "expend_endurance_charge",
       "mana_cost": 6,
       "quality_stats": [
         {

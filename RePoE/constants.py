@@ -4,151 +4,151 @@ from enum import IntEnum, unique, Enum
 @unique
 class ActiveSkillType(IntEnum):
     # Gem tag equivalent
-    ATTACK = 1
+    attack = 1
     # Gem tag equivalent
-    SPELL = 2
+    spell = 2
     # Gem tag equivalent
-    PROJECTILE = 3
+    projectile = 3
     # Skill can only be used when dual wielding (Dual Strike only atm)
-    DUAL_WIELD_ONLY = 4
+    dual_wield_only = 4
     # Skill gives a buff (Molten Shell and golems do not have this type)
-    BUFF = 5
+    buff = 5
     # Skill can be used when dual wielding
     # When it does not have either of the following two, hands are random (Reckoning, Whirling Blades) or alternating
     # (everything else).
-    CAN_DUAL_WIELD = 6
+    can_dual_wield = 6
     # Skill only uses main hand when dual wielding
-    USES_MAIN_HAND_WHEN_DUAL_WIELDING = 7
+    uses_main_hand_when_dual_wielding = 7
     # Skill uses both hands at once when dual wielding (missing Riposte)
-    USES_BOTH_AT_ONCE_WHEN_DUAL_WIELDING = 8
+    uses_both_at_once_when_dual_wielding = 8
     # Gem tag equivalent
-    MINION = 9
+    minion = 9
     # Seems to be set for skills that are not attacks and deal non-duration damage, unknown purpose.
-    UNKNOWN_10 = 10
+    unknown_10 = 10
     # Gem tag equivalent
-    AOE = 11
+    aoe = 11
     # Gem tag equivalent
-    DURATION = 12
+    duration = 12
     # Skill can only be used when a shield is equipped
-    SHIELD_ONLY = 13
+    shield_only = 13
     # Set for bow skills where arrows come from above, unknown purpose
-    UNKNOWN_14 = 14
+    unknown_14 = 14
     # The skill's mana cost is reserved on casting
     # Can also be interpreted as "skill is toggle".
     # Ignore this for totems, Rejuvenation Totem has this type but is no reservation/toggle skill.
-    MANA_COST_IS_RESERVATION = 15
+    mana_cost_is_reservation = 15
     # Skill costs percentage mana
-    MANA_COST_IS_PERCENTAGE = 16
+    mana_cost_is_percentage = 16
     # Skill can be turned into a trap with Trap Support
-    TRAP_SUPPORTABLE = 17
+    trap_supportable = 17
     # Skill can be turned into a totem with Spell Totem Support
-    SPELL_TOTEM_SUPPORTABLE = 18
+    spell_totem_supportable = 18
     # Skill can be turned into a mine with Remote Mine Support
-    REMOTE_MINE_SUPPORTABLE = 19
+    remote_mine_supportable = 19
     # Only set for Herald of Ash
-    UNKNOWN_20 = 20
+    unknown_20 = 20
     # Skill summons mobs
-    SUMMONS_MOBS = 21
+    summons_mobs = 21
     # Skill can be turned into a totem with Ranged Attack Totem Support
-    RANGED_ATTACK_TOTEM_SUPPORTABLE = 22
+    ranged_attack_totem_supportable = 22
     # Gem tag equivalent
-    CHAINING = 23
+    chaining = 23
     # Gem tag equivalent
-    MELEE = 24
-    # Skill is melee and the initial (or only) hit is single target
-    MELEE_SINGLE_TARGET_INITIAL_HIT = 25
+    melee = 24
+    # Skill is melee and the initial (or only) hit is single target (unknown purpose)
+    melee_single_target_initial_hit = 25
     # Skill can be repeated with Spell Echo Support
-    SPELL_ECHO_SUPPORTABLE = 26
+    spell_echo_supportable = 26
     # Set for all skills with `PERMANENT_BUFF`, plus vaal auras and a few more, unkown purpose
-    UNKNOWN_27 = 27
+    unknown_27 = 27
     # Skill can be repeated with Multistrike Support
-    MULTISTRIKE_SUPPORTABLE = 28
+    multistrike_supportable = 28
     # Skill directly applies burning (fire damage over time)
-    APPLIES_BURING = 29
+    applies_burning = 29
     # Gem tag equivalent
-    TOTEM = 30
+    totem = 30
     # Set for Molten Shell, Vaal Molten Shell and Of Thunder glove enchant, unknown purpose
-    UNKNOWN_31 = 31
+    unknown_31 = 31
     # Gem tag equivalent
-    CURSE = 32
+    curse = 32
     # Gem tag equivalent
-    FIRE = 33
+    fire = 33
     # Gem tag equivalent
-    COLD = 34
+    cold = 34
     # Gem tag equivalent
-    LIGHTNING = 35
+    lightning = 35
     # Skill can be triggered by trigger gems
-    TRIGGERABLE = 36
+    triggerable = 36
     # Gem tag equivalent
-    TRAP = 37
+    trap = 37
     # Gem tag equivalent
-    MOVEMENT = 38
+    movement = 38
     # Gem tag equivalent
-    CAST = 39
+    cast = 39
     # Skill directly deals damage over time
-    DEALS_DAMAGE_OVER_TIME = 40
+    deals_damage_over_time = 40
     # Gem tag equivalent
-    MINE = 41
+    mine = 41
     # Gem has Trigger tag and is a spell (missing EnchantmentOfFlamesOnHit and EnchantmentOfTempestOnHit)
-    TRIGGER_SPELL = 42
+    trigger_spell = 42
     # Gem tag equivalent
-    VAAL = 43
+    vaal = 43
     # Gem tag equivalent
-    AURA = 44
+    aura = 44
     # Skill can be cast by Mjölner's trigger when socketed in it
-    CASTABLE_BY_MJOLNER = 45
+    castable_by_mjolner = 45
     # Unused for skill gems
-    UNKNOWN_46 = 46
+    unknown_46 = 46
     # Gem has Trigger tag and is an attack
-    TRIGGER_ATTACK = 47
+    trigger_attack = 47
     # Skill can be supported with Physical Projectile Attack Damage Support
-    PPAD_SUPPORTABLE = 48
+    ppad_supportable = 48
     # Skill can be cast by Null's Inclination's trigger when socketed in it
-    CASTABLE_BY_NULLS_INCLINATION = 49
+    castable_by_nulls_inclination = 49
     # Gem tag equivalent
-    CHAOS = 50
+    chaos = 50
     # Unused for skill gems
-    UNKNOWN_51 = 51
+    unknown_51 = 51
     # Set for Blight, Contagion, Scorching Ray, unknown purpose
-    UNKNOWN_52 = 52
+    unknown_52 = 52
     # Set for Burning Arrow, Vigilant Strike, unknown purpose
-    UNKNOWN_53 = 53
+    unknown_53 = 53
     # Unused for skill gems
-    UNKNOWN_54 = 54
+    unknown_54 = 54
     # Set for Burning Arrow, Vaal Burning Arrow, unknown purpose
-    UNKNOWN_55 = 55
+    unknown_55 = 55
     # Unused for skill gems
-    UNKNOWN_56 = 56
+    unknown_56 = 56
     # Same as TRIGGER_ATTACK (47), unknown purpose
-    UNKNOWN_57 = 57
+    unknown_57 = 57
     # Gem tag equivalent
-    CHANNELLING = 58
+    channelling = 58
     # Set for Blight, Contagion, Scorching Ray, unknown purpose
-    UNKNOWN_59 = 59
+    unknown_59 = 59
     # Skill can be cast by Cospri's Malice's trigger when socketed in it
-    CASTABLE_BY_COSPRIS_MALICE = 60
+    castable_by_cospris_malice = 60
 
 
 @unique
 class CooldownBypassType(IntEnum):
     # Cooldown can be bypassed by expending an endurance charge
-    EXPEND_ENDURANCE_CHARGE = 1,
+    expend_endurance_charge = 1,
     # Cooldown can be bypassed by expending a frenzy charge
-    EXPEND_FRENZY_CHARGE = 2,
+    expend_frenzy_charge = 2,
     # Cooldown can be bypassed by expending a power charge
-    EXPEND_POWER_CHARGE = 3,
+    expend_power_charge = 3,
     # Cooldown can not be bypassed
-    NONE = 4
+    none = 4
 
 
 @unique
 class ReleaseState(Enum):
     # Item never existed in any released version of the game.
-    UNRELEASED = 0,
+    unreleased = 0,
     # Item currently exists in the in-game.
-    RELEASED = 1,
+    released = 1,
     # Item can no longer be obtained (excluding via trade from other players).
-    LEGACY = 2
+    legacy = 2
 
 
 # gems that could never drop (unreleased mod only effects are not listed)

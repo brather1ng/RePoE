@@ -1,5 +1,5 @@
 from PyPoE.poe.file.translations import TranslationFileCache, get_custom_translation_file
-from RePoE.util import write_json,call_with_default_args
+from RePoE.util import write_json, call_with_default_args
 
 
 def _convert_tags(n_ids, tags, tags_types):
@@ -65,14 +65,13 @@ def _convert(tr, tag_set):
     }
 
 
-def write_stat_translations(ggpk, data_path, **kwargs):
-    tc = TranslationFileCache(path_or_ggpk=ggpk, files=STAT_FILES)
+def write_stat_translations(data_path, translation_file_cache, **kwargs):
     previous = set()
     tag_set = set()
     root = []
     for f in STAT_FILES:
         previous_f = set()
-        for tr in tc[f].translations:
+        for tr in translation_file_cache[f].translations:
             id_str = " ".join(tr.ids)
             if id_str in previous:
                 if id_str in previous_f:
@@ -110,12 +109,19 @@ def write_stat_translations(ggpk, data_path, **kwargs):
 # - map
 #   - atlas
 # - passive_skill
-#   - passive_aura_skill
+#   - passive_skill_aura
 # 'monster_stat_descriptions.txt' tree
 STAT_FILES = [
-    'stat_descriptions.txt',
-    'gem_stat_descriptions.txt',
-    'active_skill_gem_stat_descriptions.txt',
+    'skill_stat_descriptions.txt',
+    'aura_skill_stat_descriptions.txt',
+    'beam_skill_stat_descriptions.txt',
+    'curse_skill_stat_descriptions.txt',
+    'debuff_skill_stat_descriptions.txt',
+    'minion_attack_skill_stat_descriptions.txt',
+    'minion_spell_skill_stat_descriptions.txt',
+    'offering_skill_stat_descriptions.txt',
+    'atlas_stat_descriptions.txt',
+    'passive_skill_aura_stat_descriptions.txt',
 ]
 
 
