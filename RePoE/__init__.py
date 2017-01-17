@@ -7,17 +7,17 @@ from RePoE.stat_translations import write_stat_translations
 from RePoE.stats import write_stats
 from RePoE.util import load_ggpk, create_relational_reader, create_translation_file_cache
 
-if __name__ == '__main__':
+
+def main(data_path='../data/'):
     modules = {
         'stat_translations': write_stat_translations,
         'mods': write_mods,
         'stats': write_stats,
         'gems': write_gems,
         'gem_tags': write_gem_tags,
+        # todo Affixes: mod ids sorted by item,
+        #               use mods.groups, mods.spawn_tags, CraftingBenchOptions.dat and maybe Essences.dat
         # todo 'buffs': BuffDefinitions.dat?
-        # todo 'master_crafting': CraftingBenchOptions.dat
-        # todo 'essences': Essences.dat
-        # todo GrantedEffects.dat and GrantedEffectsPerLevel.dat
     }
 
     parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
@@ -35,4 +35,7 @@ if __name__ == '__main__':
     tfc = create_translation_file_cache(ggpk)
     for module in args.modules:
         print("Running module '%s'" % module)
-        modules[module](ggpk=ggpk, data_path='../data/', relational_reader=rr, translation_file_cache=tfc)
+        modules[module](ggpk=ggpk, data_path=data_path, relational_reader=rr, translation_file_cache=tfc)
+
+if __name__ == '__main__':
+    main()

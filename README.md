@@ -35,3 +35,15 @@ The following data is currently available:
   keys and their translation as value.
 - `gem_tooltips.json`: Describes tooltips for skill gems and skill gem effects only
   provided by mods.
+  
+## Running RePoE
+
+- Install Python 3.4 or 3.5 and Git
+- Install [PyPoE](https://github.com/OmegaK2/PyPoE):
+  * Clone PyPoE and go into its folder
+  * Minimal install: `pip install -e .`
+  * Full install: `pip install -e .[full]` (not required for RePoE, requires Python
+    3.4)
+- Clone RePoE and go into its folder
+- Run `python RePoE.py`  
+  (`python RePoE.py -h` to see arguments)
