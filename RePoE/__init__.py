@@ -13,10 +13,10 @@ def main(data_path='../data/'):
         'stat_translations': write_stat_translations,
         'mods': write_mods,
         'stats': write_stats,
-        'gems': write_gems,
+        'gems': write_gems,  # gems.json and gem_tooltips.json
         'gem_tags': write_gem_tags,
-        # todo Affixes: mod ids sorted by item,
-        #               use mods.groups, mods.spawn_tags, CraftingBenchOptions.dat and maybe Essences.dat
+        # todo CraftingBenchOptions.dat
+        # todo maybe Essences.dat
         # todo 'buffs': BuffDefinitions.dat?
     }
 

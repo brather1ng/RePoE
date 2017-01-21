@@ -3,6 +3,7 @@ from PyPoE.poe.constants import MOD_DOMAIN
 from PyPoE.poe.file import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
 from RePoE.constants import ActiveSkillType, ReleaseState, UNRELEASED_GEMS, LEGACY_GEMS, CooldownBypassType
+from RePoE.mods import ignore_mod_domain
 from RePoE.util import write_json, call_with_default_args
 
 
@@ -50,7 +51,7 @@ def _handle_list(representative, per_level):
     cleared = True
     cleared_is = []
     for i, v in enumerate(representative):
-        per_level_values = [pl[i] for pl in per_level]
+        per_level_values = [pl[i] for pl in per_level if pl is not None]
         if isinstance(v, dict):
             static_value, cleared_value = _handle_dict(v, per_level_values)
         elif isinstance(v, list):
@@ -245,38 +246,7 @@ class GemConverter:
             'per_level': tp_per_level
         }
         if len(gepls) > 0:
-            values = tp_per_level.values()
-            # normalize arrays for each level so they all contain the same stats (set to None if missing for a level)
-            i = 0
-            while i < max(len(pl['stats']) for pl in values):
-                id_map = {}
-                for pl in values:
-                    stats = pl['stats']
-                    if i >= len(stats):
-                        stats.append(None)
-                        continue
-                    if stats[i] is None:
-                        continue
-                    if stats[i]['id'] not in id_map:
-                        id_map[stats[i]['id']] = 1
-                    else:
-                        id_map[stats[i]['id']] += 1
-                if len(id_map) > 1:
-                    # not all are the same stat
-                    # take the most often occurring stat, insert None when pl has a different stat
-                    taken = max(id_map, key=lambda k: id_map[k])
-                    for pl in values:
-                        stats = pl['stats']
-                        if stats[i] is not None and stats[i]['id'] != taken:
-                            stats.insert(i, None)
-
-                i += 1
-            # 'id' was only there for normalizing the arrays. For the tooltip, only the content of 'text' is needed.
-            for pl in values:
-                stats = pl['stats']
-                for i in range(len(stats)):
-                    if stats[i] is not None:
-                        stats[i] = stats[i]['text']
+            self._normalize_stat_arrays(tp_per_level.values())
 
         # GrantedEffectsPerLevel that do not change with level
         # makes using the json harder, but makes the json *a lot* smaller (would be like 3 times larger)
@@ -288,13 +258,62 @@ class GemConverter:
             if static is not None:
                 obj['static'] = static
             representative = next(iter(tooltip['per_level'].values()))
-            static, _ = _handle_dict(representative, tooltip['per_level'].values())
+            static, _ = _handle_dict(representative, tp_per_level.values())
             if static is not None:
                 tooltip['static'] = static
+                for stats in (pl['stats'] for pl in tp_per_level.values() if 'stats' in pl):
+                    for i in range(len(stats)):
+                        if stats[i] is not None and 'values' in stats[i] and stats[i]['values'] is None:
+                            del stats[i]['values']
 
         self._convert_base_item_specific(base_item_type, granted_effect, obj)
 
         return obj, tooltip
+
+    @staticmethod
+    def _normalize_stat_arrays(values):
+        # normalize arrays for each level so they all contain the same stats (set to None if missing for a level)
+        i = 0
+        while i < max(len(pl['stats']) for pl in values):
+            id_map = {None: 0}
+            for pl in values:
+                stats = pl['stats']
+                if i >= len(stats):
+                    stats.append(None)
+                if stats[i] is None:
+                    id_map[None] += 1
+                    continue
+                if stats[i]['id'] not in id_map:
+                    id_map[stats[i]['id']] = 1
+                else:
+                    id_map[stats[i]['id']] += 1
+            if id_map[None] > 0 or len(id_map) > 2:
+                # not all are the same stat
+                # take the most often occurring stat, insert None when pl has a different stat
+                taken = max(id_map, key=lambda k: id_map[k])
+                taken_text = None
+                for pl in values:
+                    stats = pl['stats']
+                    if stats[i] is not None:
+                        if stats[i]['id'] != taken:
+                            stats.insert(i, None)
+                        else:
+                            taken_text = stats[i]['text']
+                for pl in values:
+                    stats = pl['stats']
+                    if stats[i] is None:
+                        stats[i] = {
+                            'id': taken,
+                            'text': taken_text,
+                            'values': None
+                        }
+
+            i += 1
+        # 'id' was only there for normalizing the arrays and is not needed for the tooltip
+        for pl in values:
+            stats = pl['stats']
+            for i in range(len(stats)):
+                del stats[i]['id']
 
     def _to_tooltip(self, gem, level, for_level):
         has_base_item = 'base_item' in gem
@@ -422,19 +441,21 @@ class GemConverter:
         stats_tr = tf.get_translation(
             tags=stat_ids,
             values=stat_values,
+            use_placeholder=lambda i: "{%s}" % i,
             full_result=True
         )
         stats = []
         if 'damage_multiplier' in for_level:
-            text = "Deals %.2f%% of Base Attack Damage" % ((for_level['damage_multiplier'] / 100) + 100)
             stats.append({
                 "id": ' ',  # spaces can't appear in stat ids
-                "text": text,
+                "text": "Deals {0}% of Base Attack Damage",
+                "value": (for_level['damage_multiplier'] / 100) + 100
             })
         for i, line in enumerate(stats_tr.lines):
             stats.append({
                 "id": ','.join(stats_tr.found_ids[i]),
-                "text": line
+                "text": line,
+                "values": stats_tr.values_parsed[i]
             })
 
         qs_ids = []
@@ -486,9 +507,7 @@ def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwa
     for mod in relational_reader['Mods.dat']:
         if mod['GrantedEffectsPerLevelKey'] is None:
             continue
-        domain = MOD_DOMAIN(mod['Domain'])
-        if (domain is MOD_DOMAIN.AREA or domain is MOD_DOMAIN.ATLAS or domain is MOD_DOMAIN.CHEST
-                or domain is MOD_DOMAIN.MONSTER or domain is MOD_DOMAIN.STANCE):
+        if ignore_mod_domain(MOD_DOMAIN(mod['Domain'])):
             continue
         granted_effect = mod['GrantedEffectsPerLevelKey']['GrantedEffectsKey']
         ge_id = granted_effect['Id']

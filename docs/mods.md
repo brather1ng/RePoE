@@ -34,7 +34,7 @@ as value. That description object has the following fields:
 **Spawning/generating**
 
 - `adds_tags`: Tags that are added to an item if it has this mod. These are taken into
-  consideration when spawning other mods, see `spawns_on`.
+  consideration when spawning other mods, see `spawn_tags`.
 - `domain`: The domain this mod appears on. See 
   [`PyPoE.poe.constants.MOD_DOMAIN`](http://omegak2.net/poe/PyPoE/_autosummary/PyPoE.poe.constants.html#PyPoE.poe.constants.MOD_DOMAIN)
   for the possible values and explanation.
@@ -70,7 +70,7 @@ the domains they can appear on.
 
 `default` matches all items of the given domain.
 
-##### `item`
+##### `item` domain
 
 **Base item types:**
 
@@ -105,14 +105,14 @@ All items with `weapon` have `one_hand_weapon` or `two_hand_weapon` assigned:
 If an item has Catarina's "Cannot roll Attack Mods", it has the tag `no_attack_mods`.
 If it has Vagan's "Cannot roll Caster Mod", it has the tag `no_caster_mods`.
 
-##### `flask`
+##### `flask` domain
 
 Obvious groups: `utility_flask`, `life_flask`, `hybrid_flask`, `mana_flask`
 
 Only Diamond flasks have the tag `critical_utility_flask`. They still have
 `utility_flask`.
 
-##### `jewel`
+##### `jewel` domain
 
 All jewels have the tag `jewel`. Viridian jewels have `not_int` and `not_str`,
 Cobalt jewels `not_dex` and `not_str`, Crimson jewels `not_dex` and `not_int`

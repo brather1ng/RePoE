@@ -40,7 +40,7 @@ on tooltips. The tooltip first shows `properties`, then `requirements`, then
 `stats`, they might be merged with a line from `stats` if they describe the same
 stat.
 
-Array entries have three forms:
+Array entries have four forms:
 
 1. A string: no further processing required, this is the line.
 2. An object with the fields `text` and `values`: `text` is a format string that
@@ -50,4 +50,6 @@ Array entries have three forms:
   parameters and the return value is the line.
 3. An object with the fields `text` and `value`: Replace `{0}` in `text` with the
   `value` (a number) to get the line.
-  You can handle this the same as 2. but with a single value instead of an array. 
+  You can handle this the same as 2. but with a single value instead of an array.
+4. An object with only the field `text`: The stat has no effect at this level and
+  does not need to be displayed. You can assume values of 0 in most cases.
