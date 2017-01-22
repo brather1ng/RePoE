@@ -159,6 +159,7 @@ UNRELEASED_GEMS = {
     "BladeTrap",
     "ComboStrike",
     "DamageInfusion",
+    "ElementalProjectiles",
     "EnergyBeam",
     "FireWeapon",
     "HeraldOfBlood",

@@ -232,27 +232,37 @@ class GemConverter:
             obj['cast_time'] = granted_effect['CastTime']
             obj['active_skill'] = self._convert_active_skill(granted_effect['ActiveSkillsKey'])
 
+        self._convert_base_item_specific(base_item_type, granted_effect, obj)
+
         # GrantedEffectsPerLevel
         gepls = self.gepls[ge_id]
         gepls.sort(key=lambda g: g['Level'])
         gepls_dict = {}
+        has_damage_multiplier = False
         for gepl in gepls:
-            gepls_dict[gepl['Level']] = self._convert_gepl(gepl, multipliers, is_support)
+            gepl_converted = self._convert_gepl(gepl, multipliers, is_support)
+            has_damage_multiplier |= 'damage_multiplier' in gepl_converted
+            gepls_dict[gepl['Level']] = gepl_converted
         obj['per_level'] = gepls_dict
 
-        tp_per_level = {level: self._to_tooltip(obj, level, for_level)
+        tp_per_level = {level: self._to_tooltip(obj, level, for_level, has_damage_multiplier)
                         for level, for_level in gepls_dict.items()}
         tooltip = {
             'per_level': tp_per_level
         }
         if len(gepls) > 0:
             self._normalize_stat_arrays(tp_per_level.values())
+        # 'id' was only there for normalizing the arrays and is not needed for the tooltip
+        for pl in tp_per_level.values():
+            stats = pl['stats']
+            for i in range(len(stats)):
+                del stats[i]['id']
 
         # GrantedEffectsPerLevel that do not change with level
         # makes using the json harder, but makes the json *a lot* smaller (would be like 3 times larger)
         obj['static'] = {}
         tooltip['static'] = {}
-        if len(gepls) > 1:
+        if len(gepls) >= 1:
             representative = gepls_dict[gepls[0]['Level']]
             static, _ = _handle_dict(representative, gepls_dict.values())
             if static is not None:
@@ -265,8 +275,6 @@ class GemConverter:
                     for i in range(len(stats)):
                         if stats[i] is not None and 'values' in stats[i] and stats[i]['values'] is None:
                             del stats[i]['values']
-
-        self._convert_base_item_specific(base_item_type, granted_effect, obj)
 
         return obj, tooltip
 
@@ -309,15 +317,10 @@ class GemConverter:
                         }
 
             i += 1
-        # 'id' was only there for normalizing the arrays and is not needed for the tooltip
-        for pl in values:
-            stats = pl['stats']
-            for i in range(len(stats)):
-                del stats[i]['id']
 
-    def _to_tooltip(self, gem, level, for_level):
-        has_base_item = 'base_item' in gem
-        has_active_skill = 'active_skill' in gem
+    def _to_tooltip(self, gem, level, for_level, has_damage_multiplier):
+        has_base_item = gem.get('base_item') is not None
+        has_active_skill = gem.get('active_skill') is not None
 
         # name
         if has_base_item:
@@ -373,8 +376,8 @@ class GemConverter:
             })
         if 'cooldown' in for_level:
             p = "Cooldown Time: {0} sec"
-            vs = [for_level['cooldown'] / 1000]
-            if 'stored_uses' in for_level:
+            vs = [float(for_level['cooldown'] / 1000)]
+            if 'stored_uses' in for_level and for_level['stored_uses'] > 1:
                 p += " ({1} uses)"
                 vs.append(for_level['stored_uses'])
             properties.append({
@@ -384,12 +387,12 @@ class GemConverter:
         if 'cast_time' in gem:
             properties.append({
                 "text": "Cast Time: {0} sec",
-                "value": gem['cast_time'] / 1000
+                "value": float(gem['cast_time'] / 1000)
             })
         if 'crit_chance' in for_level:
             properties.append({
                 "text": "Critical Strike Chance: {0}%",
-                "value": for_level['crit_chance'] / 100
+                "value": float(for_level['crit_chance'] / 100)
             })
         if 'damage_effectiveness' in for_level:
             properties.append({
@@ -445,11 +448,12 @@ class GemConverter:
             full_result=True
         )
         stats = []
-        if 'damage_multiplier' in for_level:
+        if has_damage_multiplier:
+            damage_multiplier = for_level['damage_multiplier'] if 'damage_multiplier' in for_level else 0
             stats.append({
                 "id": ' ',  # spaces can't appear in stat ids
                 "text": "Deals {0}% of Base Attack Damage",
-                "value": (for_level['damage_multiplier'] / 100) + 100
+                "value": (damage_multiplier / 100) + 100
             })
         for i, line in enumerate(stats_tr.lines):
             stats.append({

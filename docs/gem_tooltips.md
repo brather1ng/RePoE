@@ -28,6 +28,7 @@ The merged object for each level has the following fields:
 - `properties`: Skill innate properties, like skill level, mana cost and crit chance.
   The first line are the gems' tags or an empty string if it has none
   (always the case for skills that don't exist as gem items).
+  The second line is the gems' level.
 - `requirements`: Level and stat requirements of the skill.
 - `stats`: Stats this level of the skill provides.
 - `quality_stats`: Stats this skill gains with quality. The values are provided
@@ -42,7 +43,8 @@ stat.
 
 Array entries have four forms:
 
-1. A string: no further processing required, this is the line.
+1. A string: no further processing required, this is the line. This is only used
+  if the line contains no values, e.g. the gem's tags.
 2. An object with the fields `text` and `values`: `text` is a format string that
   contains occurrences of `{i}`. Each of them references the entry of the array
   `values` with index `i`. These entries are numbers. If your language has

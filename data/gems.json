@@ -7047,35 +7047,34 @@
     "cast_time": 500,
     "is_support": false,
     "per_level": {
-      "1": {
-        "mana_cost": 7,
-        "quality_stats": [],
-        "required_level": 28,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "base_number_of_raging_spirits_allowed",
-            "value": 20
-          },
-          {
-            "id": "active_skill_minion_added_damage_+%_final",
-            "value": -30
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 10
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_cost": 7,
+      "required_level": 28,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "base_number_of_raging_spirits_allowed",
+          "value": 20
+        },
+        {
+          "id": "active_skill_minion_added_damage_+%_final",
+          "value": -30
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 10
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        }
+      ]
+    },
     "tags": null
   },
   "AssassinsMark": {
@@ -10046,42 +10045,41 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 1000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 1,
-        "stat_requirements": {
-          "dex": 0,
-          "int": 0,
-          "str": 0
-        },
-        "stats": [
-          {
-            "id": "base_trap_duration",
-            "value": 16000
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 4
-          },
-          {
-            "id": "is_trap",
-            "value": 1
-          },
-          {
-            "id": "base_skill_is_trapped",
-            "value": 1
-          },
-          {
-            "id": "global_bleed_on_hit",
-            "value": 1
-          }
-        ],
-        "stored_uses": 3
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 1000,
+      "mana_cost": 0,
+      "required_level": 1,
+      "stat_requirements": {
+        "dex": 0,
+        "int": 0,
+        "str": 0
+      },
+      "stats": [
+        {
+          "id": "base_trap_duration",
+          "value": 16000
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 4
+        },
+        {
+          "id": "is_trap",
+          "value": 1
+        },
+        {
+          "id": "base_skill_is_trapped",
+          "value": 1
+        },
+        {
+          "id": "global_bleed_on_hit",
+          "value": 1
+        }
+      ],
+      "stored_uses": 3
+    },
     "tags": [
       "active_skill",
       "attack",
@@ -30065,58 +30063,58 @@
     "base_item": {
       "display_name": "Elemental Projectiles",
       "id": "Metadata/Items/Gems/SkillGemElementalProjectiles",
-      "release_state": "released"
+      "release_state": "unreleased"
     },
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "mana_cost": 0,
-        "quality_stats": [
-          {
-            "id": "base_skill_area_of_effect_+%",
-            "value": 500
-          },
-          {
-            "id": "damage_+%",
-            "value": 500
-          }
-        ],
-        "required_level": 1,
-        "stat_requirements": {
-          "dex": 0,
-          "int": 0,
-          "str": 0
-        },
-        "stats": [
-          {
-            "id": "fixed_projectile_spread",
-            "value": 30
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 2
-          },
-          {
-            "id": "spell_minimum_base_physical_damage",
-            "value": 2
-          },
-          {
-            "id": "spell_maximum_base_physical_damage",
-            "value": 4
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_cost": 0,
+      "quality_stats": [
+        {
+          "id": "base_skill_area_of_effect_+%",
+          "value": 500
+        },
+        {
+          "id": "damage_+%",
+          "value": 500
+        }
+      ],
+      "required_level": 1,
+      "stat_requirements": {
+        "dex": 0,
+        "int": 0,
+        "str": 0
+      },
+      "stats": [
+        {
+          "id": "fixed_projectile_spread",
+          "value": 30
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 2
+        },
+        {
+          "id": "spell_minimum_base_physical_damage",
+          "value": 2
+        },
+        {
+          "id": "spell_maximum_base_physical_damage",
+          "value": 4
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        }
+      ]
+    },
     "tags": [
       "intelligence",
       "active_skill",
@@ -30783,54 +30781,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "spell_minimum_base_physical_damage",
-            "value": 79
-          },
-          {
-            "id": "spell_maximum_base_physical_damage",
-            "value": 126
-          },
-          {
-            "id": "number_of_additional_projectiles_in_chain",
-            "value": 3
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 0
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 2
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "spell_minimum_base_physical_damage",
+          "value": 79
+        },
+        {
+          "id": "spell_maximum_base_physical_damage",
+          "value": 126
+        },
+        {
+          "id": "number_of_additional_projectiles_in_chain",
+          "value": 3
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 0
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 2
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfBladesOnHit2": {
@@ -30853,54 +30850,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "spell_minimum_base_physical_damage",
-            "value": 381
-          },
-          {
-            "id": "spell_maximum_base_physical_damage",
-            "value": 585
-          },
-          {
-            "id": "number_of_additional_projectiles_in_chain",
-            "value": 3
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 0
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 2
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "spell_minimum_base_physical_damage",
+          "value": 381
+        },
+        {
+          "id": "spell_maximum_base_physical_damage",
+          "value": 585
+        },
+        {
+          "id": "number_of_additional_projectiles_in_chain",
+          "value": 3
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 0
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 2
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfBladesOnHit3": {
@@ -30923,54 +30919,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "spell_minimum_base_physical_damage",
-            "value": 985
-          },
-          {
-            "id": "spell_maximum_base_physical_damage",
-            "value": 1477
-          },
-          {
-            "id": "number_of_additional_projectiles_in_chain",
-            "value": 3
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 0
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 2
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "spell_minimum_base_physical_damage",
+          "value": 985
+        },
+        {
+          "id": "spell_maximum_base_physical_damage",
+          "value": 1477
+        },
+        {
+          "id": "number_of_additional_projectiles_in_chain",
+          "value": 3
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 0
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 2
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfBladesOnHit4": {
@@ -30993,54 +30988,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "spell_minimum_base_physical_damage",
-            "value": 1833
-          },
-          {
-            "id": "spell_maximum_base_physical_damage",
-            "value": 2903
-          },
-          {
-            "id": "number_of_additional_projectiles_in_chain",
-            "value": 4
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 0
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 2
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "spell_minimum_base_physical_damage",
+          "value": 1833
+        },
+        {
+          "id": "spell_maximum_base_physical_damage",
+          "value": 2903
+        },
+        {
+          "id": "number_of_additional_projectiles_in_chain",
+          "value": 4
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 0
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 2
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFlamesOnHit": {
@@ -31064,42 +31058,41 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 93
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 140
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 93
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 140
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFlamesOnHit2": {
@@ -31123,42 +31116,41 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 409
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 601
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 409
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 601
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFlamesOnHit3": {
@@ -31182,42 +31174,41 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 999
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 1453
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 999
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 1453
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFlamesOnHit4": {
@@ -31241,42 +31232,41 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 1800
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 2770
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 1800
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 2770
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfForceOnHit": {
@@ -31301,30 +31291,29 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 3500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "attack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 3500,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "attack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfForceOnHit2": {
@@ -31349,30 +31338,29 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 8900,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "attack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 8900,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "attack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfForceOnHit3": {
@@ -31397,30 +31385,29 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 14300,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "attack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 14300,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "attack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfForceOnHit4": {
@@ -31445,30 +31432,29 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 19700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "attack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 19700,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "attack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFrostOnKill": {
@@ -31491,54 +31477,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "spell_minimum_base_cold_damage",
-            "value": 72
-          },
-          {
-            "id": "spell_maximum_base_cold_damage",
-            "value": 114
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 8
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "spell_minimum_base_cold_damage",
+          "value": 72
+        },
+        {
+          "id": "spell_maximum_base_cold_damage",
+          "value": 114
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 8
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFrostOnKill2": {
@@ -31561,54 +31546,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "spell_minimum_base_cold_damage",
-            "value": 332
-          },
-          {
-            "id": "spell_maximum_base_cold_damage",
-            "value": 509
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 8
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "spell_minimum_base_cold_damage",
+          "value": 332
+        },
+        {
+          "id": "spell_maximum_base_cold_damage",
+          "value": 509
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 8
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFrostOnKill3": {
@@ -31631,54 +31615,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "spell_minimum_base_cold_damage",
-            "value": 836
-          },
-          {
-            "id": "spell_maximum_base_cold_damage",
-            "value": 1254
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 8
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "spell_minimum_base_cold_damage",
+          "value": 836
+        },
+        {
+          "id": "spell_maximum_base_cold_damage",
+          "value": 1254
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 8
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFrostOnKill4": {
@@ -31701,54 +31684,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "spell_minimum_base_cold_damage",
-            "value": 1530
-          },
-          {
-            "id": "spell_maximum_base_cold_damage",
-            "value": 2422
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 8
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "spell_minimum_base_cold_damage",
+          "value": 1530
+        },
+        {
+          "id": "spell_maximum_base_cold_damage",
+          "value": 2422
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 8
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFuryOnHit": {
@@ -31788,66 +31770,65 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "attack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "projectile_spiral_nova_time_ms",
-            "value": 800
-          },
-          {
-            "id": "projectile_spiral_nova_angle",
-            "value": 180
-          },
-          {
-            "id": "base_number_of_projectiles_in_spiral_nova",
-            "value": 10
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "pierce_%",
-            "value": 100
-          },
-          {
-            "id": "base_physical_damage_%_to_convert_to_fire",
-            "value": 50
-          },
-          {
-            "id": "projectile_spiral_nova_starting_angle_offset",
-            "value": -90
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_wand_projectiles",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 5000,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "attack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "projectile_spiral_nova_time_ms",
+          "value": 800
+        },
+        {
+          "id": "projectile_spiral_nova_angle",
+          "value": 180
+        },
+        {
+          "id": "base_number_of_projectiles_in_spiral_nova",
+          "value": 10
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "pierce_%",
+          "value": 100
+        },
+        {
+          "id": "base_physical_damage_%_to_convert_to_fire",
+          "value": 50
+        },
+        {
+          "id": "projectile_spiral_nova_starting_angle_offset",
+          "value": -90
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_wand_projectiles",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFuryOnHit2": {
@@ -31887,66 +31868,65 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 11000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "attack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "projectile_spiral_nova_time_ms",
-            "value": 800
-          },
-          {
-            "id": "projectile_spiral_nova_angle",
-            "value": 180
-          },
-          {
-            "id": "base_number_of_projectiles_in_spiral_nova",
-            "value": 10
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "pierce_%",
-            "value": 100
-          },
-          {
-            "id": "base_physical_damage_%_to_convert_to_fire",
-            "value": 50
-          },
-          {
-            "id": "projectile_spiral_nova_starting_angle_offset",
-            "value": -90
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_wand_projectiles",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 11000,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "attack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "projectile_spiral_nova_time_ms",
+          "value": 800
+        },
+        {
+          "id": "projectile_spiral_nova_angle",
+          "value": 180
+        },
+        {
+          "id": "base_number_of_projectiles_in_spiral_nova",
+          "value": 10
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "pierce_%",
+          "value": 100
+        },
+        {
+          "id": "base_physical_damage_%_to_convert_to_fire",
+          "value": 50
+        },
+        {
+          "id": "projectile_spiral_nova_starting_angle_offset",
+          "value": -90
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_wand_projectiles",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFuryOnHit3": {
@@ -31986,66 +31966,65 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 17000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "attack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "projectile_spiral_nova_time_ms",
-            "value": 800
-          },
-          {
-            "id": "projectile_spiral_nova_angle",
-            "value": 180
-          },
-          {
-            "id": "base_number_of_projectiles_in_spiral_nova",
-            "value": 10
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "pierce_%",
-            "value": 100
-          },
-          {
-            "id": "base_physical_damage_%_to_convert_to_fire",
-            "value": 50
-          },
-          {
-            "id": "projectile_spiral_nova_starting_angle_offset",
-            "value": -90
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_wand_projectiles",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 17000,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "attack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "projectile_spiral_nova_time_ms",
+          "value": 800
+        },
+        {
+          "id": "projectile_spiral_nova_angle",
+          "value": 180
+        },
+        {
+          "id": "base_number_of_projectiles_in_spiral_nova",
+          "value": 10
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "pierce_%",
+          "value": 100
+        },
+        {
+          "id": "base_physical_damage_%_to_convert_to_fire",
+          "value": 50
+        },
+        {
+          "id": "projectile_spiral_nova_starting_angle_offset",
+          "value": -90
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_wand_projectiles",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfFuryOnHit4": {
@@ -32085,66 +32064,65 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 23000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "attack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "projectile_spiral_nova_time_ms",
-            "value": 800
-          },
-          {
-            "id": "projectile_spiral_nova_angle",
-            "value": 180
-          },
-          {
-            "id": "base_number_of_projectiles_in_spiral_nova",
-            "value": 10
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "pierce_%",
-            "value": 100
-          },
-          {
-            "id": "base_physical_damage_%_to_convert_to_fire",
-            "value": 50
-          },
-          {
-            "id": "projectile_spiral_nova_starting_angle_offset",
-            "value": -90
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_wand_projectiles",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 23000,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "attack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "projectile_spiral_nova_time_ms",
+          "value": 800
+        },
+        {
+          "id": "projectile_spiral_nova_angle",
+          "value": 180
+        },
+        {
+          "id": "base_number_of_projectiles_in_spiral_nova",
+          "value": 10
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "pierce_%",
+          "value": 100
+        },
+        {
+          "id": "base_physical_damage_%_to_convert_to_fire",
+          "value": 50
+        },
+        {
+          "id": "projectile_spiral_nova_starting_angle_offset",
+          "value": -90
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_wand_projectiles",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfInfernoOnKill": {
@@ -32168,54 +32146,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 155
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 249
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "fire_storm_fireball_delay_ms",
-            "value": 100
-          },
-          {
-            "id": "skill_override_pvp_scaling_time_ms",
-            "value": 450
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_show_average_damage_instead_of_dps",
-            "value": 1
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 155
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 249
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "fire_storm_fireball_delay_ms",
+          "value": 100
+        },
+        {
+          "id": "skill_override_pvp_scaling_time_ms",
+          "value": 450
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
+          "value": 1
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfInfernoOnKill2": {
@@ -32239,54 +32216,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 722
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 1107
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "fire_storm_fireball_delay_ms",
-            "value": 100
-          },
-          {
-            "id": "skill_override_pvp_scaling_time_ms",
-            "value": 450
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_show_average_damage_instead_of_dps",
-            "value": 1
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 722
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 1107
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "fire_storm_fireball_delay_ms",
+          "value": 100
+        },
+        {
+          "id": "skill_override_pvp_scaling_time_ms",
+          "value": 450
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
+          "value": 1
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfInfernoOnKill3": {
@@ -32310,54 +32286,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 1817
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 2725
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "fire_storm_fireball_delay_ms",
-            "value": 100
-          },
-          {
-            "id": "skill_override_pvp_scaling_time_ms",
-            "value": 450
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_show_average_damage_instead_of_dps",
-            "value": 1
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 1817
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 2725
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "fire_storm_fireball_delay_ms",
+          "value": 100
+        },
+        {
+          "id": "skill_override_pvp_scaling_time_ms",
+          "value": 450
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
+          "value": 1
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfInfernoOnKill4": {
@@ -32381,54 +32356,53 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 3324
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 5263
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "fire_storm_fireball_delay_ms",
-            "value": 100
-          },
-          {
-            "id": "skill_override_pvp_scaling_time_ms",
-            "value": 450
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_show_average_damage_instead_of_dps",
-            "value": 1
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 3324
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 5263
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "fire_storm_fireball_delay_ms",
+          "value": 100
+        },
+        {
+          "id": "skill_override_pvp_scaling_time_ms",
+          "value": 450
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
+          "value": 1
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfIreWhenHit": {
@@ -32470,50 +32444,49 @@
     "cast_time": 500,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "damage_multiplier": -4000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "extra_gore_chance_override_%",
-            "value": 30
-          },
-          {
-            "id": "melee_counterattack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_physical_damage_%_to_convert_to_lightning",
-            "value": 50
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "attack_unusable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "attack_is_not_melee_override",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "damage_multiplier": -4000,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "extra_gore_chance_override_%",
+          "value": 30
+        },
+        {
+          "id": "melee_counterattack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_physical_damage_%_to_convert_to_lightning",
+          "value": 50
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "attack_unusable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "attack_is_not_melee_override",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfIreWhenHit2": {
@@ -32555,50 +32528,49 @@
     "cast_time": 500,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "damage_multiplier": -1000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "extra_gore_chance_override_%",
-            "value": 30
-          },
-          {
-            "id": "melee_counterattack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_physical_damage_%_to_convert_to_lightning",
-            "value": 50
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "attack_unusable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "attack_is_not_melee_override",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "damage_multiplier": -1000,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "extra_gore_chance_override_%",
+          "value": 30
+        },
+        {
+          "id": "melee_counterattack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_physical_damage_%_to_convert_to_lightning",
+          "value": 50
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "attack_unusable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "attack_is_not_melee_override",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfIreWhenHit3": {
@@ -32640,50 +32612,49 @@
     "cast_time": 500,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "damage_multiplier": 2000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "extra_gore_chance_override_%",
-            "value": 30
-          },
-          {
-            "id": "melee_counterattack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_physical_damage_%_to_convert_to_lightning",
-            "value": 50
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "attack_unusable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "attack_is_not_melee_override",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "damage_multiplier": 2000,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "extra_gore_chance_override_%",
+          "value": 30
+        },
+        {
+          "id": "melee_counterattack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_physical_damage_%_to_convert_to_lightning",
+          "value": 50
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "attack_unusable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "attack_is_not_melee_override",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfIreWhenHit4": {
@@ -32725,50 +32696,49 @@
     "cast_time": 500,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "damage_multiplier": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "extra_gore_chance_override_%",
-            "value": 30
-          },
-          {
-            "id": "melee_counterattack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_physical_damage_%_to_convert_to_lightning",
-            "value": 50
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "attack_unusable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "attack_is_not_melee_override",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "damage_multiplier": 5000,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "extra_gore_chance_override_%",
+          "value": 30
+        },
+        {
+          "id": "melee_counterattack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_physical_damage_%_to_convert_to_lightning",
+          "value": 50
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "attack_unusable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "attack_is_not_melee_override",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfLightWhenCrit": {
@@ -32794,38 +32764,37 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 3500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "life_regeneration_rate_per_minute_%",
-            "value": 240
-          },
-          {
-            "id": "attack_trigger_when_critically_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 3500,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "life_regeneration_rate_per_minute_%",
+          "value": 240
+        },
+        {
+          "id": "attack_trigger_when_critically_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfLightWhenCrit2": {
@@ -32851,38 +32820,37 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 8900,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "life_regeneration_rate_per_minute_%",
-            "value": 240
-          },
-          {
-            "id": "attack_trigger_when_critically_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 8900,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "life_regeneration_rate_per_minute_%",
+          "value": 240
+        },
+        {
+          "id": "attack_trigger_when_critically_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfLightWhenCrit3": {
@@ -32908,38 +32876,37 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 14300,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "life_regeneration_rate_per_minute_%",
-            "value": 240
-          },
-          {
-            "id": "attack_trigger_when_critically_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 14300,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "life_regeneration_rate_per_minute_%",
+          "value": 240
+        },
+        {
+          "id": "attack_trigger_when_critically_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfLightWhenCrit4": {
@@ -32965,38 +32932,37 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 19700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "life_regeneration_rate_per_minute_%",
-            "value": 240
-          },
-          {
-            "id": "attack_trigger_when_critically_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 19700,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "life_regeneration_rate_per_minute_%",
+          "value": 240
+        },
+        {
+          "id": "attack_trigger_when_critically_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfReflectionWhenHit": {
@@ -33021,49 +32987,48 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 1
-          },
-          {
-            "id": "minion_damage_+%",
-            "value": 80
-          },
-          {
-            "id": "minion_maximum_life_+%",
-            "value": 150
-          },
-          {
-            "id": "display_minion_monster_type",
-            "value": 4
-          },
-          {
-            "id": "display_minion_monster_level",
-            "value": 32
-          },
-          {
-            "id": "cast_when_hit_%",
-            "value": 100
-          },
-          {
-            "id": "active_skill_minion_damage_+%_final",
-            "value": 100
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 1
+        },
+        {
+          "id": "minion_damage_+%",
+          "value": 80
+        },
+        {
+          "id": "minion_maximum_life_+%",
+          "value": 150
+        },
+        {
+          "id": "display_minion_monster_type",
+          "value": 4
+        },
+        {
+          "id": "display_minion_monster_level",
+          "value": 32
+        },
+        {
+          "id": "cast_when_hit_%",
+          "value": 100
+        },
+        {
+          "id": "active_skill_minion_damage_+%_final",
+          "value": 100
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfReflectionWhenHit2": {
@@ -33088,49 +33053,48 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 1
-          },
-          {
-            "id": "minion_damage_+%",
-            "value": 100
-          },
-          {
-            "id": "minion_maximum_life_+%",
-            "value": 150
-          },
-          {
-            "id": "display_minion_monster_type",
-            "value": 4
-          },
-          {
-            "id": "display_minion_monster_level",
-            "value": 53
-          },
-          {
-            "id": "cast_when_hit_%",
-            "value": 100
-          },
-          {
-            "id": "active_skill_minion_damage_+%_final",
-            "value": 200
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 1
+        },
+        {
+          "id": "minion_damage_+%",
+          "value": 100
+        },
+        {
+          "id": "minion_maximum_life_+%",
+          "value": 150
+        },
+        {
+          "id": "display_minion_monster_type",
+          "value": 4
+        },
+        {
+          "id": "display_minion_monster_level",
+          "value": 53
+        },
+        {
+          "id": "cast_when_hit_%",
+          "value": 100
+        },
+        {
+          "id": "active_skill_minion_damage_+%_final",
+          "value": 200
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfReflectionWhenHit3": {
@@ -33155,49 +33119,48 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 1
-          },
-          {
-            "id": "minion_damage_+%",
-            "value": 120
-          },
-          {
-            "id": "minion_maximum_life_+%",
-            "value": 150
-          },
-          {
-            "id": "display_minion_monster_type",
-            "value": 4
-          },
-          {
-            "id": "display_minion_monster_level",
-            "value": 66
-          },
-          {
-            "id": "cast_when_hit_%",
-            "value": 100
-          },
-          {
-            "id": "active_skill_minion_damage_+%_final",
-            "value": 300
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 1
+        },
+        {
+          "id": "minion_damage_+%",
+          "value": 120
+        },
+        {
+          "id": "minion_maximum_life_+%",
+          "value": 150
+        },
+        {
+          "id": "display_minion_monster_type",
+          "value": 4
+        },
+        {
+          "id": "display_minion_monster_level",
+          "value": 66
+        },
+        {
+          "id": "cast_when_hit_%",
+          "value": 100
+        },
+        {
+          "id": "active_skill_minion_damage_+%_final",
+          "value": 300
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfReflectionWhenHit4": {
@@ -33222,49 +33185,48 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 1
-          },
-          {
-            "id": "minion_damage_+%",
-            "value": 140
-          },
-          {
-            "id": "minion_maximum_life_+%",
-            "value": 150
-          },
-          {
-            "id": "display_minion_monster_type",
-            "value": 4
-          },
-          {
-            "id": "display_minion_monster_level",
-            "value": 75
-          },
-          {
-            "id": "cast_when_hit_%",
-            "value": 100
-          },
-          {
-            "id": "active_skill_minion_damage_+%_final",
-            "value": 400
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 1
+        },
+        {
+          "id": "minion_damage_+%",
+          "value": 140
+        },
+        {
+          "id": "minion_maximum_life_+%",
+          "value": 150
+        },
+        {
+          "id": "display_minion_monster_type",
+          "value": 4
+        },
+        {
+          "id": "display_minion_monster_level",
+          "value": 75
+        },
+        {
+          "id": "cast_when_hit_%",
+          "value": 100
+        },
+        {
+          "id": "active_skill_minion_damage_+%_final",
+          "value": 400
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfSpiteWhenHit": {
@@ -33304,66 +33266,65 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "base_projectile_ground_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 9
-          },
-          {
-            "id": "melee_counterattack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 2
-          },
-          {
-            "id": "base_physical_damage_%_to_convert_to_cold",
-            "value": 50
-          },
-          {
-            "id": "projectiles_drop_ground_ice",
-            "value": 1
-          },
-          {
-            "id": "projectiles_drop_ground_effects_on_client",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_wand_projectiles",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 5000,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "base_projectile_ground_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 9
+        },
+        {
+          "id": "melee_counterattack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 2
+        },
+        {
+          "id": "base_physical_damage_%_to_convert_to_cold",
+          "value": 50
+        },
+        {
+          "id": "projectiles_drop_ground_ice",
+          "value": 1
+        },
+        {
+          "id": "projectiles_drop_ground_effects_on_client",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_wand_projectiles",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfSpiteWhenHit2": {
@@ -33403,66 +33364,65 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 11000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "base_projectile_ground_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 9
-          },
-          {
-            "id": "melee_counterattack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 2
-          },
-          {
-            "id": "base_physical_damage_%_to_convert_to_cold",
-            "value": 50
-          },
-          {
-            "id": "projectiles_drop_ground_ice",
-            "value": 1
-          },
-          {
-            "id": "projectiles_drop_ground_effects_on_client",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_wand_projectiles",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 11000,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "base_projectile_ground_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 9
+        },
+        {
+          "id": "melee_counterattack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 2
+        },
+        {
+          "id": "base_physical_damage_%_to_convert_to_cold",
+          "value": 50
+        },
+        {
+          "id": "projectiles_drop_ground_ice",
+          "value": 1
+        },
+        {
+          "id": "projectiles_drop_ground_effects_on_client",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_wand_projectiles",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfSpiteWhenHit3": {
@@ -33502,66 +33462,65 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 17000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "base_projectile_ground_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 9
-          },
-          {
-            "id": "melee_counterattack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 2
-          },
-          {
-            "id": "base_physical_damage_%_to_convert_to_cold",
-            "value": 50
-          },
-          {
-            "id": "projectiles_drop_ground_ice",
-            "value": 1
-          },
-          {
-            "id": "projectiles_drop_ground_effects_on_client",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_wand_projectiles",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 17000,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "base_projectile_ground_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 9
+        },
+        {
+          "id": "melee_counterattack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 2
+        },
+        {
+          "id": "base_physical_damage_%_to_convert_to_cold",
+          "value": 50
+        },
+        {
+          "id": "projectiles_drop_ground_ice",
+          "value": 1
+        },
+        {
+          "id": "projectiles_drop_ground_effects_on_client",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_wand_projectiles",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfSpiteWhenHit4": {
@@ -33601,66 +33560,65 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "damage_multiplier": 23000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "base_projectile_ground_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 9
-          },
-          {
-            "id": "melee_counterattack_trigger_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 2
-          },
-          {
-            "id": "base_physical_damage_%_to_convert_to_cold",
-            "value": 50
-          },
-          {
-            "id": "projectiles_drop_ground_ice",
-            "value": 1
-          },
-          {
-            "id": "projectiles_drop_ground_effects_on_client",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          },
-          {
-            "id": "skill_can_fire_wand_projectiles",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "damage_multiplier": 23000,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "base_projectile_ground_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 9
+        },
+        {
+          "id": "melee_counterattack_trigger_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 2
+        },
+        {
+          "id": "base_physical_damage_%_to_convert_to_cold",
+          "value": 50
+        },
+        {
+          "id": "projectiles_drop_ground_ice",
+          "value": 1
+        },
+        {
+          "id": "projectiles_drop_ground_effects_on_client",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_wand_projectiles",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfTempestOnHit": {
@@ -33686,50 +33644,49 @@
     "cast_time": 4000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "spell_minimum_base_lightning_damage",
-            "value": 175
-          },
-          {
-            "id": "spell_maximum_base_lightning_damage",
-            "value": 280
-          },
-          {
-            "id": "base_skill_area_of_effect_+%",
-            "value": 0
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 0
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "spell_minimum_base_lightning_damage",
+          "value": 175
+        },
+        {
+          "id": "spell_maximum_base_lightning_damage",
+          "value": 280
+        },
+        {
+          "id": "base_skill_area_of_effect_+%",
+          "value": 0
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 0
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfTempestOnHit2": {
@@ -33755,50 +33712,49 @@
     "cast_time": 4000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "spell_minimum_base_lightning_damage",
-            "value": 812
-          },
-          {
-            "id": "spell_maximum_base_lightning_damage",
-            "value": 1245
-          },
-          {
-            "id": "base_skill_area_of_effect_+%",
-            "value": 0
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 0
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "spell_minimum_base_lightning_damage",
+          "value": 812
+        },
+        {
+          "id": "spell_maximum_base_lightning_damage",
+          "value": 1245
+        },
+        {
+          "id": "base_skill_area_of_effect_+%",
+          "value": 0
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 0
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfTempestOnHit3": {
@@ -33824,50 +33780,49 @@
     "cast_time": 4000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "spell_minimum_base_lightning_damage",
-            "value": 2044
-          },
-          {
-            "id": "spell_maximum_base_lightning_damage",
-            "value": 3065
-          },
-          {
-            "id": "base_skill_area_of_effect_+%",
-            "value": 0
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 0
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "spell_minimum_base_lightning_damage",
+          "value": 2044
+        },
+        {
+          "id": "spell_maximum_base_lightning_damage",
+          "value": 3065
+        },
+        {
+          "id": "base_skill_area_of_effect_+%",
+          "value": 0
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 0
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfTempestOnHit4": {
@@ -33893,50 +33848,49 @@
     "cast_time": 4000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "spell_minimum_base_lightning_damage",
-            "value": 3739
-          },
-          {
-            "id": "spell_maximum_base_lightning_damage",
-            "value": 5920
-          },
-          {
-            "id": "base_skill_area_of_effect_+%",
-            "value": 0
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 0
-          },
-          {
-            "id": "cast_on_hit_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 2000
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "spell_minimum_base_lightning_damage",
+          "value": 3739
+        },
+        {
+          "id": "spell_maximum_base_lightning_damage",
+          "value": 5920
+        },
+        {
+          "id": "base_skill_area_of_effect_+%",
+          "value": 0
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 0
+        },
+        {
+          "id": "cast_on_hit_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfTheGraveOnKill": {
@@ -33962,41 +33916,40 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "chance_to_cast_on_owned_kill_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 3
-          },
-          {
-            "id": "display_minion_monster_type",
-            "value": 10
-          },
-          {
-            "id": "display_minion_monster_level",
-            "value": 32
-          },
-          {
-            "id": "minions_explode_on_death_for_%_max_life_at_end_of_duration",
-            "value": 20
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "chance_to_cast_on_owned_kill_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 3
+        },
+        {
+          "id": "display_minion_monster_type",
+          "value": 10
+        },
+        {
+          "id": "display_minion_monster_level",
+          "value": 32
+        },
+        {
+          "id": "minions_explode_on_death_for_%_max_life_at_end_of_duration",
+          "value": 20
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfTheGraveOnKill2": {
@@ -34022,41 +33975,40 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "chance_to_cast_on_owned_kill_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 3
-          },
-          {
-            "id": "display_minion_monster_type",
-            "value": 10
-          },
-          {
-            "id": "display_minion_monster_level",
-            "value": 53
-          },
-          {
-            "id": "minions_explode_on_death_for_%_max_life_at_end_of_duration",
-            "value": 20
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "chance_to_cast_on_owned_kill_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 3
+        },
+        {
+          "id": "display_minion_monster_type",
+          "value": 10
+        },
+        {
+          "id": "display_minion_monster_level",
+          "value": 53
+        },
+        {
+          "id": "minions_explode_on_death_for_%_max_life_at_end_of_duration",
+          "value": 20
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfTheGraveOnKill3": {
@@ -34082,41 +34034,40 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "chance_to_cast_on_owned_kill_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 3
-          },
-          {
-            "id": "display_minion_monster_type",
-            "value": 10
-          },
-          {
-            "id": "display_minion_monster_level",
-            "value": 66
-          },
-          {
-            "id": "minions_explode_on_death_for_%_max_life_at_end_of_duration",
-            "value": 20
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "chance_to_cast_on_owned_kill_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 3
+        },
+        {
+          "id": "display_minion_monster_type",
+          "value": 10
+        },
+        {
+          "id": "display_minion_monster_level",
+          "value": 66
+        },
+        {
+          "id": "minions_explode_on_death_for_%_max_life_at_end_of_duration",
+          "value": 20
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfTheGraveOnKill4": {
@@ -34142,41 +34093,40 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "chance_to_cast_on_owned_kill_%",
-            "value": 100
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 3
-          },
-          {
-            "id": "display_minion_monster_type",
-            "value": 10
-          },
-          {
-            "id": "display_minion_monster_level",
-            "value": 75
-          },
-          {
-            "id": "minions_explode_on_death_for_%_max_life_at_end_of_duration",
-            "value": 20
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "chance_to_cast_on_owned_kill_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 3
+        },
+        {
+          "id": "display_minion_monster_type",
+          "value": 10
+        },
+        {
+          "id": "display_minion_monster_level",
+          "value": 75
+        },
+        {
+          "id": "minions_explode_on_death_for_%_max_life_at_end_of_duration",
+          "value": 20
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfThunderOnKill": {
@@ -34201,38 +34151,37 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "spell_minimum_base_lightning_damage",
-            "value": 71
-          },
-          {
-            "id": "spell_maximum_base_lightning_damage",
-            "value": 114
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "spell_minimum_base_lightning_damage",
+          "value": 71
+        },
+        {
+          "id": "spell_maximum_base_lightning_damage",
+          "value": 114
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfThunderOnKill2": {
@@ -34257,38 +34206,37 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "spell_minimum_base_lightning_damage",
-            "value": 330
-          },
-          {
-            "id": "spell_maximum_base_lightning_damage",
-            "value": 506
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "spell_minimum_base_lightning_damage",
+          "value": 330
+        },
+        {
+          "id": "spell_maximum_base_lightning_damage",
+          "value": 506
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfThunderOnKill3": {
@@ -34313,38 +34261,37 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "spell_minimum_base_lightning_damage",
-            "value": 830
-          },
-          {
-            "id": "spell_maximum_base_lightning_damage",
-            "value": 1245
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "spell_minimum_base_lightning_damage",
+          "value": 830
+        },
+        {
+          "id": "spell_maximum_base_lightning_damage",
+          "value": 1245
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfThunderOnKill4": {
@@ -34369,38 +34316,37 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "crit_chance": 700,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "spell_minimum_base_lightning_damage",
-            "value": 1519
-          },
-          {
-            "id": "spell_maximum_base_lightning_damage",
-            "value": 2405
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "spell_minimum_base_lightning_damage",
+          "value": 1519
+        },
+        {
+          "id": "spell_maximum_base_lightning_damage",
+          "value": 2405
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfWarOnKill": {
@@ -34443,33 +34389,32 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 10000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 1
-          },
-          {
-            "id": "attack_trigger_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "active_skill_minion_damage_+%_final",
-            "value": 50
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 10000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 1
+        },
+        {
+          "id": "attack_trigger_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "active_skill_minion_damage_+%_final",
+          "value": 50
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfWarOnKill2": {
@@ -34512,33 +34457,32 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 10000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 1
-          },
-          {
-            "id": "attack_trigger_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "active_skill_minion_damage_+%_final",
-            "value": 100
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 10000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 1
+        },
+        {
+          "id": "attack_trigger_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "active_skill_minion_damage_+%_final",
+          "value": 100
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfWarOnKill3": {
@@ -34581,33 +34525,32 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 10000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 1
-          },
-          {
-            "id": "attack_trigger_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "active_skill_minion_damage_+%_final",
-            "value": 150
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 10000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 1
+        },
+        {
+          "id": "attack_trigger_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "active_skill_minion_damage_+%_final",
+          "value": 150
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfWarOnKill4": {
@@ -34650,33 +34593,32 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 5000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 10000
-          },
-          {
-            "id": "number_of_monsters_to_summon",
-            "value": 1
-          },
-          {
-            "id": "attack_trigger_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "active_skill_minion_damage_+%_final",
-            "value": 200
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 10000
+        },
+        {
+          "id": "number_of_monsters_to_summon",
+          "value": 1
+        },
+        {
+          "id": "attack_trigger_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "active_skill_minion_damage_+%_final",
+          "value": 200
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfWinterWhenHit": {
@@ -34705,46 +34647,45 @@
     "cast_time": 1400,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 32,
-        "stats": [
-          {
-            "id": "spell_minimum_base_cold_damage",
-            "value": 48
-          },
-          {
-            "id": "spell_maximum_base_cold_damage",
-            "value": 76
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "cast_when_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 32,
+      "stats": [
+        {
+          "id": "spell_minimum_base_cold_damage",
+          "value": 48
+        },
+        {
+          "id": "spell_maximum_base_cold_damage",
+          "value": 76
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "cast_when_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfWinterWhenHit2": {
@@ -34773,46 +34714,45 @@
     "cast_time": 1400,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 53,
-        "stats": [
-          {
-            "id": "spell_minimum_base_cold_damage",
-            "value": 221
-          },
-          {
-            "id": "spell_maximum_base_cold_damage",
-            "value": 340
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "cast_when_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 53,
+      "stats": [
+        {
+          "id": "spell_minimum_base_cold_damage",
+          "value": 221
+        },
+        {
+          "id": "spell_maximum_base_cold_damage",
+          "value": 340
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "cast_when_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfWinterWhenHit3": {
@@ -34841,46 +34781,45 @@
     "cast_time": 1400,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "spell_minimum_base_cold_damage",
-            "value": 557
-          },
-          {
-            "id": "spell_maximum_base_cold_damage",
-            "value": 836
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "cast_when_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "spell_minimum_base_cold_damage",
+          "value": 557
+        },
+        {
+          "id": "spell_maximum_base_cold_damage",
+          "value": 836
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "cast_when_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnchantmentOfWinterWhenHit4": {
@@ -34909,46 +34848,45 @@
     "cast_time": 1400,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 10000,
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 75,
-        "stats": [
-          {
-            "id": "spell_minimum_base_cold_damage",
-            "value": 1020
-          },
-          {
-            "id": "spell_maximum_base_cold_damage",
-            "value": 1615
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 1
-          },
-          {
-            "id": "cast_when_hit_%",
-            "value": 100
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "damage_cannot_be_reflected",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "spell_minimum_base_cold_damage",
+          "value": 1020
+        },
+        {
+          "id": "spell_maximum_base_cold_damage",
+          "value": 1615
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 1
+        },
+        {
+          "id": "cast_when_hit_%",
+          "value": 100
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EnduranceChargeOnMeleeStun": {
@@ -37435,41 +37373,40 @@
     "cast_time": 1200,
     "is_support": false,
     "per_level": {
-      "15": {
-        "cooldown": 1200,
-        "mana_cost": 50,
-        "quality_stats": [],
-        "required_level": 60,
-        "stats": [
-          {
-            "id": "attack_minimum_added_chaos_damage",
-            "value": 58
-          },
-          {
-            "id": "attack_maximum_added_chaos_damage",
-            "value": 81
-          },
-          {
-            "id": "base_skill_area_of_effect_+%",
-            "value": 0
-          },
-          {
-            "id": "spell_minimum_added_chaos_damage",
-            "value": 52
-          },
-          {
-            "id": "spell_maximum_added_chaos_damage",
-            "value": 69
-          },
-          {
-            "id": "base_deal_no_damage",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "15": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 1200,
+      "mana_cost": 50,
+      "required_level": 60,
+      "stats": [
+        {
+          "id": "attack_minimum_added_chaos_damage",
+          "value": 58
+        },
+        {
+          "id": "attack_maximum_added_chaos_damage",
+          "value": 81
+        },
+        {
+          "id": "base_skill_area_of_effect_+%",
+          "value": 0
+        },
+        {
+          "id": "spell_minimum_added_chaos_damage",
+          "value": 52
+        },
+        {
+          "id": "spell_maximum_added_chaos_damage",
+          "value": 69
+        },
+        {
+          "id": "base_deal_no_damage",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "EssenceDrain": {
@@ -65295,57 +65232,56 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "crit_chance": 500,
-        "damage_effectiveness": -70,
-        "mana_cost": 22,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "spell_minimum_base_cold_damage_+_per_10_intelligence",
-            "value": 1
-          },
-          {
-            "id": "spell_maximum_base_cold_damage_+_per_10_intelligence",
-            "value": 3
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 1500
-          },
-          {
-            "id": "fire_storm_fireball_delay_ms",
-            "value": 100
-          },
-          {
-            "id": "skill_override_pvp_scaling_time_ms",
-            "value": 450
-          },
-          {
-            "id": "firestorm_drop_ground_ice_duration_ms",
-            "value": 500
-          },
-          {
-            "id": "skill_art_variation",
-            "value": 4
-          },
-          {
-            "id": "skill_effect_duration_per_100_int",
-            "value": 150
-          },
-          {
-            "id": "base_skill_show_average_damage_instead_of_dps",
-            "value": 1
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "crit_chance": 500,
+      "damage_effectiveness": -70,
+      "mana_cost": 22,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "spell_minimum_base_cold_damage_+_per_10_intelligence",
+          "value": 1
+        },
+        {
+          "id": "spell_maximum_base_cold_damage_+_per_10_intelligence",
+          "value": 3
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 1500
+        },
+        {
+          "id": "fire_storm_fireball_delay_ms",
+          "value": 100
+        },
+        {
+          "id": "skill_override_pvp_scaling_time_ms",
+          "value": 450
+        },
+        {
+          "id": "firestorm_drop_ground_ice_duration_ms",
+          "value": 500
+        },
+        {
+          "id": "skill_art_variation",
+          "value": 4
+        },
+        {
+          "id": "skill_effect_duration_per_100_int",
+          "value": 150
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
+          "value": 1
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        }
+      ]
+    },
     "tags": null
   },
   "Ignite": {
@@ -73649,21 +73585,20 @@
     "cast_time": 600,
     "is_support": false,
     "per_level": {
-      "20": {
-        "cooldown": 8000,
-        "mana_cost": 20,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          }
-        ],
-        "stored_uses": 1
-      }
+      "20": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 8000,
+      "mana_cost": 20,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "MirrorArrow": {
@@ -76281,67 +76216,67 @@
     "cast_time": 500,
     "is_support": false,
     "per_level": {
-      "1": {
-        "crit_chance": 600,
-        "damage_effectiveness": -70,
-        "mana_cost": 6,
-        "quality_stats": [
-          {
-            "id": "base_skill_area_of_effect_+%",
-            "value": 500
-          }
-        ],
-        "required_level": 12,
-        "stat_requirements": {
-          "dex": 0,
-          "int": 0,
-          "str": 0
-        },
-        "stats": [
-          {
-            "id": "spell_minimum_base_physical_damage",
-            "value": 9
-          },
-          {
-            "id": "spell_maximum_base_physical_damage",
-            "value": 14
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 5000
-          },
-          {
-            "id": "maximum_number_of_spinning_blades",
-            "value": 50
-          },
-          {
-            "id": "base_skill_area_of_effect_+%",
-            "value": 0
-          },
-          {
-            "id": "extra_gore_chance_override_%",
-            "value": 15
-          },
-          {
-            "id": "blade_vortex_hit_rate_+%_per_blade",
-            "value": 50
-          },
-          {
-            "id": "blade_vortex_damage_+%_per_blade_final",
-            "value": 50
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "skill_can_add_multiple_charges_per_action",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "crit_chance": 600,
+      "damage_effectiveness": -70,
+      "mana_cost": 6,
+      "quality_stats": [
+        {
+          "id": "base_skill_area_of_effect_+%",
+          "value": 500
+        }
+      ],
+      "required_level": 12,
+      "stat_requirements": {
+        "dex": 0,
+        "int": 0,
+        "str": 0
+      },
+      "stats": [
+        {
+          "id": "spell_minimum_base_physical_damage",
+          "value": 9
+        },
+        {
+          "id": "spell_maximum_base_physical_damage",
+          "value": 14
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "maximum_number_of_spinning_blades",
+          "value": 50
+        },
+        {
+          "id": "base_skill_area_of_effect_+%",
+          "value": 0
+        },
+        {
+          "id": "extra_gore_chance_override_%",
+          "value": 15
+        },
+        {
+          "id": "blade_vortex_hit_rate_+%_per_blade",
+          "value": 50
+        },
+        {
+          "id": "blade_vortex_damage_+%_per_blade_final",
+          "value": 50
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "skill_can_add_multiple_charges_per_action",
+          "value": 1
+        }
+      ]
+    },
     "tags": [
       "dexterity",
       "active_skill",
@@ -86960,14 +86895,12 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 95,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": []
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 95,
+      "required_level": 1
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -87675,48 +87608,47 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "7": {
-        "crit_chance": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 50
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 75
-          },
-          {
-            "id": "base_chance_to_ignite_%",
-            "value": 10
-          },
-          {
-            "id": "cast_on_gain_skill",
-            "value": 1
-          },
-          {
-            "id": "cannot_knockback",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "skill_can_add_multiple_charges_per_action",
-            "value": 1
-          }
-        ]
-      }
+      "7": {}
     },
-    "static": {},
+    "static": {
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 50
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 75
+        },
+        {
+          "id": "base_chance_to_ignite_%",
+          "value": 10
+        },
+        {
+          "id": "cast_on_gain_skill",
+          "value": 1
+        },
+        {
+          "id": "cannot_knockback",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "skill_can_add_multiple_charges_per_action",
+          "value": 1
+        }
+      ]
+    },
     "tags": null
   },
   "RighteousFire": {
@@ -102167,39 +102099,38 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "18": {
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 66,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 30000
-          },
-          {
-            "id": "number_of_wolves_allowed",
-            "value": 20
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 10
-          },
-          {
-            "id": "display_minion_monster_type",
-            "value": 8
-          },
-          {
-            "id": "display_minion_monster_level",
-            "value": 65
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          }
-        ]
-      }
+      "18": {}
     },
-    "static": {},
+    "static": {
+      "mana_cost": 0,
+      "required_level": 66,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 30000
+        },
+        {
+          "id": "number_of_wolves_allowed",
+          "value": 20
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 10
+        },
+        {
+          "id": "display_minion_monster_type",
+          "value": 8
+        },
+        {
+          "id": "display_minion_monster_level",
+          "value": 65
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        }
+      ]
+    },
     "tags": null
   },
   "SummonRockGolem": {
@@ -105212,23 +105143,22 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "global_minimum_added_fire_damage",
-            "value": 175
-          },
-          {
-            "id": "global_maximum_added_fire_damage",
-            "value": 225
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "global_minimum_added_fire_damage",
+          "value": 175
+        },
+        {
+          "id": "global_maximum_added_fire_damage",
+          "value": 225
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -106503,19 +106433,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "essence_support_attack_and_cast_speed_+%_final",
-            "value": 20
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "essence_support_attack_and_cast_speed_+%_final",
+          "value": 20
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -106523,19 +106452,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "essence_support_attack_and_cast_speed_+%_final",
-            "value": 16
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "essence_support_attack_and_cast_speed_+%_final",
+          "value": 16
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -106543,19 +106471,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "non_curse_aura_effect_+%",
-            "value": 20
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "non_curse_aura_effect_+%",
+          "value": 20
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -106563,19 +106490,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "no_mana_reserved",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "no_mana_reserved",
+          "value": 1
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -108109,19 +108035,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "base_use_life_in_place_of_mana",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "base_use_life_in_place_of_mana",
+          "value": 1
+        }
+      ]
+    },
     "support_gem_letter": "B",
     "tags": null
   },
@@ -108532,24 +108457,23 @@
     },
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stat_requirements": {
-          "dex": 0,
-          "int": 0,
-          "str": 0
-        },
-        "stats": [
-          {
-            "id": "cast_linked_curses_on_curse",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stat_requirements": {
+        "dex": 0,
+        "int": 0,
+        "str": 0
+      },
+      "stats": [
+        {
+          "id": "cast_linked_curses_on_curse",
+          "value": 1
+        }
+      ]
+    },
     "support_gem_letter": "C",
     "tags": [
       "support",
@@ -110238,21 +110162,20 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "cooldown": 100,
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "support_cast_on_mana_spent",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 100,
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "support_cast_on_mana_spent",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "support_gem_letter": "&",
     "tags": null
   },
@@ -112502,19 +112425,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "global_hit_causes_monster_flee_%",
-            "value": 10
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "global_hit_causes_monster_flee_%",
+          "value": 10
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -112886,19 +112808,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "base_chance_to_ignite_%",
-            "value": 50
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "base_chance_to_ignite_%",
+          "value": 50
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -114964,19 +114885,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "additional_base_critical_strike_chance",
-            "value": 350
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "additional_base_critical_strike_chance",
+          "value": 350
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -116284,19 +116204,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "essence_support_damage_over_time_+%_final",
-            "value": 30
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "essence_support_damage_over_time_+%_final",
+          "value": 30
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -116304,19 +116223,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "essence_support_elemental_damage_+%_final",
-            "value": 30
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "essence_support_elemental_damage_+%_final",
+          "value": 30
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -131380,19 +131298,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "physical_damage_%_to_add_as_lightning",
-            "value": 50
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "physical_damage_%_to_add_as_lightning",
+          "value": 50
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -133787,19 +133704,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -135356,19 +135272,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "support_reduced_duration_skill_effect_duration_+%_final",
-            "value": -70
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "support_reduced_duration_skill_effect_duration_+%_final",
+          "value": -70
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -135739,24 +135654,24 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [
-          {
-            "id": "base_mana_cost_-%",
-            "value": 750
-          }
-        ],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "base_mana_cost_-%",
-            "value": 50
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "quality_stats": [
+        {
+          "id": "base_mana_cost_-%",
+          "value": 750
+        }
+      ],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "base_mana_cost_-%",
+          "value": 50
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -135764,19 +135679,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "base_mana_reservation_+%",
-            "value": -12
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "base_mana_reservation_+%",
+          "value": -12
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -135784,19 +135698,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "base_mana_reservation_+%",
-            "value": -25
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "base_mana_reservation_+%",
+          "value": -25
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -135804,19 +135717,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "base_mana_reservation_+%",
-            "value": -20
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "base_mana_reservation_+%",
+          "value": -20
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -135824,19 +135736,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "curses_reflected_to_self",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "curses_reflected_to_self",
+          "value": 1
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -137325,19 +137236,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "socketed_trap_skills_create_smoke_cloud",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "socketed_trap_skills_create_smoke_cloud",
+          "value": 1
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -139471,19 +139381,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "summon_your_maximum_number_of_totems_in_formation",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "summon_your_maximum_number_of_totems_in_formation",
+          "value": 1
+        }
+      ]
+    },
     "support_gem_letter": "~",
     "tags": null
   },
@@ -140917,19 +140826,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "unique_bow_minion_spells_triggered",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "unique_bow_minion_spells_triggered",
+          "value": 1
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -140937,21 +140845,20 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "cooldown": 250,
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "unique_cospris_malice_cold_spells_triggered",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 250,
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "unique_cospris_malice_cold_spells_triggered",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -140959,21 +140866,20 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "cooldown": 250,
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "unique_mjolner_lightning_spells_triggered",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 250,
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "unique_mjolner_lightning_spells_triggered",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -145479,45 +145385,44 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "20": {
-        "cooldown": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 8
-          },
-          {
-            "id": "attack_trigger_on_killing_bleeding_enemy_%",
-            "value": 100
-          },
-          {
-            "id": "monster_projectile_variation",
-            "value": 15
-          },
-          {
-            "id": "projectiles_nova",
-            "value": 1
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "cannot_cause_bleeding",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "20": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 500,
+      "mana_cost": 0,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 8
+        },
+        {
+          "id": "attack_trigger_on_killing_bleeding_enemy_%",
+          "value": 100
+        },
+        {
+          "id": "monster_projectile_variation",
+          "value": 15
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "cannot_cause_bleeding",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "TriggeredExplosion": {
@@ -145541,33 +145446,32 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 200,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 60,
-        "stats": [
-          {
-            "id": "spell_minimum_base_fire_damage",
-            "value": 170
-          },
-          {
-            "id": "spell_maximum_base_fire_damage",
-            "value": 255
-          },
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 100
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          }
-        ],
-        "stored_uses": 5
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 200,
+      "mana_cost": 0,
+      "required_level": 60,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 170
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 255
+        },
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 100
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        }
+      ],
+      "stored_uses": 5
+    },
     "tags": null
   },
   "TriggeredMoltenStrike": {
@@ -145593,41 +145497,40 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "16": {
-        "cooldown": 150,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "number_of_additional_projectiles",
-            "value": 2
-          },
-          {
-            "id": "attack_trigger_on_melee_hit_%",
-            "value": 20
-          },
-          {
-            "id": "show_number_of_projectiles",
-            "value": 1
-          },
-          {
-            "id": "base_is_projectile",
-            "value": 1
-          },
-          {
-            "id": "is_area_damage",
-            "value": 1
-          },
-          {
-            "id": "base_skill_show_average_damage_instead_of_dps",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "16": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 150,
+      "mana_cost": 0,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 2
+        },
+        {
+          "id": "attack_trigger_on_melee_hit_%",
+          "value": 20
+        },
+        {
+          "id": "show_number_of_projectiles",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "TriggeredSummonSpider": {
@@ -145651,45 +145554,44 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {
-        "cooldown": 2000,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "chance_to_cast_on_kill_%",
-            "value": 20
-          },
-          {
-            "id": "base_skill_effect_duration",
-            "value": 8000
-          },
-          {
-            "id": "number_of_spider_minions_allowed",
-            "value": 20
-          },
-          {
-            "id": "spell_uncastable_if_triggerable",
-            "value": 1
-          },
-          {
-            "id": "take_no_actions_while_parent_dead",
-            "value": 1
-          },
-          {
-            "id": "minion_dies_when_parent_dies",
-            "value": 1
-          },
-          {
-            "id": "display_skill_minions_level_is_corpse_level",
-            "value": 1
-          }
-        ],
-        "stored_uses": 1
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 2000,
+      "mana_cost": 0,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 20
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 8000
+        },
+        {
+          "id": "number_of_spider_minions_allowed",
+          "value": 20
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "take_no_actions_while_parent_dead",
+          "value": 1
+        },
+        {
+          "id": "minion_dies_when_parent_dies",
+          "value": 1
+        },
+        {
+          "id": "display_skill_minions_level_is_corpse_level",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "UniqueAnimateWeapon": {
@@ -145712,56 +145614,54 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "15": {
-        "cooldown": 500,
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "disable_weapons",
-            "value": 1
-          },
-          {
-            "id": "attack_speed_+%",
-            "value": 25
-          },
-          {
-            "id": "attack_damage_+%",
-            "value": 110
-          },
-          {
-            "id": "chance_to_cast_on_rampage_tier_%",
-            "value": 100
-          },
-          {
-            "id": "minion_movement_speed_+%",
-            "value": 30
-          }
-        ],
-        "stored_uses": 1
-      }
+      "15": {}
     },
-    "static": {},
+    "static": {
+      "cooldown": 500,
+      "mana_cost": 0,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "disable_weapons",
+          "value": 1
+        },
+        {
+          "id": "attack_speed_+%",
+          "value": 25
+        },
+        {
+          "id": "attack_damage_+%",
+          "value": 110
+        },
+        {
+          "id": "chance_to_cast_on_rampage_tier_%",
+          "value": 100
+        },
+        {
+          "id": "minion_movement_speed_+%",
+          "value": 30
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "UniqueAreaOfEffect": {
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "base_skill_area_of_effect_+%",
-            "value": 15
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "base_skill_area_of_effect_+%",
+          "value": 15
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -145769,23 +145669,22 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "keystone_elemental_equilibrium",
-            "value": 1
-          },
-          {
-            "id": "elemental_equilibrium_effect_+%",
-            "value": -40
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "keystone_elemental_equilibrium",
+          "value": 1
+        },
+        {
+          "id": "elemental_equilibrium_effect_+%",
+          "value": -40
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -145793,19 +145692,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "base_killed_monster_dropped_item_quantity_+%",
-            "value": 10
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "base_killed_monster_dropped_item_quantity_+%",
+          "value": 10
+        }
+      ]
+    },
     "support_gem_letter": "Q",
     "tags": null
   },
@@ -145813,19 +145711,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "physical_damage_%_to_add_as_fire",
-            "value": 10
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "physical_damage_%_to_add_as_fire",
+          "value": 10
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -145833,19 +145730,18 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "1": {
-        "mana_multiplier": 100,
-        "quality_stats": [],
-        "required_level": 0,
-        "stats": [
-          {
-            "id": "number_of_additional_projectiles_in_chain",
-            "value": 1
-          }
-        ]
-      }
+      "1": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 100,
+      "required_level": 0,
+      "stats": [
+        {
+          "id": "number_of_additional_projectiles_in_chain",
+          "value": 1
+        }
+      ]
+    },
     "support_gem_letter": "",
     "tags": null
   },
@@ -145853,28 +145749,28 @@
     "base_item": null,
     "is_support": true,
     "per_level": {
-      "16": {
-        "mana_multiplier": 130,
-        "quality_stats": [
-          {
-            "id": "life_leech_speed_+%",
-            "value": 500
-          }
-        ],
-        "required_level": 62,
-        "stats": [
-          {
-            "id": "life_leech_from_any_damage_permyriad",
-            "value": 200
-          },
-          {
-            "id": "life_leech_speed_+%",
-            "value": 30
-          }
-        ]
-      }
+      "16": {}
     },
-    "static": {},
+    "static": {
+      "mana_multiplier": 130,
+      "quality_stats": [
+        {
+          "id": "life_leech_speed_+%",
+          "value": 500
+        }
+      ],
+      "required_level": 62,
+      "stats": [
+        {
+          "id": "life_leech_from_any_damage_permyriad",
+          "value": 200
+        },
+        {
+          "id": "life_leech_speed_+%",
+          "value": 30
+        }
+      ]
+    },
     "support_gem_letter": "l",
     "tags": null
   },
@@ -146459,27 +146355,26 @@
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "20": {
-        "mana_cost": 0,
-        "quality_stats": [],
-        "required_level": 1,
-        "stats": [
-          {
-            "id": "base_skill_effect_duration",
-            "value": 6000
-          },
-          {
-            "id": "base_elemental_damage_heals",
-            "value": 1
-          }
-        ],
-        "vaal": {
-          "souls": 48,
-          "stored_uses": 1
+      "20": {}
+    },
+    "static": {
+      "mana_cost": 0,
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 6000
+        },
+        {
+          "id": "base_elemental_damage_heals",
+          "value": 1
         }
+      ],
+      "vaal": {
+        "souls": 48,
+        "stored_uses": 1
       }
     },
-    "static": {},
     "tags": null
   },
   "VaalBreach": {
