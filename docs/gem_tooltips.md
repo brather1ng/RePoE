@@ -7,9 +7,8 @@ description object as value. That description object has fields `per_level` and
 `static`.
 
 `per_level` contains the statistics that change with level and `static` those that
-are the same for each level. If the skill is only defined for one level, `static` is
-empty. The keys in the `per_level` object hold the statistics for the level
-corresponding to that key.
+are the same for each level. The keys in the `per_level` object hold the 
+statistics for the level corresponding to that key.
 
 To get all statistics for one level, the `per_level` entry and `static`
 have to be merged. This happens recursively.

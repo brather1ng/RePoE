@@ -157,6 +157,9 @@ class GemConverter:
                     'souls': gepl['VaalSouls'],
                     'stored_uses': gepl['VaalStoredUses']
                 }
+        mana_reservation_override = gepl['Unknown33']
+        if mana_reservation_override > 0:
+            r['mana_reservation_override'] = mana_reservation_override
 
         stats = []
         for k, v in gepl['Stats']:
@@ -347,7 +350,7 @@ class GemConverter:
             "text": p,
             "value": level
         })
-        if 'mana_multiplier' in for_level:
+        if 'mana_multiplier' in for_level and for_level['mana_multiplier'] != 100:
             properties.append({
                 "text": "Mana Multiplier: {0}%",
                 "value": for_level['mana_multiplier']
@@ -364,6 +367,11 @@ class GemConverter:
             properties.append({
                 "text": p,
                 "value": for_level['mana_cost']
+            })
+        if 'mana_reservation_override' in for_level:
+            properties.append({
+                "test": "Mana Reservation Override: {0}%",
+                "value": for_level['mana_reservation_override']
             })
         if 'vaal' in for_level:
             properties.append({
@@ -458,7 +466,7 @@ class GemConverter:
         for i, line in enumerate(stats_tr.lines):
             stats.append({
                 "id": ','.join(stats_tr.found_ids[i]),
-                "text": line,
+                "text": line.strip(),
                 "values": stats_tr.values_parsed[i]
             })
 
@@ -476,7 +484,7 @@ class GemConverter:
         quality_stats = []
         for i, line in enumerate(qs_tr.lines):
             quality_stats.append({
-                "text": line,
+                "text": line.strip(),
                 "values": [v / 1000 for v in qs_tr.values_parsed[i]]
             })
 

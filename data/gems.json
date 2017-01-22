@@ -64506,7 +64506,7 @@
     "base_item": {
       "display_name": "Icefire",
       "id": "Metadata/Items/Gems/SkillGemIcefire",
-      "release_state": "released"
+      "release_state": "unreleased"
     },
     "cast_time": 1000,
     "is_support": false,
@@ -106877,6 +106877,7 @@
     "static": {
       "cooldown": 500,
       "mana_multiplier": 100,
+      "mana_reservation_override": 35,
       "quality_stats": [
         {
           "id": "curse_effect_+%",

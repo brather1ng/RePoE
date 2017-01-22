@@ -13,9 +13,8 @@ description object as value. That description object has the following fields:
 #### `per_level` and `static`
 
 `per_level` contains the statistics that change with level and `static` those that
-are the same for each level. If the skill is only defined for one level, `static` is
-empty. The keys in the `per_level` object hold the statistics for the level
-corresponding to that key.
+are the same for each level. The keys in the `per_level` object hold the
+statistics for the level corresponding to that key.
 
 To get all statistics for one level, the `per_level` entry and `static`
 have to be merged. This happens recursively.
@@ -40,6 +39,8 @@ recursion.
   set for spells with a cooldown.
 - `mana_multiplier`: Mana multiplier of the support gem. Only set for support gems.
 - `mana_cost`: Mana cost required to cast the skill. Only set for active skills.
+- `mana_reservation_override`: Set mana cost of supported skill to mana reservation
+  of this amount (in percent). Only set for Blasphemy.
 - `damage_effectiveness`: Damage effectiveness of the skill. Only set when not 0.
   Acts as a multiplier on added damage from support gems and other sources.
   Given as percentage with 0 = 100%.
@@ -75,6 +76,8 @@ described below.
   * `release_state`: In what state that item is currently in-game. See
     [`RePoE.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L146)
     for possible values and their meaning. 
+- `projectile_speed`: Projectile speed of the primary projectile of the skill
+  in internal units (per second?).
 - `tags`: Array of the gem tags of the item. See `gem_tags.json` for possible
   values and translations to their in-game display text.
 

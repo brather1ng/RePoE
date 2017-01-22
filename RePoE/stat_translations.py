@@ -1,4 +1,4 @@
-from PyPoE.poe.file.translations import TranslationFileCache, get_custom_translation_file
+from PyPoE.poe.file.translations import get_custom_translation_file
 from RePoE.util import write_json, call_with_default_args
 
 
@@ -112,6 +112,7 @@ def write_stat_translations(data_path, translation_file_cache, **kwargs):
 #   - passive_skill_aura
 # 'monster_stat_descriptions.txt' tree
 STAT_FILES = [
+    'gem_stat_descriptions.txt',
     'skill_stat_descriptions.txt',
     'aura_skill_stat_descriptions.txt',
     'beam_skill_stat_descriptions.txt',

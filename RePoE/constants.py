@@ -163,6 +163,7 @@ UNRELEASED_GEMS = {
     "EnergyBeam",
     "FireWeapon",
     "HeraldOfBlood",
+    "Icefire",
     "LightningChannel",
     "LightningCircle",
     "RighteousLightning",
