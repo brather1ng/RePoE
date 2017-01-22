@@ -370,7 +370,7 @@ class GemConverter:
             })
         if 'mana_reservation_override' in for_level:
             properties.append({
-                "test": "Mana Reservation Override: {0}%",
+                "text": "Mana Reservation Override: {0}%",
                 "value": for_level['mana_reservation_override']
             })
         if 'vaal' in for_level:
