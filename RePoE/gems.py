@@ -1,3 +1,5 @@
+import re
+
 from PyPoE.cli.exporter.wiki.parsers.item import ItemsParser
 from PyPoE.poe.constants import MOD_DOMAIN
 from PyPoE.poe.file import StatFilterFile
@@ -47,11 +49,27 @@ def _handle_dict(representative, per_level):
 
 
 def _handle_list(representative, per_level):
+    # edge cases (all None, any None, mismatching lengths, all empty)
+    all_none = True
+    any_none = False
+    for pl in per_level:
+        all_none &= pl is None
+        any_none |= pl is None
+        if pl is not None and len(pl) != len(representative):
+            return None, False
+    if all_none:
+        return None, True
+    if any_none:
+        return None, False
+    if not representative:
+        # all empty, else above would be true
+        return [], True
+
     static = None
     cleared = True
     cleared_is = []
     for i, v in enumerate(representative):
-        per_level_values = [pl[i] for pl in per_level if pl is not None]
+        per_level_values = [pl[i] for pl in per_level]
         if isinstance(v, dict):
             static_value, cleared_value = _handle_dict(v, per_level_values)
         elif isinstance(v, list):
@@ -83,6 +101,8 @@ def _handle_primitives(representative, per_level):
 
 
 class GemConverter:
+
+    regex_number = re.compile(r'-?\d+(\.\d+)?')
 
     def __init__(self, ggpk, relational_reader, translation_file_cache):
         self.relational_reader = relational_reader
@@ -241,14 +261,12 @@ class GemConverter:
         gepls = self.gepls[ge_id]
         gepls.sort(key=lambda g: g['Level'])
         gepls_dict = {}
-        has_damage_multiplier = False
         for gepl in gepls:
             gepl_converted = self._convert_gepl(gepl, multipliers, is_support)
-            has_damage_multiplier |= 'damage_multiplier' in gepl_converted
             gepls_dict[gepl['Level']] = gepl_converted
         obj['per_level'] = gepls_dict
 
-        tp_per_level = {level: self._to_tooltip(obj, level, for_level, has_damage_multiplier)
+        tp_per_level = {level: self._to_tooltip(obj, level, gepls_dict.values(), for_level)
                         for level, for_level in gepls_dict.items()}
         tooltip = {
             'per_level': tp_per_level
@@ -321,7 +339,7 @@ class GemConverter:
 
             i += 1
 
-    def _to_tooltip(self, gem, level, for_level, has_damage_multiplier):
+    def _to_tooltip(self, gem, level, all_levels, for_level):
         has_base_item = gem.get('base_item') is not None
         has_active_skill = gem.get('active_skill') is not None
 
@@ -350,12 +368,13 @@ class GemConverter:
             "text": p,
             "value": level
         })
-        if 'mana_multiplier' in for_level and for_level['mana_multiplier'] != 100:
+        if 'mana_multiplier' in for_level \
+                and any(l['mana_multiplier'] != 100 for l in all_levels):
             properties.append({
                 "text": "Mana Multiplier: {0}%",
                 "value": for_level['mana_multiplier']
             })
-        if 'mana_cost' in for_level:
+        if 'mana_cost' in for_level and for_level['mana_cost'] > 0:
             p = "Mana Cost: {0}"
             if has_active_skill:
                 types = gem['active_skill']['types']
@@ -444,49 +463,17 @@ class GemConverter:
         else:
             tf = self.translation_file_cache['gem_stat_descriptions.txt']
 
-        stat_ids = []
-        stat_values = []
-        for s in for_level['stats']:
-            stat_ids.append(s['id'])
-            stat_values.append(s['value'])
-        stats_tr = tf.get_translation(
-            tags=stat_ids,
-            values=stat_values,
-            use_placeholder=lambda i: "{%s}" % i,
-            full_result=True
-        )
         stats = []
-        if has_damage_multiplier:
+        if any('damage_multiplier' in l for l in all_levels):
             damage_multiplier = for_level['damage_multiplier'] if 'damage_multiplier' in for_level else 0
             stats.append({
                 "id": ' ',  # spaces can't appear in stat ids
                 "text": "Deals {0}% of Base Attack Damage",
                 "value": (damage_multiplier / 100) + 100
             })
-        for i, line in enumerate(stats_tr.lines):
-            stats.append({
-                "id": ','.join(stats_tr.found_ids[i]),
-                "text": line.strip(),
-                "values": stats_tr.values_parsed[i]
-            })
+        stats.extend(self._tooltip_stats(tf, for_level['stats'], are_quality_stats=False))
 
-        qs_ids = []
-        qs_values = []
-        for s in for_level['quality_stats']:
-            qs_ids.append(s['id'])
-            qs_values.append(s['value'])
-        qs_tr = tf.get_translation(
-            tags=qs_ids,
-            values=qs_values,
-            use_placeholder=lambda i: "{%s}" % i,
-            full_result=True
-        )
-        quality_stats = []
-        for i, line in enumerate(qs_tr.lines):
-            quality_stats.append({
-                "text": line.strip(),
-                "values": [v / 1000 for v in qs_tr.values_parsed[i]]
-            })
+        quality_stats = list(self._tooltip_stats(tf, for_level['quality_stats'], are_quality_stats=True))
 
         return {
             'name': name,
@@ -496,6 +483,36 @@ class GemConverter:
             'stats': stats,
             'quality_stats': quality_stats
         }
+
+    def _tooltip_stats(self, tf, for_level, are_quality_stats):
+        divisor = 50 if are_quality_stats else 1
+        tr = tf.get_translation(
+            tags=[s['id'] for s in for_level],
+            values=[s['value'] / divisor for s in for_level],
+            full_result=True
+        )
+        divisor = 20 if are_quality_stats else 1
+        for i, line in enumerate(tr.lines):
+            line = line.strip()
+            vs = []
+            for match in self.regex_number.finditer(line):
+                string = match.group(0)
+                if '.' in string or divisor != 1:
+                    vs.append(float(string) / divisor)
+                else:
+                    vs.append(int(string))
+            match_i = [-1]
+            def repl(_):
+                match_i[0] += 1
+                return "{%d}" % match_i[0]
+            line = self.regex_number.sub(repl, line)
+            stat = {
+                "text": line,
+                "values": vs
+            }
+            if not are_quality_stats:
+                stat["id"] = ','.join(tr.found_ids[i])
+            yield stat
 
 
 def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwargs):

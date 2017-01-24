@@ -48,7 +48,9 @@ Array entries have four forms:
   contains occurrences of `{i}`. Each of them references the entry of the array
   `values` with index `i`. These entries are numbers. If your language has
   format strings like this, just put `text` as the string and `values` as the
-  parameters and the return value is the line.
+  parameters and the return value is the line. Values are referenced in order and
+  each value is referenced exactly once (`{0}..{n}` occur in order in `text`,
+  each `{i}` occurs exactly once and `n` is the number of `values`)
 3. An object with the fields `text` and `value`: Replace `{0}` in `text` with the
   `value` (a number) to get the line.
   You can handle this the same as 2. but with a single value instead of an array.
