@@ -7022,7 +7022,7 @@
     "active_skill": {
       "description": "Summons a short-lived flaming skull that rushes at nearby enemies and attacks them rapidly. Enemies will not directly engage these spirits, and can pass through them.",
       "display_name": "Summon Raging Spirit",
-      "id": "summon_raging_spirit",
+      "id": "summon_raging_spirit_triggered",
       "is_manually_casted": true,
       "is_skill_totem": false,
       "stat_conversions": {
@@ -7039,7 +7039,8 @@
         "spell_echo_supportable",
         "triggerable",
         "castable_by_nulls_inclination",
-        "fire"
+        "fire",
+        "unknown_61"
       ],
       "weapon_restrictions": []
     },
@@ -40275,7 +40276,8 @@
         "unknown_10",
         "fire",
         "triggerable",
-        "trigger_spell"
+        "trigger_spell",
+        "unknown_61"
       ],
       "weapon_restrictions": []
     },
@@ -69829,7 +69831,8 @@
         "lightning",
         "aoe",
         "unknown_10",
-        "castable_by_mjolner"
+        "castable_by_mjolner",
+        "unknown_61"
       ],
       "weapon_restrictions": []
     },
@@ -87679,7 +87682,8 @@
         "triggerable",
         "trigger_spell",
         "spell",
-        "unknown_10"
+        "unknown_10",
+        "unknown_61"
       ],
       "weapon_restrictions": []
     },
@@ -99246,7 +99250,8 @@
         "minion",
         "triggerable",
         "castable_by_nulls_inclination",
-        "trigger_spell"
+        "trigger_spell",
+        "unknown_61"
       ],
       "weapon_restrictions": []
     },
@@ -102173,7 +102178,8 @@
         "spell_echo_supportable",
         "triggerable",
         "castable_by_nulls_inclination",
-        "trigger_spell"
+        "trigger_spell",
+        "unknown_61"
       ],
       "weapon_restrictions": []
     },
@@ -145490,7 +145496,8 @@
         "projectile",
         "unknown_10",
         "unknown_57",
-        "trigger_attack"
+        "trigger_attack",
+        "unknown_61"
       ],
       "weapon_restrictions": []
     },
@@ -145552,7 +145559,8 @@
         "spell",
         "trigger_spell",
         "aoe",
-        "triggerable"
+        "triggerable",
+        "unknown_61"
       ],
       "weapon_restrictions": []
     },
@@ -145662,7 +145670,8 @@
         "minion",
         "triggerable",
         "castable_by_nulls_inclination",
-        "trigger_spell"
+        "trigger_spell",
+        "unknown_61"
       ],
       "weapon_restrictions": []
     },

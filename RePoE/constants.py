@@ -127,6 +127,10 @@ class ActiveSkillType(IntEnum):
     unknown_59 = 59
     # Skill can be cast by Cospri's Malice's trigger when socketed in it
     castable_by_cospris_malice = 60
+    # Set for triggered item innate spells
+    # Something related to "Fixed a bug where items with built-in triggered skills could have that skill detached from
+    # the item with support gems such as Spell Totem and be cast continuously without the trigger condition." (2.5.2)
+    unknown_61 = 61
 
 
 @unique
