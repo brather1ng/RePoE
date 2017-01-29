@@ -47,3 +47,10 @@ The following data is currently available:
 - Clone RePoE and go into its folder
 - Run `python RePoE.py`  
   (`python RePoE.py -h` to see arguments)
+
+## Credits
+
+- [Grinding Gear Games](http://www.grindinggear.com/) for 
+  [Path of Exile](https://www.pathofexile.com/). The contents of all `data` files
+  obviously belong to them.
+- [OmegaK2](https://github.com/OmegaK2/) for [PyPoE](https://github.com/OmegaK2/PyPoE).
