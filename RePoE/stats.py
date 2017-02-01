@@ -20,7 +20,7 @@ def write_stats(data_path, relational_reader, **kwargs):
         root[stat['Id']] = {
             'is_local': stat['IsLocal'],
             'is_aliased': stat['IsWeaponLocal'],
-            'alias': _convert_alias_stats(stat['Alias_StatsKey1'], stat['Alias_StatsKey2']),
+            'alias': _convert_alias_stats(stat['MainHandAlias_StatsKey'], stat['OffHandAlias_StatsKey']),
             # 'is_on_character_panel': stat['Flag6'],  # not sure
             # 'is_on_tooltip': stat['Flag7'],  # not sure
         }

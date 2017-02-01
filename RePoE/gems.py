@@ -142,7 +142,7 @@ class GemConverter:
             'id': active_skill['Id'],
             'display_name': active_skill['DisplayedName'],
             'description': active_skill['Description'],
-            'types': [ActiveSkillType(t).name for t in active_skill['ActiveSkillTypeData']],
+            'types': [ActiveSkillType(t).name for t in active_skill['ActiveSkillTypes']],
             'weapon_restrictions': [ic['Id'] for ic in active_skill['WeaponRestriction_ItemClassesKeys']],
             'is_skill_totem': (active_skill['SkillTotemId'] <= self.max_totem_id),
             'is_manually_casted': active_skill['IsManuallyCasted'],
@@ -156,7 +156,7 @@ class GemConverter:
         }
         if gepl['Cooldown'] > 0:
             r['cooldown'] = gepl['Cooldown']
-            cooldown_bypass_type = CooldownBypassType(gepl['Unknown29'])
+            cooldown_bypass_type = CooldownBypassType(gepl['CooldownBypassType'])
             if cooldown_bypass_type is not CooldownBypassType.none:
                 r['cooldown_bypass_type'] = cooldown_bypass_type.name
         if gepl['StoredUses'] > 0:
@@ -177,7 +177,7 @@ class GemConverter:
                     'souls': gepl['VaalSouls'],
                     'stored_uses': gepl['VaalStoredUses']
                 }
-        mana_reservation_override = gepl['Unknown33']
+        mana_reservation_override = gepl['ManaReservationOverride']
         if mana_reservation_override > 0:
             r['mana_reservation_override'] = mana_reservation_override
 
