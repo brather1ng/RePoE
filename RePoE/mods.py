@@ -1,4 +1,4 @@
-from PyPoE.poe.constants import MOD_DOMAIN, MOD_GENERATION_TYPE
+from PyPoE.poe.constants import MOD_DOMAIN
 from RePoE.util import write_json, call_with_default_args
 
 
@@ -65,7 +65,7 @@ def ignore_mod_domain(domain):
 def write_mods(data_path, relational_reader, **kwargs):
     root = {}
     for mod in relational_reader['Mods.dat']:
-        domain = MOD_DOMAIN(mod['Domain'])
+        domain = mod['Domain']
         if ignore_mod_domain(domain):
             continue
         obj = {
@@ -73,7 +73,7 @@ def write_mods(data_path, relational_reader, **kwargs):
             'stats': _convert_stats(mod['Stats']),
             'domain': domain.name.lower(),
             'name': mod['Name'],
-            'generation_type': MOD_GENERATION_TYPE(mod['GenerationType']).name.lower(),
+            'generation_type': mod['GenerationType'].name.lower(),
             'group': mod['CorrectGroup'],
             'spawn_tags': _convert_spawn_weights(mod['SpawnWeight']),
             'grants_buff': _convert_buff(mod['BuffDefinitionsKey'], mod['BuffValue']),

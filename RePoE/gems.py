@@ -1,7 +1,6 @@
 import re
 
 from PyPoE.cli.exporter.wiki.parsers.item import ItemsParser
-from PyPoE.poe.constants import MOD_DOMAIN
 from PyPoE.poe.file import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
 from RePoE.constants import ActiveSkillType, ReleaseState, UNRELEASED_GEMS, LEGACY_GEMS, CooldownBypassType
@@ -536,7 +535,7 @@ def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwa
     for mod in relational_reader['Mods.dat']:
         if mod['GrantedEffectsPerLevelKey'] is None:
             continue
-        if ignore_mod_domain(MOD_DOMAIN(mod['Domain'])):
+        if ignore_mod_domain(mod['Domain']):
             continue
         granted_effect = mod['GrantedEffectsPerLevelKey']['GrantedEffectsKey']
         ge_id = granted_effect['Id']

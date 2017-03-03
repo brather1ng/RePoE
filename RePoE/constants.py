@@ -131,6 +131,8 @@ class ActiveSkillType(IntEnum):
     # Something related to "Fixed a bug where items with built-in triggered skills could have that skill detached from
     # the item with support gems such as Spell Totem and be cast continuously without the trigger condition." (2.5.2)
     unknown_61 = 61
+    # Gem tag equivalent
+    golem = 62
 
 
 @unique
