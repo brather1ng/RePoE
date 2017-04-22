@@ -10781,6 +10781,69 @@
           }
         ],
         "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "30% increased Global Critical Strike Chance"
+      }
+    ],
+    "ids": [
+      "old_dagger_implicit_critical_strike_chance_+30%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "40% increased Global Critical Strike Chance"
+      }
+    ],
+    "ids": [
+      "old_dagger_implicit_critical_strike_chance_+40%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "50% increased Global Critical Strike Chance"
+      }
+    ],
+    "ids": [
+      "old_dagger_implicit_critical_strike_chance_+50%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
           "#"
         ],
         "index_handlers": [
@@ -91940,6 +92003,21 @@
       {
         "condition": [
           {
+            "max": 99,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Area has a {0}% chance to contain Cadiro Perandus"
+      },
+      {
+        "condition": [
+          {
             "min": 100
           }
         ],
@@ -93066,63 +93144,6 @@
     ],
     "ids": [
       "number_of_zombies_allowed_+1_per_X_strength"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "30% increased Critical Strike Chance"
-      }
-    ],
-    "ids": [
-      "old_dagger_implicit_critical_strike_chance_+30%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "40% increased Critical Strike Chance"
-      }
-    ],
-    "ids": [
-      "old_dagger_implicit_critical_strike_chance_+40%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "50% increased Critical Strike Chance"
-      }
-    ],
-    "ids": [
-      "old_dagger_implicit_critical_strike_chance_+50%"
     ]
   },
   {
@@ -107369,7 +107390,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Warbands"
+        "string": "Bloodlines"
       },
       {
         "condition": [
@@ -107384,7 +107405,97 @@
         "index_handlers": [
           []
         ],
+        "string": "Warbands"
+      },
+      {
+        "condition": [
+          {
+            "max": 14,
+            "min": 14
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Tempest"
+      },
+      {
+        "condition": [
+          {
+            "max": 17,
+            "min": 17
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Talisman"
+      },
+      {
+        "condition": [
+          {
+            "max": 18,
+            "min": 18
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Perandus"
+      },
+      {
+        "condition": [
+          {
+            "max": 19,
+            "min": 19
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Prophecy"
+      },
+      {
+        "condition": [
+          {
+            "max": 20,
+            "min": 20
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Essence"
+      },
+      {
+        "condition": [
+          {
+            "max": 21,
+            "min": 21
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Breach"
       },
       {
         "condition": [

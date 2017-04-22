@@ -14,7 +14,7 @@
         "aoe",
         "duration",
         "chaos",
-        "unknown_10"
+        "hits"
       ],
       "weapon_restrictions": []
     },
@@ -5110,7 +5110,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "trap_supportable",
         "spell_totem_supportable",
         "remote_mine_supportable",
@@ -6392,7 +6392,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "trap_supportable",
         "spell_totem_supportable",
         "remote_mine_supportable",
@@ -7074,7 +7074,7 @@
         "triggerable",
         "castable_by_nulls_inclination",
         "fire",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -8424,7 +8424,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "projectile",
         "aoe",
         "spell_totem_supportable",
@@ -9010,7 +9010,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "can_dual_wield",
         "projectile",
         "ranged_attack_totem_supportable",
@@ -9320,7 +9320,7 @@
         "remote_mine_supportable",
         "trap",
         "cast",
-        "unknown_10"
+        "hits"
       ],
       "weapon_restrictions": []
     },
@@ -10063,13 +10063,13 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "unknown_10",
+        "hits",
         "remote_mine_supportable",
         "aoe",
         "trap",
         "projectile",
-        "unknown_14",
-        "ppad_supportable"
+        "explicit_deals_projectile_damage",
+        "projectile_attack"
       ],
       "weapon_restrictions": []
     },
@@ -10139,7 +10139,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "spell_totem_supportable",
@@ -11055,7 +11055,7 @@
         "trap_supportable",
         "remote_mine_supportable",
         "spell_totem_supportable",
-        "unknown_10",
+        "hits",
         "triggerable",
         "spell_echo_supportable"
       ],
@@ -11665,12 +11665,12 @@
       "types": [
         "attack",
         "aoe",
-        "unknown_14",
+        "explicit_deals_projectile_damage",
         "ranged_attack_totem_supportable",
         "trap_supportable",
         "remote_mine_supportable",
         "fire",
-        "ppad_supportable"
+        "projectile_attack"
       ],
       "weapon_restrictions": [
         "Bow"
@@ -12699,10 +12699,10 @@
       "is_skill_totem": false,
       "stat_conversions": {},
       "types": [
-        "unknown_14",
+        "explicit_deals_projectile_damage",
         "attack",
         "minion",
-        "ppad_supportable",
+        "projectile_attack",
         "summons_mobs",
         "duration",
         "ranged_attack_totem_supportable",
@@ -14994,14 +14994,14 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "ranged_attack_totem_supportable",
         "trap_supportable",
         "remote_mine_supportable",
         "fire",
-        "unknown_53",
-        "unknown_55"
+        "can_have_aoe",
+        "can_have_duration"
       ],
       "weapon_restrictions": [
         "Bow"
@@ -16415,7 +16415,7 @@
         "aoe",
         "multistrike_supportable",
         "melee",
-        "unknown_53"
+        "can_have_aoe"
       ],
       "weapon_restrictions": [
         "One Hand Sword",
@@ -16964,7 +16964,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "can_dual_wield",
         "aoe",
@@ -18191,7 +18191,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -24096,7 +24096,7 @@
       },
       "types": [
         "cast",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -25540,7 +25540,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "spell_totem_supportable",
         "spell_echo_supportable",
@@ -28233,7 +28233,7 @@
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
-        "unknown_53"
+        "can_have_aoe"
       ],
       "weapon_restrictions": [
         "Claw",
@@ -28537,7 +28537,7 @@
         "aoe",
         "melee",
         "uses_main_hand_when_dual_wielding",
-        "unknown_10",
+        "hits",
         "multistrike_supportable",
         "duration"
       ],
@@ -28829,7 +28829,7 @@
         "fire",
         "cold",
         "lightning",
-        "ppad_supportable"
+        "projectile_attack"
       ],
       "weapon_restrictions": []
     },
@@ -29807,10 +29807,10 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "trap_supportable",
         "remote_mine_supportable",
-        "unknown_14",
+        "explicit_deals_projectile_damage",
         "spell_totem_supportable",
         "aoe"
       ],
@@ -30808,7 +30808,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_10",
+        "hits",
         "fire",
         "triggerable"
       ],
@@ -30867,7 +30867,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_10",
+        "hits",
         "fire",
         "triggerable"
       ],
@@ -30926,7 +30926,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_10",
+        "hits",
         "fire",
         "triggerable"
       ],
@@ -30985,7 +30985,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_10",
+        "hits",
         "fire",
         "triggerable"
       ],
@@ -31044,7 +31044,7 @@
       "types": [
         "attack",
         "aoe",
-        "unknown_10",
+        "hits",
         "can_dual_wield",
         "trigger_attack",
         "unknown_57"
@@ -31092,7 +31092,7 @@
       "types": [
         "attack",
         "aoe",
-        "unknown_10",
+        "hits",
         "can_dual_wield",
         "trigger_attack",
         "unknown_57"
@@ -31140,7 +31140,7 @@
       "types": [
         "attack",
         "aoe",
-        "unknown_10",
+        "hits",
         "can_dual_wield",
         "trigger_attack",
         "unknown_57"
@@ -31188,7 +31188,7 @@
       "types": [
         "attack",
         "aoe",
-        "unknown_10",
+        "hits",
         "can_dual_wield",
         "trigger_attack",
         "unknown_57"
@@ -31515,7 +31515,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "trigger_attack",
         "can_dual_wield",
@@ -31614,7 +31614,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "trigger_attack",
         "can_dual_wield",
@@ -31713,7 +31713,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "trigger_attack",
         "can_dual_wield",
@@ -31812,7 +31812,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "trigger_attack",
         "can_dual_wield",
@@ -32195,7 +32195,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "spell_totem_supportable",
@@ -32280,7 +32280,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "spell_totem_supportable",
@@ -32365,7 +32365,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "spell_totem_supportable",
@@ -32450,7 +32450,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "spell_totem_supportable",
@@ -33031,7 +33031,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "trigger_attack",
         "can_dual_wield",
@@ -33130,7 +33130,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "trigger_attack",
         "can_dual_wield",
@@ -33229,7 +33229,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "trigger_attack",
         "can_dual_wield",
@@ -33328,7 +33328,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "trigger_attack",
         "can_dual_wield",
@@ -33427,7 +33427,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -33496,7 +33496,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -33565,7 +33565,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -33634,7 +33634,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -34444,7 +34444,7 @@
       "types": [
         "projectile",
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -34512,7 +34512,7 @@
       "types": [
         "projectile",
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -34580,7 +34580,7 @@
       "types": [
         "projectile",
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -34648,7 +34648,7 @@
       "types": [
         "projectile",
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -35724,7 +35724,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "spell_totem_supportable"
       ],
       "weapon_restrictions": []
@@ -37247,7 +37247,7 @@
         "spell_echo_supportable",
         "deals_damage_over_time",
         "chaos",
-        "unknown_10",
+        "hits",
         "triggerable"
       ],
       "weapon_restrictions": []
@@ -38016,7 +38016,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "projectile",
         "spell_totem_supportable",
         "trap_supportable",
@@ -38718,9 +38718,9 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "ranged_attack_totem_supportable",
@@ -40027,11 +40027,11 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_10",
+        "hits",
         "fire",
         "triggerable",
         "trigger_spell",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -40504,7 +40504,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "triggerable",
         "aoe",
         "fire",
@@ -41957,7 +41957,7 @@
       "types": [
         "spell",
         "duration",
-        "unknown_10",
+        "hits",
         "remote_mine_supportable",
         "aoe",
         "applies_burning",
@@ -43287,7 +43287,7 @@
       "types": [
         "projectile",
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -44021,7 +44021,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "trap_supportable",
@@ -44707,7 +44707,7 @@
       "types": [
         "spell",
         "movement",
-        "unknown_10",
+        "hits",
         "deals_damage_over_time",
         "duration",
         "spell_totem_supportable",
@@ -45419,7 +45419,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "duration",
         "trap_supportable",
         "remote_mine_supportable",
@@ -46353,7 +46353,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "trap_supportable",
         "spell_totem_supportable",
         "remote_mine_supportable",
@@ -46968,7 +46968,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "spell_totem_supportable",
         "fire",
@@ -49345,7 +49345,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "mine",
@@ -50219,7 +50219,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "trap_supportable",
         "spell_totem_supportable",
         "remote_mine_supportable",
@@ -50894,7 +50894,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "can_dual_wield",
         "ranged_attack_totem_supportable",
@@ -51185,7 +51185,7 @@
         "multistrike_supportable",
         "melee",
         "cold",
-        "ppad_supportable"
+        "projectile_attack"
       ],
       "weapon_restrictions": [
         "Claw",
@@ -51901,7 +51901,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "trap_supportable",
         "spell_totem_supportable",
         "remote_mine_supportable",
@@ -52483,7 +52483,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -53197,7 +53197,7 @@
         "aoe",
         "duration",
         "cold",
-        "unknown_10",
+        "hits",
         "spell_echo_supportable",
         "spell_totem_supportable",
         "trap_supportable",
@@ -53917,7 +53917,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "duration",
         "trap_supportable",
         "spell_totem_supportable",
@@ -55512,7 +55512,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -56289,7 +56289,7 @@
         "multistrike_supportable",
         "melee",
         "cold",
-        "unknown_53"
+        "can_have_aoe"
       ],
       "weapon_restrictions": [
         "One Hand Mace",
@@ -59108,7 +59108,7 @@
         "applies_burning",
         "aoe",
         "deals_damage_over_time",
-        "unknown_20",
+        "explicit_causes_elemental_status",
         "fire",
         "unknown_27"
       ],
@@ -59827,7 +59827,7 @@
         "buff",
         "mana_cost_is_reservation",
         "mana_cost_is_percentage",
-        "unknown_10",
+        "hits",
         "aoe",
         "cold",
         "unknown_27"
@@ -60882,7 +60882,7 @@
         "buff",
         "mana_cost_is_reservation",
         "mana_cost_is_percentage",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "lightning",
@@ -62233,7 +62233,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -62817,7 +62817,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "aoe",
         "duration",
@@ -63129,7 +63129,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "trap_supportable",
         "spell_totem_supportable",
         "remote_mine_supportable",
@@ -63805,7 +63805,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "remote_mine_supportable",
         "aoe",
         "trap",
@@ -64517,7 +64517,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_14",
+        "explicit_deals_projectile_damage",
         "projectile"
       ],
       "weapon_restrictions": []
@@ -65235,7 +65235,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "trap_supportable",
@@ -65976,7 +65976,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "spell_totem_supportable",
         "fire",
         "channelling"
@@ -66909,7 +66909,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "trap_supportable",
         "spell_totem_supportable",
         "remote_mine_supportable",
@@ -67848,7 +67848,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "aoe",
         "projectile",
         "ranged_attack_totem_supportable",
@@ -68154,7 +68154,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "spell_totem_supportable",
         "spell_echo_supportable",
@@ -68654,7 +68654,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -69777,9 +69777,9 @@
         "trigger_spell",
         "lightning",
         "aoe",
-        "unknown_10",
+        "hits",
         "castable_by_mjolner",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -70251,7 +70251,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "can_dual_wield",
         "melee_single_target_initial_hit",
@@ -70848,7 +70848,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "spell_totem_supportable",
         "spell_echo_supportable",
@@ -71521,7 +71521,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "projectile",
         "trap",
         "remote_mine_supportable",
@@ -72305,7 +72305,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "trap_supportable",
@@ -73019,7 +73019,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "remote_mine_supportable",
@@ -73731,10 +73731,10 @@
       "is_skill_totem": false,
       "stat_conversions": {},
       "types": [
-        "unknown_14",
+        "explicit_deals_projectile_damage",
         "attack",
         "minion",
-        "ppad_supportable",
+        "projectile_attack",
         "summons_mobs",
         "duration",
         "ranged_attack_totem_supportable",
@@ -74511,7 +74511,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "spell_totem_supportable",
@@ -75389,7 +75389,7 @@
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "fire",
-        "ppad_supportable"
+        "projectile_attack"
       ],
       "weapon_restrictions": [
         "Claw",
@@ -76319,7 +76319,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "spell_totem_supportable",
@@ -78155,7 +78155,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -78772,7 +78772,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "lightning",
         "duration",
         "aoe",
@@ -80468,7 +80468,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "aoe",
         "duration",
@@ -80498,25 +80498,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 2800
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 312
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 30
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 0
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "2": {
@@ -80527,25 +80520,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 2900
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 391
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 31
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 0
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "3": {
@@ -80556,25 +80542,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 3000
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 530
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 32
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 0
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "4": {
@@ -80585,21 +80564,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 3100
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 702
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 33
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 0
-          }
+          },
+          null
         ]
       },
       "5": {
@@ -80610,25 +80586,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 3200
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 991
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 34
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 1
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "6": {
@@ -80639,25 +80608,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 3300
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 1365
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 35
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 1
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "7": {
@@ -80668,25 +80630,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 3400
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 1846
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 36
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 1
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "8": {
@@ -80697,25 +80652,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 3500
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 2462
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 37
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 1
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "9": {
@@ -80726,25 +80674,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 3600
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 3247
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 38
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 1
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "10": {
@@ -80755,25 +80696,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 3700
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 4243
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 39
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 2
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "11": {
@@ -80784,25 +80718,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 3900
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 5501
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 40
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 2
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "12": {
@@ -80813,25 +80740,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 4000
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 7088
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 41
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 2
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "13": {
@@ -80842,25 +80762,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 4100
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 9081
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 42
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 2
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "14": {
@@ -80871,25 +80784,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 4200
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 11578
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 43
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 2
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "15": {
@@ -80900,25 +80806,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 4300
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 13855
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 44
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 3
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "16": {
@@ -80929,25 +80828,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 4400
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 16542
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 45
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 3
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "17": {
@@ -80958,25 +80850,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 4500
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 19713
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 46
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 3
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "18": {
@@ -80987,25 +80872,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 4600
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 23449
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 47
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 3
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "19": {
@@ -81016,25 +80894,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 4700
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 27848
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 48
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 3
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "20": {
@@ -81045,25 +80916,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 4800
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 33020
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 49
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 4
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "21": {
@@ -81074,25 +80938,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5000
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 36963
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 50
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 4
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "22": {
@@ -81103,25 +80960,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5100
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 41352
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 51
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 4
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "23": {
@@ -81132,25 +80982,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5200
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 46235
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 52
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 4
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "24": {
@@ -81161,25 +81004,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5300
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 51667
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 53
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 4
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "25": {
@@ -81190,25 +81026,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5400
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 57707
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 54
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 5
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "26": {
@@ -81219,25 +81048,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5500
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 64421
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 55
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 5
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "27": {
@@ -81248,25 +81070,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5600
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 71883
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 56
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 5
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "28": {
@@ -81277,25 +81092,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5700
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 80172
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 57
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 5
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "29": {
@@ -81306,25 +81114,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5800
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 89377
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 58
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 5
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       },
       "30": {
@@ -81335,25 +81136,18 @@
         },
         "stats": [
           {
-            "id": "base_skill_effect_duration",
             "value": 5900
           },
           {
-            "id": "base_chaos_damage_to_deal_per_minute",
             "value": 99599
           },
           {
-            "id": "physical_damage_%_to_add_as_chaos",
             "value": 59
           },
           {
-            "id": "active_skill_base_radius_+",
             "value": 6
           },
-          {
-            "id": "skill_can_fire_arrows",
-            "value": 1
-          }
+          null
         ]
       }
     },
@@ -81368,7 +81162,25 @@
       "stat_requirements": {
         "int": 0,
         "str": 0
-      }
+      },
+      "stats": [
+        {
+          "id": "base_skill_effect_duration"
+        },
+        {
+          "id": "base_chaos_damage_to_deal_per_minute"
+        },
+        {
+          "id": "physical_damage_%_to_add_as_chaos"
+        },
+        {
+          "id": "active_skill_base_radius_+"
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        }
+      ]
     },
     "tags": [
       "dexterity",
@@ -81457,7 +81269,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "can_dual_wield",
         "projectile",
         "ranged_attack_totem_supportable",
@@ -82467,7 +82279,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "can_dual_wield",
         "duration",
@@ -84197,9 +84009,9 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "aoe",
-        "unknown_14",
+        "explicit_deals_projectile_damage",
         "ranged_attack_totem_supportable",
         "trap_supportable",
         "remote_mine_supportable"
@@ -88215,8 +88027,8 @@
         "triggerable",
         "trigger_spell",
         "spell",
-        "unknown_10",
-        "unknown_61"
+        "hits",
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -89729,10 +89541,10 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "projectile",
-        "unknown_14",
+        "explicit_deals_projectile_damage",
         "spell_echo_supportable",
         "cold"
       ],
@@ -91046,7 +90858,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "projectile",
         "spell_totem_supportable",
         "trap_supportable",
@@ -91659,7 +91471,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -92277,7 +92089,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "trap_supportable",
@@ -93094,7 +92906,7 @@
         "trap_supportable",
         "remote_mine_supportable",
         "lightning",
-        "ppad_supportable"
+        "projectile_attack"
       ],
       "weapon_restrictions": [
         "Bow"
@@ -93744,7 +93556,7 @@
       "types": [
         "attack",
         "projectile",
-        "ppad_supportable",
+        "projectile_attack",
         "trap_supportable",
         "remote_mine_supportable",
         "totem",
@@ -94496,7 +94308,7 @@
       "stat_conversions": {},
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "remote_mine_supportable",
         "spell_totem_supportable",
         "aoe",
@@ -95721,7 +95533,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "ranged_attack_totem_supportable",
         "trap_supportable",
@@ -95910,7 +95722,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "duration",
         "trap_supportable",
         "spell_totem_supportable",
@@ -97235,7 +97047,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "ranged_attack_totem_supportable",
         "trap_supportable",
@@ -98277,8 +98089,8 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
-        "unknown_14",
+        "hits",
+        "explicit_deals_projectile_damage",
         "aoe",
         "duration"
       ],
@@ -98817,7 +98629,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "spell_totem_supportable",
         "lightning",
         "channelling",
@@ -99398,7 +99210,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "trap_supportable",
@@ -100883,7 +100695,7 @@
         "triggerable",
         "castable_by_nulls_inclination",
         "trigger_spell",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -103814,7 +103626,7 @@
         "triggerable",
         "castable_by_nulls_inclination",
         "trigger_spell",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -144299,7 +144111,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "shield_only",
         "unknown_27",
         "lightning",
@@ -145782,7 +145594,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "can_dual_wield"
       ],
@@ -146120,7 +145932,7 @@
         "trap_supportable",
         "remote_mine_supportable",
         "ranged_attack_totem_supportable",
-        "ppad_supportable"
+        "projectile_attack"
       ],
       "weapon_restrictions": [
         "Bow"
@@ -147182,7 +146994,7 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "unknown_10",
+        "hits",
         "aoe",
         "lightning"
       ],
@@ -147480,7 +147292,7 @@
         "spell_totem_supportable",
         "castable_by_nulls_inclination",
         "trigger_spell",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -147545,12 +147357,12 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
-        "unknown_10",
+        "hits",
         "unknown_57",
         "trigger_attack",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -147613,7 +147425,7 @@
         "triggerable",
         "aoe",
         "trigger_spell",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -147664,7 +147476,7 @@
         "trigger_spell",
         "aoe",
         "triggerable",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -147716,7 +147528,7 @@
         "fire",
         "unknown_57",
         "trigger_attack",
-        "ppad_supportable"
+        "projectile_attack"
       ],
       "weapon_restrictions": []
     },
@@ -147776,7 +147588,7 @@
         "duration",
         "trigger_spell",
         "castable_by_mjolner",
-        "unknown_61",
+        "trigger_item_granted",
         "lightning"
       ],
       "weapon_restrictions": []
@@ -147826,7 +147638,7 @@
         "spell",
         "triggerable",
         "trigger_spell",
-        "unknown_61",
+        "trigger_item_granted",
         "duration"
       ],
       "weapon_restrictions": []
@@ -147874,7 +147686,7 @@
         "triggerable",
         "castable_by_nulls_inclination",
         "trigger_spell",
-        "unknown_61"
+        "trigger_item_granted"
       ],
       "weapon_restrictions": []
     },
@@ -148291,7 +148103,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "trap_supportable",
         "spell_totem_supportable",
         "remote_mine_supportable",
@@ -148968,7 +148780,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "ranged_attack_totem_supportable",
         "trap_supportable",
@@ -148976,7 +148788,7 @@
         "aoe",
         "vaal",
         "fire",
-        "unknown_55"
+        "can_have_duration"
       ],
       "weapon_restrictions": [
         "Bow"
@@ -150122,7 +149934,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -151050,7 +150862,7 @@
       },
       "types": [
         "cast",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -152770,7 +152582,7 @@
       "types": [
         "spell",
         "duration",
-        "unknown_10",
+        "hits",
         "remote_mine_supportable",
         "aoe",
         "applies_burning",
@@ -153717,7 +153529,7 @@
       "types": [
         "projectile",
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -154378,7 +154190,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "spell_totem_supportable",
         "vaal",
@@ -157692,7 +157504,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "trap_supportable",
         "spell_totem_supportable",
@@ -159341,7 +159153,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "projectile",
         "trap",
         "remote_mine_supportable",
@@ -160201,7 +160013,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "trap_supportable",
@@ -160886,7 +160698,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "spell_totem_supportable",
@@ -161673,7 +161485,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "can_dual_wield",
         "projectile",
         "ranged_attack_totem_supportable",
@@ -161965,9 +161777,9 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "aoe",
-        "unknown_14",
+        "explicit_deals_projectile_damage",
         "ranged_attack_totem_supportable",
         "trap_supportable",
         "remote_mine_supportable",
@@ -163348,7 +163160,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_10",
+        "hits",
         "vaal",
         "fire"
       ],
@@ -164106,7 +163918,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "duration",
         "trap_supportable",
         "spell_totem_supportable",
@@ -164767,7 +164579,7 @@
       },
       "types": [
         "spell",
-        "unknown_10",
+        "hits",
         "aoe",
         "duration",
         "trap_supportable",
@@ -166552,7 +166364,7 @@
       },
       "types": [
         "attack",
-        "ppad_supportable",
+        "projectile_attack",
         "projectile",
         "can_dual_wield",
         "vaal"
@@ -167170,7 +166982,7 @@
         "can_dual_wield",
         "multistrike_supportable",
         "melee_single_target_initial_hit",
-        "unknown_53"
+        "can_have_aoe"
       ],
       "weapon_restrictions": [
         "Claw",
@@ -169411,7 +169223,7 @@
       "types": [
         "spell",
         "projectile",
-        "unknown_10",
+        "hits",
         "movement"
       ],
       "weapon_restrictions": []
@@ -171041,7 +170853,7 @@
         "projectile",
         "aoe",
         "chaining",
-        "ppad_supportable"
+        "projectile_attack"
       ],
       "weapon_restrictions": [
         "Claw",

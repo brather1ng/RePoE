@@ -85866,7 +85866,7 @@
     "spawn_tags": [],
     "stats": [
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 0,
         "min": 0
       }
@@ -122183,7 +122183,7 @@
         "min": -4
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 68,
         "min": 68
       }
@@ -122229,7 +122229,7 @@
     "group": "MapAreaContainsPerandusUniqueMonster",
     "is_essence_only": false,
     "name": "of the Dynasty",
-    "required_level": 1,
+    "required_level": 25,
     "spawn_tags": [
       {
         "perandus_leaguestone": true
@@ -122248,6 +122248,11 @@
         "id": "local_extra_max_charges",
         "max": 0,
         "min": 0
+      },
+      {
+        "id": "leaguestone_suffix_minimum_area_level",
+        "max": 25,
+        "min": 25
       }
     ]
   },
@@ -122484,7 +122489,7 @@
     "group": "MapAreaContainsUniqueTalisman",
     "is_essence_only": false,
     "name": "Night",
-    "required_level": 1,
+    "required_level": 25,
     "spawn_tags": [
       {
         "talisman_leaguestone": true
@@ -122503,6 +122508,11 @@
         "id": "local_extra_max_charges",
         "max": -4,
         "min": -4
+      },
+      {
+        "id": "leaguestone_prefix_minimum_area_level",
+        "max": 25,
+        "min": 25
       }
     ]
   },
@@ -122531,7 +122541,7 @@
         "min": 1
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 56,
         "min": 56
       },
@@ -122567,7 +122577,7 @@
         "min": 1
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 0,
         "min": 0
       }
@@ -122598,7 +122608,7 @@
         "min": 2
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 0,
         "min": 0
       }
@@ -122629,7 +122639,7 @@
         "min": 3
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 0,
         "min": 0
       }
@@ -122660,7 +122670,7 @@
         "min": 4
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 68,
         "min": 68
       }
@@ -123105,7 +123115,7 @@
         "min": 1
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 68,
         "min": 68
       },
@@ -123487,7 +123497,7 @@
         "min": -3
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 37,
         "min": 37
       }
@@ -124168,7 +124178,7 @@
     "required_level": 1,
     "spawn_tags": [
       {
-        "ambush_leaguestone": false
+        "ambush_leaguestone": true
       },
       {
         "default": false
@@ -124521,7 +124531,7 @@
         "min": 1
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 68,
         "min": 68
       },
@@ -124557,7 +124567,7 @@
         "min": 1
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 68,
         "min": 68
       },
@@ -124624,7 +124634,7 @@
         "min": 25
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 30,
         "min": 30
       },
@@ -124660,7 +124670,7 @@
         "min": 21
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 68,
         "min": 68
       },
@@ -124696,7 +124706,7 @@
         "min": 22
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 68,
         "min": 68
       },
@@ -124732,7 +124742,7 @@
         "min": 23
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 68,
         "min": 68
       },
@@ -124768,7 +124778,7 @@
         "min": 24
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 68,
         "min": 68
       },
@@ -124788,7 +124798,7 @@
     "group": "MapLeaguestoneAreaContainsUniqueStrongbox",
     "is_essence_only": false,
     "name": "Singular",
-    "required_level": 1,
+    "required_level": 20,
     "spawn_tags": [
       {
         "ambush_leaguestone": true
@@ -124807,6 +124817,11 @@
         "id": "local_extra_max_charges",
         "max": -3,
         "min": -3
+      },
+      {
+        "id": "leaguestone_prefix_minimum_area_level",
+        "max": 20,
+        "min": 20
       }
     ]
   },
@@ -124835,7 +124850,7 @@
         "min": 1
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 40,
         "min": 40
       },
@@ -125841,8 +125856,8 @@
     "grants_effect": {},
     "group": "MapLeaguestoneWarbandsExtraElites",
     "is_essence_only": false,
-    "name": "Lieutennant's",
-    "required_level": 1,
+    "name": "Lieutenant's",
+    "required_level": 41,
     "spawn_tags": [
       {
         "warbands_leaguestone": true
@@ -125858,7 +125873,7 @@
         "min": 1
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 41,
         "min": 41
       }
@@ -125931,7 +125946,7 @@
     "group": "MapLeaguestoneWarbandsExtraSupports",
     "is_essence_only": false,
     "name": "Scout's",
-    "required_level": 1,
+    "required_level": 10,
     "spawn_tags": [
       {
         "warbands_leaguestone": true
@@ -125947,7 +125962,7 @@
         "min": 2
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 10,
         "min": 10
       }
@@ -126109,7 +126124,7 @@
         "min": -4
       },
       {
-        "id": "leaguestone_minimum_area_level",
+        "id": "leaguestone_prefix_minimum_area_level",
         "max": 75,
         "min": 75
       }
@@ -126296,6 +126311,11 @@
         "id": "map_set_league_category",
         "max": 3,
         "min": 3
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 20,
+        "min": 20
       }
     ]
   },
@@ -126732,7 +126752,7 @@
     "group": "MapRogueExileDropsAdditionalJewels",
     "is_essence_only": false,
     "name": "Encrusted",
-    "required_level": 1,
+    "required_level": 20,
     "spawn_tags": [
       {
         "anarchy_leaguestone": true
@@ -126751,6 +126771,11 @@
         "id": "local_extra_max_charges",
         "max": 0,
         "min": 0
+      },
+      {
+        "id": "leaguestone_prefix_minimum_area_level",
+        "max": 20,
+        "min": 20
       }
     ]
   },
@@ -126763,7 +126788,7 @@
     "group": "MapRogueExileDropsAdditionalJewels",
     "is_essence_only": false,
     "name": "Encrusted",
-    "required_level": 1,
+    "required_level": 20,
     "spawn_tags": [
       {
         "anarchy_leaguestone": true
@@ -126782,6 +126807,11 @@
         "id": "local_extra_max_charges",
         "max": 0,
         "min": 0
+      },
+      {
+        "id": "leaguestone_prefix_minimum_area_level",
+        "max": 20,
+        "min": 20
       }
     ]
   },
@@ -126794,7 +126824,7 @@
     "group": "MapRogueExileDropsAdditionalJewels",
     "is_essence_only": false,
     "name": "Encrusted",
-    "required_level": 1,
+    "required_level": 20,
     "spawn_tags": [
       {
         "anarchy_leaguestone": true
@@ -126813,6 +126843,11 @@
         "id": "local_extra_max_charges",
         "max": 0,
         "min": 0
+      },
+      {
+        "id": "leaguestone_prefix_minimum_area_level",
+        "max": 20,
+        "min": 20
       }
     ]
   },
@@ -127288,6 +127323,11 @@
         "id": "map_set_league_category",
         "max": 18,
         "min": 18
+      },
+      {
+        "id": "map_spawn_cadiro_%_chance",
+        "max": 20,
+        "min": 20
       }
     ]
   },

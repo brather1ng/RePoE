@@ -12914,11 +12914,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "leaguestone_minimum_area_level": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "leaguestone_monster_dropped_item_quantity_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -12929,7 +12924,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "leaguestone_prefix_minimum_area_level": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "leaguestone_spawn_beyond_monster_on_death_index": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "leaguestone_suffix_minimum_area_level": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -23464,16 +23469,55 @@
     "is_local": false
   },
   "old_dagger_implicit_critical_strike_chance_+30%": {
+    "alias": {
+      "when_in_main_hand": "old_dagger_implicit_critical_strike_chance_+30%_from_main_hand",
+      "when_in_off_hand": "old_dagger_implicit_critical_strike_chance_+30%_from_off_hand"
+    },
+    "is_aliased": true,
+    "is_local": false
+  },
+  "old_dagger_implicit_critical_strike_chance_+30%_from_main_hand": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "old_dagger_implicit_critical_strike_chance_+30%_from_off_hand": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "old_dagger_implicit_critical_strike_chance_+40%": {
+    "alias": {
+      "when_in_main_hand": "old_dagger_implicit_critical_strike_chance_+40%_from_main_hand",
+      "when_in_off_hand": "old_dagger_implicit_critical_strike_chance_+40%_from_off_hand"
+    },
+    "is_aliased": true,
+    "is_local": false
+  },
+  "old_dagger_implicit_critical_strike_chance_+40%_from_main_hand": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "old_dagger_implicit_critical_strike_chance_+40%_from_off_hand": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "old_dagger_implicit_critical_strike_chance_+50%": {
+    "alias": {
+      "when_in_main_hand": "old_dagger_implicit_critical_strike_chance_+50%_from_main_hand",
+      "when_in_off_hand": "old_dagger_implicit_critical_strike_chance_+50%_from_off_hand"
+    },
+    "is_aliased": true,
+    "is_local": false
+  },
+  "old_dagger_implicit_critical_strike_chance_+50%_from_main_hand": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "old_dagger_implicit_critical_strike_chance_+50%_from_off_hand": {
     "alias": {},
     "is_aliased": false,
     "is_local": false

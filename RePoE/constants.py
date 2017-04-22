@@ -7,15 +7,15 @@ class ActiveSkillType(IntEnum):
     attack = 1
     # Gem tag equivalent
     spell = 2
-    # Gem tag equivalent
+    # Gem tag equivalent (skills which fire projectiles)
     projectile = 3
     # Skill can only be used when dual wielding (Dual Strike only atm)
     dual_wield_only = 4
     # Skill gives a buff (Molten Shell and golems do not have this type)
     buff = 5
     # Skill can be used when dual wielding
-    # When it does not have either of the following two, hands are random (Reckoning, Whirling Blades) or alternating
-    # (everything else).
+    # When it does not have either of the following two, hands are random (Reckoning,
+    # Whirling Blades) or alternating (everything else).
     can_dual_wield = 6
     # Skill only uses main hand when dual wielding
     uses_main_hand_when_dual_wielding = 7
@@ -23,16 +23,17 @@ class ActiveSkillType(IntEnum):
     uses_both_at_once_when_dual_wielding = 8
     # Gem tag equivalent
     minion = 9
-    # Seems to be set for skills that are not attacks and deal non-duration damage, unknown purpose.
-    unknown_10 = 10
+    # Set for skills that hit and are not attacks
+    hits = 10
     # Gem tag equivalent
     aoe = 11
     # Gem tag equivalent
     duration = 12
     # Skill can only be used when a shield is equipped
     shield_only = 13
-    # Set for bow skills where arrows come from above, unknown purpose
-    unknown_14 = 14
+    # Set for bow skills without projectile tag (implicit in projectile);
+    # allows Faster/Slower Projectiles Support
+    explicit_deals_projectile_damage = 14
     # The skill's mana cost is reserved on casting
     # Can also be interpreted as "skill is toggle".
     # Ignore this for totems, Rejuvenation Totem has this type but is no reservation/toggle skill.
@@ -45,8 +46,9 @@ class ActiveSkillType(IntEnum):
     spell_totem_supportable = 18
     # Skill can be turned into a mine with Remote Mine Support
     remote_mine_supportable = 19
-    # Only set for Herald of Ash
-    unknown_20 = 20
+    # St for Herald of Ash, which cannot hit but causes elemental status effects (implicit in hit);
+    # allows Elemental Proliferation Support
+    explicit_causes_elemental_status = 20
     # Skill summons mobs
     summons_mobs = 21
     # Skill can be turned into a totem with Ranged Attack Totem Support
@@ -55,11 +57,12 @@ class ActiveSkillType(IntEnum):
     chaining = 23
     # Gem tag equivalent
     melee = 24
-    # Skill is melee and the initial (or only) hit is single target (unknown purpose)
+    # Skill is melee and the initial (or only) hit is single target; allows Melee Splash Support
     melee_single_target_initial_hit = 25
     # Skill can be repeated with Spell Echo Support
     spell_echo_supportable = 26
-    # Set for all skills with `PERMANENT_BUFF`, plus vaal auras and a few more, unkown purpose
+    # Set for all skills with mana_cost_is_reservation, plus vaal auras and a few more;
+    # unknown purpose
     unknown_27 = 27
     # Skill can be repeated with Multistrike Support
     multistrike_supportable = 28
@@ -67,7 +70,7 @@ class ActiveSkillType(IntEnum):
     applies_burning = 29
     # Gem tag equivalent
     totem = 30
-    # Set for Molten Shell, Vaal Molten Shell and Of Thunder glove enchant, unknown purpose
+    # Set for Molten Shell, Vaal Molten Shell and Of Thunder glove enchant; unknown purpose
     unknown_31 = 31
     # Gem tag equivalent
     curse = 32
@@ -89,7 +92,8 @@ class ActiveSkillType(IntEnum):
     deals_damage_over_time = 40
     # Gem tag equivalent
     mine = 41
-    # Gem has Trigger tag and is a spell (missing EnchantmentOfFlamesOnHit and EnchantmentOfTempestOnHit)
+    # Gem has Trigger tag and is a spell
+    # (missing EnchantmentOfFlamesOnHit and EnchantmentOfTempestOnHit)
     trigger_spell = 42
     # Gem tag equivalent
     vaal = 43
@@ -101,36 +105,40 @@ class ActiveSkillType(IntEnum):
     unknown_46 = 46
     # Gem has Trigger tag and is an attack
     trigger_attack = 47
-    # Skill can be supported with Physical Projectile Attack Damage Support
-    ppad_supportable = 48
+    # Skill is a projectile attack;
+    # allows Iron Grip, Physical Projectile Attack Damage and Point Blank Support
+    projectile_attack = 48
     # Skill can be cast by Null's Inclination's trigger when socketed in it
     castable_by_nulls_inclination = 49
     # Gem tag equivalent
     chaos = 50
     # Unused for skill gems
     unknown_51 = 51
-    # Set for Blight, Contagion, Scorching Ray, unknown purpose
+    # Set for Blight, Contagion, Scorching Ray; allows Iron Will Support
     unknown_52 = 52
-    # Set for Burning Arrow, Vigilant Strike, unknown purpose
-    unknown_53 = 53
+    # Set for Burning Arrow, Cleave, Dual Strike, Glacial Hammer, Vigilant Strike;
+    # these have threshold jewels that add AoE components;
+    # allows Increased AoE and Concentrated Effect Support
+    can_have_aoe = 53
     # Unused for skill gems
     unknown_54 = 54
-    # Set for Burning Arrow, Vaal Burning Arrow, unknown purpose
-    unknown_55 = 55
+    # Set for Burning Arrow, Vaal Burning Arrow;
+    # these have threshold jewels that add duration components;
+    # allows Increased/Less Duration and Rapid Decay Support
+    can_have_duration = 55
     # Unused for skill gems
     unknown_56 = 56
-    # Same as TRIGGER_ATTACK (47), unknown purpose
+    # Same as trigger_attack (47); unknown purpose
     unknown_57 = 57
     # Gem tag equivalent
     channelling = 58
-    # Set for Blight, Contagion, Scorching Ray, unknown purpose
+    # Set for Blight, Contagion, Scorching Ray; allows Iron Will and Controlled Destruction Support
     unknown_59 = 59
     # Skill can be cast by Cospri's Malice's trigger when socketed in it
     castable_by_cospris_malice = 60
-    # Set for triggered item innate spells
-    # Something related to "Fixed a bug where items with built-in triggered skills could have that skill detached from
-    # the item with support gems such as Spell Totem and be cast continuously without the trigger condition." (2.5.2)
-    unknown_61 = 61
+    # Set for automatically triggered spells granted by item;
+    # prevents Cast on/when/while x, Spell Totem, Remote Mine and Trap Support
+    trigger_item_granted = 61
     # Gem tag equivalent
     golem = 62
 
