@@ -69,17 +69,13 @@ def write_stat_translations(data_path, translation_file_cache, **kwargs):
     previous = set()
     tag_set = set()
     root = []
-    for f in STAT_FILES:
-        previous_f = set()
-        for tr in translation_file_cache[f].translations:
-            id_str = " ".join(tr.ids)
-            if id_str in previous:
-                if id_str in previous_f:
-                    print("Duplicate id", tr.ids, "in file", f)
-                continue
-            previous.add(id_str)
-            previous_f.add(id_str)
-            root.append(_convert(tr, tag_set))
+    for tr in translation_file_cache['stat_descriptions.txt'].translations:
+        id_str = " ".join(tr.ids)
+        if id_str in previous:
+            print("Duplicate id", tr.ids)
+            continue
+        previous.add(id_str)
+        root.append(_convert(tr, tag_set))
     for tr in get_custom_translation_file().translations:
         id_str = " ".join(tr.ids)
         if id_str in previous:
@@ -93,11 +89,16 @@ def write_stat_translations(data_path, translation_file_cache, **kwargs):
     write_json(root, data_path, 'stat_translations')
 
 
+# The stat description files can include each other and can override stats from included files. E.g. the same stat
+# may have different translations on active and support gems. Because of that, they can't simply be merged together
+# This module only covers 'stat_descriptions.txt' as the other files are not yet needed by me.
 # 'stat_descriptions.txt' tree
-# - chest
-# - gem
+# (use stat_descriptions.txt for everything but chest, gem, map, passive skill tree, leaguestone and monster stats)
+# - chest (strongboxes)
+# - gem (support gems)
 #   - active_skill_gem
-#     - skill
+#     - skill (skills/active gems not covered by a child file,
+#              use 'skillpopup_stat_filters.txt' to get the matching child file)
 #       - aura_skill
 #       - beam_skill
 #       - curse_skill
@@ -106,24 +107,12 @@ def write_stat_translations(data_path, translation_file_cache, **kwargs):
 #         - minion_attack_skill
 #         - minion_spell_skill
 #       - offering_skill
-# - map
-#   - atlas
-# - passive_skill
-#   - passive_skill_aura
+# - map (maps)
+#   - atlas (sextants)
+# - passive_skill (passive skill tree)
+#   - passive_skill_aura (aura effects granted by passive skill tree stats?)
+# - leaguestone
 # 'monster_stat_descriptions.txt' tree
-STAT_FILES = [
-    'gem_stat_descriptions.txt',
-    'skill_stat_descriptions.txt',
-    'aura_skill_stat_descriptions.txt',
-    'beam_skill_stat_descriptions.txt',
-    'curse_skill_stat_descriptions.txt',
-    'debuff_skill_stat_descriptions.txt',
-    'minion_attack_skill_stat_descriptions.txt',
-    'minion_spell_skill_stat_descriptions.txt',
-    'offering_skill_stat_descriptions.txt',
-    'atlas_stat_descriptions.txt',
-    'passive_skill_aura_stat_descriptions.txt',
-]
 
 
 if __name__ == '__main__':

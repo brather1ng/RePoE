@@ -1,7 +1,7 @@
 ### `stat_translations.json`
 
 Maps stat ids together with their values to human-readable text. This is the text
-that appears on items in-game.
+that appears on items in-game. The file only completely covers equipment item stats.
 
 The file is an array of translation objects. Each object contains one more stat
 ids that are translated together (`ids`) and the translation information (only to
