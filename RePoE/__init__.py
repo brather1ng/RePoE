@@ -1,5 +1,6 @@
 import argparse
 
+from RePoE.crafting_bench_options import write_crafting_bench_options
 from RePoE.gem_tags import write_gem_tags
 from RePoE.gems import write_gems
 from RePoE.mods import write_mods
@@ -15,7 +16,7 @@ def main(data_path='../data/'):
         'stats': write_stats,
         'gems': write_gems,  # gems.json and gem_tooltips.json
         'gem_tags': write_gem_tags,
-        # todo CraftingBenchOptions.dat
+        'crafting_bench_options': write_crafting_bench_options,
         # todo maybe Essences.dat
         # todo 'buffs': BuffDefinitions.dat?
     }

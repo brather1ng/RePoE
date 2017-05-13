@@ -30,6 +30,8 @@ The following data is currently available:
   are aliased depending on main-hand or off-hand.
 - `mods.json`: Describes mod ids. Defines which items they can appear on and what
   stats with what values they have.
+- `crafting_bench_options.json`: Information about master craftable mods that is not 
+  in `mods.json`.
 - `gems.json`: Describes skill gems and skill gem effects only provided by mods.
 - `gem_tags.json`: Simple object that contains all gem tags with their internal id as
   keys and their translation as value.
