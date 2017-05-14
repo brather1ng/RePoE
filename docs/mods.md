@@ -57,8 +57,8 @@ as value. That description object has the following fields:
   any other item. The tags that appear on the mods in the file are listed at the bottom.
   All can be found in the `Tags.dat` file in the GGPK.
 
-Mods of the domains 'monster', 'chest', 'area', 'stance' and 'atlas' are
-not included. These are not necessary for my use cases atm and would nearly double
+Only mods of the domains 'item', 'flask', 'master' and 'jewel' are included. 
+These are the ones necessary for my use cases atm. Including all would double 
 the file size.
 
 #### Tags

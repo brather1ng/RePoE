@@ -53,15 +53,15 @@ def _convert_tags_keys(tags_keys):
 
 
 def ignore_mod_domain(domain):
-    return domain is MOD_DOMAIN.AREA or domain is MOD_DOMAIN.ATLAS or domain is MOD_DOMAIN.CHEST \
-           or domain is MOD_DOMAIN.MONSTER or domain is MOD_DOMAIN.STANCE
+    return domain is not MOD_DOMAIN.ITEM and domain is not MOD_DOMAIN.FLASK and domain is not MOD_DOMAIN.MASTER\
+           and domain is not MOD_DOMAIN.JEWEL
 
 
 # todo enable when useful
 # ignored information about mods:
 # - GenerationWeight_{TagsKeys, Values} (changes mod spawning weight when the item has specific tags, e.g. those above)
 # ignored mods:
-# - domain of 'monster', 'chest', 'area', 'stance' and 'atlas'
+# - domain of 'monster', 'chest', 'area', 'stance', 'atlas', 'leaguestone'
 def write_mods(data_path, relational_reader, **kwargs):
     root = {}
     for mod in relational_reader['Mods.dat']:
