@@ -8806,6 +8806,25 @@
       }
     ]
   },
+  "AreaDamageUniqueBodyDexInt1": {
+    "adds_tags": [],
+    "domain": "item",
+    "generation_type": "unique",
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "AreaDamage",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_tags": [],
+    "stats": [
+      {
+        "id": "area_damage_+%",
+        "max": 12,
+        "min": 12
+      }
+    ]
+  },
   "AreaDamageUniqueDescentOneHandSword1": {
     "adds_tags": [],
     "domain": "item",
@@ -31452,6 +31471,25 @@
         "id": "penetrate_elemental_resistance_per_frenzy_charge_%",
         "max": 1,
         "min": 1
+      }
+    ]
+  },
+  "ElementalResistancePerEnduranceChargeDescentShield1": {
+    "adds_tags": [],
+    "domain": "item",
+    "generation_type": "unique",
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "ElementalResistancePerEnduranceCharge",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_tags": [],
+    "stats": [
+      {
+        "id": "resist_all_elements_%_per_endurance_charge",
+        "max": 3,
+        "min": 3
       }
     ]
   },
@@ -86132,6 +86170,25 @@
       }
     ]
   },
+  "LifeGainOnEndurangeChargeConsumptionUniqueBodyStrInt6": {
+    "adds_tags": [],
+    "domain": "item",
+    "generation_type": "unique",
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "LifeGainOnEnduranceChargeConsumption",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_tags": [],
+    "stats": [
+      {
+        "id": "gain_x_life_when_endurance_charge_expires_or_consumed",
+        "max": 100,
+        "min": 100
+      }
+    ]
+  },
   "LifeGainOnHitVsIgnitedEnemiesUniqueRing31": {
     "adds_tags": [],
     "domain": "item",
@@ -133206,6 +133263,25 @@
     "stats": [
       {
         "id": "resolute_technique",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "ReturningProjectilesUniqueDescentBow1": {
+    "adds_tags": [],
+    "domain": "item",
+    "generation_type": "unique",
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "ReturningProjectiles",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_tags": [],
+    "stats": [
+      {
+        "id": "projectiles_return",
         "max": 1,
         "min": 1
       }

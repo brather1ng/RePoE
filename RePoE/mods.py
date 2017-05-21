@@ -65,7 +65,7 @@ def ignore_mod_domain(domain):
 def write_mods(data_path, relational_reader, **kwargs):
     root = {}
     for mod in relational_reader['Mods.dat']:
-        domain = mod['Domain']
+        domain = MOD_DOMAIN_FIX.get(mod['Id'], mod['Domain'])
         if ignore_mod_domain(domain):
             continue
         obj = {
@@ -87,6 +87,15 @@ def write_mods(data_path, relational_reader, **kwargs):
             root[mod['Id']] = obj
 
     write_json(root, data_path, 'mods')
+
+
+# a few unique item mods have the wrong mod domain so they wouldn't be added to the file without this
+MOD_DOMAIN_FIX = {
+    "AreaDamageUniqueBodyDexInt1": MOD_DOMAIN.ITEM,
+    "ElementalResistancePerEnduranceChargeDescentShield1": MOD_DOMAIN.ITEM,
+    "LifeGainOnEndurangeChargeConsumptionUniqueBodyStrInt6": MOD_DOMAIN.ITEM,
+    "ReturningProjectilesUniqueDescentBow1": MOD_DOMAIN.ITEM,
+}
 
 
 if __name__ == '__main__':
