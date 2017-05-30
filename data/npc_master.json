@@ -2,18 +2,22 @@
   "DexIntMaster": {
     "signature_mod": {
       "id": "LifeLeechSpeedDexIntMasterVendorItem",
-      "spawn_tags": [
+      "spawn_weights": [
         {
-          "not_for_sale": false
+          "tag": "not_for_sale",
+          "weight": 0
         },
         {
-          "gloves": true
+          "tag": "gloves",
+          "weight": 1000
         },
         {
-          "amulet": true
+          "tag": "amulet",
+          "weight": 1000
         },
         {
-          "default": false
+          "tag": "default",
+          "weight": 0
         }
       ]
     }
@@ -21,15 +25,18 @@
   "DexMaster": {
     "signature_mod": {
       "id": "BleedOnHitGainedDexMasterVendorItem",
-      "spawn_tags": [
+      "spawn_weights": [
         {
-          "not_for_sale": false
+          "tag": "not_for_sale",
+          "weight": 0
         },
         {
-          "bow": true
+          "tag": "bow",
+          "weight": 1000
         },
         {
-          "default": false
+          "tag": "default",
+          "weight": 0
         }
       ]
     }
@@ -37,27 +44,34 @@
   "IntMaster": {
     "signature_mod": {
       "id": "LocalIncreaseSocketedSupportGemLevelIntMasterVendorItem",
-      "spawn_tags": [
+      "spawn_weights": [
         {
-          "not_for_sale": false
+          "tag": "not_for_sale",
+          "weight": 0
         },
         {
-          "wand": true
+          "tag": "wand",
+          "weight": 1000
         },
         {
-          "sceptre": true
+          "tag": "sceptre",
+          "weight": 1000
         },
         {
-          "dagger": true
+          "tag": "dagger",
+          "weight": 1000
         },
         {
-          "focus": true
+          "tag": "focus",
+          "weight": 1000
         },
         {
-          "helmet": true
+          "tag": "helmet",
+          "weight": 1000
         },
         {
-          "default": false
+          "tag": "default",
+          "weight": 0
         }
       ]
     }
@@ -65,18 +79,22 @@
   "PvPMaster": {
     "signature_mod": {
       "id": "AllDamageMasterVendorItem",
-      "spawn_tags": [
+      "spawn_weights": [
         {
-          "not_for_sale": false
+          "tag": "not_for_sale",
+          "weight": 0
         },
         {
-          "ring": true
+          "tag": "ring",
+          "weight": 1000
         },
         {
-          "belt": true
+          "tag": "belt",
+          "weight": 1000
         },
         {
-          "default": false
+          "tag": "default",
+          "weight": 0
         }
       ]
     }
@@ -84,15 +102,18 @@
   "StrDexIntMaster": {
     "signature_mod": {
       "id": "MapQuantityAddedAsRarityVendorItem",
-      "spawn_tags": [
+      "spawn_weights": [
         {
-          "not_for_sale": false
+          "tag": "not_for_sale",
+          "weight": 0
         },
         {
-          "map": true
+          "tag": "map",
+          "weight": 1000
         },
         {
-          "default": false
+          "tag": "default",
+          "weight": 0
         }
       ]
     }
@@ -100,21 +121,26 @@
   "StrDexMaster": {
     "signature_mod": {
       "id": "AlwaysHitsStrDexMasterVendorItem",
-      "spawn_tags": [
+      "spawn_weights": [
         {
-          "not_for_sale": false
+          "tag": "not_for_sale",
+          "weight": 0
         },
         {
-          "bow": false
+          "tag": "bow",
+          "weight": 0
         },
         {
-          "wand": false
+          "tag": "wand",
+          "weight": 0
         },
         {
-          "weapon": true
+          "tag": "weapon",
+          "weight": 1000
         },
         {
-          "default": false
+          "tag": "default",
+          "weight": 0
         }
       ]
     }
@@ -122,18 +148,22 @@
   "StrIntMaster": {
     "signature_mod": {
       "id": "ReduceGlobalFlatManaCostStrIntMasterVendor",
-      "spawn_tags": [
+      "spawn_weights": [
         {
-          "not_for_sale": false
+          "tag": "not_for_sale",
+          "weight": 0
         },
         {
-          "amulet": true
+          "tag": "amulet",
+          "weight": 1000
         },
         {
-          "ring": true
+          "tag": "ring",
+          "weight": 1000
         },
         {
-          "default": false
+          "tag": "default",
+          "weight": 0
         }
       ]
     }
@@ -141,15 +171,18 @@
   "StrMaster": {
     "signature_mod": {
       "id": "SocketedGemQualityStrMasterVendorItem",
-      "spawn_tags": [
+      "spawn_weights": [
         {
-          "not_for_sale": false
+          "tag": "not_for_sale",
+          "weight": 0
         },
         {
-          "weapon": true
+          "tag": "weapon",
+          "weight": 1000
         },
         {
-          "default": false
+          "tag": "default",
+          "weight": 0
         }
       ]
     }

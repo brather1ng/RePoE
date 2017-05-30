@@ -6,5 +6,7 @@ properties:
 
 - `id`: The mod id of the master's signature mod. See `mods.json` to get more 
   information about the mod.
-- `spawn_tags`: The spawn tags the signature mod can spawn on in the master's
-  vendor window. These work the same way as the `spawn_tags` in `mods.json`.
+- `spawn_weights`: The spawn tags the signature mod can spawn on in the master's
+  vendor window. These work the same way as the `spawn_weights` in `mods.json`.
+  Though the weights do not have any effect, only whether they are greater than 
+  zero or not.

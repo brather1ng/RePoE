@@ -17,11 +17,25 @@ def _convert_stats(stats):
 
 
 def _convert_spawn_weights(spawn_weights):
-    # 'SpawnWeight' is a virtual field that is a tuple of ('SpawnWeight_TagsKeys', 'SpawnWeight_Values')
+    # 'SpawnWeight' is a virtual field that is a zipped tuple of
+    # ('SpawnWeight_TagsKeys', 'SpawnWeight_Values')
     r = []
-    for tag, value in spawn_weights:
+    for tag, weight in spawn_weights:
         r.append({
-            tag['Id']: value > 0
+            'tag': tag['Id'],
+            'weight': weight
+        })
+    return r
+
+
+def _convert_generation_weights(generation_weights):
+    # 'GenerationWeight' is a virtual field that is a tuple of
+    # ('GenerationWeight_TagsKeys', 'GenerationWeight_Values')
+    r = []
+    for tag, weight in zip(generation_weights[0], generation_weights[1]):
+        r.append({
+            'tag': tag['Id'],
+            'weight': weight
         })
     return r
 
@@ -75,7 +89,8 @@ def write_mods(data_path, relational_reader, **kwargs):
             'name': mod['Name'],
             'generation_type': mod['GenerationType'].name.lower(),
             'group': mod['CorrectGroup'],
-            'spawn_tags': _convert_spawn_weights(mod['SpawnWeight']),
+            'spawn_weights': _convert_spawn_weights(mod['SpawnWeight']),
+            'generation_weights': _convert_generation_weights(mod['GenerationWeight']),
             'grants_buff': _convert_buff(mod['BuffDefinitionsKey'], mod['BuffValue']),
             'grants_effect': _convert_granted_effects(mod['GrantedEffectsPerLevelKey']),
             'is_essence_only': mod['IsEssenceOnlyModifier'] > 0,
