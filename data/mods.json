@@ -133980,6 +133980,790 @@
       }
     ]
   },
+  "MapAtlasAdditionalBreaches": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasAdditionalBreaches",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_additional_breaches",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_breach_rules",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasAdditionalRandomMod": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasAdditionalRandomMod",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_number_of_additional_mods",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasBloodlinesDropAdditionalCurrency": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasBloodlinesDropAdditionalCurrency",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 78,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 200
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_nemesis_dropped_items_+",
+        "max": 3,
+        "min": 3
+      }
+    ]
+  },
+  "MapAtlasBodyguardsAndBossMapDrops": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasBodyguardsAndBossMapDrops",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_boss",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_boss_accompanied_by_bodyguards",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_on_complete_drop_x_additional_maps",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasBossAdditionalUnique": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasBossAdditionalUnique",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_boss",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 100
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_boss_dropped_unique_items_+",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasBossDropsCorruptedItems": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasUniqueMonstersDropCorruptedItems",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [
+      {
+        "tag": "no_boss",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_boss_drops_corrupted_items",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasBossesDamageAndQuantity": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasBossesDamageAndQuantity",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_boss",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 0
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_boss_dropped_item_quantity_+%",
+        "max": 20,
+        "min": 20
+      }
+    ]
+  },
+  "MapAtlasChaosDamageAndPacks_": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasChaosDamageAndPacks",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_additional_packs_of_chaos_monsters",
+        "max": 8,
+        "min": 8
+      },
+      {
+        "id": "map_players_and_monsters_chaos_damage_taken_+%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasClustersOfBeaconBarrels": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasClustersOfBarrels",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 200
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_area_contains_x_additional_clusters_of_beacon_barrels",
+        "max": 30,
+        "min": 30
+      },
+      {
+        "id": "map_bonus_barrel_%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasClustersOfBloodwormBarrels": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasClustersOfBarrels",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 200
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_area_contains_x_additional_clusters_of_bloodworm_barrels",
+        "max": 30,
+        "min": 30
+      },
+      {
+        "id": "map_bonus_barrel_%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasClustersOfExplosiveBarrels": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasClustersOfBarrels",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 0
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_area_contains_x_additional_clusters_of_explosive_barrels",
+        "max": 30,
+        "min": 30
+      },
+      {
+        "id": "map_bonus_barrel_%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasClustersOfParasiteBarrels": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasClustersOfBarrels",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 200
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_area_contains_x_additional_clusters_of_parasite_barrels",
+        "max": 30,
+        "min": 30
+      },
+      {
+        "id": "map_bonus_barrel_%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasClustersOfVolatileBarrels": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasClustersOfBarrels",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 200
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_area_contains_x_additional_clusters_of_volatile_barrels",
+        "max": 30,
+        "min": 30
+      },
+      {
+        "id": "map_bonus_barrel_%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasClustersOfWealthyBarrels": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasClustersOfBarrels",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 50
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_area_contains_x_additional_clusters_of_wealthy_barrels",
+        "max": 30,
+        "min": 30
+      },
+      {
+        "id": "map_bonus_barrel_%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasColdDamageAndPacks": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasColdDamageAndPacks",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_additional_packs_of_cold_monsters",
+        "max": 8,
+        "min": 8
+      },
+      {
+        "id": "map_players_and_monsters_cold_damage_taken_+%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasContains3LessPortals": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasContains3LessPortals",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_contains_x_fewer_portals",
+        "max": 3,
+        "min": 3
+      }
+    ]
+  },
+  "MapAtlasContainsAdditionalRandomBoss": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasContainsAdditionalInvasionBoss",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "hall_of_grandmasters",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_num_extra_invasion_bosses",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasContainsMaster": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasContainsMaster",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "unique_map",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_master",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasContainsZanaMission": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasContainsMaster",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [
+      {
+        "tag": "unique_map",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 200
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_mission_id",
+        "max": 7,
+        "min": 7
+      }
+    ]
+  },
+  "MapAtlasCorruptedMapBossesDropAdditionalVaalItems": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasCorruptedMapBossesDropAdditionalVaalItems",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 78,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_corrupted_bosses_drop_x_additional_vaal_items",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_items_drop_corrupted_%",
+        "max": 5,
+        "min": 5
+      }
+    ]
+  },
+  "MapAtlasCreepingAgony": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasCreepingAgony",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 30,
+        "min": 30
+      },
+      {
+        "id": "map_contains_creeping_agony",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasCurseEffectOnPlayersAndMonsters": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasCurseEffectOnPlayersAndMonsters",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [
+      {
+        "tag": "vaults_of_atziri",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_monster_curse_effect_on_self_+%",
+        "max": -20,
+        "min": -20
+      },
+      {
+        "id": "map_player_curse_effect_on_self_+%",
+        "max": -60,
+        "min": -60
+      }
+    ]
+  },
+  "MapAtlasCursesReflected": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasCursesReflected",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 10,
+        "min": 10
+      },
+      {
+        "id": "map_players_and_monsters_curses_are_reflected",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
   "MapAtlasDamage": {
     "adds_tags": [],
     "domain": "item",
@@ -134002,6 +134786,599 @@
         "id": "map_monsters_damage_+%",
         "max": 50,
         "min": 50
+      }
+    ]
+  },
+  "MapAtlasDamageTakenWhileStationary": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPlayersDamageDealtAndTakenWhileStationary",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_players_and_monsters_damage_taken_+%_while_stationary",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasFireDamageAndPacks": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasFireDamageAndPacks",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_additional_packs_of_fire_monsters",
+        "max": 8,
+        "min": 8
+      },
+      {
+        "id": "map_players_and_monsters_fire_damage_taken_+%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasFishy": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasFishy",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 78,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 10
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_fishy_effect_0",
+        "max": 100,
+        "min": 0
+      },
+      {
+        "id": "map_fishy_effect_1",
+        "max": 10,
+        "min": 10
+      },
+      {
+        "id": "map_fishy_effect_2",
+        "max": 10,
+        "min": 0
+      },
+      {
+        "id": "map_fishy_effect_3",
+        "max": 5052017,
+        "min": 5052017
+      }
+    ]
+  },
+  "MapAtlasGroundHaste": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasGroundHaste",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_ground_haste_action_speed_+%",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_ground_haste_effect_patches_per_100_tiles",
+        "max": 9,
+        "min": 9
+      },
+      {
+        "id": "map_ground_haste_effect_radius",
+        "max": 18,
+        "min": 18
+      }
+    ]
+  },
+  "MapAtlasHighValueEnemiesOnOwnTeam": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasHighValueEnemiesOnOwnTeam",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 100
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_x_additional_packs_on_their_own_team",
+        "max": 12,
+        "min": 12
+      }
+    ]
+  },
+  "MapAtlasIncreasedDamageOnGroundEffects": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasIncreasedDamageOnGroundEffects",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_damage_+%_of_type_inflicted_by_current_ground_effect_you_are_on",
+        "max": 30,
+        "min": 30
+      }
+    ]
+  },
+  "MapAtlasInstantFlasksAndHealingMonsters": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasInstantFlasksAndHealingMonsters",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_player_flask_recovery_is_instant",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_contains_x_additional_healing_packs",
+        "max": 8,
+        "min": 8
+      }
+    ]
+  },
+  "MapAtlasLightningDamageAndPacks": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasLightningDamageAndPacks",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_additional_packs_of_lightning_monsters",
+        "max": 8,
+        "min": 8
+      },
+      {
+        "id": "map_players_and_monsters_lightning_damage_taken_+%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasMagicAndRareMapsHaveAdditionalPacks": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasMagicAndRareMapsHaveAdditionalPacks",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "unique_map",
+        "weight": 0
+      },
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_x_additional_magic_packs_if_magic",
+        "max": 3,
+        "min": 3
+      },
+      {
+        "id": "map_contains_x_additional_rare_packs_if_rare",
+        "max": 3,
+        "min": 3
+      },
+      {
+        "id": "map_contains_x_additional_normal_packs_if_normal",
+        "max": 3,
+        "min": 3
+      }
+    ]
+  },
+  "MapAtlasMagicItemsDropAsNormal": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasMagicItemsDropAsNormal",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_magic_items_drop_as_normal",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasMagicPackSize": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasMagicPackSize",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_magic_pack_size_+%",
+        "max": 30,
+        "min": 30
+      }
+    ]
+  },
+  "MapAtlasMapQualityBonusAlsoAppliesToRarity": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasMapQualityBonusAlsoAppliesToRarity",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_item_drop_quality_also_applies_to_map_item_drop_rarity",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_boss_maximum_life_+%",
+        "max": 20,
+        "min": 20
+      }
+    ]
+  },
+  "MapAtlasMapsHave20PercentQuality": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasMapsHave20PercentQuality",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_has_x%_quality",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_boss_damage_+%",
+        "max": 20,
+        "min": 20
+      }
+    ]
+  },
+  "MapAtlasMonsterConvertedOnKill": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasMonsterConvertedOnKill",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_monsters_are_converted_on_kill",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasMonstersStealCharges": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasMonstersStealCharges",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_monsters_steal_charges",
+        "max": 100,
+        "min": 100
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 20,
+        "min": 20
+      }
+    ]
+  },
+  "MapAtlasMontersThatConvertOnDeath__": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasMontersThatConvertOnDeath",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_x_additional_packs_that_convert_on_death",
+        "max": 8,
+        "min": 8
+      }
+    ]
+  },
+  "MapAtlasMoveAttackCastSpeed": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasMoveAttackCastSpeed",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_players_and_monsters_movement_speed_+%",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_monsters_attack_speed_+%",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_monsters_cast_speed_+%",
+        "max": 20,
+        "min": 20
       }
     ]
   },
@@ -134030,6 +135407,36 @@
       }
     ]
   },
+  "MapAtlasNoUniqueDrops": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasNoUniqueDrops",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 30,
+        "min": 30
+      },
+      {
+        "id": "map_no_uniques_drop_randomly",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
   "MapAtlasOnslaught": {
     "adds_tags": [],
     "domain": "item",
@@ -134050,6 +135457,692 @@
       },
       {
         "id": "map_monsters_have_onslaught",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasOnslaughtWhenHit": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasOnslaughtWhenHitAndOnslaughtEffect",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_players_and_monsters_have_onslaught_if_hit_recently",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasOnslaughtWhenHitAndOnslaughtEffect": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasOnslaughtWhenHitAndOnslaughtEffect",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "vaults_of_atziri",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_players_and_monsters_have_onslaught_if_hit_recently",
+        "max": 4000,
+        "min": 4000
+      },
+      {
+        "id": "map_monster_and_player_onslaught_effect_+%",
+        "max": 100,
+        "min": 100
+      }
+    ]
+  },
+  "MapAtlasPhysicalDamageAndPacks_": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPhysicalDamageAndPacks",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_contains_additional_packs_of_physical_monsters",
+        "max": 8,
+        "min": 8
+      },
+      {
+        "id": "map_players_and_monsters_physical_damage_taken_+%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasPlayersCriticalChance": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPlayersCriticalChance",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_players_and_monsters_critical_strike_chance_+%",
+        "max": 100,
+        "min": 100
+      }
+    ]
+  },
+  "MapAtlasPlayersCursedWithSilence": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPlayersCursedWithSilence",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_player_has_level_X_silence",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasPlayersDamageDealtAndTakenWhileStationary_": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPlayersDamageDealtAndTakenWhileStationary",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "vaults_of_atziri",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_damage_while_stationary_+%",
+        "max": 100,
+        "min": 100
+      },
+      {
+        "id": "map_damage_taken_while_stationary_+%",
+        "max": 10,
+        "min": 10
+      }
+    ]
+  },
+  "MapAtlasPlayersHave1LessProjectile": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPlayersHave1LessProjectile",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_players_additional_number_of_projectiles",
+        "max": -1,
+        "min": -1
+      }
+    ]
+  },
+  "MapAtlasPlayersMonstersDamagePerCurse_": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPlayersMonstersDamagePerCurse",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 78,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_players_and_monsters_damage_+%_per_curse",
+        "max": 20,
+        "min": 20
+      }
+    ]
+  },
+  "MapAtlasPlayersPoisonedWhileMoving_": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPoisonEffectsAndParasites",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_players_are_poisoned_while_moving_chaos_damage_per_second",
+        "max": 200,
+        "min": 200
+      }
+    ]
+  },
+  "MapAtlasPoisonEffectsAndParasites": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPoisonEffectsAndParasites",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_damage_+%_per_poison_stack",
+        "max": 10,
+        "min": 10
+      },
+      {
+        "id": "map_movement_velocity_+%_per_poison_stack",
+        "max": 5,
+        "min": 5
+      },
+      {
+        "id": "map_contains_x_additional_poison_packs",
+        "max": 8,
+        "min": 8
+      }
+    ]
+  },
+  "MapAtlasPortalsDoNotExpire": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasPortalsDoNotExpire",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_portals_do_not_expire",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasReducedReflectedDamageTakenMirroredRares": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasReducedReflectedDamageTakenMirroredRares",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_players_cannot_take_reflected_damage",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_contains_x_additional_packs_with_mirrored_rare_monsters",
+        "max": 3,
+        "min": 3
+      }
+    ]
+  },
+  "MapAtlasResoluteTechnique": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasResoluteTechnique",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_players_and_monsters_have_resolute_technique",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_item_drop_quantity_+%",
+        "max": 0,
+        "min": 0
+      }
+    ]
+  },
+  "MapAtlasRogueExilesDamageAndDropAdditionalJewels": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasRogueExilesDamageAndDropAdditionalJewels",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "no_monster_packs",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_rogue_exiles_damage_+%",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_rogue_exiles_maximum_life_+%",
+        "max": 20,
+        "min": 20
+      },
+      {
+        "id": "map_rogue_exiles_drop_x_additional_jewels",
+        "max": 2,
+        "min": 2
+      },
+      {
+        "id": "map_spawn_extra_exiles",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasStrongboxContentsMirrored": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasStrongboxContentsMirrored",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_strongbox_items_dropped_are_mirrored",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasStrongboxMonstersEnrageAndDrops": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasStrongboxMonstersEnrageAndDrops",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "hall_of_grandmasters",
+        "weight": 0
+      },
+      {
+        "tag": "no_strongboxes",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_strongbox_monsters_item_quantity_+%",
+        "max": 500,
+        "min": 500
+      },
+      {
+        "id": "map_strongbox_monsters_attack_speed_+%",
+        "max": 25,
+        "min": 25
+      },
+      {
+        "id": "map_strongbox_monsters_movement_velocity_+%",
+        "max": 25,
+        "min": 25
+      },
+      {
+        "id": "map_num_extra_strongboxes",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasStrongboxesAreCorruptedAndUnided": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasStrongboxesAreCorruptedAndUnided",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [
+      {
+        "tag": "no_strongboxes",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 200
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_strongboxes_are_corrupted",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_num_extra_strongboxes",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_strongboxes_minimum_rarity",
+        "max": 2,
+        "min": 2
+      }
+    ]
+  },
+  "MapAtlasUnIDedMapsGrantQuantity": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasUnIDedMapsGrantQuantity",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [
+      {
+        "tag": "default",
+        "weight": 1000
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_unidentified_maps_item_quantity_+%",
+        "max": 30,
+        "min": 30
+      },
+      {
+        "id": "map_equipment_drops_identified_in_identified_areas",
+        "max": 1,
+        "min": 1
+      },
+      {
+        "id": "map_pack_size_+%_in_unidentified_areas",
+        "max": 15,
+        "min": 15
+      }
+    ]
+  },
+  "MapAtlasUniqueMonstersDropCorruptedItems": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "prefix",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasUniqueMonstersDropCorruptedItems",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 73,
+    "spawn_weights": [
+      {
+        "tag": "vaults_of_atziri",
+        "weight": 0
+      },
+      {
+        "tag": "hall_of_grandmasters",
+        "weight": 0
+      },
+      {
+        "tag": "default",
+        "weight": 200
+      }
+    ],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_unique_monsters_drop_corrupted_items",
+        "max": 1,
+        "min": 1
+      }
+    ]
+  },
+  "MapAtlasWeaponsDropAnimated": {
+    "adds_tags": [],
+    "domain": "atlas",
+    "generation_type": "unique",
+    "generation_weights": [],
+    "grants_buff": {},
+    "grants_effect": {},
+    "group": "MapAtlasWeaponsDropAnimated",
+    "is_essence_only": false,
+    "name": "",
+    "required_level": 1,
+    "spawn_weights": [],
+    "stats": [
+      {
+        "id": "local_jewel_effect_base_radius",
+        "max": 55,
+        "min": 55
+      },
+      {
+        "id": "map_weapons_drop_animated",
         "max": 1,
         "min": 1
       }
