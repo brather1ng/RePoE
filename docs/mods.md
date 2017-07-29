@@ -62,6 +62,6 @@ as value. That description object has the following fields:
   The weights are percentage multipliers to the spawn weight obtained through 
   `spawn_weights`. If `generation_weights` is empty, the spawn weight is not modified.
 
-Only mods of the domains 'item', 'flask', 'master' and 'jewel' are included. 
+Only mods of the domains 'item', 'flask', 'area', 'master' and 'jewel' are included.
 These are the ones necessary for my use cases atm. Including all would double 
 the file size.
