@@ -1,7 +1,14 @@
 ### `stat_translations.json`
 
 Maps stat ids together with their values to human-readable text. This is the text
-that appears on items in-game. The file only completely covers equipment item stats.
+that appears on items in-game. 
+
+The file only completely covers equipment item stats (everything but chest, gem, 
+area, sextant, passive skill tree, leaguestone and monster stats). The other files 
+starting with `stat_translations_` cover other stats:
+
+- `stat_translations_areas.json` covers stats on areas.
+- `stat_translations_atlas.json` covers sextant stats as shown on the Atlas.
 
 The file is an array of translation objects. Each object contains one more stat
 ids that are translated together (`ids`) and the translation information (only to
@@ -55,7 +62,7 @@ formatted as `-(20 to 10)`).
 
 `index_handlers` are applied to values before formatting. These change the actual
 values, see 
-[`PyPoE.poe.file.translations`, line 861ff](https://github.com/OmegaK2/PyPoE/blob/dev/PyPoE/poe/file/translations.py#L861)
+[`PyPoE.poe.file.translations`, line 1883ff](https://github.com/OmegaK2/PyPoE/blob/dev/PyPoE/poe/file/translations.py#L1883)
 for their Python definitions.
 If, for example, `divide_by_one_hundred` is a handler for a value, the value must
 be divided by 100 before being formatted.

@@ -65,18 +65,17 @@ def _convert(tr, tag_set):
     }
 
 
-def write_stat_translations(data_path, translation_file_cache, **kwargs):
+def _get_stat_translations(tag_set, translations, custom_translations):
     previous = set()
-    tag_set = set()
     root = []
-    for tr in translation_file_cache['stat_descriptions.txt'].translations:
+    for tr in translations:
         id_str = " ".join(tr.ids)
         if id_str in previous:
             print("Duplicate id", tr.ids)
             continue
         previous.add(id_str)
         root.append(_convert(tr, tag_set))
-    for tr in get_custom_translation_file().translations:
+    for tr in custom_translations:
         id_str = " ".join(tr.ids)
         if id_str in previous:
             print("Duplicate custom id", tr.ids)
@@ -85,15 +84,33 @@ def write_stat_translations(data_path, translation_file_cache, **kwargs):
         result = _convert(tr, tag_set)
         result['hidden'] = True
         root.append(result)
+    return root
+
+
+def write_stat_translations(data_path, translation_file_cache, **kwargs):
+    tag_set = set()
+    for in_file, out_file in WRITTEN_FILES:
+        translations = translation_file_cache[in_file].translations
+        result = _get_stat_translations(tag_set, translations,
+                                        get_custom_translation_file().translations)
+        write_json(result, data_path, out_file)
     print("Possible format tags: {}".format(tag_set))
-    write_json(root, data_path, 'stat_translations')
+
+
+WRITTEN_FILES = {
+    ('stat_descriptions.txt', 'stat_translations'),
+    ('map_stat_descriptions.txt', 'stat_translations_areas'),
+    ('atlas_stat_descriptions.txt', 'stat_translations_atlas'),
+}
 
 
 # The stat description files can include each other and can override stats from included files. E.g. the same stat
 # may have different translations on active and support gems. Because of that, they can't simply be merged together
-# This module only covers 'stat_descriptions.txt' as the other files are not yet needed by me.
+# This module only covers the files in WRITTEN_FILES. I can add more on request.
+
 # 'stat_descriptions.txt' tree
-# (use stat_descriptions.txt for everything but chest, gem, map, passive skill tree, leaguestone and monster stats)
+# (use stat_descriptions.txt for everything but chest, gem, area, atlas, passive skill tree,
+#  leaguestone and monster stats)
 # - chest (strongboxes)
 # - gem (support gems)
 #   - active_skill_gem
@@ -107,7 +124,7 @@ def write_stat_translations(data_path, translation_file_cache, **kwargs):
 #         - minion_attack_skill
 #         - minion_spell_skill
 #       - offering_skill
-# - map (maps)
+# - map (areas, not the map items themselves)
 #   - atlas (sextants)
 # - passive_skill (passive skill tree)
 #   - passive_skill_aura (aura effects granted by passive skill tree stats?)

@@ -3,6 +3,29 @@
     "English": [
       {
         "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} {1}"
+      }
+    ],
+    "ids": [
+      "map_tempest_display_prefix",
+      "map_tempest_display_suffix"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -28941,42 +28964,6 @@
         "index_handlers": [
           []
         ],
-        "string": "Area is inhabited by {0} additional Rogue Exile"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area is inhabited by {0} additional Rogue Exiles"
-      }
-    ],
-    "ids": [
-      "map_spawn_extra_exiles"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Area is inhabited by {0} additional Warband"
       },
       {
@@ -29192,42 +29179,6 @@
     ],
     "ids": [
       "map_spawn_extra_torment_spirits"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains an extra Strongbox"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains {0} extra Strongboxes"
-      }
-    ],
-    "ids": [
-      "map_num_extra_strongboxes"
     ]
   },
   {
@@ -30751,65 +30702,11 @@
         "index_handlers": [
           []
         ],
-        "string": "Unique Boss deals {0}% increased Damage"
-      }
-    ],
-    "ids": [
-      "map_boss_damage_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Unique Boss has {0}% increased Attack and Cast Speed"
       }
     ],
     "ids": [
       "map_boss_attack_and_cast_speed_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Unique Boss has {0}% increased Life"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Unique Boss has {0}% reduced Life"
-      }
-    ],
-    "ids": [
-      "map_boss_maximum_life_+%"
     ]
   },
   {
@@ -34634,66 +34531,11 @@
         "index_handlers": [
           []
         ],
-        "string": "Area can contain Breaches"
-      }
-    ],
-    "ids": [
-      "map_breach_rules"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Monsters and bosses invade from elsewhere in Wraeclast"
       }
     ],
     "ids": [
       "map_invasion_monster_packs"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area is inhabited by an additional Invasion Boss"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area is inhabited by {0} additional Invasion Bosses"
-      }
-    ],
-    "ids": [
-      "map_num_extra_invasion_bosses"
     ]
   },
   {
@@ -59445,25 +59287,6 @@
     ],
     "ids": [
       "map_monster_drop_higher_level_gear"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "This Map's Modifiers to Quantity of Items found also apply to Rarity"
-      }
-    ],
-    "ids": [
-      "modifiers_to_map_item_drop_quantity_also_apply_to_map_item_drop_rarity"
     ]
   },
   {
@@ -86208,120 +86031,6 @@
     "English": [
       {
         "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains {0} additional Clusters of Mysterious Barrels"
-      }
-    ],
-    "ids": [
-      "map_area_contains_x_additional_clusters_of_beacon_barrels"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains {0} additional Clusters of Mysterious Barrels"
-      }
-    ],
-    "ids": [
-      "map_area_contains_x_additional_clusters_of_bloodworm_barrels"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains {0} additional Clusters of Mysterious Barrels"
-      }
-    ],
-    "ids": [
-      "map_area_contains_x_additional_clusters_of_explosive_barrels"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains {0} additional Clusters of Mysterious Barrels"
-      }
-    ],
-    "ids": [
-      "map_area_contains_x_additional_clusters_of_parasite_barrels"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains {0} additional Clusters of Mysterious Barrels"
-      }
-    ],
-    "ids": [
-      "map_area_contains_x_additional_clusters_of_volatile_barrels"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains {0} additional Clusters of Mysterious Barrels"
-      }
-    ],
-    "ids": [
-      "map_area_contains_x_additional_clusters_of_wealthy_barrels"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {
             "max": 1,
             "min": 1
@@ -86390,25 +86099,6 @@
     "English": [
       {
         "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Unique Boss is accompanied by Bodyguards"
-      }
-    ],
-    "ids": [
-      "map_boss_accompanied_by_bodyguards"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {
             "min": 1
           }
@@ -86440,61 +86130,6 @@
     ],
     "ids": [
       "map_boss_dropped_item_quantity_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Unique Boss drops {0} additional Unique Item"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Unique Boss drops {0} additional Unique Items"
-      }
-    ],
-    "ids": [
-      "map_boss_dropped_unique_items_+"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Unique Boss drops Corrupted Items"
-      }
-    ],
-    "ids": [
-      "map_boss_drops_corrupted_items"
     ]
   },
   {
@@ -86592,42 +86227,6 @@
     "English": [
       {
         "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains an additional Breach"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains {0} additional Breaches"
-      }
-    ],
-    "ids": [
-      "map_contains_additional_breaches"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {}
         ],
         "format": [
@@ -86698,101 +86297,6 @@
     ],
     "ids": [
       "map_contains_additional_mandible_talisman"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains additional Monsters that deal Chaos Damage"
-      }
-    ],
-    "ids": [
-      "map_contains_additional_packs_of_chaos_monsters"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains additional Monsters that deal Cold Damage"
-      }
-    ],
-    "ids": [
-      "map_contains_additional_packs_of_cold_monsters"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains additional Monsters that deal Fire Damage"
-      }
-    ],
-    "ids": [
-      "map_contains_additional_packs_of_fire_monsters"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains additional Monsters that deal Lightning Damage"
-      }
-    ],
-    "ids": [
-      "map_contains_additional_packs_of_lightning_monsters"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains additional Monsters that deal Physical Damage"
-      }
-    ],
-    "ids": [
-      "map_contains_additional_packs_of_physical_monsters"
     ]
   },
   {
@@ -86902,49 +86406,11 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains Creeping Agony"
-      }
-    ],
-    "ids": [
-      "map_contains_creeping_agony"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Area contains a Keepers of the Trove Bloodline Pack"
       }
     ],
     "ids": [
       "map_contains_keepers_of_the_trove_bloodline_pack"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains a Forsaken Master"
-      }
-    ],
-    "ids": [
-      "map_contains_master"
     ]
   },
   {
@@ -87158,25 +86624,6 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains additional Monsters that Heal"
-      }
-    ],
-    "ids": [
-      "map_contains_x_additional_healing_packs"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Area contains additional Magic Monsters"
       }
     ],
@@ -87215,106 +86662,11 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains hunted traitors"
-      }
-    ],
-    "ids": [
-      "map_contains_x_additional_packs_on_their_own_team"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains additional Monsters that Convert when Killed"
-      }
-    ],
-    "ids": [
-      "map_contains_x_additional_packs_that_convert_on_death"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains additional Packs with Mirrored Rare Monsters"
-      }
-    ],
-    "ids": [
-      "map_contains_x_additional_packs_with_mirrored_rare_monsters"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains additional Poisonous Monsters"
-      }
-    ],
-    "ids": [
-      "map_contains_x_additional_poison_packs"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Area contains additional Rare Monsters"
       }
     ],
     "ids": [
       "map_contains_x_additional_rare_packs"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0} fewer Portals to Area"
-      }
-    ],
-    "ids": [
-      "map_contains_x_fewer_portals"
     ]
   },
   {
@@ -87516,586 +86868,6 @@
     ],
     "ids": [
       "map_damage_while_stationary_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {
-            "max": 20,
-            "min": 1
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 20,
-            "min": 1
-          },
-          {
-            "min": 100
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 20,
-            "min": 1
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is Repulsive"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 20,
-            "min": 1
-          },
-          {
-            "min": 100
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always Repulsive"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 40,
-            "min": 21
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is very Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 40,
-            "min": 21
-          },
-          {
-            "min": 100
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always very Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 40,
-            "min": 21
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is very Repulsive"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 40,
-            "min": 21
-          },
-          {
-            "min": 100
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always very Repulsive"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 60,
-            "min": 41
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is extremely Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 60,
-            "min": 41
-          },
-          {
-            "min": 100
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always extremely Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 60,
-            "min": 41
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is extremely Repulsive"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 60,
-            "min": 41
-          },
-          {
-            "min": 100
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always extremely Repulsive"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 80,
-            "min": 61
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is incredibly Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 80,
-            "min": 61
-          },
-          {
-            "min": 100
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always incredibly Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 80,
-            "min": 61
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is incredibly Repulsive"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 80,
-            "min": 61
-          },
-          {
-            "min": 100
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always incredibly Repulsive"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 100,
-            "min": 81
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is alluringly Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 100,
-            "min": 81
-          },
-          {
-            "min": 100
-          },
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always alluringly Alluring"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 100,
-            "min": 81
-          },
-          {
-            "max": 99,
-            "min": 0
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is alluringly Repulsive"
-      },
-      {
-        "condition": [
-          {},
-          {
-            "max": 100,
-            "min": 81
-          },
-          {
-            "min": 100
-          },
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore",
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          [],
-          [],
-          []
-        ],
-        "string": "Area is always alluringly Repulsive"
-      }
-    ],
-    "ids": [
-      "map_fishy_effect_0",
-      "map_fishy_effect_1",
-      "map_fishy_effect_2",
-      "map_fishy_effect_3"
     ]
   },
   {
@@ -88421,49 +87193,11 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains Slipstreams"
-      }
-    ],
-    "ids": [
-      "map_ground_haste_action_speed_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Areas can contain Essences"
       }
     ],
     "ids": [
       "map_has_monoliths"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Map has {0}% Quality"
-      }
-    ],
-    "ids": [
-      "map_has_x%_quality"
     ]
   },
   {
@@ -88684,25 +87418,6 @@
     "English": [
       {
         "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "This Map's Quality also applies to Rarity of Items found"
-      }
-    ],
-    "ids": [
-      "map_item_drop_quality_also_applies_to_map_item_drop_rarity"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {
             "min": 1
           }
@@ -88772,25 +87487,6 @@
     ],
     "ids": [
       "map_item_quantity_from_monsters_that_drop_silver_coin_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Found Items have a {0}% chance to drop Corrupted in Area"
-      }
-    ],
-    "ids": [
-      "map_items_drop_corrupted_%"
     ]
   },
   {
@@ -90245,118 +88941,6 @@
       {
         "condition": [
           {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains Haku"
-      },
-      {
-        "condition": [
-          {
-            "max": 2,
-            "min": 2
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains Tora"
-      },
-      {
-        "condition": [
-          {
-            "max": 3,
-            "min": 3
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains Catarina"
-      },
-      {
-        "condition": [
-          {
-            "max": 4,
-            "min": 4
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains Vagan"
-      },
-      {
-        "condition": [
-          {
-            "max": 5,
-            "min": 5
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains Elreon"
-      },
-      {
-        "condition": [
-          {
-            "max": 6,
-            "min": 6
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains Vorici"
-      },
-      {
-        "condition": [
-          {
-            "max": 7,
-            "min": 7
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains Zana"
-      }
-    ],
-    "ids": [
-      "map_mission_id"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
             "min": 1
           }
         ],
@@ -91185,42 +89769,6 @@
           }
         ],
         "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Map has {0} additional random Property"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Map has {0} additional random Properties"
-      }
-    ],
-    "ids": [
-      "map_number_of_additional_mods"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
           "ignore"
         ],
         "index_handlers": [
@@ -91245,42 +89793,6 @@
     ],
     "ids": [
       "map_number_of_additional_silver_coin_drops"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "An additional Map drops on Completing Area"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0} additional Maps drop on Completing Area"
-      }
-    ],
-    "ids": [
-      "map_on_complete_drop_x_additional_maps"
     ]
   },
   {
@@ -93200,25 +91712,6 @@
     "English": [
       {
         "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Strongboxes in Area are Corrupted"
-      }
-    ],
-    "ids": [
-      "map_strongboxes_are_corrupted"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {
             "max": 1,
             "min": 1
@@ -93247,58 +91740,6 @@
     ],
     "ids": [
       "map_strongboxes_drop_x_additional_rare_items"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Strongboxes in Area are at least Magic Rarity"
-      },
-      {
-        "condition": [
-          {
-            "max": 2,
-            "min": 2
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Strongboxes in Area are at least Rare Rarity"
-      },
-      {
-        "condition": [
-          {
-            "max": 3,
-            "min": 3
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Strongboxes in Area are at least Unique Rarity"
-      }
-    ],
-    "ids": [
-      "map_strongboxes_minimum_rarity"
     ]
   },
   {
@@ -95305,6 +93746,1899 @@
     ],
     "ids": [
       "silver_footprints_from_item"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Rarity of Items found in this Area"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Rarity of Items found in this Area"
+      }
+    ],
+    "ids": [
+      "map_item_drop_rarity_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "This Area's Modifiers to Quantity of Items found also apply to Rarity"
+      }
+    ],
+    "ids": [
+      "modifiers_to_map_item_drop_quantity_also_apply_to_map_item_drop_rarity"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "+{0}% Monster pack size"
+      }
+    ],
+    "ids": [
+      "map_pack_size_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Area is unidentified"
+      }
+    ],
+    "ids": [
+      "map_is_unidentified"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Area is corrupted"
+      }
+    ],
+    "ids": [
+      "map_is_corrupted"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain {0} additional Clusters of Mysterious Barrels"
+      }
+    ],
+    "ids": [
+      "map_area_contains_x_additional_clusters_of_beacon_barrels"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain {0} additional Clusters of Mysterious Barrels"
+      }
+    ],
+    "ids": [
+      "map_area_contains_x_additional_clusters_of_bloodworm_barrels"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain {0} additional Clusters of Mysterious Barrels"
+      }
+    ],
+    "ids": [
+      "map_area_contains_x_additional_clusters_of_explosive_barrels"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain {0} additional Clusters of Mysterious Barrels"
+      }
+    ],
+    "ids": [
+      "map_area_contains_x_additional_clusters_of_parasite_barrels"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain {0} additional Clusters of Mysterious Barrels"
+      }
+    ],
+    "ids": [
+      "map_area_contains_x_additional_clusters_of_volatile_barrels"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain {0} additional Clusters of Mysterious Barrels"
+      }
+    ],
+    "ids": [
+      "map_area_contains_x_additional_clusters_of_wealthy_barrels"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Unique Bosses are accompanied by Bodyguards"
+      }
+    ],
+    "ids": [
+      "map_boss_accompanied_by_bodyguards"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Unique Bosses deal {0}% increased Damage"
+      }
+    ],
+    "ids": [
+      "map_boss_damage_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Unique Bosses drop {0} additional Unique Item"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Unique Bosses drop {0} additional Unique Items"
+      }
+    ],
+    "ids": [
+      "map_boss_dropped_unique_items_+"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Items dropped by Unique Bosses are Corrupted"
+      }
+    ],
+    "ids": [
+      "map_boss_drops_corrupted_items"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Unique Bosses have {0}% increased Life"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Unique Bosses have {0}% reduced Life"
+      }
+    ],
+    "ids": [
+      "map_boss_maximum_life_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas can contain Breaches"
+      }
+    ],
+    "ids": [
+      "map_breach_rules"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain an additional Breach"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain {0} additional Breaches"
+      }
+    ],
+    "ids": [
+      "map_contains_additional_breaches"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain additional Monsters that deal Chaos Damage"
+      }
+    ],
+    "ids": [
+      "map_contains_additional_packs_of_chaos_monsters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain additional Monsters that deal Cold Damage"
+      }
+    ],
+    "ids": [
+      "map_contains_additional_packs_of_cold_monsters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain additional Monsters that deal Fire Damage"
+      }
+    ],
+    "ids": [
+      "map_contains_additional_packs_of_fire_monsters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain additional Monsters that deal Lightning Damage"
+      }
+    ],
+    "ids": [
+      "map_contains_additional_packs_of_lightning_monsters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain additional Monsters that deal Physical Damage"
+      }
+    ],
+    "ids": [
+      "map_contains_additional_packs_of_physical_monsters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Creeping Agony"
+      }
+    ],
+    "ids": [
+      "map_contains_creeping_agony"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Forsaken Masters"
+      }
+    ],
+    "ids": [
+      "map_contains_master"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain additional Monsters that Heal"
+      }
+    ],
+    "ids": [
+      "map_contains_x_additional_healing_packs"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Magic Maps contain additional Magic Monsters"
+      }
+    ],
+    "ids": [
+      "map_contains_x_additional_magic_packs_if_magic"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Normal Maps contain additional Normal Monsters"
+      }
+    ],
+    "ids": [
+      "map_contains_x_additional_normal_packs_if_normal"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain hunted traitors"
+      }
+    ],
+    "ids": [
+      "map_contains_x_additional_packs_on_their_own_team"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain additional Monsters that Convert when Killed"
+      }
+    ],
+    "ids": [
+      "map_contains_x_additional_packs_that_convert_on_death"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain additional Packs with Mirrored Rare Monsters"
+      }
+    ],
+    "ids": [
+      "map_contains_x_additional_packs_with_mirrored_rare_monsters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain additional Poisonous Monsters"
+      }
+    ],
+    "ids": [
+      "map_contains_x_additional_poison_packs"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Maps contain additional Rare Monsters"
+      }
+    ],
+    "ids": [
+      "map_contains_x_additional_rare_packs_if_rare"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Map contains {0} fewer Portals"
+      }
+    ],
+    "ids": [
+      "map_contains_x_fewer_portals"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Unique Bosses of Corrupted Maps drop an additional Vaal Item"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Unique Bosses of Corrupted Maps drop {0} additional Vaal Items"
+      }
+    ],
+    "ids": [
+      "map_corrupted_bosses_drop_x_additional_vaal_items"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {
+            "max": 20,
+            "min": 1
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 20,
+            "min": 1
+          },
+          {
+            "min": 100
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 20,
+            "min": 1
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are Repulsive"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 20,
+            "min": 1
+          },
+          {
+            "min": 100
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always Repulsive"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 40,
+            "min": 21
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are very Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 40,
+            "min": 21
+          },
+          {
+            "min": 100
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always very Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 40,
+            "min": 21
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are very Repulsive"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 40,
+            "min": 21
+          },
+          {
+            "min": 100
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always very Repulsive"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 60,
+            "min": 41
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are extremely Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 60,
+            "min": 41
+          },
+          {
+            "min": 100
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always extremely Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 60,
+            "min": 41
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are extremely Repulsive"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 60,
+            "min": 41
+          },
+          {
+            "min": 100
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always extremely Repulsive"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 80,
+            "min": 61
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are incredibly Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 80,
+            "min": 61
+          },
+          {
+            "min": 100
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always incredibly Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 80,
+            "min": 61
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are incredibly Repulsive"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 80,
+            "min": 61
+          },
+          {
+            "min": 100
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always incredibly Repulsive"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 100,
+            "min": 81
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are alluringly Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 100,
+            "min": 81
+          },
+          {
+            "min": 100
+          },
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always alluringly Alluring"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 100,
+            "min": 81
+          },
+          {
+            "max": 99,
+            "min": 0
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are alluringly Repulsive"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": 100,
+            "min": 81
+          },
+          {
+            "min": 100
+          },
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "string": "Areas are always alluringly Repulsive"
+      }
+    ],
+    "ids": [
+      "map_fishy_effect_0",
+      "map_fishy_effect_1",
+      "map_fishy_effect_2",
+      "map_fishy_effect_3"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Found Items drop Identified in Identified Maps"
+      }
+    ],
+    "ids": [
+      "map_equipment_drops_identified_in_identified_areas"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Slipstreams"
+      }
+    ],
+    "ids": [
+      "map_ground_haste_action_speed_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Maps have {0}% Quality"
+      }
+    ],
+    "ids": [
+      "map_has_x%_quality"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Quality bonus of Maps also applies to Rarity of Items found"
+      }
+    ],
+    "ids": [
+      "map_item_drop_quality_also_applies_to_map_item_drop_rarity"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Quantity of Items found in Areas"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Quantity of Items found in Areas"
+      }
+    ],
+    "ids": [
+      "map_item_drop_quantity_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Found Items have a {0}% chance to drop Corrupted in Areas"
+      }
+    ],
+    "ids": [
+      "map_items_drop_corrupted_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Haku"
+      },
+      {
+        "condition": [
+          {
+            "max": 2,
+            "min": 2
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Tora"
+      },
+      {
+        "condition": [
+          {
+            "max": 3,
+            "min": 3
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Catarina"
+      },
+      {
+        "condition": [
+          {
+            "max": 4,
+            "min": 4
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Vagan"
+      },
+      {
+        "condition": [
+          {
+            "max": 5,
+            "min": 5
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Elreon"
+      },
+      {
+        "condition": [
+          {
+            "max": 6,
+            "min": 6
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Vorici"
+      },
+      {
+        "condition": [
+          {
+            "max": 7,
+            "min": 7
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Zana"
+      }
+    ],
+    "ids": [
+      "map_mission_id"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas are inhabited by an additional Invasion Boss"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas are inhabited by {0} additional Invasion Bosses"
+      }
+    ],
+    "ids": [
+      "map_num_extra_invasion_bosses"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain an extra Strongbox"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain {0} extra Strongboxes"
+      }
+    ],
+    "ids": [
+      "map_num_extra_strongboxes"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Maps have {0} additional random Property"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Maps have {0} additional random Properties"
+      }
+    ],
+    "ids": [
+      "map_number_of_additional_mods"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "An additional Map drops on Completing Areas"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0} additional Maps drop on Completing Areas"
+      }
+    ],
+    "ids": [
+      "map_on_complete_drop_x_additional_maps"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Pack Size in Unidentified Maps"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% reduced Pack Size in Unidentified Maps"
+      }
+    ],
+    "ids": [
+      "map_pack_size_+%_in_unidentified_areas"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas are inhabited by {0} additional Rogue Exile"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas are inhabited by {0} additional Rogue Exiles"
+      }
+    ],
+    "ids": [
+      "map_spawn_extra_exiles"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Strongboxes in Areas are Corrupted"
+      }
+    ],
+    "ids": [
+      "map_strongboxes_are_corrupted"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Strongboxes in Areas are at least Magic Rarity"
+      },
+      {
+        "condition": [
+          {
+            "max": 2,
+            "min": 2
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Strongboxes in Areas are at least Rare Rarity"
+      },
+      {
+        "condition": [
+          {
+            "max": 3,
+            "min": 3
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Strongboxes in Areas are at least Unique Rarity"
+      }
+    ],
+    "ids": [
+      "map_strongboxes_minimum_rarity"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Quantity of Items found in Unidentified Maps"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Quantity of Items found in Unidentified Maps"
+      }
+    ],
+    "ids": [
+      "map_unidentified_maps_item_quantity_+%"
     ]
   },
   {
@@ -98564,26 +98898,6 @@
     "hidden": true,
     "ids": [
       "map_ignore_extra_monster_rarity_bias"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area yields {0}% more Items"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "map_item_drop_quantity_+%"
     ]
   },
   {
