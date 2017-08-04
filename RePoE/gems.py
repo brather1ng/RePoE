@@ -1,7 +1,7 @@
 import re
 
 from PyPoE.cli.exporter.wiki.parsers.item import ItemsParser
-from PyPoE.poe.file import StatFilterFile
+from PyPoE.poe.file.stat_filters import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
 from RePoE.constants import ActiveSkillType, ReleaseState, UNRELEASED_GEMS, LEGACY_GEMS, CooldownBypassType
 from RePoE.mods import ignore_mod_domain
@@ -205,8 +205,13 @@ class GemConverter:
             stat_requirements = {}
             gtype = GemTypes.support if is_support else GemTypes.active
             for stat_type, multi in multipliers.items():
-                if multi == 0 or multi == 33 or multi == 34:
+                if multi == 0 or multi == 33 or multi == 34 or multi == 50:
                     # 33 and 34 are from white gems (Portal, Vaal Breach, Detonate Mine), which have no requirements
+                    req = 0
+                elif multi == 50:
+                    # 50 is from SupportTutorial ("Lesser Reduced Mana Cost Support"), for which I
+                    # have no idea what the requirements are.
+                    print("Unknown multiplier (50) for " + gepl['GrantedEffectsKey']['Id'])
                     req = 0
                 else:
                     req = gem_stat_requirement(level, gtype, multi)
@@ -315,9 +320,11 @@ class GemConverter:
                     id_map[stats[i]['id']] = 1
                 else:
                     id_map[stats[i]['id']] += 1
-            if id_map[None] > 0 or len(id_map) > 2:
-                # not all are the same stat
-                # take the most often occurring stat, insert None when pl has a different stat
+            if (id_map[None] > 0 and len(id_map) > 1) or len(id_map) > 2:
+                # Not all are the same stat.
+                # Take the most often occurring stat except None and insert None when pl has a
+                # different stat.
+                del id_map[None]
                 taken = max(id_map, key=lambda k: id_map[k])
                 taken_text = None
                 for pl in values:

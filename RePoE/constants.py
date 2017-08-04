@@ -128,7 +128,7 @@ class ActiveSkillType(IntEnum):
     can_have_duration = 55
     # Unused for skill gems
     unknown_56 = 56
-    # Same as trigger_attack (47); unknown purpose
+    # Same as trigger_attack (47) plus Blast Rain; unknown purpose
     unknown_57 = 57
     # Gem tag equivalent
     channelling = 58
@@ -143,6 +143,8 @@ class ActiveSkillType(IntEnum):
     golem = 62
     # Gem tag equivalent
     herald = 63
+    # Only used for Death's Oath's aura; unknown purpose
+    unknown_64 = 64
 
 
 @unique
