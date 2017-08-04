@@ -427,10 +427,12 @@ class GemConverter:
                 "text": "Critical Strike Chance: {0}%",
                 "value": float(for_level['crit_chance'] / 100)
             })
-        if 'damage_effectiveness' in for_level:
+        if any('damage_effectiveness' in l for l in all_levels):
+            damage_effectiveness = for_level['damage_effectiveness'] \
+                if 'damage_effectiveness' in for_level else 0
             properties.append({
                 "text": "Damage Effectiveness: {0}%",
-                "value": for_level['damage_effectiveness'] + 100
+                "value": damage_effectiveness + 100
             })
 
         requirements = []
