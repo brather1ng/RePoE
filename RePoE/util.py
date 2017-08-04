@@ -1,9 +1,9 @@
 import json
 import io
 
-from PyPoE.poe.file import GGPKFile
-from PyPoE.poe.file import RelationalReader
-from PyPoE.poe.file import TranslationFileCache
+from PyPoE.poe.file.dat import RelationalReader
+from PyPoE.poe.file.ggpk import GGPKFile
+from PyPoE.poe.file.translations import TranslationFileCache
 
 
 def write_json(root_obj, data_path, file_name):

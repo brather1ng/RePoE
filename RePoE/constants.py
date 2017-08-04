@@ -141,6 +141,8 @@ class ActiveSkillType(IntEnum):
     trigger_item_granted = 61
     # Gem tag equivalent
     golem = 62
+    # Gem tag equivalent
+    herald = 63
 
 
 @unique

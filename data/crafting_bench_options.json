@@ -249,43 +249,26 @@
     ],
     "master_id": "StrMaster",
     "master_level": 4,
-    "mod_id": "StrMasterFlatArmourCrafted1"
+    "mod_id": "StrMasterFlatArmourCraftedGlovesBoots"
   },
   {
     "item_classes": [
-      "Gloves",
-      "Boots",
       "Body Armour",
       "Helmet",
       "Shield"
     ],
     "master_id": "StrMaster",
-    "master_level": 7,
-    "mod_id": "StrMasterFlatArmourCrafted2"
+    "master_level": 5,
+    "mod_id": "StrMasterFlatArmourCraftedHelmet"
   },
   {
     "item_classes": [
-      "Gloves",
-      "Boots",
       "Body Armour",
-      "Helmet",
       "Shield"
     ],
     "master_id": "StrMaster",
-    "master_level": 4,
-    "mod_id": "StrMasterFlatEvasionCrafted1"
-  },
-  {
-    "item_classes": [
-      "Gloves",
-      "Boots",
-      "Body Armour",
-      "Helmet",
-      "Shield"
-    ],
-    "master_id": "StrMaster",
-    "master_level": 7,
-    "mod_id": "StrMasterFlatEvasionCrafted2"
+    "master_level": 6,
+    "mod_id": "StrMasterFlatArmourCraftedBodyArmour"
   },
   {
     "item_classes": [
@@ -297,7 +280,26 @@
     ],
     "master_id": "StrMaster",
     "master_level": 4,
-    "mod_id": "StrMasterFlatEnergyShieldCrafted1"
+    "mod_id": "StrMasterFlatEvasionCraftedGlovesBoots"
+  },
+  {
+    "item_classes": [
+      "Body Armour",
+      "Helmet",
+      "Shield"
+    ],
+    "master_id": "StrMaster",
+    "master_level": 5,
+    "mod_id": "StrMasterFlatEvasionCraftedHelmet"
+  },
+  {
+    "item_classes": [
+      "Body Armour",
+      "Shield"
+    ],
+    "master_id": "StrMaster",
+    "master_level": 6,
+    "mod_id": "StrMasterFlatEvasionCraftedBodyArmour"
   },
   {
     "item_classes": [
@@ -308,8 +310,27 @@
       "Shield"
     ],
     "master_id": "StrMaster",
-    "master_level": 7,
-    "mod_id": "StrMasterFlatEnergyShieldCrafted2"
+    "master_level": 4,
+    "mod_id": "StrMasterFlatEnergyShieldCraftedGlovesBoots"
+  },
+  {
+    "item_classes": [
+      "Body Armour",
+      "Helmet",
+      "Shield"
+    ],
+    "master_id": "StrMaster",
+    "master_level": 5,
+    "mod_id": "StrMasterFlatEnergyShieldCraftedHelmet"
+  },
+  {
+    "item_classes": [
+      "Body Armour",
+      "Shield"
+    ],
+    "master_id": "StrMaster",
+    "master_level": 6,
+    "mod_id": "StrMasterFlatEnergyShieldCraftedBodyArmour"
   },
   {
     "item_classes": [
@@ -585,8 +606,7 @@
   },
   {
     "item_classes": [
-      "Amulet",
-      "Ring"
+      "Amulet"
     ],
     "master_id": "StrIntMaster",
     "master_level": 7,
@@ -1213,7 +1233,7 @@
     ],
     "master_id": "IntMaster",
     "master_level": 5,
-    "mod_id": "IntMasterMaximumSkeletonsCrafted"
+    "mod_id": "IntMasterMaximumSkeletonsCraftedUpdated"
   },
   {
     "item_classes": [
@@ -2480,7 +2500,7 @@
     ],
     "master_id": "StrDexMaster",
     "master_level": 7,
-    "mod_id": "StrDexMasterBleedingCrafted"
+    "mod_id": "StrDexMasterBleedingCraftedUpdated"
   },
   {
     "item_classes": [
@@ -2583,7 +2603,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 9,
+    "master_level": 2,
     "mod_id": "MapOnslaught_"
   },
   {
@@ -2591,7 +2611,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 9,
+    "master_level": 3,
     "mod_id": "MapBloodlinesLeagueCrafted"
   },
   {
@@ -2599,7 +2619,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 9,
+    "master_level": 4,
     "mod_id": "MapBeyondLeagueCrafted"
   },
   {
@@ -2615,7 +2635,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 9,
+    "master_level": 5,
     "mod_id": "MapExtraStrongBoxes"
   },
   {
@@ -2623,7 +2643,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 9,
+    "master_level": 6,
     "mod_id": "MapPerandusLeagueCrafted"
   },
   {
@@ -2631,7 +2651,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 9,
+    "master_level": 7,
     "mod_id": "MapNemesisZana"
   },
   {
@@ -2695,7 +2715,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 9,
+    "master_level": 8,
     "mod_id": "MapBreachLeagueCrafted"
   },
   {
@@ -2703,7 +2723,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 2,
+    "master_level": 9,
     "mod_id": "MapMonsterLifeCrafted1"
   },
   {
@@ -2711,7 +2731,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 4,
+    "master_level": 9,
     "mod_id": "MapMonsterLifeCrafted2"
   },
   {
@@ -2719,7 +2739,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 6,
+    "master_level": 9,
     "mod_id": "MapMonsterLifeCrafted3"
   },
   {
@@ -2727,7 +2747,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 8,
+    "master_level": 9,
     "mod_id": "MapMonsterLifeCrafted4"
   },
   {
@@ -2735,7 +2755,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 3,
+    "master_level": 9,
     "mod_id": "MapMonsterDamageCrafted1___"
   },
   {
@@ -2743,7 +2763,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 5,
+    "master_level": 9,
     "mod_id": "MapMonsterDamageCrafted2"
   },
   {
@@ -2751,7 +2771,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 7,
+    "master_level": 9,
     "mod_id": "MapMonsterDamageCrafted3"
   },
   {
@@ -2759,7 +2779,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 8,
+    "master_level": 9,
     "mod_id": "MapMonsterDamageCrafted4"
   },
   {
@@ -2767,7 +2787,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 3,
+    "master_level": 9,
     "mod_id": "MapMonsterPacksSpidersMap2Tier"
   },
   {
@@ -2775,7 +2795,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 5,
+    "master_level": 9,
     "mod_id": "MapMonsterPacksBlackguardsMap2Tier"
   },
   {
@@ -2783,7 +2803,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 7,
+    "master_level": 9,
     "mod_id": "MapMonsterPacksBanditsMap2Tier"
   },
   {
@@ -2791,7 +2811,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 2,
+    "master_level": 9,
     "mod_id": "MapTotemsMap2Tier"
   },
   {
@@ -2799,7 +2819,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 4,
+    "master_level": 9,
     "mod_id": "MapMultipleExilesMap2Tier"
   },
   {
@@ -2807,7 +2827,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 6,
+    "master_level": 9,
     "mod_id": "MapBeyondLeagueRolledMap2Tier"
   },
   {
@@ -2815,7 +2835,7 @@
       "Map"
     ],
     "master_id": "StrDexIntMaster",
-    "master_level": 8,
+    "master_level": 9,
     "mod_id": "MapTwoBossesMap2Tier_"
   },
   {
