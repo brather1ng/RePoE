@@ -192,7 +192,8 @@ UNRELEASED_GEMS = {
     "SkeletalChains",
     "Snipe",
     "StaticTether",
-    "StormBurst",
+    "SummonSkeletonsChannelled",
+    "ThrownShield",
     "TouchOfGod",
     "VaalFireTrap",
     "VaalHeavyStrike",
@@ -204,6 +205,7 @@ UNRELEASED_GEMS = {
     "SupportCastLinkedCursesOnCurse",
     "SupportReturn",
     "SupportSplit",
+    "SupportTutorial",
     # rework WIP versions (gems without 'New' in front exist)
     "NewArcticArmour",
     "NewNewBladeVortex",
