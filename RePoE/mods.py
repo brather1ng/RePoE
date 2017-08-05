@@ -75,8 +75,6 @@ def ignore_mod_domain(domain):
 
 
 # todo enable when useful
-# ignored information about mods:
-# - GenerationWeight_{TagsKeys, Values} (changes mod spawning weight when the item has specific tags, e.g. those above)
 # ignored mods:
 # - domain of 'monster', 'chest', 'stance', 'leaguestone'
 def write_mods(data_path, relational_reader, **kwargs):
