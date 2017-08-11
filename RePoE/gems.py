@@ -214,7 +214,7 @@ class GemConverter:
                     print("Unknown multiplier (50) for " + gepl['GrantedEffectsKey']['Id'])
                     req = 0
                 else:
-                    req = gem_stat_requirement(level, gtype, multi)
+                    req = gem_stat_requirement(gepl['LevelRequirement'], gtype, multi)
                 stat_requirements[stat_type] = req
             r['stat_requirements'] = stat_requirements
 
