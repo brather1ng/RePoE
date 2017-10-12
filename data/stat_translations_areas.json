@@ -271,6 +271,25 @@
           {}
         ],
         "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Gems can be Socketed in this Item ignoring Socket Colour"
+      }
+    ],
+    "ids": [
+      "local_can_socket_gems_ignoring_colour"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
           "+#"
         ],
         "index_handlers": [
@@ -338,6 +357,63 @@
     ],
     "ids": [
       "local_socketed_gem_level_+"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Gems Socketed in Red Sockets have {0} to Level"
+      }
+    ],
+    "ids": [
+      "local_socketed_gems_in_red_sockets_get_level_+"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#%"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Gems Socketed in Green Sockets have {0} to Quality"
+      }
+    ],
+    "ids": [
+      "local_socketed_gems_in_green_sockets_get_quality_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Gems Socketed in Blue Sockets gain {0}% increased Experience"
+      }
+    ],
+    "ids": [
+      "local_socketed_gems_in_blue_sockets_experience_gained_+%"
     ]
   },
   {
@@ -2969,7 +3045,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants level 20 Summon Beastial Rhoa Skill"
+        "string": "Grants level 20 Summon Bestial Rhoa Skill"
       },
       {
         "condition": [
@@ -2984,7 +3060,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants level 20 Summon Beastial Ursa Skill"
+        "string": "Grants level 20 Summon Bestial Ursa Skill"
       },
       {
         "condition": [
@@ -2999,7 +3075,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants level 20 Summon Beastial Snake Skill"
+        "string": "Grants level 20 Summon Bestial Snake Skill"
       }
     ],
     "ids": [
@@ -4136,7 +4212,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Recovery Speed"
+        "string": "{0}% increased Recovery rate"
       },
       {
         "condition": [
@@ -4152,7 +4228,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Recovery Speed"
+        "string": "{0}% reduced Recovery rate"
       }
     ],
     "ids": [
@@ -21484,6 +21560,25 @@
           {}
         ],
         "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Has no Attribute Requirements"
+      }
+    ],
+    "ids": [
+      "local_no_attribute_requirements"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
           "+#"
         ],
         "index_handlers": [
@@ -25334,7 +25429,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Flask Recovery Speed"
+        "string": "{0}% increased Flask Recovery rate"
       }
     ],
     "ids": [
@@ -38136,7 +38231,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased effect of Flasks"
+        "string": "{0}% increased effect of Flasks on You"
       },
       {
         "condition": [
@@ -38152,7 +38247,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced effect of Flasks"
+        "string": "{0}% reduced effect of Flasks on You"
       }
     ],
     "ids": [
@@ -38533,7 +38628,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Your Flasks grant {0}% increased Rarity of Items found while using a Flask"
+        "string": "{0}% increased Rarity of Items found while using a Flask"
       },
       {
         "condition": [
@@ -38549,7 +38644,7 @@
             "negate"
           ]
         ],
-        "string": "Your Flasks grant {0}% reduced Rarity of Items found while using a Flask"
+        "string": "{0}% reduced Rarity of Items found while using a Flask"
       }
     ],
     "ids": [
@@ -42016,7 +42111,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Your Flasks grant {0}% of Life Recovery to Minions"
+        "string": "{0}% of Flask Life Recovery granted to Minions"
       }
     ],
     "ids": [
@@ -42537,7 +42632,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Your Flasks grant {0}% chance to Freeze while using a Flask"
+        "string": "{0}% chance to Freeze while using a Flask"
       }
     ],
     "ids": [
@@ -42556,7 +42651,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Your Flasks grant {0}% chance to Shock while using a Flask"
+        "string": "{0}% chance to Shock while using a Flask"
       }
     ],
     "ids": [
@@ -81676,7 +81771,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Projectiles from Attacks have {0}% chance to inflict Bleeding on Hit while\nyou have a Beastial Minion"
+        "string": "Projectiles from Attacks have {0}% chance to inflict Bleeding on Hit while\nyou have a Bestial Minion"
       }
     ],
     "ids": [
@@ -81695,7 +81790,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Projectiles from Attacks have {0}% chance to Maim on Hit while\nyou have a Beastial Minion"
+        "string": "Projectiles from Attacks have {0}% chance to Maim on Hit while\nyou have a Bestial Minion"
       }
     ],
     "ids": [
@@ -81714,7 +81809,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Projectiles from Attacks have {0}% chance to Poison on Hit while\nyou have a Beastial Minion"
+        "string": "Projectiles from Attacks have {0}% chance to Poison on Hit while\nyou have a Bestial Minion"
       }
     ],
     "ids": [
@@ -81736,7 +81831,7 @@
           [],
           []
         ],
-        "string": "Adds {0}-{1} Physical Damage to Attacks while you have a Beastial Minion"
+        "string": "Adds {0}-{1} Physical Damage to Attacks while you have a Bestial Minion"
       }
     ],
     "ids": [
@@ -81759,7 +81854,7 @@
           [],
           []
         ],
-        "string": "Adds {0}-{1} Chaos Damage to Attacks while you have a Beastial Minion"
+        "string": "Adds {0}-{1} Chaos Damage to Attacks while you have a Bestial Minion"
       }
     ],
     "ids": [
@@ -81779,7 +81874,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Attack and Movement Speed while you have a Beastial Minion"
+        "string": "{0}% increased Attack and Movement Speed while you have a Bestial Minion"
       }
     ],
     "ids": [
@@ -95633,7 +95728,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Life and Mana Recovery from Flasks are instant"
+        "string": "Player's Life and Mana Recovery from Flasks are instant"
       }
     ],
     "ids": [
@@ -99023,11 +99118,11 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% Physical Damage Reduction if there\nis only one nearby Enemy"
+        "string": "{0}% additional Physical Damage Reduction if there\nis only one nearby Enemy"
       }
     ],
     "ids": [
-      "physical_damage_reduction_rating_+%_if_only_one_enemy_nearby"
+      "physical_damage_reduction_%_if_only_one_enemy_nearby"
     ]
   },
   {
@@ -99046,7 +99141,7 @@
       }
     ],
     "ids": [
-      "physical_damage_reduction_rating_+%_per_nearby_enemy"
+      "physical_damage_reduction_%_per_nearby_enemy"
     ]
   },
   {
@@ -99246,7 +99341,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Poison Duration at least 150 Intelligence"
+        "string": "{0}% increased Poison Duration if you have at least 150 Intelligence"
       },
       {
         "condition": [
@@ -99262,7 +99357,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Poison Duration at least 150 Intelligence"
+        "string": "{0}% reduced Poison Duration if you have at least 150 Intelligence"
       }
     ],
     "ids": [
@@ -100648,6 +100743,25 @@
     ],
     "ids": [
       "talisman_implicit_projectiles_pierce_1_additional_target_per_10"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Grants Malachai's Endurance, Frenzy and Power for 6 seconds each, in sequence"
+      }
+    ],
+    "ids": [
+      "thaumaturgy_rotation_active"
     ]
   },
   {
