@@ -69,7 +69,7 @@ def _convert_tags_keys(tags_keys):
 def ignore_mod_domain(domain):
     whitelist = {
         MOD_DOMAIN.ITEM, MOD_DOMAIN.FLASK, MOD_DOMAIN.AREA, MOD_DOMAIN.MASTER, MOD_DOMAIN.JEWEL,
-        MOD_DOMAIN.ATLAS
+        MOD_DOMAIN.ATLAS, MOD_DOMAIN.ABYSS_JEWEL
     }
     return domain not in whitelist
 
