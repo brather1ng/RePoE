@@ -145,6 +145,16 @@ class ActiveSkillType(IntEnum):
     herald = 63
     # Only used for Death's Oath's aura; unknown purpose
     unknown_64 = 64
+    # Skill can not be supported by Ruthless Support. Only used for Cyclone and Vaal Cyclone.
+    not_ruthless_supportable = 65
+    # Unused for skill gems
+    unknown_66 = 66
+    # Skill can be supported by Spell Cascade Support. Seems to be only set for very few spells?
+    spell_cascade_supportable = 67
+    # Skill can be supported by Volley Support
+    volley_supportable = 68
+    # Skill can be supported by Mirage Archer Support
+    mirage_archer_supportable = 69
 
 
 @unique
@@ -170,6 +180,7 @@ class ReleaseState(Enum):
 
 
 # gems that could never drop (unreleased mod only effects are not listed)
+# only used for gems that have base items
 UNRELEASED_GEMS = {
     # active gems that are not released
     "AncestorTotemSlash",
@@ -177,20 +188,22 @@ UNRELEASED_GEMS = {
     "BladeTrap",
     "ComboStrike",
     "DamageInfusion",
+    "DiscorectangleSlam",
     "ElementalProjectiles",
-    "EnergyBeam",
+    "EnduranceChargeSlam",
     "FireWeapon",
     "HeraldOfBlood",
     "Icefire",
     "Ignite",
     "InfernalSwarm",
+    "InfernalSweep",
     "LightningChannel",
     "LightningCircle",
     "RighteousLightning",
     "Riptide",
     "ShadowBlades",
-    "SkeletalChains",
     "Snipe",
+    "SpectralSpinningWeapon",
     "StaticTether",
     "SummonSkeletonsChannelled",
     "ThrownShield",
@@ -205,6 +218,7 @@ UNRELEASED_GEMS = {
     "SupportCastLinkedCursesOnCurse",
     "SupportReturn",
     "SupportSplit",
+    "SupportSummonGhostOnKill",
     "SupportTutorial",
     # rework WIP versions (gems without 'New' in front exist)
     "NewArcticArmour",
