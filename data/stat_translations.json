@@ -1050,43 +1050,6 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Effect of Socketed Abyss Jewels"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "{0}% reduced Effect of Socketed Abyss Jewels"
-      }
-    ],
-    "ids": [
-      "local_socketed_abyss_jewel_effect_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Socketed Gems are Supported by Level {0} Increased Area of Effect"
       }
     ],
@@ -4089,6 +4052,43 @@
         "index_handlers": [
           []
         ],
+        "string": "Socketed Curse Gems have {0}% increased Mana Reservation"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Socketed Curse Gems have {0}% reduced Mana Reservation"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_curse_gems_have_mana_reservation_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Effect of Socketed Jewels"
       },
       {
@@ -4109,7 +4109,7 @@
       }
     ],
     "ids": [
-      "local_display_socketed_curse_gems_have_mana_reservation_+%"
+      "local_socketed_abyss_jewel_effect_+%"
     ]
   },
   {
@@ -111812,6 +111812,25 @@
     ],
     "ids": [
       "volatile_dead_cast_speed_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Volatile Dead destroys up to 1 additional Corpse"
+      }
+    ],
+    "ids": [
+      "volatile_dead_consume_additional_corpse"
     ]
   },
   {

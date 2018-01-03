@@ -29709,7 +29709,7 @@
   },
   "DetonateDead": {
     "active_skill": {
-      "description": "Targets a corpse, and deals spell damage to enemies around the corpse, as well as causing the corpse to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannnot be reflected.",
+      "description": "Targets a corpse, and deals spell damage to enemies around the corpse, as well as causing the corpse to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected.",
       "display_name": "Detonate Dead",
       "id": "detonate_dead",
       "is_manually_casted": true,
@@ -78190,7 +78190,6 @@
         "hits",
         "aoe",
         "spell_totem_supportable",
-        "spell_echo_supportable",
         "lightning",
         "channelling"
       ],
