@@ -4,6 +4,7 @@ from RePoE.base_items import write_base_items
 from RePoE.crafting_bench_options import write_crafting_bench_options
 from RePoE.gem_tags import write_gem_tags
 from RePoE.gems import write_gems
+from RePoE.item_classes import write_item_classes
 from RePoE.mods import write_mods
 from RePoE.npc_master import write_npc_master
 from RePoE.stat_translations import write_stat_translations
@@ -25,6 +26,7 @@ def main(data_path='../data/'):
         'npc_master': write_npc_master,
         'base_items': write_base_items,
         'tags': write_tags,
+        'item_classes': write_item_classes,
         # todo maybe Essences.dat
         # todo 'buffs': BuffDefinitions.dat?
     }

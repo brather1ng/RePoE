@@ -44,6 +44,8 @@ The following data is currently available:
   requirements and properties.
 - `tags.json`: Lists all possible item tags. These are the tags used in `base_items.json` and 
   `mods.json`.
+- `item_classes.json`: Defines the item class ids and the tags added to items when they are
+  Shaper/Elder items.
 
 ## Running RePoE
 
