@@ -176,60 +176,86 @@ class ReleaseState(Enum):
     # Item currently exists in the in-game.
     released = 1,
     # Item can no longer be obtained (excluding via trade from other players).
-    legacy = 2
+    legacy = 2,
+    # Item can only be obtained with unique rarity (and is not unreleased).
+    # If the unique is not always corrupted (as for Ruby Amulet's unique), a non-unique item with
+    # the base can be obtained by corrupting uniques to rares.
+    unique_only = 3
 
 
-# gems that could never drop (unreleased mod only effects are not listed)
-# only used for gems that have base items
-UNRELEASED_GEMS = {
-    # active gems that are not released
-    "AncestorTotemSlash",
-    "Backstab",
-    "BladeTrap",
-    "ComboStrike",
-    "DamageInfusion",
-    "DiscorectangleSlam",
-    "ElementalProjectiles",
-    "EnduranceChargeSlam",
-    "FireWeapon",
-    "HeraldOfBlood",
-    "Icefire",
-    "Ignite",
-    "InfernalSwarm",
-    "InfernalSweep",
-    "LightningChannel",
-    "LightningCircle",
-    "RighteousLightning",
-    "Riptide",
-    "ShadowBlades",
-    "Snipe",
-    "SpectralSpinningWeapon",
-    "StaticTether",
-    "SummonSkeletonsChannelled",
-    "ThrownShield",
-    "TouchOfGod",
-    "VaalFireTrap",
-    "VaalHeavyStrike",
-    "VaalSoulHarvesting",
-    "VaalSweep",
-    "VortexMine",
-    "WandTeleport",
-    # support gems that are not released
-    "SupportCastLinkedCursesOnCurse",
-    "SupportReturn",
-    "SupportSplit",
-    "SupportSummonGhostOnKill",
-    "SupportTutorial",
-    # rework WIP versions (gems without 'New' in front exist)
-    "NewArcticArmour",
-    "NewNewBladeVortex",
-    # "NewPhaseRun",  ('PhaseRun' does not exist)
-    "NewPunishment",
-    # "NewShieldCharge",  ('ShieldCharge' does not exist)
-    "NewShockNova",
+# Base items with with ReleaseState.unreleased
+UNRELEASED_ITEMS = {
+    "Metadata/Items/Rings/RingVictor1",  # Jet Ring
+    "Metadata/Items/Quivers/QuiverDescent",
+    # Keyblade, one item existed in closed-beta
+    "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordDev",
+    # Gems
+    "Metadata/Items/Gems/SkillGemSlashTotem",
+    "Metadata/Items/Gems/SkillGemBackstab",
+    "Metadata/Items/Gems/SkillGemBladeTrap",
+    "Metadata/Items/Gems/SkillGemComboStrike",
+    "Metadata/Items/Gems/SkillGemDamageInfusion",
+    "Metadata/Items/Gems/SkillGemDiscorectangleSlam",
+    "Metadata/Items/Gems/SkillGemElementalProjectiles",
+    "Metadata/Items/Gems/SkillGemEnduranceChargeSlam",
+    "Metadata/Items/Gems/SkillGemFireWeapon",
+    "Metadata/Items/Gems/SkillGemHeraldOfBlood",
+    "Metadata/Items/Gems/SkillGemIcefire",
+    "Metadata/Items/Gems/SkillGemIgnite",
+    "Metadata/Items/Gems/SkillGemInfernalSwarm",
+    "Metadata/Items/Gems/SkillGemInfernalSweep",
+    "Metadata/Items/Gems/SkillGemLightningChannel",
+    "Metadata/Items/Gems/SkillGemLightningCircle",
+    "Metadata/Items/Gems/SkillGemNewBladeVortex",
+    "Metadata/Items/Gems/SkillGemNewPunishment",
+    "Metadata/Items/Gems/SkillGemNewShockNova",
+    "Metadata/Items/Gems/SkillGemRighteousLightning",
+    "Metadata/Items/Gems/SkillGemRiptide",
+    "Metadata/Items/Gems/SkillGemShadowBlades",
+    "Metadata/Items/Gems/SkillGemSnipe",
+    "Metadata/Items/Gems/SkillGemSpectralSpinningWeapon",
+    "Metadata/Items/Gems/SkillGemStaticTether",
+    "Metadata/Items/Gems/SkillGemSummonSkeletonsChannelled",
+    "Metadata/Items/Gems/SkillGemThrownShieldProjectile",
+    "Metadata/Items/Gems/SkillGemTouchOfGod",
+    "Metadata/Items/Gems/SkillGemVaalFireTrap",
+    "Metadata/Items/Gems/SkillGemVaalHeavyStrike",
+    "Metadata/Items/Gems/SkillGemVaalSweep",
+    "Metadata/Items/Gems/SkillGemVortexMine",
+    "Metadata/Items/Gems/SkillGemWandTeleport",
+    "Metadata/Items/Gems/SupportGemCastLinkedCursesOnCurse",
+    "Metadata/Items/Gems/SupportGemReturn",
+    "Metadata/Items/Gems/SupportGemSplit",
+    "Metadata/Items/Gems/SupportGemSummonGhostOnKill",
+    "Metadata/Items/Gems/SupportGemTemporaryForTutorial",
+    "Metadata/Items/Gems/SupportGemVaalSoulHarvesting",
 }
 
-# gems that can no longer be obtained
-LEGACY_GEMS = {
-    "SupportItemQuantity"
+# Base items with with ReleaseState.legacy
+LEGACY_ITEMS = {
+    "Metadata/Items/Currency/CurrencyImprintOrb",  # Eternal Orb
+    "Metadata/Items/Currency/CurrencyImprint",  # Eternal Orb imprint
+    "Metadata/Items/DivinationCards/DivinationCardBirthOfTheThree",
+    "Metadata/Items/Gems/SupportGemItemQuantity",
+    # Legacy Quivers
+    "Metadata/Items/Quivers/Quiver1",
+    "Metadata/Items/Quivers/Quiver2",
+    "Metadata/Items/Quivers/Quiver3",
+    "Metadata/Items/Quivers/Quiver4",
+    "Metadata/Items/Quivers/Quiver5",
+}
+
+# Base items with with ReleaseState.unique_only
+UNIQUE_ONLY_ITEMS = {
+    "Metadata/Items/Amulet/AmuletVictor1",  # Jet Amulet, base for Amulet of the Victor (PvP reward)
+    "Metadata/Items/Amulets/Amulet11",  # Ruby Amulet
+    "Metadata/items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordC",  # Charan's Sword
+    # Race rewards (bases of Demigod uniques)
+    "Metadata/Items/Belts/BeltDemigods1",
+    "Metadata/Items/Rings/RingDemigods1",
+    "Metadata/Items/Armours/Shields/ShieldDemigods",
+    "Metadata/Items/Armours/Boots/BootsDemigods1",
+    "Metadata/Items/Armours/BodyArmours/BodyDemigods1",
+    "Metadata/Items/Armours/Gloves/GlovesDemigods1",
+    "Metadata/Items/Armours/Helmets/HelmetWreath1",
 }

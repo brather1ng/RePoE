@@ -3,7 +3,8 @@ import re
 from PyPoE.cli.exporter.wiki.parsers.item import ItemsParser
 from PyPoE.poe.file.stat_filters import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
-from RePoE.constants import ActiveSkillType, ReleaseState, UNRELEASED_GEMS, LEGACY_GEMS, CooldownBypassType
+from RePoE.base_items import get_release_state
+from RePoE.constants import ActiveSkillType, ReleaseState, CooldownBypassType
 from RePoE.mods import ignore_mod_domain
 from RePoE.util import write_json, call_with_default_args
 
@@ -225,16 +226,10 @@ class GemConverter:
             obj['base_item'] = None
             return
 
-        if granted_effect['Id'] in UNRELEASED_GEMS:
-            release_state = ReleaseState.unreleased
-        elif granted_effect['Id'] in LEGACY_GEMS:
-            release_state = ReleaseState.legacy
-        else:
-            release_state = ReleaseState.released
         obj['base_item'] = {
             'id': base_item_type['Id'],
             'display_name': base_item_type['Name'],
-            'release_state': release_state.name,
+            'release_state': get_release_state(base_item_type['Id']).name,
         }
 
         key = ItemsParser._skill_gem_to_projectile_map.get(base_item_type['Name'])

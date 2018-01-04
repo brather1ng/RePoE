@@ -1,5 +1,6 @@
 import argparse
 
+from RePoE.base_items import write_base_items
 from RePoE.crafting_bench_options import write_crafting_bench_options
 from RePoE.gem_tags import write_gem_tags
 from RePoE.gems import write_gems
@@ -7,7 +8,8 @@ from RePoE.mods import write_mods
 from RePoE.npc_master import write_npc_master
 from RePoE.stat_translations import write_stat_translations
 from RePoE.stats import write_stats
-from RePoE.util import load_ggpk, create_relational_reader, create_translation_file_cache
+from RePoE.util import load_ggpk, create_relational_reader, create_translation_file_cache, \
+    DEFAULT_GGPK_PATH, create_ot_file_cache
 
 
 def main(data_path='../data/'):
@@ -19,6 +21,7 @@ def main(data_path='../data/'):
         'gem_tags': write_gem_tags,
         'crafting_bench_options': write_crafting_bench_options,
         'npc_master': write_npc_master,
+        'base_items': write_base_items,
         # todo maybe Essences.dat
         # todo 'buffs': BuffDefinitions.dat?
     }
@@ -26,7 +29,7 @@ def main(data_path='../data/'):
     parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
     parser.add_argument('modules', metavar="module", nargs='+', choices=modules.keys(),
                         help="the converter modules to run (choose from '" + "', '".join(modules.keys()) + "')")
-    parser.add_argument('-f', '--file', default='D:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk',
+    parser.add_argument('-f', '--file', default=DEFAULT_GGPK_PATH,
                         help="path to your Content.ggpk file")
     args = parser.parse_args()
 
@@ -36,9 +39,11 @@ def main(data_path='../data/'):
 
     rr = create_relational_reader(ggpk)
     tfc = create_translation_file_cache(ggpk)
+    otfc = create_ot_file_cache(ggpk)
     for module in args.modules:
         print("Running module '%s'" % module)
-        modules[module](ggpk=ggpk, data_path=data_path, relational_reader=rr, translation_file_cache=tfc)
+        modules[module](ggpk=ggpk, data_path=data_path, relational_reader=rr,
+                        translation_file_cache=tfc, ot_file_cache=otfc)
 
 if __name__ == '__main__':
     main()

@@ -3,6 +3,7 @@ import io
 
 from PyPoE.poe.file.dat import RelationalReader
 from PyPoE.poe.file.ggpk import GGPKFile
+from PyPoE.poe.file.ot import OTFileCache
 from PyPoE.poe.file.translations import TranslationFileCache
 
 
@@ -34,7 +35,15 @@ def create_translation_file_cache(ggpk):
     return TranslationFileCache(path_or_ggpk=ggpk)
 
 
+def create_ot_file_cache(ggpk):
+    return OTFileCache(path_or_ggpk=ggpk)
+
+
+DEFAULT_GGPK_PATH = 'D:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk'
+
+
 def call_with_default_args(write_func):
-    ggpk = load_ggpk('D:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk')
+    ggpk = load_ggpk(DEFAULT_GGPK_PATH)
     write_func(ggpk=ggpk, data_path='../data/', relational_reader=create_relational_reader(ggpk),
-               translation_file_cache=create_translation_file_cache(ggpk))
+               translation_file_cache=create_translation_file_cache(ggpk),
+               ot_file_cache=create_ot_file_cache(ggpk))
