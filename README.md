@@ -46,6 +46,8 @@ The following data is currently available:
   `mods.json`.
 - `item_classes.json`: Defines the item class ids and the tags added to items when they are
   Shaper/Elder items.
+- `essences.json`: Describes essences. Defines the mods they spawn on items of the different
+  item classes and general information like level and tier. 
 
 ## Running RePoE
 

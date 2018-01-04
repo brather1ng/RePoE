@@ -81,6 +81,9 @@ described below.
 - `tags`: Array of the gem tags of the item. See `gem_tags.json` for possible
   values and translations to their in-game display text.
 
+Base item information not specific to gems, e.g. the visual identity, can be found in
+`base_items.json`.
+
 #### Active skill information
 
 The `active_skill` field is only set for active skills. It has the following fields.

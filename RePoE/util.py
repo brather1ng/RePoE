@@ -7,8 +7,8 @@ from PyPoE.poe.file.ot import OTFileCache
 from PyPoE.poe.file.translations import TranslationFileCache
 
 
-def get_if_cell_is_not_none(relational_file_cell, key, default_value=None):
-    return default_value if relational_file_cell is None else relational_file_cell[key]
+def get_id_or_none(relational_file_cell):
+    return None if relational_file_cell is None else relational_file_cell['Id']
 
 
 def write_json(root_obj, data_path, file_name):

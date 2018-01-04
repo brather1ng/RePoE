@@ -8,7 +8,7 @@ gems are included. For the exact included item classes, see the whitelist at
 [`RePoE.base_items.ITEM_CLASS_WHITELIST`](https://github.com/brather1ng/RePoE/blob/master/RePoE/base_items.py#L93). 
 
 Properties specific to skill gems and essences are not included. See `gems.json` and 
-`gem_tooltips.json` for skill gems.
+`gem_tooltips.json` for skill gems and `essences.json` for essences.
 
 The file is an object where each key is the metadata id of a base item with an object describing
 the base item as a value. The description object has the following fields:

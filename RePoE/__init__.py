@@ -2,6 +2,7 @@ import argparse
 
 from RePoE.base_items import write_base_items
 from RePoE.crafting_bench_options import write_crafting_bench_options
+from RePoE.essences import write_essences
 from RePoE.gem_tags import write_gem_tags
 from RePoE.gems import write_gems
 from RePoE.item_classes import write_item_classes
@@ -27,7 +28,7 @@ def main(data_path='../data/'):
         'base_items': write_base_items,
         'tags': write_tags,
         'item_classes': write_item_classes,
-        # todo maybe Essences.dat
+        'essences': write_essences,
         # todo 'buffs': BuffDefinitions.dat?
     }
 
