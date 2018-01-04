@@ -74,7 +74,7 @@ described below.
   * `id`: Internal identifier of the item. Can be used to obtain more information
     from `BaseItemTypes.dat`.
   * `release_state`: In what state that item is currently in-game. See
-    [`RePoE.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L146)
+    [`RePoE.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L173)
     for possible values and their meaning. 
 - `projectile_speed`: Projectile speed of the primary projectile of the skill
   in internal units (per second?).

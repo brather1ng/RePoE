@@ -2,7 +2,7 @@
 
 Repository of Path of Exile resources for tool developers.
 
-Contains data about stats, mods and gems at the moment. See the `data`
+Contains data about stats, mods, base items and gems at the moment. See the `data`
 folder for those files and the `docs` folder for their documentation.
 
 For the actual GGPK parsing, [PyPoE](https://github.com/OmegaK2/PyPoE) is used.
@@ -39,6 +39,9 @@ The following data is currently available:
   keys and their translation as value.
 - `gem_tooltips.json`: Describes tooltips for skill gems and skill gem effects only
   provided by mods.
+- `base_items.json`: Describes base item types. Contains information applicable to
+  all item types, e.g. inventory size, item class and tags, as well as attribute
+  requirements and properties.
   
 ## Running RePoE
 

@@ -187,6 +187,7 @@ class ReleaseState(Enum):
 UNRELEASED_ITEMS = {
     "Metadata/Items/Rings/RingVictor1",  # Jet Ring
     "Metadata/Items/Quivers/QuiverDescent",
+    "Metadata/Items/Classic/MysteryLeaguestone",
     # Keyblade, one item existed in closed-beta
     "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordDev",
     # Gems

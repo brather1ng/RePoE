@@ -63,7 +63,7 @@ def _convert_weapon_properties(weapon_row, properties):
     if weapon_row is None:
         return
     properties['critical_strike_chance'] = weapon_row['Critical']
-    properties['attack_speed'] = weapon_row['Speed']
+    properties['attack_time'] = weapon_row['Speed']
     properties['physical_damage_min'] = weapon_row['DamageMin']
     properties['physical_damage_max'] = weapon_row['DamageMax']
     properties['range'] = weapon_row['RangeMax']
