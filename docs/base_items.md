@@ -28,6 +28,7 @@ the base item as a value. The description object has the following fields:
   for possible values and their meaning.
 - `tags`: The tags all items of the base have. This determines the mods that can spawn on items
   of this base and allows for classification beyond just `item_class`.
+  See `tags.json` for the possible tags, though not all of those appear on item bases.
 - `visual_identity`: An object describing how items of this base are normally displayed in-game.
   * `id`: The id of the referenced visual identity in `ItemVisualIdentity.dat`.
   * `dds_file`: The path to the item's 2D-Art file.

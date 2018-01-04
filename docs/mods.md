@@ -62,5 +62,7 @@ as value. That description object has the following fields:
   The weights are percentage multipliers to the spawn weight obtained through 
   `spawn_weights`. If `generation_weights` is empty, the spawn weight is not modified.
 
+See `tags.json` for the possible tags, though not all of those are relevant for mods.
+
 Only mods of the domains 'item', 'flask', 'area', 'master', 'jewel' and 'atlas' are 
 included. If you need other domains, just ask.

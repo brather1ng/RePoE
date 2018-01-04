@@ -42,7 +42,9 @@ The following data is currently available:
 - `base_items.json`: Describes base item types. Contains information applicable to
   all item types, e.g. inventory size, item class and tags, as well as attribute
   requirements and properties.
-  
+- `tags.json`: Lists all possible item tags. These are the tags used in `base_items.json` and 
+  `mods.json`.
+
 ## Running RePoE
 
 - Install Python 3.4 or 3.5 and Git

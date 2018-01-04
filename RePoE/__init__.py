@@ -8,12 +8,14 @@ from RePoE.mods import write_mods
 from RePoE.npc_master import write_npc_master
 from RePoE.stat_translations import write_stat_translations
 from RePoE.stats import write_stats
+from RePoE.tags import write_tags
 from RePoE.util import load_ggpk, create_relational_reader, create_translation_file_cache, \
     DEFAULT_GGPK_PATH, create_ot_file_cache
 
 
 def main(data_path='../data/'):
     modules = {
+        'all': None,
         'stat_translations': write_stat_translations,
         'mods': write_mods,
         'stats': write_stats,
@@ -22,6 +24,7 @@ def main(data_path='../data/'):
         'crafting_bench_options': write_crafting_bench_options,
         'npc_master': write_npc_master,
         'base_items': write_base_items,
+        'tags': write_tags,
         # todo maybe Essences.dat
         # todo 'buffs': BuffDefinitions.dat?
     }
@@ -37,13 +40,18 @@ def main(data_path='../data/'):
     ggpk = load_ggpk(args.file)
     print(" Done!")
 
+    selected_modules = args.modules
+    if 'all' in selected_modules:
+        selected_modules = [m for m in modules if m != 'all']
+
     rr = create_relational_reader(ggpk)
     tfc = create_translation_file_cache(ggpk)
     otfc = create_ot_file_cache(ggpk)
-    for module in args.modules:
+    for module in selected_modules:
         print("Running module '%s'" % module)
         modules[module](ggpk=ggpk, data_path=data_path, relational_reader=rr,
                         translation_file_cache=tfc, ot_file_cache=otfc)
+
 
 if __name__ == '__main__':
     main()
