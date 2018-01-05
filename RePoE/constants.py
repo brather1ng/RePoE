@@ -186,7 +186,6 @@ class ReleaseState(Enum):
 # Base items with with ReleaseState.unreleased
 UNRELEASED_ITEMS = {
     "Metadata/Items/Rings/RingVictor1",  # Jet Ring
-    "Metadata/Items/Quivers/QuiverDescent",
     "Metadata/Items/Classic/MysteryLeaguestone",
     "Metadata/Items/Armours/BodyArmours/BodyStrTemp",
     "Metadata/Items/Armours/Boots/BootsStrTemp",
@@ -253,6 +252,8 @@ UNIQUE_ONLY_ITEMS = {
     "Metadata/Items/Amulet/AmuletVictor1",  # Jet Amulet, base for Amulet of the Victor (PvP reward)
     "Metadata/Items/Amulets/Amulet11",  # Ruby Amulet
     "Metadata/items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordC",  # Charan's Sword
+    "Metadata/Items/Quivers/QuiverDescent",  # Base for a Descent only unique
+    "Metadata/Items/Jewels/JewelPrismatic",
     # Race rewards (bases of Demigod uniques)
     "Metadata/Items/Belts/BeltDemigods1",
     "Metadata/Items/Rings/RingDemigods1",
