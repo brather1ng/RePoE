@@ -15,14 +15,15 @@ def _add_if_greater_zero(value, key, obj):
         obj[key] = value
 
 
-def _convert_requirements(attribute_requirements):
+def _convert_requirements(attribute_requirements, drop_level):
     if attribute_requirements is None:
-        return {}
-    obj = {}
-    _add_if_greater_zero(attribute_requirements['ReqStr'], 'strength', obj)
-    _add_if_greater_zero(attribute_requirements['ReqDex'], 'dexterity', obj)
-    _add_if_greater_zero(attribute_requirements['ReqInt'], 'intelligence', obj)
-    return obj
+        return None
+    return {
+        'strength': attribute_requirements['ReqStr'],
+        'dexterity': attribute_requirements['ReqDex'],
+        'intelligence': attribute_requirements['ReqInt'],
+        'level': drop_level
+    }
 
 
 def _convert_armour_properties(armour_row, properties):
@@ -137,7 +138,8 @@ def write_base_items(data_path, relational_reader, ot_file_cache, **kwargs):
                 'id': item['ItemVisualIdentityKey']['Id'],
                 'dds_file': item['ItemVisualIdentityKey']['DDSFile'],
             },
-            'attribute_requirements': _convert_requirements(attribute_requirements[item_id]),
+            'requirements':
+                _convert_requirements(attribute_requirements[item_id], item['DropLevel']),
             'properties': properties,
             'release_state': get_release_state(item_id).name,
         }

@@ -13,9 +13,6 @@ Properties specific to skill gems and essences are not included. See `gems.json`
 The file is an object where each key is the metadata id of a base item with an object describing
 the base item as a value. The description object has the following fields:
 
-- `attribute_requirements`: An object containing the `strength`, `dexterity` and
-  `intelligence` requirements to be able to equip the base item, if they are greater
-  that 0.
 - `drop_level`: The minimum item level at which the base drops.
 - `implicits`: An array of the mod ids of the implicit modifiers of the base item. More
   information about the mods can be found in `mods.json`, the mod ids are the keys in that file.
@@ -32,6 +29,13 @@ the base item as a value. The description object has the following fields:
 - `visual_identity`: An object describing how items of this base are normally displayed in-game.
   * `id`: The id of the referenced visual identity in `ItemVisualIdentity.dat`.
   * `dds_file`: The path to the item's 2D-Art file.
+- `requirements`: An object containing the requirements to be able to equip the base items.
+  The object is either `null` (the base has no requirements from itself) or contains
+  the fields `strength`, `dexterity`, `intelligence` and `level`.
+  The requirements are only base requirements. They may be modified by implicit/explicit
+  modifiers (the level upwards to 80% of the highest mod level requirement, the attributes
+  in either direction) or by socketed gems (upwards). The level requirement may also be
+  overwritten for unique items. If present, `level` is identical to `drop_level`.
 - `properties`: An object describing the properties of the base. The properties vary from
   item to item, generally based on the base's item class.
   * `armour`, `evasion`, `energy_shield`: The base Armour, Evasion and Energy Shield values
