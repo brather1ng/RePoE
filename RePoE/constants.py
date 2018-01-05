@@ -188,6 +188,8 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Rings/RingVictor1",  # Jet Ring
     "Metadata/Items/Quivers/QuiverDescent",
     "Metadata/Items/Classic/MysteryLeaguestone",
+    "Metadata/Items/Armours/BodyArmours/BodyStrTemp",
+    "Metadata/Items/Armours/Boots/BootsStrTemp",
     # Keyblade, one item existed in closed-beta
     "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordDev",
     # Gems

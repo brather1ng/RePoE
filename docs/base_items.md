@@ -34,8 +34,8 @@ the base item as a value. The description object has the following fields:
   the fields `strength`, `dexterity`, `intelligence` and `level`.
   The requirements are only base requirements. They may be modified by implicit/explicit
   modifiers (the level upwards to 80% of the highest mod level requirement, the attributes
-  in either direction) or by socketed gems (upwards). The level requirement may also be
-  overwritten for unique items. If present, `level` is identical to `drop_level`.
+  in either direction) or by socketed gems (upwards).
+  If present, `level` is identical to `drop_level`.
 - `properties`: An object describing the properties of the base. The properties vary from
   item to item, generally based on the base's item class.
   * `armour`, `evasion`, `energy_shield`: The base Armour, Evasion and Energy Shield values
