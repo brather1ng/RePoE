@@ -95,7 +95,7 @@ ITEM_CLASS_WHITELIST = {
     "Wand", "One Hand Sword", "Thrusting One Hand Sword", "One Hand Axe", "One Hand Mace", "Bow",
     "Staff", "Two Hand Sword", "Two Hand Axe", "Two Hand Mace", "Active Skill Gem",
     "Support Skill Gem", "Quiver", "Belt", "Gloves", "Boots", "Body Armour", "Helmet", "Shield",
-    "StackableCurrency", "Sceptre", "UtilityFlask", "UtilityFlaskCritical", "Fishing Rod",
+    "StackableCurrency", "Sceptre", "UtilityFlask", "UtilityFlaskCritical", "FishingRod",
     "Jewel", "Abyss Jewel",
 }
 

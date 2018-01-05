@@ -31083,6 +31083,37 @@
       "id": "Wand7"
     }
   },
+  "Metadata/Items/Weapons/TwoHandWeapon/FishingRods/FishingRod1": {
+    "attribute_requirements": {
+      "dexterity": 8,
+      "strength": 8
+    },
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 4,
+    "inventory_width": 1,
+    "item_class": "FishingRod",
+    "name": "Fishing Rod",
+    "properties": {
+      "attack_time": 833,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 13,
+      "physical_damage_min": 7,
+      "range": 11
+    },
+    "release_state": "released",
+    "tags": [
+      "not_for_sale",
+      "fishing_rod",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/FishingRods/FishingRod1.dds",
+      "id": "FishingRod1"
+    }
+  },
   "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow1": {
     "attribute_requirements": {
       "dexterity": 14
