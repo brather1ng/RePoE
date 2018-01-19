@@ -671,6 +671,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "additional_physical_damage_reduction_%_against_hits": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "additional_physical_damage_reduction_%_during_flask_effect": {
     "alias": {},
     "is_aliased": false,
@@ -702,6 +707,11 @@
     "is_local": false
   },
   "additional_physical_damage_reduction_%_while_moving": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_physical_damage_reduction_against_hits_%_per_siphoning_charge": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1216,6 +1226,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "armour_differs_against_hits": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "armour_differs_against_projectiles": {
     "alias": {},
     "is_aliased": false,
@@ -1511,6 +1526,21 @@
     "is_aliased": false,
     "is_local": false
   },
+  "attack_damage_+%_if_left_ring_is_shaper_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "attack_damage_+%_if_other_ring_is_shaper_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
+  "attack_damage_+%_if_right_ring_is_shaper_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "attack_damage_+%_per_450_evasion": {
     "alias": {},
     "is_aliased": false,
@@ -1743,6 +1773,11 @@
     "is_local": false
   },
   "attack_maximum_added_physical_damage_per_level": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "attack_maximum_added_physical_damage_per_siphoning_charge": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1999,6 +2034,11 @@
     "is_local": false
   },
   "attack_minimum_added_physical_damage_per_level": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "attack_minimum_added_physical_damage_per_siphoning_charge": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -4994,6 +5034,46 @@
     "is_local": false
   },
   "cannot_be_stunned": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cannot_be_stunned_by_attacks": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cannot_be_stunned_by_attacks_if_left_ring_is_elder_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cannot_be_stunned_by_attacks_if_other_ring_is_elder_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
+  "cannot_be_stunned_by_attacks_if_right_ring_is_elder_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cannot_be_stunned_by_spells": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cannot_be_stunned_by_spells_if_left_ring_is_shaper_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cannot_be_stunned_by_spells_if_other_ring_is_shaper_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
+  "cannot_be_stunned_by_spells_if_right_ring_is_shaper_item": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -8180,6 +8260,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "current_siphoning_charges": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "current_spirit_charges": {
     "alias": {},
     "is_aliased": false,
@@ -8191,6 +8276,11 @@
     "is_local": false
   },
   "current_viper_strike_orbs": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "current_void_arrows": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -9537,6 +9627,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "despair_curse_effect_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "despair_duration_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "determination_aura_armour_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -10058,6 +10158,11 @@
     "is_local": false
   },
   "display_estimated_physical_damage_reduciton_against_projectiles_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "display_estimated_physical_damage_reduction_against_hits_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -13027,6 +13132,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "gain_siphoning_charge_on_skill_use_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "gain_soul_eater_during_flask_effect": {
     "alias": {},
     "is_aliased": false,
@@ -14063,6 +14173,11 @@
     "is_local": false
   },
   "have_used_a_minion_skill_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "have_used_a_skill_recently": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -15627,6 +15742,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "left_ring_is_elder_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "left_ring_is_shaper_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "level": {
     "alias": {},
     "is_aliased": false,
@@ -15798,6 +15923,11 @@
     "is_local": false
   },
   "life_leech_from_any_damage_permyriad": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "life_leech_from_any_damage_permyriad_per_siphoning_charge": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -16882,6 +17012,11 @@
     "alias": {},
     "is_aliased": false,
     "is_local": true
+  },
+  "local_display_grant_void_arrow_every_x_ms": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
   },
   "local_display_grants_level_X_envy": {
     "alias": {},
@@ -20746,6 +20881,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mana_cost_+%_per_200_mana_spent_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mana_cost_+%_when_on_low_life": {
     "alias": {},
     "is_aliased": false,
@@ -21842,6 +21982,11 @@
     "is_local": false
   },
   "map_force_stone_circle": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_force_terrain_feature": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -24719,6 +24864,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "maximum_siphoning_charges_per_elder_or_shaper_item_equipped": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "maximum_spell_dodge_chance_%": {
     "alias": {},
     "is_aliased": false,
@@ -24730,6 +24880,11 @@
     "is_local": false
   },
   "maximum_spirit_charges_per_abyss_jewel_equipped": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "maximum_void_arrows": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -27487,6 +27642,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "non_chaos_damage_%_to_add_as_chaos_damage_per_siphoning_charge": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "non_chaos_damage_cannot_poison": {
     "alias": {},
     "is_aliased": false,
@@ -27523,6 +27683,11 @@
     "is_local": false
   },
   "non_damaging_ailment_effect_+%_per_equipped_elder_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "non_instant_mana_recovery_from_flasks_also_recovers_life": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -27848,6 +28013,11 @@
     "is_local": false
   },
   "number_of_equipped_normal_items": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "number_of_equipped_shaper_items": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -29739,6 +29909,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "physical_damage_taken_per_minute_per_siphoning_charge_if_have_used_a_skill_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "physical_damage_taken_when_hit_by_attack": {
     "alias": {},
     "is_aliased": false,
@@ -30229,6 +30404,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "projectile_skill_dot_ground_caustic_area_damage_per_minute": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "projectile_skill_dot_ground_fire_area_damage_per_minute": {
     "alias": {},
     "is_aliased": false,
@@ -30684,6 +30864,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "recover_%_maximum_life_on_mana_flask_use": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "recover_%_maximum_life_on_rampage_threshold": {
     "alias": {},
     "is_aliased": false,
@@ -31035,6 +31220,16 @@
     "is_local": false
   },
   "revive_all_with_onslaught_make_unusable": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "right_ring_is_elder_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "right_ring_is_shaper_item": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -32509,6 +32704,21 @@
     "is_aliased": false,
     "is_local": false
   },
+  "spell_damage_+%_if_left_ring_is_elder_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "spell_damage_+%_if_other_ring_is_elder_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
+  "spell_damage_+%_if_right_ring_is_elder_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "spell_damage_+%_per_10_int": {
     "alias": {},
     "is_aliased": false,
@@ -32530,6 +32740,11 @@
     "is_local": false
   },
   "spell_damage_+%_per_16_strength": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "spell_damage_+%_per_200_mana_spent_recently": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -32719,6 +32934,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "spell_maximum_added_physical_damage_per_siphoning_charge": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "spell_maximum_added_physical_damage_while_dual_wielding": {
     "alias": {},
     "is_aliased": false,
@@ -32900,6 +33120,11 @@
     "is_local": false
   },
   "spell_minimum_added_physical_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "spell_minimum_added_physical_damage_per_siphoning_charge": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -34509,6 +34734,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "total_mana_spent_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "total_nonlethal_damage_taken_per_minute_that_damages_es": {
     "alias": {},
     "is_aliased": false,
@@ -34904,6 +35134,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "track_have_used_a_skill_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "track_have_used_a_warcry_recently": {
     "alias": {},
     "is_aliased": false,
@@ -35159,6 +35394,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "trigger_level_x_void_shot_on_arrow_fire_while_you_have_void_arrow": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "trigger_on_delayed_blast": {
     "alias": {},
     "is_aliased": false,
@@ -35180,6 +35420,11 @@
     "is_local": false
   },
   "trigger_on_skill_use_%_if_you_have_a_spirit_charge": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "trigger_on_skill_use_%_if_you_have_a_void_arrow": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -35888,6 +36133,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "virtual_chance_to_evade_attacks_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "virtual_chance_to_poison_on_hit_with_attacks_%": {
     "alias": {},
     "is_aliased": false,
@@ -36298,6 +36548,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "virtual_maximum_siphoning_charges": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "virtual_maximum_spirit_charges": {
     "alias": {},
     "is_aliased": false,
@@ -36498,6 +36753,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "virtual_physical_damage_taken_per_minute_per_siphoning_charge": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "virtual_player_far_shot": {
     "alias": {},
     "is_aliased": false,
@@ -36619,6 +36879,11 @@
     "is_local": false
   },
   "virtual_total_spell_chance_to_poison_on_hit_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_track_mana_spent_recently": {
     "alias": {},
     "is_aliased": false,
     "is_local": false

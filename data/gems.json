@@ -5969,7 +5969,7 @@
   },
   "ArcticArmour": {
     "active_skill": {
-      "description": "Summons an icy barrier that chills enemies when they hit you. You drop chilled ground while moving, and take less Fire and Physical damage while stationary.",
+      "description": "Conjures an icy barrier that chills enemies when they hit you. You drop chilled ground while moving, and take less Fire and Physical damage while stationary.",
       "display_name": "Arctic Armour",
       "id": "new_arctic_armour",
       "is_manually_casted": true,
@@ -5986,7 +5986,8 @@
         "mana_cost_is_reservation",
         "unknown_27",
         "cold",
-        "mana_cost_is_percentage"
+        "mana_cost_is_percentage",
+        "explicit_causes_elemental_status"
       ],
       "weapon_restrictions": []
     },
@@ -28279,7 +28280,9 @@
       "is_manually_casted": true,
       "is_skill_totem": false,
       "stat_conversions": {
-        "chaos_weakness_mana_reservation_+%": "base_mana_reservation_+%"
+        "chaos_weakness_mana_reservation_+%": "base_mana_reservation_+%",
+        "despair_curse_effect_+%": "curse_effect_+%",
+        "despair_duration_+%": "skill_effect_duration_+%"
       },
       "types": [
         "spell",
@@ -57119,7 +57122,7 @@
       "is_skill_totem": false,
       "stat_conversions": {
         "frenzy_damage_+%": "damage_+%",
-        "frenzy_damage_+%_per_frenzy_charge": "attack_damage_+%_per_frenzy_charge"
+        "frenzy_damage_+%_per_frenzy_charge": "damage_+%_per_frenzy_charge"
       },
       "types": [
         "attack",
@@ -176087,6 +176090,8 @@
       },
       "types": [
         "projectile",
+        "volley_supportable",
+        "unknown_70",
         "spell",
         "hits",
         "aoe",
@@ -187087,6 +187092,7 @@
         "spell",
         "projectile",
         "volley_supportable",
+        "unknown_70",
         "hits",
         "duration",
         "trap_supportable",
@@ -191666,6 +191672,54 @@
     },
     "tags": null
   },
+  "VoidShot": {
+    "active_skill": {
+      "description": "",
+      "display_name": "Void Shot",
+      "id": "void_shot",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "attack",
+        "projectile",
+        "hits",
+        "aoe",
+        "triggerable",
+        "trigger_spell",
+        "trigger_item_granted"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "1": {}
+    },
+    "static": {
+      "cooldown": 1000,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "trigger_on_skill_use_%_if_you_have_a_void_arrow",
+          "value": 50
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "skill_can_fire_arrows",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "VolatileDead": {
     "active_skill": {
       "description": "Corpses near the targeted location explode, dealing damage in a small area and creating an orb which moves towards nearby enemies before dealing spell damage in a larger area. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected.",
@@ -191715,6 +191769,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -191732,6 +191787,7 @@
           {
             "value": 38
           },
+          null,
           null,
           null,
           null
@@ -191753,6 +191809,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -191770,6 +191827,7 @@
           {
             "value": 65
           },
+          null,
           null,
           null,
           null
@@ -191791,6 +191849,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -191808,6 +191867,7 @@
           {
             "value": 107
           },
+          null,
           null,
           null,
           null
@@ -191829,6 +191889,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -191846,6 +191907,7 @@
           {
             "value": 160
           },
+          null,
           null,
           null,
           null
@@ -191867,6 +191929,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -191884,6 +191947,7 @@
           {
             "value": 221
           },
+          null,
           null,
           null,
           null
@@ -191905,6 +191969,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -191922,6 +191987,7 @@
           {
             "value": 302
           },
+          null,
           null,
           null,
           null
@@ -191943,6 +192009,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -191960,6 +192027,7 @@
           {
             "value": 409
           },
+          null,
           null,
           null,
           null
@@ -191981,6 +192049,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -191998,6 +192067,7 @@
           {
             "value": 548
           },
+          null,
           null,
           null,
           null
@@ -192019,6 +192089,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -192036,6 +192107,7 @@
           {
             "value": 664
           },
+          null,
           null,
           null,
           null
@@ -192057,6 +192129,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -192074,6 +192147,7 @@
           {
             "value": 802
           },
+          null,
           null,
           null,
           null
@@ -192095,6 +192169,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -192112,6 +192187,7 @@
           {
             "value": 967
           },
+          null,
           null,
           null,
           null
@@ -192133,6 +192209,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -192150,6 +192227,7 @@
           {
             "value": 1163
           },
+          null,
           null,
           null,
           null
@@ -192171,6 +192249,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -192188,6 +192267,7 @@
           {
             "value": 1395
           },
+          null,
           null,
           null,
           null
@@ -192209,6 +192289,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -192226,6 +192307,7 @@
           {
             "value": 1670
           },
+          null,
           null,
           null,
           null
@@ -192247,6 +192329,7 @@
           },
           null,
           null,
+          null,
           null
         ]
       },
@@ -192264,6 +192347,7 @@
           {
             "value": 1997
           },
+          null,
           null,
           null,
           null
@@ -192299,6 +192383,10 @@
         },
         {
           "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
           "value": 1
         }
       ]

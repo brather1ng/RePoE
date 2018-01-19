@@ -396,6 +396,27 @@
           []
         ],
         "string": "Consumes Socketed Support Gems when they reach Maximum Level\nCan Consume {0} additional Support Gems"
+      },
+      {
+        "condition": [
+          {
+            "max": -1,
+            "min": -1
+          },
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "Has Consumed 1 Gem"
       }
     ],
     "ids": [
@@ -8474,7 +8495,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Physical Damage"
+        "string": "{0}% increased Global Physical Damage"
       },
       {
         "condition": [
@@ -8490,7 +8511,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Physical Damage"
+        "string": "{0}% reduced Global Physical Damage"
       }
     ],
     "ids": [
@@ -40824,7 +40845,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Physical Damage with Weapons per Red Socket"
+        "string": "{0}% increased Global Physical Damage with Weapons per Red Socket"
       }
     ],
     "ids": [
@@ -56573,7 +56594,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Physical Damage while Frozen"
+        "string": "{0}% increased Global Physical Damage while Frozen"
       },
       {
         "condition": [
@@ -56589,7 +56610,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Physical Damage while Frozen"
+        "string": "{0}% reduced Global Physical Damage while Frozen"
       }
     ],
     "ids": [
@@ -88480,7 +88501,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Unearth cast speed"
+        "string": "{0}% increased Unearth Cast Speed"
       },
       {
         "condition": [
@@ -88496,7 +88517,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Unearth cast speed"
+        "string": "{0}% reduced Unearth Cast Speed"
       }
     ],
     "ids": [
@@ -88517,7 +88538,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Unearth damage"
+        "string": "{0}% increased Unearth Damage"
       },
       {
         "condition": [
@@ -88533,7 +88554,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Unearth damage"
+        "string": "{0}% reduced Unearth Damage"
       }
     ],
     "ids": [
@@ -90229,7 +90250,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Corpse Cremation cast speed"
+        "string": "{0}% increased Cremation Cast Speed"
       },
       {
         "condition": [
@@ -90245,7 +90266,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Corpse Cremation cast speed"
+        "string": "{0}% reduced Cremation Cast Speed"
       }
     ],
     "ids": [
@@ -90266,7 +90287,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Corpse Cremation damage"
+        "string": "{0}% increased Cremation Damage"
       },
       {
         "condition": [
@@ -90282,7 +90303,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Corpse Cremation damage"
+        "string": "{0}% reduced Cremation Damage"
       }
     ],
     "ids": [
@@ -90303,7 +90324,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Corpse Teleport cast speed"
+        "string": "{0}% increased Bodyswap Cast Speed"
       },
       {
         "condition": [
@@ -90319,7 +90340,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Corpse Teleport cast speed"
+        "string": "{0}% reduced Bodyswap Cast Speed"
       }
     ],
     "ids": [
@@ -90340,7 +90361,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Corpse Teleport damage"
+        "string": "{0}% increased Bodyswap Damage"
       },
       {
         "condition": [
@@ -90356,7 +90377,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Corpse Teleport damage"
+        "string": "{0}% reduced Bodyswap Damage"
       }
     ],
     "ids": [
@@ -91249,6 +91270,80 @@
     ],
     "ids": [
       "debuff_time_passed_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Despair Curse Effect"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Despair Curse Effect"
+      }
+    ],
+    "ids": [
+      "despair_curse_effect_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Despair Duration"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Despair Duration"
+      }
+    ],
+    "ids": [
+      "despair_duration_+%"
     ]
   },
   {
@@ -94465,22 +94560,6 @@
           []
         ],
         "string": "1% increased Rarity of Items found per {0} Rampage Kills"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "{0}% reduced Rarity of Items found per {0} Rampage Kills"
       }
     ],
     "ids": [
@@ -110232,7 +110311,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Volatile Dead cast speed"
+        "string": "{0}% increased Volatile Dead Cast Speed"
       },
       {
         "condition": [
@@ -110248,7 +110327,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Volatile Dead cast speed"
+        "string": "{0}% reduced Volatile Dead Cast Speed"
       }
     ],
     "ids": [
@@ -110288,7 +110367,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Volatile Dead damage"
+        "string": "{0}% increased Volatile Dead Damage"
       },
       {
         "condition": [
@@ -110304,7 +110383,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Volatile Dead damage"
+        "string": "{0}% reduced Volatile Dead Damage"
       }
     ],
     "ids": [

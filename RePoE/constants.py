@@ -155,6 +155,8 @@ class ActiveSkillType(IntEnum):
     volley_supportable = 68
     # Skill can be supported by Mirage Archer Support
     mirage_archer_supportable = 69
+    # Set for Vaal Fireball and Vaal Spark
+    unknown_70 = 70
 
 
 @unique
