@@ -1,7 +1,7 @@
 {
   "AbyssalCry": {
     "active_skill": {
-      "description": "Performs a warcry, Hindering nearby enemies and causing them to explode when killed. The hinder effect is increased by surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.",
+      "description": "Performs a warcry, Hindering nearby enemies and causing them to explode when killed. The Hinder effect is proportional to the number of surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.",
       "display_name": "Abyssal Cry",
       "id": "abyssal_cry",
       "is_manually_casted": true,
@@ -714,7 +714,7 @@
   },
   "AbyssalCryTriggered": {
     "active_skill": {
-      "description": "Performs a warcry, Hindering nearby enemies and causing them to explode when killed. The hinder effect is increased by surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.",
+      "description": "Performs a warcry, Hindering nearby enemies and causing them to explode when killed. The Hinder effect is proportional to the number of surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.",
       "display_name": "Abyssal Cry",
       "id": "abyssal_cry",
       "is_manually_casted": true,
@@ -804,7 +804,6 @@
         "attack",
         "totem",
         "duration",
-        "can_dual_wield",
         "melee",
         "trap_supportable",
         "remote_mine_supportable",
@@ -1665,7 +1664,6 @@
         "attack",
         "totem",
         "duration",
-        "can_dual_wield",
         "melee",
         "trap_supportable",
         "remote_mine_supportable",
@@ -2528,7 +2526,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura",
@@ -4312,6 +4310,109 @@
       "minion"
     ]
   },
+  "AnimateGuardianWeapon": {
+    "active_skill": {
+      "description": "",
+      "display_name": "Animate Guardian Weapon",
+      "id": "animate_guardian_weapon",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {
+        "animate_weapon_duration_+%": "base_minion_duration_+%",
+        "jorrhasts_blacksteel_animate_weapon_duration_+%_final": "skill_specific_minion_duration_+%_final"
+      },
+      "types": [
+        "triggerable",
+        "duration",
+        "minion",
+        "summons_mobs",
+        "spell",
+        "spell_totem_supportable",
+        "castable_by_nulls_inclination",
+        "trigger_item_granted",
+        "trigger_spell"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 800,
+    "is_support": false,
+    "per_level": {
+      "18": {
+        "required_level": 3,
+        "stats": [
+          {
+            "id": "chance_to_trigger_on_animate_weapon_kill_%",
+            "value": 10
+          },
+          {
+            "value": 108
+          },
+          null,
+          null,
+          {
+            "value": 9
+          },
+          {
+            "value": 14
+          },
+          null
+        ]
+      },
+      "20": {
+        "required_level": 4,
+        "stats": [
+          {
+            "id": "chance_to_trigger_on_animate_guardian_kill_%",
+            "value": 100
+          },
+          {
+            "value": 120
+          },
+          null,
+          null,
+          {
+            "value": 10
+          },
+          {
+            "value": 15
+          },
+          null
+        ]
+      }
+    },
+    "static": {
+      "cooldown": 50,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "stats": [
+        null,
+        {
+          "id": "active_skill_damage_+%_final"
+        },
+        {
+          "id": "attack_speed_+%",
+          "value": 0
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 37500
+        },
+        {
+          "id": "attack_minimum_added_physical_damage"
+        },
+        {
+          "id": "attack_maximum_added_physical_damage"
+        },
+        {
+          "id": "number_of_animated_weapons_allowed",
+          "value": 50
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "AnimateWeapon": {
     "active_skill": {
       "description": "Animates a melee weapon to fight by your side. You cannot animate unidentified weapons.",
@@ -5984,7 +6085,7 @@
         "spell_totem_supportable",
         "duration",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "cold",
         "mana_cost_is_percentage",
         "explicit_causes_elemental_status"
@@ -8326,6 +8427,78 @@
       "duration"
     ]
   },
+  "AvianTornado": {
+    "active_skill": {
+      "description": "Launches an unpredictable, piercing tornado projectile that moves randomly for a duration, repeatedly dealing damage to enemies it intersects.",
+      "display_name": "Tornado",
+      "id": "avian_tornado",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "spell",
+        "projectile",
+        "volley_supportable",
+        "hits",
+        "duration",
+        "triggerable",
+        "trigger_spell",
+        "trigger_item_granted"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 650,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "crit_chance": 600,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 70,
+      "stats": [
+        {
+          "id": "spell_minimum_base_physical_damage",
+          "value": 280
+        },
+        {
+          "id": "spell_maximum_base_physical_damage",
+          "value": 420
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2500
+        },
+        {
+          "id": "cast_on_gain_avians_flight_or_avians_might_%",
+          "value": 25
+        },
+        {
+          "id": "global_chance_to_blind_on_hit_%",
+          "value": 25
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "always_pierce",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        }
+      ]
+    },
+    "tags": null
+  },
   "Backstab": {
     "active_skill": {
       "description": "A dagger skill that deals a critical strike and additional damage to an enemy if the attack is made from behind the enemy. Has high mana cost and cooldown",
@@ -8336,7 +8509,6 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee"
@@ -9245,7 +9417,6 @@
         "attack",
         "projectile_attack",
         "mirage_archer_supportable",
-        "can_dual_wield",
         "projectile",
         "volley_supportable",
         "ranged_attack_totem_supportable",
@@ -9581,10 +9752,10 @@
         "bear_trap_damage_+%": "damage_+%"
       },
       "types": [
+        "spell",
         "duration",
         "remote_mine_supportable",
         "trap",
-        "cast",
         "hits"
       ],
       "weapon_restrictions": []
@@ -9616,6 +9787,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -9635,6 +9807,7 @@
           {
             "value": 28
           },
+          null,
           null,
           null,
           null,
@@ -9660,6 +9833,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -9679,6 +9853,7 @@
           {
             "value": 49
           },
+          null,
           null,
           null,
           null,
@@ -9704,6 +9879,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -9723,6 +9899,7 @@
           {
             "value": 94
           },
+          null,
           null,
           null,
           null,
@@ -9748,6 +9925,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -9767,6 +9945,7 @@
           {
             "value": 167
           },
+          null,
           null,
           null,
           null,
@@ -9792,6 +9971,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -9811,6 +9991,7 @@
           {
             "value": 282
           },
+          null,
           null,
           null,
           null,
@@ -9836,6 +10017,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -9855,6 +10037,7 @@
           {
             "value": 463
           },
+          null,
           null,
           null,
           null,
@@ -9880,6 +10063,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -9899,6 +10083,7 @@
           {
             "value": 742
           },
+          null,
           null,
           null,
           null,
@@ -9924,6 +10109,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -9943,6 +10129,7 @@
           {
             "value": 1045
           },
+          null,
           null,
           null,
           null,
@@ -9968,6 +10155,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -9987,6 +10175,7 @@
           {
             "value": 1460
           },
+          null,
           null,
           null,
           null,
@@ -10012,6 +10201,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -10031,6 +10221,7 @@
           {
             "value": 2026
           },
+          null,
           null,
           null,
           null,
@@ -10056,6 +10247,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -10075,6 +10267,7 @@
           {
             "value": 2514
           },
+          null,
           null,
           null,
           null,
@@ -10100,6 +10293,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -10119,6 +10313,7 @@
           {
             "value": 3111
           },
+          null,
           null,
           null,
           null,
@@ -10144,6 +10339,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -10163,6 +10359,7 @@
           {
             "value": 3842
           },
+          null,
           null,
           null,
           null,
@@ -10188,6 +10385,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -10207,6 +10405,7 @@
           {
             "value": 4735
           },
+          null,
           null,
           null,
           null,
@@ -10232,6 +10431,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -10251,6 +10451,7 @@
           {
             "value": 5826
           },
+          null,
           null,
           null,
           null,
@@ -10279,7 +10480,7 @@
         },
         {
           "id": "base_trap_duration",
-          "value": 16000
+          "value": 8000
         },
         {
           "id": "trap_override_pvp_scaling_time_ms",
@@ -10306,6 +10507,10 @@
         {
           "id": "no_movement_speed",
           "value": 1
+        },
+        {
+          "id": "traps_do_not_explode_on_timeout",
+          "value": 1
         }
       ],
       "stored_uses": 3
@@ -10314,14 +10519,76 @@
       "trap",
       "dexterity",
       "active_skill",
-      "duration",
-      "cast"
+      "spell",
+      "duration"
     ]
+  },
+  "BirdAspect": {
+    "active_skill": {
+      "description": "While active, grants the Avian's Might and Avian's Flight buffs in sequence. Avian's Might grants you and your minions a chance to deal Double Damage with hits for a duration. Avian's Flight grants you and your minions increased Movement Speed for a secondary duration.",
+      "display_name": "Aspect of the Avian",
+      "id": "aspect_bird",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {
+        "aspect_of_the_avian_buff_effect_+%": "skill_buff_effect_+%",
+        "avians_flight_duration_ms_+": "base_secondary_skill_effect_duration",
+        "avians_might_duration_ms_+": "base_skill_effect_duration"
+      },
+      "types": [
+        "buff",
+        "mana_cost_is_percentage",
+        "spell",
+        "mana_cost_is_reservation",
+        "duration"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 500,
+      "mana_cost": 25,
+      "quality_stats": [],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "chance_to_deal_double_damage_%",
+          "value": 10
+        },
+        {
+          "id": "minion_chance_to_deal_double_damage_%",
+          "value": 10
+        },
+        {
+          "id": "base_movement_velocity_+%",
+          "value": 10
+        },
+        {
+          "id": "minion_movement_speed_+%",
+          "value": 10
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 4000
+        },
+        {
+          "id": "base_secondary_skill_effect_duration",
+          "value": 4000
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
   },
   "BladeTrap": {
     "active_skill": {
       "description": "",
-      "display_name": "Blade Trap",
+      "display_name": "",
       "id": "trap_blade",
       "is_manually_casted": true,
       "is_skill_totem": false,
@@ -10410,7 +10677,7 @@
         "spell_totem_supportable",
         "spell_echo_supportable",
         "triggerable",
-        "unknown_27"
+        "unknown_26"
       ],
       "weapon_restrictions": []
     },
@@ -11938,7 +12205,7 @@
         "fire",
         "projectile_attack",
         "mirage_archer_supportable",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow"
@@ -12290,8 +12557,8 @@
         "channelling",
         "duration",
         "deals_damage_over_time",
-        "unknown_59",
-        "unknown_52"
+        "unknown_57",
+        "unknown_50"
       ],
       "weapon_restrictions": []
     },
@@ -12995,7 +13262,10 @@
       "id": "blink_arrow",
       "is_manually_casted": true,
       "is_skill_totem": false,
-      "stat_conversions": {},
+      "stat_conversions": {
+        "blink_and_mirror_arrow_cooldown_speed_+%": "base_cooldown_speed_+%",
+        "blink_arrow_cooldown_speed_+%": "base_cooldown_speed_+%"
+      },
       "types": [
         "explicit_deals_projectile_damage",
         "attack",
@@ -16698,6 +16968,214 @@
       "bow"
     ]
   },
+  "CaptureMonster": {
+    "active_skill": {
+      "description": "",
+      "display_name": "Capture Monster",
+      "id": "capture_monster",
+      "is_manually_casted": false,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [],
+      "weapon_restrictions": []
+    },
+    "base_item": {
+      "display_name": "Capture Monster",
+      "id": "Metadata/Items/Gems/SkillGemCaptureMonster",
+      "release_state": "released"
+    },
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "1": {}
+    },
+    "static": {
+      "cooldown": 2400,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 1,
+      "stat_requirements": {
+        "dex": 0,
+        "int": 0,
+        "str": 0
+      },
+      "stats": [],
+      "stored_uses": 1
+    },
+    "tags": [
+      "low_max_level",
+      "active_skill"
+    ]
+  },
+  "CastAuraBlinding": {
+    "active_skill": {
+      "description": "Casts an aura that blinds enemies in a radius.",
+      "display_name": "Blinding Aura",
+      "id": "blinding_aura",
+      "is_manually_casted": false,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "spell",
+        "aoe",
+        "buff",
+        "mana_cost_is_reservation",
+        "mana_cost_is_percentage",
+        "aura",
+        "aura_debuff",
+        "triggerable",
+        "trigger_spell",
+        "trigger_item_granted"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1200,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "light_radius_increases_apply_to_area_of_effect",
+          "value": 1
+        },
+        {
+          "id": "cast_on_gain_skill",
+          "value": 1
+        }
+      ]
+    },
+    "tags": null
+  },
+  "CatAspect": {
+    "active_skill": {
+      "description": "While active, grants the Cat's Stealth and Cat's Agility buffs in sequence. Cat's Stealth increases your critical strike chance, makes you harder to see, and gives you a chance to avoid damage for a short duration. Cat's Agility increases your attack and cast speed for a longer secondary duration.",
+      "display_name": "Aspect of the Cat",
+      "id": "aspect_cat",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {
+        "cat_aspect_reserves_no_mana": "no_mana_reserved",
+        "cats_stealth_duration_ms_+": "base_skill_effect_duration"
+      },
+      "types": [
+        "buff",
+        "mana_cost_is_percentage",
+        "spell",
+        "mana_cost_is_reservation",
+        "duration"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 500,
+      "mana_cost": 25,
+      "quality_stats": [],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "critical_strike_chance_+%",
+          "value": 100
+        },
+        {
+          "id": "avoid_damage_%",
+          "value": 15
+        },
+        {
+          "id": "enemy_aggro_radius_+%",
+          "value": -50
+        },
+        {
+          "id": "attack_speed_+%",
+          "value": 10
+        },
+        {
+          "id": "base_cast_speed_+%",
+          "value": 10
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 4000
+        },
+        {
+          "id": "base_secondary_skill_effect_duration",
+          "value": 6000
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
+  "CatsStealthTriggeredIntimidatingCry": {
+    "active_skill": {
+      "description": "Performs a warcry, granting the user and nearby allies increased attack speed if there are nearby enemies. The attack speed increase is proportional to the number of surrounding enemies. Taunts all nearby enemies to attack the user, and Intimidates them. Shares a cooldown with other Warcry skills.",
+      "display_name": "Intimidating Cry",
+      "id": "intimidating_cry",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {
+        "warcry_buff_effect_+%": "skill_buff_effect_+%"
+      },
+      "types": [
+        "aoe",
+        "buff",
+        "duration",
+        "trigger_item_granted"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 250,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 4000,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 70,
+      "stats": [
+        {
+          "id": "attack_speed_+%",
+          "value": 10
+        },
+        {
+          "id": "intimidating_cry_attack_speed_+%_per_100_enemies",
+          "value": 20
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 4000
+        },
+        {
+          "id": "base_deal_no_damage",
+          "value": 1
+        },
+        {
+          "id": "is_warcry",
+          "value": 1
+        },
+        {
+          "id": "cast_on_lose_cats_stealth",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "ChaosDegenAuraUnique": {
     "active_skill": {
       "description": "Casts an aura that deals Chaos Damage over Time to nearby Enemies. This skill cannot be cast by Totems.",
@@ -16712,7 +17190,7 @@
         "aoe",
         "deals_damage_over_time",
         "aura",
-        "unknown_64",
+        "aura_debuff",
         "chaos"
       ],
       "weapon_restrictions": []
@@ -16758,7 +17236,6 @@
       "types": [
         "attack",
         "aoe",
-        "can_dual_wield",
         "channelling",
         "melee"
       ],
@@ -17107,7 +17584,6 @@
         "hits",
         "channelling",
         "attack",
-        "can_dual_wield",
         "melee",
         "lightning"
       ],
@@ -17433,7 +17909,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "spell_totem_supportable",
         "aura"
       ],
@@ -17977,7 +18453,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_both_at_once_when_dual_wielding",
         "aoe",
         "multistrike_supportable",
@@ -18564,7 +19039,6 @@
         "projectile_attack",
         "projectile",
         "volley_supportable",
-        "can_dual_wield",
         "aoe",
         "trap_supportable",
         "remote_mine_supportable",
@@ -19226,7 +19700,7 @@
         "buff",
         "aoe",
         "spell_totem_supportable",
-        "unknown_27",
+        "unknown_26",
         "duration",
         "vaal",
         "aura"
@@ -19288,7 +19762,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura",
@@ -20799,7 +21273,6 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee"
@@ -21812,8 +22285,8 @@
         "spell_echo_supportable",
         "triggerable",
         "remote_mine_supportable",
-        "unknown_52",
-        "unknown_59",
+        "unknown_50",
+        "unknown_57",
         "spell_cascade_supportable"
       ],
       "weapon_restrictions": []
@@ -22477,6 +22950,7 @@
             "value": 5300
           },
           null,
+          null,
           null
         ]
       },
@@ -22493,6 +22967,7 @@
           {
             "value": 5500
           },
+          null,
           null,
           null
         ]
@@ -22511,6 +22986,7 @@
             "value": 5800
           },
           null,
+          null,
           null
         ]
       },
@@ -22527,6 +23003,7 @@
           {
             "value": 6000
           },
+          null,
           null,
           null
         ]
@@ -22545,6 +23022,7 @@
             "value": 6300
           },
           null,
+          null,
           null
         ]
       },
@@ -22561,6 +23039,7 @@
           {
             "value": 6500
           },
+          null,
           null,
           null
         ]
@@ -22579,6 +23058,7 @@
             "value": 6800
           },
           null,
+          null,
           null
         ]
       },
@@ -22595,6 +23075,7 @@
           {
             "value": 7000
           },
+          null,
           null,
           null
         ]
@@ -22613,6 +23094,7 @@
             "value": 7300
           },
           null,
+          null,
           null
         ]
       },
@@ -22629,6 +23111,7 @@
           {
             "value": 7500
           },
+          null,
           null,
           null
         ]
@@ -22647,6 +23130,7 @@
             "value": 7800
           },
           null,
+          null,
           null
         ]
       },
@@ -22663,6 +23147,7 @@
           {
             "value": 8000
           },
+          null,
           null,
           null
         ]
@@ -22681,6 +23166,7 @@
             "value": 8300
           },
           null,
+          null,
           null
         ]
       },
@@ -22697,6 +23183,7 @@
           {
             "value": 8500
           },
+          null,
           null,
           null
         ]
@@ -22715,6 +23202,7 @@
             "value": 8800
           },
           null,
+          null,
           null
         ]
       },
@@ -22731,6 +23219,7 @@
           {
             "value": 9000
           },
+          null,
           null,
           null
         ]
@@ -22749,6 +23238,7 @@
             "value": 9300
           },
           null,
+          null,
           null
         ]
       },
@@ -22765,6 +23255,7 @@
           {
             "value": 9500
           },
+          null,
           null,
           null
         ]
@@ -22783,6 +23274,7 @@
             "value": 9800
           },
           null,
+          null,
           null
         ]
       },
@@ -22799,6 +23291,7 @@
           {
             "value": 10000
           },
+          null,
           null,
           null
         ]
@@ -22817,6 +23310,7 @@
             "value": 10300
           },
           null,
+          null,
           null
         ]
       },
@@ -22833,6 +23327,7 @@
           {
             "value": 10500
           },
+          null,
           null,
           null
         ]
@@ -22851,6 +23346,7 @@
             "value": 10800
           },
           null,
+          null,
           null
         ]
       },
@@ -22867,6 +23363,7 @@
           {
             "value": 11000
           },
+          null,
           null,
           null
         ]
@@ -22885,6 +23382,7 @@
             "value": 11300
           },
           null,
+          null,
           null
         ]
       },
@@ -22901,6 +23399,7 @@
           {
             "value": 11500
           },
+          null,
           null,
           null
         ]
@@ -22919,6 +23418,7 @@
             "value": 11800
           },
           null,
+          null,
           null
         ]
       },
@@ -22935,6 +23435,7 @@
           {
             "value": 12000
           },
+          null,
           null,
           null
         ]
@@ -22953,6 +23454,7 @@
             "value": 12300
           },
           null,
+          null,
           null
         ]
       },
@@ -22969,6 +23471,7 @@
           {
             "value": 12500
           },
+          null,
           null,
           null
         ]
@@ -22992,7 +23495,7 @@
         },
         {
           "id": "base_trap_duration",
-          "value": 16000
+          "value": 8000
         },
         {
           "id": "base_skill_effect_duration"
@@ -23003,6 +23506,10 @@
         },
         {
           "id": "base_deal_no_damage",
+          "value": 1
+        },
+        {
+          "id": "traps_do_not_explode_on_timeout",
           "value": 1
         }
       ],
@@ -24969,6 +25476,49 @@
       "fire"
     ]
   },
+  "CrabAspect": {
+    "active_skill": {
+      "description": "While active, periodically adds Crab Barriers to you, and grants additional Physical Damage reduction for each Crab Barrier you have. All Crab Barriers are lost when you take physical damage from a hit.",
+      "display_name": "Aspect of the Crab",
+      "id": "aspect_crab",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {
+        "crab_aspect_crab_barrier_max_+": "max_crab_aspect_stacks"
+      },
+      "types": [
+        "buff",
+        "mana_cost_is_percentage",
+        "spell",
+        "mana_cost_is_reservation"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 500,
+      "mana_cost": 25,
+      "quality_stats": [],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "physical_damage_reduction_%_per_crab_aspect_stack",
+          "value": 2
+        },
+        {
+          "id": "max_crab_aspect_stacks",
+          "value": 10
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "CreateSmokeCloud": {
     "active_skill": {
       "description": "Creates a Smoke Cloud in an area, which blinds enemies within it.",
@@ -25062,7 +25612,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "aoe",
         "melee",
         "movement",
@@ -26737,8 +27286,8 @@
         "aoe",
         "duration",
         "deals_damage_over_time",
-        "unknown_59",
-        "unknown_52",
+        "unknown_57",
+        "unknown_50",
         "trigger_item_granted",
         "triggerable"
       ],
@@ -29209,7 +29758,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura"
@@ -32220,7 +32769,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura"
@@ -32765,7 +33314,6 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "can_dual_wield",
         "aoe",
         "melee",
         "uses_main_hand_when_dual_wielding",
@@ -33054,8 +33602,8 @@
         "applies_burning",
         "duration",
         "channelling",
-        "unknown_59",
-        "unknown_52"
+        "unknown_57",
+        "unknown_50"
       ],
       "weapon_restrictions": []
     },
@@ -33119,7 +33667,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "minion",
         "duration",
         "summons_mobs",
@@ -33499,7 +34046,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "aoe",
         "multistrike_supportable",
         "melee"
@@ -34047,7 +34593,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
@@ -34690,7 +35235,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "aoe",
         "melee",
         "uses_main_hand_when_dual_wielding",
@@ -35051,7 +35595,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "projectile",
         "volley_supportable",
         "ranged_attack_totem_supportable",
@@ -37281,9 +37824,8 @@
         "attack",
         "aoe",
         "hits",
-        "can_dual_wield",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": []
     },
@@ -37330,9 +37872,8 @@
         "attack",
         "aoe",
         "hits",
-        "can_dual_wield",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": []
     },
@@ -37379,9 +37920,8 @@
         "attack",
         "aoe",
         "hits",
-        "can_dual_wield",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": []
     },
@@ -37428,9 +37968,8 @@
         "attack",
         "aoe",
         "hits",
-        "can_dual_wield",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": []
     },
@@ -37758,8 +38297,7 @@
         "projectile_attack",
         "projectile",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -37858,8 +38396,7 @@
         "projectile_attack",
         "projectile",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -37958,8 +38495,7 @@
         "projectile_attack",
         "projectile",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -38058,8 +38594,7 @@
         "projectile_attack",
         "projectile",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -38444,8 +38979,7 @@
         "duration",
         "spell_totem_supportable",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -38530,8 +39064,7 @@
         "duration",
         "spell_totem_supportable",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -38616,8 +39149,7 @@
         "duration",
         "spell_totem_supportable",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -38702,8 +39234,7 @@
         "duration",
         "spell_totem_supportable",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -38785,10 +39316,9 @@
         "attack",
         "aoe",
         "duration",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": []
     },
@@ -38843,10 +39373,9 @@
         "attack",
         "aoe",
         "duration",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": []
     },
@@ -38901,10 +39430,9 @@
         "attack",
         "aoe",
         "duration",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": []
     },
@@ -38959,10 +39487,9 @@
         "attack",
         "aoe",
         "duration",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": []
     },
@@ -39286,8 +39813,7 @@
         "projectile_attack",
         "projectile",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -39386,8 +39912,7 @@
         "projectile_attack",
         "projectile",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -39486,8 +40011,7 @@
         "projectile_attack",
         "projectile",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -39586,8 +40110,7 @@
         "projectile_attack",
         "projectile",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -40216,7 +40739,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_31",
+        "unknown_30",
         "lightning",
         "trigger_spell",
         "triggerable"
@@ -40272,7 +40795,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_31",
+        "unknown_30",
         "lightning",
         "trigger_spell",
         "triggerable"
@@ -40328,7 +40851,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_31",
+        "unknown_30",
         "lightning",
         "trigger_spell",
         "triggerable"
@@ -40384,7 +40907,7 @@
       "types": [
         "spell",
         "aoe",
-        "unknown_31",
+        "unknown_30",
         "lightning",
         "trigger_spell",
         "triggerable"
@@ -40439,14 +40962,13 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
         "duration",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -40508,14 +41030,13 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
         "duration",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -40577,14 +41098,13 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
         "duration",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -40646,14 +41166,13 @@
       "stat_conversions": {},
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
         "duration",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Bow",
@@ -40998,6 +41517,7 @@
           {
             "value": 0
           },
+          null,
           null
         ]
       },
@@ -41010,6 +41530,7 @@
           {
             "value": 1
           },
+          null,
           null
         ]
       },
@@ -41022,6 +41543,7 @@
           {
             "value": 2
           },
+          null,
           null
         ]
       },
@@ -41034,6 +41556,7 @@
           {
             "value": 3
           },
+          null,
           null
         ]
       },
@@ -41046,6 +41569,7 @@
           {
             "value": 4
           },
+          null,
           null
         ]
       },
@@ -41058,6 +41582,7 @@
           {
             "value": 5
           },
+          null,
           null
         ]
       },
@@ -41070,6 +41595,7 @@
           {
             "value": 6
           },
+          null,
           null
         ]
       },
@@ -41082,6 +41608,7 @@
           {
             "value": 7
           },
+          null,
           null
         ]
       },
@@ -41094,6 +41621,7 @@
           {
             "value": 8
           },
+          null,
           null
         ]
       },
@@ -41106,6 +41634,7 @@
           {
             "value": 9
           },
+          null,
           null
         ]
       },
@@ -41118,6 +41647,7 @@
           {
             "value": 10
           },
+          null,
           null
         ]
       },
@@ -41130,6 +41660,7 @@
           {
             "value": 11
           },
+          null,
           null
         ]
       },
@@ -41142,6 +41673,7 @@
           {
             "value": 12
           },
+          null,
           null
         ]
       },
@@ -41154,6 +41686,7 @@
           {
             "value": 13
           },
+          null,
           null
         ]
       },
@@ -41166,6 +41699,7 @@
           {
             "value": 14
           },
+          null,
           null
         ]
       },
@@ -41178,6 +41712,7 @@
           {
             "value": 15
           },
+          null,
           null
         ]
       },
@@ -41190,6 +41725,7 @@
           {
             "value": 16
           },
+          null,
           null
         ]
       },
@@ -41202,6 +41738,7 @@
           {
             "value": 17
           },
+          null,
           null
         ]
       },
@@ -41214,6 +41751,7 @@
           {
             "value": 18
           },
+          null,
           null
         ]
       },
@@ -41226,6 +41764,7 @@
           {
             "value": 19
           },
+          null,
           null
         ]
       },
@@ -41238,6 +41777,7 @@
           {
             "value": 20
           },
+          null,
           null
         ]
       },
@@ -41250,6 +41790,7 @@
           {
             "value": 21
           },
+          null,
           null
         ]
       },
@@ -41262,6 +41803,7 @@
           {
             "value": 22
           },
+          null,
           null
         ]
       },
@@ -41274,6 +41816,7 @@
           {
             "value": 23
           },
+          null,
           null
         ]
       },
@@ -41286,6 +41829,7 @@
           {
             "value": 24
           },
+          null,
           null
         ]
       },
@@ -41298,6 +41842,7 @@
           {
             "value": 25
           },
+          null,
           null
         ]
       },
@@ -41310,6 +41855,7 @@
           {
             "value": 26
           },
+          null,
           null
         ]
       },
@@ -41322,6 +41868,7 @@
           {
             "value": 27
           },
+          null,
           null
         ]
       },
@@ -41334,6 +41881,7 @@
           {
             "value": 28
           },
+          null,
           null
         ]
       },
@@ -41346,6 +41894,7 @@
           {
             "value": 29
           },
+          null,
           null
         ]
       }
@@ -41367,6 +41916,10 @@
           "id": "base_stun_threshold_reduction_+%"
         },
         {
+          "id": "endurance_charge_on_melee_stun_damage_+%_final_per_endurance_charge",
+          "value": 3
+        },
+        {
           "id": "gain_endurance_charge_on_melee_stun",
           "value": 1
         }
@@ -41382,19 +41935,22 @@
   },
   "EnduranceChargeSlam": {
     "active_skill": {
-      "description": "",
-      "display_name": "Endurance Charge Slam",
+      "description": "Slam the ground with your main hand weapon, unleashing a fiery fissure in front of you, dealing area damage and releasing a random number of smaller fissures branching off from it. If you have Endurance Charges, the number of fissures will be maximised, and one Endurance Charge will be consumed. Requires a Mace, Sword, Axe, Staff, or Unarmed.",
+      "display_name": "Tectonic Slam",
       "id": "endurance_charge_slam",
       "is_manually_casted": true,
       "is_skill_totem": false,
-      "stat_conversions": {},
+      "stat_conversions": {
+        "tectonic_slam_area_of_effect_+%": "base_skill_area_of_effect_+%",
+        "tectonic_slam_damage_+%": "damage_+%"
+      },
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "aoe",
         "multistrike_supportable",
-        "melee"
+        "melee",
+        "fire"
       ],
       "weapon_restrictions": [
         "One Hand Mace",
@@ -41402,252 +41958,256 @@
         "Staff",
         "Two Hand Mace",
         "One Hand Axe",
-        "Two Hand Axe"
+        "Two Hand Axe",
+        "One Hand Sword",
+        "Thrusting One Hand Sword",
+        "Two Hand Sword",
+        "Unarmed"
       ]
     },
     "base_item": {
-      "display_name": "Endurance Charge Slam",
-      "id": "Metadata/Items/Gems/SkillGemEnduranceChargeSlam",
-      "release_state": "unreleased"
+      "display_name": "Tectonic Slam",
+      "id": "Metadata/Items/Gems/SkillGemTectonicSlam",
+      "release_state": "released"
     },
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
       "1": {
-        "damage_effectiveness": 10,
-        "damage_multiplier": 1000,
+        "damage_effectiveness": 30,
+        "damage_multiplier": 3000,
         "required_level": 28,
         "stat_requirements": {
           "str": 67
         }
       },
       "2": {
-        "damage_effectiveness": 11,
-        "damage_multiplier": 1140,
+        "damage_effectiveness": 32,
+        "damage_multiplier": 3160,
         "required_level": 31,
         "stat_requirements": {
           "str": 73
         }
       },
       "3": {
-        "damage_effectiveness": 13,
-        "damage_multiplier": 1280,
+        "damage_effectiveness": 33,
+        "damage_multiplier": 3320,
         "required_level": 34,
         "stat_requirements": {
           "str": 79
         }
       },
       "4": {
-        "damage_effectiveness": 14,
-        "damage_multiplier": 1420,
+        "damage_effectiveness": 35,
+        "damage_multiplier": 3480,
         "required_level": 37,
         "stat_requirements": {
           "str": 85
         }
       },
       "5": {
-        "damage_effectiveness": 16,
-        "damage_multiplier": 1560,
+        "damage_effectiveness": 36,
+        "damage_multiplier": 3640,
         "required_level": 40,
         "stat_requirements": {
           "str": 92
         }
       },
       "6": {
-        "damage_effectiveness": 17,
-        "damage_multiplier": 1700,
+        "damage_effectiveness": 38,
+        "damage_multiplier": 3800,
         "required_level": 42,
         "stat_requirements": {
           "str": 96
         }
       },
       "7": {
-        "damage_effectiveness": 18,
-        "damage_multiplier": 1840,
+        "damage_effectiveness": 40,
+        "damage_multiplier": 3960,
         "required_level": 44,
         "stat_requirements": {
           "str": 100
         }
       },
       "8": {
-        "damage_effectiveness": 20,
-        "damage_multiplier": 1980,
+        "damage_effectiveness": 41,
+        "damage_multiplier": 4120,
         "required_level": 46,
         "stat_requirements": {
           "str": 104
         }
       },
       "9": {
-        "damage_effectiveness": 21,
-        "damage_multiplier": 2120,
+        "damage_effectiveness": 43,
+        "damage_multiplier": 4280,
         "required_level": 48,
         "stat_requirements": {
           "str": 109
         }
       },
       "10": {
-        "damage_effectiveness": 23,
-        "damage_multiplier": 2260,
+        "damage_effectiveness": 44,
+        "damage_multiplier": 4440,
         "required_level": 50,
         "stat_requirements": {
           "str": 113
         }
       },
       "11": {
-        "damage_effectiveness": 24,
-        "damage_multiplier": 2400,
+        "damage_effectiveness": 46,
+        "damage_multiplier": 4600,
         "required_level": 52,
         "stat_requirements": {
           "str": 117
         }
       },
       "12": {
-        "damage_effectiveness": 25,
-        "damage_multiplier": 2540,
+        "damage_effectiveness": 48,
+        "damage_multiplier": 4760,
         "required_level": 54,
         "stat_requirements": {
           "str": 121
         }
       },
       "13": {
-        "damage_effectiveness": 27,
-        "damage_multiplier": 2680,
+        "damage_effectiveness": 49,
+        "damage_multiplier": 4920,
         "required_level": 56,
         "stat_requirements": {
           "str": 125
         }
       },
       "14": {
-        "damage_effectiveness": 28,
-        "damage_multiplier": 2820,
+        "damage_effectiveness": 51,
+        "damage_multiplier": 5080,
         "required_level": 58,
         "stat_requirements": {
           "str": 130
         }
       },
       "15": {
-        "damage_effectiveness": 30,
-        "damage_multiplier": 2960,
+        "damage_effectiveness": 52,
+        "damage_multiplier": 5240,
         "required_level": 60,
         "stat_requirements": {
           "str": 134
         }
       },
       "16": {
-        "damage_effectiveness": 31,
-        "damage_multiplier": 3100,
+        "damage_effectiveness": 54,
+        "damage_multiplier": 5400,
         "required_level": 62,
         "stat_requirements": {
           "str": 138
         }
       },
       "17": {
-        "damage_effectiveness": 32,
-        "damage_multiplier": 3240,
+        "damage_effectiveness": 56,
+        "damage_multiplier": 5560,
         "required_level": 64,
         "stat_requirements": {
           "str": 142
         }
       },
       "18": {
-        "damage_effectiveness": 34,
-        "damage_multiplier": 3380,
+        "damage_effectiveness": 57,
+        "damage_multiplier": 5720,
         "required_level": 66,
         "stat_requirements": {
           "str": 146
         }
       },
       "19": {
-        "damage_effectiveness": 35,
-        "damage_multiplier": 3520,
+        "damage_effectiveness": 59,
+        "damage_multiplier": 5880,
         "required_level": 68,
         "stat_requirements": {
           "str": 151
         }
       },
       "20": {
-        "damage_effectiveness": 37,
-        "damage_multiplier": 3660,
+        "damage_effectiveness": 60,
+        "damage_multiplier": 6040,
         "required_level": 70,
         "stat_requirements": {
           "str": 155
         }
       },
       "21": {
-        "damage_effectiveness": 38,
-        "damage_multiplier": 3800,
+        "damage_effectiveness": 62,
+        "damage_multiplier": 6200,
         "required_level": 72,
         "stat_requirements": {
           "str": 159
         }
       },
       "22": {
-        "damage_effectiveness": 39,
-        "damage_multiplier": 3940,
+        "damage_effectiveness": 64,
+        "damage_multiplier": 6360,
         "required_level": 74,
         "stat_requirements": {
           "str": 163
         }
       },
       "23": {
-        "damage_effectiveness": 41,
-        "damage_multiplier": 4080,
+        "damage_effectiveness": 65,
+        "damage_multiplier": 6520,
         "required_level": 76,
         "stat_requirements": {
           "str": 167
         }
       },
       "24": {
-        "damage_effectiveness": 42,
-        "damage_multiplier": 4220,
+        "damage_effectiveness": 67,
+        "damage_multiplier": 6680,
         "required_level": 78,
         "stat_requirements": {
           "str": 172
         }
       },
       "25": {
-        "damage_effectiveness": 44,
-        "damage_multiplier": 4360,
+        "damage_effectiveness": 68,
+        "damage_multiplier": 6840,
         "required_level": 80,
         "stat_requirements": {
           "str": 176
         }
       },
       "26": {
-        "damage_effectiveness": 45,
-        "damage_multiplier": 4500,
+        "damage_effectiveness": 70,
+        "damage_multiplier": 7000,
         "required_level": 82,
         "stat_requirements": {
           "str": 180
         }
       },
       "27": {
-        "damage_effectiveness": 46,
-        "damage_multiplier": 4640,
+        "damage_effectiveness": 72,
+        "damage_multiplier": 7160,
         "required_level": 84,
         "stat_requirements": {
           "str": 184
         }
       },
       "28": {
-        "damage_effectiveness": 48,
-        "damage_multiplier": 4780,
+        "damage_effectiveness": 73,
+        "damage_multiplier": 7320,
         "required_level": 86,
         "stat_requirements": {
           "str": 188
         }
       },
       "29": {
-        "damage_effectiveness": 49,
-        "damage_multiplier": 4920,
+        "damage_effectiveness": 75,
+        "damage_multiplier": 7480,
         "required_level": 88,
         "stat_requirements": {
           "str": 193
         }
       },
       "30": {
-        "damage_effectiveness": 51,
-        "damage_multiplier": 5060,
+        "damage_effectiveness": 76,
+        "damage_multiplier": 7640,
         "required_level": 90,
         "stat_requirements": {
           "str": 197
@@ -41655,7 +42215,7 @@
       }
     },
     "static": {
-      "mana_cost": 8,
+      "mana_cost": 10,
       "quality_stats": [
         {
           "id": "base_skill_area_of_effect_+%",
@@ -41669,11 +42229,15 @@
       "stats": [
         {
           "id": "endurance_charge_slam_damage_+%_final_with_endurance_charge",
-          "value": 25
+          "value": 18
         },
         {
           "id": "active_skill_attack_speed_+%_final",
-          "value": -10
+          "value": 0
+        },
+        {
+          "id": "skill_physical_damage_%_to_convert_to_fire",
+          "value": 60
         },
         {
           "id": "is_area_damage",
@@ -41682,6 +42246,7 @@
       ]
     },
     "tags": [
+      "fire",
       "strength",
       "active_skill",
       "attack",
@@ -43176,7 +43741,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura",
@@ -45460,8 +46025,8 @@
         "applies_burning",
         "duration",
         "channelling",
-        "unknown_59",
-        "unknown_52"
+        "unknown_57",
+        "unknown_50"
       ],
       "weapon_restrictions": []
     },
@@ -46603,7 +47168,7 @@
         "buff",
         "aoe",
         "spell_totem_supportable",
-        "unknown_27",
+        "unknown_26",
         "duration",
         "vaal",
         "aura"
@@ -47477,7 +48042,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura",
@@ -48996,7 +49561,7 @@
         },
         {
           "id": "base_trap_duration",
-          "value": 16000
+          "value": 4000
         },
         {
           "id": "base_skill_effect_duration",
@@ -55218,7 +55783,7 @@
           "id": "base_movement_velocity_+%"
         },
         {
-          "id": "cast_speed_+%_from_haste_aura"
+          "id": "cast_speed_+%_granted_from_skill"
         },
         {
           "id": "offering_skill_effect_duration_per_corpse",
@@ -55252,7 +55817,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "melee",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
@@ -57130,7 +57694,6 @@
         "mirage_archer_supportable",
         "projectile",
         "volley_supportable",
-        "can_dual_wield",
         "ranged_attack_totem_supportable",
         "trap_supportable",
         "remote_mine_supportable",
@@ -57444,7 +58007,6 @@
       "types": [
         "attack",
         "projectile",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
@@ -62558,7 +63120,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
@@ -63118,7 +63679,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura"
@@ -63632,7 +64193,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "aoe",
         "multistrike_supportable",
@@ -64152,7 +64712,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura"
@@ -64816,7 +65376,7 @@
           "id": "attack_speed_+%"
         },
         {
-          "id": "cast_speed_+%_from_haste_aura"
+          "id": "cast_speed_+%_granted_from_skill"
         },
         {
           "id": "base_movement_velocity_+%"
@@ -64854,7 +65414,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura",
@@ -65399,7 +65959,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee"
@@ -65697,14 +66256,15 @@
   },
   "HeraldOfAsh": {
     "active_skill": {
-      "description": "Grants a buff providing fire damage based on your physical damage. While you have this buff, if you kill an enemy with an attack, other enemies near them will be burned based on the overkill damage. The burn inflicted by this skill can only be affected by modifiers to damage over time (burning damage is damage over time).",
+      "description": "Grants a buff providing fire damage based on your physical damage. While you have this buff, if you kill an enemy, other enemies near them will be burned based on the overkill damage. The burn inflicted by this skill can only be affected by modifiers to damage over time (burning damage is damage over time).",
       "display_name": "Herald of Ash",
       "id": "herald_of_ash",
       "is_manually_casted": true,
       "is_skill_totem": false,
       "stat_conversions": {
         "herald_of_ash_damage_+%": "damage_+%",
-        "herald_of_ash_mana_reservation_+%": "base_mana_reservation_+%"
+        "herald_of_ash_mana_reservation_+%": "base_mana_reservation_+%",
+        "herald_skills_mana_reservation_+%": "base_mana_reservation_+%"
       },
       "types": [
         "spell",
@@ -65715,7 +66275,7 @@
         "aoe",
         "deals_damage_over_time",
         "fire",
-        "unknown_27",
+        "unknown_26",
         "herald",
         "duration"
       ],
@@ -65742,6 +66302,9 @@
             "value": 0
           },
           null,
+          {
+            "value": 9
+          },
           null
         ]
       },
@@ -65758,6 +66321,9 @@
             "value": 2
           },
           null,
+          {
+            "value": 9
+          },
           null
         ]
       },
@@ -65774,6 +66340,9 @@
             "value": 4
           },
           null,
+          {
+            "value": 9
+          },
           null
         ]
       },
@@ -65790,6 +66359,9 @@
             "value": 6
           },
           null,
+          {
+            "value": 9
+          },
           null
         ]
       },
@@ -65806,6 +66378,9 @@
             "value": 8
           },
           null,
+          {
+            "value": 9
+          },
           null
         ]
       },
@@ -65822,6 +66397,9 @@
             "value": 10
           },
           null,
+          {
+            "value": 10
+          },
           null
         ]
       },
@@ -65838,6 +66416,9 @@
             "value": 12
           },
           null,
+          {
+            "value": 10
+          },
           null
         ]
       },
@@ -65854,6 +66435,9 @@
             "value": 14
           },
           null,
+          {
+            "value": 10
+          },
           null
         ]
       },
@@ -65870,6 +66454,9 @@
             "value": 16
           },
           null,
+          {
+            "value": 10
+          },
           null
         ]
       },
@@ -65886,6 +66473,9 @@
             "value": 18
           },
           null,
+          {
+            "value": 10
+          },
           null
         ]
       },
@@ -65902,6 +66492,9 @@
             "value": 20
           },
           null,
+          {
+            "value": 11
+          },
           null
         ]
       },
@@ -65918,6 +66511,9 @@
             "value": 22
           },
           null,
+          {
+            "value": 11
+          },
           null
         ]
       },
@@ -65934,6 +66530,9 @@
             "value": 24
           },
           null,
+          {
+            "value": 11
+          },
           null
         ]
       },
@@ -65950,6 +66549,9 @@
             "value": 26
           },
           null,
+          {
+            "value": 11
+          },
           null
         ]
       },
@@ -65966,6 +66568,9 @@
             "value": 28
           },
           null,
+          {
+            "value": 11
+          },
           null
         ]
       },
@@ -65982,6 +66587,9 @@
             "value": 30
           },
           null,
+          {
+            "value": 12
+          },
           null
         ]
       },
@@ -65998,6 +66606,9 @@
             "value": 32
           },
           null,
+          {
+            "value": 12
+          },
           null
         ]
       },
@@ -66014,6 +66625,9 @@
             "value": 34
           },
           null,
+          {
+            "value": 12
+          },
           null
         ]
       },
@@ -66030,6 +66644,9 @@
             "value": 36
           },
           null,
+          {
+            "value": 12
+          },
           null
         ]
       },
@@ -66046,6 +66663,9 @@
             "value": 38
           },
           null,
+          {
+            "value": 12
+          },
           null
         ]
       },
@@ -66062,6 +66682,9 @@
             "value": 40
           },
           null,
+          {
+            "value": 13
+          },
           null
         ]
       },
@@ -66078,6 +66701,9 @@
             "value": 42
           },
           null,
+          {
+            "value": 13
+          },
           null
         ]
       },
@@ -66094,6 +66720,9 @@
             "value": 44
           },
           null,
+          {
+            "value": 13
+          },
           null
         ]
       },
@@ -66110,6 +66739,9 @@
             "value": 46
           },
           null,
+          {
+            "value": 13
+          },
           null
         ]
       },
@@ -66126,6 +66758,9 @@
             "value": 48
           },
           null,
+          {
+            "value": 13
+          },
           null
         ]
       },
@@ -66142,6 +66777,9 @@
             "value": 50
           },
           null,
+          {
+            "value": 14
+          },
           null
         ]
       },
@@ -66158,6 +66796,9 @@
             "value": 52
           },
           null,
+          {
+            "value": 14
+          },
           null
         ]
       },
@@ -66174,6 +66815,9 @@
             "value": 54
           },
           null,
+          {
+            "value": 14
+          },
           null
         ]
       },
@@ -66190,6 +66834,9 @@
             "value": 56
           },
           null,
+          {
+            "value": 14
+          },
           null
         ]
       },
@@ -66206,6 +66853,9 @@
             "value": 58
           },
           null,
+          {
+            "value": 14
+          },
           null
         ]
       }
@@ -66239,6 +66889,9 @@
           "value": 1500
         },
         {
+          "id": "herald_of_ash_spell_fire_damage_+%_final"
+        },
+        {
           "id": "is_area_damage",
           "value": 1
         }
@@ -66264,14 +66917,14 @@
       "is_skill_totem": false,
       "stat_conversions": {},
       "types": [
-        "cast",
+        "spell",
         "buff",
         "mana_cost_is_reservation",
         "mana_cost_is_percentage",
         "aoe",
         "deals_damage_over_time",
         "duration",
-        "unknown_27",
+        "unknown_26",
         "herald"
       ],
       "weapon_restrictions": []
@@ -66484,7 +67137,7 @@
     "tags": [
       "strength",
       "active_skill",
-      "cast",
+      "spell",
       "area",
       "duration",
       "herald"
@@ -66492,24 +67145,25 @@
   },
   "HeraldOfIce": {
     "active_skill": {
-      "description": "Channel ice through your hands, adding cold damage to spells and attacks. If you shatter an enemy, they explode and deal AoE cold damage to enemies near them.",
+      "description": "Channel ice through your hands, adding cold damage to spells and attacks. If you shatter an enemy, they explode and deal AoE cold damage to enemies near them. The AoE cold damage inflicted by this skill is not affected by modifiers to spell damage.",
       "display_name": "Herald of Ice",
       "id": "herald_of_ice",
       "is_manually_casted": true,
       "is_skill_totem": false,
       "stat_conversions": {
         "herald_of_ice_damage_+%": "damage_+%",
-        "herald_of_ice_mana_reservation_+%": "base_mana_reservation_+%"
+        "herald_of_ice_mana_reservation_+%": "base_mana_reservation_+%",
+        "herald_skills_mana_reservation_+%": "base_mana_reservation_+%"
       },
       "types": [
-        "cast",
+        "spell",
         "buff",
         "mana_cost_is_reservation",
         "mana_cost_is_percentage",
         "hits",
         "aoe",
         "cold",
-        "unknown_27",
+        "unknown_26",
         "herald"
       ],
       "weapon_restrictions": []
@@ -67541,7 +68195,7 @@
     "tags": [
       "dexterity",
       "active_skill",
-      "cast",
+      "spell",
       "area",
       "cold",
       "herald"
@@ -67549,17 +68203,18 @@
   },
   "HeraldOfThunder": {
     "active_skill": {
-      "description": "Channel lightning through your hands, adding lightning damage to spells and attacks. If you kill a shocked enemy, lightning bolts will strike enemies around you for a short duration.",
+      "description": "Channel lightning through your hands, adding lightning damage to spells and attacks. If you kill a shocked enemy, lightning bolts will strike enemies around you for a short duration. The lightning bolt damage inflicted by this skill is not affected by modifiers to spell damage.",
       "display_name": "Herald of Thunder",
       "id": "herald_of_thunder",
       "is_manually_casted": true,
       "is_skill_totem": false,
       "stat_conversions": {
         "herald_of_thunder_damage_+%": "damage_+%",
-        "herald_of_thunder_mana_reservation_+%": "base_mana_reservation_+%"
+        "herald_of_thunder_mana_reservation_+%": "base_mana_reservation_+%",
+        "herald_skills_mana_reservation_+%": "base_mana_reservation_+%"
       },
       "types": [
-        "cast",
+        "spell",
         "buff",
         "mana_cost_is_reservation",
         "mana_cost_is_percentage",
@@ -67567,7 +68222,7 @@
         "aoe",
         "duration",
         "lightning",
-        "unknown_27",
+        "unknown_26",
         "herald"
       ],
       "weapon_restrictions": []
@@ -68570,7 +69225,7 @@
     "tags": [
       "intelligence",
       "active_skill",
-      "cast",
+      "spell",
       "area",
       "duration",
       "lightning",
@@ -68591,7 +69246,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "aoe",
         "melee",
         "uses_main_hand_when_dual_wielding",
@@ -71310,7 +71964,7 @@
       "stats": [
         {
           "id": "base_trap_duration",
-          "value": 16000
+          "value": 4000
         },
         {
           "id": "spell_minimum_base_cold_damage"
@@ -73467,7 +74121,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "aoe",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
@@ -74704,6 +75357,61 @@
       "melee"
     ]
   },
+  "IntimidatingCry": {
+    "active_skill": {
+      "description": "Performs a warcry, granting the user and nearby allies increased attack speed if there are nearby enemies. The attack speed increase is proportional to the number of surrounding enemies. Taunts all nearby enemies to attack the user, and Intimidates them. Shares a cooldown with other Warcry skills.",
+      "display_name": "Intimidating Cry",
+      "id": "intimidating_cry",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {
+        "warcry_buff_effect_+%": "skill_buff_effect_+%"
+      },
+      "types": [
+        "aoe",
+        "buff",
+        "duration",
+        "trigger_item_granted"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 250,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 4000,
+      "mana_cost": 21,
+      "quality_stats": [],
+      "required_level": 70,
+      "stats": [
+        {
+          "id": "attack_speed_+%",
+          "value": 10
+        },
+        {
+          "id": "intimidating_cry_attack_speed_+%_per_100_enemies",
+          "value": 20
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 4000
+        },
+        {
+          "id": "base_deal_no_damage",
+          "value": 1
+        },
+        {
+          "id": "is_warcry",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "LeapSlam": {
     "active_skill": {
       "description": "Jump into the air, damaging enemies (and knocking back some) with your main hand where you land. Enemies you would land on are pushed out of the way. Requires an axe, mace, sword or staff. Cannot be supported by Multistrike.",
@@ -74718,7 +75426,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "aoe",
         "melee",
@@ -76383,7 +77090,7 @@
         "buff",
         "aoe",
         "spell_totem_supportable",
-        "unknown_27",
+        "unknown_26",
         "duration",
         "vaal",
         "aura"
@@ -76445,7 +77152,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura",
@@ -77531,7 +78238,6 @@
         "attack",
         "projectile_attack",
         "projectile",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
@@ -79751,7 +80457,7 @@
         },
         {
           "id": "base_trap_duration",
-          "value": 16000
+          "value": 4000
         },
         {
           "id": "number_of_additional_projectiles",
@@ -81236,7 +81942,10 @@
       "id": "mirror_arrow",
       "is_manually_casted": true,
       "is_skill_totem": false,
-      "stat_conversions": {},
+      "stat_conversions": {
+        "blink_and_mirror_arrow_cooldown_speed_+%": "base_cooldown_speed_+%",
+        "mirror_arrow_cooldown_speed_+%": "base_cooldown_speed_+%"
+      },
       "types": [
         "explicit_deals_projectile_damage",
         "attack",
@@ -82259,7 +82968,7 @@
         "aoe",
         "duration",
         "spell_totem_supportable",
-        "unknown_31",
+        "unknown_30",
         "triggerable",
         "spell_echo_supportable",
         "fire"
@@ -83127,7 +83836,6 @@
       "types": [
         "attack",
         "projectile",
-        "can_dual_wield",
         "aoe",
         "melee",
         "melee_single_target_initial_hit",
@@ -83464,7 +84172,7 @@
         "spell_totem_supportable",
         "spell_echo_supportable",
         "triggerable",
-        "unknown_27"
+        "unknown_26"
       ],
       "weapon_restrictions": []
     },
@@ -84243,7 +84951,8 @@
         "remote_mine_supportable",
         "spell_echo_supportable",
         "curse",
-        "triggerable"
+        "triggerable",
+        "spell_cascade_supportable"
       ],
       "weapon_restrictions": []
     },
@@ -85925,6 +86634,86 @@
       "area",
       "lightning"
     ]
+  },
+  "OnHitWhileCursedTriggeredCurseNova": {
+    "active_skill": {
+      "description": "Fires projectiles in a nova, converting all their physical damage to a random element, and grants a buff which makes you immune to curses for a duration.",
+      "display_name": "Elemental Warding",
+      "id": "curse_nova",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "spell",
+        "hits",
+        "triggerable",
+        "trigger_spell",
+        "trigger_item_granted",
+        "projectile",
+        "volley_supportable",
+        "fire",
+        "cold",
+        "lightning",
+        "castable_by_mjolner",
+        "castable_by_cospris_malice",
+        "duration",
+        "buff"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 700,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 70,
+      "stats": [
+        {
+          "id": "spell_minimum_base_physical_damage",
+          "value": 1999
+        },
+        {
+          "id": "spell_maximum_base_physical_damage",
+          "value": 2998
+        },
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 16
+        },
+        {
+          "id": "elemental_strike_physical_damage_%_to_convert",
+          "value": 100
+        },
+        {
+          "id": "cast_on_hit_if_cursed_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 3000
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
   },
   "OrbOfStorms": {
     "active_skill": {
@@ -88411,7 +89200,7 @@
         "spell_totem_supportable",
         "remote_mine_supportable",
         "triggerable",
-        "unknown_27"
+        "unknown_26"
       ],
       "weapon_restrictions": []
     },
@@ -88476,7 +89265,6 @@
         "attack",
         "projectile_attack",
         "mirage_archer_supportable",
-        "can_dual_wield",
         "projectile",
         "volley_supportable",
         "ranged_attack_totem_supportable",
@@ -89521,7 +90309,6 @@
         "mirage_archer_supportable",
         "projectile",
         "volley_supportable",
-        "can_dual_wield",
         "duration",
         "trap_supportable",
         "remote_mine_supportable",
@@ -89876,7 +90663,8 @@
         "remote_mine_supportable",
         "spell_echo_supportable",
         "curse",
-        "triggerable"
+        "triggerable",
+        "spell_cascade_supportable"
       ],
       "weapon_restrictions": []
     },
@@ -90632,7 +91420,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura"
@@ -92738,7 +93526,7 @@
   },
   "RaiseZombie": {
     "active_skill": {
-      "description": "Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee attack and an area of effect slam.",
+      "description": "Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee attack and an area of effect slam which cannot be evaded.",
       "display_name": "Raise Zombie",
       "id": "raise_zombie",
       "is_manually_casted": true,
@@ -93258,7 +94046,7 @@
   },
   "RallyingCry": {
     "active_skill": {
-      "description": "Performs a warcry, granting increased damage and mana regeneration to you and your allies if there are nearby enemies. The damage increase is scaled by surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.",
+      "description": "Performs a warcry, granting increased damage and mana regeneration to the user and nearby allies if there are nearby enemies. The damage increase is proportional to the number of surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.",
       "display_name": "Rallying Cry",
       "id": "inspiring_cry",
       "is_manually_casted": true,
@@ -93972,7 +94760,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "aoe",
         "multistrike_supportable",
         "melee"
@@ -94522,7 +95309,7 @@
         "melee",
         "aoe",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Claw",
@@ -94859,7 +95646,7 @@
         "aoe",
         "duration",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "trap_supportable",
         "remote_mine_supportable",
         "totem",
@@ -96766,9 +97553,8 @@
         "attack",
         "melee",
         "melee_single_target_initial_hit",
-        "can_dual_wield",
         "trigger_attack",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Claw",
@@ -97803,7 +98589,7 @@
         "duration",
         "trap_supportable",
         "remote_mine_supportable",
-        "unknown_27",
+        "unknown_26",
         "applies_burning",
         "totem",
         "triggerable",
@@ -101325,7 +102111,7 @@
       "stats": [
         {
           "id": "skill_physical_damage_%_to_convert_to_lightning",
-          "value": 40
+          "value": 50
         },
         {
           "id": "active_skill_base_radius_+"
@@ -103715,6 +104501,64 @@
       "area"
     ]
   },
+  "SpiderAspect": {
+    "active_skill": {
+      "description": "While active, periodically applies a Spider's Web debuff to nearby Enemies, and Hinders them. Each Spider's Web on an Enemy increases the Damage they take. Hinder reduces their movement speed.",
+      "display_name": "Aspect of the Spider",
+      "id": "aspect_spider",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {
+        "aspect_of_the_spider_web_count_+": "spider_aspect_max_web_count",
+        "spider_aspect_debuff_duration_+%": "buff_duration_+%",
+        "spider_aspect_skill_area_of_effect_+%": "base_skill_area_of_effect_+%"
+      },
+      "types": [
+        "buff",
+        "mana_cost_is_percentage",
+        "spell",
+        "mana_cost_is_reservation",
+        "duration"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 500,
+      "mana_cost": 25,
+      "quality_stats": [],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "base_movement_velocity_+%",
+          "value": -30
+        },
+        {
+          "id": "base_damage_taken_+%",
+          "value": 5
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 6000
+        },
+        {
+          "id": "spider_aspect_web_interval_ms",
+          "value": 1000
+        },
+        {
+          "id": "spider_aspect_max_web_count",
+          "value": 3
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "SpiritBurst": {
     "active_skill": {
       "description": "Consumes a spirit charge to fire projectiles which deals physical damage.",
@@ -103741,7 +104585,7 @@
       "20": {}
     },
     "static": {
-      "crit_chance": 700,
+      "crit_chance": 600,
       "damage_effectiveness": 20,
       "mana_cost": 0,
       "quality_stats": [],
@@ -103753,11 +104597,11 @@
         },
         {
           "id": "spell_minimum_base_physical_damage",
-          "value": 861
+          "value": 646
         },
         {
           "id": "spell_maximum_base_physical_damage",
-          "value": 1291
+          "value": 968
         },
         {
           "id": "number_of_additional_projectiles",
@@ -103773,10 +104617,6 @@
         },
         {
           "id": "projectiles_nova",
-          "value": 1
-        },
-        {
-          "id": "always_pierce",
           "value": 1
         }
       ]
@@ -104959,7 +105799,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
@@ -112155,6 +112994,42 @@
       "golem"
     ]
   },
+  "SummonPetrificationStatue": {
+    "active_skill": {
+      "description": "Creates a Petrification Statue in front of you, which will slow enemies with its gaze, until they become fully petrified.",
+      "display_name": "Petrification Statue",
+      "id": "summon_petrification_statue",
+      "is_manually_casted": true,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "spell",
+        "duration",
+        "triggerable"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "1": {}
+    },
+    "static": {
+      "cooldown": 30000,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "base_skill_effect_duration",
+          "value": 4000
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "SummonRagingSpirit": {
     "active_skill": {
       "description": "Summons a short-lived flaming skull that rushes at nearby enemies and attacks them rapidly. Enemies will not directly engage these spirits, and can pass through them.",
@@ -114529,6 +115404,92 @@
       "channelling"
     ]
   },
+  "SummonVoidSphere": {
+    "active_skill": {
+      "description": "Creates an orb which moves towards nearby enemies, exploding after a duration or when it gets close enough. The explosion deals cold spell damage in an area, and leaves behind a Vortex on the ground for a secondary duration which continues to deal cold damage over time and chill enemies caught in it.",
+      "display_name": "Volatile Anomaly",
+      "id": "summon_void_sphere",
+      "is_manually_casted": false,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "spell",
+        "triggerable",
+        "trigger_spell",
+        "trigger_item_granted",
+        "duration",
+        "aoe",
+        "hits",
+        "cold",
+        "castable_by_cospris_malice"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 2000,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 70,
+      "stats": [
+        {
+          "id": "chance_to_cast_on_kill_%",
+          "value": 20
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 8000
+        },
+        {
+          "id": "base_secondary_skill_effect_duration",
+          "value": 4000
+        },
+        {
+          "id": "ground_maelstrom_art_variation",
+          "value": 5
+        },
+        {
+          "id": "chilled_ground_base_magnitude_override",
+          "value": 10
+        },
+        {
+          "id": "spell_minimum_base_cold_damage",
+          "value": 895
+        },
+        {
+          "id": "spell_maximum_base_cold_damage",
+          "value": 1342
+        },
+        {
+          "id": "base_cold_damage_to_deal_per_minute",
+          "value": 93196
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
+          "value": 1
+        },
+        {
+          "id": "spell_damage_modifiers_apply_to_skill_dot",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "Sunder": {
     "active_skill": {
       "description": "Slams the ground with your main hand weapon, creating a wave of broken ground that damages enemies in an area in front of you. Enemies hit by the wave will release a circular shockwave, dealing damage to other enemies around them. Requires a Mace, Axe, or Staff.",
@@ -114543,7 +115504,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "aoe",
         "multistrike_supportable",
@@ -161304,7 +162264,7 @@
     "base_item": {
       "display_name": "Summon Phantasm on Kill Support",
       "id": "Metadata/Items/Gems/SupportGemSummonGhostOnKill",
-      "release_state": "unreleased"
+      "release_state": "released"
     },
     "is_support": true,
     "per_level": {
@@ -161559,7 +162519,7 @@
           },
           null,
           {
-            "value": 10
+            "value": 9
           },
           null
         ]
@@ -161607,7 +162567,7 @@
           },
           null,
           {
-            "value": 11
+            "value": 10
           },
           null
         ]
@@ -161623,7 +162583,7 @@
           },
           null,
           {
-            "value": 11
+            "value": 10
           },
           null
         ]
@@ -161655,7 +162615,7 @@
           },
           null,
           {
-            "value": 12
+            "value": 11
           },
           null
         ]
@@ -161671,7 +162631,7 @@
           },
           null,
           {
-            "value": 12
+            "value": 11
           },
           null
         ]
@@ -161687,7 +162647,7 @@
           },
           null,
           {
-            "value": 12
+            "value": 11
           },
           null
         ]
@@ -161703,7 +162663,7 @@
           },
           null,
           {
-            "value": 13
+            "value": 11
           },
           null
         ]
@@ -161719,7 +162679,7 @@
           },
           null,
           {
-            "value": 13
+            "value": 12
           },
           null
         ]
@@ -161735,7 +162695,7 @@
           },
           null,
           {
-            "value": 13
+            "value": 12
           },
           null
         ]
@@ -161751,7 +162711,7 @@
           },
           null,
           {
-            "value": 14
+            "value": 12
           },
           null
         ]
@@ -161767,7 +162727,7 @@
           },
           null,
           {
-            "value": 14
+            "value": 12
           },
           null
         ]
@@ -161783,7 +162743,7 @@
           },
           null,
           {
-            "value": 14
+            "value": 12
           },
           null
         ]
@@ -161807,7 +162767,7 @@
         },
         {
           "id": "support_ghost_base_duration",
-          "value": 10000
+          "value": 15000
         },
         {
           "id": "base_number_of_support_ghosts_allowed"
@@ -161822,8 +162782,7 @@
     "tags": [
       "intelligence",
       "support",
-      "minion",
-      "duration"
+      "minion"
     ]
   },
   "SupportSummonMaximumNumberOfSocketedTotems": {
@@ -162414,7 +163373,7 @@
         },
         {
           "id": "base_trap_duration",
-          "value": 16000
+          "value": 4000
         },
         {
           "id": "trap_override_pvp_scaling_time_ms",
@@ -163273,6 +164232,28 @@
     ]
   },
   "SupportTriggerSpellOnAttack": {
+    "base_item": null,
+    "is_support": true,
+    "per_level": {
+      "1": {}
+    },
+    "static": {
+      "cooldown": 250,
+      "mana_multiplier": 100,
+      "quality_stats": [],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "skill_has_trigger_from_unique_item",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
+    "support_gem_letter": "",
+    "tags": null
+  },
+  "SupportTriggerSpellOnBowAttack": {
     "base_item": null,
     "is_support": true,
     "per_level": {
@@ -165080,7 +166061,7 @@
         "spell",
         "hits",
         "shield_only",
-        "unknown_27",
+        "unknown_26",
         "lightning",
         "chaining",
         "castable_by_mjolner",
@@ -165811,6 +166792,53 @@
       "chaining",
       "duration"
     ]
+  },
+  "TemporalAnomaly": {
+    "active_skill": {
+      "description": "",
+      "display_name": "Temporal Anomaly",
+      "id": "temporal_anomaly",
+      "is_manually_casted": false,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "spell",
+        "aoe",
+        "triggerable",
+        "trigger_spell",
+        "trigger_item_granted",
+        "duration"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 30000,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 70,
+      "stats": [
+        {
+          "id": "cast_when_hit_%_target_self",
+          "value": 10
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 5000
+        },
+        {
+          "id": "action_speed_-%",
+          "value": 30
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
   },
   "TemporalChains": {
     "active_skill": {
@@ -166549,819 +167577,200 @@
       "duration"
     ]
   },
+  "TentacleSmash": {
+    "active_skill": {
+      "description": "This attack causes three otherworldly tentacles to strike the ground around you, each dealing your attack damage in an area.",
+      "display_name": "Tentacle Whip",
+      "id": "tentacle_smash",
+      "is_manually_casted": false,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "attack",
+        "hits",
+        "aoe",
+        "uses_main_hand_when_dual_wielding",
+        "unknown_55",
+        "trigger_attack",
+        "trigger_item_granted"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 2000,
+      "damage_multiplier": 15000,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 70,
+      "stats": [
+        {
+          "id": "attack_trigger_on_kill_%",
+          "value": 20
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "attack_unusable_if_triggerable",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "ThrownShield": {
     "active_skill": {
-      "description": "",
-      "display_name": "Thrown Shield",
+      "description": "Throws a spectral copy of your shield as a projectile which cannot pierce, and deals off-hand damage augmented by the defences of the shield. When it collides with something it will shatter, launching a number of smaller shards as projectiles in all directions. Modifiers that cause additional projectiles to be fired will add more shards, not more copies of the shield.",
+      "display_name": "Spectral Shield Throw",
       "id": "thrown_shield_projectile",
       "is_manually_casted": true,
       "is_skill_totem": false,
-      "stat_conversions": {},
+      "stat_conversions": {
+        "spectral_shield_throw_damage_+%": "damage_+%",
+        "spectral_shield_throw_num_of_additional_projectiles": "number_of_additional_projectiles",
+        "spectral_shield_throw_projectile_speed_+%": "base_projectile_speed_+%"
+      },
       "types": [
         "attack",
         "projectile_attack",
         "projectile",
         "volley_supportable",
-        "shield_only"
+        "unknown_69"
       ],
-      "weapon_restrictions": []
+      "weapon_restrictions": [
+        "Shield"
+      ]
     },
     "base_item": {
-      "display_name": "WIP",
+      "display_name": "Spectral Shield Throw",
       "id": "Metadata/Items/Gems/SkillGemThrownShieldProjectile",
-      "release_state": "unreleased"
+      "release_state": "released"
     },
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
       "1": {
-        "required_level": 1,
+        "mana_cost": 7,
+        "required_level": 12,
         "stat_requirements": {
-          "dex": 0,
-          "str": 0
+          "dex": 21,
+          "str": 14
         },
         "stats": [
           {
-            "value": 3
+            "value": 13
           },
           {
-            "value": 5
+            "value": 19
           },
           null,
           null,
-          {
-            "value": 5
-          },
+          null,
           null,
           {
-            "value": 10
+            "value": 700
           },
+          null,
           null,
           null,
           null
         ]
       },
       "2": {
-        "required_level": 2,
+        "mana_cost": 7,
+        "required_level": 15,
         "stat_requirements": {
-          "dex": 0,
-          "str": 0
+          "dex": 25,
+          "str": 17
         },
         "stats": [
           {
-            "value": 3
+            "value": 16
           },
           {
-            "value": 5
+            "value": 23
           },
           null,
           null,
-          {
-            "value": 5
-          },
+          null,
           null,
           {
-            "value": 11
+            "value": 700
           },
+          null,
           null,
           null,
           null
         ]
       },
       "3": {
-        "required_level": 4,
+        "mana_cost": 7,
+        "required_level": 19,
         "stat_requirements": {
-          "dex": 0,
-          "str": 0
+          "dex": 30,
+          "str": 21
         },
         "stats": [
           {
-            "value": 4
+            "value": 19
           },
           {
-            "value": 6
+            "value": 29
           },
           null,
           null,
-          {
-            "value": 5
-          },
+          null,
           null,
           {
-            "value": 12
+            "value": 690
           },
+          null,
           null,
           null,
           null
         ]
       },
       "4": {
-        "required_level": 7,
+        "mana_cost": 7,
+        "required_level": 23,
         "stat_requirements": {
-          "dex": 14,
-          "str": 0
+          "dex": 35,
+          "str": 24
         },
         "stats": [
           {
-            "value": 5
+            "value": 24
           },
           {
-            "value": 7
+            "value": 36
           },
           null,
           null,
-          {
-            "value": 5
-          },
+          null,
           null,
           {
-            "value": 13
+            "value": 690
           },
+          null,
           null,
           null,
           null
         ]
       },
       "5": {
-        "required_level": 11,
+        "mana_cost": 7,
+        "required_level": 27,
         "stat_requirements": {
-          "dex": 19,
-          "str": 0
-        },
-        "stats": [
-          {
-            "value": 6
-          },
-          {
-            "value": 9
-          },
-          null,
-          null,
-          {
-            "value": 5
-          },
-          null,
-          {
-            "value": 14
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "6": {
-        "required_level": 16,
-        "stat_requirements": {
-          "dex": 26,
-          "str": 18
-        },
-        "stats": [
-          {
-            "value": 7
-          },
-          {
-            "value": 11
-          },
-          null,
-          null,
-          {
-            "value": 5
-          },
-          null,
-          {
-            "value": 15
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "7": {
-        "required_level": 20,
-        "stat_requirements": {
-          "dex": 31,
-          "str": 22
-        },
-        "stats": [
-          {
-            "value": 9
-          },
-          {
-            "value": 13
-          },
-          null,
-          null,
-          {
-            "value": 5
-          },
-          null,
-          {
-            "value": 16
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "8": {
-        "required_level": 24,
-        "stat_requirements": {
-          "dex": 37,
-          "str": 25
-        },
-        "stats": [
-          {
-            "value": 10
-          },
-          {
-            "value": 15
-          },
-          null,
-          null,
-          {
-            "value": 5
-          },
-          null,
-          {
-            "value": 17
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "9": {
-        "required_level": 28,
-        "stat_requirements": {
-          "dex": 42,
-          "str": 29
-        },
-        "stats": [
-          {
-            "value": 11
-          },
-          {
-            "value": 16
-          },
-          null,
-          null,
-          {
-            "value": 5
-          },
-          null,
-          {
-            "value": 18
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "10": {
-        "required_level": 32,
-        "stat_requirements": {
-          "dex": 47,
-          "str": 33
-        },
-        "stats": [
-          {
-            "value": 12
-          },
-          {
-            "value": 18
-          },
-          null,
-          null,
-          {
-            "value": 5
-          },
-          null,
-          {
-            "value": 19
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "11": {
-        "required_level": 36,
-        "stat_requirements": {
-          "dex": 52,
-          "str": 36
-        },
-        "stats": [
-          {
-            "value": 13
-          },
-          {
-            "value": 20
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 20
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "12": {
-        "required_level": 40,
-        "stat_requirements": {
-          "dex": 58,
-          "str": 40
-        },
-        "stats": [
-          {
-            "value": 14
-          },
-          {
-            "value": 22
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 21
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "13": {
-        "required_level": 44,
-        "stat_requirements": {
-          "dex": 63,
-          "str": 44
-        },
-        "stats": [
-          {
-            "value": 16
-          },
-          {
-            "value": 23
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 22
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "14": {
-        "required_level": 48,
-        "stat_requirements": {
-          "dex": 68,
-          "str": 48
-        },
-        "stats": [
-          {
-            "value": 17
-          },
-          {
-            "value": 25
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 23
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "15": {
-        "required_level": 52,
-        "stat_requirements": {
-          "dex": 74,
-          "str": 51
-        },
-        "stats": [
-          {
-            "value": 18
-          },
-          {
-            "value": 27
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 24
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "16": {
-        "required_level": 56,
-        "stat_requirements": {
-          "dex": 79,
-          "str": 55
-        },
-        "stats": [
-          {
-            "value": 19
-          },
-          {
-            "value": 28
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 25
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "17": {
-        "required_level": 60,
-        "stat_requirements": {
-          "dex": 84,
-          "str": 59
-        },
-        "stats": [
-          {
-            "value": 20
-          },
-          {
-            "value": 30
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 26
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "18": {
-        "required_level": 64,
-        "stat_requirements": {
-          "dex": 90,
-          "str": 62
-        },
-        "stats": [
-          {
-            "value": 21
-          },
-          {
-            "value": 32
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 27
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "19": {
-        "required_level": 67,
-        "stat_requirements": {
-          "dex": 94,
-          "str": 65
-        },
-        "stats": [
-          {
-            "value": 22
-          },
-          {
-            "value": 33
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 28
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "20": {
-        "required_level": 70,
-        "stat_requirements": {
-          "dex": 98,
-          "str": 68
-        },
-        "stats": [
-          {
-            "value": 23
-          },
-          {
-            "value": 34
-          },
-          null,
-          null,
-          {
-            "value": 6
-          },
-          null,
-          {
-            "value": 29
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "21": {
-        "required_level": 72,
-        "stat_requirements": {
-          "dex": 100,
-          "str": 70
-        },
-        "stats": [
-          {
-            "value": 24
-          },
-          {
-            "value": 35
-          },
-          null,
-          null,
-          {
-            "value": 7
-          },
-          null,
-          {
-            "value": 30
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "22": {
-        "required_level": 74,
-        "stat_requirements": {
-          "dex": 103,
-          "str": 72
-        },
-        "stats": [
-          {
-            "value": 24
-          },
-          {
-            "value": 36
-          },
-          null,
-          null,
-          {
-            "value": 7
-          },
-          null,
-          {
-            "value": 31
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "23": {
-        "required_level": 76,
-        "stat_requirements": {
-          "dex": 106,
-          "str": 73
-        },
-        "stats": [
-          {
-            "value": 25
-          },
-          {
-            "value": 37
-          },
-          null,
-          null,
-          {
-            "value": 7
-          },
-          null,
-          {
-            "value": 32
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "24": {
-        "required_level": 78,
-        "stat_requirements": {
-          "dex": 108,
-          "str": 75
-        },
-        "stats": [
-          {
-            "value": 25
-          },
-          {
-            "value": 38
-          },
-          null,
-          null,
-          {
-            "value": 7
-          },
-          null,
-          {
-            "value": 33
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "25": {
-        "required_level": 80,
-        "stat_requirements": {
-          "dex": 111,
-          "str": 77
-        },
-        "stats": [
-          {
-            "value": 26
-          },
-          {
-            "value": 39
-          },
-          null,
-          null,
-          {
-            "value": 7
-          },
-          null,
-          {
-            "value": 34
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "26": {
-        "required_level": 82,
-        "stat_requirements": {
-          "dex": 113,
-          "str": 79
-        },
-        "stats": [
-          {
-            "value": 26
-          },
-          {
-            "value": 40
-          },
-          null,
-          null,
-          {
-            "value": 7
-          },
-          null,
-          {
-            "value": 35
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "27": {
-        "required_level": 84,
-        "stat_requirements": {
-          "dex": 116,
-          "str": 81
-        },
-        "stats": [
-          {
-            "value": 27
-          },
-          {
-            "value": 41
-          },
-          null,
-          null,
-          {
-            "value": 7
-          },
-          null,
-          {
-            "value": 36
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "28": {
-        "required_level": 86,
-        "stat_requirements": {
-          "dex": 119,
-          "str": 83
-        },
-        "stats": [
-          {
-            "value": 28
-          },
-          {
-            "value": 41
-          },
-          null,
-          null,
-          {
-            "value": 7
-          },
-          null,
-          {
-            "value": 37
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "29": {
-        "required_level": 88,
-        "stat_requirements": {
-          "dex": 121,
-          "str": 85
-        },
-        "stats": [
-          {
-            "value": 28
-          },
-          {
-            "value": 42
-          },
-          null,
-          null,
-          {
-            "value": 7
-          },
-          null,
-          {
-            "value": 38
-          },
-          null,
-          null,
-          null
-        ]
-      },
-      "30": {
-        "required_level": 90,
-        "stat_requirements": {
-          "dex": 124,
-          "str": 86
+          "dex": 41,
+          "str": 28
         },
         "stats": [
           {
@@ -167372,13 +167781,687 @@
           },
           null,
           null,
-          {
-            "value": 7
-          },
+          null,
           null,
           {
-            "value": 39
+            "value": 680
           },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "6": {
+        "mana_cost": 7,
+        "required_level": 31,
+        "stat_requirements": {
+          "dex": 46,
+          "str": 32
+        },
+        "stats": [
+          {
+            "value": 34
+          },
+          {
+            "value": 51
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 680
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "7": {
+        "mana_cost": 8,
+        "required_level": 35,
+        "stat_requirements": {
+          "dex": 51,
+          "str": 36
+        },
+        "stats": [
+          {
+            "value": 40
+          },
+          {
+            "value": 60
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 670
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "8": {
+        "mana_cost": 8,
+        "required_level": 38,
+        "stat_requirements": {
+          "dex": 55,
+          "str": 38
+        },
+        "stats": [
+          {
+            "value": 45
+          },
+          {
+            "value": 67
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 670
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "9": {
+        "mana_cost": 8,
+        "required_level": 41,
+        "stat_requirements": {
+          "dex": 59,
+          "str": 41
+        },
+        "stats": [
+          {
+            "value": 50
+          },
+          {
+            "value": 76
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 660
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "10": {
+        "mana_cost": 8,
+        "required_level": 44,
+        "stat_requirements": {
+          "dex": 63,
+          "str": 44
+        },
+        "stats": [
+          {
+            "value": 56
+          },
+          {
+            "value": 84
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 660
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "11": {
+        "mana_cost": 8,
+        "required_level": 47,
+        "stat_requirements": {
+          "dex": 67,
+          "str": 47
+        },
+        "stats": [
+          {
+            "value": 63
+          },
+          {
+            "value": 94
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 650
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "12": {
+        "mana_cost": 8,
+        "required_level": 50,
+        "stat_requirements": {
+          "dex": 71,
+          "str": 49
+        },
+        "stats": [
+          {
+            "value": 70
+          },
+          {
+            "value": 104
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 650
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "13": {
+        "mana_cost": 9,
+        "required_level": 53,
+        "stat_requirements": {
+          "dex": 75,
+          "str": 52
+        },
+        "stats": [
+          {
+            "value": 77
+          },
+          {
+            "value": 115
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 640
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "14": {
+        "mana_cost": 9,
+        "required_level": 56,
+        "stat_requirements": {
+          "dex": 79,
+          "str": 55
+        },
+        "stats": [
+          {
+            "value": 85
+          },
+          {
+            "value": 128
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 640
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "15": {
+        "mana_cost": 9,
+        "required_level": 59,
+        "stat_requirements": {
+          "dex": 83,
+          "str": 58
+        },
+        "stats": [
+          {
+            "value": 94
+          },
+          {
+            "value": 141
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 630
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "16": {
+        "mana_cost": 9,
+        "required_level": 62,
+        "stat_requirements": {
+          "dex": 87,
+          "str": 60
+        },
+        "stats": [
+          {
+            "value": 103
+          },
+          {
+            "value": 155
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 630
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "17": {
+        "mana_cost": 9,
+        "required_level": 64,
+        "stat_requirements": {
+          "dex": 90,
+          "str": 62
+        },
+        "stats": [
+          {
+            "value": 110
+          },
+          {
+            "value": 165
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 620
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "18": {
+        "mana_cost": 9,
+        "required_level": 66,
+        "stat_requirements": {
+          "dex": 92,
+          "str": 64
+        },
+        "stats": [
+          {
+            "value": 117
+          },
+          {
+            "value": 175
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 620
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "19": {
+        "mana_cost": 10,
+        "required_level": 68,
+        "stat_requirements": {
+          "dex": 95,
+          "str": 66
+        },
+        "stats": [
+          {
+            "value": 124
+          },
+          {
+            "value": 186
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 610
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "20": {
+        "mana_cost": 10,
+        "required_level": 70,
+        "stat_requirements": {
+          "dex": 98,
+          "str": 68
+        },
+        "stats": [
+          {
+            "value": 132
+          },
+          {
+            "value": 198
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 610
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "21": {
+        "mana_cost": 10,
+        "required_level": 72,
+        "stat_requirements": {
+          "dex": 100,
+          "str": 70
+        },
+        "stats": [
+          {
+            "value": 140
+          },
+          {
+            "value": 210
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 610
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "22": {
+        "mana_cost": 10,
+        "required_level": 74,
+        "stat_requirements": {
+          "dex": 103,
+          "str": 72
+        },
+        "stats": [
+          {
+            "value": 149
+          },
+          {
+            "value": 223
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 600
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "23": {
+        "mana_cost": 10,
+        "required_level": 76,
+        "stat_requirements": {
+          "dex": 106,
+          "str": 73
+        },
+        "stats": [
+          {
+            "value": 158
+          },
+          {
+            "value": 237
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 600
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "24": {
+        "mana_cost": 10,
+        "required_level": 78,
+        "stat_requirements": {
+          "dex": 108,
+          "str": 75
+        },
+        "stats": [
+          {
+            "value": 167
+          },
+          {
+            "value": 251
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 590
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "25": {
+        "mana_cost": 11,
+        "required_level": 80,
+        "stat_requirements": {
+          "dex": 111,
+          "str": 77
+        },
+        "stats": [
+          {
+            "value": 177
+          },
+          {
+            "value": 266
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 590
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "26": {
+        "mana_cost": 11,
+        "required_level": 82,
+        "stat_requirements": {
+          "dex": 113,
+          "str": 79
+        },
+        "stats": [
+          {
+            "value": 188
+          },
+          {
+            "value": 282
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 580
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "27": {
+        "mana_cost": 11,
+        "required_level": 84,
+        "stat_requirements": {
+          "dex": 116,
+          "str": 81
+        },
+        "stats": [
+          {
+            "value": 199
+          },
+          {
+            "value": 298
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 580
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "28": {
+        "mana_cost": 11,
+        "required_level": 86,
+        "stat_requirements": {
+          "dex": 119,
+          "str": 83
+        },
+        "stats": [
+          {
+            "value": 210
+          },
+          {
+            "value": 315
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 580
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "29": {
+        "mana_cost": 11,
+        "required_level": 88,
+        "stat_requirements": {
+          "dex": 121,
+          "str": 85
+        },
+        "stats": [
+          {
+            "value": 222
+          },
+          {
+            "value": 334
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 570
+          },
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "30": {
+        "mana_cost": 11,
+        "required_level": 90,
+        "stat_requirements": {
+          "dex": 124,
+          "str": 86
+        },
+        "stats": [
+          {
+            "value": 235
+          },
+          {
+            "value": 353
+          },
+          null,
+          null,
+          null,
+          null,
+          {
+            "value": 570
+          },
+          null,
           null,
           null,
           null
@@ -167386,7 +168469,6 @@
       }
     },
     "static": {
-      "mana_cost": 5,
       "quality_stats": [
         {
           "id": "projectile_damage_+%",
@@ -167398,32 +168480,33 @@
       },
       "stats": [
         {
-          "id": "attack_minimum_added_physical_damage"
+          "id": "off_hand_local_minimum_added_physical_damage"
         },
         {
-          "id": "attack_maximum_added_physical_damage"
+          "id": "off_hand_local_maximum_added_physical_damage"
         },
         {
-          "id": "off_hand_minimum_added_physical_damage_per_5_shield_armour",
+          "id": "off_hand_minimum_added_physical_damage_per_15_shield_armour_and_evasion_rating",
           "value": 2
         },
         {
-          "id": "off_hand_maximum_added_physical_damage_per_5_shield_armour",
+          "id": "off_hand_maximum_added_physical_damage_per_15_shield_armour_and_evasion_rating",
           "value": 3
         },
         {
-          "id": "number_of_additional_projectiles"
+          "id": "number_of_additional_projectiles",
+          "value": 8
         },
         {
           "id": "thrown_shield_secondary_projectile_damage_+%_final",
           "value": -25
         },
         {
-          "id": "active_skill_attack_speed_+%_final"
+          "id": "off_hand_base_weapon_attack_duration_ms"
         },
         {
-          "id": "additional_base_critical_strike_chance",
-          "value": 500
+          "id": "additional_critical_strike_chance_per_10_shield_maximum_energy_shield_permyriad",
+          "value": 10
         },
         {
           "id": "base_is_projectile",
@@ -167432,15 +168515,18 @@
         {
           "id": "thrown_shield_projectile_fire_random_directions",
           "value": 1
+        },
+        {
+          "id": "override_off_hand_base_critical_strike_chance_to_5%",
+          "value": 1
         }
       ]
     },
     "tags": [
       "projectile",
-      "strength",
+      "dexterity",
       "active_skill",
-      "attack",
-      "bow"
+      "attack"
     ]
   },
   "ThrownWeapon": {
@@ -167458,8 +168544,7 @@
         "attack",
         "projectile_attack",
         "projectile",
-        "volley_supportable",
-        "can_dual_wield"
+        "volley_supportable"
       ],
       "weapon_restrictions": [
         "Claw",
@@ -168159,7 +169244,6 @@
         "attack",
         "totem",
         "duration",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "melee",
         "trap_supportable",
@@ -169291,7 +170375,7 @@
   },
   "TriggeredBoneNova": {
     "active_skill": {
-      "description": "A spiral of bones erupts around you, dealing physical damage.",
+      "description": "A nova of bones erupts around you, dealing physical damage.",
       "display_name": "Bone Nova",
       "id": "breach_bone_nova_triggered",
       "is_manually_casted": false,
@@ -169303,7 +170387,7 @@
         "projectile",
         "volley_supportable",
         "hits",
-        "unknown_57",
+        "unknown_55",
         "trigger_attack",
         "trigger_item_granted"
       ],
@@ -169456,6 +170540,76 @@
     },
     "tags": null
   },
+  "TriggeredIcicleNova": {
+    "active_skill": {
+      "description": "This attack fires icy projectiles in a nova around you, dealing attack damage with all physical damage converted to cold.",
+      "display_name": "Icicle Burst",
+      "id": "icicle_nova_triggered",
+      "is_manually_casted": false,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "attack",
+        "projectile_attack",
+        "projectile",
+        "volley_supportable",
+        "hits",
+        "unknown_55",
+        "trigger_attack",
+        "trigger_item_granted",
+        "cold"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "20": {}
+    },
+    "static": {
+      "cooldown": 500,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 1,
+      "stats": [
+        {
+          "id": "number_of_additional_projectiles",
+          "value": 8
+        },
+        {
+          "id": "trigger_on_kill_vs_frozen_enemy_%",
+          "value": 100
+        },
+        {
+          "id": "monster_projectile_variation",
+          "value": 38
+        },
+        {
+          "id": "skill_physical_damage_%_to_convert_to_cold",
+          "value": 100
+        },
+        {
+          "id": "projectiles_nova",
+          "value": 1
+        },
+        {
+          "id": "spell_uncastable_if_triggerable",
+          "value": 1
+        },
+        {
+          "id": "base_is_projectile",
+          "value": 1
+        },
+        {
+          "id": "never_freeze",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
+    "tags": null
+  },
   "TriggeredMoltenStrike": {
     "active_skill": {
       "description": "Launch molten projectiles from the point of impact, causing AoE attack damage to enemies where they land.",
@@ -169469,7 +170623,7 @@
         "attack",
         "aoe",
         "fire",
-        "unknown_57",
+        "unknown_55",
         "trigger_attack",
         "projectile_attack"
       ],
@@ -169782,6 +170936,77 @@
       ]
     },
     "support_gem_letter": "",
+    "tags": null
+  },
+  "UniqueEnchantmentOfInfernoOnCrit": {
+    "active_skill": {
+      "description": "Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.",
+      "display_name": "Commandment of Inferno",
+      "id": "commandment_of_inferno_on_kill",
+      "is_manually_casted": false,
+      "is_skill_totem": false,
+      "stat_conversions": {},
+      "types": [
+        "spell",
+        "aoe",
+        "fire",
+        "triggerable",
+        "trigger_spell"
+      ],
+      "weapon_restrictions": []
+    },
+    "base_item": null,
+    "cast_time": 1000,
+    "is_support": false,
+    "per_level": {
+      "1": {}
+    },
+    "static": {
+      "cooldown": 10000,
+      "crit_chance": 500,
+      "mana_cost": 0,
+      "quality_stats": [],
+      "required_level": 75,
+      "stats": [
+        {
+          "id": "spell_minimum_base_fire_damage",
+          "value": 3324
+        },
+        {
+          "id": "spell_maximum_base_fire_damage",
+          "value": 5263
+        },
+        {
+          "id": "base_skill_effect_duration",
+          "value": 2000
+        },
+        {
+          "id": "fire_storm_fireball_delay_ms",
+          "value": 100
+        },
+        {
+          "id": "skill_override_pvp_scaling_time_ms",
+          "value": 450
+        },
+        {
+          "id": "cast_on_crit_%",
+          "value": 100
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
+          "value": 1
+        },
+        {
+          "id": "is_area_damage",
+          "value": 1
+        },
+        {
+          "id": "damage_cannot_be_reflected",
+          "value": 1
+        }
+      ],
+      "stored_uses": 1
+    },
     "tags": null
   },
   "UniqueItemQuantity": {
@@ -170657,7 +171882,7 @@
         "trap_supportable",
         "spell_totem_supportable",
         "remote_mine_supportable",
-        "unknown_27",
+        "unknown_26",
         "vaal"
       ],
       "weapon_restrictions": []
@@ -171459,7 +172684,7 @@
         "buff",
         "aoe",
         "spell_totem_supportable",
-        "unknown_27",
+        "unknown_26",
         "duration",
         "vaal",
         "aura"
@@ -172697,7 +173922,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "aoe",
         "melee",
         "duration",
@@ -173395,7 +174619,7 @@
         "detonate_dead_radius_+%": "base_skill_area_of_effect_+%"
       },
       "types": [
-        "cast",
+        "spell",
         "hits",
         "aoe",
         "trap_supportable",
@@ -174064,7 +175288,7 @@
       "dexterity",
       "active_skill",
       "vaal",
-      "cast",
+      "spell",
       "area",
       "fire"
     ]
@@ -174084,7 +175308,7 @@
         "buff",
         "aoe",
         "spell_totem_supportable",
-        "unknown_27",
+        "unknown_26",
         "duration",
         "vaal",
         "aura"
@@ -174612,7 +175836,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "melee_single_target_initial_hit",
         "melee",
@@ -176091,7 +177314,7 @@
       "types": [
         "projectile",
         "volley_supportable",
-        "unknown_70",
+        "unknown_68",
         "spell",
         "hits",
         "aoe",
@@ -177377,7 +178600,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "melee",
         "duration",
@@ -177945,7 +179167,7 @@
         "buff",
         "aoe",
         "spell_totem_supportable",
-        "unknown_27",
+        "unknown_26",
         "duration",
         "vaal",
         "aura"
@@ -178590,7 +179812,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "uses_main_hand_when_dual_wielding",
         "aoe",
         "melee",
@@ -179252,7 +180473,7 @@
         "buff",
         "aoe",
         "spell_totem_supportable",
-        "unknown_27",
+        "unknown_26",
         "duration",
         "vaal",
         "aura"
@@ -179945,7 +181166,7 @@
           "id": "attack_speed_+%"
         },
         {
-          "id": "cast_speed_+%_from_haste_aura"
+          "id": "cast_speed_+%_granted_from_skill"
         },
         {
           "id": "base_movement_velocity_+%"
@@ -179990,7 +181211,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "melee",
         "vaal"
@@ -181571,7 +182791,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "melee",
         "duration",
@@ -182989,7 +184208,7 @@
         },
         {
           "id": "base_trap_duration",
-          "value": 16000
+          "value": 4000
         },
         {
           "id": "number_of_additional_projectiles",
@@ -183751,7 +184970,7 @@
         "aoe",
         "duration",
         "spell_totem_supportable",
-        "unknown_31",
+        "unknown_30",
         "vaal",
         "fire"
       ],
@@ -184534,7 +185753,6 @@
       "types": [
         "attack",
         "projectile_attack",
-        "can_dual_wield",
         "projectile",
         "ranged_attack_totem_supportable",
         "trap_supportable",
@@ -185575,7 +186793,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "aoe",
         "melee",
         "vaal"
@@ -187092,7 +188309,7 @@
         "spell",
         "projectile",
         "volley_supportable",
-        "unknown_70",
+        "unknown_68",
         "hits",
         "duration",
         "trap_supportable",
@@ -189567,7 +190784,6 @@
         "projectile_attack",
         "projectile",
         "volley_supportable",
-        "can_dual_wield",
         "vaal"
       ],
       "weapon_restrictions": [
@@ -189886,6 +191102,10 @@
         {
           "id": "global_always_hit",
           "value": 1
+        },
+        {
+          "id": "projectiles_not_offset",
+          "value": 1
         }
       ],
       "vaal": {
@@ -189917,8 +191137,7 @@
         "aoe",
         "melee",
         "trigger_attack",
-        "can_dual_wield",
-        "unknown_57"
+        "unknown_55"
       ],
       "weapon_restrictions": [
         "Claw",
@@ -190241,7 +191460,6 @@
         "attack",
         "buff",
         "melee",
-        "can_dual_wield",
         "multistrike_supportable",
         "melee_single_target_initial_hit",
         "can_have_aoe"
@@ -190799,7 +192017,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "duration",
         "multistrike_supportable",
         "melee",
@@ -191119,7 +192336,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura"
@@ -191674,10 +192891,10 @@
   },
   "VoidShot": {
     "active_skill": {
-      "description": "",
+      "description": "Fires an arrow which decelerates to the target location, the arrow will then become unstable and explode dealing weapon damage in an area, converting half of the physical damage to cold damage.",
       "display_name": "Void Shot",
       "id": "void_shot",
-      "is_manually_casted": true,
+      "is_manually_casted": false,
       "is_skill_totem": false,
       "stat_conversions": {},
       "types": [
@@ -191685,26 +192902,37 @@
         "projectile",
         "hits",
         "aoe",
-        "triggerable",
-        "trigger_spell",
+        "unknown_55",
+        "trigger_attack",
         "trigger_item_granted"
       ],
-      "weapon_restrictions": []
+      "weapon_restrictions": [
+        "Bow"
+      ]
     },
     "base_item": null,
     "cast_time": 1000,
     "is_support": false,
     "per_level": {
-      "1": {}
+      "20": {}
     },
     "static": {
-      "cooldown": 1000,
+      "cooldown": 500,
+      "damage_multiplier": 2000,
       "mana_cost": 0,
       "quality_stats": [],
-      "required_level": 1,
+      "required_level": 70,
       "stats": [
         {
           "id": "trigger_on_skill_use_%_if_you_have_a_void_arrow",
+          "value": 100
+        },
+        {
+          "id": "skill_physical_damage_%_to_convert_to_cold",
+          "value": 50
+        },
+        {
+          "id": "active_skill_area_damage_+%_final",
           "value": 50
         },
         {
@@ -191713,6 +192941,14 @@
         },
         {
           "id": "skill_can_fire_arrows",
+          "value": 1
+        },
+        {
+          "id": "base_skill_show_average_damage_instead_of_dps",
+          "value": 1
+        },
+        {
+          "id": "attack_unusable_if_triggerable",
           "value": 1
         }
       ],
@@ -194685,7 +195921,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "melee",
         "movement"
       ],
@@ -195021,7 +196256,6 @@
       },
       "types": [
         "attack",
-        "can_dual_wield",
         "melee_single_target_initial_hit",
         "multistrike_supportable",
         "melee",
@@ -195029,7 +196263,6 @@
         "cold",
         "fire",
         "projectile",
-        "volley_supportable",
         "aoe",
         "chaining",
         "projectile_attack"
@@ -196398,7 +197631,7 @@
         "aoe",
         "buff",
         "mana_cost_is_reservation",
-        "unknown_27",
+        "unknown_26",
         "mana_cost_is_percentage",
         "spell_totem_supportable",
         "aura",

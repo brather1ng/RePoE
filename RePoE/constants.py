@@ -13,150 +13,146 @@ class ActiveSkillType(IntEnum):
     dual_wield_only = 4
     # Skill gives a buff (Molten Shell and golems do not have this type)
     buff = 5
-    # Skill can be used when dual wielding
-    # When it does not have either of the following two, hands are random (Reckoning,
-    # Whirling Blades) or alternating (everything else).
-    can_dual_wield = 6
     # Skill only uses main hand when dual wielding
-    uses_main_hand_when_dual_wielding = 7
+    uses_main_hand_when_dual_wielding = 6
     # Skill uses both hands at once when dual wielding (missing Riposte)
-    uses_both_at_once_when_dual_wielding = 8
+    uses_both_at_once_when_dual_wielding = 7
     # Gem tag equivalent
-    minion = 9
+    minion = 8
     # Set for skills that hit and are not attacks
-    hits = 10
+    hits = 9
     # Gem tag equivalent
-    aoe = 11
+    aoe = 10
     # Gem tag equivalent
-    duration = 12
+    duration = 11
     # Skill can only be used when a shield is equipped
-    shield_only = 13
+    shield_only = 12
     # Set for bow skills without projectile tag (implicit in projectile);
     # allows Faster/Slower Projectiles Support
-    explicit_deals_projectile_damage = 14
+    explicit_deals_projectile_damage = 13
     # The skill's mana cost is reserved on casting
     # Can also be interpreted as "skill is toggle".
     # Ignore this for totems, Rejuvenation Totem has this type but is no reservation/toggle skill.
-    mana_cost_is_reservation = 15
+    mana_cost_is_reservation = 14
     # Skill costs percentage mana
-    mana_cost_is_percentage = 16
+    mana_cost_is_percentage = 15
     # Skill can be turned into a trap with Trap Support
-    trap_supportable = 17
+    trap_supportable = 16
     # Skill can be turned into a totem with Spell Totem Support
-    spell_totem_supportable = 18
+    spell_totem_supportable = 17
     # Skill can be turned into a mine with Remote Mine Support
-    remote_mine_supportable = 19
+    remote_mine_supportable = 18
     # St for Herald of Ash, which cannot hit but causes elemental status effects (implicit in hit);
     # allows Elemental Proliferation Support
-    explicit_causes_elemental_status = 20
+    explicit_causes_elemental_status = 19
     # Skill summons mobs
-    summons_mobs = 21
+    summons_mobs = 20
     # Skill can be turned into a totem with Ranged Attack Totem Support
-    ranged_attack_totem_supportable = 22
+    ranged_attack_totem_supportable = 21
     # Gem tag equivalent
-    chaining = 23
+    chaining = 22
     # Gem tag equivalent
-    melee = 24
+    melee = 23
     # Skill is melee and the initial (or only) hit is single target; allows Melee Splash Support
-    melee_single_target_initial_hit = 25
+    melee_single_target_initial_hit = 24
     # Skill can be repeated with Spell Echo Support
-    spell_echo_supportable = 26
+    spell_echo_supportable = 25
     # Set for all skills with mana_cost_is_reservation, plus vaal auras and a few more;
     # unknown purpose
-    unknown_27 = 27
+    unknown_26 = 26
     # Skill can be repeated with Multistrike Support
-    multistrike_supportable = 28
+    multistrike_supportable = 27
     # Skill directly applies burning (fire damage over time)
-    applies_burning = 29
+    applies_burning = 28
     # Gem tag equivalent
-    totem = 30
+    totem = 29
     # Set for Molten Shell, Vaal Molten Shell and Of Thunder glove enchant; unknown purpose
-    unknown_31 = 31
+    unknown_30 = 30
     # Gem tag equivalent
-    curse = 32
+    curse = 31
     # Gem tag equivalent
-    fire = 33
+    fire = 32
     # Gem tag equivalent
-    cold = 34
+    cold = 33
     # Gem tag equivalent
-    lightning = 35
+    lightning = 34
     # Skill can be triggered by trigger gems
-    triggerable = 36
+    triggerable = 35
     # Gem tag equivalent
-    trap = 37
+    trap = 36
     # Gem tag equivalent
-    movement = 38
-    # Gem tag equivalent
-    cast = 39
+    movement = 37
     # Skill directly deals damage over time
-    deals_damage_over_time = 40
+    deals_damage_over_time = 38
     # Gem tag equivalent
-    mine = 41
+    mine = 39
     # Gem has Trigger tag and is a spell
     # (missing EnchantmentOfFlamesOnHit and EnchantmentOfTempestOnHit)
-    trigger_spell = 42
+    trigger_spell = 40
     # Gem tag equivalent
-    vaal = 43
+    vaal = 41
     # Gem tag equivalent
-    aura = 44
+    aura = 42
     # Skill can be cast by Mjölner's trigger when socketed in it
-    castable_by_mjolner = 45
+    castable_by_mjolner = 43
     # Unused for skill gems
-    unknown_46 = 46
+    unknown_46 = 44
     # Gem has Trigger tag and is an attack
-    trigger_attack = 47
+    trigger_attack = 45
     # Skill is a projectile attack;
     # allows Iron Grip, Physical Projectile Attack Damage and Point Blank Support
-    projectile_attack = 48
+    projectile_attack = 46
     # Skill can be cast by Null's Inclination's trigger when socketed in it
-    castable_by_nulls_inclination = 49
+    castable_by_nulls_inclination = 47
     # Gem tag equivalent
-    chaos = 50
+    chaos = 48
     # Unused for skill gems
-    unknown_51 = 51
+    unknown_49 = 49
     # Set for Blight, Contagion, Scorching Ray; allows Iron Will Support
-    unknown_52 = 52
+    unknown_50 = 50
     # Set for Burning Arrow, Cleave, Dual Strike, Glacial Hammer, Vigilant Strike;
     # these have threshold jewels that add AoE components;
     # allows Increased AoE and Concentrated Effect Support
-    can_have_aoe = 53
+    can_have_aoe = 51
     # Unused for skill gems
-    unknown_54 = 54
+    unknown_52 = 52
     # Set for Burning Arrow, Vaal Burning Arrow;
     # these have threshold jewels that add duration components;
     # allows Increased/Less Duration and Rapid Decay Support
-    can_have_duration = 55
+    can_have_duration = 53
     # Unused for skill gems
-    unknown_56 = 56
+    unknown_54 = 54
     # Same as trigger_attack (47) plus Blast Rain; unknown purpose
-    unknown_57 = 57
+    unknown_55 = 55
     # Gem tag equivalent
-    channelling = 58
+    channelling = 56
     # Set for Blight, Contagion, Scorching Ray; allows Iron Will and Controlled Destruction Support
-    unknown_59 = 59
+    unknown_57 = 57
     # Skill can be cast by Cospri's Malice's trigger when socketed in it
-    castable_by_cospris_malice = 60
+    castable_by_cospris_malice = 58
     # Set for automatically triggered spells granted by item;
     # prevents Cast on/when/while x, Spell Totem, Remote Mine and Trap Support
-    trigger_item_granted = 61
+    trigger_item_granted = 59
     # Gem tag equivalent
-    golem = 62
+    golem = 60
     # Gem tag equivalent
-    herald = 63
-    # Only used for Death's Oath's aura; unknown purpose
-    unknown_64 = 64
+    herald = 61
+    # Used for Death's Oath's aura and added by Blasphemy
+    aura_debuff = 62
     # Skill can not be supported by Ruthless Support. Only used for Cyclone and Vaal Cyclone.
-    not_ruthless_supportable = 65
-    # Unused for skill gems
-    unknown_66 = 66
+    not_ruthless_supportable = 63
+    # Skill can be supported by Iron Will Support
+    iron_will_supportable = 64
     # Skill can be supported by Spell Cascade Support. Seems to be only set for very few spells?
-    spell_cascade_supportable = 67
+    spell_cascade_supportable = 65
     # Skill can be supported by Volley Support
-    volley_supportable = 68
+    volley_supportable = 66
     # Skill can be supported by Mirage Archer Support
-    mirage_archer_supportable = 69
-    # Set for Vaal Fireball and Vaal Spark
-    unknown_70 = 70
+    mirage_archer_supportable = 67
+    # Set for Vaal Fireball and Vaal Spark, disallows Volley Support
+    unknown_68 = 68
+    # Set for Spectral Shield Throw, disallows Volley Support
+    unknown_69 = 69
 
 
 @unique
@@ -201,7 +197,6 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemDamageInfusion",
     "Metadata/Items/Gems/SkillGemDiscorectangleSlam",
     "Metadata/Items/Gems/SkillGemElementalProjectiles",
-    "Metadata/Items/Gems/SkillGemEnduranceChargeSlam",
     "Metadata/Items/Gems/SkillGemFireWeapon",
     "Metadata/Items/Gems/SkillGemHeraldOfBlood",
     "Metadata/Items/Gems/SkillGemIcefire",
@@ -220,7 +215,6 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemSpectralSpinningWeapon",
     "Metadata/Items/Gems/SkillGemStaticTether",
     "Metadata/Items/Gems/SkillGemSummonSkeletonsChannelled",
-    "Metadata/Items/Gems/SkillGemThrownShieldProjectile",
     "Metadata/Items/Gems/SkillGemTouchOfGod",
     "Metadata/Items/Gems/SkillGemVaalFireTrap",
     "Metadata/Items/Gems/SkillGemVaalHeavyStrike",
@@ -230,7 +224,6 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SupportGemCastLinkedCursesOnCurse",
     "Metadata/Items/Gems/SupportGemReturn",
     "Metadata/Items/Gems/SupportGemSplit",
-    "Metadata/Items/Gems/SupportGemSummonGhostOnKill",
     "Metadata/Items/Gems/SupportGemTemporaryForTutorial",
     "Metadata/Items/Gems/SupportGemVaalSoulHarvesting",
 }

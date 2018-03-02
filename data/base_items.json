@@ -12585,6 +12585,256 @@
       "id": "MysteryLeaguestone"
     }
   },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet1": {
+    "drop_level": 2,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Simple Rope Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 1 to 13.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap1.dds",
+      "id": "CurrencyBestiaryNet1"
+    }
+  },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet10": {
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Thaumaturgical Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 68 and above.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap10.dds",
+      "id": "CurrencyBestiaryNet10"
+    }
+  },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet2": {
+    "drop_level": 7,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Reinforced Rope Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 7 to 23.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap2.dds",
+      "id": "CurrencyBestiaryNet2"
+    }
+  },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet3": {
+    "drop_level": 15,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Strong Rope Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 15 to 35.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap3.dds",
+      "id": "CurrencyBestiaryNet3"
+    }
+  },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet4": {
+    "drop_level": 25,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Simple Iron Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 25 to 46.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap4.dds",
+      "id": "CurrencyBestiaryNet4"
+    }
+  },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet5": {
+    "drop_level": 37,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Reinforced Iron Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 37 to 56.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap5.dds",
+      "id": "CurrencyBestiaryNet5"
+    }
+  },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet6": {
+    "drop_level": 48,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Strong Iron Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 48 to 66.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap6.dds",
+      "id": "CurrencyBestiaryNet6"
+    }
+  },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet7": {
+    "drop_level": 58,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Simple Steel Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 58 to 70.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap7.dds",
+      "id": "CurrencyBestiaryNet7"
+    }
+  },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet8": {
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Reinforced Steel Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 60 to 75.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap8.dds",
+      "id": "CurrencyBestiaryNet8"
+    }
+  },
+  "Metadata/Items/Currency/Bestiary/BestiaryNet9": {
+    "drop_level": 64,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Strong Steel Net",
+    "properties": {
+      "description": "Effective against Beasts of levels 64 and above.\r\nActivate to use this type of Net when capturing Beasts.",
+      "directions": "",
+      "stack_size": 100,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "bestiary_net",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryTrap9.dds",
+      "id": "CurrencyBestiaryNet9"
+    }
+  },
   "Metadata/Items/Currency/CurrencyAddAtlasMod": {
     "drop_level": 68,
     "implicits": [],
@@ -12768,13 +13018,14 @@
     "properties": {
       "description": "",
       "directions": "Combine 100 splinters to create Chayula's Breachstone.",
-      "full_stack_turns_into": "Metadata/Items/MapFragments/BreachFragmentChaos",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyBreachFragmentChaos",
       "stack_size": 100,
       "stack_size_currency_tab": 5000
     },
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breachstone_splinter",
       "currency",
       "default"
     ],
@@ -12793,13 +13044,14 @@
     "properties": {
       "description": "",
       "directions": "Combine 100 splinters to create Tul's Breachstone.",
-      "full_stack_turns_into": "Metadata/Items/MapFragments/BreachFragmentCold",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyBreachFragmentCold",
       "stack_size": 100,
       "stack_size_currency_tab": 5000
     },
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breachstone_splinter",
       "currency",
       "default"
     ],
@@ -12818,13 +13070,14 @@
     "properties": {
       "description": "",
       "directions": "Combine 100 splinters to create Xoph's Breachstone.",
-      "full_stack_turns_into": "Metadata/Items/MapFragments/BreachFragmentFire",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyBreachFragmentFire",
       "stack_size": 100,
       "stack_size_currency_tab": 5000
     },
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breachstone_splinter",
       "currency",
       "default"
     ],
@@ -12843,13 +13096,14 @@
     "properties": {
       "description": "",
       "directions": "Combine 100 splinters to create Esh's Breachstone.",
-      "full_stack_turns_into": "Metadata/Items/MapFragments/BreachFragmentLightning",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyBreachFragmentLightning",
       "stack_size": 100,
       "stack_size_currency_tab": 5000
     },
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breachstone_splinter",
       "currency",
       "default"
     ],
@@ -12868,13 +13122,14 @@
     "properties": {
       "description": "",
       "directions": "Combine 100 splinters to create Uul-Netol's Breachstone.",
-      "full_stack_turns_into": "Metadata/Items/MapFragments/BreachFragmentPhysical",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyBreachFragmentPhysical",
       "stack_size": 100,
       "stack_size_currency_tab": 5000
     },
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breachstone_splinter",
       "currency",
       "default"
     ],
@@ -15767,6 +16022,54 @@
       "id": "CurrencyImprintOrb"
     }
   },
+  "Metadata/Items/Currency/CurrencyItemiseCapturedMonster": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Bestiary Orb",
+    "properties": {
+      "description": "Stores a Beast in an item so it can be traded",
+      "directions": "Right click on this item then left click on a Beast in your Menagerie to turn it into a tradable item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryOrbEmpty.dds",
+      "id": "CurrencyBestiaryOrb"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyItemisedCapturedMonster": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Imprinted Bestiary Orb",
+    "properties": {
+      "description": "",
+      "directions": "",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/BestiaryOrbFull.dds",
+      "id": "CurrencyBestiaryOrbImprint"
+    }
+  },
   "Metadata/Items/Currency/CurrencyItemisedProphecy": {
     "drop_level": 1,
     "implicits": [],
@@ -18538,6 +18841,26 @@
       "id": "SkillGemBurningArrow"
     }
   },
+  "Metadata/Items/Gems/SkillGemCaptureMonster": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Capture Monster",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "level_capped_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/DetonateMines.dds",
+      "id": "SkillGemDetonateMines"
+    }
+  },
   "Metadata/Items/Gems/SkillGemChargedAttack": {
     "drop_level": 28,
     "implicits": [],
@@ -19164,25 +19487,6 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/ElementalWeakness.dds",
       "id": "SkillGemElementalWeakness"
-    }
-  },
-  "Metadata/Items/Gems/SkillGemEnduranceChargeSlam": {
-    "drop_level": 28,
-    "implicits": [],
-    "inventory_height": 1,
-    "inventory_width": 1,
-    "item_class": "Active Skill Gem",
-    "name": "Endurance Charge Slam",
-    "properties": {},
-    "release_state": "unreleased",
-    "requirements": null,
-    "tags": [
-      "gem",
-      "default"
-    ],
-    "visual_identity": {
-      "dds_file": "Art/2DItems/Gems/ShockwaveSlam.dds",
-      "id": "SkillGemShockwaveSlam"
     }
   },
   "Metadata/Items/Gems/SkillGemEnduringCry": {
@@ -21523,6 +21827,25 @@
       "id": "SkillGemSweep"
     }
   },
+  "Metadata/Items/Gems/SkillGemTectonicSlam": {
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Tectonic Slam",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/TectonicSlam.dds",
+      "id": "SkillGemTectonicSlam"
+    }
+  },
   "Metadata/Items/Gems/SkillGemTempestShield": {
     "drop_level": 16,
     "implicits": [],
@@ -21567,17 +21890,17 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "WIP",
+    "name": "Spectral Shield Throw",
     "properties": {},
-    "release_state": "unreleased",
+    "release_state": "released",
     "requirements": null,
     "tags": [
       "gem",
       "default"
     ],
     "visual_identity": {
-      "dds_file": "Art/2DItems/Gems/HeavyStrike.dds",
-      "id": "SkillGemHeavyStrike"
+      "dds_file": "Art/2DItems/Gems/Thrown Shield.dds",
+      "id": "SkillGemSpectralShieldThrow"
     }
   },
   "Metadata/Items/Gems/SkillGemThrownWeapon": {
@@ -24564,7 +24887,7 @@
     "item_class": "Support Skill Gem",
     "name": "Summon Phantasm on Kill Support",
     "properties": {},
-    "release_state": "unreleased",
+    "release_state": "released",
     "requirements": null,
     "tags": [
       "support_gem",
@@ -24881,9 +25204,9 @@
     "name": "Event Shard",
     "properties": {
       "description": "",
-      "directions": "A stack of 10 Event Shards becomes an Event Coin.",
+      "directions": "A stack of 2 Event Shards becomes an Event Coin.",
       "full_stack_turns_into": "Metadata/Items/MicrotransactionCurrency/MicrotransactionTencentEventCoin",
-      "stack_size": 10,
+      "stack_size": 2,
       "stack_size_currency_tab": 0
     },
     "release_state": "released",
