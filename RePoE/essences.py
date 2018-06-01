@@ -22,30 +22,28 @@ def write_essences(data_path, relational_reader, **kwargs):
 
 
 def _convert_mods(row):
-    # One hand melee classes and two hand melee classes each have the same essence mods.
-    # The distribution of the 1Hand_ModsKey{2-8} and 2Hand_ModsKey{2-5} keys is arbitrary.
     class_to_key = {
-        'Amulet': 'Amulet2_ModsKey',
-        'Belt': 'Belt2_ModsKey',
-        'Body Armour': 'BodyArmour2_ModsKey',
-        'Boots': 'Boots2_ModsKey',
+        'Amulet': 'Amulet_ModsKey',
+        'Belt': 'Belt_ModsKey',
+        'Body Armour': 'BodyArmour_ModsKey',
+        'Boots': 'Boots_ModsKey',
         'Bow': 'Bow_ModsKey',
-        'Claw': '1Hand_ModsKey2',
-        'Dagger': '1Hand_ModsKey3',
-        'Gloves': 'Gloves2_ModsKey',
-        'Helmet': 'Helmet2_ModsKey',
-        'One Hand Axe': '1Hand_ModsKey4',
-        'One Hand Mace': '1Hand_ModsKey5',
-        'One Hand Sword': '1Hand_ModsKey6',
+        'Claw': 'Claw_ModsKey',
+        'Dagger': 'Dagger_ModsKey',
+        'Gloves': 'Gloves_ModsKey',
+        'Helmet': 'Helmet_ModsKey',
+        'One Hand Axe': '1HandAxe_ModsKey',
+        'One Hand Mace': '1HandMace_ModsKey',
+        'One Hand Sword': '1HandSword_ModsKey',
         'Quiver': 'Quiver_ModsKey',
         'Ring': 'Ring_ModsKey',
-        'Sceptre': '1Hand_ModsKey7',
-        'Shield': 'Shield2_ModsKey',
-        'Staff': '2Hand_ModsKey2',
-        'Thrusting One Hand Sword': '1Hand_ModsKey8',
-        'Two Hand Axe': '2Hand_ModsKey3',
-        'Two Hand Mace': '2Hand_ModsKey4',
-        'Two Hand Sword': '2Hand_ModsKey5',
+        'Sceptre': 'Sceptre_ModsKey',
+        'Shield': 'Shield_ModsKey',
+        'Staff': 'Staff_ModsKey',
+        'Thrusting One Hand Sword': '1HandThrustingSword_ModsKey',
+        'Two Hand Axe': '2HandAxe_ModsKey',
+        'Two Hand Mace': '2HandMace_ModsKey',
+        'Two Hand Sword': '2HandSword_ModsKey',
         'Wand': 'Wand_ModsKey',
     }
     return {
