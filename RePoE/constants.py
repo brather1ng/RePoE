@@ -153,6 +153,10 @@ class ActiveSkillType(IntEnum):
     unknown_68 = 68
     # Set for Spectral Shield Throw, disallows Volley Support
     unknown_69 = 69
+    # Set for Manifest Dancing Dervish, disallows Summon Phantasm on Kill Support
+    unknown_70 = 70
+    # Set for Rain of Arrows and Vaal Rain of Arrows, unknown purpose
+    unknown_71 = 71
 
 
 @unique
@@ -216,6 +220,8 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemStaticTether",
     "Metadata/Items/Gems/SkillGemSummonSkeletonsChannelled",
     "Metadata/Items/Gems/SkillGemTouchOfGod",
+    "Metadata/Items/Gems/SkillGemVaalAncestralWarchief",
+    "Metadata/Items/Gems/SkillGemVaalFleshOffering",
     "Metadata/Items/Gems/SkillGemVaalFireTrap",
     "Metadata/Items/Gems/SkillGemVaalHeavyStrike",
     "Metadata/Items/Gems/SkillGemVaalSweep",
@@ -226,6 +232,10 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SupportGemSplit",
     "Metadata/Items/Gems/SupportGemTemporaryForTutorial",
     "Metadata/Items/Gems/SupportGemVaalSoulHarvesting",
+    # Prototype Incursion currency?
+    "Metadata/Items/Currency/CurrencyIncursionCorrupt1",
+    "Metadata/Items/Currency/CurrencyIncursionCorrupt2",
+    "Metadata/Items/Currency/CurrencyIncursionCorruptGem",
 }
 
 # Base items with with ReleaseState.legacy

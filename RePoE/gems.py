@@ -1,10 +1,10 @@
 import re
 
-from PyPoE.cli.exporter.wiki.parsers.item import ItemsParser
+from PyPoE.cli.exporter.wiki.parsers.skill import SkillParserShared
 from PyPoE.poe.file.stat_filters import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
 from RePoE.base_items import get_release_state
-from RePoE.constants import ActiveSkillType, ReleaseState, CooldownBypassType
+from RePoE.constants import ActiveSkillType, CooldownBypassType
 from RePoE.mods import ignore_mod_domain
 from RePoE.util import write_json, call_with_default_args
 
@@ -232,7 +232,7 @@ class GemConverter:
             'release_state': get_release_state(base_item_type['Id']).name,
         }
 
-        key = ItemsParser._skill_gem_to_projectile_map.get(base_item_type['Name'])
+        key = SkillParserShared._SKILL_ID_TO_PROJECTILE_MAP.get(base_item_type['Name'])
         if key:
             obj['projectile_speed'] = \
                 self.relational_reader['Projectiles.dat'].index['Id']['Metadata/Projectiles/' + key]['ProjectileSpeed']

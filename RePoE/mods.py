@@ -32,7 +32,7 @@ def _convert_generation_weights(generation_weights):
     # 'GenerationWeight' is a virtual field that is a tuple of
     # ('GenerationWeight_TagsKeys', 'GenerationWeight_Values')
     r = []
-    for tag, weight in zip(generation_weights[0], generation_weights[1]):
+    for tag, weight in generation_weights:
         r.append({
             'tag': tag['Id'],
             'weight': weight
