@@ -93,43 +93,34 @@ def write_stat_translations(data_path, translation_file_cache, **kwargs):
         translations = translation_file_cache[in_file].translations
         result = _get_stat_translations(tag_set, translations,
                                         get_custom_translation_file().translations)
-        write_json(result, data_path, out_file)
+        write_json(result, data_path, 'stat_translations' + out_file)
     print("Possible format tags: {}".format(tag_set))
-
-
-WRITTEN_FILES = {
-    ('stat_descriptions.txt', 'stat_translations'),
-    ('map_stat_descriptions.txt', 'stat_translations_areas'),
-    ('atlas_stat_descriptions.txt', 'stat_translations_atlas'),
-}
 
 
 # The stat description files can include each other and can override stats from included files. E.g. the same stat
 # may have different translations on active and support gems. Because of that, they can't simply be merged together
-# This module only covers the files in WRITTEN_FILES. I can add more on request.
-
-# 'stat_descriptions.txt' tree
-# (use stat_descriptions.txt for everything but chest, gem, area, atlas, passive skill tree,
-#  leaguestone and monster stats)
-# - chest (strongboxes)
-# - gem (support gems)
-#   - active_skill_gem
-#     - skill (skills/active gems not covered by a child file,
-#              use 'skillpopup_stat_filters.txt' to get the matching child file)
-#       - aura_skill
-#       - beam_skill
-#       - curse_skill
-#       - debuff_skill
-#       - minion_skill
-#         - minion_attack_skill
-#         - minion_spell_skill
-#       - offering_skill
-# - map (areas, not the map items themselves)
-#   - atlas (sextants)
-# - passive_skill (passive skill tree)
-#   - passive_skill_aura (aura effects granted by passive skill tree stats?)
-# - leaguestone
-# 'monster_stat_descriptions.txt' tree
+# Therefore, each stat_descriptions file is written into a different file (except active_skill_gem_stat_descriptions
+# because I don't think it is required)
+WRITTEN_FILES = {
+    ('stat_descriptions.txt', ''),
+    ('chest_stat_descriptions.txt', '/strongbox'),
+    ('gem_stat_descriptions.txt', '/support_gem'),
+    ('skill_stat_descriptions.txt', '/skill'),
+    ('aura_skill_stat_descriptions.txt', '/aura_skill'),
+    ('beam_skill_stat_descriptions.txt', '/beam_skill'),
+    ('curse_skill_stat_descriptions.txt', '/curse_skill'),
+    ('debuff_skill_stat_descriptions.txt', '/debuff_skill'),
+    ('minion_skill_stat_descriptions.txt', '/minion_skill'),
+    ('minion_attack_skill_stat_descriptions.txt', '/minion_attack_skill'),
+    ('minion_spell_skill_stat_descriptions.txt', '/minion_spell_skill'),
+    ('offering_skill_stat_descriptions.txt', '/offering_skill'),
+    ('variable_duration_skill_stat_descriptions.txt', '/variable_duration_skill'),
+    ('map_stat_descriptions.txt', '/areas'),
+    ('atlas_stat_descriptions.txt', '/atlas'),
+    ('passive_skill_stat_descriptions.txt', '/passive_skill'),
+    ('passive_skill_aura_stat_descriptions.txt', '/passive_skill_aura'),
+    ('monster_stat_descriptions.txt', '/monster'),
+}
 
 
 if __name__ == '__main__':

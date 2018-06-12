@@ -4,11 +4,20 @@ Maps stat ids together with their values to human-readable text. This is the tex
 that appears on items in-game. 
 
 The file only completely covers equipment item stats (everything but chest, gem, 
-area, sextant, passive skill tree, leaguestone and monster stats). The other files 
-starting with `stat_translations_` cover other stats:
+area, sextant, passive skill tree, leaguestone and monster stats). The files 
+in the `stat_translations` folder cover other stats:
 
-- `stat_translations_areas.json` covers stats on areas.
-- `stat_translations_atlas.json` covers sextant stats as shown on the Atlas.
+- `areas.json` covers stats on areas.
+- `atlas.json` covers sextant stats as shown on the Atlas.
+- `strongbox.json` covers stats on strongboxes.
+- `passive_skill.json` covers stats on the passive skill tree.
+- `passive_skill_aura.json` covers stats of auras provided by stats on the passive
+  skill tree.
+- `monster.json` covers stats on monsters.
+- `support_gem.json` covers stats on support gems.
+- `skill.json` and all other files ending in `skill` cover stats
+  on active skill gems and other skills. Each skill is fully described by one of
+  these files. Which one depends on the skill.
 
 The file is an array of translation objects. Each object contains one more stat
 ids that are translated together (`ids`) and the translation information (only to
