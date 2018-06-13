@@ -89,11 +89,11 @@ def _get_stat_translations(tag_set, translations, custom_translations):
 
 def write_stat_translations(data_path, translation_file_cache, **kwargs):
     tag_set = set()
-    for in_file, out_file in WRITTEN_FILES:
+    for in_file, out_file in STAT_TRANSLATION_DICT.items():
         translations = translation_file_cache[in_file].translations
         result = _get_stat_translations(tag_set, translations,
                                         get_custom_translation_file().translations)
-        write_json(result, data_path, 'stat_translations' + out_file)
+        write_json(result, data_path, out_file)
     print("Possible format tags: {}".format(tag_set))
 
 
@@ -121,6 +121,7 @@ WRITTEN_FILES = {
     ('passive_skill_aura_stat_descriptions.txt', '/passive_skill_aura'),
     ('monster_stat_descriptions.txt', '/monster'),
 }
+STAT_TRANSLATION_DICT = {game_file: 'stat_translations' + repoe_file for game_file, repoe_file in WRITTEN_FILES}
 
 
 if __name__ == '__main__':

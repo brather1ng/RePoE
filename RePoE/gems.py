@@ -6,6 +6,7 @@ from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
 from RePoE.base_items import get_release_state
 from RePoE.constants import ActiveSkillType, CooldownBypassType
 from RePoE.mods import ignore_mod_domain
+from RePoE.stat_translations import STAT_TRANSLATION_DICT
 from RePoE.util import write_json, call_with_default_args
 
 
@@ -239,7 +240,6 @@ class GemConverter:
 
     def convert(self, base_item_type, granted_effect, gem_tags, multipliers):
         is_support = granted_effect['IsSupport']
-        ge_id = granted_effect['Id']
         obj = {
             'is_support': is_support
         }
@@ -254,10 +254,13 @@ class GemConverter:
             obj['cast_time'] = granted_effect['CastTime']
             obj['active_skill'] = self._convert_active_skill(granted_effect['ActiveSkillsKey'])
 
+        game_file_name = self._get_translation_file_name(obj.get('active_skill'))
+        obj['stat_translation_file'] = STAT_TRANSLATION_DICT[game_file_name]
+
         self._convert_base_item_specific(base_item_type, granted_effect, obj)
 
         # GrantedEffectsPerLevel
-        gepls = self.gepls[ge_id]
+        gepls = self.gepls[granted_effect['Id']]
         gepls.sort(key=lambda g: g['Level'])
         gepls_dict = {}
         for gepl in gepls:
@@ -457,14 +460,7 @@ class GemConverter:
         if has_active_skill and gem['active_skill']['description'] is not None:
             description.append(gem['active_skill']['description'])
 
-        if has_active_skill:
-            stat_filter_group = self.skill_stat_filter.skills.get(gem['active_skill']['id'])
-            if stat_filter_group is not None:
-                tf = self.translation_file_cache[stat_filter_group.translation_file_path]
-            else:
-                tf = self.translation_file_cache['skill_stat_descriptions.txt']
-        else:
-            tf = self.translation_file_cache['gem_stat_descriptions.txt']
+        tf = self.translation_file_cache[self._get_translation_file_name(gem.get('active_skill'))]
 
         stats = []
         if any('damage_multiplier' in l for l in all_levels):
@@ -486,6 +482,16 @@ class GemConverter:
             'stats': stats,
             'quality_stats': quality_stats
         }
+
+    def _get_translation_file_name(self, active_skill):
+        if active_skill is None:
+            return 'gem_stat_descriptions.txt'
+        stat_filter_group = self.skill_stat_filter.skills.get(active_skill['id'])
+        if stat_filter_group is not None:
+            return stat_filter_group.translation_file_path\
+                .replace('Metadata/StatDescriptions/', '')
+        else:
+            return 'skill_stat_descriptions.txt'
 
     def _tooltip_stats(self, tf, for_level, are_quality_stats):
         divisor = 50 if are_quality_stats else 1
