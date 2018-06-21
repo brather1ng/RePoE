@@ -2262,7 +2262,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Gems are Supported by Level {0} Trap Cooldown"
+        "string": "Socketed Gems are Supported by Level {0} Advanced Traps"
       }
     ],
     "ids": [
@@ -15065,7 +15065,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Evasion Rating while you have Onslaught"
+        "string": "{0}% increased Evasion Rating during Onslaught"
       },
       {
         "condition": [
@@ -15081,7 +15081,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Evasion Rating while you have Onslaught"
+        "string": "{0}% reduced Evasion Rating during Onslaught"
       }
     ],
     "ids": [
@@ -32599,7 +32599,7 @@
         "index_handlers": [
           []
         ],
-        "string": "You have Phasing while you have Onslaught"
+        "string": "You have Phasing during Onslaught"
       }
     ],
     "ids": [
@@ -37703,7 +37703,7 @@
         "index_handlers": [
           []
         ],
-        "string": "You cannot gain Endurance Charges while you have Onslaught"
+        "string": "You cannot gain Endurance Charges during Onslaught"
       }
     ],
     "ids": [
@@ -44307,7 +44307,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Avoid being Chilled while you have Onslaught"
+        "string": "{0}% chance to Avoid being Chilled during Onslaught"
       },
       {
         "condition": [
@@ -44321,7 +44321,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Cannot be Chilled while you have Onslaught"
+        "string": "Cannot be Chilled during Onslaught"
       }
     ],
     "ids": [
@@ -44489,7 +44489,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Avoid being Chilled, Frozen or Ignited while you have Onslaught"
+        "string": "{0}% chance to Avoid being Chilled, Frozen or Ignited during Onslaught"
       },
       {
         "condition": [
@@ -44503,7 +44503,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Cannot be Chilled, Frozen or Ignited while you have Onslaught"
+        "string": "Cannot be Chilled, Frozen or Ignited during Onslaught"
       }
     ],
     "ids": [
@@ -87777,7 +87777,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in it's Area\nCold Snap Cooldown can be bypassed by Power Charges instead of Frenzy Charges"
+        "string": "Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nCold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges"
       }
     ],
     "ids": [
@@ -97507,7 +97507,7 @@
         "index_handlers": [
           []
         ],
-        "string": "With at least 40 Intelligence in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in it's Area\nWith at least 40 Intelligence in Radius, Cold Snap Cooldown can be bypassed by Power Charges instead of Frenzy Charges"
+        "string": "With at least 40 Intelligence in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nWith at least 40 Intelligence in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges"
       }
     ],
     "ids": [
@@ -127846,19 +127846,64 @@
     "English": [
       {
         "condition": [
-          {}
+          {
+            "max": 0,
+            "min": 0
+          },
+          {
+            "max": 99,
+            "min": 0
+          }
         ],
         "format": [
+          "ignore",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{1}% chance to gain an Endurance Charge when this Skill Stuns an Enemy with a Melee Hit"
+      },
+      {
+        "condition": [
+          {
+            "max": 0,
+            "min": 0
+          },
+          {
+            "min": 100
+          }
+        ],
+        "format": [
+          "ignore",
           "ignore"
         ],
         "index_handlers": [
+          [],
           []
         ],
-        "string": "Gain an Endurance Charge when this Skill Stuns an Enemy with Melee Damage"
+        "string": "Gain an Endurance Charge when this Skill Stuns an Enemy with a Melee Hit"
+      },
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "Gain an Endurance Charge when this Skill Stuns an Enemy with a Melee Hit"
       }
     ],
     "ids": [
-      "gain_endurance_charge_on_melee_stun"
+      "gain_endurance_charge_on_melee_stun",
+      "gain_endurance_charge_on_melee_stun_%"
     ]
   },
   {
@@ -132990,7 +133035,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Deals {0}% more Damage while Channelling if Mirage has finished moving"
+        "string": "Deals {0}% more Damage while Channelling if Illusion has finished moving"
       }
     ],
     "ids": [
