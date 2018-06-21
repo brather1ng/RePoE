@@ -7,7 +7,7 @@ def write_essences(data_path, relational_reader, **kwargs):
             'name': row['BaseItemTypesKey']['Name'],
             'spawn_level_min': row['DropLevelMinimum'],
             'spawn_level_max': row['DropLevelMaximum'],
-            'level': row['Tier'],
+            'level': row['Level'],
             'item_level_restriction':
                 row['ItemLevelRestriction'] if row['ItemLevelRestriction'] > 0 else None,
             'type': {
@@ -23,7 +23,7 @@ def write_essences(data_path, relational_reader, **kwargs):
 
 def _convert_mods(row):
     class_to_key = {
-        'Amulet': 'Amulet_ModsKey',
+        'Amulet': 'AmuletsModsKey',
         'Belt': 'Belt_ModsKey',
         'Body Armour': 'BodyArmour_ModsKey',
         'Boots': 'Boots_ModsKey',
@@ -32,18 +32,18 @@ def _convert_mods(row):
         'Dagger': 'Dagger_ModsKey',
         'Gloves': 'Gloves_ModsKey',
         'Helmet': 'Helmet_ModsKey',
-        'One Hand Axe': '1HandAxe_ModsKey',
-        'One Hand Mace': '1HandMace_ModsKey',
-        'One Hand Sword': '1HandSword_ModsKey',
-        'Quiver': 'Quiver_ModsKey',
+        'One Hand Axe': 'OneHandAxe_ModsKey',
+        'One Hand Mace': 'OneHandMace_ModsKey',
+        'One Hand Sword': 'OneHandSword_ModsKey',
+        'Quiver': 'Display_Quiver_ModsKey',
         'Ring': 'Ring_ModsKey',
         'Sceptre': 'Sceptre_ModsKey',
         'Shield': 'Shield_ModsKey',
         'Staff': 'Staff_ModsKey',
-        'Thrusting One Hand Sword': '1HandThrustingSword_ModsKey',
-        'Two Hand Axe': '2HandAxe_ModsKey',
-        'Two Hand Mace': '2HandMace_ModsKey',
-        'Two Hand Sword': '2HandSword_ModsKey',
+        'Thrusting One Hand Sword': 'OneHandThrustingSword_ModsKey',
+        'Two Hand Axe': 'TwoHandAxe_ModsKey',
+        'Two Hand Mace': 'TwoHandMace_ModsKey',
+        'Two Hand Sword': 'TwoHandSword_ModsKey',
         'Wand': 'Wand_ModsKey',
     }
     return {

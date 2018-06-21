@@ -9,7 +9,7 @@ description object as value. That description object has the following fields:
 
 - `is_support`: True iff the skill is a support and no active skill.
 - `cast_time`: Cast time of the skill in milliseconds. Only set for active skills.
-- `stat_translation_file` The file in `data` that can be used to translate the skill's
+- `stat_translation_file`: The file in `data` that can be used to translate the skill's
   stats if you don't want to use `gem_tooltips.json`.
 
 #### `per_level` and `static`
