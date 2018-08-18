@@ -97,6 +97,9 @@ The `active_skill` field is only set for active skills. It has the following fie
 - `is_manually_casted`: Whether the skill is manually casted. True for all skills
   except triggered skills.
 - `is_skill_totem`: True iff the skill is a totem.
+- `skill_totem_life_multiplier`: Life multiplier of totems this skill summons.
+  The base life is the `ally_life`/`life` entry in `default_monster_stats.md` for
+  the `required_level` of the skill. Only present if `is_skill_totem`.
 - `stat_conversions`: Dictionary of skill specific stats that are converted to be
    applied to this skill. Generally (only?) used for enchantments to map skill
    specific enchant stats to the generic stat of the skill that is affected. Keys

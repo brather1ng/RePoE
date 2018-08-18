@@ -131,6 +131,10 @@ class GemConverter:
                 self.max_levels[base_item] = level
 
         self.max_totem_id = relational_reader['SkillTotems.dat'].table_rows
+        self._skill_totem_life_multipliers = {}
+        for row in self.relational_reader['SkillTotemVariations.dat']:
+            self._skill_totem_life_multipliers[row['SkillTotemsKey'].rowid] =\
+                row['MonsterVarietiesKey']['LifeMultiplier'] / 100
 
         self.skill_stat_filter = StatFilterFile()
         self.skill_stat_filter.read(ggpk['Metadata/StatDescriptions/skillpopup_stat_filters.txt'].record.extract())
@@ -139,16 +143,20 @@ class GemConverter:
         stat_conversions = {}
         for in_stat, out_stat in zip(active_skill['Input_StatKeys'], active_skill['Output_StatKeys']):
             stat_conversions[in_stat['Id']] = out_stat['Id']
-        return {
+        is_skill_totem = (active_skill['SkillTotemId'] <= self.max_totem_id)
+        r = {
             'id': active_skill['Id'],
             'display_name': active_skill['DisplayedName'],
             'description': active_skill['Description'],
             'types': [ActiveSkillType(t).name for t in active_skill['ActiveSkillTypes']],
             'weapon_restrictions': [ic['Id'] for ic in active_skill['WeaponRestriction_ItemClassesKeys']],
-            'is_skill_totem': (active_skill['SkillTotemId'] <= self.max_totem_id),
+            'is_skill_totem': is_skill_totem,
             'is_manually_casted': active_skill['IsManuallyCasted'],
             'stat_conversions': stat_conversions
         }
+        if is_skill_totem:
+            r['skill_totem_life_multiplier'] = self._skill_totem_life_multipliers[active_skill['SkillTotemId'] - 1]
+        return r
 
     def _convert_gepl(self, gepl, multipliers, is_support):
         level = gepl['Level']
