@@ -26012,55 +26012,6 @@
       "id": "JewelStr"
     }
   },
-  "Metadata/Items/MicrotransactionCurrency/MicrotransactionTencentEventCoin": {
-    "drop_level": 1,
-    "implicits": [],
-    "inventory_height": 1,
-    "inventory_width": 1,
-    "item_class": "StackableCurrency",
-    "name": "Event Coin",
-    "properties": {
-      "description": "Grants an Event Point.",
-      "directions": "",
-      "stack_size": 10,
-      "stack_size_currency_tab": 0
-    },
-    "release_state": "released",
-    "requirements": null,
-    "tags": [
-      "currency",
-      "default"
-    ],
-    "visual_identity": {
-      "dds_file": "Art/2DItems/Currency/MajorEnergyOrb.dds",
-      "id": "MicrotransactionEventCoin"
-    }
-  },
-  "Metadata/Items/MicrotransactionCurrency/MicrotransactionTencentEventShard": {
-    "drop_level": 1,
-    "implicits": [],
-    "inventory_height": 1,
-    "inventory_width": 1,
-    "item_class": "StackableCurrency",
-    "name": "Event Shard",
-    "properties": {
-      "description": "",
-      "directions": "A stack of 2 Event Shards becomes an Event Coin.",
-      "full_stack_turns_into": "Metadata/Items/MicrotransactionCurrency/MicrotransactionTencentEventCoin",
-      "stack_size": 2,
-      "stack_size_currency_tab": 0
-    },
-    "release_state": "released",
-    "requirements": null,
-    "tags": [
-      "currency",
-      "default"
-    ],
-    "visual_identity": {
-      "dds_file": "Art/2DItems/Currency/MinorEnergyOrb.dds",
-      "id": "MicrotransactionEventShard_"
-    }
-  },
   "Metadata/Items/Quivers/Quiver1": {
     "drop_level": 2,
     "implicits": [

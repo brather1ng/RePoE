@@ -141698,6 +141698,28 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monster deals {0}% more Damage"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "monster_rarity_damage_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [

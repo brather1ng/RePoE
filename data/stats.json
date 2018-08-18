@@ -1276,12 +1276,12 @@
     "is_aliased": false,
     "is_local": false
   },
-  "arc_enemy_extra_damage_rolls": {
+  "arc_enhanced_behaviour": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
-  "arc_enhanced_behaviour": {
+  "arc_extra_damage_rolls": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -3518,6 +3518,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "base_extra_damage_rolls": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "base_fire_damage_%_of_maximum_es_taken_per_minute_in_cruel": {
     "alias": {},
     "is_aliased": false,
@@ -5624,6 +5629,11 @@
     "is_local": false
   },
   "cannot_freeze_shock_ignite_on_critical": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cannot_gain_bleeding": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
