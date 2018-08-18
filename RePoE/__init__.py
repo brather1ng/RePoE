@@ -2,6 +2,7 @@ import argparse
 
 from RePoE.base_items import write_base_items
 from RePoE.crafting_bench_options import write_crafting_bench_options
+from RePoE.default_monster_stats import write_default_monster_stats
 from RePoE.essences import write_essences
 from RePoE.gem_tags import write_gem_tags
 from RePoE.gems import write_gems
@@ -29,6 +30,7 @@ def main(data_path='../data/'):
         'tags': write_tags,
         'item_classes': write_item_classes,
         'essences': write_essences,
+        'default_monster_stats': write_default_monster_stats,
         # todo 'buffs': BuffDefinitions.dat?
     }
 
