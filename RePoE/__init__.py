@@ -1,6 +1,7 @@
 import argparse
 
 from RePoE.base_items import write_base_items
+from RePoE.characters import write_characters
 from RePoE.crafting_bench_options import write_crafting_bench_options
 from RePoE.default_monster_stats import write_default_monster_stats
 from RePoE.essences import write_essences
@@ -31,6 +32,7 @@ def main(data_path='../data/'):
         'item_classes': write_item_classes,
         'essences': write_essences,
         'default_monster_stats': write_default_monster_stats,
+        'characters': write_characters,
         # todo 'buffs': BuffDefinitions.dat?
     }
 

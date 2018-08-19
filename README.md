@@ -2,25 +2,24 @@
 
 Repository of Path of Exile resources for tool developers.
 
-Contains data about stats, mods, base items and gems at the moment. See the `data`
+Contains data about stats, mods, base items, gems and more. See the `data`
 folder for those files and the `docs` folder for their documentation.
 
 For the actual GGPK parsing, [PyPoE](https://github.com/OmegaK2/PyPoE) is used.
 The code here just converts PyPoE's Python objects to JSON.
 
-Developed to supply [PoESkillTree](https://github.com/EmmittJ/PoESkillTree) with the
+Developed to supply [PoESkillTree](https://github.com/PoESkillTree/PoESkillTree) with the
 game data information it requires. If you need other files converted, feel free to
 open an Issue or Pull Request for that.
 
 ## Files
 
-The `data` folder contains the generated data in Json format. Each file has a
+The [data](data) folder contains the generated data in Json format. Each file has a
 formatted and a compact version. The formatted versions complement their descriptions
-in the `docs` folder.
+in the [docs](docs) folder.
 
-Note that the file formats are not yet final, they may change at any time. Once
-they are more stable, I'll probably make releases every time the game has updates
-that changes these files.
+Note that the file formats are not final, they may change at any time, e.g. when the format
+of files in the GGPK changes. 
 
 The following data is currently available:
 
@@ -49,10 +48,11 @@ The following data is currently available:
 - `essences.json`: Describes essences. Defines the mods they spawn on items of the different
   item classes and general information like level and tier.
 - `default_monster_stats.json`: Describes the stat base values of monsters at specific levels.
+- `characters.json`: Describes the stat base values of the different player character classes.
 
 ## Running RePoE
 
-- Install Python 3.4 or 3.5 and Git
+- Install Python 3.4 or later and Git
 - Install [PyPoE](https://github.com/OmegaK2/PyPoE):
   * Clone PyPoE and go into its folder
   * Minimal install: `pip install -e .`
