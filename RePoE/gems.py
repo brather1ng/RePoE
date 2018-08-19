@@ -102,7 +102,6 @@ def _handle_primitives(representative, per_level):
 
 
 class GemConverter:
-
     regex_number = re.compile(r'-?\d+(\.\d+)?')
 
     def __init__(self, ggpk, relational_reader, translation_file_cache):
@@ -133,7 +132,7 @@ class GemConverter:
         self.max_totem_id = relational_reader['SkillTotems.dat'].table_rows
         self._skill_totem_life_multipliers = {}
         for row in self.relational_reader['SkillTotemVariations.dat']:
-            self._skill_totem_life_multipliers[row['SkillTotemsKey'].rowid] =\
+            self._skill_totem_life_multipliers[row['SkillTotemsKey'].rowid] = \
                 row['MonsterVarietiesKey']['LifeMultiplier'] / 100
 
         self.skill_stat_filter = StatFilterFile()
@@ -148,7 +147,7 @@ class GemConverter:
             'id': active_skill['Id'],
             'display_name': active_skill['DisplayedName'],
             'description': active_skill['Description'],
-            'types': [ActiveSkillType(t).name for t in active_skill['ActiveSkillTypes']],
+            'types': self._select_active_skill_types(active_skill['ActiveSkillTypes']),
             'weapon_restrictions': [ic['Id'] for ic in active_skill['WeaponRestriction_ItemClassesKeys']],
             'is_skill_totem': is_skill_totem,
             'is_manually_casted': active_skill['IsManuallyCasted'],
@@ -156,10 +155,25 @@ class GemConverter:
         }
         if is_skill_totem:
             r['skill_totem_life_multiplier'] = self._skill_totem_life_multipliers[active_skill['SkillTotemId'] - 1]
+        if active_skill['Unknown19']:
+            r['minion_types'] = self._select_active_skill_types(active_skill['Unknown19'])
         return r
 
+    @classmethod
+    def _convert_support_gem_specific(cls, granted_effect):
+        return {
+            'letter': granted_effect['SupportGemLetter'],
+            'supports_gems_only': granted_effect['Flag0'],
+            'allowed_types': cls._select_active_skill_types(granted_effect['Data0']),
+            'excluded_types': cls._select_active_skill_types(granted_effect['Data2']),
+            'added_types': cls._select_active_skill_types(granted_effect['Data1']),
+        }
+
+    @staticmethod
+    def _select_active_skill_types(type_ids):
+        return [ActiveSkillType(t).name for t in type_ids]
+
     def _convert_gepl(self, gepl, multipliers, is_support):
-        level = gepl['Level']
         r = {
             'required_level': gepl['LevelRequirement'],
         }
@@ -230,7 +244,7 @@ class GemConverter:
 
         return r
 
-    def _convert_base_item_specific(self, base_item_type, granted_effect, obj):
+    def _convert_base_item_specific(self, base_item_type, obj):
         if base_item_type is None:
             obj['base_item'] = None
             return
@@ -246,7 +260,7 @@ class GemConverter:
             obj['projectile_speed'] = \
                 self.relational_reader['Projectiles.dat'].index['Id']['Metadata/Projectiles/' + key]['ProjectileSpeed']
 
-    def convert(self, base_item_type, granted_effect, gem_tags, multipliers):
+    def convert(self, base_item_type, granted_effect, secondary_granted_effect, gem_tags, multipliers):
         is_support = granted_effect['IsSupport']
         obj = {
             'is_support': is_support
@@ -257,7 +271,7 @@ class GemConverter:
             obj['tags'] = [tag['Id'] for tag in gem_tags]
 
         if is_support:
-            obj['support_gem_letter'] = granted_effect['SupportGemLetter']
+            obj['support_gem'] = self._convert_support_gem_specific(granted_effect)
         else:
             obj['cast_time'] = granted_effect['CastTime']
             obj['active_skill'] = self._convert_active_skill(granted_effect['ActiveSkillsKey'])
@@ -265,7 +279,10 @@ class GemConverter:
         game_file_name = self._get_translation_file_name(obj.get('active_skill'))
         obj['stat_translation_file'] = STAT_TRANSLATION_DICT[game_file_name]
 
-        self._convert_base_item_specific(base_item_type, granted_effect, obj)
+        self._convert_base_item_specific(base_item_type, obj)
+
+        if secondary_granted_effect:
+            obj['secondary_granted_effect'] = secondary_granted_effect['Id']
 
         # GrantedEffectsPerLevel
         gepls = self.gepls[granted_effect['Id']]
@@ -496,8 +513,7 @@ class GemConverter:
             return 'gem_stat_descriptions.txt'
         stat_filter_group = self.skill_stat_filter.skills.get(active_skill['id'])
         if stat_filter_group is not None:
-            return stat_filter_group.translation_file_path\
-                .replace('Metadata/StatDescriptions/', '')
+            return stat_filter_group.translation_file_path.replace('Metadata/StatDescriptions/', '')
         else:
             return 'skill_stat_descriptions.txt'
 
@@ -519,9 +535,11 @@ class GemConverter:
                 else:
                     vs.append(int(string))
             match_i = [-1]
+
             def repl(_):
                 match_i[0] += 1
                 return "{%d}" % match_i[0]
+
             line = self.regex_number.sub(repl, line)
             stat = {
                 "text": line,
@@ -547,8 +565,8 @@ def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwa
             'dex': gem['Dex'],
             'int': gem['Int']
         }
-        gems[ge_id], tooltips[ge_id] = \
-            converter.convert(gem['BaseItemTypesKey'], granted_effect, gem['GemTagsKeys'], multipliers)
+        gems[ge_id], tooltips[ge_id] = converter.convert(gem['BaseItemTypesKey'], granted_effect,
+                                                         gem['GrantedEffectsKey2'], gem['GemTagsKeys'], multipliers)
 
     for mod in relational_reader['Mods.dat']:
         if mod['GrantedEffectsPerLevelKey'] is None:
@@ -560,8 +578,7 @@ def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwa
         if ge_id in gems:
             # mod effects may exist as gems, those are handled above
             continue
-        gems[ge_id], tooltips[ge_id] = \
-            converter.convert(None, granted_effect, None, None)
+        gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
 
     write_json(gems, data_path, 'gems')
     write_json(tooltips, data_path, 'gem_tooltips')

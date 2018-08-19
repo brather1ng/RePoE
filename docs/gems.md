@@ -1,6 +1,6 @@
 ### `gems.json`
 
-Describes skill gems and skill gem effects only provided by mods.
+Describes skill gems and skill effects only provided by mods.
 
 The file is an object where each key is a GrantedEffects (skill) id that has its
 description object as value. That description object has the following fields:
@@ -11,6 +11,8 @@ description object as value. That description object has the following fields:
 - `cast_time`: Cast time of the skill in milliseconds. Only set for active skills.
 - `stat_translation_file`: The file in `data` that can be used to translate the skill's
   stats if you don't want to use `gem_tooltips.json`.
+- `secondary_granted_effect`: If specified, gaining this effect from a skill gem (item)
+  will also grant the `secondary_granted_effect`. E.g. Vaal gems also grant the base skill.
 
 #### `per_level` and `static`
 
@@ -64,7 +66,7 @@ recursion.
 
 #### Information for gems that exist as items
 
-Some fields are only set for gems that exist as actual gem items, not skills that
+Some fields are only set for effects that come from actual gem items, not skills that
 are only provided by other items (e.g. Icestorm from Whispering Ice). These are
 described below.
 
@@ -105,8 +107,26 @@ The `active_skill` field is only set for active skills. It has the following fie
    specific enchant stats to the generic stat of the skill that is affected. Keys
    are the stat that is converted and values the stat the keys are converted to.
 - `types`: Internal types/tags this skill has. See
-   [`RePoE.constants.ActiveSkillType`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L5)
-   for possible values and their meaning. These are reverse-engineered so they
-   might be incorrect.
+  [`RePoE.constants.ActiveSkillType`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L5)
+  for possible values and their meaning. These are reverse-engineered so they
+  might be incorrect. One purpose is to determine the support gems that can
+  support this skill.
+- `minion_types`: Like `types` but for the skills used by minions summoned by this skill.
+  If not specified, this skill does not summon minions. These are also used for determining
+  whether a support gem can support this skill.
 - `weapon_restrictions`: If the array is not empty, this attack skill is restricted
    to the weapon classes in the array. The values are ids in `ItemClasses.dat`.
+
+#### Information for support gems
+
+The `support_gem` field is only set for support gems. It has the following fields:
+
+- `letter`: The letter added on skill icons when they are supported by this
+  gem. Only set for support gems.
+- `supports_gems_only`: If true, this support gem only supports active skills coming from gems,
+  not those provided by mods on items.
+- `allowed_types`: Active skills must have at least one of these types to be supportable
+  by this support gem.
+- `excluded_types`: Active skills must have not have any of these types to be supportable
+  by this support gem.
+- `added_types`: The active skill types this support gems adds to supported active skills.

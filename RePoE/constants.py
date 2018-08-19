@@ -7,7 +7,7 @@ class ActiveSkillType(IntEnum):
     attack = 1
     # Gem tag equivalent
     spell = 2
-    # Gem tag equivalent (skills which fire projectiles)
+    # Skills fires projectiles
     projectile = 3
     # Skill can only be used when dual wielding (Dual Strike only atm)
     dual_wield_only = 4
@@ -42,7 +42,7 @@ class ActiveSkillType(IntEnum):
     spell_totem_supportable = 17
     # Skill can be turned into a mine with Remote Mine Support
     remote_mine_supportable = 18
-    # St for Herald of Ash, which cannot hit but causes elemental status effects (implicit in hit);
+    # Set for Herald of Ash, which cannot hit but causes elemental status effects (implicit in hit);
     # allows Elemental Proliferation Support
     explicit_causes_elemental_status = 19
     # Skill summons mobs
@@ -66,7 +66,7 @@ class ActiveSkillType(IntEnum):
     applies_burning = 28
     # Gem tag equivalent
     totem = 29
-    # Set for Molten Shell, Vaal Molten Shell and Of Thunder glove enchant; unknown purpose
+    # Set for Molten Shell, Vaal Molten Shell and Of Thunder glove enchant; added by Blasphemy Support; unknown purpose
     unknown_30 = 30
     # Gem tag equivalent
     curse = 31
@@ -106,28 +106,31 @@ class ActiveSkillType(IntEnum):
     castable_by_nulls_inclination = 47
     # Gem tag equivalent
     chaos = 48
-    # Unused for skill gems
+    # Unused for processed active skills; excluded by Faster and Slower Projectiles Support
     unknown_49 = 49
-    # Set for Blight, Contagion, Scorching Ray; allows Iron Will Support
-    unknown_50 = 50
+    # Allows Iron Will Support for skills that don't have hits but should be supportable, e.g. Blight
+    iron_will_supportable_not_hit = 50
     # Set for Burning Arrow, Cleave, Dual Strike, Glacial Hammer, Vigilant Strike;
     # these have threshold jewels that add AoE components;
     # allows Increased AoE and Concentrated Effect Support
     can_have_aoe = 51
-    # Unused for skill gems
-    unknown_52 = 52
+    # Set in minion_types for skills that summon minions that might use projectile skills, e.g. Animate Weapon.
+    # Allows the same support gems as the projectile tag.
+    minion_maybe_projectile = 52
     # Set for Burning Arrow, Vaal Burning Arrow;
     # these have threshold jewels that add duration components;
     # allows Increased/Less Duration and Rapid Decay Support
     can_have_duration = 53
-    # Unused for skill gems
-    unknown_54 = 54
-    # Same as trigger_attack (47) plus Blast Rain; unknown purpose
+    # Set for Animate Weapon and related item skills (the triggered version, Animate Guardian's Weapon).
+    # Allows some projectile and attack related supports.
+    animate_weapon = 54
+    # Same as trigger_attack plus Blast Rain; unknown purpose
     unknown_55 = 55
     # Gem tag equivalent
     channelling = 56
-    # Set for Blight, Contagion, Scorching Ray; allows Iron Will and Controlled Destruction Support
-    unknown_57 = 57
+    # Allows Controlled Destruction Support for skills that don't have attack or hits but should be supportable, e.g.
+    # Blight. Also allows Iron Will Support. Only Siphoning Trap has this tag and not iron_will_supportable_not_hit.
+    controlled_destruction_supportable_not_hit = 57
     # Skill can be cast by Cospri's Malice's trigger when socketed in it
     castable_by_cospris_malice = 58
     # Set for automatically triggered spells granted by item;
@@ -141,8 +144,8 @@ class ActiveSkillType(IntEnum):
     aura_debuff = 62
     # Skill can not be supported by Ruthless Support. Only used for Cyclone and Vaal Cyclone.
     not_ruthless_supportable = 63
-    # Skill can be supported by Iron Will Support
-    iron_will_supportable = 64
+    # Set for the minions of Summon Skeleton and Vaal Summon Skeletons; required by Iron Will Support
+    iron_will_supportable_minion = 64
     # Skill can be supported by Spell Cascade Support. Seems to be only set for very few spells?
     spell_cascade_supportable = 65
     # Skill can be supported by Volley Support
@@ -150,13 +153,13 @@ class ActiveSkillType(IntEnum):
     # Skill can be supported by Mirage Archer Support
     mirage_archer_supportable = 67
     # Set for Vaal Fireball and Vaal Spark, disallows Volley Support
-    unknown_68 = 68
+    volley_exclude_68 = 68
     # Set for Spectral Shield Throw, disallows Volley Support
-    unknown_69 = 69
+    volley_exclude_69 = 69
     # Set for Manifest Dancing Dervish, disallows Summon Phantasm on Kill Support
-    unknown_70 = 70
-    # Set for Rain of Arrows and Vaal Rain of Arrows, unknown purpose
-    unknown_71 = 71
+    phantasm_on_kill_exclude = 70
+    # Set for Rain of Arrows and Vaal Rain of Arrows, allows Lesser and Greater Multiple Projectiles
+    rain_of_arrows = 71
 
 
 @unique
