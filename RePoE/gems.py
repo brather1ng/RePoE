@@ -155,18 +155,18 @@ class GemConverter:
         }
         if is_skill_totem:
             r['skill_totem_life_multiplier'] = self._skill_totem_life_multipliers[active_skill['SkillTotemId'] - 1]
-        if active_skill['Unknown19']:
-            r['minion_types'] = self._select_active_skill_types(active_skill['Unknown19'])
+        if active_skill['MinionActiveSkillTypes']:
+            r['minion_types'] = self._select_active_skill_types(active_skill['MinionActiveSkillTypes'])
         return r
 
     @classmethod
     def _convert_support_gem_specific(cls, granted_effect):
         return {
             'letter': granted_effect['SupportGemLetter'],
-            'supports_gems_only': granted_effect['Flag0'],
-            'allowed_types': cls._select_active_skill_types(granted_effect['Data0']),
-            'excluded_types': cls._select_active_skill_types(granted_effect['Data2']),
-            'added_types': cls._select_active_skill_types(granted_effect['Data1']),
+            'supports_gems_only': granted_effect['SupportsGemsOnly'],
+            'allowed_types': cls._select_active_skill_types(granted_effect['AllowedActiveSkillTypes']),
+            'excluded_types': cls._select_active_skill_types(granted_effect['ExcludedActiveSkillTypes']),
+            'added_types': cls._select_active_skill_types(granted_effect['AddedActiveSkillTypes']),
         }
 
     @staticmethod
