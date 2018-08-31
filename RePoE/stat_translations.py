@@ -78,7 +78,6 @@ def _get_stat_translations(tag_set, translations, custom_translations):
     for tr in custom_translations:
         id_str = " ".join(tr.ids)
         if id_str in previous:
-            print("Duplicate custom id", tr.ids)
             continue
         previous.add(id_str)
         result = _convert(tr, tag_set)

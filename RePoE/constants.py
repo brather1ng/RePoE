@@ -160,6 +160,10 @@ class ActiveSkillType(IntEnum):
     phantasm_on_kill_exclude = 70
     # Set for Rain of Arrows and Vaal Rain of Arrows, allows Lesser and Greater Multiple Projectiles
     rain_of_arrows = 71
+    # Gem tag equivalent
+    warcry = 72
+    # Skill cast is instant
+    instant = 73
 
 
 @unique
@@ -223,7 +227,6 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemStaticTether",
     "Metadata/Items/Gems/SkillGemSummonSkeletonsChannelled",
     "Metadata/Items/Gems/SkillGemTouchOfGod",
-    "Metadata/Items/Gems/SkillGemVaalAncestralWarchief",
     "Metadata/Items/Gems/SkillGemVaalFleshOffering",
     "Metadata/Items/Gems/SkillGemVaalFireTrap",
     "Metadata/Items/Gems/SkillGemVaalHeavyStrike",

@@ -12977,8 +12977,8 @@
     "item_class": "StackableCurrency",
     "name": "Orb of Augmentation",
     "properties": {
-      "description": "Enchants a magic item with a new random property",
-      "directions": "Right click this item then left click a magic item to apply it. Magic items can have up to two random properties.",
+      "description": "Enchants a magic item with a new random modifier",
+      "directions": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers.",
       "stack_size": 30,
       "stack_size_currency_tab": 5000
     },
@@ -13001,8 +13001,8 @@
     "item_class": "StackableCurrency",
     "name": "Exalted Orb",
     "properties": {
-      "description": "Enchants a rare item with a new random property",
-      "directions": "Right click this item then left click a rare item to apply it. Rare items can have up to six random properties.",
+      "description": "Enchants a rare item with a new random modifier",
+      "directions": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -13325,7 +13325,7 @@
     "item_class": "StackableCurrency",
     "name": "Orb of Scouring",
     "properties": {
-      "description": "Removes all properties from an item",
+      "description": "Removes all modifiers from an item",
       "directions": "Right click this item then left click on a magic or rare item to apply it.",
       "stack_size": 30,
       "stack_size_currency_tab": 5000
@@ -13387,6 +13387,606 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/Essence/EssenceCorrupt.dds",
       "id": "CorruptMonolith_"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingAbyss": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Hollow Fossil",
+    "properties": {
+      "description": "Has an Abyssal socket",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/AmberEye.dds",
+      "id": "CurrencyDelveCraftingAbyss"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingAttackMods": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Serrated Fossil",
+    "properties": {
+      "description": "More Attack modifiers\r\nFewer Caster modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/SerratedFossil.dds",
+      "id": "CurrencyDelveCraftingAttackMods"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingBleedPoison": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Corroded Fossil",
+    "properties": {
+      "description": "More Poison or Bleeding modifiers\r\nNo Elemental modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/CorrodedFossil.dds",
+      "id": "CurrencyDelveCraftingBleedPoison"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingCasterMods": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Aetheric Fossil",
+    "properties": {
+      "description": "More Caster modifiers\r\nFewer Attack modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/AethericFossil.dds",
+      "id": "CurrencyDelveCraftingCasterMods_"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingChaos": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Aberrant Fossil",
+    "properties": {
+      "description": "More Chaos modifiers\r\nNo Lightning modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/AbberantFossil.dds",
+      "id": "CurrencyDelveCraftingChaos"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingCold": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Frigid Fossil",
+    "properties": {
+      "description": "More Cold modifiers\r\nNo Fire modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/AmberFang.dds",
+      "id": "CurrencyDelveCraftingCold"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingCorruptEssence": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Glyphic Fossil",
+    "properties": {
+      "description": "Has a Corrupt Essence modifier",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/GlyphicFossil.dds",
+      "id": "CurrencyDelveCraftingCorruptEssence"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingDefences": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Dense Fossil",
+    "properties": {
+      "description": "More Armour, Energy Shield or Evasion modifiers\r\nNo Life Modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/DenseFossil.dds",
+      "id": "CurrencyDelveCraftingDefences"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingElemental": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Prismatic Fossil",
+    "properties": {
+      "description": "More Elemental modifiers\r\nNo Poison or Bleeding modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/PrismaticFossil.dds",
+      "id": "CurrencyDelveCraftingElemental"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingEnchant": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Enchanted Fossil",
+    "properties": {
+      "description": "Has a Labyrinth Enchantment",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/EnchantedFossil.dds",
+      "id": "CurrencyDelveCraftingEnchant"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingFire": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Scorched Fossil",
+    "properties": {
+      "description": "More Fire modifiers\r\nNo Cold modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/AmberFireFly.dds",
+      "id": "CurrencyDelveCraftingFire"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingGemLevel": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Faceted Fossil",
+    "properties": {
+      "description": "More Socketed Gem Level modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/FacetedFossil.dds",
+      "id": "CurrencyDelveCraftingGemLevel"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingLife": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Pristine Fossil",
+    "properties": {
+      "description": "More Life modifiers\r\nNo Armour, Energy Shield or Evasion modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/PristineFossil.dds",
+      "id": "CurrencyDelveCraftingLife"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingLightning": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Metallic Fossil",
+    "properties": {
+      "description": "More Lightning modifiers\r\nNo Physical modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/MetallicFossil.dds",
+      "id": "CurrencyDelveCraftingLightning"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingLuckyModRolls": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Sanctified Fossil",
+    "properties": {
+      "description": "Numeric modifier values are lucky\r\nHigh Level modifiers are more common",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/GildedFossil.dds",
+      "id": "CurrencyDelveCraftingLuckyModRolls"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingMana": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lucent Fossil",
+    "properties": {
+      "description": "More Mana modifiers\r\nNo Speed modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/LucentFossil.dds",
+      "id": "CurrencyDelveCraftingManaMods"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingMinionsAuras": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Bound Fossil",
+    "properties": {
+      "description": "More Minion or Aura modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/ResonatingFossil.dds",
+      "id": "CurrencyDelveCraftingMinionsAuras"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingMirror": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Fractured Fossil ",
+    "properties": {
+      "description": "Creates a mirrored copy",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/FracturedFossil.dds",
+      "id": "CurrencyDelveCraftingMirror"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingPhysical": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Jagged Fossil",
+    "properties": {
+      "description": "More Physical modifiers\r\nNo Chaos modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/JaggedFossil.dds",
+      "id": "CurrencyDelveCraftingPhysical"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingQuality": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Perfect Fossil",
+    "properties": {
+      "description": "Improved Quality",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/PerfectFossil.dds",
+      "id": "CurrencyDelveCraftingQuality"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingRandom": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Tangled Fossil",
+    "properties": {
+      "description": "Can have any Fossil modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/TangledFossil.dds",
+      "id": "CurrencyDelveCraftingRandom"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingSellPrice": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Gilded Fossil",
+    "properties": {
+      "description": "Item is overvalued by vendors",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/SanctifiedFossil.dds",
+      "id": "CurrencyDelveCraftingSellPrice"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingSockets": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Encrusted Fossil",
+    "properties": {
+      "description": "More sockets\r\nCan have white sockets",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/EncrustedFossil.dds",
+      "id": "CurrencyDelveCraftingSockets"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingSpeed": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Shuddering Fossil",
+    "properties": {
+      "description": "More Speed modifiers\r\nNo Mana modifiers",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/ShudderingFossil.dds",
+      "id": "CurrencyDelveCraftingSpeedMods"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyDelveCraftingVaal": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Bloodstained Fossil",
+    "properties": {
+      "description": "Has a Vaal modifier",
+      "directions": "Place in a Resonator to influence item crafting.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delve/BloodstainedFossil.dds",
+      "id": "CurrencyDelveCraftingVaal"
     }
   },
   "Metadata/Items/Currency/CurrencyDuplicate": {
@@ -16146,7 +16746,7 @@
     "name": "Imprint",
     "properties": {
       "description": "Restores an imprinted item onto the original",
-      "directions": "Right click this item then left click on the imprinted original item to restore its properties. An imprint cannot be dropped or traded to other players.",
+      "directions": "Right click this item then left click on the imprinted original item to restore its modifiers. An imprint cannot be dropped or traded to other players.",
       "stack_size": 1,
       "stack_size_currency_tab": 0
     },
@@ -16601,7 +17201,7 @@
     "item_class": "StackableCurrency",
     "name": "Divine Orb",
     "properties": {
-      "description": "Randomises the numeric values of the random properties on an item",
+      "description": "Randomises the numeric values of the random modifiers on an item",
       "directions": "Right click this item then left click a magic, rare or unique item to apply it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -16697,7 +17297,7 @@
     "item_class": "StackableCurrency",
     "name": "Orb of Annulment",
     "properties": {
-      "description": "Removes a random property from an item",
+      "description": "Removes a random modifier from an item",
       "directions": "Right click this item then left click on a magic or rare item to apply it.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
@@ -16747,7 +17347,7 @@
     "item_class": "StackableCurrency",
     "name": "Blessed Orb",
     "properties": {
-      "description": "Randomises the numeric values of the implicit properties of an item",
+      "description": "Randomises the numeric values of the implicit modifiers of an item",
       "directions": "Right click this item then left click another item to apply it.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
@@ -16771,7 +17371,7 @@
     "item_class": "StackableCurrency",
     "name": "Orb of Alteration",
     "properties": {
-      "description": "Reforges a magic item with new random properties",
+      "description": "Reforges a magic item with new random modifiers",
       "directions": "Right click this item then left click a magic item to apply it.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
@@ -16871,7 +17471,7 @@
     "item_class": "StackableCurrency",
     "name": "Chaos Orb",
     "properties": {
-      "description": "Reforges a rare item with new random properties",
+      "description": "Reforges a rare item with new random modifiers",
       "directions": "Right click this item then left click a rare item to apply it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -17238,7 +17838,7 @@
     "name": "Regal Orb",
     "properties": {
       "description": "Upgrades a magic item to a rare item",
-      "directions": "Right click this item then left click a magic item to apply it. Current properties are retained and a new one is added.",
+      "directions": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -19472,6 +20072,25 @@
       "id": "SkillGemConductivity"
     }
   },
+  "Metadata/Items/Gems/SkillGemConsecratedPath": {
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Consecrated Path",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/HolyPathGem.dds",
+      "id": "SkillGemHolyPath_"
+    }
+  },
   "Metadata/Items/Gems/SkillGemContagion": {
     "drop_level": 5,
     "implicits": [],
@@ -20662,6 +21281,25 @@
       "id": "SkillGemHeavyStrike"
     }
   },
+  "Metadata/Items/Gems/SkillGemHeraldOfAgony": {
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Herald of Agony",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/HeraldOfAgonyGem.dds",
+      "id": "SkillGemHeraldOfAgony"
+    }
+  },
   "Metadata/Items/Gems/SkillGemHeraldOfAsh": {
     "drop_level": 16,
     "implicits": [],
@@ -20717,6 +21355,25 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/HeraldofIce.dds",
       "id": "SkillGemHeraldOfIce"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfPurity": {
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Herald of Purity",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/HeraldOfLight Gem.dds",
+      "id": "SkillGemHeraldOfLight"
     }
   },
   "Metadata/Items/Gems/SkillGemHeraldOfThunder": {
@@ -21880,6 +22537,25 @@
       "id": "SkillGemSpark"
     }
   },
+  "Metadata/Items/Gems/SkillGemScourgeArrow": {
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Scourge Arrow",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VirulentArrow.dds",
+      "id": "SkillGemVirulentArrow"
+    }
+  },
   "Metadata/Items/Gems/SkillGemSearingBond": {
     "drop_level": 12,
     "implicits": [],
@@ -22052,6 +22728,25 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/SlashTotemGem.dds",
       "id": "SkillGemAncestralSlasher"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemSmite": {
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Smite",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/SmiteGem.dds",
+      "id": "SkillGemSmite"
     }
   },
   "Metadata/Items/Gems/SkillGemSmokeMine": {
@@ -22344,6 +23039,25 @@
       "id": "SkillGemSummonElemental"
     }
   },
+  "Metadata/Items/Gems/SkillGemSummonRelic": {
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Summon Holy Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/HolyRelic.dds",
+      "id": "SkillGemSummonHolyRelic"
+    }
+  },
   "Metadata/Items/Gems/SkillGemSummonRockGolem": {
     "drop_level": 34,
     "implicits": [],
@@ -22574,6 +23288,25 @@
       "id": "SkillGemGroundSlam"
     }
   },
+  "Metadata/Items/Gems/SkillGemToxicRain": {
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Toxic Rain",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/RainofSporesGem.dds",
+      "id": "SkillGemToxicRain"
+    }
+  },
   "Metadata/Items/Gems/SkillGemVaalAncestralWarchief": {
     "drop_level": 28,
     "implicits": [],
@@ -22582,15 +23315,15 @@
     "item_class": "Active Skill Gem",
     "name": "Vaal Ancestral Warchief",
     "properties": {},
-    "release_state": "unreleased",
+    "release_state": "released",
     "requirements": null,
     "tags": [
       "gem",
       "default"
     ],
     "visual_identity": {
-      "dds_file": "Art/2DItems/Gems/SlamTotemGem.dds",
-      "id": "SkillGemAncestralWarlord"
+      "dds_file": "Art/2DItems/Gems/SlamTotemGemVaal.dds",
+      "id": "SkillGemVaalAncestralWarlord_"
     }
   },
   "Metadata/Items/Gems/SkillGemVaalArc": {
@@ -24128,6 +24861,26 @@
       "id": "SupportGemChanceToIgnite"
     }
   },
+  "Metadata/Items/Gems/SupportGemChaosAttacks": {
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Withering Touch Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/WitherGemSupport.dds",
+      "id": "SupportGemChaosAttacks"
+    }
+  },
   "Metadata/Items/Gems/SupportGemClusterTrap": {
     "drop_level": 38,
     "implicits": [],
@@ -25291,7 +26044,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "Physical Projectile Attack Damage Support",
+    "name": "Vicious Projectiles Support",
     "properties": {},
     "release_state": "released",
     "requirements": null,
