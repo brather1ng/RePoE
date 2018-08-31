@@ -15,7 +15,7 @@ class ActiveSkillType(IntEnum):
     buff = 5
     # Skill only uses main hand when dual wielding
     uses_main_hand_when_dual_wielding = 6
-    # Skill uses both hands at once when dual wielding (missing Riposte)
+    # Only set for Cleave. Probably replaced by the skill_double_hits_when_dual_wielding stat.
     uses_both_at_once_when_dual_wielding = 7
     # Gem tag equivalent
     minion = 8
