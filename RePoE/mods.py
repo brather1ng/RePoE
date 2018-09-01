@@ -1,3 +1,5 @@
+import itertools
+
 from PyPoE.poe.constants import MOD_DOMAIN
 from RePoE.util import write_json, call_with_default_args
 
@@ -95,7 +97,7 @@ def write_mods(data_path, relational_reader, **kwargs):
             'grants_buff': _convert_buff(mod['BuffDefinitionsKey'], mod['BuffValue']),
             'grants_effect': _convert_granted_effects(mod['GrantedEffectsPerLevelKey']),
             'is_essence_only': mod['IsEssenceOnlyModifier'] > 0,
-            'adds_tags': _convert_tags_keys(mod['TagsKeys'])
+            'adds_tags': _convert_tags_keys(itertools.chain(mod['TagsKeys'], mod['ModTypeKey']['TagsKeys']))
         }
         if mod['Id'] in root:
             print("Duplicate mod id:", mod['Id'])

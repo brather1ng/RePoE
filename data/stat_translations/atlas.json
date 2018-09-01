@@ -8231,7 +8231,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "30%_of_value"
+          ]
         ],
         "string": "{0}% Chance to Block Spell Damage"
       }
@@ -8250,7 +8252,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "30%_of_value"
+          ]
         ],
         "string": "{0}% Chance to Block Spell Damage while on Low Life"
       }
@@ -125614,7 +125618,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "per_minute_to_per_second_1dp"
+          ]
         ],
         "string": "If you've Hit an Enemy Recently, you and nearby Allies Regenerate {0}% of Life per second"
       }
