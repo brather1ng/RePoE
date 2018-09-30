@@ -26673,6 +26673,90 @@
       "id": "SupportGemWeaponElementalDamage"
     }
   },
+  "Metadata/Items/Jewels/JewelAbyssCaster": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "AbyssJewel",
+    "name": "Hypnotic Eye Jewel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "abyss_jewel_caster",
+      "abyss_jewel",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Jewels/RivetedEye.dds",
+      "id": "AbyssJewelCaster"
+    }
+  },
+  "Metadata/Items/Jewels/JewelAbyssMelee": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "AbyssJewel",
+    "name": "Murderous Eye Jewel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "abyss_jewel_melee",
+      "abyss_jewel",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Jewels/MurderousEye.dds",
+      "id": "AbyssJewelMelee"
+    }
+  },
+  "Metadata/Items/Jewels/JewelAbyssRanged": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "AbyssJewel",
+    "name": "Searching Eye Jewel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "abyss_jewel_ranged",
+      "abyss_jewel",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Jewels/SearchingEye.dds",
+      "id": "AbyssJewelRanged"
+    }
+  },
+  "Metadata/Items/Jewels/JewelAbyssSummoner": {
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "AbyssJewel",
+    "name": "Ghastly Eye Jewel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "abyss_jewel_summoner",
+      "abyss_jewel",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Jewels/GhastlyEye.dds",
+      "id": "AbyssJewelSummoner_"
+    }
+  },
   "Metadata/Items/Jewels/JewelDex": {
     "drop_level": 20,
     "implicits": [],
