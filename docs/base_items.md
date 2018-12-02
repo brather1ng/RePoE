@@ -44,9 +44,6 @@ the base item as a value. The description object has the following fields:
   * `life_per_use`, `mana_per_use`: The base amount of life/mana recovered by this flask.
   * `duration`, `charges_max`, `charges_per_use`: The base duration, base maximum amount of
     charges and base amount of charges used per use of this flask.
-  * `grants_buff`: An object describing the buff provided by this flask.
-    - `id`: The provided buff's id (resolved in `Buffs.dat`).
-    - `values`: The values of the stats provided by the buff.
   * `critical_strike_chance`: The base critical strike chance of this weapon.
     Divide this value by 100 to get the chance as percentage.
   * `attack_time`: The base attack time of this weapon in ms. Divide 1000 by this value to get
@@ -59,3 +56,7 @@ the base item as a value. The description object has the following fields:
   * `directions`, `description`: Usage directions and description of this currency.
   * `full_stack_turns_into`: The base item this currency turns into when its `stack_size` is
     reached.
+- `grants_buff`: An object describing the buff provided by this flask.
+  - `id`: The provided buff's id (resolved in `BuffDefinitions.dat`).
+  - `stats`: An object with the stats (their ids) provided by the buff as keys and the
+     stat values as values.

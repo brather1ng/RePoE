@@ -46,11 +46,18 @@ def _convert_flask_properties(flask_row, properties):
     _add_if_greater_zero(flask_row['LifePerUse'], 'life_per_use', properties)
     _add_if_greater_zero(flask_row['ManaPerUse'], 'mana_per_use', properties)
     _add_if_greater_zero(flask_row['RecoveryTime'], 'duration', properties)
-    if flask_row['BuffDefinitionsKey'] is not None:
-        properties['grants_buff'] = {
-            'id': flask_row['BuffDefinitionsKey']['Id'],
-            'values': flask_row['BuffStatValues']
-        }
+
+
+def _convert_flask_buff(flask_row, item_object):
+    if flask_row is None or flask_row['BuffDefinitionsKey'] is None:
+        return None
+    stats_values = zip(flask_row['BuffDefinitionsKey']['StatsKeys'], flask_row['BuffStatValues'])
+    item_object['grants_buff'] = {
+        'id': flask_row['BuffDefinitionsKey']['Id'],
+        'stats': {},
+    }
+    for (stat, value) in stats_values:
+        item_object['grants_buff']['stats'][stat['Id']] = value
 
 
 def _convert_flask_charge_properties(flask_row, properties):
@@ -143,6 +150,7 @@ def write_base_items(data_path, relational_reader, ot_file_cache, **kwargs):
             'properties': properties,
             'release_state': get_release_state(item_id).name,
         }
+        _convert_flask_buff(flask_types[item_id], root[item_id])
 
     write_json(root, data_path, 'base_items')
 

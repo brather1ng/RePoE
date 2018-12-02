@@ -18971,6 +18971,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility1": {
     "drop_level": 27,
+    "grants_buff": {
+      "id": "flask_utility_critical_strike_chance",
+      "stats": {
+        "extra_critical_rolls": 1
+      }
+    },
     "implicits": [
       "FlaskLevelRequirement27"
     ],
@@ -18981,13 +18987,7 @@
     "properties": {
       "charges_max": 40,
       "charges_per_use": 20,
-      "duration": 40,
-      "grants_buff": {
-        "id": "flask_utility_critical_strike_chance",
-        "values": [
-          1
-        ]
-      }
+      "duration": 40
     },
     "release_state": "released",
     "requirements": null,
@@ -19006,6 +19006,13 @@
   },
   "Metadata/Items/Flasks/FlaskUtility10": {
     "drop_level": 40,
+    "grants_buff": {
+      "id": "flask_utility_stone",
+      "stats": {
+        "base_additional_physical_damage_reduction_%": 15,
+        "melee_physical_damage_taken_%_to_deal_to_attacker": 20
+      }
+    },
     "implicits": [
       "FlaskLevelRequirement40"
     ],
@@ -19016,14 +19023,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 40,
-      "duration": 45,
-      "grants_buff": {
-        "id": "flask_utility_stone",
-        "values": [
-          15,
-          20
-        ]
-      }
+      "duration": 45
     },
     "release_state": "released",
     "requirements": null,
@@ -19040,6 +19040,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility11": {
     "drop_level": 27,
+    "grants_buff": {
+      "id": "flask_utility_aquamarine",
+      "stats": {
+        "avoid_cold_damage_%": 20
+      }
+    },
     "implicits": [
       "UtilityFlaskChilledGround",
       "FlaskLevelRequirement27"
@@ -19051,13 +19057,7 @@
     "properties": {
       "charges_max": 40,
       "charges_per_use": 15,
-      "duration": 50,
-      "grants_buff": {
-        "id": "flask_utility_aquamarine",
-        "values": [
-          20
-        ]
-      }
+      "duration": 50
     },
     "release_state": "released",
     "requirements": null,
@@ -19074,6 +19074,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility12": {
     "drop_level": 14,
+    "grants_buff": {
+      "id": "flask_utility_smoke",
+      "stats": {
+        "evasion_rating_+%": 100
+      }
+    },
     "implicits": [
       "UtilityFlaskSmokeCloud",
       "FlaskLevelRequirement14Real_"
@@ -19085,13 +19091,7 @@
     "properties": {
       "charges_max": 30,
       "charges_per_use": 10,
-      "duration": 50,
-      "grants_buff": {
-        "id": "flask_utility_smoke",
-        "values": [
-          100
-        ]
-      }
+      "duration": 50
     },
     "release_state": "released",
     "requirements": null,
@@ -19108,6 +19108,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility13": {
     "drop_level": 35,
+    "grants_buff": {
+      "id": "flask_utility_consecrate",
+      "stats": {
+        "damage_+%": 40
+      }
+    },
     "implicits": [
       "UtilityFlaskConsecrate",
       "FlaskLevelRequirement35_"
@@ -19119,13 +19125,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 20,
-      "duration": 40,
-      "grants_buff": {
-        "id": "flask_utility_consecrate",
-        "values": [
-          40
-        ]
-      }
+      "duration": 40
     },
     "release_state": "released",
     "requirements": null,
@@ -19142,6 +19142,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility14": {
     "drop_level": 22,
+    "grants_buff": {
+      "id": "flask_utility_haste",
+      "stats": {
+        "has_onslaught": 1
+      }
+    },
     "implicits": [
       "FlaskLevelRequirement22"
     ],
@@ -19152,13 +19158,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 40,
-      "duration": 50,
-      "grants_buff": {
-        "id": "flask_utility_haste",
-        "values": [
-          1
-        ]
-      }
+      "duration": 50
     },
     "release_state": "released",
     "requirements": null,
@@ -19176,6 +19176,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility15": {
     "drop_level": 8,
+    "grants_buff": {
+      "id": "flask_utility_prismatic",
+      "stats": {
+        "base_resist_all_elements_%": 35
+      }
+    },
     "implicits": [
       "FlaskLevelRequirement8"
     ],
@@ -19186,13 +19192,7 @@
     "properties": {
       "charges_max": 50,
       "charges_per_use": 20,
-      "duration": 50,
-      "grants_buff": {
-        "id": "flask_utility_prismatic",
-        "values": [
-          35
-        ]
-      }
+      "duration": 50
     },
     "release_state": "released",
     "requirements": null,
@@ -19209,6 +19209,13 @@
   },
   "Metadata/Items/Flasks/FlaskUtility2": {
     "drop_level": 18,
+    "grants_buff": {
+      "id": "flask_utility_resist_fire",
+      "stats": {
+        "base_fire_damage_resistance_%": 50,
+        "base_maximum_fire_damage_resistance_%": 6
+      }
+    },
     "implicits": [
       "FlaskLevelRequirementUtilityResists"
     ],
@@ -19219,14 +19226,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 30,
-      "duration": 40,
-      "grants_buff": {
-        "id": "flask_utility_resist_fire",
-        "values": [
-          50,
-          6
-        ]
-      }
+      "duration": 40
     },
     "release_state": "released",
     "requirements": null,
@@ -19243,6 +19243,13 @@
   },
   "Metadata/Items/Flasks/FlaskUtility3": {
     "drop_level": 18,
+    "grants_buff": {
+      "id": "flask_utility_resist_cold",
+      "stats": {
+        "base_cold_damage_resistance_%": 50,
+        "base_maximum_cold_damage_resistance_%": 6
+      }
+    },
     "implicits": [
       "FlaskLevelRequirementUtilityResists"
     ],
@@ -19253,14 +19260,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 30,
-      "duration": 40,
-      "grants_buff": {
-        "id": "flask_utility_resist_cold",
-        "values": [
-          50,
-          6
-        ]
-      }
+      "duration": 40
     },
     "release_state": "released",
     "requirements": null,
@@ -19277,6 +19277,13 @@
   },
   "Metadata/Items/Flasks/FlaskUtility4": {
     "drop_level": 18,
+    "grants_buff": {
+      "id": "flask_utility_resist_lightning",
+      "stats": {
+        "base_lightning_damage_resistance_%": 50,
+        "base_maximum_lightning_damage_resistance_%": 6
+      }
+    },
     "implicits": [
       "FlaskLevelRequirementUtilityResists"
     ],
@@ -19287,14 +19294,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 30,
-      "duration": 40,
-      "grants_buff": {
-        "id": "flask_utility_resist_lightning",
-        "values": [
-          50,
-          6
-        ]
-      }
+      "duration": 40
     },
     "release_state": "released",
     "requirements": null,
@@ -19311,6 +19311,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility5": {
     "drop_level": 27,
+    "grants_buff": {
+      "id": "flask_utility_ironskin",
+      "stats": {
+        "base_physical_damage_reduction_rating": 3000
+      }
+    },
     "implicits": [
       "FlaskLevelRequirement27"
     ],
@@ -19321,13 +19327,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 30,
-      "duration": 40,
-      "grants_buff": {
-        "id": "flask_utility_ironskin",
-        "values": [
-          3000
-        ]
-      }
+      "duration": 40
     },
     "release_state": "released",
     "requirements": null,
@@ -19344,6 +19344,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility6": {
     "drop_level": 4,
+    "grants_buff": {
+      "id": "flask_utility_sprint",
+      "stats": {
+        "base_movement_velocity_+%": 40
+      }
+    },
     "implicits": [],
     "inventory_height": 2,
     "inventory_width": 1,
@@ -19352,13 +19358,7 @@
     "properties": {
       "charges_max": 50,
       "charges_per_use": 20,
-      "duration": 40,
-      "grants_buff": {
-        "id": "flask_utility_sprint",
-        "values": [
-          40
-        ]
-      }
+      "duration": 40
     },
     "release_state": "released",
     "requirements": null,
@@ -19375,6 +19375,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility7": {
     "drop_level": 18,
+    "grants_buff": {
+      "id": "flask_utility_resist_chaos",
+      "stats": {
+        "base_chaos_damage_resistance_%": 35
+      }
+    },
     "implicits": [
       "FlaskLevelRequirementUtilityResists"
     ],
@@ -19385,13 +19391,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 30,
-      "duration": 35,
-      "grants_buff": {
-        "id": "flask_utility_resist_chaos",
-        "values": [
-          35
-        ]
-      }
+      "duration": 35
     },
     "release_state": "released",
     "requirements": null,
@@ -19408,6 +19408,14 @@
   },
   "Metadata/Items/Flasks/FlaskUtility8": {
     "drop_level": 27,
+    "grants_buff": {
+      "id": "flask_utility_phase",
+      "stats": {
+        "base_chance_to_dodge_%": 10,
+        "base_chance_to_dodge_spells_%": 10,
+        "phase_through_objects": 1
+      }
+    },
     "implicits": [
       "FlaskLevelRequirement27"
     ],
@@ -19418,15 +19426,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 30,
-      "duration": 40,
-      "grants_buff": {
-        "id": "flask_utility_phase",
-        "values": [
-          1,
-          10,
-          10
-        ]
-      }
+      "duration": 40
     },
     "release_state": "released",
     "requirements": null,
@@ -19443,6 +19443,12 @@
   },
   "Metadata/Items/Flasks/FlaskUtility9": {
     "drop_level": 27,
+    "grants_buff": {
+      "id": "flask_utility_evasion",
+      "stats": {
+        "base_evasion_rating": 3000
+      }
+    },
     "implicits": [
       "FlaskLevelRequirement27"
     ],
@@ -19453,13 +19459,7 @@
     "properties": {
       "charges_max": 60,
       "charges_per_use": 30,
-      "duration": 40,
-      "grants_buff": {
-        "id": "flask_utility_evasion",
-        "values": [
-          3000
-        ]
-      }
+      "duration": 40
     },
     "release_state": "released",
     "requirements": null,
