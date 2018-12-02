@@ -11,8 +11,12 @@
           "#"
         ],
         "index_handlers": [
-          [],
-          []
+          [
+            "tempest_mod_text"
+          ],
+          [
+            "tempest_mod_text"
+          ]
         ],
         "string": "{0} {1}"
       }
@@ -72,7 +76,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Cannot roll Caster Mods"
+        "string": "Cannot roll Caster Modifiers"
       }
     ],
     "ids": [
@@ -91,7 +95,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Cannot roll Attack Mods"
+        "string": "Cannot roll Attack Modifiers"
       }
     ],
     "ids": [
@@ -110,7 +114,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Can have multiple Crafted Mods"
+        "string": "Can have multiple Crafted Modifiers"
       }
     ],
     "ids": [
@@ -129,7 +133,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Cannot roll Mods with Required Level above {0}"
+        "string": "Cannot roll Modifiers with Required Level above {0}"
       }
     ],
     "ids": [
@@ -2016,7 +2020,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Gems are Supported by Level {0} Physical Projectile Attack Damage"
+        "string": "Socketed Gems are Supported by Level {0} Vicious Projectiles"
       }
     ],
     "ids": [
@@ -2363,6 +2367,25 @@
     ],
     "ids": [
       "local_display_socketed_gems_supported_by_level_x_void_manipulation"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Gems are Supported by Level {0} Withering Touch"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_gems_supported_by_level_x_chaos_attacks"
     ]
   },
   {
@@ -3938,7 +3961,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Attacks deal {0}% more Damage"
+        "string": "Socketed Skills deal {0}% more Attack Damage"
       },
       {
         "condition": [
@@ -3952,7 +3975,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Attacks deal {0}% less Damage"
+        "string": "Socketed Skills deal {0}% less Attack Damage"
       }
     ],
     "ids": [
@@ -4238,7 +4261,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Spells deal {0}% more Damage"
+        "string": "Socketed Skills deal {0}% more Spell Damage"
       },
       {
         "condition": [
@@ -4252,7 +4275,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Spells deal {0}% less Damage"
+        "string": "Socketed Skills deal {0}% less Spell Damage"
       }
     ],
     "ids": [
@@ -4325,7 +4348,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Socketed Spells have {0}% reduced Mana Cost"
       }
@@ -8141,6 +8166,25 @@
     ],
     "ids": [
       "spell_block_%_while_on_low_life"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#%"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0} Chance to Block Spell Damage while wielding a Bow"
+      }
+    ],
+    "ids": [
+      "spell_block_with_bow_%"
     ]
   },
   {
@@ -27792,7 +27836,9 @@
           "ignore"
         ],
         "index_handlers": [
-          [],
+          [
+            "canonical_stat"
+          ],
           []
         ],
         "string": "{0}% chance to Freeze"
@@ -31273,17 +31319,17 @@
           }
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Enemies can have {0} additional Curse"
+        "string": "You can apply an additional Curse"
       },
       {
         "condition": [
           {
-            "min": 1
+            "min": 2
           }
         ],
         "format": [
@@ -31292,7 +31338,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Enemies can have {0} additional Curses"
+        "string": "You can apply {0} additional Curses"
       }
     ],
     "ids": [
@@ -31314,19 +31360,21 @@
         "index_handlers": [
           []
         ],
-        "string": "You can have one additional Curse"
+        "string": "An additional Curse can be applied to you"
       },
       {
         "condition": [
-          {}
+          {
+            "min": 2
+          }
         ],
         "format": [
-          "+#"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "You can have {0} additional Curses"
+        "string": "{0} additional Curses can be applied to you"
       }
     ],
     "ids": [
@@ -42415,7 +42463,9 @@
         ],
         "index_handlers": [
           [],
-          []
+          [
+            "mod_value_to_item_class"
+          ]
         ],
         "string": "Unique Boss drops {0} additional Rare {1}"
       }
@@ -44945,7 +44995,7 @@
             "milliseconds_to_seconds"
           ]
         ],
-        "string": "When you Kill a Rare monster, you gain its mods for {0} seconds"
+        "string": "When you Kill a Rare monster, you gain its Modifiers for {0} seconds"
       }
     ],
     "ids": [
@@ -51231,7 +51281,7 @@
         "index_handlers": [
           []
         ],
-        "string": "If 4 Notables are Allocated in Radius, When you Kill a Rare monster, you gain {0} of its mods for 20 seconds"
+        "string": "With 4 Notables Allocated in Radius, When you Kill a Rare monster, you gain {0} of its Modifiers for 20 seconds"
       }
     ],
     "ids": [
@@ -51250,7 +51300,7 @@
         "index_handlers": [
           []
         ],
-        "string": "When you Kill a Rare monster, you gain {0} of its mods for 20 seconds"
+        "string": "When you Kill a Rare monster, you gain {0} of its Modifiers for 20 seconds"
       }
     ],
     "ids": [
@@ -51608,7 +51658,7 @@
         "index_handlers": [
           []
         ],
-        "string": "If at least {0} Intelligence is Allocated in Radius, Enemies can have an additional Curse"
+        "string": "With at least {0} Intelligence Allocated in Radius, You can apply an additional Curse"
       }
     ],
     "ids": [
@@ -61088,7 +61138,7 @@
             "milliseconds_to_seconds"
           ]
         ],
-        "string": "Players gain Mods from Slain Rare Monsters for {0} seconds"
+        "string": "Players gain Modifiers from Slain Rare Monsters for {0} seconds"
       }
     ],
     "ids": [
@@ -101740,7 +101790,7 @@
         "index_handlers": [
           []
         ],
-        "string": "When you Kill a Rare Monster, {0}% chance to gain one of its mods for 10 seconds"
+        "string": "When you Kill a Rare Monster, {0}% chance to gain one of its Modifiers for 10 seconds"
       }
     ],
     "ids": [
@@ -104090,6 +104140,43 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Summoned Holy Relics have {0}% increased Area of Effect"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Summoned Holy Relics have {0}% reduced Area of Effect"
+      }
+    ],
+    "ids": [
+      "holy_relic_area_of_effect_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -104098,11 +104185,11 @@
         "index_handlers": [
           []
         ],
-        "string": "Summoned Holy Relic has {0}% increased Buff Effect"
+        "string": "Summoned Holy Relics have {0}% increased Buff Effect"
       }
     ],
     "ids": [
-      "holy_relic_area_of_effect_+%"
+      "holy_relic_buff_effect_+%"
     ]
   },
   {
@@ -104140,6 +104227,43 @@
     ],
     "ids": [
       "holy_relic_cooldown_recovery_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Summoned Holy Relics deal {0}% increased Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Summoned Holy Relics deal {0}% reduced Damage"
+      }
+    ],
+    "ids": [
+      "holy_relic_damage_+%"
     ]
   },
   {
@@ -115050,11 +115174,106 @@
         "index_handlers": [
           []
         ],
+        "string": "Dropped Items cannot be Magic"
+      }
+    ],
+    "ids": [
+      "map_no_magic_items_drop"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Dropped Items cannot be Rare"
+      }
+    ],
+    "ids": [
+      "map_no_rare_items_drop"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Stashes cannot be used"
+      }
+    ],
+    "ids": [
+      "map_no_stashes"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Randomly dropped Items cannot be Unique"
       }
     ],
     "ids": [
       "map_no_uniques_drop_randomly"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Items cannot be sold to or purchased from NPCs"
+      }
+    ],
+    "ids": [
+      "map_no_vendors"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Items cannot drop as Magic or Rare"
+      }
+    ],
+    "ids": [
+      "map_non_unique_items_drop_normal"
     ]
   },
   {
@@ -115184,7 +115403,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Map has {0} additional random Property"
+        "string": "Map has {0} additional random Modifier"
       },
       {
         "condition": [
@@ -115198,7 +115417,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Map has {0} additional random Properties"
+        "string": "Map has {0} additional random Modifiers"
       }
     ],
     "ids": [
@@ -116529,7 +116748,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Players have a {0}% chance when they Kill a Rare Monster to gain 1 of its mods for 20 seconds"
+        "string": "Players have a {0}% chance when they Kill a Rare Monster to gain 1 of its Modifiers for 20 seconds"
       },
       {
         "condition": [
@@ -116544,7 +116763,7 @@
         "index_handlers": [
           []
         ],
-        "string": "When Players Kill a Rare Monster they will gain 1 of its mods for 20 seconds"
+        "string": "When Players Kill a Rare Monster they will gain 1 of its Modifiers for 20 seconds"
       }
     ],
     "ids": [
@@ -116603,7 +116822,7 @@
         "index_handlers": [
           []
         ],
-        "string": "When a Player Kills a Rare Monster, they have {0}% chance to gain its mods for 20 seconds"
+        "string": "When a Player Kills a Rare Monster, they have {0}% chance to gain its Modifiers for 20 seconds"
       }
     ],
     "ids": [
@@ -116702,6 +116921,25 @@
     ],
     "ids": [
       "map_players_no_regeneration_including_es"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#%"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Players have {0} to All Resistances"
+      }
+    ],
+    "ids": [
+      "map_players_resist_all_%"
     ]
   },
   {
@@ -116990,7 +117228,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Rare Monsters have Inner Treasure in addition to their other Mods"
+        "string": "Rare Monsters have Inner Treasure in addition to their other Modifiers"
       }
     ],
     "ids": [
@@ -120530,19 +120768,21 @@
         "index_handlers": [
           []
         ],
-        "string": "You can apply an additional Curse to Enemies while at maximum Power Charges"
+        "string": "You can apply an additional Curse while at maximum Power Charges"
       },
       {
         "condition": [
-          {}
+          {
+            "min": 1
+          }
         ],
         "format": [
-          "+#"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "You can apply {0} additional Curses to Enemies while at maximum Power Charges"
+        "string": "You can apply {0} additional Curses while at maximum Power Charges"
       }
     ],
     "ids": [
@@ -126366,7 +126606,9 @@
         ],
         "index_handlers": [
           [],
-          [],
+          [
+            "divide_by_one_hundred"
+          ],
           [],
           [],
           [],
@@ -126848,6 +127090,25 @@
     ],
     "ids": [
       "virulent_arrow_chance_to_poison_%_per_stage"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Pods fire {0} additional Arrows"
+      }
+    ],
+    "ids": [
+      "virulent_arrow_number_of_additional_pod_projectiles"
     ]
   },
   {
@@ -134323,7 +134584,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Movement Speed per 10 Rampage Stacks"
+        "string": "{0}% increased Movement Speed per 20 Rampage Stacks"
       }
     ],
     "hidden": true,

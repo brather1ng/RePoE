@@ -981,12 +981,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "affected_by_herald_of_agony": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "affected_by_herald_of_ash": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "affected_by_herald_of_ice": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "affected_by_herald_of_purity": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -2534,6 +2544,11 @@
     "is_local": false
   },
   "attack_speed_+%_from_rage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "attack_speed_+%_granted_from_skill": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -10852,6 +10867,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "delve_monster_curse_effect_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "delve_monster_damage_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -14362,6 +14382,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "from_self_maximum_added_chaos_damage_taken": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "from_self_minimum_added_chaos_damage_taken": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "from_totem_aura_damage_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -14518,6 +14548,11 @@
     "is_local": false
   },
   "gain_%_total_phys_damage_prevented_in_the_past_10_sec_as_life_regen_per_sec": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "gain_1_random_rare_monster_mod_on_kill_ms": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -16462,7 +16497,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "herald_of_light_summon_champion_on_unique_enemy_hit_%": {
+  "herald_of_light_summon_champion_on_unique_or_rare_enemy_hit_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -26376,7 +26411,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_no_magic_items_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_no_rare_items_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_no_refills_in_town": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_no_stashes": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -26391,7 +26441,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_no_vendors": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_non_unique_equipment_drops_as_sell_price": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_non_unique_items_drop_normal": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -26956,6 +27016,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_players_gain_1_random_rare_monster_mod_on_kill_ms": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_players_gain_1_rare_monster_mods_on_kill_for_20_seconds_%": {
     "alias": {},
     "is_aliased": false,
@@ -27007,6 +27072,11 @@
     "is_local": false
   },
   "map_players_no_regeneration_including_es": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_players_resist_all_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -37205,6 +37275,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "spell_block_with_bow_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "spell_block_with_staff_%": {
     "alias": {},
     "is_aliased": false,
@@ -40428,6 +40503,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "unaffected_by_life_modifiers": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "unaffected_by_shock": {
     "alias": {},
     "is_aliased": false,
@@ -42060,6 +42140,11 @@
     "is_local": false
   },
   "virulent_arrow_maximum_number_of_stacks": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virulent_arrow_number_of_additional_pod_projectiles": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
