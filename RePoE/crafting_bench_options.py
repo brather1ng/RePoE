@@ -8,8 +8,6 @@ def write_crafting_bench_options(data_path, relational_reader, **kwargs):
             continue
         root.append({
             'mod_id': row['ModsKey']['Id'],
-            'master_id': row['NPCMasterKey']['Id'],
-            'master_level': row['MasterLevel'],
             'item_classes': [item_class['Id'] for item_class in row['ItemClassesKeys']]
         })
     write_json(root, data_path, 'crafting_bench_options')

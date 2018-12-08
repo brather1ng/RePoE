@@ -9,7 +9,6 @@ from RePoE.gem_tags import write_gem_tags
 from RePoE.gems import write_gems
 from RePoE.item_classes import write_item_classes
 from RePoE.mods import write_mods
-from RePoE.npc_master import write_npc_master
 from RePoE.stat_translations import write_stat_translations
 from RePoE.stats import write_stats
 from RePoE.tags import write_tags
@@ -26,7 +25,6 @@ def main(data_path='../data/'):
         'gems': write_gems,  # gems.json and gem_tooltips.json
         'gem_tags': write_gem_tags,
         'crafting_bench_options': write_crafting_bench_options,
-        'npc_master': write_npc_master,
         'base_items': write_base_items,
         'tags': write_tags,
         'item_classes': write_item_classes,

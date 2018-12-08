@@ -13,157 +13,162 @@ class ActiveSkillType(IntEnum):
     dual_wield_only = 4
     # Skill gives a buff (Molten Shell and golems do not have this type)
     buff = 5
-    # Skill only uses main hand when dual wielding
-    uses_main_hand_when_dual_wielding = 6
-    # Only set for Cleave. Probably replaced by the skill_double_hits_when_dual_wielding stat.
-    uses_both_at_once_when_dual_wielding = 7
     # Gem tag equivalent
-    minion = 8
+    minion = 6
     # Set for skills that hit and are not attacks
-    hits = 9
+    hits = 7
     # Gem tag equivalent
-    aoe = 10
+    aoe = 8
     # Gem tag equivalent
-    duration = 11
+    duration = 9
     # Skill can only be used when a shield is equipped
-    shield_only = 12
+    shield_only = 10
     # Set for bow skills without projectile tag (implicit in projectile);
     # allows Faster/Slower Projectiles Support
-    explicit_deals_projectile_damage = 13
+    explicit_deals_projectile_damage = 11
     # The skill's mana cost is reserved on casting
     # Can also be interpreted as "skill is toggle".
     # Ignore this for totems, Rejuvenation Totem has this type but is no reservation/toggle skill.
-    mana_cost_is_reservation = 14
+    mana_cost_is_reservation = 12
     # Skill costs percentage mana
-    mana_cost_is_percentage = 15
+    mana_cost_is_percentage = 13
     # Skill can be turned into a trap with Trap Support
-    trap_supportable = 16
+    trap_supportable = 14
     # Skill can be turned into a totem with Spell Totem Support
-    spell_totem_supportable = 17
+    spell_totem_supportable = 15
     # Skill can be turned into a mine with Remote Mine Support
-    remote_mine_supportable = 18
+    remote_mine_supportable = 16
     # Set for Herald of Ash, which cannot hit but causes elemental status effects (implicit in hit);
     # allows Elemental Proliferation Support
-    explicit_causes_elemental_status = 19
+    explicit_causes_elemental_status = 17
     # Skill summons mobs
-    summons_mobs = 20
+    summons_mobs = 18
     # Skill can be turned into a totem with Ranged Attack Totem Support
-    ranged_attack_totem_supportable = 21
+    ranged_attack_totem_supportable = 19
     # Gem tag equivalent
-    chaining = 22
+    chaining = 20
     # Gem tag equivalent
-    melee = 23
+    melee = 21
     # Skill is melee and the initial (or only) hit is single target; allows Melee Splash Support
-    melee_single_target_initial_hit = 24
+    melee_single_target_initial_hit = 22
     # Skill can be repeated with Spell Echo Support
-    spell_echo_supportable = 25
+    spell_echo_supportable = 23
     # Set for all skills with mana_cost_is_reservation, plus vaal auras and a few more;
     # unknown purpose
-    unknown_26 = 26
+    unknown_24 = 24
     # Skill can be repeated with Multistrike Support
-    multistrike_supportable = 27
+    multistrike_supportable = 25
     # Skill directly applies burning (fire damage over time)
-    applies_burning = 28
+    applies_burning = 26
     # Gem tag equivalent
-    totem = 29
+    totem = 27
     # Set for Molten Shell, Vaal Molten Shell and Of Thunder glove enchant; added by Blasphemy Support; unknown purpose
-    unknown_30 = 30
+    unknown_28 = 28
     # Gem tag equivalent
-    curse = 31
+    curse = 29
     # Gem tag equivalent
-    fire = 32
+    fire = 30
     # Gem tag equivalent
-    cold = 33
+    cold = 31
     # Gem tag equivalent
-    lightning = 34
+    lightning = 32
     # Skill can be triggered by trigger gems
-    triggerable = 35
+    triggerable = 33
     # Gem tag equivalent
-    trap = 36
+    trap = 34
     # Gem tag equivalent
-    movement = 37
+    movement = 35
     # Skill directly deals damage over time
-    deals_damage_over_time = 38
+    deals_damage_over_time = 36
     # Gem tag equivalent
-    mine = 39
+    mine = 37
     # Gem has Trigger tag and is a spell
     # (missing EnchantmentOfFlamesOnHit and EnchantmentOfTempestOnHit)
-    trigger_spell = 40
+    trigger_spell = 38
     # Gem tag equivalent
-    vaal = 41
+    vaal = 39
     # Gem tag equivalent
-    aura = 42
+    aura = 40
     # Skill can be cast by Mjölner's trigger when socketed in it
-    castable_by_mjolner = 43
+    castable_by_mjolner = 41
     # Unused for skill gems
-    unknown_46 = 44
+    unknown_42 = 42
     # Gem has Trigger tag and is an attack
-    trigger_attack = 45
+    trigger_attack = 43
     # Skill is a projectile attack;
     # allows Iron Grip, Physical Projectile Attack Damage and Point Blank Support
-    projectile_attack = 46
+    projectile_attack = 44
     # Skill can be cast by Null's Inclination's trigger when socketed in it
-    castable_by_nulls_inclination = 47
+    castable_by_nulls_inclination = 45
     # Gem tag equivalent
-    chaos = 48
+    chaos = 46
     # Unused for processed active skills; excluded by Faster and Slower Projectiles Support
-    unknown_49 = 49
+    unknown_47 = 47
     # Allows Iron Will Support for skills that don't have hits but should be supportable, e.g. Blight
-    iron_will_supportable_not_hit = 50
+    iron_will_supportable_not_hit = 48
     # Set for Burning Arrow, Cleave, Dual Strike, Glacial Hammer, Vigilant Strike;
     # these have threshold jewels that add AoE components;
     # allows Increased AoE and Concentrated Effect Support
-    can_have_aoe = 51
+    can_have_aoe = 49
     # Set in minion_types for skills that summon minions that might use projectile skills, e.g. Animate Weapon.
     # Allows the same support gems as the projectile tag.
-    minion_maybe_projectile = 52
+    minion_maybe_projectile = 50
     # Set for Burning Arrow, Vaal Burning Arrow;
     # these have threshold jewels that add duration components;
     # allows Increased/Less Duration and Rapid Decay Support
-    can_have_duration = 53
+    can_have_duration = 51
     # Set for Animate Weapon and related item skills (the triggered version, Animate Guardian's Weapon).
     # Allows some projectile and attack related supports.
-    animate_weapon = 54
+    animate_weapon = 52
     # Same as trigger_attack plus Blast Rain; unknown purpose
-    unknown_55 = 55
+    unknown_53 = 53
     # Gem tag equivalent
-    channelling = 56
+    channelling = 54
     # Allows Controlled Destruction Support for skills that don't have attack or hits but should be supportable, e.g.
     # Blight. Also allows Iron Will Support. Only Siphoning Trap has this tag and not iron_will_supportable_not_hit.
-    controlled_destruction_supportable_not_hit = 57
+    controlled_destruction_supportable_not_hit = 55
     # Skill can be cast by Cospri's Malice's trigger when socketed in it
-    castable_by_cospris_malice = 58
+    castable_by_cospris_malice = 56
     # Set for automatically triggered spells granted by item;
     # prevents Cast on/when/while x, Spell Totem, Remote Mine and Trap Support
-    trigger_item_granted = 59
+    trigger_item_granted = 57
     # Gem tag equivalent
-    golem = 60
+    golem = 58
     # Gem tag equivalent
-    herald = 61
+    herald = 59
     # Used for Death's Oath's aura and added by Blasphemy
-    aura_debuff = 62
+    aura_debuff = 60
     # Skill can not be supported by Ruthless Support. Only used for Cyclone and Vaal Cyclone.
-    not_ruthless_supportable = 63
+    not_ruthless_supportable = 61
     # Set for the minions of Summon Skeleton and Vaal Summon Skeletons; required by Iron Will Support
-    iron_will_supportable_minion = 64
+    iron_will_supportable_minion = 62
     # Skill can be supported by Spell Cascade Support. Seems to be only set for very few spells?
-    spell_cascade_supportable = 65
+    spell_cascade_supportable = 63
     # Skill can be supported by Volley Support
-    volley_supportable = 66
+    volley_supportable = 64
     # Skill can be supported by Mirage Archer Support
-    mirage_archer_supportable = 67
+    mirage_archer_supportable = 65
     # Set for Vaal Fireball and Vaal Spark, disallows Volley Support
-    volley_exclude_68 = 68
+    volley_exclude_66 = 66
     # Set for Spectral Shield Throw, disallows Volley Support
-    volley_exclude_69 = 69
+    volley_exclude_67 = 67
     # Set for Manifest Dancing Dervish, disallows Summon Phantasm on Kill Support
-    phantasm_on_kill_exclude = 70
+    phantasm_on_kill_exclude = 68
     # Set for Rain of Arrows and Vaal Rain of Arrows, allows Lesser and Greater Multiple Projectiles
-    rain_of_arrows = 71
+    rain_of_arrows = 69
     # Gem tag equivalent
-    warcry = 72
+    warcry = 70
     # Skill cast is instant
-    instant = 73
+    instant = 71
+    # Set for the brand skills, not Brand Recall
+    brand = 72
+    # Set for Detonated Dead, unknown purpose
+    unknown_73 = 73
+    # Set for Arctic Armour, Siphoning Trap and Summon Harbinger of Storms' minion. Allows Bonechill Support.
+    bonechill_supportable_chill = 74
+    # One of Bonechill Support's allowed types, but all active skills that have this also have another type that allows
+    # Bonechill. Therefore, unknown purpose.
+    unknown_75 = 75
 
 
 @unique
@@ -192,7 +197,7 @@ class ReleaseState(Enum):
     unique_only = 3
 
 
-# Base items with with ReleaseState.unreleased
+# Base items with ReleaseState.unreleased
 UNRELEASED_ITEMS = {
     "Metadata/Items/Rings/RingVictor1",  # Jet Ring
     "Metadata/Items/Classic/MysteryLeaguestone",
@@ -219,6 +224,7 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemNewBladeVortex",
     "Metadata/Items/Gems/SkillGemNewPunishment",
     "Metadata/Items/Gems/SkillGemNewShockNova",
+    "Metadata/Items/Gems/SkillGemRendingSteel",
     "Metadata/Items/Gems/SkillGemRighteousLightning",
     "Metadata/Items/Gems/SkillGemRiptide",
     "Metadata/Items/Gems/SkillGemShadowBlades",
@@ -244,7 +250,7 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Currency/CurrencyIncursionCorruptGem",
 }
 
-# Base items with with ReleaseState.legacy
+# Base items with ReleaseState.legacy
 LEGACY_ITEMS = {
     "Metadata/Items/Currency/CurrencyImprintOrb",  # Eternal Orb
     "Metadata/Items/Currency/CurrencyImprint",  # Eternal Orb imprint
@@ -258,7 +264,7 @@ LEGACY_ITEMS = {
     "Metadata/Items/Quivers/Quiver5",
 }
 
-# Base items with with ReleaseState.unique_only
+# Base items with ReleaseState.unique_only
 UNIQUE_ONLY_ITEMS = {
     "Metadata/Items/Amulet/AmuletVictor1",  # Jet Amulet, base for Amulet of the Victor (PvP reward)
     "Metadata/Items/Amulets/Amulet11",  # Ruby Amulet

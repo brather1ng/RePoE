@@ -13059,6 +13059,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "quality_currency",
       "currency",
       "default"
     ],
@@ -16655,6 +16656,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "quality_currency",
       "currency",
       "default"
     ],
@@ -16679,6 +16681,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "quality_currency",
       "currency",
       "default"
     ],
@@ -17185,6 +17188,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "quality_currency",
       "currency",
       "default"
     ],
@@ -18120,6 +18124,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "quality_currency",
       "currency",
       "default"
     ],
@@ -19213,7 +19218,7 @@
       "id": "flask_utility_resist_fire",
       "stats": {
         "base_fire_damage_resistance_%": 50,
-        "base_maximum_fire_damage_resistance_%": 6
+        "utility_flask_fire_damage_taken_+%_final": 4294967276
       }
     },
     "implicits": [
@@ -19247,7 +19252,7 @@
       "id": "flask_utility_resist_cold",
       "stats": {
         "base_cold_damage_resistance_%": 50,
-        "base_maximum_cold_damage_resistance_%": 6
+        "utility_flask_cold_damage_taken_+%_final": 4294967276
       }
     },
     "implicits": [
@@ -19281,7 +19286,7 @@
       "id": "flask_utility_resist_lightning",
       "stats": {
         "base_lightning_damage_resistance_%": 50,
-        "base_maximum_lightning_damage_resistance_%": 6
+        "utility_flask_lightning_damage_taken_+%_final": 4294967276
       }
     },
     "implicits": [
@@ -19609,7 +19614,7 @@
     }
   },
   "Metadata/Items/Gems/SkillGemArcticBreath": {
-    "drop_level": 28,
+    "drop_level": 12,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -19625,6 +19630,25 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/ArcticBreath.dds",
       "id": "SkillGemArcticBreath"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemArmageddonBrand": {
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Armageddon Brand",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ArmageddonBrand.dds",
+      "id": "SkillGemArmageddonBrand_"
     }
   },
   "Metadata/Items/Gems/SkillGemBackstab": {
@@ -20477,6 +20501,25 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/DoubleStrike.dds",
       "id": "SkillGemDoubleStrike"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemDreadBanner": {
+    "drop_level": 24,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Dread Banner",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/DreadBanner.dds",
+      "id": "SkillGemDreadBanner"
     }
   },
   "Metadata/Items/Gems/SkillGemDualStrike": {
@@ -21684,6 +21727,25 @@
       "id": "SkillGemFury"
     }
   },
+  "Metadata/Items/Gems/SkillGemLancingSteel": {
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Lancing Steel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/LancingSteel.dds",
+      "id": "SkillGemLancingSteel_"
+    }
+  },
   "Metadata/Items/Gems/SkillGemLeapSlam": {
     "drop_level": 10,
     "implicits": [],
@@ -22420,6 +22482,25 @@
       "id": "SkillGemReave"
     }
   },
+  "Metadata/Items/Gems/SkillGemRecallBrands": {
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Brand Recall",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/RecallSigil.dds",
+      "id": "SkillGemBrandRecall"
+    }
+  },
   "Metadata/Items/Gems/SkillGemReckoning": {
     "drop_level": 5,
     "implicits": [],
@@ -22458,6 +22539,25 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/RejuvinationTotem.dds",
       "id": "SkillGemRejuvenationTotem"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemRendingSteel": {
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Rending Steel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/LancingSteel.dds",
+      "id": "SkillGemLancingSteel_"
     }
   },
   "Metadata/Items/Gems/SkillGemRighteousFire": {
@@ -22592,6 +22692,25 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/EtherealKnives.dds",
       "id": "SkillGemEtherealKnives"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemShatteringSteel": {
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Shattering Steel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ShatteringSteel.dds",
+      "id": "SkillGemShatteringSteel"
     }
   },
   "Metadata/Items/Gems/SkillGemShieldCharge": {
@@ -22903,6 +23022,25 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/LighteningTouch.dds",
       "id": "SkillGemLightningTendrils"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemStormBrand": {
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Storm Brand",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ConduitSigil.dds",
+      "id": "SkillGemStormBrand"
     }
   },
   "Metadata/Items/Gems/SkillGemStormBurst": {
@@ -24233,6 +24371,25 @@
       "id": "SkillGemVaalIceNova"
     }
   },
+  "Metadata/Items/Gems/SkillGemWarBanner": {
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "War Banner",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Warbanner.dds",
+      "id": "SkillGemWarBanner"
+    }
+  },
   "Metadata/Items/Gems/SkillGemWarlordsMark": {
     "drop_level": 24,
     "implicits": [],
@@ -24288,6 +24445,25 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/ElementalStrike.dds",
       "id": "SkillGemWildStrike"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemWinterOrb": {
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Winter Orb",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/FrostFury.dds",
+      "id": "SkillGemFrostFury"
     }
   },
   "Metadata/Items/Gems/SkillGemWither": {
@@ -24616,6 +24792,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/Bloodlust.dds",
       "id": "SupportGemBloodlust_"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemBonechill": {
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Bonechill Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/BoneChillSupport.dds",
+      "id": "SupportGemBonechill_"
     }
   },
   "Metadata/Items/Gems/SupportGemBrutality": {
@@ -25912,6 +26108,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/MirageArcher.dds",
       "id": "SupportGemMirageArcher_"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemMultiTotem": {
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Multiple Totems Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/MultipleTotems.dds",
+      "id": "SupportGemMultipleTotems"
     }
   },
   "Metadata/Items/Gems/SupportGemMultiTrap": {
