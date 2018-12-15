@@ -164,11 +164,10 @@ class ActiveSkillType(IntEnum):
     brand = 72
     # Set for Detonated Dead, unknown purpose
     unknown_73 = 73
-    # Set for Arctic Armour, Siphoning Trap and Summon Harbinger of Storms' minion. Allows Bonechill Support.
-    bonechill_supportable_chill = 74
-    # One of Bonechill Support's allowed types, but all active skills that have this also have another type that allows
-    # Bonechill. Therefore, unknown purpose.
-    unknown_75 = 75
+    # Skill chills without counting as a hit
+    non_hit_chill = 74
+    # Skill creates chilling areas
+    chilling_area = 75
 
 
 @unique
