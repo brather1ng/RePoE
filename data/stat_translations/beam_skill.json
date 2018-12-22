@@ -133227,7 +133227,9 @@
       },
       {
         "condition": [
-          {},
+          {
+            "min": 1
+          },
           {
             "max": 0,
             "min": 0
@@ -133261,7 +133263,7 @@
           [],
           []
         ],
-        "string": "Fire {0} Projectiles in a Nova"
+        "string": "Fires {0} Projectiles in a Nova"
       },
       {
         "condition": [
@@ -133302,8 +133304,12 @@
       },
       {
         "condition": [
-          {},
-          {},
+          {
+            "min": 1
+          },
+          {
+            "min": 1
+          },
           {},
           {},
           {},
