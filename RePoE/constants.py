@@ -208,6 +208,7 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemSlashTotem",
     "Metadata/Items/Gems/SkillGemBackstab",
     "Metadata/Items/Gems/SkillGemBladeTrap",
+    "Metadata/Items/Gems/SkillGemCaptureMonster",
     "Metadata/Items/Gems/SkillGemComboStrike",
     "Metadata/Items/Gems/SkillGemDamageInfusion",
     "Metadata/Items/Gems/SkillGemDiscorectangleSlam",
