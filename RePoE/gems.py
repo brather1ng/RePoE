@@ -580,6 +580,13 @@ def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwa
             continue
         gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
 
+    for granted_effect in relational_reader['GrantedEffects.dat']:
+        ge_id = granted_effect['Id']
+        if ge_id != 'PlayerMelee':
+            continue
+        # Default Attack is neither gem nor mod effect
+        gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
+
     write_json(gems, data_path, 'gems')
     write_json(tooltips, data_path, 'gem_tooltips')
 

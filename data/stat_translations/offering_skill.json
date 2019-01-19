@@ -77259,62 +77259,6 @@
     "English": [
       {
         "condition": [
-          {}
-        ],
-        "format": [
-          "+#%"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Second form has {0} to Critical Strike Multiplier"
-      }
-    ],
-    "ids": [
-      "ice_spear_second_form_critical_strike_multiplier_+"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Second form has {0}% more Projectile Speed"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Second form has {0}% less Projectile Speed"
-      }
-    ],
-    "ids": [
-      "ice_spear_second_form_projectile_speed_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {
             "max": 99,
             "min": 1
@@ -137538,6 +137482,62 @@
     ],
     "ids": [
       "ice_spear_second_form_critical_strike_chance_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#%"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Second form has {0} to Critical Strike Multiplier"
+      }
+    ],
+    "ids": [
+      "ice_spear_second_form_critical_strike_multiplier_+"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Second form has {0}% more Projectile Speed"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Second form has {0}% less Projectile Speed"
+      }
+    ],
+    "ids": [
+      "ice_spear_second_form_projectile_speed_+%_final"
     ]
   },
   {
