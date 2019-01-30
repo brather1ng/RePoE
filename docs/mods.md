@@ -56,8 +56,8 @@ as value. That description object has the following fields:
   spawn on items that do
   not have Catarina's "Cannot roll Attack Mods" mod and are rings, but not on
   any other item.  
-  The possible tags can be found in the `Tags.dat` file in the GGPK. To get the tags
-  a base item has, you have to export base items yourself or you can use the Wiki API.
+  The possible tags can be found in `tags.json`. To get the tags a base item has,
+  see `base_items.json`.
 - `generation_weights`: This is an array with the same structure as `spawn_weights`.
   The weights are percentage multipliers to the spawn weight obtained through 
   `spawn_weights`. If `generation_weights` is empty, the spawn weight is not modified.
