@@ -12,6 +12,7 @@ from RePoE.mods import write_mods
 from RePoE.stat_translations import write_stat_translations
 from RePoE.stats import write_stats
 from RePoE.tags import write_tags
+from RePoe.fossils import write_fossils
 from RePoE.util import load_ggpk, create_relational_reader, create_translation_file_cache, \
     DEFAULT_GGPK_PATH, create_ot_file_cache
 
@@ -31,6 +32,7 @@ def main(data_path='../data/'):
         'essences': write_essences,
         'default_monster_stats': write_default_monster_stats,
         'characters': write_characters,
+		'fossils': write_fossils
         # todo 'buffs': BuffDefinitions.dat?
     }
 

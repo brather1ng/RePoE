@@ -27,9 +27,10 @@ def write_fossils(data_path, relational_reader, **kwargs):
 				"added_mods" : _convert_mods_keys(row["AddedModKeys"]),
 				"forced_mods" :  _convert_mods_keys(row["ForcedAddModKeys"]),
 				"negative_mod_weights" : _convert_mod_weights(row["NegativeWeight_TagsKeys"], row["NegativeWeight_Values"]),
-				"positive_mod_weights" : _convert_mod_weights(row["Weight_TagsKeys"], row["Weight_Values"])
-				"forbidden_tags" : ,
-				"allowed_tags" : , 
+				"positive_mod_weights" : _convert_mod_weights(row["Weight_TagsKeys"], row["Weight_Values"]),
+				"forbidden_tags" : [tag["TagsKey"]["Id"] for tag in row["ForbiddenDelveCraftingTagsKeys"]],
+				"allowed_tags" : [tag["TagsKey"]["Id"] for tag in row["AllowedDelveCraftingTagsKeys"]],
+				"corrupted_essence_chance" : row["CorruptedEssenceChance"],
 				"mirrors" : row["MirrorsItem"],
 				"changes_quality" : row["RollQuality"],
 				"rolls_lucky" : row["LuckyRolls"],
@@ -37,7 +38,7 @@ def write_fossils(data_path, relational_reader, **kwargs):
 				"rolls_white_sockets" : row["RollWhiteSockets"],
 				"sell_price_mods" : _convert_mod_keys("SellPrice_ModsKeys"), 
 				"descriptions" : [description["Id"] for description in row["DelveCraftingModifierDescriptionsKeys"]],
-				"blocked_descriptions" [description["Id"] for description in row["BlockedDelveCraftingModifierDescriptionsKeys"]]: 
+				"blocked_descriptions" [description["Id"] for description in row["BlockedDelveCraftingModifierDescriptionsKeys"]]
                 }
             
         

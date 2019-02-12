@@ -49,6 +49,9 @@ The following data is currently available:
   item classes and general information like level and tier.
 - `default_monster_stats.json`: Describes the stat base values of monsters at specific levels.
 - `characters.json`: Describes the stat base values of the different player character classes.
+- `fossils.json`: Describes fossils. Defines the mods they spawn, the tags they affect, and 
+  auxillary effects of the fossils.
+
 
 ## Running RePoE
 
