@@ -21,7 +21,7 @@ as value. That description object has the following fields:
 **Miscellaneous Effects**
 - `corrupted_essence_chance`: Gives the chance the game forces a random corrupted essence modifier on the item.
 - `mirrors`: Boolean indicating whether the fossil mirrors the item.
-- `changes_quality`: Boolean indicating whether the fossil rerolls the quality of the item (+- 10 qual from min(base_qual, 20))
+- `changes_quality`: Boolean indicating whether the fossil rerolls the quality of the item randomly from 15 to 30
 - `rolls_lucky`: Boolean indicating whether the numeric values in the mods are rolled lucky (rolled twice, keep better roll)
 - `enchants`: Boolean indicating whether or not the fossil applies a random enchant to the item (not sure on distribution for different labs)
 - `rolls_white_sockets`: Boolean indicating whether or not the fossil rerolls the colors with a chance of white socket (not sure on distribution)
