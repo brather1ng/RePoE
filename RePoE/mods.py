@@ -90,6 +90,8 @@ def write_mods(data_path, relational_reader, **kwargs):
             'stats': _convert_stats(mod['Stats']),
             'domain': domain.name.lower(),
             'name': mod['Name'],
+            'type' : mod['ModTypeKey']['Name'],
+            # 'mod_type_tags': _convert_tags_keys(mod['ModTypeKey']['TagsKeys']),
             'generation_type': mod['GenerationType'].name.lower(),
             'group': mod['CorrectGroup'],
             'spawn_weights': _convert_spawn_weights(mod['SpawnWeight']),
@@ -97,7 +99,7 @@ def write_mods(data_path, relational_reader, **kwargs):
             'grants_buff': _convert_buff(mod['BuffDefinitionsKey'], mod['BuffValue']),
             'grants_effect': _convert_granted_effects(mod['GrantedEffectsPerLevelKey']),
             'is_essence_only': mod['IsEssenceOnlyModifier'] > 0,
-            'adds_tags': _convert_tags_keys(itertools.chain(mod['TagsKeys'], mod['ModTypeKey']['TagsKeys']))
+            'adds_tags': _convert_tags_keys(mod['TagsKeys'])
         }
         if mod['Id'] in root:
             print("Duplicate mod id:", mod['Id'])
