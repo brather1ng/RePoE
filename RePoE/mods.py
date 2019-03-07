@@ -1,5 +1,3 @@
-import itertools
-
 from PyPoE.poe.constants import MOD_DOMAIN
 from RePoE.util import write_json, call_with_default_args
 
@@ -90,8 +88,7 @@ def write_mods(data_path, relational_reader, **kwargs):
             'stats': _convert_stats(mod['Stats']),
             'domain': domain.name.lower(),
             'name': mod['Name'],
-            'type' : mod['ModTypeKey']['Name'],
-            # 'mod_type_tags': _convert_tags_keys(mod['ModTypeKey']['TagsKeys']),
+            'type': mod['ModTypeKey']['Name'],
             'generation_type': mod['GenerationType'].name.lower(),
             'group': mod['CorrectGroup'],
             'spawn_weights': _convert_spawn_weights(mod['SpawnWeight']),

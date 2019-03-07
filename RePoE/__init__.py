@@ -33,7 +33,7 @@ def main(data_path='../data/'):
         'essences': write_essences,
         'default_monster_stats': write_default_monster_stats,
         'characters': write_characters,
-		'fossils': write_fossils,
+        'fossils': write_fossils,
         'types': write_types
         # todo 'buffs': BuffDefinitions.dat?
         # todo 'prices': ModSellPriceTypes.dat?
@@ -51,9 +51,6 @@ def main(data_path='../data/'):
     print(" Done!")
 
     selected_modules = args.modules
-
-
-
     if 'all' in selected_modules:
         selected_modules = [m for m in modules if m != 'all']
 

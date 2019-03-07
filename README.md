@@ -51,6 +51,8 @@ The following data is currently available:
 - `characters.json`: Describes the stat base values of the different player character classes.
 - `fossils.json`: Describes fossils. Defines the mods they spawn, the tags they affect, and 
   auxillary effects of the fossils.
+- `mod_types.json`: Describes the types of mods with sell price information and the tags
+  relevant for fossil crafting.
 
 
 ## Running RePoE
