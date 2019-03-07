@@ -3184,42 +3184,6 @@
     "English": [
       {
         "condition": [
-          {
-            "min": 100
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Always Freezes enemies"
-      },
-      {
-        "condition": [
-          {
-            "max": 99
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% chance to Freeze enemies"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "base_chance_to_freeze_%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {}
         ],
         "format": [
@@ -3315,44 +3279,6 @@
     "hidden": true,
     "ids": [
       "base_monster_will_be_deleted_on_death"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% increased Blinding duration"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "{0}% reduced Blinding duration"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "blind_duration_+%"
     ]
   },
   {
@@ -3794,46 +3720,6 @@
     "English": [
       {
         "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Increased Item Quantity of dropped Items has no effect"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "cannot_increase_quantity_of_dropped_items"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Increased Item Rarity of dropped Items has no effect"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "cannot_increase_rarity_of_dropped_items"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {
             "min": 1
           }
@@ -3947,26 +3833,6 @@
     "hidden": true,
     "ids": [
       "chance_to_apply_suppression_on_hit_%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Additional {0}% chance to be Stunned"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "chance_to_be_stunned_%"
     ]
   },
   {
@@ -4209,26 +4075,6 @@
     "hidden": true,
     "ids": [
       "corpse_cannot_be_destroyed"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% increased Critical Strike Chance per Power Charge"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "critical_strike_chance_+%_per_power_charge"
     ]
   },
   {
@@ -4623,44 +4469,6 @@
     "English": [
       {
         "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Deal {0}% more Damage"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Deal {0}% less Damage"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "enfeeble_damage_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {}
         ],
         "format": [
@@ -4853,50 +4661,6 @@
     "hidden": true,
     "ids": [
       "from_armour_movement_speed_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Bleed is applied on hit"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "global_bleed_on_hit"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Poison is applied on hit"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "global_poison_on_hit"
     ]
   },
   {
@@ -5456,26 +5220,6 @@
     "English": [
       {
         "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "+{0} Life per Level"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "life_per_level"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {
             "min": 1
           }
@@ -5626,26 +5370,6 @@
     "hidden": true,
     "ids": [
       "local_unique_tabula_rasa_no_requirement_or_energy_shield"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "+{0} Mana per Level"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "mana_per_level"
     ]
   },
   {
@@ -6297,26 +6021,6 @@
           {}
         ],
         "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area yields {0}% more Items"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "map_item_drop_quantity_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
           "ignore"
         ],
         "index_handlers": [
@@ -6509,7 +6213,7 @@
         "index_handlers": [
           []
         ],
-        "string": "???"
+        "string": "Standard"
       },
       {
         "condition": [
@@ -6524,7 +6228,7 @@
         "index_handlers": [
           []
         ],
-        "string": "???"
+        "string": "Hardcore"
       },
       {
         "condition": [
@@ -6569,7 +6273,7 @@
         "index_handlers": [
           []
         ],
-        "string": ""
+        "string": "???"
       },
       {
         "condition": [
@@ -6724,6 +6428,36 @@
       {
         "condition": [
           {
+            "max": 15,
+            "min": 15
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "???"
+      },
+      {
+        "condition": [
+          {
+            "max": 16,
+            "min": 16
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "???"
+      },
+      {
+        "condition": [
+          {
             "max": 17,
             "min": 17
           }
@@ -6795,6 +6529,96 @@
           []
         ],
         "string": "Breach"
+      },
+      {
+        "condition": [
+          {
+            "max": 22,
+            "min": 22
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Legacy"
+      },
+      {
+        "condition": [
+          {
+            "max": 23,
+            "min": 23
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Harbinger"
+      },
+      {
+        "condition": [
+          {
+            "max": 24,
+            "min": 24
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Abyss"
+      },
+      {
+        "condition": [
+          {
+            "max": 25,
+            "min": 25
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Bestiary"
+      },
+      {
+        "condition": [
+          {
+            "max": 26,
+            "min": 26
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Incursion"
+      },
+      {
+        "condition": [
+          {
+            "max": 27,
+            "min": 27
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Delve"
       },
       {
         "condition": [
@@ -6909,44 +6733,6 @@
     "hidden": true,
     "ids": [
       "map_spawn_warbands"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Tempests have {0}% increased Area of Effect"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Tempests have {0}% reduced Area of Effect"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "map_storm_area_of_effect_+%"
     ]
   },
   {
@@ -8727,48 +8513,6 @@
     "English": [
       {
         "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Skills cost no mana"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "no_mana_cost"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% Physical Damage Reduction per Endurance Charge"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "physical_damage_reduction_%_per_endurance_charge"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {}
         ],
         "format": [
@@ -8783,28 +8527,6 @@
     "hidden": true,
     "ids": [
       "physical_damage_taken_%_to_deal_to_attacker"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Gain {0}% of Physical Damage as Extra Damage of an Element"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "physical_damage_%_to_add_as_random_element"
     ]
   },
   {
@@ -8833,28 +8555,6 @@
     "English": [
       {
         "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Gain Rampage stacks"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "player_gain_rampage_stacks"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {}
         ],
         "format": [
@@ -8869,50 +8569,6 @@
     "hidden": true,
     "ids": [
       "projectile_speed_variation_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Projectiles are fired in a Nova"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "projectiles_nova"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Projectiles Return to You"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "projectiles_return"
     ]
   },
   {
@@ -8951,28 +8607,6 @@
     "hidden": true,
     "ids": [
       "pvp_shield_damage_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Life Regeneration applies to Energy Shield instead of Life"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "regenerate_energy_shield_instead_of_life"
     ]
   },
   {
@@ -9140,44 +8774,6 @@
     "hidden": true,
     "ids": [
       "strength_per_level"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Actions are {0}% faster"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Actions are {0}% slower"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "temporal_chains_action_speed_+%_final"
     ]
   },
   {

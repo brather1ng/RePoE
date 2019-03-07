@@ -149327,42 +149327,6 @@
     "English": [
       {
         "condition": [
-          {
-            "min": 100
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Always Freezes enemies"
-      },
-      {
-        "condition": [
-          {
-            "max": 99
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% chance to Freeze enemies"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "base_chance_to_freeze_%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {}
         ],
         "format": [
@@ -150018,26 +149982,6 @@
     "English": [
       {
         "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Additional {0}% chance to be Stunned"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "chance_to_be_stunned_%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {
             "min": 1
           }
@@ -150668,44 +150612,6 @@
     "English": [
       {
         "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Deal {0}% more Damage"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Deal {0}% less Damage"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "enfeeble_damage_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {}
         ],
         "format": [
@@ -150898,28 +150804,6 @@
     "hidden": true,
     "ids": [
       "from_armour_movement_speed_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Bleed is applied on hit"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "global_bleed_on_hit"
     ]
   },
   {
@@ -152280,26 +152164,6 @@
           {}
         ],
         "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area yields {0}% more Items"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "map_item_drop_quantity_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
           "ignore"
         ],
         "index_handlers": [
@@ -152492,7 +152356,7 @@
         "index_handlers": [
           []
         ],
-        "string": "???"
+        "string": "Standard"
       },
       {
         "condition": [
@@ -152507,7 +152371,7 @@
         "index_handlers": [
           []
         ],
-        "string": "???"
+        "string": "Hardcore"
       },
       {
         "condition": [
@@ -152552,7 +152416,7 @@
         "index_handlers": [
           []
         ],
-        "string": ""
+        "string": "???"
       },
       {
         "condition": [
@@ -152707,6 +152571,36 @@
       {
         "condition": [
           {
+            "max": 15,
+            "min": 15
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "???"
+      },
+      {
+        "condition": [
+          {
+            "max": 16,
+            "min": 16
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "???"
+      },
+      {
+        "condition": [
+          {
             "max": 17,
             "min": 17
           }
@@ -152778,6 +152672,96 @@
           []
         ],
         "string": "Breach"
+      },
+      {
+        "condition": [
+          {
+            "max": 22,
+            "min": 22
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Legacy"
+      },
+      {
+        "condition": [
+          {
+            "max": 23,
+            "min": 23
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Harbinger"
+      },
+      {
+        "condition": [
+          {
+            "max": 24,
+            "min": 24
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Abyss"
+      },
+      {
+        "condition": [
+          {
+            "max": 25,
+            "min": 25
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Bestiary"
+      },
+      {
+        "condition": [
+          {
+            "max": 26,
+            "min": 26
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Incursion"
+      },
+      {
+        "condition": [
+          {
+            "max": 27,
+            "min": 27
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Delve"
       },
       {
         "condition": [
@@ -154672,28 +154656,6 @@
     "English": [
       {
         "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Skills cost no mana"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "no_mana_cost"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {}
         ],
         "format": [
@@ -154750,50 +154712,6 @@
     "hidden": true,
     "ids": [
       "projectile_speed_variation_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Projectiles are fired in a Nova"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "projectiles_nova"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Projectiles Return to You"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "projectiles_return"
     ]
   },
   {
@@ -154999,44 +154917,6 @@
     "hidden": true,
     "ids": [
       "strength_per_level"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Actions are {0}% faster"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Actions are {0}% slower"
-      }
-    ],
-    "hidden": true,
-    "ids": [
-      "temporal_chains_action_speed_+%_final"
     ]
   },
   {
