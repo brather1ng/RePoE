@@ -12,6 +12,8 @@ from RePoE.mods import write_mods
 from RePoE.stat_translations import write_stat_translations
 from RePoE.stats import write_stats
 from RePoE.tags import write_tags
+from RePoE.fossils import write_fossils
+from RePoE.mod_types import write_types
 from RePoE.util import load_ggpk, create_relational_reader, create_translation_file_cache, \
     DEFAULT_GGPK_PATH, create_ot_file_cache
 
@@ -31,7 +33,10 @@ def main(data_path='../data/'):
         'essences': write_essences,
         'default_monster_stats': write_default_monster_stats,
         'characters': write_characters,
+        'fossils': write_fossils,
+        'types': write_types
         # todo 'buffs': BuffDefinitions.dat?
+        # todo 'prices': ModSellPriceTypes.dat?
     }
 
     parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
