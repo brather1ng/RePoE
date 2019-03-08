@@ -168,6 +168,13 @@ class ActiveSkillType(IntEnum):
     non_hit_chill = 74
     # Skill creates chilling areas
     chilling_area = 75
+    unknown_76 = 76
+    unknown_77 = 77
+    unknown_78 = 78
+    unknown_79 = 79
+    unknown_80 = 80
+    unknown_81 = 81
+    unknown_82 = 82
 
 
 @unique
@@ -240,6 +247,7 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemVortexMine",
     "Metadata/Items/Gems/SkillGemWandTeleport",
     "Metadata/Items/Gems/SupportGemCastLinkedCursesOnCurse",
+    "Metadata/Items/Gems/SupportGemHandcastRapidFire",
     "Metadata/Items/Gems/SupportGemReturn",
     "Metadata/Items/Gems/SupportGemSplit",
     "Metadata/Items/Gems/SupportGemTemporaryForTutorial",
@@ -269,6 +277,7 @@ UNIQUE_ONLY_ITEMS = {
     "Metadata/Items/Amulet/AmuletVictor1",  # Jet Amulet, base for Amulet of the Victor (PvP reward)
     "Metadata/Items/Amulets/Amulet11",  # Ruby Amulet
     "Metadata/items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordC",  # Charan's Sword
+    "Metadata/Items/Quivers/Quiver14",  # Ornate Quiver, base for Maloney's Mechanism
     "Metadata/Items/Quivers/QuiverDescent",  # Base for a Descent only unique
     "Metadata/Items/Jewels/JewelPrismatic",
     # Race rewards (bases of Demigod uniques)
