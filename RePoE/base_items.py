@@ -15,6 +15,11 @@ def _add_if_greater_zero(value, key, obj):
         obj[key] = value
 
 
+def _add_if_not_zero(value, key, obj):
+    if value != 0:
+        obj[key] = value
+
+
 def _convert_requirements(attribute_requirements, drop_level):
     if attribute_requirements is None:
         return None
@@ -32,6 +37,7 @@ def _convert_armour_properties(armour_row, properties):
     _add_if_greater_zero(armour_row['Armour'], 'armour', properties)
     _add_if_greater_zero(armour_row['Evasion'], 'evasion', properties)
     _add_if_greater_zero(armour_row['EnergyShield'], 'energy_shield', properties)
+    _add_if_not_zero(armour_row['IncreasedMovementSpeed'], 'movement_speed', properties)
 
 
 def _convert_shield_properties(shield_row, properties):

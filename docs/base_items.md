@@ -40,6 +40,7 @@ the base item as a value. The description object has the following fields:
   item to item, generally based on the base's item class.
   * `armour`, `evasion`, `energy_shield`: The base Armour, Evasion and Energy Shield values
     provided by this base.
+  * `movement_speed`: The implicit movement speed increase provided by this base.
   * `block`: The base chance to block as percentage provided by this base.
   * `life_per_use`, `mana_per_use`: The base amount of life/mana recovered by this flask.
   * `duration`, `charges_max`, `charges_per_use`: The base duration, base maximum amount of
