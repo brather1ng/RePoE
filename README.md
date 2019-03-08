@@ -61,12 +61,11 @@ The following data is currently available:
 
 ## Running RePoE
 
-- Install Python 3.4 or later and Git
+- Install Python 3.6 or later (PyPoE recommends Python 3.7) and Git
 - Install [PyPoE](https://github.com/OmegaK2/PyPoE):
   * Clone PyPoE and go into its folder
   * Minimal install: `pip install -e .`
-  * Full install: `pip install -e .[full]` (not required for RePoE, requires Python
-    3.4)
+  * Full install: `pip install -e .[full]` (not required for RePoE)
 - Clone RePoE and go into its folder
 - Run `python RePoE.py`  
   (`python RePoE.py -h` to see arguments)
