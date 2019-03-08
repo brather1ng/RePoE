@@ -120,8 +120,8 @@ class ActiveSkillType(IntEnum):
     # Set for Animate Weapon and related item skills (the triggered version, Animate Guardian's Weapon).
     # Allows some projectile and attack related supports.
     animate_weapon = 52
-    # Same as trigger_attack plus Blast Rain; unknown purpose
-    unknown_53 = 53
+    # Skill can be cast by Maloney's Mechanism's trigger when socketed in it
+    castable_by_maloneys_mechanism = 53
     # Gem tag equivalent
     channelling = 54
     # Allows Controlled Destruction Support for skills that don't have attack or hits but should be supportable, e.g.
@@ -168,12 +168,19 @@ class ActiveSkillType(IntEnum):
     non_hit_chill = 74
     # Skill creates chilling areas
     chilling_area = 75
-    unknown_76 = 76
-    unknown_77 = 77
+    # Skill is a Curse (compared to "curse", Bane and Raise Spectre's minions don't have this)
+    curse_skill = 76
+    # Skill can be supported by Unleash Support
+    unleash_supportable = 77
+    # Added and allowed by SupportAuraDuration, not used anywhere else.
     unknown_78 = 78
-    unknown_79 = 79
+    # Skill can be supported by Intensify Support
+    intensify_supportable = 79
+    # Allowed by SupportAuraDuration, not used anywhere else.
     unknown_80 = 80
+    # Allowed by SupportAuraDuration and Maloney's Mechanism's trigger skill, not used anywhere else.
     unknown_81 = 81
+    # Allowed by SupportAuraDuration, not used anywhere else.
     unknown_82 = 82
 
 
