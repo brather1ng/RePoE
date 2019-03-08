@@ -5,6 +5,7 @@ from RePoE.characters import write_characters
 from RePoE.crafting_bench_options import write_crafting_bench_options
 from RePoE.default_monster_stats import write_default_monster_stats
 from RePoE.essences import write_essences
+from RePoE.fractured_mods import write_fractured_mods
 from RePoE.gem_tags import write_gem_tags
 from RePoE.gems import write_gems
 from RePoE.item_classes import write_item_classes
@@ -37,6 +38,7 @@ def main(data_path='../data/'):
         'fossils': write_fossils,
         'types': write_types,
         'synthesis_implicits': write_synthesis_implicits,
+        'fractured_mods': write_fractured_mods,
         # todo 'buffs': BuffDefinitions.dat?
     }
 

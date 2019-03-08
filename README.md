@@ -55,6 +55,8 @@ The following data is currently available:
   relevant for fossil crafting.
 - `synthesis_implicits.json`: Describes which mods can appear on which item classes as
   implicits through synthesis. 
+- `fractured_mods.json`: Describes which mods can appear on which item classes as
+  fractured explicits.
 
 
 ## Running RePoE
