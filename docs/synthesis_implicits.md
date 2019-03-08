@@ -2,7 +2,11 @@
 
 Describes which mods can appear on which item classes as implicits through synthesis.
 
-The file is an object where each key is an item class id with an array containing the
-mod ids that can be generated on items of the item class through synthesis.
+The file is an array. Each element is an object describing one implicit mod combination.
+These objects have the following fields:
 
-See `item_classes.json` and `mods.json`.
+- `item_classes`: The item classes on which the mods can spawn.
+- `mods`: The mods that are part of the implicit mod combination.
+- `stat`: An object containing a stat id and value. Their purpose is currently unknown.
+
+See `item_classes.json`, `mods.json` and `stats.json`.
