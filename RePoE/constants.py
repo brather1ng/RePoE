@@ -176,12 +176,15 @@ class ActiveSkillType(IntEnum):
     unknown_78 = 78
     # Skill can be supported by Intensify Support
     intensify_supportable = 79
-    # Allowed by SupportAuraDuration, not used anywhere else.
-    unknown_80 = 80
-    # Allowed by SupportAuraDuration and Maloney's Mechanism's trigger skill, not used anywhere else.
-    unknown_81 = 81
-    # Allowed by SupportAuraDuration, not used anywhere else.
-    unknown_82 = 82
+    # These three types change how allowed_types of support gems are interpreted. The allowed_types are processed in
+    # order. Except for the following three, they are checked against the active skill's types and the result (true or
+    # false) is pushed onto a stack. These three types instead change the values that are already on the stack:
+    # - Pops two values from the stack and pushes the result of or'ing them
+    boolean_or = 80
+    # - Pops two values from the stack and pushes the result of and'ing them
+    boolean_and = 81
+    # - Pops one value from the stack and pushes the inverted value
+    boolean_not = 82
 
 
 @unique
