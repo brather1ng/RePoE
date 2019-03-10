@@ -555,6 +555,7 @@ def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwa
     tooltips = {}
     converter = GemConverter(ggpk, relational_reader, translation_file_cache)
 
+    # Skills from gems
     for gem in relational_reader['SkillGems.dat']:
         granted_effect = gem['GrantedEffectsKey']
         ge_id = granted_effect['Id']
@@ -568,6 +569,17 @@ def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwa
         gems[ge_id], tooltips[ge_id] = converter.convert(gem['BaseItemTypesKey'], granted_effect,
                                                          gem['GrantedEffectsKey2'], gem['GemTagsKeys'], multipliers)
 
+    # Secondary skills from gems. This adds the support skill implicitly provided by Bane
+    for gem in relational_reader['SkillGems.dat']:
+        granted_effect = gem['GrantedEffectsKey2']
+        if not granted_effect:
+            continue
+        ge_id = granted_effect['Id']
+        if ge_id in gems:
+            continue
+        gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
+
+    # Skills from mods
     for mod in relational_reader['Mods.dat']:
         if mod['GrantedEffectsPerLevelKey'] is None:
             continue
@@ -580,11 +592,11 @@ def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwa
             continue
         gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
 
+    # Default Attack/PlayerMelee is neither gem nor mod effect
     for granted_effect in relational_reader['GrantedEffects.dat']:
         ge_id = granted_effect['Id']
         if ge_id != 'PlayerMelee':
             continue
-        # Default Attack is neither gem nor mod effect
         gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
 
     write_json(gems, data_path, 'gems')
