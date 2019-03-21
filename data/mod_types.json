@@ -4599,6 +4599,12 @@
     ],
     "tags": []
   },
+  "ChanceToTakeCriticalStrikeUpdated": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "ChanceWhenHitForArmourToBeDoubled": {
     "sell_price_types": [
       "High"
@@ -6047,6 +6053,15 @@
       "physical"
     ]
   },
+  "ConvertPhysicalToColdImplicit": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": [
+      "cold",
+      "physical"
+    ]
+  },
   "ConvertPhysicalToColdVeiledFamilyRestriction": {
     "sell_price_types": [
       "High"
@@ -6057,6 +6072,15 @@
     ]
   },
   "ConvertPhysicalToFire": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": [
+      "fire",
+      "physical"
+    ]
+  },
+  "ConvertPhysicalToFireImplicit": {
     "sell_price_types": [
       "UniqueHigh"
     ],
@@ -6084,6 +6108,15 @@
     ]
   },
   "ConvertPhysicalToLightning": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": [
+      "lightning",
+      "physical"
+    ]
+  },
+  "ConvertPhysicalToLightningImplicit": {
     "sell_price_types": [
       "UniqueHigh"
     ],
@@ -25023,6 +25056,14 @@
       "life"
     ]
   },
+  "MaximumLifeLeechRateOldFix": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "life"
+    ]
+  },
   "MaximumLifeOnKillPercent": {
     "sell_price_types": [
       "UniqueLow"
@@ -28489,6 +28530,15 @@
       "physical"
     ]
   },
+  "PhysicalDamageConvertToChaosImplicit": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": [
+      "chaos",
+      "physical"
+    ]
+  },
   "PhysicalDamageConvertedToChaos": {
     "sell_price_types": [],
     "tags": [
@@ -30287,6 +30337,12 @@
   },
   "Roll6LinkedRandomColourSockets": {
     "sell_price_types": [],
+    "tags": []
+  },
+  "Runebinder": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
     "tags": []
   },
   "RyuslathaMaximumDamageModifier": {
