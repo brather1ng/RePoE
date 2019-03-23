@@ -19528,6 +19528,41 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Maximum total Recovery per second from Life Leech"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% reduced Maximum total Recovery per second from Life Leech"
+      }
+    ],
+    "ids": [
+      "maximum_life_leech_rate_+1%_per_12_stat_value"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Maximum total Recovery per second from Mana Leech"
       },
       {
@@ -19623,6 +19658,27 @@
     ],
     "ids": [
       "maximum_energy_shield_leech_rate_+%_while_affected_by_zealotry"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Maximum total Recovery per second from Energy Shield Leech while affected by Zealotry"
+      }
+    ],
+    "ids": [
+      "maximum_es_leech_rate_+1%_per_6_stat_value_while_affected_by_zealotry"
     ]
   },
   {
@@ -36101,7 +36157,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Ignites you inflict deal Damage {0}% faster"
+        "string": "Ignites you inflict with Attacks deal Damage {0}% faster"
       }
     ],
     "ids": [
@@ -49277,21 +49333,37 @@
     "English": [
       {
         "condition": [
-          {}
+          {
+            "min": 1
+          }
         ],
         "format": [
-          "+#%"
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Hits have {0}% increased Critical Strike Chance against you"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
         ],
         "index_handlers": [
           [
-            "divide_by_one_hundred"
+            "negate"
           ]
         ],
-        "string": "Hits have {0} additional Critical Stike Chance against you"
+        "string": "Hits have {0}% reduced Critical Strike Chance against you"
       }
     ],
     "ids": [
-      "enemy_additional_critical_strike_chance_against_self"
+      "base_enemy_critical_strike_chance_+%_against_self"
     ]
   },
   {
@@ -49305,10 +49377,49 @@
         ],
         "index_handlers": [
           [
+            "divide_by_one_hundred"
+          ]
+        ],
+        "string": "Hits have {0} additional Critical Strike Chance against you"
+      }
+    ],
+    "ids": [
+      "enemy_additional_critical_strike_chance_against_self"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
             "times_twenty"
           ]
         ],
-        "string": "Hits have {0} additional Critical Stike Chance against you"
+        "string": "Hits have {0}% increased Critical Strike Chance against you"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "times_twenty"
+          ]
+        ],
+        "string": "Hits have {0}% reduced Critical Strike Chance against you"
       }
     ],
     "ids": [
@@ -65460,7 +65571,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Flame Totem Damage"
+        "string": "Holy Flame Totem deals {0}% increased Damage"
       },
       {
         "condition": [
@@ -65476,7 +65587,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Flame Totem Damage"
+        "string": "Holy Flame Totem deals {0}% reduced Damage"
       }
     ],
     "ids": [
@@ -71429,7 +71540,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Flame Totem Projectile Speed"
+        "string": "Holy Flame Totem has {0}% increased Projectile Speed"
       },
       {
         "condition": [
@@ -71445,7 +71556,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Flame Totem Projectile Speed"
+        "string": "Holy Flame Totem has {0}% reduced Projectile Speed"
       }
     ],
     "ids": [
@@ -73458,7 +73569,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Flame Totem fires an additional Projectile"
+        "string": "Holy Flame Totem fires an additional Projectile"
       },
       {
         "condition": [
@@ -73472,7 +73583,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Flame Totem fires {0} additional Projectiles"
+        "string": "Holy Flame Totem fires {0} additional Projectiles"
       }
     ],
     "ids": [
@@ -99640,7 +99751,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Consecrated Ground created with Holy Flame Totem applies {0}% increased Damage taken to Enemies"
+        "string": "Consecrated Ground from Holy Flame Totem applies {0}% increased Damage taken to Enemies"
       },
       {
         "condition": [
@@ -99656,7 +99767,7 @@
             "negate"
           ]
         ],
-        "string": "Consecrated Ground created with Holy Flame Totem applies {0}% reduced Damage taken to Enemies"
+        "string": "Consecrated Ground from Holy Flame Totem applies {0}% reduced Damage taken to Enemies"
       }
     ],
     "ids": [
@@ -127339,7 +127450,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Consecrated Ground created with Sanctify applies {0}% increased Damage taken to Enemies"
+        "string": "Consecrated Ground from Purifying Flame applies {0}% increased Damage taken to Enemies"
       },
       {
         "condition": [
@@ -127355,7 +127466,7 @@
             "negate"
           ]
         ],
-        "string": "Consecrated Ground created with Sanctify applies {0}% reduced Damage taken to Enemies"
+        "string": "Consecrated Ground from Purifying Flame applies {0}% reduced Damage taken to Enemies"
       }
     ],
     "ids": [
