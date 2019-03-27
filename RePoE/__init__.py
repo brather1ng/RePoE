@@ -58,7 +58,10 @@ def main(data_path='../data/'):
     #
     # selected_modules = args.modules
 
-    selected_modules = ["all"]
+    selected_modules = [module for module in modules]
+    selected_modules.remove('all')
+    selected_modules.remove('crafting_bench_options')
+    print(selected_modules)
     ggpk = load_ggpk("/media/nick/3CA0B85BA0B81D78/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk")
 
     if 'all' in selected_modules:

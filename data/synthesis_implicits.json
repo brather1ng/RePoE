@@ -543,8 +543,6 @@
   },
   {
     "item_classes": [
-      "Gloves",
-      "Amulet",
       "Claw",
       "Dagger",
       "Wand",
@@ -560,17 +558,15 @@
       "Two Hand Mace"
     ],
     "mods": [
-      "SynthesisImplicitLifeLeech1"
+      "SynthesisImplicitLocalLifeLeech1"
     ],
     "stat": {
-      "id": "life_leech_from_physical_attack_damage_permyriad",
+      "id": "local_life_leech_from_physical_damage_permyriad",
       "value": 40
     }
   },
   {
     "item_classes": [
-      "Gloves",
-      "Amulet",
       "Claw",
       "Dagger",
       "Wand",
@@ -586,17 +582,15 @@
       "Two Hand Mace"
     ],
     "mods": [
-      "SynthesisImplicitLifeLeech2_"
+      "SynthesisImplicitLocalLifeLeech2"
     ],
     "stat": {
-      "id": "life_leech_from_physical_attack_damage_permyriad",
+      "id": "local_life_leech_from_physical_damage_permyriad",
       "value": 70
     }
   },
   {
     "item_classes": [
-      "Gloves",
-      "Amulet",
       "Claw",
       "Dagger",
       "Wand",
@@ -612,10 +606,10 @@
       "Two Hand Mace"
     ],
     "mods": [
-      "SynthesisImplicitLifeLeech3"
+      "SynthesisImplicitLocalLifeLeech3__"
     ],
     "stat": {
-      "id": "life_leech_from_physical_attack_damage_permyriad",
+      "id": "local_life_leech_from_physical_damage_permyriad",
       "value": 100
     }
   },
@@ -634,7 +628,7 @@
       "SynthesisImplicitLifeLeechOneHanded1"
     ],
     "stat": {
-      "id": "life_leech_from_physical_attack_damage_permyriad",
+      "id": "local_life_leech_from_physical_damage_permyriad",
       "value": 400
     }
   },
@@ -650,8 +644,47 @@
       "SynthesisImplicitLifeLeechTwoHanded1"
     ],
     "stat": {
-      "id": "life_leech_from_physical_attack_damage_permyriad",
+      "id": "local_life_leech_from_physical_damage_permyriad",
       "value": 400
+    }
+  },
+  {
+    "item_classes": [
+      "Gloves",
+      "Amulet"
+    ],
+    "mods": [
+      "SynthesisImplicitLifeLeech1"
+    ],
+    "stat": {
+      "id": "life_leech_from_physical_attack_damage_permyriad",
+      "value": 40
+    }
+  },
+  {
+    "item_classes": [
+      "Gloves",
+      "Amulet"
+    ],
+    "mods": [
+      "SynthesisImplicitLifeLeech2_"
+    ],
+    "stat": {
+      "id": "life_leech_from_physical_attack_damage_permyriad",
+      "value": 70
+    }
+  },
+  {
+    "item_classes": [
+      "Gloves",
+      "Amulet"
+    ],
+    "mods": [
+      "SynthesisImplicitLifeLeech3"
+    ],
+    "stat": {
+      "id": "life_leech_from_physical_attack_damage_permyriad",
+      "value": 100
     }
   },
   {
@@ -762,7 +795,20 @@
       "Gloves",
       "Quiver",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitLifeOnKill1_"
@@ -777,7 +823,20 @@
       "Gloves",
       "Quiver",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitLifeOnKill2"
@@ -792,7 +851,20 @@
       "Gloves",
       "Quiver",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitLifeOnKill3"
@@ -807,7 +879,20 @@
       "Gloves",
       "Quiver",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitLifeOnKill3",
@@ -868,20 +953,7 @@
   },
   {
     "item_classes": [
-      "Amulet",
-      "Claw",
-      "Dagger",
-      "Wand",
-      "One Hand Sword",
-      "Thrusting One Hand Sword",
-      "One Hand Axe",
-      "One Hand Mace",
-      "Sceptre",
-      "Bow",
-      "Staff",
-      "Two Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace"
+      "Amulet"
     ],
     "mods": [
       "SynthesisImplicitLifeOnHit1"
@@ -893,20 +965,7 @@
   },
   {
     "item_classes": [
-      "Amulet",
-      "Claw",
-      "Dagger",
-      "Wand",
-      "One Hand Sword",
-      "Thrusting One Hand Sword",
-      "One Hand Axe",
-      "One Hand Mace",
-      "Sceptre",
-      "Bow",
-      "Staff",
-      "Two Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace"
+      "Amulet"
     ],
     "mods": [
       "SynthesisImplicitLifeOnHit2_"
@@ -918,20 +977,7 @@
   },
   {
     "item_classes": [
-      "Amulet",
-      "Claw",
-      "Dagger",
-      "Wand",
-      "One Hand Sword",
-      "Thrusting One Hand Sword",
-      "One Hand Axe",
-      "One Hand Mace",
-      "Sceptre",
-      "Bow",
-      "Staff",
-      "Two Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace"
+      "Amulet"
     ],
     "mods": [
       "SynthesisImplicitLifeOnHit3"
@@ -962,13 +1008,85 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
+    ],
+    "mods": [
+      "SynthesisImplicitLocalLifeOnHit1_"
+    ],
+    "stat": {
+      "id": "local_life_gain_per_target",
+      "value": 4
+    }
+  },
+  {
+    "item_classes": [
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
+    ],
+    "mods": [
+      "SynthesisImplicitLocalLifeOnHit2_"
+    ],
+    "stat": {
+      "id": "local_life_gain_per_target",
+      "value": 7
+    }
+  },
+  {
+    "item_classes": [
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
+    ],
+    "mods": [
+      "SynthesisImplicitLocalLifeOnHit3"
+    ],
+    "stat": {
+      "id": "local_life_gain_per_target",
+      "value": 10
+    }
+  },
+  {
+    "item_classes": [
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
       "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitLifeOnHitOneHanded1"
     ],
     "stat": {
-      "id": "base_life_gain_per_target",
+      "id": "local_life_gain_per_target",
       "value": 15
     }
   },
@@ -984,7 +1102,7 @@
       "SynthesisImplicitLifeOnHitTwoHanded1_"
     ],
     "stat": {
-      "id": "base_life_gain_per_target",
+      "id": "local_life_gain_per_target",
       "value": 15
     }
   },
@@ -1842,10 +1960,6 @@
   },
   {
     "item_classes": [
-      "Gloves",
-      "Quiver",
-      "Ring",
-      "Amulet",
       "Claw",
       "Dagger",
       "Wand",
@@ -1861,19 +1975,15 @@
       "Two Hand Mace"
     ],
     "mods": [
-      "SynthesisImplicitManaLeech1"
+      "SynthesisImplicitLocalManaLeech1"
     ],
     "stat": {
-      "id": "mana_leech_from_physical_attack_damage_permyriad",
+      "id": "local_mana_leech_from_physical_damage_permyriad",
       "value": 40
     }
   },
   {
     "item_classes": [
-      "Gloves",
-      "Quiver",
-      "Ring",
-      "Amulet",
       "Claw",
       "Dagger",
       "Wand",
@@ -1889,19 +1999,15 @@
       "Two Hand Mace"
     ],
     "mods": [
-      "SynthesisImplicitManaLeech2"
+      "SynthesisImplicitLocalManaLeech2"
     ],
     "stat": {
-      "id": "mana_leech_from_physical_attack_damage_permyriad",
+      "id": "local_mana_leech_from_physical_damage_permyriad",
       "value": 70
     }
   },
   {
     "item_classes": [
-      "Gloves",
-      "Quiver",
-      "Ring",
-      "Amulet",
       "Claw",
       "Dagger",
       "Wand",
@@ -1917,10 +2023,10 @@
       "Two Hand Mace"
     ],
     "mods": [
-      "SynthesisImplicitManaLeech3"
+      "SynthesisImplicitLocalManaLeech3"
     ],
     "stat": {
-      "id": "mana_leech_from_physical_attack_damage_permyriad",
+      "id": "local_mana_leech_from_physical_damage_permyriad",
       "value": 100
     }
   },
@@ -1939,7 +2045,7 @@
       "SynthesisImplicitManaLeechOneHanded1"
     ],
     "stat": {
-      "id": "mana_leech_from_physical_attack_damage_permyriad",
+      "id": "local_mana_leech_from_physical_damage_permyriad",
       "value": 400
     }
   },
@@ -1955,8 +2061,47 @@
       "SynthesisImplicitManaLeechTwoHanded1"
     ],
     "stat": {
-      "id": "mana_leech_from_physical_attack_damage_permyriad",
+      "id": "local_mana_leech_from_physical_damage_permyriad",
       "value": 400
+    }
+  },
+  {
+    "item_classes": [
+      "Gloves",
+      "Amulet"
+    ],
+    "mods": [
+      "SynthesisImplicitManaLeech1"
+    ],
+    "stat": {
+      "id": "mana_leech_from_physical_attack_damage_permyriad",
+      "value": 40
+    }
+  },
+  {
+    "item_classes": [
+      "Gloves",
+      "Amulet"
+    ],
+    "mods": [
+      "SynthesisImplicitManaLeech2"
+    ],
+    "stat": {
+      "id": "mana_leech_from_physical_attack_damage_permyriad",
+      "value": 70
+    }
+  },
+  {
+    "item_classes": [
+      "Gloves",
+      "Amulet"
+    ],
+    "mods": [
+      "SynthesisImplicitManaLeech3"
+    ],
+    "stat": {
+      "id": "mana_leech_from_physical_attack_damage_permyriad",
+      "value": 100
     }
   },
   {
@@ -2041,7 +2186,20 @@
       "Gloves",
       "Quiver",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitManaOnKill1_"
@@ -2056,7 +2214,20 @@
       "Gloves",
       "Quiver",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitManaOnKill2___"
@@ -2071,7 +2242,20 @@
       "Gloves",
       "Quiver",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitManaOnKill3"
@@ -2086,7 +2270,20 @@
       "Gloves",
       "Quiver",
       "Ring",
-      "Amulet"
+      "Amulet",
+      "Claw",
+      "Dagger",
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitManaOnKill3",
@@ -2375,7 +2572,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitFireResist5"
@@ -2715,7 +2913,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitColdResist5"
@@ -3055,7 +3254,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitLightningResist5"
@@ -3347,7 +3547,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitChaosResist3"
@@ -4766,15 +4967,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
+      "Claw",
+      "Dagger",
+      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
+      "One Hand Axe",
       "One Hand Mace",
       "Sceptre",
-      "Two Hand Mace",
-      "Two Hand Axe",
+      "Bow",
+      "Staff",
       "Two Hand Sword",
-      "Staff"
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitStrength1"
@@ -4792,15 +4997,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
+      "Claw",
+      "Dagger",
+      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
+      "One Hand Axe",
       "One Hand Mace",
       "Sceptre",
-      "Two Hand Mace",
-      "Two Hand Axe",
+      "Bow",
+      "Staff",
       "Two Hand Sword",
-      "Staff"
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitStrength2__"
@@ -4818,15 +5027,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
+      "Claw",
+      "Dagger",
+      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
+      "One Hand Axe",
       "One Hand Mace",
       "Sceptre",
-      "Two Hand Mace",
-      "Two Hand Axe",
+      "Bow",
+      "Staff",
       "Two Hand Sword",
-      "Staff"
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitStrength3"
@@ -4844,15 +5057,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
+      "Claw",
+      "Dagger",
+      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
+      "One Hand Axe",
       "One Hand Mace",
       "Sceptre",
-      "Two Hand Mace",
-      "Two Hand Axe",
+      "Bow",
+      "Staff",
       "Two Hand Sword",
-      "Staff"
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitStrength4"
@@ -4870,15 +5087,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
+      "Claw",
+      "Dagger",
+      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
+      "One Hand Axe",
       "One Hand Mace",
       "Sceptre",
-      "Two Hand Mace",
-      "Two Hand Axe",
+      "Bow",
+      "Staff",
       "Two Hand Sword",
-      "Staff"
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitStrength5"
@@ -4931,9 +5152,12 @@
   },
   {
     "item_classes": [
-      "One Hand Axe",
+      "Claw",
+      "Dagger",
+      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
+      "One Hand Axe",
       "One Hand Mace",
       "Sceptre"
     ],
@@ -4947,10 +5171,11 @@
   },
   {
     "item_classes": [
-      "Two Hand Mace",
-      "Two Hand Axe",
+      "Bow",
+      "Staff",
       "Two Hand Sword",
-      "Staff"
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitAddedFireDamagePerStrength2"
@@ -4962,7 +5187,9 @@
   },
   {
     "item_classes": [
-      "Sceptre"
+      "Wand",
+      "Sceptre",
+      "Dagger"
     ],
     "mods": [
       "SynthesisImplicitSpellDamagePerStrength1_"
@@ -5145,12 +5372,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
-      "One Hand Sword",
-      "Thrusting One Hand Sword",
       "Claw",
       "Dagger",
-      "Bow"
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitDexterity1"
@@ -5168,12 +5402,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
-      "One Hand Sword",
-      "Thrusting One Hand Sword",
       "Claw",
       "Dagger",
-      "Bow"
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitDexterity2"
@@ -5191,12 +5432,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
-      "One Hand Sword",
-      "Thrusting One Hand Sword",
       "Claw",
       "Dagger",
-      "Bow"
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitDexterity3"
@@ -5214,12 +5462,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
-      "One Hand Sword",
-      "Thrusting One Hand Sword",
       "Claw",
       "Dagger",
-      "Bow"
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitDexterity4"
@@ -5237,12 +5492,19 @@
       "Body Armour",
       "Shield",
       "Quiver",
-      "One Hand Axe",
-      "One Hand Sword",
-      "Thrusting One Hand Sword",
       "Claw",
       "Dagger",
-      "Bow"
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitDexterity5"
@@ -5307,11 +5569,14 @@
   },
   {
     "item_classes": [
-      "One Hand Axe",
+      "Claw",
+      "Dagger",
+      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
-      "Claw",
-      "Dagger"
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitAddedColdDamagePerDexterity1_"
@@ -5323,7 +5588,11 @@
   },
   {
     "item_classes": [
-      "Bow"
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitAddedColdDamagePerDexterity2"
@@ -5335,6 +5604,8 @@
   },
   {
     "item_classes": [
+      "Wand",
+      "Sceptre",
       "Dagger"
     ],
     "mods": [
@@ -5507,10 +5778,18 @@
       "Shield",
       "Quiver",
       "Claw",
-      "Sceptre",
       "Dagger",
       "Wand",
-      "Staff"
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitIntelligence1"
@@ -5529,10 +5808,18 @@
       "Shield",
       "Quiver",
       "Claw",
-      "Sceptre",
       "Dagger",
       "Wand",
-      "Staff"
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitIntelligence2_"
@@ -5551,10 +5838,18 @@
       "Shield",
       "Quiver",
       "Claw",
-      "Sceptre",
       "Dagger",
       "Wand",
-      "Staff"
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitIntelligence3_"
@@ -5573,10 +5868,18 @@
       "Shield",
       "Quiver",
       "Claw",
-      "Sceptre",
       "Dagger",
       "Wand",
-      "Staff"
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitIntelligence4"
@@ -5595,10 +5898,18 @@
       "Shield",
       "Quiver",
       "Claw",
-      "Sceptre",
       "Dagger",
       "Wand",
-      "Staff"
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre",
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitIntelligence5"
@@ -5652,9 +5963,13 @@
   {
     "item_classes": [
       "Claw",
-      "Sceptre",
       "Dagger",
-      "Wand"
+      "Wand",
+      "One Hand Sword",
+      "Thrusting One Hand Sword",
+      "One Hand Axe",
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitAddedLightningDamagePerIntelligence1"
@@ -5666,7 +5981,11 @@
   },
   {
     "item_classes": [
-      "Staff"
+      "Bow",
+      "Staff",
+      "Two Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitAddedLightningDamagePerIntelligence2"
@@ -5678,9 +5997,9 @@
   },
   {
     "item_classes": [
+      "Wand",
       "Sceptre",
-      "Dagger",
-      "Wand"
+      "Dagger"
     ],
     "mods": [
       "SynthesisImplicitSpellDamagePerIntelligence1"
@@ -6497,6 +6816,7 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
+      "Sceptre",
       "Bow",
       "Staff",
       "Two Hand Sword",
@@ -6525,6 +6845,7 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
+      "Sceptre",
       "Bow",
       "Staff",
       "Two Hand Sword",
@@ -6553,6 +6874,7 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
+      "Sceptre",
       "Bow",
       "Staff",
       "Two Hand Sword",
@@ -11076,7 +11398,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitLocalPhysicalDamage1"
@@ -11094,7 +11417,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitLocalPhysicalDamage2"
@@ -11112,7 +11436,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitLocalPhysicalDamage3"
@@ -11130,7 +11455,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitLocalPhysicalDamage4"
@@ -11148,7 +11474,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitLocalPhysicalDamage5"
@@ -13646,6 +13973,30 @@
   },
   {
     "item_classes": [
+      "Jewel"
+    ],
+    "mods": [
+      "SynthesisImplicitColdDamageJewel1"
+    ],
+    "stat": {
+      "id": "cold_non_ailment_damage_over_time_multiplier_+",
+      "value": 8
+    }
+  },
+  {
+    "item_classes": [
+      "Jewel"
+    ],
+    "mods": [
+      "SynthesisImplicitColdDamageJewel2_"
+    ],
+    "stat": {
+      "id": "cold_non_ailment_damage_over_time_multiplier_+",
+      "value": 25
+    }
+  },
+  {
+    "item_classes": [
       "Claw",
       "Dagger",
       "Wand",
@@ -14864,6 +15215,30 @@
   },
   {
     "item_classes": [
+      "Jewel"
+    ],
+    "mods": [
+      "SynthesisImplicitChaosDamageJewel1"
+    ],
+    "stat": {
+      "id": "chaos_non_ailment_damage_over_time_multiplier_+",
+      "value": 8
+    }
+  },
+  {
+    "item_classes": [
+      "Jewel"
+    ],
+    "mods": [
+      "SynthesisImplicitChaosDamageJewel2"
+    ],
+    "stat": {
+      "id": "chaos_non_ailment_damage_over_time_multiplier_+",
+      "value": 25
+    }
+  },
+  {
+    "item_classes": [
       "AbyssJewel"
     ],
     "mods": [
@@ -15294,7 +15669,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponFireDamage3"
@@ -15313,7 +15689,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponFireDamage4"
@@ -15332,7 +15709,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponFireDamage5",
@@ -15799,7 +16177,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponColdDamage3_"
@@ -15818,7 +16197,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponColdDamage4"
@@ -15837,7 +16217,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponColdDamage5",
@@ -16304,7 +16685,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponLightningDamage3_"
@@ -16323,7 +16705,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponLightningDamage4_"
@@ -16342,7 +16725,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponLightningDamage5_",
@@ -16616,7 +17000,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponPhysicalDamage1"
@@ -16635,7 +17020,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponPhysicalDamage2"
@@ -16654,7 +17040,8 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
-      "Sceptre"
+      "Sceptre",
+      "Shield"
     ],
     "mods": [
       "SynthesisImplicitWeaponPhysicalDamage3",
@@ -17268,7 +17655,6 @@
     "item_classes": [
       "Quiver",
       "Belt",
-      "Ring",
       "Amulet"
     ],
     "mods": [
@@ -17283,7 +17669,6 @@
     "item_classes": [
       "Quiver",
       "Belt",
-      "Ring",
       "Amulet"
     ],
     "mods": [
@@ -17298,7 +17683,6 @@
     "item_classes": [
       "Quiver",
       "Belt",
-      "Ring",
       "Amulet"
     ],
     "mods": [
@@ -17313,7 +17697,6 @@
     "item_classes": [
       "Quiver",
       "Belt",
-      "Ring",
       "Amulet"
     ],
     "mods": [
@@ -17341,19 +17724,6 @@
   },
   {
     "item_classes": [
-      "Ring"
-    ],
-    "mods": [
-      "SynthesisImplicitWeaponElementalDamage5",
-      "SynthesisImplicitCurseOnHitElementalWeakness1__"
-    ],
-    "stat": {
-      "id": "elemental_damage_with_attack_skills_+%",
-      "value": 200
-    }
-  },
-  {
-    "item_classes": [
       "Amulet"
     ],
     "mods": [
@@ -17372,6 +17742,67 @@
     "mods": [
       "SynthesisImplicitWeaponElementalDamage5",
       "SynthesisImplicitPhysicalDamageAddedAsRandomElement1"
+    ],
+    "stat": {
+      "id": "elemental_damage_with_attack_skills_+%",
+      "value": 200
+    }
+  },
+  {
+    "item_classes": [
+      "Ring"
+    ],
+    "mods": [
+      "SynthesisImplicitWeaponElementalDamage1_"
+    ],
+    "stat": {
+      "id": "elemental_damage_with_attack_skills_+%",
+      "value": 30
+    }
+  },
+  {
+    "item_classes": [
+      "Ring"
+    ],
+    "mods": [
+      "SynthesisImplicitWeaponElementalDamage2"
+    ],
+    "stat": {
+      "id": "elemental_damage_with_attack_skills_+%",
+      "value": 60
+    }
+  },
+  {
+    "item_classes": [
+      "Ring"
+    ],
+    "mods": [
+      "SynthesisImplicitWeaponElementalDamage3"
+    ],
+    "stat": {
+      "id": "elemental_damage_with_attack_skills_+%",
+      "value": 90
+    }
+  },
+  {
+    "item_classes": [
+      "Ring"
+    ],
+    "mods": [
+      "SynthesisImplicitWeaponElementalDamage4"
+    ],
+    "stat": {
+      "id": "elemental_damage_with_attack_skills_+%",
+      "value": 115
+    }
+  },
+  {
+    "item_classes": [
+      "Ring"
+    ],
+    "mods": [
+      "SynthesisImplicitWeaponElementalDamage5",
+      "SynthesisImplicitCurseOnHitElementalWeakness1__"
     ],
     "stat": {
       "id": "elemental_damage_with_attack_skills_+%",
@@ -23314,6 +23745,7 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
+      "Sceptre",
       "Bow",
       "Staff",
       "Two Hand Sword",
@@ -23338,6 +23770,7 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
+      "Sceptre",
       "Bow",
       "Staff",
       "Two Hand Sword",
@@ -23362,6 +23795,7 @@
       "Thrusting One Hand Sword",
       "One Hand Axe",
       "One Hand Mace",
+      "Sceptre",
       "Bow",
       "Staff",
       "Two Hand Sword",
@@ -27867,7 +28301,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitLocalAttackSpeed1_"
@@ -27883,7 +28318,8 @@
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace"
+      "One Hand Mace",
+      "Sceptre"
     ],
     "mods": [
       "SynthesisImplicitLocalAttackSpeed2"

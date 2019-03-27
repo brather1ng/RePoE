@@ -37337,7 +37337,24 @@
     "English": [
       {
         "condition": [
-          {}
+          {
+            "max": 99
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Slaying Enemies close together has a {0}% chance to attract monsters from Beyond"
+      },
+      {
+        "condition": [
+          {
+            "max": 100,
+            "min": 100
+          }
         ],
         "format": [
           "ignore"
@@ -37345,7 +37362,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Slaying Enemies close together can attract monsters from Beyond"
+        "string": "Slaying Enemies close together attracts monsters from Beyond"
       }
     ],
     "ids": [
@@ -119827,6 +119844,108 @@
       {
         "condition": [
           {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Magic Monsters drop an additional Currency Item"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Magic Monsters drop {0} additional Currency Items"
+      }
+    ],
+    "ids": [
+      "map_synthesised_magic_monster_drop_additional_currency"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Magic Monsters drop an additional Currency Shard"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Magic Monsters drop {0} additional Currency Shards"
+      }
+    ],
+    "ids": [
+      "map_synthesised_magic_monster_drop_additional_currency_shard"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Magic Monsters drop an additional Quality Currency Item"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Magic Monsters drop {0} additional Quality Currency Items"
+      }
+    ],
+    "ids": [
+      "map_synthesised_magic_monster_drop_additional_quality_currency"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
             "min": 1
           }
         ],
@@ -120993,6 +121112,142 @@
     ],
     "ids": [
       "map_synthesised_rare_monster_additional_veiled_item_drop_chance_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Rare Monsters drop an additional Breach Splinter"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Rare Monsters drop {0} additional Breach Splinters"
+      }
+    ],
+    "ids": [
+      "map_synthesised_rare_monster_drop_additional_breach_splinter"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Rare Monsters drop an additional Currency Item"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Rare Monsters drop {0} additional Currency Items"
+      }
+    ],
+    "ids": [
+      "map_synthesised_rare_monster_drop_additional_currency"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Rare Monsters drop an additional Currency Shard"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Rare Monsters drop {0} additional Currency Shards"
+      }
+    ],
+    "ids": [
+      "map_synthesised_rare_monster_drop_additional_currency_shard"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Rare Monsters drop an additional Quality Currency Item"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Synthesised Rare Monsters drop {0} additional Quality Currency Items"
+      }
+    ],
+    "ids": [
+      "map_synthesised_rare_monster_drop_additional_quality_currency"
     ]
   },
   {
@@ -130804,7 +131059,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants an additional Global Mod to Memories connected in a sequence to the Memory placed on this location"
+        "string": "Applies a Memory Modifier to Memories placed on or next to this location"
       },
       {
         "condition": [
@@ -130818,7 +131073,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants an additional {0} Global Mods to Memories connected in a sequence to the Memory placed on this location"
+        "string": "Applies {0} Memory Modifiers to Memories placed on or next to this location"
       }
     ],
     "ids": [
