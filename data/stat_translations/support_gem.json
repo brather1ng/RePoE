@@ -10549,14 +10549,51 @@
     "English": [
       {
         "condition": [
+          {},
           {
-            "max": -100
+            "min": 1
           }
         ],
         "format": [
+          "ignore",
           "ignore"
         ],
         "index_handlers": [
+          [],
+          []
+        ],
+        "string": "No Physical Damage"
+      },
+      {
+        "condition": [
+          {},
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "No Physical Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -100
+          },
+          {}
+        ],
+        "format": [
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
           []
         ],
         "string": "No Physical Damage"
@@ -10565,12 +10602,18 @@
         "condition": [
           {
             "min": 1
+          },
+          {
+            "max": 0,
+            "min": 0
           }
         ],
         "format": [
-          "#"
+          "#",
+          "ignore"
         ],
         "index_handlers": [
+          [],
           []
         ],
         "string": "{0}% increased Physical Damage"
@@ -10580,21 +10623,28 @@
           {
             "max": -1,
             "min": -99
+          },
+          {
+            "max": 0,
+            "min": 0
           }
         ],
         "format": [
-          "#"
+          "#",
+          "ignore"
         ],
         "index_handlers": [
           [
             "negate"
-          ]
+          ],
+          []
         ],
         "string": "{0}% reduced Physical Damage"
       }
     ],
     "ids": [
-      "local_physical_damage_+%"
+      "local_physical_damage_+%",
+      "local_weapon_no_physical_damage"
     ]
   },
   {
@@ -48384,7 +48434,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Cannot gain Power Charges"
+        "string": "Maximum Power Charges is 0"
       }
     ],
     "ids": [

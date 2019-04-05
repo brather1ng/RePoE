@@ -12062,6 +12062,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "disable_visual_hit_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "disable_weapons": {
     "alias": {},
     "is_aliased": false,
@@ -19007,6 +19012,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "intermediary_combined_action_speed_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "intermediary_fire_area_damage_to_deal_per_minute": {
     "alias": {},
     "is_aliased": false,
@@ -20082,11 +20092,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "leech_is_instant_on_critical": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "left_ring_is_elder_item": {
     "alias": {},
     "is_aliased": false,
@@ -20158,6 +20163,11 @@
     "is_local": false
   },
   "life_and_mana_leech_from_physical_damage_permyriad": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "life_and_mana_leech_is_instant_on_critical": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -25524,6 +25534,14 @@
     "is_aliased": true,
     "is_local": true
   },
+  "local_weapon_no_physical_damage": {
+    "alias": {
+      "when_in_main_hand": "main_hand_local_no_physical_damage",
+      "when_in_off_hand": "off_hand_local_no_physical_damage"
+    },
+    "is_aliased": true,
+    "is_local": true
+  },
   "local_weapon_range_+": {
     "alias": {
       "when_in_main_hand": "main_hand_weapon_range_+",
@@ -26058,6 +26076,11 @@
     "is_local": false
   },
   "main_hand_local_minimum_added_physical_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "main_hand_local_no_physical_damage": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -35875,6 +35898,11 @@
     "is_local": false
   },
   "off_hand_local_minimum_added_physical_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "off_hand_local_no_physical_damage": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
