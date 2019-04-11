@@ -138055,7 +138055,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Doubles the values of Global Mods affecting Memories placed on this location"
+        "string": "Doubles the values of Memory Modifiers affecting Memories placed on this location"
       }
     ],
     "ids": [
@@ -138208,7 +138208,7 @@
       }
     ],
     "ids": [
-      "synthesis_map_node_global_mod_values_trippled_if_adjacent_squares_have_memories"
+      "synthesis_map_node_global_mod_values_tripled_if_adjacent_squares_have_memories"
     ]
   },
   {
@@ -138264,6 +138264,25 @@
     ],
     "ids": [
       "synthesis_map_node_grants_no_global_mod"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Guest Monsters within Memories placed on this location are replaced by Synthesised Monsters"
+      }
+    ],
+    "ids": [
+      "synthesis_map_node_guest_monsters_replaced_by_synthesised_monsters"
     ]
   },
   {
@@ -138376,25 +138395,6 @@
     ],
     "ids": [
       "synthesis_map_node_pack_size_increases_doubled"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Guest Monsters within Memories placed on this location are replaced by Synthesised Monsters"
-      }
-    ],
-    "ids": [
-      "synthesis_map_node_signature_monsters_replaced_by_synthesised_monsters"
     ]
   },
   {
