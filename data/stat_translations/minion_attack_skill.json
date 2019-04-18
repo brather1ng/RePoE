@@ -19573,7 +19573,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_twelve"
+          ]
         ],
         "string": "{0}% increased Maximum total Recovery per second from Life Leech"
       },
@@ -19587,7 +19589,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_twelve"
+          ]
         ],
         "string": "{0}% reduced Maximum total Recovery per second from Life Leech"
       }
@@ -19719,7 +19723,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_six"
+          ]
         ],
         "string": "{0}% increased Maximum total Recovery per second from Energy Shield Leech while affected by Zealotry"
       }
@@ -136094,80 +136100,6 @@
           "#"
         ],
         "index_handlers": [
-          []
-        ],
-        "string": "Supported Skills have {0}% increased Minion Attack Speed"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Supported Skills have {0}% reduced Minion Attack Speed"
-      }
-    ],
-    "ids": [
-      "minion_attack_speed_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Supported Skills have {0}% increased Minion Cast Speed"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Supported Skills have {0}% reduced Minion Cast Speed"
-      }
-    ],
-    "ids": [
-      "minion_cast_speed_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
           [
             "milliseconds_to_seconds"
           ]
@@ -141487,6 +141419,80 @@
     ],
     "ids": [
       "doubles_have_movement_speed_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Minion Attack Speed"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Minion Attack Speed"
+      }
+    ],
+    "ids": [
+      "minion_attack_speed_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Minion Cast Speed"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Minion Cast Speed"
+      }
+    ],
+    "ids": [
+      "minion_cast_speed_+%"
     ]
   },
   {
@@ -148814,6 +148820,25 @@
     ],
     "ids": [
       "display_skill_minions_level_is_corpse_level"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Orbs jump every {0} seconds"
+      }
+    ],
+    "ids": [
+      "display_storm_burst_jump_time_ms"
     ]
   },
   {

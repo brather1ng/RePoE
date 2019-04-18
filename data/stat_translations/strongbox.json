@@ -21093,7 +21093,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_twelve"
+          ]
         ],
         "string": "{0}% increased Maximum total Recovery per second from Life Leech"
       },
@@ -21107,7 +21109,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_twelve"
+          ]
         ],
         "string": "{0}% reduced Maximum total Recovery per second from Life Leech"
       }
@@ -21239,7 +21243,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_six"
+          ]
         ],
         "string": "{0}% increased Maximum total Recovery per second from Energy Shield Leech while affected by Zealotry"
       }

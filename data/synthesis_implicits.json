@@ -5153,13 +5153,10 @@
   {
     "item_classes": [
       "Claw",
-      "Dagger",
-      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace",
-      "Sceptre"
+      "One Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitAddedFireDamagePerStrength1"
@@ -5172,7 +5169,6 @@
   {
     "item_classes": [
       "Bow",
-      "Staff",
       "Two Hand Sword",
       "Two Hand Axe",
       "Two Hand Mace"
@@ -5192,7 +5188,8 @@
       "Dagger"
     ],
     "mods": [
-      "SynthesisImplicitSpellDamagePerStrength1_"
+      "SynthesisImplicitSpellDamagePerStrength1_",
+      "SynthesisImplicitAddedFireDamagePerStrength1"
     ],
     "stat": {
       "id": "additional_strength",
@@ -5204,7 +5201,8 @@
       "Staff"
     ],
     "mods": [
-      "SynthesisImplicitSpellDamagePerStrength2_"
+      "SynthesisImplicitSpellDamagePerStrength2_",
+      "SynthesisImplicitAddedFireDamagePerStrength2"
     ],
     "stat": {
       "id": "additional_strength",
@@ -5570,13 +5568,10 @@
   {
     "item_classes": [
       "Claw",
-      "Dagger",
-      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace",
-      "Sceptre"
+      "One Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitAddedColdDamagePerDexterity1_"
@@ -5589,7 +5584,6 @@
   {
     "item_classes": [
       "Bow",
-      "Staff",
       "Two Hand Sword",
       "Two Hand Axe",
       "Two Hand Mace"
@@ -5609,7 +5603,8 @@
       "Dagger"
     ],
     "mods": [
-      "SynthesisImplicitSpellDamagePerDexterity1"
+      "SynthesisImplicitSpellDamagePerDexterity1",
+      "SynthesisImplicitAddedColdDamagePerDexterity1_"
     ],
     "stat": {
       "id": "additional_dexterity",
@@ -5963,13 +5958,10 @@
   {
     "item_classes": [
       "Claw",
-      "Dagger",
-      "Wand",
       "One Hand Sword",
       "Thrusting One Hand Sword",
       "One Hand Axe",
-      "One Hand Mace",
-      "Sceptre"
+      "One Hand Mace"
     ],
     "mods": [
       "SynthesisImplicitAddedLightningDamagePerIntelligence1"
@@ -5982,7 +5974,6 @@
   {
     "item_classes": [
       "Bow",
-      "Staff",
       "Two Hand Sword",
       "Two Hand Axe",
       "Two Hand Mace"
@@ -6002,7 +5993,8 @@
       "Dagger"
     ],
     "mods": [
-      "SynthesisImplicitSpellDamagePerIntelligence1"
+      "SynthesisImplicitSpellDamagePerIntelligence1",
+      "SynthesisImplicitAddedLightningDamagePerIntelligence1"
     ],
     "stat": {
       "id": "additional_intelligence",
@@ -6014,7 +6006,8 @@
       "Staff"
     ],
     "mods": [
-      "SynthesisImplicitSpellDamagePerIntelligence2"
+      "SynthesisImplicitSpellDamagePerIntelligence2",
+      "SynthesisImplicitAddedLightningDamagePerIntelligence2"
     ],
     "stat": {
       "id": "additional_intelligence",
@@ -6906,13 +6899,9 @@
   {
     "item_classes": [
       "Boots",
-      "One Hand Axe",
-      "One Hand Sword",
-      "One Hand Mace",
-      "Sceptre"
+      "One Hand Mace"
     ],
     "mods": [
-      "SynthesisImplicitAllAttributes3",
       "SynthesisImplicitEnduranceChargeOnKill1"
     ],
     "stat": {
@@ -6922,12 +6911,22 @@
   },
   {
     "item_classes": [
-      "Gloves",
-      "One Hand Axe",
       "One Hand Sword",
-      "Thrusting One Hand Sword",
-      "Claw",
-      "Dagger"
+      "One Hand Axe"
+    ],
+    "mods": [
+      "SynthesisImplicitEnduranceChargeOnKill1",
+      "SynthesisImplicitFrenzyChargeOnKill1"
+    ],
+    "stat": {
+      "id": "local_attribute_requirements_+%",
+      "value": -100
+    }
+  },
+  {
+    "item_classes": [
+      "Gloves",
+      "Thrusting One Hand Sword"
     ],
     "mods": [
       "SynthesisImplicitFrenzyChargeOnKill1"
@@ -6939,10 +6938,21 @@
   },
   {
     "item_classes": [
-      "Helmet",
       "Claw",
-      "Sceptre",
-      "Dagger",
+      "Dagger"
+    ],
+    "mods": [
+      "SynthesisImplicitFrenzyChargeOnKill1",
+      "SynthesisImplicitPowerChargeOnKill1"
+    ],
+    "stat": {
+      "id": "local_attribute_requirements_+%",
+      "value": -100
+    }
+  },
+  {
+    "item_classes": [
+      "Helmet",
       "Wand"
     ],
     "mods": [
@@ -6955,10 +6965,22 @@
   },
   {
     "item_classes": [
+      "Sceptre"
+    ],
+    "mods": [
+      "SynthesisImplicitPowerChargeOnKill1",
+      "SynthesisImplicitEnduranceChargeOnKill1"
+    ],
+    "stat": {
+      "id": "local_attribute_requirements_+%",
+      "value": -100
+    }
+  },
+  {
+    "item_classes": [
       "Two Hand Mace",
       "Two Hand Axe",
-      "Two Hand Sword",
-      "Staff"
+      "Two Hand Sword"
     ],
     "mods": [
       "SynthesisImplicitMaximumEnduranceCharge1"
@@ -6985,6 +7007,7 @@
       "Staff"
     ],
     "mods": [
+      "SynthesisImplicitMaximumEnduranceCharge1",
       "SynthesisImplicitMaximumPowerCharge1"
     ],
     "stat": {
@@ -7670,7 +7693,6 @@
   {
     "item_classes": [
       "Ring",
-      "Belt",
       "Quiver"
     ],
     "mods": [
