@@ -155,6 +155,7 @@ def write_base_items(data_path, relational_reader, ot_file_cache, **kwargs):
                 _convert_requirements(attribute_requirements[item_id], item['DropLevel']),
             'properties': properties,
             'release_state': get_release_state(item_id).name,
+            'domain': item['ModDomainsKey'].name.lower(),
         }
         _convert_flask_buff(flask_types[item_id], root[item_id])
 
