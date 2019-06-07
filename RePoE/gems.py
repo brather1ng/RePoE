@@ -195,6 +195,8 @@ class GemConverter:
                 r['damage_multiplier'] = gepl['DamageMultiplier']
             if gepl['CriticalStrikeChance'] > 0:
                 r['crit_chance'] = gepl['CriticalStrikeChance']
+            if gepl['AttackSpeedMultiplier'] != 0:
+                r['attack_speed_multiplier'] = gepl['AttackSpeedMultiplier']
             if gepl['VaalSouls'] > 0:
                 r['vaal'] = {
                     'souls': gepl['VaalSouls'],

@@ -52,6 +52,8 @@ recursion.
   Divide by 100 and add 100 to get as percentage.
 - `crit_chance`: Critical strike chance of the skill. Only set when not 0.
   Divide by 100 to get as percentage.
+- `attack_speed_multiplier`: Attack speed multiplier for attack skills. Only set when not 0.
+  Divide by 100 and add 1 to get a floating point multiplier.
 - `vaal`: Set for vaal skills. Contains the field `souls` and `stored_uses`.
 - `stats`: Array of the stats this skill provides. Each array element is an object
   containing the stat id (`id`) and value (`value`) of the stat at the given level.
