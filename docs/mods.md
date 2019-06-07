@@ -25,9 +25,9 @@ as value. That description object has the following fields:
   allies, it only affects the carrier. The buff referenced by the id specifies
   the stats of this mod that are applied to others and some information for
   display purposes.
-- `grants_effect`: Active gem and support gem like effects this mod gives.
+- `grants_effects`: Active gem and support gem like effects this mod gives.
   The two fields (`granted_effect_id` and `level`) identify a single row in
-  `GrantedEffectsPerLevel.dat`. These can be resolved with`gems.json`:
+  `GrantedEffectsPerLevel.dat`. These can be resolved with `gems.json`:
   `granted_effect_id` is a key in the root dictionary and `level` is a key in the 
   `per_level` object of the object for `granted_effect_id`.
 

@@ -170,6 +170,12 @@ class ActiveSkillType(IntEnum):
     boolean_and = 74
     # - Pops one value from the stack and pushes the inverted value
     boolean_not = 75
+    unknown_76 = 76
+    unknown_77 = 77
+    unknown_78 = 78
+    unknown_79 = 79
+    unknown_80 = 80
+    unknown_81 = 81
 
 
 @unique
@@ -210,6 +216,7 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemSlashTotem",
     "Metadata/Items/Gems/SkillGemBackstab",
     "Metadata/Items/Gems/SkillGemBladeTrap",
+    "Metadata/Items/Gems/SkillGemBlitz",
     "Metadata/Items/Gems/SkillGemCaptureMonster",
     "Metadata/Items/Gems/SkillGemComboStrike",
     "Metadata/Items/Gems/SkillGemDamageInfusion",
@@ -226,10 +233,13 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemNewBladeVortex",
     "Metadata/Items/Gems/SkillGemNewPunishment",
     "Metadata/Items/Gems/SkillGemNewShockNova",
+    "Metadata/Items/Gems/SkillGemQuickBlock",
     "Metadata/Items/Gems/SkillGemRendingSteel",
+    "Metadata/Items/Gems/SkillGemReplicate",
     "Metadata/Items/Gems/SkillGemRighteousLightning",
     "Metadata/Items/Gems/SkillGemRiptide",
     "Metadata/Items/Gems/SkillGemShadowBlades",
+    "Metadata/Items/Gems/SkillGemSliceAndDice",
     "Metadata/Items/Gems/SkillGemSnipe",
     "Metadata/Items/Gems/SkillGemSpectralSpinningWeapon",
     "Metadata/Items/Gems/SkillGemStaticTether",
@@ -282,5 +292,6 @@ UNIQUE_ONLY_ITEMS = {
     "Metadata/Items/Armours/Boots/BootsDemigods1",
     "Metadata/Items/Armours/BodyArmours/BodyDemigods1",
     "Metadata/Items/Armours/Gloves/GlovesDemigods1",
+    "Metadata/Items/Armours/Helmets/HelmetDemigods1",
     "Metadata/Items/Armours/Helmets/HelmetWreath1",
 }

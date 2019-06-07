@@ -2794,6 +2794,65 @@
           [],
           []
         ],
+        "string": "Blocks Attacks"
+      },
+      {
+        "condition": [
+          {
+            "max": 0,
+            "min": 0
+          },
+          {}
+        ],
+        "format": [
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "Blocks Spells"
+      },
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "Blocks Attacks and Spells"
+      }
+    ],
+    "ids": [
+      "monster_base_block_%",
+      "base_spell_block_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {
+            "max": 0,
+            "min": 0
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
         "string": "Dodges Attacks"
       },
       {

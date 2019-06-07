@@ -7760,6 +7760,35 @@
       "id": "HelmetAtlas1_"
     }
   },
+  "Metadata/Items/Armours/Helmets/HelmetDemigods1": {
+    "domain": "item",
+    "drop_level": 12,
+    "implicits": [
+      "AllResistancesImplictHelmetDemigods1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Golden Visage",
+    "properties": {},
+    "release_state": "unique_only",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 12,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/DemigodsImmortality.dds",
+      "id": "HelmetDemigods1_"
+    }
+  },
   "Metadata/Items/Armours/Helmets/HelmetDex1": {
     "domain": "item",
     "drop_level": 3,
@@ -13447,7 +13476,7 @@
     "name": "Splinter of Tul",
     "properties": {
       "description": "",
-      "directions": "Combine 100 splinters to create Tul's Breachstone.",
+      "directions": "Combine 100 Splinters to create Tul's Breachstone.",
       "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyBreachFragmentCold",
       "stack_size": 100,
       "stack_size_currency_tab": 5000
@@ -13474,7 +13503,7 @@
     "name": "Splinter of Xoph",
     "properties": {
       "description": "",
-      "directions": "Combine 100 splinters to create Xoph's Breachstone.",
+      "directions": "Combine 100 Splinters to create Xoph's Breachstone.",
       "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyBreachFragmentFire",
       "stack_size": 100,
       "stack_size_currency_tab": 5000
@@ -13501,7 +13530,7 @@
     "name": "Splinter of Esh",
     "properties": {
       "description": "",
-      "directions": "Combine 100 splinters to create Esh's Breachstone.",
+      "directions": "Combine 100 Splinters to create Esh's Breachstone.",
       "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyBreachFragmentLightning",
       "stack_size": 100,
       "stack_size_currency_tab": 5000
@@ -13528,7 +13557,7 @@
     "name": "Splinter of Uul-Netol",
     "properties": {
       "description": "",
-      "directions": "Combine 100 splinters to create Uul-Netol's Breachstone.",
+      "directions": "Combine 100 Splinters to create Uul-Netol's Breachstone.",
       "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyBreachFragmentPhysical",
       "stack_size": 100,
       "stack_size_currency_tab": 5000
@@ -13562,6 +13591,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breach_blessing",
       "currency",
       "default"
     ],
@@ -13587,6 +13617,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breach_blessing",
       "currency",
       "default"
     ],
@@ -13612,6 +13643,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breach_blessing",
       "currency",
       "default"
     ],
@@ -13637,6 +13669,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breach_blessing",
       "currency",
       "default"
     ],
@@ -13662,6 +13695,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "breach_blessing",
       "currency",
       "default"
     ],
@@ -17680,6 +17714,136 @@
       "id": "CurrencyEnchantment"
     }
   },
+  "Metadata/Items/Currency/CurrencyLegionEternalEmpireShard": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Timeless Eternal Empire Splinter",
+    "properties": {
+      "description": "",
+      "directions": "Combine 100 Splinters to create a Timeless Eternal Emblem.",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyLegionFragmentEternal",
+      "stack_size": 100,
+      "stack_size_currency_tab": 100
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/EternalEmpireShard.dds",
+      "id": "CurrencyLegionEternalShard"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyLegionKaruiShard": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Timeless Karui Splinter",
+    "properties": {
+      "description": "",
+      "directions": "Combine 100 Splinters to create a Timeless Karui Emblem.",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyLegionFragmentKarui",
+      "stack_size": 100,
+      "stack_size_currency_tab": 100
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/KaruiShard.dds",
+      "id": "CurrencyLegionKaruiShard"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyLegionMarakethShard": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Timeless Maraketh Splinter",
+    "properties": {
+      "description": "",
+      "directions": "Combine 100 Splinters to create a Timeless Maraketh Emblem.",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyLegionFragmentMaraketh",
+      "stack_size": 100,
+      "stack_size_currency_tab": 100
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/MarakethShard.dds",
+      "id": "CurrencyLegionMarakethShard"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyLegionTemplarShard": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Timeless Templar Splinter",
+    "properties": {
+      "description": "",
+      "directions": "Combine 100 Splinters to create a Timeless Templar Emblem.",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyLegionFragmentTemplar",
+      "stack_size": 100,
+      "stack_size_currency_tab": 100
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/TemplarShard.dds",
+      "id": "CurrencyLegionTemplarShard"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyLegionVaalShard": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Timeless Vaal Splinter",
+    "properties": {
+      "description": "",
+      "directions": "Combine 100 Splinters to create a Timeless Vaal Emblem.",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyLegionFragmentVaal",
+      "stack_size": 100,
+      "stack_size_currency_tab": 100
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/VaalShard.dds",
+      "id": "CurrencyLegionVaalShard"
+    }
+  },
   "Metadata/Items/Currency/CurrencyMapQuality": {
     "domain": "undefined",
     "drop_level": 52,
@@ -17937,7 +18101,7 @@
   },
   "Metadata/Items/Currency/CurrencyRerollMapType": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -20334,6 +20498,26 @@
       "id": "SkillGemBearTrap"
     }
   },
+  "Metadata/Items/Gems/SkillGemBerserk": {
+    "domain": "undefined",
+    "drop_level": 34,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Berserk",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BeserkGem.dds",
+      "id": "SkillGemBerserk"
+    }
+  },
   "Metadata/Items/Gems/SkillGemBladeTrap": {
     "domain": "undefined",
     "drop_level": 4,
@@ -20392,6 +20576,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/RainOfBlades.dds",
       "id": "SkillGemBladefall"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemBladestorm": {
+    "domain": "undefined",
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Bladestorm",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BladestormGem.dds",
+      "id": "SkillGemBladestorm"
     }
   },
   "Metadata/Items/Gems/SkillGemBlastRain": {
@@ -20454,6 +20658,46 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/BlinkArrow.dds",
       "id": "SkillGemBlinkArrow"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemBlitz": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "DNT Blitz",
+    "properties": {},
+    "release_state": "unreleased",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/QuakeSlam.dds",
+      "id": "SkillGemEarthquake"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemBloodAndSand": {
+    "domain": "undefined",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Blood and Sand",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BloodSandStanceGem.dds",
+      "id": "SkillGemBloodAndSand"
     }
   },
   "Metadata/Items/Gems/SkillGemBloodRage": {
@@ -20557,6 +20801,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/DetonateMines.dds",
       "id": "SkillGemDetonateMines"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemChainHook": {
+    "domain": "undefined",
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Chain Hook",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ChainStrikeGem.dds",
+      "id": "SkillGemChainStrike"
     }
   },
   "Metadata/Items/Gems/SkillGemChargedAttack": {
@@ -20961,6 +21225,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/DarkRitualGem.dds",
       "id": "SkillGemDarkRitual"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemDash": {
+    "domain": "undefined",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Dash",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/QuickDashGem.dds",
+      "id": "SkillGemDash"
     }
   },
   "Metadata/Items/Gems/SkillGemDecoyTotem": {
@@ -21698,6 +21982,26 @@
       "id": "SkillGemFlammability"
     }
   },
+  "Metadata/Items/Gems/SkillGemFleshAndStone": {
+    "domain": "undefined",
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Flesh and Stone",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BloodSandArmourGem.dds",
+      "id": "SkillGemFleshandStone"
+    }
+  },
   "Metadata/Items/Gems/SkillGemFleshOffering": {
     "domain": "undefined",
     "drop_level": 12,
@@ -21924,6 +22228,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/FrostBite.dds",
       "id": "SkillGemFrostbite"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemFrostblink": {
+    "domain": "undefined",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Frostblink",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/FrostblinkSkillGem.dds",
+      "id": "SkillGemFrostblink"
     }
   },
   "Metadata/Items/Gems/SkillGemGlacialCascade": {
@@ -22985,6 +23309,26 @@
       "id": "SkillGemOrbOfStorms"
     }
   },
+  "Metadata/Items/Gems/SkillGemPerforate": {
+    "domain": "undefined",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Perforate",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BloodSandSpearsSkillGem.dds",
+      "id": "SkillGemBloodSpears"
+    }
+  },
   "Metadata/Items/Gems/SkillGemPhaseRun": {
     "domain": "undefined",
     "drop_level": 34,
@@ -23107,6 +23451,46 @@
       "id": "SkillGemPowerSiphon"
     }
   },
+  "Metadata/Items/Gems/SkillGemPrecision": {
+    "domain": "undefined",
+    "drop_level": 10,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Precision",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/AccuracyandCriticalChanceAura.dds",
+      "id": "SkillGemPrecision"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemPride": {
+    "domain": "undefined",
+    "drop_level": 24,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Pride",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/PrideAuraGem.dds",
+      "id": "SkillGemPride"
+    }
+  },
   "Metadata/Items/Gems/SkillGemProjectileWeakness": {
     "domain": "undefined",
     "drop_level": 24,
@@ -23206,6 +23590,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Purity.dds",
       "id": "SkillGemPurity"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemQuickBlock": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "[DNT] Quick Block",
+    "properties": {},
+    "release_state": "unreleased",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/WhirlingBlades.dds",
+      "id": "SkillGemWhirlingBlades_"
     }
   },
   "Metadata/Items/Gems/SkillGemRainOfArrows": {
@@ -23390,6 +23794,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/LancingSteel.dds",
       "id": "SkillGemLancingSteel_"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemReplicate": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "[DNT] Replicate",
+    "properties": {},
+    "release_state": "unreleased",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/DexterityGem.dds",
+      "id": "SkillGemReplicate"
     }
   },
   "Metadata/Items/Gems/SkillGemRighteousFire": {
@@ -23718,6 +24142,26 @@
       "id": "SkillGemAncestralSlasher"
     }
   },
+  "Metadata/Items/Gems/SkillGemSliceAndDice": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "[DNT] Slice And Dice",
+    "properties": {},
+    "release_state": "unreleased",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/StrengthGem.dds",
+      "id": "SkillGemSliceAndDice"
+    }
+  },
   "Metadata/Items/Gems/SkillGemSmite": {
     "domain": "undefined",
     "drop_level": 5,
@@ -23940,6 +24384,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/LighteningTouch.dds",
       "id": "SkillGemLightningTendrils"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemSteelskin": {
+    "domain": "undefined",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Steelskin",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/QuickGuardGem.dds",
+      "id": "SkillGemSteelskin"
     }
   },
   "Metadata/Items/Gems/SkillGemStormBrand": {
@@ -26100,6 +26564,27 @@
       "id": "SupportGemChaosAttacks"
     }
   },
+  "Metadata/Items/Gems/SupportGemCloseCombat": {
+    "domain": "undefined",
+    "drop_level": 18,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Close Combat Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/CloseCombat.dds",
+      "id": "SupportGemCloseCombat"
+    }
+  },
   "Metadata/Items/Gems/SupportGemClusterTrap": {
     "domain": "undefined",
     "drop_level": 38,
@@ -26730,6 +27215,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/Immolate.dds",
       "id": "SupportGemImmolate"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemImpale": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Impale Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/impale.dds",
+      "id": "SupportGemImpale"
     }
   },
   "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect": {
@@ -27547,6 +28053,48 @@
       "id": "SupportGemPowerChargeOnCrit"
     }
   },
+  "Metadata/Items/Gems/SupportGemPulverise": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Pulverise Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/Pulverize.dds",
+      "id": "SupportGemPulverise"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemRage": {
+    "domain": "undefined",
+    "drop_level": 18,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Rage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/RageSupport.dds",
+      "id": "SupportGemRage"
+    }
+  },
   "Metadata/Items/Gems/SupportGemRangedAttackTotem": {
     "domain": "undefined",
     "drop_level": 8,
@@ -27696,6 +28244,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/Ruthless.dds",
       "id": "SupportGemRuthless_"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemShockwave": {
+    "domain": "undefined",
+    "drop_level": 18,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Shockwave Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/Shockwave.dds",
+      "id": "SupportGemShockwave"
     }
   },
   "Metadata/Items/Gems/SupportGemSlowerProjectiles": {
@@ -27878,7 +28447,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "Summon Phantasm on Kill Support",
+    "name": "Summon Phantasm Support",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -28267,6 +28836,30 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Jewels/basicstr.dds",
       "id": "JewelStr"
+    }
+  },
+  "Metadata/Items/Jewels/JewelTimeless": {
+    "domain": "misc",
+    "drop_level": 20,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Jewel",
+    "name": "Timeless Jewel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewel",
+      "intjewel",
+      "dexjewel",
+      "strjewel",
+      "not_for_sale",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Jewels/Timeless.dds",
+      "id": "JewelTimeless"
     }
   },
   "Metadata/Items/Quivers/Quiver1": {
@@ -29069,7 +29662,7 @@
       "critical_strike_chance": 620,
       "physical_damage_max": 11,
       "physical_damage_min": 4,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29105,7 +29698,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 51,
       "physical_damage_min": 15,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29141,7 +29734,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 43,
       "physical_damage_min": 23,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29177,7 +29770,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 53,
       "physical_damage_min": 20,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29213,7 +29806,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 68,
       "physical_damage_min": 26,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29249,7 +29842,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 56,
       "physical_damage_min": 21,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29285,7 +29878,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 69,
       "physical_damage_min": 17,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29321,7 +29914,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 78,
       "physical_damage_min": 30,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29357,7 +29950,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 73,
       "physical_damage_min": 21,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29393,7 +29986,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 55,
       "physical_damage_min": 29,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29429,7 +30022,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 68,
       "physical_damage_min": 26,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29461,11 +30054,11 @@
     "item_class": "Claw",
     "name": "Sharktooth Claw",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 667,
       "critical_strike_chance": 650,
-      "physical_damage_max": 18,
-      "physical_damage_min": 7,
-      "range": 9
+      "physical_damage_max": 17,
+      "physical_damage_min": 6,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29501,7 +30094,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 76,
       "physical_damage_min": 29,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29537,7 +30130,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 65,
       "physical_damage_min": 25,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29573,7 +30166,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 71,
       "physical_damage_min": 18,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29605,11 +30198,11 @@
     "item_class": "Claw",
     "name": "Awl",
     "properties": {
-      "attack_time": 667,
+      "attack_time": 645,
       "critical_strike_chance": 630,
-      "physical_damage_max": 24,
+      "physical_damage_max": 23,
       "physical_damage_min": 7,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29645,7 +30238,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 22,
       "physical_damage_min": 12,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29677,11 +30270,11 @@
     "item_class": "Claw",
     "name": "Blinder",
     "properties": {
-      "attack_time": 667,
+      "attack_time": 645,
       "critical_strike_chance": 630,
-      "physical_damage_max": 32,
+      "physical_damage_max": 31,
       "physical_damage_min": 12,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29717,7 +30310,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 43,
       "physical_damage_min": 16,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29753,7 +30346,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 38,
       "physical_damage_min": 14,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29789,7 +30382,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 46,
       "physical_damage_min": 12,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29825,7 +30418,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 53,
       "physical_damage_min": 20,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29861,7 +30454,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 44,
       "physical_damage_min": 15,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29899,7 +30492,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 64,
       "physical_damage_min": 21,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29937,7 +30530,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 68,
       "physical_damage_min": 23,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -29975,7 +30568,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 10,
       "physical_damage_min": 6,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30009,9 +30602,9 @@
     "properties": {
       "attack_time": 714,
       "critical_strike_chance": 630,
-      "physical_damage_max": 59,
+      "physical_damage_max": 62,
       "physical_damage_min": 7,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30047,7 +30640,7 @@
       "critical_strike_chance": 610,
       "physical_damage_max": 52,
       "physical_damage_min": 13,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30083,7 +30676,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 59,
       "physical_damage_min": 15,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30119,7 +30712,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 75,
       "physical_damage_min": 19,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30155,7 +30748,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 64,
       "physical_damage_min": 16,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30191,7 +30784,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 87,
       "physical_damage_min": 22,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30223,11 +30816,11 @@
     "item_class": "Dagger",
     "name": "Gutting Knife",
     "properties": {
-      "attack_time": 833,
-      "critical_strike_chance": 600,
-      "physical_damage_max": 97,
-      "physical_damage_min": 24,
-      "range": 8
+      "attack_time": 714,
+      "critical_strike_chance": 650,
+      "physical_damage_max": 76,
+      "physical_damage_min": 19,
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30263,7 +30856,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 86,
       "physical_damage_min": 10,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30299,7 +30892,7 @@
       "critical_strike_chance": 610,
       "physical_damage_max": 74,
       "physical_damage_min": 19,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30335,7 +30928,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 79,
       "physical_damage_min": 20,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30367,11 +30960,11 @@
     "item_class": "Dagger",
     "name": "Skinning Knife",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 690,
       "critical_strike_chance": 600,
-      "physical_damage_max": 19,
-      "physical_damage_min": 5,
-      "range": 8
+      "physical_damage_max": 17,
+      "physical_damage_min": 4,
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30407,7 +31000,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 95,
       "physical_damage_min": 24,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30439,11 +31032,11 @@
     "item_class": "Dagger",
     "name": "Imperial Skean",
     "properties": {
-      "attack_time": 690,
+      "attack_time": 667,
       "critical_strike_chance": 630,
-      "physical_damage_max": 76,
-      "physical_damage_min": 19,
-      "range": 8
+      "physical_damage_max": 73,
+      "physical_damage_min": 18,
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30479,7 +31072,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 97,
       "physical_damage_min": 24,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30511,11 +31104,11 @@
     "item_class": "Dagger",
     "name": "Carving Knife",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 690,
       "critical_strike_chance": 630,
-      "physical_damage_max": 27,
+      "physical_damage_max": 26,
       "physical_damage_min": 3,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30551,7 +31144,7 @@
       "critical_strike_chance": 610,
       "physical_damage_max": 27,
       "physical_damage_min": 7,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30583,11 +31176,11 @@
     "item_class": "Dagger",
     "name": "Boot Knife",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 690,
       "critical_strike_chance": 630,
-      "physical_damage_max": 35,
-      "physical_damage_min": 9,
-      "range": 8
+      "physical_damage_max": 34,
+      "physical_damage_min": 8,
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30619,11 +31212,11 @@
     "item_class": "Dagger",
     "name": "Copper Kris",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 769,
       "critical_strike_chance": 650,
-      "physical_damage_max": 46,
-      "physical_damage_min": 12,
-      "range": 8
+      "physical_damage_max": 41,
+      "physical_damage_min": 10,
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30659,7 +31252,7 @@
       "critical_strike_chance": 630,
       "physical_damage_max": 43,
       "physical_damage_min": 11,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30695,7 +31288,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 59,
       "physical_damage_min": 15,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30718,7 +31311,7 @@
   },
   "Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger9": {
     "domain": "item",
-    "drop_level": 35,
+    "drop_level": 30,
     "implicits": [
       "CriticalStrikeChanceImplicitDaggerNew1"
     ],
@@ -30727,17 +31320,17 @@
     "item_class": "Dagger",
     "name": "Flaying Knife",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 714,
       "critical_strike_chance": 600,
-      "physical_damage_max": 64,
-      "physical_damage_min": 16,
-      "range": 8
+      "physical_damage_max": 45,
+      "physical_damage_min": 11,
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
-      "dexterity": 73,
-      "intelligence": 51,
-      "level": 35,
+      "dexterity": 64,
+      "intelligence": 44,
+      "level": 30,
       "strength": 0
     },
     "tags": [
@@ -30763,11 +31356,11 @@
     "item_class": "Dagger",
     "name": "Prong Dagger",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 741,
       "critical_strike_chance": 620,
-      "physical_damage_max": 57,
+      "physical_damage_max": 54,
       "physical_damage_min": 14,
-      "range": 8
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30792,7 +31385,7 @@
   },
   "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerM2": {
     "domain": "item",
-    "drop_level": 55,
+    "drop_level": 51,
     "implicits": [
       "BlockPercentMarakethDaggerImplicit1"
     ],
@@ -30801,17 +31394,17 @@
     "item_class": "Dagger",
     "name": "Trisula",
     "properties": {
-      "attack_time": 769,
-      "critical_strike_chance": 620,
-      "physical_damage_max": 83,
-      "physical_damage_min": 21,
-      "range": 8
+      "attack_time": 741,
+      "critical_strike_chance": 650,
+      "physical_damage_max": 74,
+      "physical_damage_min": 19,
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
-      "dexterity": 89,
-      "intelligence": 106,
-      "level": 55,
+      "dexterity": 83,
+      "intelligence": 99,
+      "level": 51,
       "strength": 0
     },
     "tags": [
@@ -30839,11 +31432,11 @@
     "item_class": "Dagger",
     "name": "Sai",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 741,
       "critical_strike_chance": 620,
-      "physical_damage_max": 90,
-      "physical_damage_min": 23,
-      "range": 8
+      "physical_damage_max": 88,
+      "physical_damage_min": 22,
+      "range": 10
     },
     "release_state": "released",
     "requirements": {
@@ -30879,7 +31472,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 11,
       "physical_damage_min": 6,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -30913,7 +31506,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 46,
       "physical_damage_min": 25,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -30947,7 +31540,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 79,
       "physical_damage_min": 26,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -30981,7 +31574,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 65,
       "physical_damage_min": 35,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31015,7 +31608,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 71,
       "physical_damage_min": 24,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31049,7 +31642,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 83,
       "physical_damage_min": 45,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31083,7 +31676,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 75,
       "physical_damage_min": 45,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31117,7 +31710,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 77,
       "physical_damage_min": 49,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31151,7 +31744,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 70,
       "physical_damage_min": 38,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31185,7 +31778,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 114,
       "physical_damage_min": 38,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31219,7 +31812,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 87,
       "physical_damage_min": 47,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31249,11 +31842,11 @@
     "item_class": "One Hand Axe",
     "name": "Jade Hatchet",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 16,
+      "physical_damage_max": 15,
       "physical_damage_min": 10,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31287,7 +31880,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 90,
       "physical_damage_min": 30,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31321,7 +31914,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 100,
       "physical_damage_min": 54,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31355,7 +31948,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 85,
       "physical_damage_min": 51,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31389,7 +31982,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 21,
       "physical_damage_min": 11,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31419,11 +32012,11 @@
     "item_class": "One Hand Axe",
     "name": "Cleaver",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 39,
-      "physical_damage_min": 13,
-      "range": 9
+      "physical_damage_max": 35,
+      "physical_damage_min": 12,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31453,11 +32046,11 @@
     "item_class": "One Hand Axe",
     "name": "Broad Axe",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 741,
       "critical_strike_chance": 500,
-      "physical_damage_max": 36,
-      "physical_damage_min": 20,
-      "range": 9
+      "physical_damage_max": 34,
+      "physical_damage_min": 19,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31491,7 +32084,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 42,
       "physical_damage_min": 14,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31525,7 +32118,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 50,
       "physical_damage_min": 27,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31559,7 +32152,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 48,
       "physical_damage_min": 29,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31593,7 +32186,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 50,
       "physical_damage_min": 32,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31629,7 +32222,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 46,
       "physical_damage_min": 26,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31667,7 +32260,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 71,
       "physical_damage_min": 40,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31705,7 +32298,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 79,
       "physical_damage_min": 44,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31743,7 +32336,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 8,
       "physical_damage_min": 6,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31779,7 +32372,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 42,
       "physical_damage_min": 33,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31815,7 +32408,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 69,
       "physical_damage_min": 37,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31851,7 +32444,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 59,
       "physical_damage_min": 25,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31887,7 +32480,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 63,
       "physical_damage_min": 38,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31923,7 +32516,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 67,
       "physical_damage_min": 53,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31959,7 +32552,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 69,
       "physical_damage_min": 33,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -31995,7 +32588,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 80,
       "physical_damage_min": 48,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32031,7 +32624,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 62,
       "physical_damage_min": 49,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32067,7 +32660,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 101,
       "physical_damage_min": 54,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32103,7 +32696,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 81,
       "physical_damage_min": 35,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32135,11 +32728,11 @@
     "item_class": "One Hand Mace",
     "name": "Tribal Club",
     "properties": {
-      "attack_time": 741,
+      "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 14,
-      "physical_damage_min": 9,
-      "range": 9
+      "physical_damage_max": 13,
+      "physical_damage_min": 8,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32175,7 +32768,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 82,
       "physical_damage_min": 49,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32211,7 +32804,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 82,
       "physical_damage_min": 65,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32247,7 +32840,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 80,
       "physical_damage_min": 38,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32279,11 +32872,11 @@
     "item_class": "One Hand Mace",
     "name": "Spiked Club",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 17,
+      "physical_damage_max": 16,
       "physical_damage_min": 13,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32315,11 +32908,11 @@
     "item_class": "One Hand Mace",
     "name": "Stone Hammer",
     "properties": {
-      "attack_time": 870,
+      "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 32,
-      "physical_damage_min": 17,
-      "range": 9
+      "physical_damage_max": 27,
+      "physical_damage_min": 15,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32351,11 +32944,11 @@
     "item_class": "One Hand Mace",
     "name": "War Hammer",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 32,
-      "physical_damage_min": 14,
-      "range": 9
+      "physical_damage_max": 31,
+      "physical_damage_min": 13,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32387,11 +32980,11 @@
     "item_class": "One Hand Mace",
     "name": "Bladed Mace",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 36,
-      "physical_damage_min": 22,
-      "range": 9
+      "physical_damage_max": 32,
+      "physical_damage_min": 19,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32427,7 +33020,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 40,
       "physical_damage_min": 32,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32463,7 +33056,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 43,
       "physical_damage_min": 21,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32499,7 +33092,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 51,
       "physical_damage_min": 31,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32535,7 +33128,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 42,
       "physical_damage_min": 28,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32573,7 +33166,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 66,
       "physical_damage_min": 44,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32611,7 +33204,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 74,
       "physical_damage_min": 49,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32645,11 +33238,11 @@
     "item_class": "Sceptre",
     "name": "Driftwood Sceptre",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 645,
       "critical_strike_chance": 600,
-      "physical_damage_max": 9,
-      "physical_damage_min": 6,
-      "range": 9
+      "physical_damage_max": 8,
+      "physical_damage_min": 5,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32686,7 +33279,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 55,
       "physical_damage_min": 30,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32723,7 +33316,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 52,
       "physical_damage_min": 35,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32760,7 +33353,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 57,
       "physical_damage_min": 38,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32797,7 +33390,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 55,
       "physical_damage_min": 30,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32834,7 +33427,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 80,
       "physical_damage_min": 34,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32871,7 +33464,7 @@
       "critical_strike_chance": 620,
       "physical_damage_max": 67,
       "physical_damage_min": 45,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32908,7 +33501,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 55,
       "physical_damage_min": 37,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32945,7 +33538,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 80,
       "physical_damage_min": 43,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -32982,7 +33575,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 73,
       "physical_damage_min": 49,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33019,7 +33612,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 76,
       "physical_damage_min": 51,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33056,7 +33649,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 12,
       "physical_damage_min": 8,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33093,7 +33686,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 70,
       "physical_damage_min": 37,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33130,7 +33723,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 95,
       "physical_damage_min": 41,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33167,7 +33760,7 @@
       "critical_strike_chance": 620,
       "physical_damage_max": 76,
       "physical_damage_min": 50,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33200,11 +33793,11 @@
     "item_class": "Sceptre",
     "name": "Bronze Sceptre",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 714,
       "critical_strike_chance": 600,
-      "physical_damage_max": 23,
-      "physical_damage_min": 12,
-      "range": 9
+      "physical_damage_max": 19,
+      "physical_damage_min": 10,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33237,11 +33830,11 @@
     "item_class": "Sceptre",
     "name": "Quartz Sceptre",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 714,
       "critical_strike_chance": 650,
-      "physical_damage_max": 26,
-      "physical_damage_min": 17,
-      "range": 9
+      "physical_damage_max": 22,
+      "physical_damage_min": 14,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33274,11 +33867,11 @@
     "item_class": "Sceptre",
     "name": "Iron Sceptre",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 714,
       "critical_strike_chance": 600,
-      "physical_damage_max": 32,
-      "physical_damage_min": 21,
-      "range": 9
+      "physical_damage_max": 27,
+      "physical_damage_min": 18,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33311,11 +33904,11 @@
     "item_class": "Sceptre",
     "name": "Ochre Sceptre",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 690,
       "critical_strike_chance": 600,
-      "physical_damage_max": 32,
+      "physical_damage_max": 31,
       "physical_damage_min": 17,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33352,7 +33945,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 50,
       "physical_damage_min": 21,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33389,7 +33982,7 @@
       "critical_strike_chance": 620,
       "physical_damage_max": 44,
       "physical_damage_min": 29,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33426,7 +34019,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 36,
       "physical_damage_min": 24,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33463,7 +34056,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 50,
       "physical_damage_min": 27,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33502,7 +34095,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 72,
       "physical_damage_min": 39,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33541,7 +34134,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 78,
       "physical_damage_min": 42,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33576,11 +34169,11 @@
     "item_class": "One Hand Sword",
     "name": "Rusted Sword",
     "properties": {
-      "attack_time": 690,
+      "attack_time": 645,
       "critical_strike_chance": 500,
-      "physical_damage_max": 10,
+      "physical_damage_max": 9,
       "physical_damage_min": 4,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33616,7 +34209,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 53,
       "physical_damage_min": 13,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33652,7 +34245,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 53,
       "physical_damage_min": 37,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33688,7 +34281,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 70,
       "physical_damage_min": 38,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33724,7 +34317,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 66,
       "physical_damage_min": 36,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33760,7 +34353,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 55,
       "physical_damage_min": 34,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33796,7 +34389,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 86,
       "physical_damage_min": 30,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33832,7 +34425,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 83,
       "physical_damage_min": 39,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33868,7 +34461,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 80,
       "physical_damage_min": 20,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33904,7 +34497,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 78,
       "physical_damage_min": 54,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33940,7 +34533,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 98,
       "physical_damage_min": 53,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -33972,11 +34565,11 @@
     "item_class": "One Hand Sword",
     "name": "Copper Sword",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 667,
       "critical_strike_chance": 500,
-      "physical_damage_max": 15,
-      "physical_damage_min": 7,
-      "range": 9
+      "physical_damage_max": 14,
+      "physical_damage_min": 6,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34012,7 +34605,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 86,
       "physical_damage_min": 46,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34048,7 +34641,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 68,
       "physical_damage_min": 41,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34084,7 +34677,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 99,
       "physical_damage_min": 35,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34120,7 +34713,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 22,
       "physical_damage_min": 5,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34152,11 +34745,11 @@
     "item_class": "One Hand Sword",
     "name": "Broad Sword",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 25,
-      "physical_damage_min": 17,
-      "range": 9
+      "physical_damage_max": 21,
+      "physical_damage_min": 15,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34188,11 +34781,11 @@
     "item_class": "One Hand Sword",
     "name": "War Sword",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 37,
-      "physical_damage_min": 20,
-      "range": 9
+      "physical_damage_max": 30,
+      "physical_damage_min": 16,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34224,11 +34817,11 @@
     "item_class": "One Hand Sword",
     "name": "Ancient Sword",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 38,
-      "physical_damage_min": 20,
-      "range": 9
+      "physical_damage_max": 33,
+      "physical_damage_min": 18,
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34264,7 +34857,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 33,
       "physical_damage_min": 20,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34300,7 +34893,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 54,
       "physical_damage_min": 19,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34336,7 +34929,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 53,
       "physical_damage_min": 25,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34372,7 +34965,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 60,
       "physical_damage_min": 28,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34410,7 +35003,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 94,
       "physical_damage_min": 44,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34448,7 +35041,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 105,
       "physical_damage_min": 49,
-      "range": 9
+      "range": 11
     },
     "release_state": "released",
     "requirements": {
@@ -34482,11 +35075,11 @@
     "item_class": "Thrusting One Hand Sword",
     "name": "Rusted Spike",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 645,
       "critical_strike_chance": 550,
-      "physical_damage_max": 13,
+      "physical_damage_max": 11,
       "physical_damage_min": 5,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34523,7 +35116,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 46,
       "physical_damage_min": 25,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34560,7 +35153,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 50,
       "physical_damage_min": 21,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34597,7 +35190,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 49,
       "physical_damage_min": 21,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34634,7 +35227,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 73,
       "physical_damage_min": 18,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34671,7 +35264,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 51,
       "physical_damage_min": 28,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34708,7 +35301,7 @@
       "critical_strike_chance": 570,
       "physical_damage_max": 67,
       "physical_damage_min": 29,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34745,7 +35338,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 75,
       "physical_damage_min": 19,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34782,7 +35375,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 65,
       "physical_damage_min": 35,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34819,7 +35412,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 69,
       "physical_damage_min": 29,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34856,7 +35449,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 64,
       "physical_damage_min": 27,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34889,11 +35482,11 @@
     "item_class": "Thrusting One Hand Sword",
     "name": "Whalebone Rapier",
     "properties": {
-      "attack_time": 645,
+      "attack_time": 625,
       "critical_strike_chance": 550,
-      "physical_damage_max": 18,
+      "physical_damage_max": 17,
       "physical_damage_min": 4,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34930,7 +35523,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 87,
       "physical_damage_min": 22,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -34967,7 +35560,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 60,
       "physical_damage_min": 32,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35004,7 +35597,7 @@
       "critical_strike_chance": 570,
       "physical_damage_max": 72,
       "physical_damage_min": 31,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35037,11 +35630,11 @@
     "item_class": "Thrusting One Hand Sword",
     "name": "Battered Foil",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 667,
       "critical_strike_chance": 600,
-      "physical_damage_max": 22,
-      "physical_damage_min": 12,
-      "range": 12
+      "physical_damage_max": 20,
+      "physical_damage_min": 11,
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35074,11 +35667,11 @@
     "item_class": "Thrusting One Hand Sword",
     "name": "Basket Rapier",
     "properties": {
-      "attack_time": 667,
+      "attack_time": 645,
       "critical_strike_chance": 550,
-      "physical_damage_max": 26,
+      "physical_damage_max": 25,
       "physical_damage_min": 11,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35115,7 +35708,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 29,
       "physical_damage_min": 12,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35152,7 +35745,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 46,
       "physical_damage_min": 12,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35189,7 +35782,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 33,
       "physical_damage_min": 18,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35226,7 +35819,7 @@
       "critical_strike_chance": 570,
       "physical_damage_max": 44,
       "physical_damage_min": 19,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35263,7 +35856,7 @@
       "critical_strike_chance": 550,
       "physical_damage_max": 51,
       "physical_damage_min": 13,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35300,7 +35893,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 40,
       "physical_damage_min": 19,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35339,7 +35932,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 60,
       "physical_damage_min": 29,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -35378,7 +35971,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 66,
       "physical_damage_min": 32,
-      "range": 12
+      "range": 14
     },
     "release_state": "released",
     "requirements": {
@@ -36124,7 +36717,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 13,
       "physical_damage_min": 7,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37059,7 +37652,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 17,
       "physical_damage_min": 8,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37083,7 +37676,7 @@
   },
   "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff10": {
     "domain": "item",
-    "drop_level": 45,
+    "drop_level": 41,
     "implicits": [
       "StaffBlockPercentImplicitStaff1"
     ],
@@ -37092,18 +37685,18 @@
     "item_class": "Staff",
     "name": "Military Staff",
     "properties": {
-      "attack_time": 833,
-      "critical_strike_chance": 640,
-      "physical_damage_max": 101,
-      "physical_damage_min": 34,
-      "range": 11
+      "attack_time": 800,
+      "critical_strike_chance": 660,
+      "physical_damage_max": 98,
+      "physical_damage_min": 33,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
       "dexterity": 0,
-      "intelligence": 78,
-      "level": 45,
-      "strength": 78
+      "intelligence": 72,
+      "level": 41,
+      "strength": 72
     },
     "tags": [
       "staff",
@@ -37128,11 +37721,11 @@
     "item_class": "Staff",
     "name": "Serpentine Staff",
     "properties": {
-      "attack_time": 833,
-      "critical_strike_chance": 600,
-      "physical_damage_max": 95,
-      "physical_damage_min": 46,
-      "range": 11
+      "attack_time": 800,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 100,
+      "physical_damage_min": 48,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37168,7 +37761,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 125,
       "physical_damage_min": 42,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37200,11 +37793,11 @@
     "item_class": "Staff",
     "name": "Foul Staff",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 769,
       "critical_strike_chance": 610,
-      "physical_damage_max": 103,
-      "physical_damage_min": 55,
-      "range": 11
+      "physical_damage_max": 104,
+      "physical_damage_min": 56,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37240,7 +37833,7 @@
       "critical_strike_chance": 620,
       "physical_damage_max": 141,
       "physical_damage_min": 47,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37263,7 +37856,7 @@
   },
   "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff15": {
     "domain": "item",
-    "drop_level": 60,
+    "drop_level": 62,
     "implicits": [
       "StaffBlockPercentImplicitStaff1"
     ],
@@ -37276,13 +37869,13 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 103,
       "physical_damage_min": 62,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
       "dexterity": 0,
       "intelligence": 113,
-      "level": 60,
+      "level": 62,
       "strength": 113
     },
     "tags": [
@@ -37299,7 +37892,7 @@
   },
   "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff16": {
     "domain": "item",
-    "drop_level": 62,
+    "drop_level": 60,
     "implicits": [
       "StaffBlockPercentImplicitStaff1"
     ],
@@ -37308,17 +37901,17 @@
     "item_class": "Staff",
     "name": "Ezomyte Staff",
     "properties": {
-      "attack_time": 833,
-      "critical_strike_chance": 640,
-      "physical_damage_max": 138,
+      "attack_time": 800,
+      "critical_strike_chance": 700,
+      "physical_damage_max": 137,
       "physical_damage_min": 46,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
       "dexterity": 0,
       "intelligence": 113,
-      "level": 62,
+      "level": 60,
       "strength": 113
     },
     "tags": [
@@ -37344,11 +37937,11 @@
     "item_class": "Staff",
     "name": "Maelstr\u00f6m Staff",
     "properties": {
-      "attack_time": 833,
-      "critical_strike_chance": 600,
-      "physical_damage_max": 119,
-      "physical_damage_min": 57,
-      "range": 11
+      "attack_time": 800,
+      "critical_strike_chance": 650,
+      "physical_damage_max": 126,
+      "physical_damage_min": 61,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37381,10 +37974,10 @@
     "name": "Imperial Staff",
     "properties": {
       "attack_time": 870,
-      "critical_strike_chance": 650,
+      "critical_strike_chance": 700,
       "physical_damage_max": 147,
       "physical_damage_min": 49,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37416,11 +38009,11 @@
     "item_class": "Staff",
     "name": "Judgement Staff",
     "properties": {
-      "attack_time": 800,
-      "critical_strike_chance": 610,
-      "physical_damage_max": 113,
-      "physical_damage_min": 61,
-      "range": 11
+      "attack_time": 769,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 117,
+      "physical_damage_min": 63,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37452,11 +38045,11 @@
     "item_class": "Staff",
     "name": "Primitive Staff",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 769,
       "critical_strike_chance": 620,
-      "physical_damage_max": 28,
+      "physical_damage_max": 27,
       "physical_damage_min": 9,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37479,7 +38072,7 @@
   },
   "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff3": {
     "domain": "item",
-    "drop_level": 13,
+    "drop_level": 18,
     "implicits": [
       "StaffBlockPercentImplicitStaff1"
     ],
@@ -37490,16 +38083,16 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 600,
-      "physical_damage_max": 28,
-      "physical_damage_min": 17,
-      "range": 11
+      "physical_damage_max": 35,
+      "physical_damage_min": 21,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
       "dexterity": 0,
-      "intelligence": 27,
-      "level": 13,
-      "strength": 27
+      "intelligence": 35,
+      "level": 18,
+      "strength": 35
     },
     "tags": [
       "staff",
@@ -37515,7 +38108,7 @@
   },
   "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff4": {
     "domain": "item",
-    "drop_level": 18,
+    "drop_level": 13,
     "implicits": [
       "StaffBlockPercentImplicitStaff1"
     ],
@@ -37524,18 +38117,18 @@
     "item_class": "Staff",
     "name": "Iron Staff",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 769,
       "critical_strike_chance": 640,
-      "physical_damage_max": 47,
-      "physical_damage_min": 16,
-      "range": 11
+      "physical_damage_max": 36,
+      "physical_damage_min": 12,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
       "dexterity": 0,
-      "intelligence": 35,
-      "level": 18,
-      "strength": 35
+      "intelligence": 27,
+      "level": 13,
+      "strength": 27
     },
     "tags": [
       "staff",
@@ -37560,11 +38153,11 @@
     "item_class": "Staff",
     "name": "Coiled Staff",
     "properties": {
-      "attack_time": 833,
-      "critical_strike_chance": 600,
-      "physical_damage_max": 48,
-      "physical_damage_min": 23,
-      "range": 11
+      "attack_time": 769,
+      "critical_strike_chance": 620,
+      "physical_damage_max": 49,
+      "physical_damage_min": 24,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37600,7 +38193,7 @@
       "critical_strike_chance": 650,
       "physical_damage_max": 70,
       "physical_damage_min": 23,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37632,11 +38225,11 @@
     "item_class": "Staff",
     "name": "Vile Staff",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 769,
       "critical_strike_chance": 610,
-      "physical_damage_max": 62,
-      "physical_damage_min": 33,
-      "range": 11
+      "physical_damage_max": 65,
+      "physical_damage_min": 35,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37672,7 +38265,7 @@
       "critical_strike_chance": 620,
       "physical_damage_max": 88,
       "physical_damage_min": 29,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37695,7 +38288,7 @@
   },
   "Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff9": {
     "domain": "item",
-    "drop_level": 41,
+    "drop_level": 45,
     "implicits": [
       "StaffBlockPercentImplicitStaff1"
     ],
@@ -37706,16 +38299,16 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 600,
-      "physical_damage_max": 68,
-      "physical_damage_min": 41,
-      "range": 11
+      "physical_damage_max": 73,
+      "physical_damage_min": 44,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
       "dexterity": 0,
-      "intelligence": 72,
-      "level": 41,
-      "strength": 72
+      "intelligence": 78,
+      "level": 45,
+      "strength": 78
     },
     "tags": [
       "staff",
@@ -37744,7 +38337,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 73,
       "physical_damage_min": 35,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37782,7 +38375,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 118,
       "physical_damage_min": 57,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37820,7 +38413,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 125,
       "physical_damage_min": 60,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37856,7 +38449,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 17,
       "physical_damage_min": 10,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37890,7 +38483,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 79,
       "physical_damage_min": 53,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37924,7 +38517,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 105,
       "physical_damage_min": 63,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37958,7 +38551,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 88,
       "physical_damage_min": 65,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -37992,7 +38585,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 104,
       "physical_damage_min": 69,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38026,7 +38619,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 125,
       "physical_damage_min": 80,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38060,7 +38653,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 128,
       "physical_damage_min": 62,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38094,7 +38687,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 108,
       "physical_damage_min": 72,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38128,7 +38721,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 131,
       "physical_damage_min": 79,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38162,7 +38755,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 103,
       "physical_damage_min": 76,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38196,7 +38789,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 114,
       "physical_damage_min": 76,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38226,11 +38819,11 @@
     "item_class": "Two Hand Axe",
     "name": "Jade Chopper",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 27,
-      "physical_damage_min": 17,
-      "range": 11
+      "physical_damage_max": 25,
+      "physical_damage_min": 16,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38260,11 +38853,11 @@
     "item_class": "Two Hand Axe",
     "name": "Woodsplitter",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 35,
-      "physical_damage_min": 17,
-      "range": 11
+      "physical_damage_max": 33,
+      "physical_damage_min": 16,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38298,7 +38891,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 37,
       "physical_damage_min": 25,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38328,11 +38921,11 @@
     "item_class": "Two Hand Axe",
     "name": "Double Axe",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 54,
-      "physical_damage_min": 32,
-      "range": 11
+      "physical_damage_max": 51,
+      "physical_damage_min": 31,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38366,7 +38959,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 50,
       "physical_damage_min": 37,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38400,7 +38993,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 62,
       "physical_damage_min": 42,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38434,7 +39027,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 78,
       "physical_damage_min": 50,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38468,7 +39061,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 85,
       "physical_damage_min": 41,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38504,7 +39097,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 71,
       "physical_damage_min": 45,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38542,7 +39135,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 118,
       "physical_damage_min": 75,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38580,7 +39173,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 125,
       "physical_damage_min": 80,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38618,7 +39211,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 13,
       "physical_damage_min": 9,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38654,7 +39247,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 70,
       "physical_damage_min": 47,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38690,7 +39283,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 88,
       "physical_damage_min": 47,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38726,7 +39319,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 92,
       "physical_damage_min": 62,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38762,7 +39355,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 89,
       "physical_damage_min": 66,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38798,7 +39391,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 118,
       "physical_damage_min": 79,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38834,7 +39427,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 118,
       "physical_damage_min": 57,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38870,7 +39463,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 100,
       "physical_damage_min": 67,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38906,7 +39499,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 117,
       "physical_damage_min": 63,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38942,7 +39535,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 111,
       "physical_damage_min": 74,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -38978,7 +39571,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 102,
       "physical_damage_min": 75,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39010,11 +39603,11 @@
     "item_class": "Two Hand Mace",
     "name": "Tribal Maul",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 23,
-      "physical_damage_min": 15,
-      "range": 11
+      "physical_damage_max": 21,
+      "physical_damage_min": 14,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39046,11 +39639,11 @@
     "item_class": "Two Hand Mace",
     "name": "Mallet",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 30,
-      "physical_damage_min": 15,
-      "range": 11
+      "physical_damage_max": 29,
+      "physical_damage_min": 14,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39086,7 +39679,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 32,
       "physical_damage_min": 21,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39118,11 +39711,11 @@
     "item_class": "Two Hand Mace",
     "name": "Jagged Maul",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 45,
-      "physical_damage_min": 24,
-      "range": 11
+      "physical_damage_max": 42,
+      "physical_damage_min": 23,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39158,7 +39751,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 51,
       "physical_damage_min": 34,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39194,7 +39787,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 53,
       "physical_damage_min": 39,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39230,7 +39823,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 73,
       "physical_damage_min": 49,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39266,7 +39859,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 76,
       "physical_damage_min": 37,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39302,7 +39895,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 58,
       "physical_damage_min": 39,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39340,7 +39933,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 97,
       "physical_damage_min": 64,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39378,7 +39971,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 110,
       "physical_damage_min": 74,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39416,7 +40009,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 13,
       "physical_damage_min": 7,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39452,7 +40045,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 72,
       "physical_damage_min": 39,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39488,7 +40081,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 87,
       "physical_damage_min": 42,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39524,7 +40117,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 76,
       "physical_damage_min": 46,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39560,7 +40153,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 93,
       "physical_damage_min": 45,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39596,7 +40189,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 109,
       "physical_damage_min": 47,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39632,7 +40225,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 86,
       "physical_damage_min": 52,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39668,7 +40261,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 102,
       "physical_damage_min": 55,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39704,7 +40297,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 113,
       "physical_damage_min": 55,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39740,7 +40333,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 94,
       "physical_damage_min": 57,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39776,7 +40369,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 108,
       "physical_damage_min": 52,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39808,11 +40401,11 @@
     "item_class": "Two Hand Sword",
     "name": "Longsword",
     "properties": {
-      "attack_time": 741,
+      "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 24,
+      "physical_damage_max": 23,
       "physical_damage_min": 10,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39848,7 +40441,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 25,
       "physical_damage_min": 15,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39880,11 +40473,11 @@
     "item_class": "Two Hand Sword",
     "name": "Two-Handed Sword",
     "properties": {
-      "attack_time": 741,
+      "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 34,
-      "physical_damage_min": 19,
-      "range": 11
+      "physical_damage_max": 33,
+      "physical_damage_min": 18,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39916,11 +40509,11 @@
     "item_class": "Two Hand Sword",
     "name": "Etched Greatsword",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 46,
-      "physical_damage_min": 22,
-      "range": 11
+      "physical_damage_max": 41,
+      "physical_damage_min": 20,
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39956,7 +40549,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 43,
       "physical_damage_min": 26,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -39992,7 +40585,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 56,
       "physical_damage_min": 27,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -40028,7 +40621,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 68,
       "physical_damage_min": 29,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -40064,7 +40657,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 56,
       "physical_damage_min": 34,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -40098,7 +40691,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 1,
       "physical_damage_min": 1,
-      "range": 11
+      "range": 13
     },
     "release_state": "unreleased",
     "requirements": {
@@ -40135,7 +40728,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 58,
       "physical_damage_min": 35,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -40173,7 +40766,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 89,
       "physical_damage_min": 54,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -40211,7 +40804,7 @@
       "critical_strike_chance": 600,
       "physical_damage_max": 94,
       "physical_damage_min": 56,
-      "range": 11
+      "range": 13
     },
     "release_state": "released",
     "requirements": {
@@ -40249,7 +40842,7 @@
       "critical_strike_chance": 500,
       "physical_damage_max": 11,
       "physical_damage_min": 5,
-      "range": 9
+      "range": 11
     },
     "release_state": "unique_only",
     "requirements": {

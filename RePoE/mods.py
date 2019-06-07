@@ -53,10 +53,10 @@ def _convert_granted_effects(granted_effects_per_level):
     if granted_effects_per_level is None:
         return {}
     # These two identify a row in GrantedEffectsPerLevel.dat
-    return {
-        'granted_effect_id': granted_effects_per_level['GrantedEffectsKey']['Id'],
-        'level': granted_effects_per_level['Level']
-    }
+    return [{
+        'granted_effect_id': gepl['GrantedEffectsKey']['Id'],
+        'level': gepl['Level']
+    } for gepl in granted_effects_per_level]
 
 
 def _convert_tags_keys(tags_keys):
@@ -94,7 +94,7 @@ def write_mods(data_path, relational_reader, **kwargs):
             'spawn_weights': _convert_spawn_weights(mod['SpawnWeight']),
             'generation_weights': _convert_generation_weights(mod['GenerationWeight']),
             'grants_buff': _convert_buff(mod['BuffDefinitionsKey'], mod['BuffValue']),
-            'grants_effect': _convert_granted_effects(mod['GrantedEffectsPerLevelKey']),
+            'grants_effects': _convert_granted_effects(mod['GrantedEffectsPerLevelKeys']),
             'is_essence_only': mod['IsEssenceOnlyModifier'] > 0,
             'adds_tags': _convert_tags_keys(mod['TagsKeys'])
         }
