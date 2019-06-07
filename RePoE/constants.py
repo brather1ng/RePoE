@@ -41,8 +41,8 @@ class ActiveSkillType(IntEnum):
     # Set for Herald of Ash, which cannot hit but causes elemental status effects (implicit in hit);
     # allows Elemental Proliferation Support
     explicit_causes_elemental_status = 17
-    # Skill summons mobs
-    summons_mobs = 18
+    # Skill summons minions and can be supported by Concentrated Effect Support and Increased Area of Effect Support
+    aoe_supportable_minion = 18
     # Gem tag equivalent
     chaining = 19
     # Gem tag equivalent
@@ -65,117 +65,124 @@ class ActiveSkillType(IntEnum):
     # Gem tag equivalent
     curse = 28
     # Gem tag equivalent
-    fire = 29
+    physical = 29
     # Gem tag equivalent
-    cold = 30
+    fire = 30
     # Gem tag equivalent
-    lightning = 31
+    cold = 31
+    # Gem tag equivalent
+    lightning = 32
     # Skill can be triggered by trigger gems
-    triggerable = 32
+    triggerable = 33
     # Gem tag equivalent
-    trap = 33
+    trap = 34
     # Gem tag equivalent
-    movement = 34
+    movement = 35
     # Skill directly deals damage over time
-    deals_damage_over_time = 35
+    deals_damage_over_time = 36
     # Gem tag equivalent
-    mine = 36
+    mine = 37
     # Skill is triggered
-    triggered = 37
+    triggered = 38
     # Gem tag equivalent
-    vaal = 38
+    vaal = 39
     # Gem tag equivalent
-    aura = 39
+    aura = 40
     # Unused for skill gems
-    unknown_40 = 40
+    unknown_41 = 41
     # Skill is a projectile attack;
     # allows Iron Grip, Physical Projectile Attack Damage and Point Blank Support
-    projectile_attack = 41
+    projectile_attack = 42
     # Gem tag equivalent
-    chaos = 42
+    chaos = 43
     # Unused for processed active skills; excluded by Faster and Slower Projectiles Support
-    unknown_43 = 43
+    unknown_44 = 44
     # Set for Burning Arrow, Cleave, Dual Strike, Glacial Hammer, Vigilant Strike;
     # these have threshold jewels that add AoE components;
     # allows Increased AoE and Concentrated Effect Support
-    can_have_aoe = 44
+    can_have_aoe = 45
     # Set in minion_types for skills that summon minions that might use projectile skills, e.g. Animate Weapon.
     # Allows the same support gems as the projectile tag.
-    minion_maybe_projectile = 45
+    minion_maybe_projectile = 46
     # Set for Burning Arrow, Vaal Burning Arrow;
     # these have threshold jewels that add duration components;
     # allows Increased/Less Duration and Rapid Decay Support
-    can_have_duration = 46
+    can_have_duration = 47
     # Set for Animate Weapon and related item skills (the triggered version, Animate Guardian's Weapon).
     # Allows some projectile and attack related supports.
-    animate_weapon = 47
+    animate_weapon = 48
     # Gem tag equivalent
-    channelling = 48
+    channelling = 49
     # Allows Controlled Destruction Support for skills that don't have attack or hits but should be supportable, e.g.
     # Blight. Also allows Iron Will Support. Only Siphoning Trap has this tag and not iron_will_supportable_not_hit.
-    controlled_destruction_supportable_not_hit = 49
+    controlled_destruction_supportable_not_hit = 50
     # Set for automatically triggered spells granted by item;
     # prevents Cast on/when/while x, Spell Totem, Remote Mine and Trap Support
-    trigger_item_granted = 50
+    trigger_item_granted = 51
     # Gem tag equivalent
-    golem = 51
+    golem = 52
     # Gem tag equivalent
-    herald = 52
+    herald = 53
     # Used for Death's Oath's aura and added by Blasphemy
-    aura_debuff = 53
+    aura_debuff = 54
     # Skill can not be supported by Ruthless Support. Only used for Cyclone and Vaal Cyclone.
-    not_ruthless_supportable = 54
+    not_ruthless_supportable = 55
     # Set for the minions of Summon Skeleton and Vaal Summon Skeletons; required by Iron Will Support
-    iron_will_supportable_minion = 55
+    iron_will_supportable_minion = 56
     # Skill can be supported by Spell Cascade Support. Seems to be only set for very few spells?
-    spell_cascade_supportable = 56
+    spell_cascade_supportable = 57
     # Skill can be supported by Volley Support
-    volley_supportable = 57
+    volley_supportable = 58
     # Skill can be supported by Mirage Archer Support
-    mirage_archer_supportable = 58
+    mirage_archer_supportable = 59
     # Set for Vaal Fireball and Vaal Spark, disallows Volley Support
-    volley_exclude_66 = 59
+    volley_exclude_60 = 60
     # Set for Spectral Shield Throw, disallows Volley Support
-    volley_exclude_67 = 60
+    volley_exclude_61 = 61
     # Set for Manifest Dancing Dervish, disallows Summon Phantasm on Kill Support
-    phantasm_on_kill_exclude = 61
+    phantasm_on_kill_exclude = 62
     # Set for Rain of Arrows and Vaal Rain of Arrows, allows Lesser and Greater Multiple Projectiles
-    rain_of_arrows = 62
+    rain_of_arrows = 63
     # Gem tag equivalent
-    warcry = 63
+    warcry = 64
     # Skill cast is instant
-    instant = 64
+    instant = 65
     # Set for the brand skills, not Brand Recall
-    brand = 65
+    brand = 66
     # Set for Detonated Dead, unknown purpose
-    unknown_66 = 66
+    unknown_67 = 67
     # Skill chills without counting as a hit
-    non_hit_chill = 67
+    non_hit_chill = 68
     # Skill creates chilling areas
-    chilling_area = 68
+    chilling_area = 69
     # Skill is a Curse (compared to "curse", Bane and Raise Spectre's minions don't have this)
-    curse_skill = 69
+    curse_skill = 70
     # Skill can be supported by Unleash Support
-    unleash_supportable = 70
+    unleash_supportable = 71
     # Added and allowed by SupportAuraDuration, not used anywhere else.
-    unknown_71 = 71
+    unknown_72 = 72
     # Skill can be supported by Intensify Support
-    intensify_supportable = 72
-    # These three types change how allowed_types of support gems are interpreted. The allowed_types are processed in
+    intensify_supportable = 73
+    # These three types change how allowed_types and excluded_types of support gems are interpreted. The types are
+    # processed in
     # order. Except for the following three, they are checked against the active skill's types and the result (true or
     # false) is pushed onto a stack. These three types instead change the values that are already on the stack:
     # - Pops two values from the stack and pushes the result of or'ing them
-    boolean_or = 73
+    boolean_or = 74
     # - Pops two values from the stack and pushes the result of and'ing them
-    boolean_and = 74
+    boolean_and = 75
     # - Pops one value from the stack and pushes the inverted value
-    boolean_not = 75
-    unknown_76 = 76
-    unknown_77 = 77
-    unknown_78 = 78
-    unknown_79 = 79
-    unknown_80 = 80
-    unknown_81 = 81
+    boolean_not = 76
+    # Skill is no attack but can be supported by Maim Support
+    maim_supportable_aura = 77
+    # Skill summons mions
+    summons_minions = 78
+    # Gem tag equivalent
+    guard = 79
+    # Gem tag equivalent
+    travel = 80
+    # Gem tag equivalent
+    blink = 81
 
 
 @unique
