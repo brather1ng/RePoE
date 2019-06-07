@@ -11,8 +11,6 @@ from RePoE.item_classes import write_item_classes
 from RePoE.mods import write_mods
 from RePoE.stat_translations import write_stat_translations
 from RePoE.stats import write_stats
-from RePoE.synthesis_corrupted_implicits import write_synthesis_corrupted_implicits
-from RePoE.synthesis_implicits import write_synthesis_implicits
 from RePoE.tags import write_tags
 from RePoE.fossils import write_fossils
 from RePoE.mod_types import write_types
@@ -37,8 +35,6 @@ def main(data_path='../data/'):
         'characters': write_characters,
         'fossils': write_fossils,
         'types': write_types,
-        'synthesis_implicits': write_synthesis_implicits,
-        'synthesis_corrupted_implicits': write_synthesis_corrupted_implicits,
         # todo 'buffs': BuffDefinitions.dat?
     }
 
