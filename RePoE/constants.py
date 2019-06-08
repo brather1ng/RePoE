@@ -292,6 +292,7 @@ UNIQUE_ONLY_ITEMS = {
     "Metadata/Items/Quivers/Quiver14",  # Ornate Quiver, base for Maloney's Mechanism
     "Metadata/Items/Quivers/QuiverDescent",  # Base for a Descent only unique
     "Metadata/Items/Jewels/JewelPrismatic",
+    "Metadata/Items/Jewels/JewelTimeless",
     # Race rewards (bases of Demigod uniques)
     "Metadata/Items/Belts/BeltDemigods1",
     "Metadata/Items/Rings/RingDemigods1",
