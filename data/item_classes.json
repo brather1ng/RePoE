@@ -54,6 +54,11 @@
     "name": "Delve Socketable Currency",
     "shaper_tag": null
   },
+  "DelveStackableSocketableCurrency": {
+    "elder_tag": null,
+    "name": "Delve Stackable Socketable Currency",
+    "shaper_tag": null
+  },
   "DivinationCard": {
     "elder_tag": null,
     "name": "Divination Card",
@@ -194,6 +199,11 @@
     "name": "Rings",
     "shaper_tag": "ring_shaper"
   },
+  "Rune Dagger": {
+    "elder_tag": "dagger_elder",
+    "name": "Rune Dagger",
+    "shaper_tag": "dagger_shaper"
+  },
   "Sceptre": {
     "elder_tag": "sceptre_elder",
     "name": "Sceptres",
@@ -254,6 +264,16 @@
     "name": "Piece",
     "shaper_tag": null
   },
+  "UniqueShard": {
+    "elder_tag": null,
+    "name": "Shard",
+    "shaper_tag": null
+  },
+  "UniqueShardBase": {
+    "elder_tag": null,
+    "name": "Shard Heart",
+    "shaper_tag": null
+  },
   "UtilityFlask": {
     "elder_tag": null,
     "name": "Utility Flasks",
@@ -268,5 +288,10 @@
     "elder_tag": "wand_elder",
     "name": "Wands",
     "shaper_tag": "wand_shaper"
+  },
+  "Warstaff": {
+    "elder_tag": "staff_elder",
+    "name": "Warstaff",
+    "shaper_tag": "staff_shaper"
   }
 }

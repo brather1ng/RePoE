@@ -105,9 +105,9 @@ def get_release_state(item_id):
 
 
 ITEM_CLASS_WHITELIST = {
-    "LifeFlask", "ManaFlask", "HybridFlask", "Currency", "Amulet", "Ring", "Claw", "Dagger",
+    "LifeFlask", "ManaFlask", "HybridFlask", "Currency", "Amulet", "Ring", "Claw", "Dagger", "Rune Dagger",
     "Wand", "One Hand Sword", "Thrusting One Hand Sword", "One Hand Axe", "One Hand Mace", "Bow",
-    "Staff", "Two Hand Sword", "Two Hand Axe", "Two Hand Mace", "Active Skill Gem",
+    "Staff", "Warstaff", "Two Hand Sword", "Two Hand Axe", "Two Hand Mace", "Active Skill Gem",
     "Support Skill Gem", "Quiver", "Belt", "Gloves", "Boots", "Body Armour", "Helmet", "Shield",
     "StackableCurrency", "Sceptre", "UtilityFlask", "UtilityFlaskCritical", "FishingRod",
     "Jewel", "AbyssJewel",
