@@ -38,28 +38,18 @@ def main(data_path='../data/'):
         # todo 'buffs': BuffDefinitions.dat?
     }
 
-    # parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
-    # parser.add_argument('modules', metavar="module", nargs='+', choices=modules.keys(),
-    #                     help="the converter modules to run (choose from '" + "', '".join(modules.keys()) + "')")
-    # parser.add_argument('-f', '--file', default=DEFAULT_GGPK_PATH,
-    #                     help="path to your Content.ggpk file")
-    # args = parser.parse_args()
-    #
-    # print("Loading GGPK ...", end='', flush=True)
-    # ggpk = load_ggpk(args.file)
-    # print(" Done!")
-    #
-    #
-    #
-    #
-    # selected_modules = args.modules
+    parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
+    parser.add_argument('modules', metavar="module", nargs='+', choices=modules.keys(),
+                        help="the converter modules to run (choose from '" + "', '".join(modules.keys()) + "')")
+    parser.add_argument('-f', '--file', default=DEFAULT_GGPK_PATH,
+                        help="path to your Content.ggpk file")
+    args = parser.parse_args()
 
-    selected_modules = [module for module in modules]
-    selected_modules.remove('all')
-    # selected_modules.remove('crafting_bench_options')
-    print(selected_modules)
-    ggpk = load_ggpk("/media/nick/3CA0B85BA0B81D78/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk")
+    print("Loading GGPK ...", end='', flush=True)
+    ggpk = load_ggpk(args.file)
+    print(" Done!")
 
+    selected_modules = args.modules
     if 'all' in selected_modules:
         selected_modules = [m for m in modules if m != 'all']
 
