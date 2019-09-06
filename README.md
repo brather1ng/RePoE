@@ -53,8 +53,6 @@ The following data is currently available:
   auxillary effects of the fossils.
 - `mod_types.json`: Describes the types of mods with sell price information and the tags
   relevant for fossil crafting.
-- `synthesis_implicits.json` and `synthesis_corrupted_implicits.json`: Describes which mods
-  can appear on which item classes as implicits through synthesis. 
 
 
 ## Running RePoE

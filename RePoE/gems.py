@@ -195,6 +195,8 @@ class GemConverter:
                 r['damage_multiplier'] = gepl['DamageMultiplier']
             if gepl['CriticalStrikeChance'] > 0:
                 r['crit_chance'] = gepl['CriticalStrikeChance']
+            if gepl['AttackSpeedMultiplier'] != 0:
+                r['attack_speed_multiplier'] = gepl['AttackSpeedMultiplier']
             if gepl['VaalSouls'] > 0:
                 r['vaal'] = {
                     'souls': gepl['VaalSouls'],
@@ -581,16 +583,17 @@ def write_gems(ggpk, data_path, relational_reader, translation_file_cache, **kwa
 
     # Skills from mods
     for mod in relational_reader['Mods.dat']:
-        if mod['GrantedEffectsPerLevelKey'] is None:
+        if mod['GrantedEffectsPerLevelKeys'] is None:
             continue
         if ignore_mod_domain(mod['Domain']):
             continue
-        granted_effect = mod['GrantedEffectsPerLevelKey']['GrantedEffectsKey']
-        ge_id = granted_effect['Id']
-        if ge_id in gems:
-            # mod effects may exist as gems, those are handled above
-            continue
-        gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
+        for granted_effect_per_level in mod['GrantedEffectsPerLevelKeys']:
+            granted_effect = granted_effect_per_level['GrantedEffectsKey']
+            ge_id = granted_effect['Id']
+            if ge_id in gems:
+                # mod effects may exist as gems, those are handled above
+                continue
+            gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
 
     # Default Attack/PlayerMelee is neither gem nor mod effect
     for granted_effect in relational_reader['GrantedEffects.dat']:

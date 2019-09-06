@@ -109,6 +109,7 @@ WRITTEN_FILES = {
     ('banner_aura_skill_stat_descriptions.txt', '/banner_aura_skill'),
     ('beam_skill_stat_descriptions.txt', '/beam_skill'),
     ('brand_skill_stat_descriptions.txt', '/brand_skill'),
+    ('buff_skill_stat_descriptions.txt', '/buff_skill'),
     ('curse_skill_stat_descriptions.txt', '/curse_skill'),
     ('debuff_skill_stat_descriptions.txt', '/debuff_skill'),
     ('minion_skill_stat_descriptions.txt', '/minion_skill'),

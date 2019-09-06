@@ -61,3 +61,8 @@ the base item as a value. The description object has the following fields:
   - `id`: The provided buff's id (resolved in `BuffDefinitions.dat`).
   - `stats`: An object with the stats (their ids) provided by the buff as keys and the
      stat values as values.
+- `domain`: The domain of this item. Only mods with the same domain can regularly spawn
+  on the item. Things like crafted mods, corruptions or delve mods have their own domains
+  and are not affected by this. See 
+  [`PyPoE.poe.constants.MOD_DOMAIN`](http://omegak2.net/poe/PyPoE/_autosummary/PyPoE.poe.constants.html#PyPoE.poe.constants.MOD_DOMAIN)
+  for the possible values and explanation.
