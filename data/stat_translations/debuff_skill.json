@@ -12461,25 +12461,6 @@
         "index_handlers": [
           []
         ],
-        "string": "{0} to Damage over Time Multiplier for Poison from Critical Strikes"
-      }
-    ],
-    "ids": [
-      "critical_poison_dot_multiplier_+"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "+#%"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "{0} to Damage over Time Multiplier for Poison"
       }
     ],
@@ -95851,7 +95832,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Your Shock Nova Towers have {0}% increased Range"
+        "string": "Your Lightning Storm Towers have {0}% increased Range"
       },
       {
         "condition": [
@@ -95867,7 +95848,7 @@
             "negate"
           ]
         ],
-        "string": "Your Shock Nova Towers have {0}% reduced Range"
+        "string": "Your Lightning Storm Towers have {0}% reduced Range"
       }
     ],
     "ids": [
@@ -97191,7 +97172,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Your Summoning Towers have{0}% increased Range"
+        "string": "Your Summoning Towers have {0}% increased Range"
       },
       {
         "condition": [
@@ -154724,43 +154705,6 @@
     "English": [
       {
         "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% more Poison Duration"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "{0}% less Poison Duration"
-      }
-    ],
-    "ids": [
-      "active_skill_poison_duration_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {}
         ],
         "format": [
@@ -155739,43 +155683,6 @@
         "index_handlers": [
           []
         ],
-        "string": "Mines have {0}% increased Detonation Speed"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Mines have {0}% reduced Detonation Speed"
-      }
-    ],
-    "ids": [
-      "mine_detonation_speed_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "{0}% increased Mine duration"
       },
       {
@@ -156273,29 +156180,6 @@
     ],
     "ids": [
       "projectiles_fork"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "{0}% of Damage from Hits is taken from the Buff before your Life or Energy Shield\nBuff can take {1} Damage"
-      }
-    ],
-    "ids": [
-      "quick_guard_damage_absorbed_%",
-      "quick_guard_damage_absorb_limit"
     ]
   },
   {
@@ -168593,6 +168477,43 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% more Poison Duration"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% less Poison Duration"
+      }
+    ],
+    "ids": [
+      "active_skill_poison_duration_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -170626,6 +170547,25 @@
     ],
     "ids": [
       "critical_strike_chance_+%_vs_shocked_enemies"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#%"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0} to Damage over Time Multiplier for Poison from Critical Strikes"
+      }
+    ],
+    "ids": [
+      "critical_poison_dot_multiplier_+"
     ]
   },
   {
@@ -173326,6 +173266,25 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Mines cannot be Re-armed"
+      }
+    ],
+    "ids": [
+      "mine_cannot_rearm"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "min": 1
           }
@@ -173376,6 +173335,43 @@
     ],
     "ids": [
       "mine_detonates_instantly"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Mines have {0}% increased Detonation Speed"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Mines have {0}% reduced Detonation Speed"
+      }
+    ],
+    "ids": [
+      "mine_detonation_speed_+%"
     ]
   },
   {
@@ -174543,8 +174539,8 @@
       }
     ],
     "ids": [
-      "virtual_steelskin_damage_%_taken_to_buff",
-      "virtual_steelskin_damage_limit"
+      "quick_guard_damage_absorbed_%",
+      "quick_guard_damage_absorb_limit"
     ]
   },
   {
@@ -176493,7 +176489,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% more Damage for each prior Mine in Deonation Sequence"
+        "string": "{0}% more Damage for each prior Mine in Detonation Sequence"
       },
       {
         "condition": [
@@ -176509,7 +176505,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% less Damage for each prior Mine in Deonation Sequence"
+        "string": "{0}% less Damage for each prior Mine in Detonation Sequence"
       }
     ],
     "ids": [
@@ -177765,6 +177761,29 @@
     ],
     "ids": [
       "virtual_spider_aspect_web_interval_ms"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0}% of Damage from Hits is taken from the Buff before Life or Energy Shield\nBuff can take {1} Damage"
+      }
+    ],
+    "ids": [
+      "virtual_steelskin_damage_%_taken_to_buff",
+      "virtual_steelskin_damage_limit"
     ]
   },
   {
