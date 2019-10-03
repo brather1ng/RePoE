@@ -110,7 +110,7 @@ ITEM_CLASS_WHITELIST = {
     "Staff", "Warstaff", "Two Hand Sword", "Two Hand Axe", "Two Hand Mace", "Active Skill Gem",
     "Support Skill Gem", "Quiver", "Belt", "Gloves", "Boots", "Body Armour", "Helmet", "Shield",
     "StackableCurrency", "Sceptre", "UtilityFlask", "UtilityFlaskCritical", "FishingRod",
-    "Jewel", "AbyssJewel",
+    "Jewel", "AbyssJewel", "DivinationCard",
 }
 
 
