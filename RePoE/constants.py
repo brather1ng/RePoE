@@ -183,6 +183,7 @@ class ActiveSkillType(IntEnum):
     travel = 80
     # Gem tag equivalent
     blink = 81
+    aura_duration_supportable = 82
 
 
 @unique
@@ -224,7 +225,9 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemBackstab",
     "Metadata/Items/Gems/SkillGemBladeTrap",
     "Metadata/Items/Gems/SkillGemBlitz",
+    "Metadata/Items/Gems/SkillGemBoneArmour",
     "Metadata/Items/Gems/SkillGemCaptureMonster",
+    "Metadata/Items/Gems/SkillGemCoilingAssault",
     "Metadata/Items/Gems/SkillGemComboStrike",
     "Metadata/Items/Gems/SkillGemDamageInfusion",
     "Metadata/Items/Gems/SkillGemDiscorectangleSlam",
@@ -245,6 +248,7 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemReplicate",
     "Metadata/Items/Gems/SkillGemRighteousLightning",
     "Metadata/Items/Gems/SkillGemRiptide",
+    "Metadata/Items/Gems/SkillGemSerpentStrike",
     "Metadata/Items/Gems/SkillGemShadowBlades",
     "Metadata/Items/Gems/SkillGemSliceAndDice",
     "Metadata/Items/Gems/SkillGemSnipe",

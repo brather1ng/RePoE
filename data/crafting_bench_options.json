@@ -80,6 +80,15 @@
     "mod_id": "StrDexIntMasterMapQuantity8"
   },
   {
+    "bench_group": "MapWbCrafted",
+    "bench_tier": 0,
+    "item_classes": [
+      "Map"
+    ],
+    "master": "Zana",
+    "mod_id": "MapWbCrafted_"
+  },
+  {
     "bench_group": "AbyssLeagueCrafted",
     "bench_tier": 0,
     "item_classes": [
@@ -87,33 +96,6 @@
     ],
     "master": "Zana",
     "mod_id": "AbyssLeagueCrafted"
-  },
-  {
-    "bench_group": "MapAnarchyLeagueCrafted",
-    "bench_tier": 0,
-    "item_classes": [
-      "Map"
-    ],
-    "master": "Zana",
-    "mod_id": "MapAnarchyExiles"
-  },
-  {
-    "bench_group": "MapExtraShrines",
-    "bench_tier": 0,
-    "item_classes": [
-      "Map"
-    ],
-    "master": "Zana",
-    "mod_id": "MapExtraShrinesCrafted_"
-  },
-  {
-    "bench_group": "MapBloodlinesLeagueCrafted",
-    "bench_tier": 0,
-    "item_classes": [
-      "Map"
-    ],
-    "master": "Zana",
-    "mod_id": "MapBloodlinesLeagueCrafted"
   },
   {
     "bench_group": "MapExtraStrongBoxes",
@@ -125,22 +107,40 @@
     "mod_id": "MapExtraStrongBoxes"
   },
   {
-    "bench_group": "MapPerandusLeagueCrafted",
+    "bench_group": "MapBloodlinesLeagueCrafted",
     "bench_tier": 0,
     "item_classes": [
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapPerandusLeagueCrafted"
+    "mod_id": "MapBloodlinesLeagueCrafted"
   },
   {
-    "bench_group": "MapBeyondLeagueCrafted",
+    "bench_group": "MapNemesisExtraRaresZana",
     "bench_tier": 0,
     "item_classes": [
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapBeyondLeagueCrafted"
+    "mod_id": "MapNemesisZana"
+  },
+  {
+    "bench_group": "MapBreachLeagueCrafted",
+    "bench_tier": 0,
+    "item_classes": [
+      "Map"
+    ],
+    "master": "Zana",
+    "mod_id": "MapBreachLeagueCrafted"
+  },
+  {
+    "bench_group": "MapSpawnHarbingersCrafted",
+    "bench_tier": 0,
+    "item_classes": [
+      "Map"
+    ],
+    "master": "Zana",
+    "mod_id": "MapHarbingerLeagueCrafted"
   },
   {
     "bench_group": "IncreasedLife",
@@ -164,6 +164,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -174,6 +175,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -194,6 +196,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -204,6 +207,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -224,6 +228,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -234,6 +239,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -254,6 +260,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -264,6 +271,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -284,6 +292,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -294,6 +303,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -313,6 +323,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -323,6 +334,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -342,6 +354,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -352,6 +365,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -372,6 +386,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -382,6 +397,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -400,6 +416,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -410,6 +427,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -430,6 +448,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -440,6 +459,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -458,6 +478,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -468,6 +489,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -488,6 +510,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -498,6 +521,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -516,6 +540,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -526,6 +551,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -546,6 +572,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -556,6 +583,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -576,6 +604,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -586,6 +615,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -604,6 +634,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -614,6 +645,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -634,6 +666,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -644,6 +677,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -664,6 +698,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -674,6 +709,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -692,6 +728,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -702,6 +739,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -722,6 +760,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -732,6 +771,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -752,6 +792,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -762,6 +803,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -796,10 +838,31 @@
     "mod_id": "EinharMasterAllResist2"
   },
   {
+    "bench_group": "AllResistancesMinionResistances",
+    "bench_tier": 1,
+    "item_classes": [
+      "Ring",
+      "Amulet"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterAllResistMinionResist1_"
+  },
+  {
+    "bench_group": "AllResistancesMinionResistances",
+    "bench_tier": 2,
+    "item_classes": [
+      "Ring",
+      "Amulet"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterAllResistMinionResist2"
+  },
+  {
     "bench_group": "Strength",
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -810,6 +873,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -830,6 +894,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -840,6 +905,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -860,6 +926,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -870,6 +937,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -889,6 +957,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -899,6 +968,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -918,6 +988,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -928,6 +999,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -947,6 +1019,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -957,6 +1030,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -976,6 +1050,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -986,6 +1061,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -1005,6 +1081,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1015,6 +1092,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -1138,6 +1216,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1148,6 +1227,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1159,25 +1239,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
-      "One Hand Axe",
-      "One Hand Mace",
-      "One Hand Sword",
-      "Claw",
-      "Sceptre",
-      "Thrusting One Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff"
-    ],
-    "master": "Helena",
-    "mod_id": "EinharMasterLocalLifeLeechPermyriad2"
-  },
-  {
-    "bench_group": "ManaLeechLocalPermyriad",
-    "bench_tier": 0,
-    "item_classes": [
-      "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1188,6 +1250,28 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterLocalLifeLeechPermyriad2"
+  },
+  {
+    "bench_group": "ManaLeechLocalPermyriad",
+    "bench_tier": 0,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1198,19 +1282,130 @@
     "bench_group": "IncreasedMana",
     "bench_tier": 1,
     "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterIncreasedManaTwoHandWeapon1___"
+  },
+  {
+    "bench_group": "IncreasedMana",
+    "bench_tier": 2,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterIncreasedManaTwoHandWeapon2_"
+  },
+  {
+    "bench_group": "IncreasedMana",
+    "bench_tier": 3,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterIncreasedManaTwoHandWeapon3_"
+  },
+  {
+    "bench_group": "IncreasedMana",
+    "bench_tier": 4,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterIncreasedManaTwoHandWeapon4"
+  },
+  {
+    "bench_group": "IncreasedMana",
+    "bench_tier": 1,
+    "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
       "Wand",
-      "Bow",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterIncreasedManaWeapon1__"
+  },
+  {
+    "bench_group": "IncreasedMana",
+    "bench_tier": 2,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterIncreasedManaWeapon2"
+  },
+  {
+    "bench_group": "IncreasedMana",
+    "bench_tier": 3,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterIncreasedManaWeapon3_"
+  },
+  {
+    "bench_group": "IncreasedMana",
+    "bench_tier": 4,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterIncreasedManaWeapon4"
+  },
+  {
+    "bench_group": "IncreasedMana",
+    "bench_tier": 1,
+    "item_classes": [
       "Body Armour",
       "Gloves",
       "Boots",
@@ -1218,7 +1413,8 @@
       "Shield",
       "Ring",
       "Amulet",
-      "Quiver"
+      "Quiver",
+      "Belt"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterIncreasedMana1"
@@ -1227,19 +1423,6 @@
     "bench_group": "IncreasedMana",
     "bench_tier": 2,
     "item_classes": [
-      "Dagger",
-      "One Hand Axe",
-      "One Hand Mace",
-      "One Hand Sword",
-      "Claw",
-      "Sceptre",
-      "Thrusting One Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Wand",
-      "Bow",
       "Body Armour",
       "Gloves",
       "Boots",
@@ -1247,7 +1430,8 @@
       "Shield",
       "Ring",
       "Amulet",
-      "Quiver"
+      "Quiver",
+      "Belt"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterIncreasedMana2"
@@ -1256,19 +1440,6 @@
     "bench_group": "IncreasedMana",
     "bench_tier": 3,
     "item_classes": [
-      "Dagger",
-      "One Hand Axe",
-      "One Hand Mace",
-      "One Hand Sword",
-      "Claw",
-      "Sceptre",
-      "Thrusting One Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Wand",
-      "Bow",
       "Body Armour",
       "Gloves",
       "Boots",
@@ -1276,7 +1447,8 @@
       "Shield",
       "Ring",
       "Amulet",
-      "Quiver"
+      "Quiver",
+      "Belt"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterIncreasedMana3"
@@ -1286,6 +1458,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1296,6 +1469,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Ring",
@@ -1310,6 +1484,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1320,6 +1495,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Ring",
@@ -1334,6 +1510,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1344,6 +1521,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1355,6 +1533,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1365,6 +1544,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1376,6 +1556,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1386,6 +1567,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1397,6 +1579,7 @@
     "bench_tier": 4,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1407,6 +1590,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1420,7 +1604,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellDamageOnTwoHandWeapon1"
@@ -1432,7 +1617,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellDamageOnTwoHandWeapon2"
@@ -1444,7 +1630,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellDamageOnTwoHandWeapon3"
@@ -1456,7 +1643,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellDamageOnTwoHandWeapon4_"
@@ -1466,6 +1654,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1482,6 +1671,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1498,6 +1688,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1514,6 +1705,7 @@
     "bench_tier": 4,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1530,6 +1722,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1540,6 +1733,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1551,6 +1745,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1561,6 +1756,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1572,6 +1768,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1582,6 +1779,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Ring",
@@ -1597,6 +1795,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1607,6 +1806,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Quiver",
@@ -1620,6 +1820,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1630,6 +1831,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1641,6 +1843,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1650,7 +1853,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalIncreasedAttackSpeed2_"
@@ -1660,6 +1864,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1669,7 +1874,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalIncreasedAttackSpeed3"
@@ -1701,7 +1907,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterIncreasedCastSpeedTwoHand1"
@@ -1713,7 +1920,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterIncreasedCastSpeedTwoHand2"
@@ -1725,7 +1933,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterIncreasedCastSpeedTwoHand3_"
@@ -1735,6 +1944,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1751,6 +1961,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1767,6 +1978,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1785,7 +1997,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterFireDamageTwoHandPrefix1"
@@ -1797,7 +2010,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterFireDamageTwoHandPrefix2"
@@ -1809,7 +2023,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterFireDamageTwoHandPrefix3"
@@ -1819,6 +2034,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1835,6 +2051,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1851,6 +2068,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1869,6 +2087,7 @@
       "Ring",
       "Amulet",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1879,6 +2098,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1892,6 +2112,7 @@
       "Ring",
       "Amulet",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1902,6 +2123,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -1915,7 +2137,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterColdDamageTwoHandPrefix1"
@@ -1927,7 +2150,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterColdDamageTwoHandPrefix2"
@@ -1939,7 +2163,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterColdDamageTwoHandPrefix3"
@@ -1949,6 +2174,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1965,6 +2191,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1981,6 +2208,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -1999,6 +2227,7 @@
       "Ring",
       "Amulet",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2009,6 +2238,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -2022,6 +2252,7 @@
       "Ring",
       "Amulet",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2032,6 +2263,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -2045,7 +2277,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLightningDamageTwoHandPrefix1"
@@ -2057,7 +2290,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLightningDamageTwoHandPrefix2"
@@ -2069,7 +2303,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLightningDamageTwoHandPrefix3"
@@ -2079,6 +2314,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2095,6 +2331,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2111,6 +2348,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2129,6 +2367,7 @@
       "Ring",
       "Amulet",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2139,6 +2378,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -2152,6 +2392,7 @@
       "Ring",
       "Amulet",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2162,6 +2403,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -2175,7 +2417,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterChaosDamageTwoHandPrefix1"
@@ -2187,7 +2430,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterChaosDamageTwoHandPrefix2"
@@ -2199,7 +2443,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterChaosDamageTwoHandPrefix3_"
@@ -2209,6 +2454,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2225,6 +2471,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2241,6 +2488,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2259,6 +2507,7 @@
       "Ring",
       "Amulet",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2269,6 +2518,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -2282,6 +2532,7 @@
       "Ring",
       "Amulet",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2292,6 +2543,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -2303,6 +2555,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2313,6 +2566,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -2324,6 +2578,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2334,6 +2589,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -2345,6 +2601,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2355,6 +2612,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -2661,6 +2919,26 @@
     "mod_id": "EinharMasterGlobalEnergyShield2"
   },
   {
+    "bench_group": "EnergyShield",
+    "bench_tier": 1,
+    "item_classes": [
+      "Amulet",
+      "Ring"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMaximumEnergyShield1_"
+  },
+  {
+    "bench_group": "EnergyShield",
+    "bench_tier": 2,
+    "item_classes": [
+      "Amulet",
+      "Ring"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMaximumEnergyShield2_"
+  },
+  {
     "bench_group": "LocalArmourAndEvasion",
     "bench_tier": 1,
     "item_classes": [
@@ -2784,7 +3062,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalFireDamageTwoHand1"
@@ -2796,7 +3075,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalFireDamageTwoHand2"
@@ -2808,7 +3088,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalFireDamageTwoHand3"
@@ -2818,6 +3099,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2835,6 +3117,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2852,6 +3135,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2891,7 +3175,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalColdDamageTwoHand1"
@@ -2903,7 +3188,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalColdDamageTwoHand2"
@@ -2915,7 +3201,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalColdDamageTwoHand3"
@@ -2925,6 +3212,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2942,6 +3230,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2959,6 +3248,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -2998,7 +3288,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalLightningDamageTwoHand1_"
@@ -3010,7 +3301,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalLightningDamageTwoHand2"
@@ -3022,7 +3314,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterLocalLightningDamageTwoHand3"
@@ -3032,6 +3325,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3049,6 +3343,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3066,6 +3361,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3106,6 +3402,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Helena",
@@ -3119,6 +3416,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Helena",
@@ -3132,6 +3430,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Helena",
@@ -3142,6 +3441,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3158,6 +3458,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3174,6 +3475,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3236,7 +3538,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellAddedFireDamageTwoHand1"
@@ -3248,7 +3551,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellAddedFireDamageTwoHand2"
@@ -3260,7 +3564,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellAddedFireDamageTwoHand3"
@@ -3270,6 +3575,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3286,6 +3592,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3302,6 +3609,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3320,7 +3628,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellAddedColdDamageTwoHand1"
@@ -3332,7 +3641,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellAddedColdDamageTwoHand2_"
@@ -3344,7 +3654,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellAddedColdDamageTwoHand3"
@@ -3354,6 +3665,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3370,6 +3682,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3386,6 +3699,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3404,7 +3718,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellAddedLightningDamageTwoHand1"
@@ -3416,7 +3731,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellAddedLightningDamageTwoHand2"
@@ -3428,7 +3744,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterSpellAddedLightningDamageTwoHand3"
@@ -3438,6 +3755,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3454,6 +3772,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3470,6 +3789,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3486,6 +3806,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3496,6 +3817,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -3507,6 +3829,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3517,6 +3840,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -3528,6 +3852,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3538,6 +3863,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -3549,6 +3875,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3559,6 +3886,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -3570,6 +3898,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3580,6 +3909,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -3591,6 +3921,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3601,6 +3932,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -3614,7 +3946,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterCriticalStrikeChanceSpells2h1"
@@ -3626,7 +3959,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterCriticalStrikeChanceSpells2h2_"
@@ -3636,6 +3970,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3652,6 +3987,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3841,6 +4177,26 @@
     "mod_id": "EinharMasterMinionDamage1"
   },
   {
+    "bench_group": "MinionRunSpeed",
+    "bench_tier": 1,
+    "item_classes": [
+      "Ring",
+      "Amulet"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMinionMovementSpeed1"
+  },
+  {
+    "bench_group": "MinionRunSpeed",
+    "bench_tier": 2,
+    "item_classes": [
+      "Ring",
+      "Amulet"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMinionMovementSpeed2"
+  },
+  {
     "bench_group": "MinionDamageOnWeapon",
     "bench_tier": 1,
     "item_classes": [
@@ -3848,6 +4204,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Helena",
@@ -3861,6 +4218,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Helena",
@@ -3874,6 +4232,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Helena",
@@ -3884,6 +4243,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3900,6 +4260,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3916,6 +4277,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -3928,22 +4290,170 @@
     "mod_id": "EinharMasterMinionDamageOnWeapon1h3"
   },
   {
-    "bench_group": "TrapThrowSpeedOnWeapon",
+    "bench_group": "TrapDamageOnWeapon",
+    "bench_tier": 1,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterTrapDamageOnWeapon2h1"
+  },
+  {
+    "bench_group": "TrapDamageOnWeapon",
+    "bench_tier": 2,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterTrapDamageOnWeapon2h2"
+  },
+  {
+    "bench_group": "TrapDamageOnWeapon",
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterTrapDamageOnWeapon1h1"
+  },
+  {
+    "bench_group": "TrapDamageOnWeapon",
+    "bench_tier": 2,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterTrapDamageOnWeapon1h2"
+  },
+  {
+    "bench_group": "MineDamageOnWeapon",
+    "bench_tier": 1,
+    "item_classes": [
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Wand",
+      "Warstaff",
       "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMineDamageOnWeapon2h1"
+  },
+  {
+    "bench_group": "MineDamageOnWeapon",
+    "bench_tier": 2,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMineDamageOnWeapon2h2"
+  },
+  {
+    "bench_group": "MineDamageOnWeapon",
+    "bench_tier": 1,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMineDamageOnWeapon1h1"
+  },
+  {
+    "bench_group": "MineDamageOnWeapon",
+    "bench_tier": 2,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMineDamageOnWeapon1h2"
+  },
+  {
+    "bench_group": "TrapThrowSpeedOnWeapon",
+    "bench_tier": 1,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterTrapThrowingSpeed2h1"
+  },
+  {
+    "bench_group": "TrapThrowSpeedOnWeapon",
+    "bench_tier": 2,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterTrapThrowingSpeed2h2_"
+  },
+  {
+    "bench_group": "TrapThrowSpeedOnWeapon",
+    "bench_tier": 1,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterTrapThrowingSpeed1"
@@ -3953,18 +4463,14 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterTrapThrowingSpeed2"
@@ -3973,19 +4479,43 @@
     "bench_group": "MineLayingSpeedOnWeapon",
     "bench_tier": 1,
     "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMineLayingSpeed2h1"
+  },
+  {
+    "bench_group": "MineLayingSpeedOnWeapon",
+    "bench_tier": 2,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Helena",
+    "mod_id": "EinharMasterMineLayingSpeed2h2_"
+  },
+  {
+    "bench_group": "MineLayingSpeedOnWeapon",
+    "bench_tier": 1,
+    "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterMineLayingSpeed1"
@@ -3995,18 +4525,14 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Helena",
     "mod_id": "EinharMasterMineLayingSpeed2"
@@ -4036,6 +4562,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4046,6 +4573,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4057,6 +4585,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4067,6 +4596,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4078,6 +4608,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4088,6 +4619,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4099,6 +4631,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4109,6 +4642,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4120,6 +4654,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4130,6 +4665,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4141,6 +4677,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4151,6 +4688,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4162,6 +4700,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4172,6 +4711,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4183,6 +4723,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4193,6 +4734,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4204,6 +4746,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4214,6 +4757,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4225,6 +4769,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4235,6 +4780,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4246,6 +4792,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4256,6 +4803,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4267,6 +4815,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4277,6 +4826,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow"
     ],
@@ -4291,6 +4841,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4304,6 +4855,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4317,6 +4869,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4327,6 +4880,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4343,6 +4897,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4359,6 +4914,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4378,6 +4934,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4391,6 +4948,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4404,6 +4962,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4414,6 +4973,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4430,6 +4990,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4446,6 +5007,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4465,6 +5027,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4478,6 +5041,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4491,6 +5055,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4501,6 +5066,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4517,6 +5083,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4533,6 +5100,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4552,6 +5120,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4565,6 +5134,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4578,6 +5148,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4588,6 +5159,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4604,6 +5176,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4620,6 +5193,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4638,7 +5212,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2SpellDamageAndManaRegenerationRate2h1_"
@@ -4650,7 +5225,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2SpellDamageAndManaRegenerationRate2h2_"
@@ -4662,7 +5238,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2SpellDamageAndManaRegenerationRate2h3_"
@@ -4672,6 +5249,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4688,6 +5266,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4704,6 +5283,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4722,7 +5302,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2SpellDamageAndNonChaosDamageToAddAsChaosDamage2h1"
@@ -4734,7 +5315,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2SpellDamageAndNonChaosDamageToAddAsChaosDamage2h2"
@@ -4746,7 +5328,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2SpellDamageAndNonChaosDamageToAddAsChaosDamage2h3"
@@ -4756,6 +5339,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4772,6 +5356,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4788,6 +5373,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4807,6 +5393,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4820,6 +5407,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4833,6 +5421,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4843,6 +5432,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4859,6 +5449,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4875,6 +5466,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4894,6 +5486,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4907,6 +5500,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4920,6 +5514,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -4930,6 +5525,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4946,6 +5542,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4962,6 +5559,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -4974,49 +5572,53 @@
     "mod_id": "JunMaster2MinionAttackAndCastSpeedOnWeapon1h3"
   },
   {
-    "bench_group": "ChaosNonAilmentDamageOverTimeMultiplier",
+    "bench_group": "ChaosDamageOverTimeMultiplier",
     "bench_tier": 1,
     "item_classes": [
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ChaosNonAilmentDamageOverTimeMultiplier2h1"
   },
   {
-    "bench_group": "ChaosNonAilmentDamageOverTimeMultiplier",
+    "bench_group": "ChaosDamageOverTimeMultiplier",
     "bench_tier": 2,
     "item_classes": [
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ChaosNonAilmentDamageOverTimeMultiplier2h2"
   },
   {
-    "bench_group": "ChaosNonAilmentDamageOverTimeMultiplier",
+    "bench_group": "ChaosDamageOverTimeMultiplier",
     "bench_tier": 3,
     "item_classes": [
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ChaosNonAilmentDamageOverTimeMultiplier2h3__"
   },
   {
-    "bench_group": "ChaosNonAilmentDamageOverTimeMultiplier",
+    "bench_group": "ChaosDamageOverTimeMultiplier",
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5029,10 +5631,11 @@
     "mod_id": "JunMaster2ChaosNonAilmentDamageOverTimeMultiplier1h1"
   },
   {
-    "bench_group": "ChaosNonAilmentDamageOverTimeMultiplier",
+    "bench_group": "ChaosDamageOverTimeMultiplier",
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5045,10 +5648,11 @@
     "mod_id": "JunMaster2ChaosNonAilmentDamageOverTimeMultiplier1h2"
   },
   {
-    "bench_group": "ChaosNonAilmentDamageOverTimeMultiplier",
+    "bench_group": "ChaosDamageOverTimeMultiplier",
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5067,7 +5671,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ColdDamageOverTimeMultiplier2h1_"
@@ -5079,7 +5684,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ColdDamageOverTimeMultiplier2h2"
@@ -5091,7 +5697,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ColdDamageOverTimeMultiplier2h3"
@@ -5101,6 +5708,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5117,6 +5725,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5133,6 +5742,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5145,6 +5755,96 @@
     "mod_id": "JunMaster2ColdDamageOverTimeMultiplier1h3"
   },
   {
+    "bench_group": "FireDamageOverTimeMultiplier",
+    "bench_tier": 1,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2FireDamageOverTimeMultiplier2h1"
+  },
+  {
+    "bench_group": "FireDamageOverTimeMultiplier",
+    "bench_tier": 2,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2FireDamageOverTimeMultiplier2h2"
+  },
+  {
+    "bench_group": "FireDamageOverTimeMultiplier",
+    "bench_tier": 3,
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2FireDamageOverTimeMultiplier2h3"
+  },
+  {
+    "bench_group": "FireDamageOverTimeMultiplier",
+    "bench_tier": 1,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2FireDamageOverTimeMultiplier1h1"
+  },
+  {
+    "bench_group": "FireDamageOverTimeMultiplier",
+    "bench_tier": 2,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2FireDamageOverTimeMultiplier1h2"
+  },
+  {
+    "bench_group": "FireDamageOverTimeMultiplier",
+    "bench_tier": 3,
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2FireDamageOverTimeMultiplier1h3"
+  },
+  {
     "bench_group": "LocalAttackReduceEnemyElementalResistance",
     "bench_tier": 1,
     "item_classes": [
@@ -5152,8 +5852,10 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5173,8 +5875,10 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5194,8 +5898,10 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5215,8 +5921,10 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5236,8 +5944,10 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5257,8 +5967,10 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5278,6 +5990,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -5291,6 +6004,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -5301,6 +6015,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -5318,6 +6033,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6163,6 +6879,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -6173,6 +6890,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6192,6 +6910,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -6202,6 +6921,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6221,6 +6941,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -6231,6 +6952,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6474,6 +7196,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -6487,6 +7210,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -6500,6 +7224,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -6510,6 +7235,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6526,6 +7252,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6542,6 +7269,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6561,6 +7289,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -6574,6 +7303,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -6587,6 +7317,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -6597,6 +7328,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6613,6 +7345,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6629,6 +7362,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -6758,7 +7492,7 @@
     "mod_id": "JunMaster2CriticalChanceAndAddedChaosDamageIfHaveCritRecently3"
   },
   {
-    "bench_group": "BaseLifeAndMana",
+    "bench_group": "BaseLifeAndManaRegen",
     "bench_tier": 1,
     "item_classes": [
       "Helmet",
@@ -6770,10 +7504,10 @@
       "Quiver"
     ],
     "master": "Jun",
-    "mod_id": "JunMaster2BaseLifeAndMana1_"
+    "mod_id": "JunMaster2BaseLifeAndManaRegen1"
   },
   {
-    "bench_group": "BaseLifeAndMana",
+    "bench_group": "BaseLifeAndManaRegen",
     "bench_tier": 2,
     "item_classes": [
       "Helmet",
@@ -6785,10 +7519,10 @@
       "Quiver"
     ],
     "master": "Jun",
-    "mod_id": "JunMaster2BaseLifeAndMana2"
+    "mod_id": "JunMaster2BaseLifeAndManaRegen2_"
   },
   {
-    "bench_group": "BaseLifeAndMana",
+    "bench_group": "BaseLifeAndManaRegen",
     "bench_tier": 3,
     "item_classes": [
       "Helmet",
@@ -6800,7 +7534,52 @@
       "Quiver"
     ],
     "master": "Jun",
-    "mod_id": "JunMaster2BaseLifeAndMana3"
+    "mod_id": "JunMaster2BaseLifeAndManaRegen3"
+  },
+  {
+    "bench_group": "BaseManaAndLifeRegen",
+    "bench_tier": 1,
+    "item_classes": [
+      "Helmet",
+      "Gloves",
+      "Boots",
+      "Ring",
+      "Amulet",
+      "Belt",
+      "Quiver"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2BaseManaAndLifeRegen1"
+  },
+  {
+    "bench_group": "BaseManaAndLifeRegen",
+    "bench_tier": 2,
+    "item_classes": [
+      "Helmet",
+      "Gloves",
+      "Boots",
+      "Ring",
+      "Amulet",
+      "Belt",
+      "Quiver"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2BaseManaAndLifeRegen2"
+  },
+  {
+    "bench_group": "BaseManaAndLifeRegen",
+    "bench_tier": 3,
+    "item_classes": [
+      "Helmet",
+      "Gloves",
+      "Boots",
+      "Ring",
+      "Amulet",
+      "Belt",
+      "Quiver"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2BaseManaAndLifeRegen3"
   },
   {
     "bench_group": "SummonTotemCastSpeed",
@@ -7065,6 +7844,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7078,6 +7858,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7091,6 +7872,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7101,6 +7883,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7118,6 +7901,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7135,6 +7919,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7317,6 +8102,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7328,6 +8114,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Shield"
     ],
@@ -7339,6 +8126,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7350,6 +8138,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Shield"
     ],
@@ -7357,34 +8146,64 @@
     "mod_id": "JunMaster2LocalIncreaseSocketedSupportGemLevel2"
   },
   {
-    "bench_group": "IncreaseManaCostFlat",
+    "bench_group": "ManaCostTotalChannelled",
     "bench_tier": 1,
     "item_classes": [
       "Ring",
       "Amulet"
     ],
     "master": "Jun",
-    "mod_id": "JunMaster2ReduceGlobalFlatManaCost1"
+    "mod_id": "JunMaster2ReduceGlobalFlatManaCostChannelling1"
   },
   {
-    "bench_group": "IncreaseManaCostFlat",
+    "bench_group": "ManaCostTotalChannelled",
     "bench_tier": 2,
     "item_classes": [
       "Ring",
       "Amulet"
     ],
     "master": "Jun",
-    "mod_id": "JunMaster2ReduceGlobalFlatManaCost2__"
+    "mod_id": "JunMaster2ReduceGlobalFlatManaCostChannelling2"
   },
   {
-    "bench_group": "IncreaseManaCostFlat",
+    "bench_group": "ManaCostTotalChannelled",
     "bench_tier": 3,
     "item_classes": [
       "Ring",
       "Amulet"
     ],
     "master": "Jun",
-    "mod_id": "JunMaster2ReduceGlobalFlatManaCost3_"
+    "mod_id": "JunMaster2ReduceGlobalFlatManaCostChannelling3"
+  },
+  {
+    "bench_group": "ManaCostTotalNonChannelled",
+    "bench_tier": 1,
+    "item_classes": [
+      "Ring",
+      "Amulet"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2ReduceGlobalFlatManaCostNonChannelling1"
+  },
+  {
+    "bench_group": "ManaCostTotalNonChannelled",
+    "bench_tier": 2,
+    "item_classes": [
+      "Ring",
+      "Amulet"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2ReduceGlobalFlatManaCostNonChannelling2"
+  },
+  {
+    "bench_group": "ManaCostTotalNonChannelled",
+    "bench_tier": 3,
+    "item_classes": [
+      "Ring",
+      "Amulet"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2ReduceGlobalFlatManaCostNonChannelling3"
   },
   {
     "bench_group": "DamageWhileLeeching",
@@ -7421,6 +8240,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7432,6 +8252,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Shield"
     ],
@@ -7443,6 +8264,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7454,6 +8276,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Shield"
     ],
@@ -7465,6 +8288,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7476,6 +8300,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow",
       "Shield"
     ],
@@ -7490,6 +8315,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7503,6 +8329,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7516,6 +8343,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7526,6 +8354,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7542,6 +8371,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7558,6 +8388,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7574,6 +8405,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7583,7 +8415,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2AlwaysHits1"
@@ -7650,6 +8483,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7663,6 +8497,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7676,6 +8511,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7686,6 +8522,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7703,6 +8540,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7720,6 +8558,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7740,6 +8579,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7753,6 +8593,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7766,6 +8607,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7776,6 +8618,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7793,6 +8636,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7810,6 +8654,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7830,6 +8675,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7843,6 +8689,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7856,6 +8703,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7866,6 +8714,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7883,6 +8732,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7900,6 +8750,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7920,6 +8771,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7933,6 +8785,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7946,6 +8799,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -7956,6 +8810,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7973,6 +8828,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -7990,6 +8846,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8283,6 +9140,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8294,6 +9152,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8304,6 +9163,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8313,7 +9173,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalAttackSpeedAndLocalItemQuality2"
@@ -8323,6 +9184,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8334,6 +9196,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8344,6 +9207,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8355,6 +9219,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8365,6 +9230,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8376,6 +9242,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8386,6 +9253,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8397,6 +9265,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8407,6 +9276,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8418,6 +9288,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8428,6 +9299,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8439,6 +9311,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8449,6 +9322,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8458,7 +9332,8 @@
       "Two Hand Axe",
       "Two Hand Mace",
       "Two Hand Sword",
-      "Staff"
+      "Staff",
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalAttackSpeedAndLocalDisplayTriggerLevel1BloodRageOnKillChance2"
@@ -8471,6 +9346,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8484,6 +9360,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8497,6 +9374,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8507,6 +9385,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8523,6 +9402,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8539,6 +9419,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8555,6 +9436,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8566,6 +9448,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Bow"
     ],
     "master": "Jun",
@@ -8576,6 +9459,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8586,6 +9470,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8606,6 +9491,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8616,6 +9502,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8636,6 +9523,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8646,6 +9534,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8666,6 +9555,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8676,6 +9566,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8696,6 +9587,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8706,6 +9598,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8726,6 +9619,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8736,6 +9630,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8756,6 +9651,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8766,6 +9662,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8786,6 +9683,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8796,6 +9694,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8816,6 +9715,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8826,6 +9726,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8846,6 +9747,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8856,6 +9758,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8869,6 +9772,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8879,6 +9783,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8892,6 +9797,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8902,6 +9808,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8915,6 +9822,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8925,6 +9833,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8938,6 +9847,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8948,6 +9858,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8961,6 +9872,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8971,6 +9883,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -8984,6 +9897,7 @@
     "bench_tier": 1,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -8994,6 +9908,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -9007,6 +9922,7 @@
     "bench_tier": 2,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -9017,6 +9933,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -9030,6 +9947,7 @@
     "bench_tier": 3,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -9040,6 +9958,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -9287,6 +10206,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -9297,6 +10217,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -9317,6 +10238,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -9327,6 +10249,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -9347,6 +10270,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -9357,6 +10281,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -9377,6 +10302,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -9387,6 +10313,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",
@@ -9407,6 +10334,7 @@
     "bench_tier": 0,
     "item_classes": [
       "Dagger",
+      "Rune Dagger",
       "One Hand Axe",
       "One Hand Mace",
       "One Hand Sword",
@@ -9417,6 +10345,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
+      "Warstaff",
       "Wand",
       "Bow",
       "Body Armour",

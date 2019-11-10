@@ -43,7 +43,7 @@ def create_ot_file_cache(ggpk):
     return OTFileCache(path_or_ggpk=ggpk)
 
 
-DEFAULT_GGPK_PATH = 'D:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk'
+DEFAULT_GGPK_PATH = 'C:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk'
 
 
 def call_with_default_args(write_func):
