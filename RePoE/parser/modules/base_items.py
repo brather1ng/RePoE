@@ -164,3 +164,4 @@ def write(data_path, relational_reader, ot_file_cache, **kwargs):
 
 if __name__ == '__main__':
     call_with_default_args(write)
+    
