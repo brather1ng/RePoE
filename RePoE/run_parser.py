@@ -6,7 +6,7 @@ from RePoE.parser.util import load_ggpk, create_relational_reader, create_transl
     DEFAULT_GGPK_PATH, create_ot_file_cache
 
 
-def main(data_path='../data/'):
+def main(data_path='./data/'):
 
     modules = RePoE.modules
     parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
