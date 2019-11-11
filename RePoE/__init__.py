@@ -3,7 +3,7 @@ import json
 import os
 
 #RePoe.modules
-modules = ['stat_translations', 'mods', 'stats', 'gems', 'gem_tags', 'crafting_bench_options', 'base_items', 'tags', 'item_classes', 'essences', 'default_monster_stats', 'characters', 'fossils', 'types']
+modules = ['stat_translations', 'mods', 'stats', 'gems', 'gem_tags', 'crafting_bench_options', 'base_items', 'tags', 'item_classes', 'essences', 'default_monster_stats', 'characters', 'fossils', 'mod_types']
 
 
 def _get_file_path_from_data_dir(file_name):
