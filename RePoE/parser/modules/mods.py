@@ -1,5 +1,5 @@
 from PyPoE.poe.constants import MOD_DOMAIN
-from RePoE.util import write_json, call_with_default_args
+from RePoE.parser.util import write_json, call_with_default_args
 
 
 def _convert_stats(stats):

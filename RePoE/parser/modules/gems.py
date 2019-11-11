@@ -4,10 +4,10 @@ from PyPoE.cli.exporter.wiki.parsers.skill import SkillParserShared
 from PyPoE.poe.file.stat_filters import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
 from RePoE.base_items import get_release_state
-from RePoE.constants import ActiveSkillType, CooldownBypassType
+from RePoE.parser.constants import ActiveSkillType, CooldownBypassType
 from RePoE.mods import ignore_mod_domain
 from RePoE.stat_translations import STAT_TRANSLATION_DICT
-from RePoE.util import write_json, call_with_default_args
+from RePoE.parser.util import write_json, call_with_default_args
 
 
 def _handle_dict(representative, per_level):

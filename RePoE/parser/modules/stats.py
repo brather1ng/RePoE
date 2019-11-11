@@ -1,4 +1,4 @@
-from RePoE.util import write_json, call_with_default_args
+from RePoE.parser.util import write_json, call_with_default_args
 
 
 def _convert_alias_stats(alias_stats_key_1, alias_stats_key_2):

@@ -35,7 +35,7 @@ recursion.
   is not set.
 - `cooldown_bypass_type`: How the cooldown can be bypassed (cast the skill before the
   cooldown runs out). See
-  [`RePoE.constants.CooldownBypassType`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L133)
+  [`RePoE.parser.constants.CooldownBypassType`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L133)
   for the possible values and their meaning. The cooldown can not be bypassed if this
   field is not set.
 - `stored_uses`: Number of uses of the skill that can be stored. Each time the cooldown
@@ -80,7 +80,7 @@ described below.
   * `id`: Internal identifier of the item. Can be used to obtain more information
     from `BaseItemTypes.dat`.
   * `release_state`: In what state that item is currently in-game. See
-    [`RePoE.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L173)
+    [`RePoE.parser.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L173)
     for possible values and their meaning. 
 - `projectile_speed`: Projectile speed of the primary projectile of the skill
   in internal units (per second?).
@@ -109,7 +109,7 @@ The `active_skill` field is only set for active skills. It has the following fie
    specific enchant stats to the generic stat of the skill that is affected. Keys
    are the stat that is converted and values the stat the keys are converted to.
 - `types`: Internal types/tags this skill has. See
-  [`RePoE.constants.ActiveSkillType`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L5)
+  [`RePoE.parser.constants.ActiveSkillType`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L5)
   for possible values and their meaning. These are reverse-engineered so they
   might be incorrect. One purpose is to determine the support gems that can
   support this skill.

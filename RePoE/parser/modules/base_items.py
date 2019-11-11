@@ -1,7 +1,7 @@
 from collections import defaultdict
 
-from RePoE.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS
-from RePoE.util import write_json, call_with_default_args
+from RePoE.parser.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS
+from RePoE.parser.util import write_json, call_with_default_args
 
 
 def _create_default_dict(relation):
@@ -164,4 +164,3 @@ def write(data_path, relational_reader, ot_file_cache, **kwargs):
 
 if __name__ == '__main__':
     call_with_default_args(write)
-    

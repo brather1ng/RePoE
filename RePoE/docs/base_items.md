@@ -21,7 +21,7 @@ the base item as a value. The description object has the following fields:
 - `item_class`: The item class id of the base.
 - `name`: The name under which items of the base are displayed in-game.
 - `release_state`: In what state that item is currently in-game. See
-  [`RePoE.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L173)
+  [`RePoE.parser.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L173)
   for possible values and their meaning.
 - `tags`: The tags all items of the base have. This determines the mods that can spawn on items
   of this base and allows for classification beyond just `item_class`.

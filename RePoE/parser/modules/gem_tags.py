@@ -1,4 +1,4 @@
-from RePoE.util import write_json, call_with_default_args
+from RePoE.parser.util import write_json, call_with_default_args
 
 
 def write(data_path, relational_reader, **kwargs):
