@@ -1,6 +1,6 @@
 import itertools
 
-from Repoe.parser import Parser_Module
+from RePoE.parser import Parser_Module
 from RePoE.parser.util import write_json, call_with_default_args
 
 class crafting_bench_options(Parser_Module):
