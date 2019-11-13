@@ -1,25 +1,5 @@
+from RePoE.parser import Parser_Module
 from RePoE.parser.util import call_with_default_args, write_json
-
-
-def write(data_path, relational_reader, **kwargs):
-    essences = {
-        row['BaseItemTypesKey']['Id']: {
-            'name': row['BaseItemTypesKey']['Name'],
-            'spawn_level_min': row['DropLevelMinimum'],
-            'spawn_level_max': row['DropLevelMaximum'],
-            'level': row['Level'],
-            'item_level_restriction':
-                row['ItemLevelRestriction'] if row['ItemLevelRestriction'] > 0 else None,
-            'type': {
-                'tier': row['EssenceTypeKey']['EssenceType'],
-                'is_corruption_only': row['EssenceTypeKey']['IsCorruptedEssence'],
-            },
-            'mods': _convert_mods(row)
-        }
-        for row in relational_reader['Essences.dat']
-    }
-    write_json(essences, data_path, 'essences')
-
 
 def _convert_mods(row):
     class_to_key = {
@@ -50,7 +30,28 @@ def _convert_mods(row):
         item_class: row[key]['Id']
         for item_class, key in class_to_key.items() if row[key] is not None
     }
+class essences(Parser_Module):
+    @classmethod
+    def write(data_path, relational_reader, **kwargs):
+        essences = {
+            row['BaseItemTypesKey']['Id']: {
+                'name': row['BaseItemTypesKey']['Name'],
+                'spawn_level_min': row['DropLevelMinimum'],
+                'spawn_level_max': row['DropLevelMaximum'],
+                'level': row['Level'],
+                'item_level_restriction':
+                    row['ItemLevelRestriction'] if row['ItemLevelRestriction'] > 0 else None,
+                'type': {
+                    'tier': row['EssenceTypeKey']['EssenceType'],
+                    'is_corruption_only': row['EssenceTypeKey']['IsCorruptedEssence'],
+                },
+                'mods': _convert_mods(row)
+            }
+            for row in relational_reader['Essences.dat']
+        }
+        write_json(essences, data_path, 'essences')
+
 
 
 if __name__ == '__main__':
-    call_with_default_args(write)
+    call_with_default_args(essences.write)

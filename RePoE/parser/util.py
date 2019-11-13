@@ -5,7 +5,9 @@ from PyPoE.poe.file.dat import RelationalReader
 from PyPoE.poe.file.ggpk import GGPKFile
 from PyPoE.poe.file.ot import OTFileCache
 from PyPoE.poe.file.translations import TranslationFileCache
+from PyPoE.poe.constants import MOD_DOMAIN
 
+from RePoE.parser.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS
 
 def get_id_or_none(relational_file_cell):
     return None if relational_file_cell is None else relational_file_cell['Id']
@@ -51,3 +53,21 @@ def call_with_default_args(write_func):
     write_func(ggpk=ggpk, data_path='../data/', relational_reader=create_relational_reader(ggpk),
                translation_file_cache=create_translation_file_cache(ggpk),
                ot_file_cache=create_ot_file_cache(ggpk))
+
+
+def get_release_state(item_id):
+    if item_id in UNRELEASED_ITEMS:
+        return ReleaseState.unreleased
+    if item_id in LEGACY_ITEMS:
+        return ReleaseState.legacy
+    if item_id in UNIQUE_ONLY_ITEMS:
+        return ReleaseState.unique_only
+    return ReleaseState.released
+
+    
+def ignore_mod_domain(domain):
+    whitelist = {
+        MOD_DOMAIN.ITEM, MOD_DOMAIN.FLASK, MOD_DOMAIN.AREA, MOD_DOMAIN.CRAFTED, MOD_DOMAIN.MISC,
+        MOD_DOMAIN.ATLAS, MOD_DOMAIN.ABYSS_JEWEL, MOD_DOMAIN.DELVE
+    }
+    return domain not in whitelist

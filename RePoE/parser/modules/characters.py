@@ -29,4 +29,4 @@ class characters(Parser_Module):
 
 
 if __name__ == '__main__':
-    call_with_default_args(write)
+    call_with_default_args(characters.write)

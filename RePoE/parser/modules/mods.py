@@ -1,6 +1,5 @@
 from PyPoE.poe.constants import MOD_DOMAIN
-from RePoE.parser.util import write_json, call_with_default_args
-
+from RePoE.parser.util import write_json, call_with_default_args, ignore_mod_domain
 
 def _convert_stats(stats):
     # 'Stats' is a virtual field that is an array of ['Stat1', ..., 'Stat5'].
@@ -64,15 +63,6 @@ def _convert_tags_keys(tags_keys):
     for tag in tags_keys:
         r.append(tag['Id'])
     return r
-
-
-def ignore_mod_domain(domain):
-    whitelist = {
-        MOD_DOMAIN.ITEM, MOD_DOMAIN.FLASK, MOD_DOMAIN.AREA, MOD_DOMAIN.CRAFTED, MOD_DOMAIN.MISC,
-        MOD_DOMAIN.ATLAS, MOD_DOMAIN.ABYSS_JEWEL, MOD_DOMAIN.DELVE
-    }
-    return domain not in whitelist
-
 
 # todo enable when useful
 # ignored mods:

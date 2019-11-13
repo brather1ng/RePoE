@@ -1,33 +1,35 @@
+from RePoE.parser import Parser_Module
 from RePoE.parser.util import write_json, call_with_default_args
 
+class fossils(Parser_Module):
+    @classmethod
+    def write(data_path, relational_reader, **kwargs):
+        root = {}
+        for row in relational_reader['DelveCraftingModifiers.dat']:
+            root[row["BaseItemTypesKey"]["Id"]] = {
+                "added_mods": [mod['Id'] for mod in row["AddedModKeys"]],
+                "forced_mods": [mod['Id'] for mod in row["ForcedAddModKeys"]],
+                "negative_mod_weights": [{"tag": tag["Id"], "weight": value} for tag, value
+                                        in zip(row["NegativeWeight_TagsKeys"], row["NegativeWeight_Values"])],
+                "positive_mod_weights": [{"tag": tag["Id"], "weight": value} for tag, value
+                                        in zip(row["Weight_TagsKeys"], row["Weight_Values"])],
+                "forbidden_tags": [tag["TagsKey"]["Id"] for tag in row["ForbiddenDelveCraftingTagsKeys"]],
+                "allowed_tags": [tag["TagsKey"]["Id"] for tag in row["AllowedDelveCraftingTagsKeys"]],
+                "corrupted_essence_chance": row["CorruptedEssenceChance"],
+                "mirrors": row["CanMirrorItem"],
+                "changes_quality": row["CanImproveQuality"],
+                "rolls_lucky": row["HasLuckyRolls"],
+                "enchants": row["CanRollEnchant"],
+                "rolls_white_sockets": row["CanRollWhiteSockets"],
+                "sell_price_mods": [mod['Id'] for mod in row["SellPrice_ModsKeys"]],
+                "descriptions":
+                    [description["Description"] for description in row["DelveCraftingModifierDescriptionsKeys"]],
+                "blocked_descriptions":
+                    [description["Id"] for description in row["BlockedDelveCraftingModifierDescriptionsKeys"]]
+            }
 
-def write(data_path, relational_reader, **kwargs):
-    root = {}
-    for row in relational_reader['DelveCraftingModifiers.dat']:
-        root[row["BaseItemTypesKey"]["Id"]] = {
-            "added_mods": [mod['Id'] for mod in row["AddedModKeys"]],
-            "forced_mods": [mod['Id'] for mod in row["ForcedAddModKeys"]],
-            "negative_mod_weights": [{"tag": tag["Id"], "weight": value} for tag, value
-                                     in zip(row["NegativeWeight_TagsKeys"], row["NegativeWeight_Values"])],
-            "positive_mod_weights": [{"tag": tag["Id"], "weight": value} for tag, value
-                                     in zip(row["Weight_TagsKeys"], row["Weight_Values"])],
-            "forbidden_tags": [tag["TagsKey"]["Id"] for tag in row["ForbiddenDelveCraftingTagsKeys"]],
-            "allowed_tags": [tag["TagsKey"]["Id"] for tag in row["AllowedDelveCraftingTagsKeys"]],
-            "corrupted_essence_chance": row["CorruptedEssenceChance"],
-            "mirrors": row["CanMirrorItem"],
-            "changes_quality": row["CanImproveQuality"],
-            "rolls_lucky": row["HasLuckyRolls"],
-            "enchants": row["CanRollEnchant"],
-            "rolls_white_sockets": row["CanRollWhiteSockets"],
-            "sell_price_mods": [mod['Id'] for mod in row["SellPrice_ModsKeys"]],
-            "descriptions":
-                [description["Description"] for description in row["DelveCraftingModifierDescriptionsKeys"]],
-            "blocked_descriptions":
-                [description["Id"] for description in row["BlockedDelveCraftingModifierDescriptionsKeys"]]
-        }
-
-    write_json(root, data_path, 'fossils')
+        write_json(root, data_path, 'fossils')
 
 
 if __name__ == '__main__':
-    call_with_default_args(write)
+    call_with_default_args(fossils.write)

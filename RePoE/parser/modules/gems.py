@@ -3,12 +3,9 @@ import re
 from PyPoE.cli.exporter.wiki.parsers.skill import SkillParserShared
 from PyPoE.poe.file.stat_filters import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
-from RePoE.parser.modules.base_items import get_release_state
-from RePoE.parser.constants import ActiveSkillType, CooldownBypassType
-from RePoE.parser.modules.mods import ignore_mod_domain
-from RePoE.parser.modules.stat_translations import STAT_TRANSLATION_DICT
-from RePoE.parser.util import write_json, call_with_default_args
-
+from RePoE.parser.constants import ActiveSkillType, CooldownBypassType, STAT_TRANSLATION_DICT
+from RePoE.parser.util import call_with_default_args, write_json, get_release_state, ignore_mod_domain
+from RePoE.parser import Parser_Module
 
 def _handle_dict(representative, per_level):
     static = None
@@ -552,59 +549,62 @@ class GemConverter:
             yield stat
 
 
-def write(ggpk, data_path, relational_reader, translation_file_cache, **kwargs):
-    gems = {}
-    tooltips = {}
-    converter = GemConverter(ggpk, relational_reader, translation_file_cache)
 
-    # Skills from gems
-    for gem in relational_reader['SkillGems.dat']:
-        granted_effect = gem['GrantedEffectsKey']
-        ge_id = granted_effect['Id']
-        if ge_id in gems:
-            print("Duplicate GrantedEffectsKey.Id '%s'" % ge_id)
-        multipliers = {
-            'str': gem['Str'],
-            'dex': gem['Dex'],
-            'int': gem['Int']
-        }
-        gems[ge_id], tooltips[ge_id] = converter.convert(gem['BaseItemTypesKey'], granted_effect,
-                                                         gem['GrantedEffectsKey2'], gem['GemTagsKeys'], multipliers)
+class gems(Parser_Module):
+    @classmethod
+    def write(ggpk, data_path, relational_reader, translation_file_cache, **kwargs):
+        gems = {}
+        tooltips = {}
+        converter = GemConverter(ggpk, relational_reader, translation_file_cache)
 
-    # Secondary skills from gems. This adds the support skill implicitly provided by Bane
-    for gem in relational_reader['SkillGems.dat']:
-        granted_effect = gem['GrantedEffectsKey2']
-        if not granted_effect:
-            continue
-        ge_id = granted_effect['Id']
-        if ge_id in gems:
-            continue
-        gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
-
-    # Skills from mods
-    for mod in relational_reader['Mods.dat']:
-        if mod['GrantedEffectsPerLevelKeys'] is None:
-            continue
-        if ignore_mod_domain(mod['Domain']):
-            continue
-        for granted_effect_per_level in mod['GrantedEffectsPerLevelKeys']:
-            granted_effect = granted_effect_per_level['GrantedEffectsKey']
+        # Skills from gems
+        for gem in relational_reader['SkillGems.dat']:
+            granted_effect = gem['GrantedEffectsKey']
             ge_id = granted_effect['Id']
             if ge_id in gems:
-                # mod effects may exist as gems, those are handled above
+                print("Duplicate GrantedEffectsKey.Id '%s'" % ge_id)
+            multipliers = {
+                'str': gem['Str'],
+                'dex': gem['Dex'],
+                'int': gem['Int']
+            }
+            gems[ge_id], tooltips[ge_id] = converter.convert(gem['BaseItemTypesKey'], granted_effect,
+                                                            gem['GrantedEffectsKey2'], gem['GemTagsKeys'], multipliers)
+
+        # Secondary skills from gems. This adds the support skill implicitly provided by Bane
+        for gem in relational_reader['SkillGems.dat']:
+            granted_effect = gem['GrantedEffectsKey2']
+            if not granted_effect:
+                continue
+            ge_id = granted_effect['Id']
+            if ge_id in gems:
                 continue
             gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
 
-    # Default Attack/PlayerMelee is neither gem nor mod effect
-    for granted_effect in relational_reader['GrantedEffects.dat']:
-        ge_id = granted_effect['Id']
-        if ge_id != 'PlayerMelee':
-            continue
-        gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
+        # Skills from mods
+        for mod in relational_reader['Mods.dat']:
+            if mod['GrantedEffectsPerLevelKeys'] is None:
+                continue
+            if ignore_mod_domain(mod['Domain']):
+                continue
+            for granted_effect_per_level in mod['GrantedEffectsPerLevelKeys']:
+                granted_effect = granted_effect_per_level['GrantedEffectsKey']
+                ge_id = granted_effect['Id']
+                if ge_id in gems:
+                    # mod effects may exist as gems, those are handled above
+                    continue
+                gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
 
-    write_json(gems, data_path, 'gems')
-    write_json(tooltips, data_path, 'gem_tooltips')
+        # Default Attack/PlayerMelee is neither gem nor mod effect
+        for granted_effect in relational_reader['GrantedEffects.dat']:
+            ge_id = granted_effect['Id']
+            if ge_id != 'PlayerMelee':
+                continue
+            gems[ge_id], tooltips[ge_id] = converter.convert(None, granted_effect, None, None, None)
+
+        write_json(gems, data_path, 'gems')
+        write_json(tooltips, data_path, 'gem_tooltips')
 
 
 if __name__ == '__main__':
-    call_with_default_args(write)
+    call_with_default_args(gems.write)
