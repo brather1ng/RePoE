@@ -31,8 +31,8 @@ def _convert_mods(row):
         for item_class, key in class_to_key.items() if row[key] is not None
     }
 class essences(Parser_Module):
-    @classmethod
-    def write(data_path, relational_reader, **kwargs):
+    @staticmethod
+    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         essences = {
             row['BaseItemTypesKey']['Id']: {
                 'name': row['BaseItemTypesKey']['Name'],

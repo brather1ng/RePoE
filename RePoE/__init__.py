@@ -1,6 +1,7 @@
 import json
-from RePoE.parser.modules import get_parser_modules
 import os
+
+
 
 def _get_file_path_from_data_dir(file_name):
     this_dir, _ = os.path.split(__file__)
@@ -8,11 +9,18 @@ def _get_file_path_from_data_dir(file_name):
     return DATA_PATH
 
 
-#TODO: automatically take all json and add to locals.
-def add_modules_to_local():
-    for module_string in get_parser_modules():
-        file_path = _get_file_path_from_data_dir(f"{module_string}.json")
-        with open(file_path) as json_data:
-            locals()[module_string] = json.load(json_data)
+def _get_all_json_files():
+    json_files = [pos_json for pos_json in os.listdir(_get_file_path_from_data_dir("")) if pos_json.endswith('.json') and not pos_json.endswith('.min.json')]
+    return json_files
 
-add_modules_to_local()
+
+def add_jsons_to_global():
+    for json_string in _get_all_json_files():
+        file_path = _get_file_path_from_data_dir(json_string)
+        with open(file_path) as json_data:
+            globals()[json_string[:-5]] = json.load(json_data)
+
+add_jsons_to_global()
+
+if __name__ == "__main__":
+    print(characters)

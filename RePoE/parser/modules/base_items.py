@@ -108,8 +108,8 @@ ITEM_CLASS_WHITELIST = {
 
 class base_items(Parser_Module):
 
-    @classmethod
-    def write(data_path, relational_reader, ot_file_cache, **kwargs):
+    @staticmethod
+    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         attribute_requirements = \
             _create_default_dict(relational_reader['ComponentAttributeRequirements.dat'])
         armour_types = _create_default_dict(relational_reader['ComponentArmour.dat'])

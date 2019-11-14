@@ -2,8 +2,8 @@ from RePoE.parser.util import call_with_default_args, write_json, get_id_or_none
 from RePoE.parser import Parser_Module
 
 class item_classes(Parser_Module):
-    @classmethod
-    def write(data_path, relational_reader, **kwargs):
+    @staticmethod
+    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         item_classes = {
             row['Id']: {
                 'name': row['Name'],

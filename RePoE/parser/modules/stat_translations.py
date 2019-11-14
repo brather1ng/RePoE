@@ -87,8 +87,8 @@ def _get_stat_translations(tag_set, translations, custom_translations):
     return root
 
 class stat_translations(Parser_Module):
-    @classmethod
-    def write(data_path, translation_file_cache, **kwargs):
+    @staticmethod
+    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         tag_set = set()
         for in_file, out_file in STAT_TRANSLATION_DICT.items():
             translations = translation_file_cache[in_file].translations

@@ -3,8 +3,8 @@ from RePoE.parser import Parser_Module
 
 class characters(Parser_Module):
     
-    @classmethod
-    def write(data_path, relational_reader, **kwargs):
+    @staticmethod
+    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = []
         for row in relational_reader['Characters.dat']:
             root.append({

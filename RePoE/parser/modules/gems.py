@@ -551,7 +551,7 @@ class GemConverter:
 
 
 class gems(Parser_Module):
-    @classmethod
+    @staticmethod
     def write(ggpk, data_path, relational_reader, translation_file_cache, **kwargs):
         gems = {}
         tooltips = {}

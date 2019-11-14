@@ -1,6 +1,6 @@
 import argparse
 
-from RePoE import add_modules_to_local
+from RePoE import add_jsons_to_global
 from RePoE.parser.modules import get_parser_modules
 
 from RePoE.parser.util import load_ggpk, create_relational_reader, create_translation_file_cache, \
@@ -14,7 +14,7 @@ def main(data_path='./data/'):
     module_names = [module.__name__ for module in modules]
     module_names.append('all')
     parser = argparse.ArgumentParser(description="Convert GGPK files to Json using PyPoE")
-    parser.add_argument('modules', metavar="module", nargs='+', choices=module_names,
+    parser.add_argument('module_names', metavar="module", nargs='+', choices=module_names,
                         help="the converter modules to run (choose from '" + "', '".join(module_names) + "')")
     parser.add_argument('-f', '--file', default=DEFAULT_GGPK_PATH,
                         help="path to your Content.ggpk file")
@@ -35,10 +35,9 @@ def main(data_path='./data/'):
     selected_modules = [m for m in modules if m.__name__ in selected_module_names]
     for parser_module in selected_modules:
         print("Running module '%s'" % parser_module.__name__)
-        parser_module.write(ggpk=ggpk, data_path=data_path, relational_reader=rr,
-                        translation_file_cache=tfc, ot_file_cache=otfc)
-
-    add_modules_to_local()
+        print(parser_module.write)
+        parser_module.write(ggpk=ggpk, data_path=data_path, relational_reader=rr, translation_file_cache=tfc, ot_file_cache=otfc)
+    add_jsons_to_global()
 
 
 

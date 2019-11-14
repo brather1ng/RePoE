@@ -69,8 +69,8 @@ def _convert_tags_keys(tags_keys):
 # ignored mods:
 # - domain of 'monster', 'chest', 'stance', 'leaguestone'
 class mods(Parser_Module):
-    @classmethod
-    def write(data_path, relational_reader, **kwargs):
+    @staticmethod
+    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
         for mod in relational_reader['Mods.dat']:
             domain = MOD_DOMAIN_FIX.get(mod['Id'], mod['Domain'])
