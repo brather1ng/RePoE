@@ -18,7 +18,10 @@ def add_jsons_to_global():
     for json_string in _get_all_json_files():
         file_path = _get_file_path_from_data_dir(json_string)
         with open(file_path) as json_data:
-            globals()[json_string[:-5]] = json.load(json_data)
+            try:
+                globals()[json_string[:-5]] = json.load(json_data)
+            except json.decoder.JSONDecodeError:
+                print(f"Warning: {json_string} failed to decode json \n Recommended to execute run_parser.py to fix")
 
 add_jsons_to_global()
 

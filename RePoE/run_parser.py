@@ -35,7 +35,6 @@ def main(data_path='./data/'):
     selected_modules = [m for m in modules if m.__name__ in selected_module_names]
     for parser_module in selected_modules:
         print("Running module '%s'" % parser_module.__name__)
-        print(parser_module.write)
         parser_module.write(ggpk=ggpk, data_path=data_path, relational_reader=rr, translation_file_cache=tfc, ot_file_cache=otfc)
     add_jsons_to_global()
 
