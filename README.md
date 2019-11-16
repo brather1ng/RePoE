@@ -12,11 +12,27 @@ Developed to supply [PoESkillTree](https://github.com/PoESkillTree/PoESkillTree)
 game data information it requires. If you need other files converted, feel free to
 open an Issue or Pull Request for that.
 
+## Use as a Package
+
+- Install Python 3.6 or later (PyPoE recommends Python 3.7) and Git
+- Install [PyPoE](https://github.com/OmegaK2/PyPoE):
+  * Clone PyPoE and go into its folder
+  * Minimal install: `pip install -e .`
+  * Full install: `pip install -e .[full]` (not required for RePoE)
+- Install RePoE
+  * Clone RePoE and go into its folder
+  * install: `pip install -e .`  
+
+You can now access the data using `from RePoE import mods, characters` which returns the current 
+dicts found in the files `mods.json, characters.json`
+
+To update the data, in the `RePoE/RePoE` directory use `python run_parser.py all`.
+
 ## Files
 
-The [data](data) folder contains the generated data in Json format. Each file has a
+The [RePoE/data](RePoE/data) folder contains the generated data in Json format. Each file has a
 formatted and a compact version. The formatted versions complement their descriptions
-in the [docs](docs) folder.
+in the [RePoE/docs](RePoE/docs) folder.
 
 Note that the file formats are not final, they may change at any time, e.g. when the format
 of files in the GGPK changes. 
@@ -55,16 +71,6 @@ The following data is currently available:
   relevant for fossil crafting.
 
 
-## Running RePoE
-
-- Install Python 3.6 or later (PyPoE recommends Python 3.7) and Git
-- Install [PyPoE](https://github.com/OmegaK2/PyPoE):
-  * Clone PyPoE and go into its folder
-  * Minimal install: `pip install -e .`
-  * Full install: `pip install -e .[full]` (not required for RePoE)
-- Clone RePoE and go into its folder
-- Run `python RePoE.py`  
-  (`python RePoE.py -h` to see arguments)
 
 ## Credits
 
