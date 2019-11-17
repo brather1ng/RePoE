@@ -50,7 +50,7 @@ DEFAULT_GGPK_PATH = 'C:/Program Files (x86)/Grinding Gear Games/Path of Exile/Co
 
 def call_with_default_args(write_func):
     ggpk = load_ggpk(DEFAULT_GGPK_PATH)
-    write_func(ggpk=ggpk, data_path='../data/', relational_reader=create_relational_reader(ggpk),
+    write_func(ggpk=ggpk, data_path='../../data/', relational_reader=create_relational_reader(ggpk),
                translation_file_cache=create_translation_file_cache(ggpk),
                ot_file_cache=create_ot_file_cache(ggpk))
 

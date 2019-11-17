@@ -12,3 +12,5 @@ properties:
 - `bench_group`: Mods with the same value are placed into the same drop-down at the
   Crafting Bench.
 - `bench_tier`: The crafting tier/rank as displayed at the Crafting Bench.
+- `cost`: The currency it costs to craft this mod. The keys are base item ids. They can be resolved using
+  `base_items.json`. The values are the amount of currency of the key's type crafting costs.

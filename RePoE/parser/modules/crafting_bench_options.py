@@ -3,6 +3,7 @@ import itertools
 from RePoE.parser import Parser_Module
 from RePoE.parser.util import write_json, call_with_default_args
 
+
 class crafting_bench_options(Parser_Module):
     @staticmethod
     def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
@@ -19,6 +20,7 @@ class crafting_bench_options(Parser_Module):
                 'bench_group': row['ModFamily'],
                 'bench_tier': row['Tier'],
                 'item_classes': item_classes,
+                'cost': {base_item['Id']: value for base_item, value in row['Cost']},
             })
         write_json(root, data_path, 'crafting_bench_options')
 
