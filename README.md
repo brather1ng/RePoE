@@ -30,9 +30,9 @@ To update the data, in the `RePoE/RePoE` directory use `python run_parser.py all
 
 ## Files
 
-The [data](data) folder contains the generated data in Json format. Each file has a
+The [RePoE/data](RePoE/data) folder contains the generated data in Json format. Each file has a
 formatted and a compact version. The formatted versions complement their descriptions
-in the [docs](docs) folder.
+in the [RePoE/docs](RePoE/docs) folder.
 
 Note that the file formats are not final, they may change at any time, e.g. when the format
 of files in the GGPK changes. 
