@@ -23,7 +23,8 @@ open an Issue or Pull Request for that.
   * Clone RePoE and go into its folder
   * install: `pip install -e .`  
 
-You can now access the data using `from RePoE import mods, characters` which returns the current dicts found in the files `mods.json, characters.json`
+You can now access the data using `from RePoE import mods, characters` which returns the current 
+dicts found in the files `mods.json, characters.json`
 
 To update the data, in the `RePoE/RePoE` directory use `python run_parser.py all`.
 
