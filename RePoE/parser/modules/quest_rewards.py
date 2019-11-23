@@ -5,7 +5,6 @@ class quest_rewards(Parser_Module):
     @staticmethod
     def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
-        all_quest_states = {}
         all_classes = [ "Duelist", "Marauder", "Ranger", "Scion", "Shadow", "Templar", "Witch" ]
         for reward_row in relational_reader['QuestRewards.dat']:
             if reward_row["BaseItemTypesKey"] is None:
@@ -35,23 +34,13 @@ class quest_rewards(Parser_Module):
                     root[questId]["rewards"][rewardId] = {
                         "classes": [],
                         "name": rewardName,
-                        "type": reward_row["BaseItemTypesKey"]["ItemClassesKey"]["Name"]
+                        "type": reward_row["BaseItemTypesKey"]["ItemClassesKey"]["Id"]
                     }
                 if charClass == "All":
                     root[questId]["rewards"][rewardId]["classes"] = all_classes
                 else:
                     if charClass not in root[questId]["rewards"][rewardId]["classes"]:
                         root[questId]["rewards"][rewardId]["classes"].append(charClass)
-
-
-        for state_row in relational_reader['QuestStates.dat']:
-            questId = state_row["QuestKey"]["Id"]
-            # Add an entry for the quest into the root node, this should never happen
-            if questId not in root:
-                continue
-            for state in state_row["QuestStates"]:
-                all_quest_states[state] = questId
-
         write_json(root, data_path, 'quest_rewards')
 
 if __name__ == '__main__':

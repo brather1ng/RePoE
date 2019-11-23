@@ -35,7 +35,6 @@ class vendor_rewards(Parser_Module):
                 }
 
             for key in reward_row["BaseItemTypesKeys"]:
-                print("Found reward for vendor ", npcId, " of: ", key["Id"])
                 rewardId = key["Id"]
                 if rewardId not in root[npcId]["rewards"]:
                     root[npcId]["rewards"][rewardId] = {
@@ -57,9 +56,6 @@ class vendor_rewards(Parser_Module):
                         # BLATANT KLUDGE: Quest state 244 = a2q6, but isn't in QuestStates.dat
                         if reward_row["QuestState"] == 244:
                             root[npcId]["rewards"][rewardId]["quest_id"] = "a2q6"
-                print("Length of root: ", len(root))
-                print("Length of root[", npcId, "][rewards]: ", len(root[npcId]["rewards"]))
-        print(root)
         write_json(root, data_path, 'vendor_rewards')
 
 if __name__ == '__main__':
