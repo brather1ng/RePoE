@@ -9,14 +9,13 @@ class fossils(Parser_Module):
     def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
         for row in relational_reader['DelveCraftingModifiers.dat']:
+            
+            base_item_key = row["BaseItemTypesKey"]["Id"]
+            name_from_base_item  = relational_reader['BaseItemTypes.dat'][base_item_key]
 
-            #TODO: add in the name from the base_items
-            name_from_base_item  = relational_reader['BaseItemTypes.dat']
 
-
-            root[row["BaseItemTypesKey"]["Id"]] = {
-                #TODO: add in the name from the base_items
-                "name": relational_reader['row['BaseItemTypesKey']['Name'],
+            root[base_item_key] = {
+                "name": name_from_base_item,
                 "added_mods": [mod['Id'] for mod in row["AddedModKeys"]],
                 "forced_mods": [mod['Id'] for mod in row["ForcedAddModKeys"]],
                 "negative_mod_weights": [{"tag": tag["Id"], "weight": value} for tag, value
