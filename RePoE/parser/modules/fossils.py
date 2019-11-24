@@ -11,7 +11,7 @@ class fossils(Parser_Module):
         for row in relational_reader['DelveCraftingModifiers.dat']:
             
             base_item_key = row["BaseItemTypesKey"]["Id"]
-            name_from_base_item  = relational_reader['BaseItemTypes.dat'][base_item_key]
+            name_from_base_item  = row["BaseItemTypesKey"]["Name"]
 
 
             root[base_item_key] = {

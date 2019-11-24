@@ -35,6 +35,7 @@ as value. That description object has the following fields:
   a chance of white socket (not sure on distribution).
 
 **Descriptions**
+- `name`: The name of the fossil as found in the `base_items` entry.
 - `descriptions`: List of descriptions for the fossil.
 - `blocked_descriptions`: List of descriptions blocked by the fossil. This is purely aesthetic
   (e.g. No mana + More mana only shows up as No mana).
