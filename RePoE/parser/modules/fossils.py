@@ -1,12 +1,22 @@
 from RePoE.parser import Parser_Module
 from RePoE.parser.util import write_json, call_with_default_args
 
+
+
+
 class fossils(Parser_Module):
     @staticmethod
     def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
         for row in relational_reader['DelveCraftingModifiers.dat']:
+
+            #TODO: add in the name from the base_items
+            name_from_base_item  = relational_reader['BaseItemTypes.dat']
+
+
             root[row["BaseItemTypesKey"]["Id"]] = {
+                #TODO: add in the name from the base_items
+                "name": relational_reader['row['BaseItemTypesKey']['Name'],
                 "added_mods": [mod['Id'] for mod in row["AddedModKeys"]],
                 "forced_mods": [mod['Id'] for mod in row["ForcedAddModKeys"]],
                 "negative_mod_weights": [{"tag": tag["Id"], "weight": value} for tag, value
