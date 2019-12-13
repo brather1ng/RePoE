@@ -32,7 +32,8 @@ is an array that contains an element for each id (same applies to the other arra
 fields). The value of the stat with the ith id is checked against the ith condition.
 A condition has the fields `min` and `max`. If `min` is not specified, it is
 negative infinity. If `max` is not specified, it is positive infinity. The stat value
-`v` matches the condition iff `min <= v <= max`.  The first translation for which
+`v` matches the condition iff `min <= v <= max`. If `negated` is present and true, the
+condition result is negated. The first translation for which
 all `conditions` elements match the stat values is used for translation.
 
 Stat values may be a range instead of a single value (e.g. `(10 to 20)`). In that case,

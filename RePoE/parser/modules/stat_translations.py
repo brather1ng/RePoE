@@ -20,21 +20,14 @@ def _convert_tags(n_ids, tags, tags_types):
 def _convert_range(translation_range):
     rs = []
     for r in translation_range:
-        if r.min is None and r.max is None:
-            rs.append({})
-        elif r.min is None:
-            rs.append({
-                'max': r.max
-            })
-        elif r.max is None:
-            rs.append({
-                'min': r.min
-            })
-        else:
-            rs.append({
-                'min': r.min,
-                'max': r.max
-            })
+        r_dict = {}
+        if r.min is not None:
+            r_dict['min'] = r.min
+        if r.max is not None:
+            r_dict['max'] = r.max
+        if r.negated:
+            r_dict['negated'] = True
+        rs.append(r_dict)
     return rs
 
 

@@ -12719,6 +12719,131 @@
       "id": "ShieldStrInt5"
     }
   },
+  "Metadata/Items/AtlasExiles/AddModToRareCrusader": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Crusader's Exalted Orb",
+    "properties": {
+      "description": "Adds Crusader influence and a new Crusader modifier to a rare item",
+      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Influence Exalts/CrusaderOrb.dds",
+      "id": "AtlasExilesAddModToRareCrusader"
+    }
+  },
+  "Metadata/Items/AtlasExiles/AddModToRareHunter": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Hunter's Exalted Orb",
+    "properties": {
+      "description": "Adds Hunter influence and a new Hunter modifier to a rare item",
+      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Influence Exalts/BasiliskOrb.dds",
+      "id": "AtlasExilesAddModToRareHunter"
+    }
+  },
+  "Metadata/Items/AtlasExiles/AddModToRareRedeemer": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Redeemer's Exalted Orb",
+    "properties": {
+      "description": "Adds Redeemer influence and a new Redeemer modifier to a rare item",
+      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Influence Exalts/EyrieOrb.dds",
+      "id": "AtlasExilesAddModToRareRedeemer"
+    }
+  },
+  "Metadata/Items/AtlasExiles/AddModToRareWarlord": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Warlord's Exalted Orb",
+    "properties": {
+      "description": "Adds Warlord influence and a new Warlord modifier to a rare item",
+      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Influence Exalts/ConquerorOrb.dds",
+      "id": "AtlasExilesAddModToRareWarlord"
+    }
+  },
+  "Metadata/Items/AtlasExiles/ApplyInfluence": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Awakener's Orb",
+    "properties": {
+      "description": "Destroys an item, applying its influence to another of the same item class\r\nThe second item is reforged as a rare item with both influence types and new modifiers",
+      "directions": "Right click this item, then left click the item you wish to take the influence from, then left click an item of the same item class you wish to apply it to.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/TransferOrb.dds",
+      "id": "AtlasExilesApplyInfluence"
+    }
+  },
   "Metadata/Items/Belts/Belt1": {
     "domain": "item",
     "drop_level": 2,
@@ -13265,10 +13390,10 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "StackableCurrency",
-    "name": "Apprentice Cartographer's Sextant",
+    "name": "Simple Sextant",
     "properties": {
-      "description": "Adds or rerolls a mod for a white map on the Atlas",
-      "directions": "Right click this item then left click a white map on the Atlas to apply it.",
+      "description": "Adds or rerolls a modifier on a Watchstone.",
+      "directions": "Right click this item then left click a Watchstone to apply it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -13280,21 +13405,21 @@
       "default"
     ],
     "visual_identity": {
-      "dds_file": "Art/2DItems/Currency/AtlasRadiusWhite.dds",
+      "dds_file": "Art/2DItems/Currency/AtlasRadiusTier1.dds",
       "id": "CurrencyAddAtlasMod"
     }
   },
   "Metadata/Items/Currency/CurrencyAddAtlasModHigh": {
     "domain": "undefined",
-    "drop_level": 79,
+    "drop_level": 78,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "StackableCurrency",
-    "name": "Master Cartographer's Sextant",
+    "name": "Awakened Sextant",
     "properties": {
-      "description": "Adds or rerolls a mod for any map on the Atlas",
-      "directions": "Right click this item then left click any map on the Atlas to apply it.",
+      "description": "Adds or rerolls a modifier on a Watchstone.",
+      "directions": "Right click this item then left click a Watchstone to apply it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -13306,21 +13431,21 @@
       "default"
     ],
     "visual_identity": {
-      "dds_file": "Art/2DItems/Currency/AtlasRadiusRed.dds",
+      "dds_file": "Art/2DItems/Currency/AtlasRadiusTier3.dds",
       "id": "CurrencyAddAtlasModHigh"
     }
   },
   "Metadata/Items/Currency/CurrencyAddAtlasModMid": {
     "domain": "undefined",
-    "drop_level": 74,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "StackableCurrency",
-    "name": "Journeyman Cartographer's Sextant",
+    "name": "Prime Sextant",
     "properties": {
-      "description": "Adds or rerolls a mod for a yellow or white map on the Atlas",
-      "directions": "Right click this item then left click a yellow or white map on the Atlas to apply it.",
+      "description": "Adds or rerolls a modifier on a Watchstone.",
+      "directions": "Right click this item then left click a Watchstone to apply it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -13332,7 +13457,7 @@
       "default"
     ],
     "visual_identity": {
-      "dds_file": "Art/2DItems/Currency/AtlasRadiusYellow.dds",
+      "dds_file": "Art/2DItems/Currency/AtlasRadiusTier2.dds",
       "id": "CurrencyAddAtlasModMid"
     }
   },
@@ -13346,7 +13471,7 @@
     "name": "Orb of Augmentation",
     "properties": {
       "description": "Enchants a magic item with a new random modifier",
-      "directions": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers.",
+      "directions": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers. Removes 2% Quality applied by Catalysts on use.",
       "stack_size": 30,
       "stack_size_currency_tab": 5000
     },
@@ -13371,7 +13496,7 @@
     "name": "Exalted Orb",
     "properties": {
       "description": "Enchants a rare item with a new random modifier",
-      "directions": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers.",
+      "directions": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers. Removes 20% Quality applied by Catalysts on use.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -13423,7 +13548,7 @@
     "name": "Armourer's Scrap",
     "properties": {
       "description": "Improves the quality of an armour",
-      "directions": "Right click this item then left click an armour to apply it. Has greater effect on lower rarity armours. The maximum quality is 20%.",
+      "directions": "Right click this item then left click an armour to apply it. Has greater effect on lower-rarity armours. The maximum quality is 20%.",
       "stack_size": 40,
       "stack_size_currency_tab": 5000
     },
@@ -17170,7 +17295,7 @@
     "name": "Glassblower's Bauble",
     "properties": {
       "description": "Improves the quality of a flask",
-      "directions": "Right click this item then left click a flask to apply it. Has greater effect on lower rarity flasks. The maximum quality is 20%.",
+      "directions": "Right click this item then left click a flask to apply it. Has greater effect on lower-rarity flasks. The maximum quality is 20%.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
     },
@@ -17689,6 +17814,181 @@
       "id": "CurrencyProphecy"
     }
   },
+  "Metadata/Items/Currency/CurrencyJewelleryQualityAttack": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Abrasive Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Attack modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/AbrasiveCatalyst.dds",
+      "id": "CurrencyJewelleryQualityAttack"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyJewelleryQualityAttribute": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Intrinsic Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Attribute modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/IntrinsicCatalyst.dds",
+      "id": "CurrencyJewelleryQualityAttribute"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyJewelleryQualityCaster": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Imbued Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Caster modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/ImbuedCatalyst.dds",
+      "id": "CurrencyJewelleryQualityCaster"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyJewelleryQualityDefense": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Tempering Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Defence modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/TemperingCatalyst.dds",
+      "id": "CurrencyJewelleryQualityDefense"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyJewelleryQualityElemental": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Turbulent Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Elemental Damage modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/TurbulentCatalyst.dds",
+      "id": "CurrencyJewelleryQualityElemental"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyJewelleryQualityResistance": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Prismatic Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Resistance modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/PrismaticCatalyst.dds",
+      "id": "CurrencyJewelleryQualityResistance"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyJewelleryQualityResource": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Fertile Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Life and Mana modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/FertileCatalyst.dds",
+      "id": "CurrencyJewelleryQualityResource"
+    }
+  },
   "Metadata/Items/Currency/CurrencyLabyrinthEnchant": {
     "domain": "undefined",
     "drop_level": 1,
@@ -17859,7 +18159,7 @@
     "name": "Cartographer's Chisel",
     "properties": {
       "description": "Improves the quality of a map",
-      "directions": "Right click this item then left click a map to apply it. Has greater effect on lower rarity maps. The maximum quality is 20%.",
+      "directions": "Right click this item then left click a map to apply it. Has greater effect on lower-rarity maps. The maximum quality is 20%.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
     },
@@ -17985,7 +18285,7 @@
     "name": "Orb of Annulment",
     "properties": {
       "description": "Removes a random modifier from an item",
-      "directions": "Right click this item then left click on a magic or rare item to apply it.",
+      "directions": "Right click this item then left click on a magic or rare item to apply it. Removes 20% Quality applied by Catalysts on use.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
     },
@@ -18547,7 +18847,7 @@
     "name": "Regal Orb",
     "properties": {
       "description": "Upgrades a magic item to a rare item",
-      "directions": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added.",
+      "directions": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added. Removes 5% Quality applied by Catalysts on use.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -18833,7 +19133,7 @@
     "name": "Blacksmith's Whetstone",
     "properties": {
       "description": "Improves the quality of a weapon",
-      "directions": "Right click this item then left click a weapon to apply it. Has greater effect on lower rarity weapons. The maximum quality is 20%.",
+      "directions": "Right click this item then left click a weapon to apply it. Has greater effect on lower-rarity weapons. The maximum quality is 20%.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
     },
@@ -19468,6 +19768,31 @@
       "id": "DivinationCardAzyransReward"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardBaitedExpectations": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Baited Expectations",
+    "properties": {
+      "description": "<uniqueitem>{Fishing Item}",
+      "directions": "",
+      "stack_size": 8,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardBaitedExpectations"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardBeautyThroughDeath": {
     "domain": "undefined",
     "drop_level": 1,
@@ -19748,6 +20073,31 @@
       "id": "CallToTheFirstOnes"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardCameriasCut": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Cameria's Cut",
+    "properties": {
+      "description": "<whiteitem>{Scarab}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardCameriasCut_"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardCartographersDelight": {
     "domain": "undefined",
     "drop_level": 1,
@@ -19902,6 +20252,31 @@
       "id": "Death"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardDeathlyDesigns": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Deathly Designs",
+    "properties": {
+      "description": "<gemitem>{Level 21 Trap Gem}\r\n<default>{Quality:} <augmented>{+23%}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 7,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardDeathlyDesigns"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardDeck": {
     "domain": "undefined",
     "drop_level": 50,
@@ -20001,6 +20376,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DiallasSubjugation"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardDivineJustice": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Divine Justice",
+    "properties": {
+      "description": "<uniqueitem>{Helmet}\r\n<size:28>{<enchanted>{Eternal Labyrinth Enchantment}}",
+      "directions": "",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardDivineJustice"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardDoedresMadness": {
@@ -20155,6 +20556,31 @@
       "id": "EmperorsLuck"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardEtchedInBlood": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Etched in Blood",
+    "properties": {
+      "description": "<uniqueitem>{Rigwald's Quills}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 9,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardEtchedInBlood"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardForbiddenPower": {
     "domain": "undefined",
     "drop_level": 1,
@@ -20179,6 +20605,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "ForbiddenPower"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardFriendship": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Friendship",
+    "properties": {
+      "description": "<prophecy>{A Master Seeks Help (Niko)}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardFriendship"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardGemcuttersPromise": {
@@ -20980,7 +21431,7 @@
     "item_class": "DivinationCard",
     "name": "Monochrome",
     "properties": {
-      "description": "<currencyitem>{10x Cartographer's Sextant}",
+      "description": "<currencyitem>{10x Sextants}",
       "directions": "",
       "stack_size": 3,
       "stack_size_currency_tab": 5000
@@ -21407,6 +21858,31 @@
       "id": "ShardOfFate"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardSquanderedProsperity": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Squandered Prosperity",
+    "properties": {
+      "description": " <uniqueitem>{Perandus Manor}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardSquanderedProsperity"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardStruckByLightning": {
     "domain": "undefined",
     "drop_level": 1,
@@ -21431,6 +21907,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "StruckByLightning"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardSuccorOfTheSinless": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Succor of the Sinless",
+    "properties": {
+      "description": "<uniqueitem>{Bottled Faith}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardSuccorOfTheSinless"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheAdmirer": {
@@ -21766,6 +22267,31 @@
       "id": "TheBody"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheBones": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Bones",
+    "properties": {
+      "description": "<gemitem>{Level 21 Vaal Summon Skeletons}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheBones"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheBreach": {
     "domain": "undefined",
     "drop_level": 1,
@@ -22047,6 +22573,32 @@
       "id": "TheChainsThatBind"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheChosen": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Chosen",
+    "properties": {
+      "description": "<uniqueitem>{Skin of the Lords}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheChosen"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheComingStorm": {
     "domain": "undefined",
     "drop_level": 1,
@@ -22097,6 +22649,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheConduit"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheCraving": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Craving",
+    "properties": {
+      "description": "<uniqueitem>{Unending Hunger}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheCraving"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCursedKing": {
@@ -22662,6 +23239,32 @@
       "id": "TheEnlightened"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheEscape": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Escape",
+    "properties": {
+      "description": "<uniqueitem>{Seven-League Step}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheEscape"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheEthereal": {
     "domain": "undefined",
     "drop_level": 1,
@@ -22840,6 +23443,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheFiend"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheFishmonger": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Fishmonger",
+    "properties": {
+      "description": "<whiteitem>{Albino Rhoa Feather}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheFishmonger_"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFletcher": {
@@ -26275,6 +26903,31 @@
       "id": "TurnTheOtherCheek"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardUndergroundForest": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Underground Forest",
+    "properties": {
+      "description": "<currencyitem>{10x Master Cartographer's Sextant}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardUndergroundForest"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardVanity": {
     "domain": "undefined",
     "drop_level": 1,
@@ -27976,6 +28629,26 @@
       "id": "SkillGemArmageddonBrand_"
     }
   },
+  "Metadata/Items/Gems/SkillGemArtilleryBallista": {
+    "domain": "undefined",
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Artillery Ballista",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/MortarTotemBowSkillGem.dds",
+      "id": "SkillGemArtilleryBallista_"
+    }
+  },
   "Metadata/Items/Gems/SkillGemBackstab": {
     "domain": "undefined",
     "drop_level": 1,
@@ -28251,6 +28924,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "level_capped_gem",
       "gem",
       "default"
     ],
@@ -29274,6 +29948,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Enfeeble.dds",
       "id": "SkillGemEnfeeble"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemEnsnaringArrow": {
+    "domain": "undefined",
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Ensnaring Arrow",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/EnsnaringArrow.dds",
+      "id": "SkillGemEnsnaringArrow"
     }
   },
   "Metadata/Items/Gems/SkillGemEssenceDrain": {
@@ -31738,6 +32432,27 @@
       "id": "SkillGemShockwaveTotem"
     }
   },
+  "Metadata/Items/Gems/SkillGemShrapnelBallista": {
+    "domain": "undefined",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Shrapnel Ballista",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "up_to_level_8_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ShotgunTotemBowSkillGem.dds",
+      "id": "SkillGemShrapnelBallista"
+    }
+  },
   "Metadata/Items/Gems/SkillGemShrapnelShot": {
     "domain": "undefined",
     "drop_level": 5,
@@ -31745,7 +32460,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "Shrapnel Shot",
+    "name": "Galvanic Arrow",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -31782,7 +32497,7 @@
   },
   "Metadata/Items/Gems/SkillGemSiegeBallista": {
     "domain": "undefined",
-    "drop_level": 5,
+    "drop_level": 12,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31792,7 +32507,6 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
-      "up_to_level_8_gem",
       "gem",
       "default"
     ],
@@ -33763,6 +34477,27 @@
       "id": "SupportGemAddedChaosDamage"
     }
   },
+  "Metadata/Items/Gems/SupportGemAddedChaosDamagePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Added Chaos Damage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/AddedChaosDamagePlus.dds",
+      "id": "SupportGemAddedChaosDamagePlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemAddedColdDamage": {
     "domain": "undefined",
     "drop_level": 8,
@@ -33783,6 +34518,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/AddedColdDamage.dds",
       "id": "SupportGemAddedColdDamage"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemAddedColdDamagePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Added Cold Damage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/AddedColdDamagePlus.dds",
+      "id": "SupportGemAddedColdDamagePlus"
     }
   },
   "Metadata/Items/Gems/SupportGemAddedFireDamage": {
@@ -33807,6 +34563,27 @@
       "id": "SupportGemAddedFireDamage"
     }
   },
+  "Metadata/Items/Gems/SupportGemAddedFireDamagePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Added Fire Damage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/AddedFireDamagePlus.dds",
+      "id": "SupportGemAddedFireDamagePlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemAddedLightningDamage": {
     "domain": "undefined",
     "drop_level": 8,
@@ -33827,6 +34604,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/AddedLightningDamage.dds",
       "id": "SupportGemAddedLightningDamage"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemAddedLightningDamagePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Added Lightning Damage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/AddedLightningDamagePlus.dds",
+      "id": "SupportGemAddedLightningDamagePlus"
     }
   },
   "Metadata/Items/Gems/SupportGemAdditionalAccuracy": {
@@ -33917,6 +34715,27 @@
       "id": "SupportGemEnlighten"
     }
   },
+  "Metadata/Items/Gems/SupportGemAncestralCallPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Ancestral Call Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/MirageStrikePlus.dds",
+      "id": "SupportGemAncestralCallPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemArcaneSurge": {
     "domain": "undefined",
     "drop_level": 5,
@@ -33940,6 +34759,70 @@
       "id": "SupportGemArcaneSurge"
     }
   },
+  "Metadata/Items/Gems/SupportGemArrowNova": {
+    "domain": "undefined",
+    "drop_level": 8,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Arrow Nova Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "up_to_level_8_gem",
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/GreenRainSupportGem.dds",
+      "id": "SupportGemArrowNova"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemArrowNovaPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Arrow Nova Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/GreenRainPlus.dds",
+      "id": "SupportGemArrowNovaPlus_"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemBarrage": {
+    "domain": "undefined",
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Barrage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/GreenBarrageSupportGem.dds",
+      "id": "SupportGemBarrage"
+    }
+  },
   "Metadata/Items/Gems/SupportGemBlasphemy": {
     "domain": "undefined",
     "drop_level": 31,
@@ -33959,6 +34842,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/Aurify.dds",
       "id": "SupportGemBlasphemy"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemBlasphemyPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Blasphemy Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/AurifyPlus.dds",
+      "id": "SupportGemBlasphemyPlus"
     }
   },
   "Metadata/Items/Gems/SupportGemBlind": {
@@ -34088,6 +34992,48 @@
       "id": "SupportGemBrutality"
     }
   },
+  "Metadata/Items/Gems/SupportGemBrutalityPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Brutality Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/BrutalityPlus.dds",
+      "id": "SupportGemBrutalityPlus_"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemBurningDamagePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Burning Damage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/IncreasedBurnDurationPlus.dds",
+      "id": "SupportGemBurningDamagePlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemCastLinkedCursesOnCurse": {
     "domain": "undefined",
     "drop_level": 1,
@@ -34128,6 +35074,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/CastOnCrit.dds",
       "id": "SupportGemCastOnCrit"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemCastOnCritPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Cast On Critical Strike Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/CastOnCritPlus.dds",
+      "id": "SupportGemCastOnCritPlus"
     }
   },
   "Metadata/Items/Gems/SupportGemCastOnDamageTaken": {
@@ -34235,6 +35202,27 @@
       "id": "SupportGemCastWhileChanneling"
     }
   },
+  "Metadata/Items/Gems/SupportGemCastWhileChannellingPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Cast While Channelling Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/CastWhileChannelingPlus.dds",
+      "id": "SupportGemCastWhileChannellingPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemChain": {
     "domain": "undefined",
     "drop_level": 38,
@@ -34254,6 +35242,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/chain.dds",
       "id": "SupportGemChain"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemChainPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Chain Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/ChainPlus.dds",
+      "id": "SupportGemChainPlus"
     }
   },
   "Metadata/Items/Gems/SupportGemChanceToBleed": {
@@ -34427,6 +35436,27 @@
       "id": "SupportGemColdPenetration"
     }
   },
+  "Metadata/Items/Gems/SupportGemColdPenetrationPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Cold Penetration Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/ColdPenetrationPlus.dds",
+      "id": "SupportGemColdPenetrationPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemColdToFire": {
     "domain": "undefined",
     "drop_level": 18,
@@ -34490,6 +35520,27 @@
       "id": "SupportGemControlledDestruction"
     }
   },
+  "Metadata/Items/Gems/SupportGemControlledDestructionPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Controlled Destruction Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/ControlledDestructionPlus.dds",
+      "id": "SupportGemControlledDestructionPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemCullingStrike": {
     "domain": "undefined",
     "drop_level": 18,
@@ -34532,6 +35583,27 @@
       "id": "SupportGemCurseOnHit"
     }
   },
+  "Metadata/Items/Gems/SupportGemCurseOnHitPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Curse On Hit Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/CurseOnHitPlus.dds",
+      "id": "SupportGemCurseOnHitPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemDamageAgainstChilled": {
     "domain": "undefined",
     "drop_level": 31,
@@ -34572,6 +35644,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/DeadlyAilments.dds",
       "id": "SupportGemDeadlyAilments"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemDeadlyAilmentsPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Deadly Ailments Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/DeadlyAilmentsPlus.dds",
+      "id": "SupportGemDeadlyAilmentsPlus_"
     }
   },
   "Metadata/Items/Gems/SupportGemDeathmark": {
@@ -34656,6 +35749,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/ElementalFocus.dds",
       "id": "SupportGemElementalFocus"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemElementalFocusPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Elemental Focus Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/ElementalFocusPlus.dds",
+      "id": "SupportGemElementalFocusPlus"
     }
   },
   "Metadata/Items/Gems/SupportGemElementalProliferation": {
@@ -34828,6 +35942,27 @@
       "id": "SupportGemFirePenetration"
     }
   },
+  "Metadata/Items/Gems/SupportGemFirePenetrationPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Fire Penetration Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/FirePenetrationPlus.dds",
+      "id": "SupportGemFirePenetrationPlus__"
+    }
+  },
   "Metadata/Items/Gems/SupportGemFork": {
     "domain": "undefined",
     "drop_level": 31,
@@ -34847,6 +35982,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/Fork.dds",
       "id": "SupportGemFork"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemForkPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Fork Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/ForkPlus.dds",
+      "id": "SupportGemForkPlus"
     }
   },
   "Metadata/Items/Gems/SupportGemFortify": {
@@ -34933,6 +36089,27 @@
       "id": "SupportGemGenerosity"
     }
   },
+  "Metadata/Items/Gems/SupportGemGenerosityPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Generosity Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/GenerosityPlus.dds",
+      "id": "SupportGemGenerosityPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles": {
     "domain": "undefined",
     "drop_level": 38,
@@ -34952,6 +36129,48 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/GreaterMultipleProjectiles.dds",
       "id": "SupportGemGreaterMultipleProjectiles"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemGreaterMultipleProjectilesPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Greater Multiple Projectiles Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/GreaterMultipleProjectilesPlus.dds",
+      "id": "SupportGemGreaterMultipleProjectilesPlus"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemGreaterVolley": {
+    "domain": "undefined",
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Greater Volley Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/GreaterVolleySupport.dds",
+      "id": "SupportGemGreaterVolley"
     }
   },
   "Metadata/Items/Gems/SupportGemHandcastAnticipation": {
@@ -35120,6 +36339,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/IncreasedAOE.dds",
       "id": "SupportGemIncreasedAreaOfEffect"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffectPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Increased Area Of Effect Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/IncreasedAOEPlus.dds",
+      "id": "SupportGemIncreasedAreaOfEffectPlus"
     }
   },
   "Metadata/Items/Gems/SupportGemIncreasedBurningDamage": {
@@ -35443,6 +36683,27 @@
       "id": "SupportGemLightningPenetration"
     }
   },
+  "Metadata/Items/Gems/SupportGemLightningPenetrationPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Lightning Penetration Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/LightningPenetrationPlus.dds",
+      "id": "SupportGemLightningPenetrationPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemMaim": {
     "domain": "undefined",
     "drop_level": 8,
@@ -35549,6 +36810,27 @@
       "id": "SupportGemMeleePhysicalDamage"
     }
   },
+  "Metadata/Items/Gems/SupportGemMeleePhysicalDamagePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Melee Physical Damage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/IncreasedPhyscialDamagePlus.dds",
+      "id": "SupportGemMeleePhysicalDamagePlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemMeleeSplash": {
     "domain": "undefined",
     "drop_level": 8,
@@ -35569,6 +36851,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/Splash.dds",
       "id": "SupportGemMeleeSplash"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemMeleeSplashPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Melee Splash Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/SplashPlus.dds",
+      "id": "SupportGemMeleeSplashPlus"
     }
   },
   "Metadata/Items/Gems/SupportGemMinefield": {
@@ -35612,6 +36915,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/MinionDamage.dds",
       "id": "SupportGemMinionDamage"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemMinionDamagePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Minion Damage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/MinionDamagePlus.dds",
+      "id": "SupportGemMinionDamagePlus_"
     }
   },
   "Metadata/Items/Gems/SupportGemMinionLife": {
@@ -35761,6 +37085,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/multipleattacks.dds",
       "id": "SupportGemMultipleAttacks"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemMultistrikePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Multistrike Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/MultipleAttacksPlus.dds",
+      "id": "SupportGemMultistrikePlus"
     }
   },
   "Metadata/Items/Gems/SupportGemNightblade": {
@@ -36027,7 +37372,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "Ranged Attack Totem Support",
+    "name": "Ballista Totem Support",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -36235,6 +37580,48 @@
       "id": "SupportGemSpellCascade"
     }
   },
+  "Metadata/Items/Gems/SupportGemSpellCascadePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Spell Cascade Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/SpellCascadePlus.dds",
+      "id": "SupportGemSpellCascadePlus"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemSpellEchoPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Spell Echo Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/EchoPlus.dds",
+      "id": "SupportGemSpellEchoPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemSpellTotem": {
     "domain": "undefined",
     "drop_level": 8,
@@ -36387,6 +37774,27 @@
       "id": "SupportGemSummonGhostOnKill"
     }
   },
+  "Metadata/Items/Gems/SupportGemSwiftAfflictionPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Swift Affliction Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/SupportRapidDecayPlus.dds",
+      "id": "SupportGemSwiftAfflictionPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemSwiftAssembly": {
     "domain": "undefined",
     "drop_level": 5,
@@ -36516,6 +37924,48 @@
       "id": "SupportGemUnboundAilments"
     }
   },
+  "Metadata/Items/Gems/SupportGemUnboundAilmentsPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Unbound Ailments Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/UnboundAilmentPlus.dds",
+      "id": "SupportGemUnboundAilmentsPlus__"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemUnleashPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Unleash Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/UnleashPlus.dds",
+      "id": "SupportGemUnleashPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemVaalSoulHarvesting": {
     "domain": "undefined",
     "drop_level": 31,
@@ -36535,6 +37985,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Portal.dds",
       "id": "SkillGemPortal"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemViciousProjectilesPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Vicious Projectiles Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/RangedPhysicalAttackDamagePlus.dds",
+      "id": "SupportGemViciousProjectilesPlus"
     }
   },
   "Metadata/Items/Gems/SupportGemVileToxins": {
@@ -36580,6 +38051,27 @@
       "id": "SupportGemVoidManipulation"
     }
   },
+  "Metadata/Items/Gems/SupportGemVoidManipulationPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Void Manipulation Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/VoidManipulationPlus.dds",
+      "id": "SupportGemVoidManipulationPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemWeaponElementalDamage": {
     "domain": "undefined",
     "drop_level": 18,
@@ -36599,6 +38091,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/WeaponElementalDamage.dds",
       "id": "SupportGemWeaponElementalDamage"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemWeaponElementalDamagePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Elemental Damage With Attacks Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/WeaponElementalDamagePlus.dds",
+      "id": "SupportGemWeaponElementalDamagePlus"
     }
   },
   "Metadata/Items/Jewels/JewelAbyssCaster": {
@@ -44015,8 +45528,8 @@
     "properties": {
       "attack_time": 714,
       "critical_strike_chance": 700,
-      "physical_damage_max": 8,
-      "physical_damage_min": 4,
+      "physical_damage_max": 9,
+      "physical_damage_min": 5,
       "range": 120
     },
     "release_state": "released",
@@ -44052,8 +45565,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 700,
-      "physical_damage_max": 53,
-      "physical_damage_min": 18,
+      "physical_damage_max": 64,
+      "physical_damage_min": 21,
       "range": 120
     },
     "release_state": "released",
@@ -44089,8 +45602,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 800,
-      "physical_damage_max": 50,
-      "physical_damage_min": 27,
+      "physical_damage_max": 61,
+      "physical_damage_min": 33,
       "range": 120
     },
     "release_state": "released",
@@ -44126,8 +45639,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 700,
-      "physical_damage_max": 59,
-      "physical_damage_min": 32,
+      "physical_damage_max": 70,
+      "physical_damage_min": 38,
       "range": 120
     },
     "release_state": "released",
@@ -44163,8 +45676,8 @@
     "properties": {
       "attack_time": 667,
       "critical_strike_chance": 700,
-      "physical_damage_max": 44,
-      "physical_damage_min": 24,
+      "physical_damage_max": 53,
+      "physical_damage_min": 28,
       "range": 120
     },
     "release_state": "released",
@@ -44200,8 +45713,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 700,
-      "physical_damage_max": 54,
-      "physical_damage_min": 29,
+      "physical_damage_max": 65,
+      "physical_damage_min": 35,
       "range": 120
     },
     "release_state": "released",
@@ -44237,8 +45750,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 700,
-      "physical_damage_max": 62,
-      "physical_damage_min": 21,
+      "physical_damage_max": 75,
+      "physical_damage_min": 25,
       "range": 120
     },
     "release_state": "released",
@@ -44274,8 +45787,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 800,
-      "physical_damage_max": 54,
-      "physical_damage_min": 29,
+      "physical_damage_max": 64,
+      "physical_damage_min": 35,
       "range": 120
     },
     "release_state": "released",
@@ -44311,8 +45824,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 700,
-      "physical_damage_max": 13,
-      "physical_damage_min": 7,
+      "physical_damage_max": 16,
+      "physical_damage_min": 9,
       "range": 120
     },
     "release_state": "released",
@@ -44348,8 +45861,8 @@
     "properties": {
       "attack_time": 667,
       "critical_strike_chance": 700,
-      "physical_damage_max": 14,
-      "physical_damage_min": 8,
+      "physical_damage_max": 17,
+      "physical_damage_min": 9,
       "range": 120
     },
     "release_state": "released",
@@ -44385,8 +45898,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 700,
-      "physical_damage_max": 22,
-      "physical_damage_min": 12,
+      "physical_damage_max": 27,
+      "physical_damage_min": 14,
       "range": 120
     },
     "release_state": "released",
@@ -44422,8 +45935,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 700,
-      "physical_damage_max": 31,
-      "physical_damage_min": 10,
+      "physical_damage_max": 37,
+      "physical_damage_min": 12,
       "range": 120
     },
     "release_state": "released",
@@ -44459,8 +45972,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 800,
-      "physical_damage_max": 35,
-      "physical_damage_min": 19,
+      "physical_damage_max": 42,
+      "physical_damage_min": 23,
       "range": 120
     },
     "release_state": "released",
@@ -44496,8 +46009,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 700,
-      "physical_damage_max": 40,
-      "physical_damage_min": 22,
+      "physical_damage_max": 48,
+      "physical_damage_min": 26,
       "range": 120
     },
     "release_state": "released",
@@ -44533,8 +46046,8 @@
     "properties": {
       "attack_time": 667,
       "critical_strike_chance": 700,
-      "physical_damage_max": 32,
-      "physical_damage_min": 17,
+      "physical_damage_max": 38,
+      "physical_damage_min": 21,
       "range": 120
     },
     "release_state": "released",
@@ -44570,8 +46083,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 700,
-      "physical_damage_max": 43,
-      "physical_damage_min": 23,
+      "physical_damage_max": 52,
+      "physical_damage_min": 28,
       "range": 120
     },
     "release_state": "released",
@@ -44607,8 +46120,8 @@
     "properties": {
       "attack_time": 714,
       "critical_strike_chance": 700,
-      "physical_damage_max": 46,
-      "physical_damage_min": 25,
+      "physical_damage_max": 56,
+      "physical_damage_min": 30,
       "range": 120
     },
     "release_state": "released",
@@ -44647,8 +46160,8 @@
     "properties": {
       "attack_time": 741,
       "critical_strike_chance": 700,
-      "physical_damage_max": 33,
-      "physical_damage_min": 18,
+      "physical_damage_max": 40,
+      "physical_damage_min": 22,
       "range": 120
     },
     "release_state": "released",
@@ -44686,8 +46199,8 @@
     "properties": {
       "attack_time": 741,
       "critical_strike_chance": 700,
-      "physical_damage_max": 48,
-      "physical_damage_min": 26,
+      "physical_damage_max": 57,
+      "physical_damage_min": 31,
       "range": 120
     },
     "release_state": "released",
@@ -44725,8 +46238,8 @@
     "properties": {
       "attack_time": 741,
       "critical_strike_chance": 700,
-      "physical_damage_max": 51,
-      "physical_damage_min": 27,
+      "physical_damage_max": 61,
+      "physical_damage_min": 33,
       "range": 120
     },
     "release_state": "released",
@@ -44893,14 +46406,16 @@
   "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow12": {
     "domain": "item",
     "drop_level": 44,
-    "implicits": [],
+    "implicits": [
+      "CriticalMultiplierImplicitBow1"
+    ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Bow",
     "name": "Sniper Bow",
     "properties": {
       "attack_time": 800,
-      "critical_strike_chance": 650,
+      "critical_strike_chance": 670,
       "physical_damage_max": 68,
       "physical_damage_min": 23,
       "range": 120
@@ -44934,10 +46449,10 @@
     "item_class": "Bow",
     "name": "Ivory Bow",
     "properties": {
-      "attack_time": 741,
-      "critical_strike_chance": 600,
-      "physical_damage_max": 64,
-      "physical_damage_min": 21,
+      "attack_time": 714,
+      "critical_strike_chance": 650,
+      "physical_damage_max": 61,
+      "physical_damage_min": 20,
       "range": 120
     },
     "release_state": "released",
@@ -45115,8 +46630,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 600,
-      "physical_damage_max": 76,
-      "physical_damage_min": 37,
+      "physical_damage_max": 80,
+      "physical_damage_min": 39,
       "range": 120
     },
     "release_state": "released",
@@ -45142,14 +46657,16 @@
   "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow19": {
     "domain": "item",
     "drop_level": 62,
-    "implicits": [],
+    "implicits": [
+      "CriticalMultiplierImplicitBow1"
+    ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Bow",
     "name": "Assassin Bow",
     "properties": {
       "attack_time": 800,
-      "critical_strike_chance": 650,
+      "critical_strike_chance": 670,
       "physical_damage_max": 89,
       "physical_damage_min": 30,
       "range": 120
@@ -45218,10 +46735,10 @@
     "item_class": "Bow",
     "name": "Spine Bow",
     "properties": {
-      "attack_time": 741,
-      "critical_strike_chance": 600,
-      "physical_damage_max": 80,
-      "physical_damage_min": 27,
+      "attack_time": 714,
+      "critical_strike_chance": 650,
+      "physical_damage_max": 78,
+      "physical_damage_min": 26,
       "range": 120
     },
     "release_state": "released",
@@ -45391,14 +46908,16 @@
   "Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow5": {
     "domain": "item",
     "drop_level": 18,
-    "implicits": [],
+    "implicits": [
+      "CriticalMultiplierImplicitBow1"
+    ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Bow",
     "name": "Recurve Bow",
     "properties": {
       "attack_time": 800,
-      "critical_strike_chance": 650,
+      "critical_strike_chance": 670,
       "physical_damage_max": 34,
       "physical_damage_min": 11,
       "range": 120
@@ -45432,10 +46951,10 @@
     "item_class": "Bow",
     "name": "Bone Bow",
     "properties": {
-      "attack_time": 741,
-      "critical_strike_chance": 600,
-      "physical_damage_max": 36,
-      "physical_damage_min": 12,
+      "attack_time": 714,
+      "critical_strike_chance": 650,
+      "physical_damage_max": 34,
+      "physical_damage_min": 11,
       "range": 120
     },
     "release_state": "released",

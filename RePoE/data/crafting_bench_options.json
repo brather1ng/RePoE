@@ -88,7 +88,7 @@
     "mod_id": "StrDexIntMasterMapQuantity8"
   },
   {
-    "bench_group": "MapWbCrafted",
+    "bench_group": "MapEssenceLeagueCrafted",
     "bench_tier": 0,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 2
@@ -97,10 +97,10 @@
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapWbCrafted_"
+    "mod_id": "MapEssenceLeagueCrafted__"
   },
   {
-    "bench_group": "AbyssLeagueCrafted",
+    "bench_group": "MapAnarchyLeagueCrafted",
     "bench_tier": 0,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 2
@@ -109,10 +109,10 @@
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "AbyssLeagueCrafted"
+    "mod_id": "MapAnarchyExiles"
   },
   {
-    "bench_group": "MapExtraStrongBoxes",
+    "bench_group": "MapExtraShrines",
     "bench_tier": 0,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 3
@@ -121,7 +121,7 @@
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapExtraStrongBoxes"
+    "mod_id": "MapExtraShrinesCrafted_"
   },
   {
     "bench_group": "MapBloodlinesLeagueCrafted",
@@ -148,28 +148,28 @@
     "mod_id": "MapNemesisZana"
   },
   {
-    "bench_group": "MapBreachLeagueCrafted",
+    "bench_group": "MapBeyondLeagueCrafted",
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyRerollRare": 4
+      "Metadata/Items/Currency/CurrencyRerollRare": 5
     },
     "item_classes": [
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapBreachLeagueCrafted"
+    "mod_id": "MapBeyondLeagueCrafted"
   },
   {
-    "bench_group": "MapSpawnHarbingersCrafted",
+    "bench_group": "MapLegionLeagueCrafted",
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyRerollRare": 4
+      "Metadata/Items/Currency/CurrencyRerollRare": 6
     },
     "item_classes": [
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapHarbingerLeagueCrafted"
+    "mod_id": "MapLegionLeagueCrafted"
   },
   {
     "bench_group": "IncreasedLife",
@@ -4839,7 +4839,7 @@
     "bench_group": "EnergyShieldDelay",
     "bench_tier": 1,
     "cost": {
-      "Metadata/Items/Currency/CurrencyUpgradeMagicToRare": 2
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
     "item_classes": [
       "Ring"
@@ -4851,7 +4851,7 @@
     "bench_group": "EnergyShieldDelay",
     "bench_tier": 2,
     "cost": {
-      "Metadata/Items/Currency/CurrencyAddModToRare": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Ring"
@@ -5701,8 +5701,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2FireDamageAndChanceToIgnite2h1"
@@ -5718,8 +5717,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2FireDamageAndChanceToIgnite2h2"
@@ -5735,8 +5733,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2FireDamageAndChanceToIgnite2h3"
@@ -5812,8 +5809,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ColdDamageAndBaseChanceToFreeze2h1"
@@ -5829,8 +5825,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ColdDamageAndBaseChanceToFreeze2h2"
@@ -5846,8 +5841,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ColdDamageAndBaseChanceToFreeze2h3_"
@@ -5923,8 +5917,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LightningDamageAndChanceToShock2h1"
@@ -5940,8 +5933,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LightningDamageAndChanceToShock2h2"
@@ -5957,8 +5949,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LightningDamageAndChanceToShock2h3"
@@ -6034,8 +6025,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ChaosDamageAndChaosSkillDuration2h1"
@@ -6051,8 +6041,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ChaosDamageAndChaosSkillDuration2h2"
@@ -6068,8 +6057,7 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff",
-      "Bow"
+      "Warstaff"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2ChaosDamageAndChaosSkillDuration2h3_"
@@ -7138,11 +7126,8 @@
       "Metadata/Items/Currency/CurrencyRerollMagic": 8
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedArmourAndEvasionAndLife1"
@@ -7154,11 +7139,8 @@
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedArmourAndEvasionAndLife2"
@@ -7170,11 +7152,8 @@
       "Metadata/Items/Currency/CurrencyRerollRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedArmourAndEvasionAndLife3"
@@ -7186,11 +7165,8 @@
       "Metadata/Items/Currency/CurrencyRerollMagic": 8
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedArmourAndEnergyShieldAndLife1"
@@ -7202,11 +7178,8 @@
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedArmourAndEnergyShieldAndLife2"
@@ -7218,11 +7191,8 @@
       "Metadata/Items/Currency/CurrencyRerollRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedArmourAndEnergyShieldAndLife3__"
@@ -7234,11 +7204,8 @@
       "Metadata/Items/Currency/CurrencyRerollMagic": 8
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedEvasionAndEnergyShieldAndLife1"
@@ -7250,11 +7217,8 @@
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedEvasionAndEnergyShieldAndLife2"
@@ -7266,11 +7230,8 @@
       "Metadata/Items/Currency/CurrencyRerollRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedEvasionAndEnergyShieldAndLife3"
@@ -7282,11 +7243,8 @@
       "Metadata/Items/Currency/CurrencyRerollMagic": 8
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedArmourAndLife1"
@@ -7298,11 +7256,8 @@
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedArmourAndLife2"
@@ -7314,11 +7269,8 @@
       "Metadata/Items/Currency/CurrencyRerollRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedArmourAndLife3"
@@ -7330,11 +7282,8 @@
       "Metadata/Items/Currency/CurrencyRerollMagic": 8
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedEvasionAndLife1"
@@ -7346,11 +7295,8 @@
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedEvasionAndLife2"
@@ -7362,11 +7308,8 @@
       "Metadata/Items/Currency/CurrencyRerollRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedEvasionAndLife3"
@@ -7378,11 +7321,8 @@
       "Metadata/Items/Currency/CurrencyRerollMagic": 8
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedEnergyShieldAndLife1"
@@ -7394,11 +7334,8 @@
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedEnergyShieldAndLife2"
@@ -7410,11 +7347,8 @@
       "Metadata/Items/Currency/CurrencyRerollRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedEnergyShieldAndLife3"
@@ -7426,11 +7360,8 @@
       "Metadata/Items/Currency/CurrencyRerollMagic": 8
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedDefencesAndLife1_"
@@ -7442,11 +7373,8 @@
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
-      "Helmet",
-      "Shield"
+      "Gloves"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2LocalIncreasedDefencesAndLife2_"
@@ -7458,14 +7386,536 @@
       "Metadata/Items/Currency/CurrencyRerollRare": 2
     },
     "item_classes": [
-      "Body Armour",
       "Boots",
-      "Gloves",
+      "Gloves"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedDefencesAndLife3_"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEvasionAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
       "Helmet",
       "Shield"
     ],
     "master": "Jun",
-    "mod_id": "JunMaster2LocalIncreasedDefencesAndLife3_"
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEvasionAndLifeMed1__"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEvasionAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEvasionAndLifeMed2_"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEvasionAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEvasionAndLifeMed3"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEnergyShieldAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEnergyShieldAndLifeMed1__"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEnergyShieldAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEnergyShieldAndLifeMed2"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEnergyShieldAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEnergyShieldAndLifeMed3_"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndEnergyShieldAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndEnergyShieldAndLifeMed1"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndEnergyShieldAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndEnergyShieldAndLifeMed2"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndEnergyShieldAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndEnergyShieldAndLifeMed3"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndLifeMed1"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndLifeMed2"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndLifeMed3"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndLifeMed1"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndLifeMed2"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndLifeMed3_"
+  },
+  {
+    "bench_group": "LocalIncreasedEnergyShieldAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEnergyShieldAndLifeMed1"
+  },
+  {
+    "bench_group": "LocalIncreasedEnergyShieldAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEnergyShieldAndLifeMed2"
+  },
+  {
+    "bench_group": "LocalIncreasedEnergyShieldAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEnergyShieldAndLifeMed3"
+  },
+  {
+    "bench_group": "LocalIncreasedDefencesAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedDefencesAndLifeMed1_"
+  },
+  {
+    "bench_group": "LocalIncreasedDefencesAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedDefencesAndLifeMed2"
+  },
+  {
+    "bench_group": "LocalIncreasedDefencesAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Helmet",
+      "Shield"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedDefencesAndLifeMed3"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEvasionAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEvasionAndLifeHigh1"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEvasionAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEvasionAndLifeHigh2"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEvasionAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEvasionAndLifeHigh3"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEnergyShieldAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEnergyShieldAndLifeHigh1"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEnergyShieldAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEnergyShieldAndLifeHigh2"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndEnergyShieldAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndEnergyShieldAndLifeHigh3"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndEnergyShieldAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndEnergyShieldAndLifeHigh1"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndEnergyShieldAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndEnergyShieldAndLifeHigh2"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndEnergyShieldAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndEnergyShieldAndLifeHigh3"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndLifeHigh1"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndLifeHigh2"
+  },
+  {
+    "bench_group": "LocalIncreasedArmourAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedArmourAndLifeHigh3"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndLifeHigh1"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndLifeHigh2"
+  },
+  {
+    "bench_group": "LocalIncreasedEvasionAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEvasionAndLifeHigh3"
+  },
+  {
+    "bench_group": "LocalIncreasedEnergyShieldAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEnergyShieldAndLifeHigh1_"
+  },
+  {
+    "bench_group": "LocalIncreasedEnergyShieldAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEnergyShieldAndLifeHigh2"
+  },
+  {
+    "bench_group": "LocalIncreasedEnergyShieldAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedEnergyShieldAndLifeHigh3_"
+  },
+  {
+    "bench_group": "LocalIncreasedDefencesAndLife",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedDefencesAndLifeHigh1"
+  },
+  {
+    "bench_group": "LocalIncreasedDefencesAndLife",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedDefencesAndLifeHigh2"
+  },
+  {
+    "bench_group": "LocalIncreasedDefencesAndLife",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Body Armour"
+    ],
+    "master": "Jun",
+    "mod_id": "JunMaster2LocalIncreasedDefencesAndLifeHigh3_"
   },
   {
     "bench_group": "StrengthAndDexterity",
@@ -8357,18 +8807,6 @@
     ],
     "master": "Jun",
     "mod_id": "JunMaster2EffectOfAilments2"
-  },
-  {
-    "bench_group": "AdditionalCurseOnEnemies",
-    "bench_tier": 0,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyAddModToRare": 3
-    },
-    "item_classes": [
-      "Body Armour"
-    ],
-    "master": "Jun",
-    "mod_id": "JunMaster2MaximumCurse1_"
   },
   {
     "bench_group": "CurseEffectiveness",

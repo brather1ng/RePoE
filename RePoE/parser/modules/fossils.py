@@ -16,8 +16,8 @@ class fossils(Parser_Module):
 
             root[base_item_key] = {
                 "name": name_from_base_item,
-                "added_mods": [mod['Id'] for mod in row["AddedModKeys"]],
-                "forced_mods": [mod['Id'] for mod in row["ForcedAddModKeys"]],
+                "added_mods": [mod['Id'] for mod in row["AddedModsKeys"]],
+                "forced_mods": [mod['Id'] for mod in row["ForcedAddModsKeys"]],
                 "negative_mod_weights": [{"tag": tag["Id"], "weight": value} for tag, value
                                         in zip(row["NegativeWeight_TagsKeys"], row["NegativeWeight_Values"])],
                 "positive_mod_weights": [{"tag": tag["Id"], "weight": value} for tag, value

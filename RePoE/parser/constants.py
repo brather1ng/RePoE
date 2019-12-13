@@ -184,6 +184,12 @@ class ActiveSkillType(IntEnum):
     # Gem tag equivalent
     blink = 81
     aura_duration_supportable = 82
+    # Skill fires secondary projectiles and can't be supported by Arrow Nova or Volley Support
+    secondary_projectile = 83
+    # Skill is a ballista totem skill (natively, not via support gem)
+    ballista = 84
+    # Gem tag equivalent
+    nova = 85
 
 
 @unique

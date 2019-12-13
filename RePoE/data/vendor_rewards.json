@@ -810,13 +810,24 @@
         "name": "Shield Charge",
         "quest_id": "a1q2"
       },
+      "Metadata/Items/Gems/SkillGemShrapnelBallista": {
+        "classes": [
+          "Marauder",
+          "Duelist",
+          "Ranger",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Shrapnel Ballista",
+        "quest_id": "a1q4"
+      },
       "Metadata/Items/Gems/SkillGemShrapnelShot": {
         "classes": [
           "Duelist",
           "Ranger",
           "Scion"
         ],
-        "name": "Shrapnel Shot",
+        "name": "Galvanic Arrow",
         "quest_id": "a1q1"
       },
       "Metadata/Items/Gems/SkillGemShrapnelTrap": {
@@ -833,10 +844,11 @@
         "classes": [
           "Duelist",
           "Ranger",
+          "Shadow",
           "Scion"
         ],
         "name": "Siege Ballista",
-        "quest_id": "a1q4"
+        "quest_id": "a1q3"
       },
       "Metadata/Items/Gems/SkillGemSmite": {
         "classes": [
@@ -1165,6 +1177,16 @@
         "name": "Arcane Surge Support",
         "quest_id": "a1q5"
       },
+      "Metadata/Items/Gems/SupportGemArrowNova": {
+        "classes": [
+          "Duelist",
+          "Ranger",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Arrow Nova Support",
+        "quest_id": "a1q2"
+      },
       "Metadata/Items/Gems/SupportGemBlind": {
         "classes": [
           "Marauder",
@@ -1369,7 +1391,7 @@
           "Shadow",
           "Scion"
         ],
-        "name": "Ranged Attack Totem Support",
+        "name": "Ballista Totem Support",
         "quest_id": "a1q2"
       },
       "Metadata/Items/Gems/SupportGemRemoteMine": {
@@ -1557,6 +1579,16 @@
           "Scion"
         ],
         "name": "Enduring Cry",
+        "quest_id": "a2q9"
+      },
+      "Metadata/Items/Gems/SkillGemEnsnaringArrow": {
+        "classes": [
+          "Duelist",
+          "Ranger",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Ensnaring Arrow",
         "quest_id": "a2q9"
       },
       "Metadata/Items/Gems/SkillGemFleshAndStone": {
@@ -2042,6 +2074,17 @@
           "Scion"
         ],
         "name": "Armageddon Brand",
+        "quest_id": "a3q8"
+      },
+      "Metadata/Items/Gems/SkillGemArtilleryBallista": {
+        "classes": [
+          "Marauder",
+          "Duelist",
+          "Ranger",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Artillery Ballista",
         "quest_id": "a3q8"
       },
       "Metadata/Items/Gems/SkillGemBallLightning": {
@@ -3184,6 +3227,19 @@
         "name": "Armageddon Brand",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemArtilleryBallista": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Artillery Ballista",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemBallLightning": {
         "classes": [
           "Duelist",
@@ -3858,6 +3914,19 @@
           "Witch"
         ],
         "name": "Enfeeble",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SkillGemEnsnaringArrow": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Ensnaring Arrow",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SkillGemEssenceDrain": {
@@ -5121,6 +5190,19 @@
         "name": "Shockwave Totem",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemShrapnelBallista": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Shrapnel Ballista",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemShrapnelShot": {
         "classes": [
           "Duelist",
@@ -5131,7 +5213,7 @@
           "Templar",
           "Witch"
         ],
-        "name": "Shrapnel Shot",
+        "name": "Galvanic Arrow",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SkillGemShrapnelTrap": {
@@ -5769,6 +5851,19 @@
           "Witch"
         ],
         "name": "Arcane Surge Support",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SupportGemArrowNova": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Arrow Nova Support",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SupportGemBlasphemy": {
@@ -6717,7 +6812,7 @@
           "Templar",
           "Witch"
         ],
-        "name": "Ranged Attack Totem Support",
+        "name": "Ballista Totem Support",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SupportGemRapidDecay": {
@@ -7118,6 +7213,19 @@
         "name": "Summon Stone Golem",
         "quest_id": "a4q2"
       },
+      "Metadata/Items/Gems/SupportGemBarrage": {
+        "classes": [
+          "Marauder",
+          "Witch",
+          "Templar",
+          "Duelist",
+          "Ranger",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Barrage Support",
+        "quest_id": "a4q1"
+      },
       "Metadata/Items/Gems/SupportGemBonechill": {
         "classes": [
           "Witch",
@@ -7281,6 +7389,19 @@
           "Scion"
         ],
         "name": "Greater Multiple Projectiles Support",
+        "quest_id": "a4q1"
+      },
+      "Metadata/Items/Gems/SupportGemGreaterVolley": {
+        "classes": [
+          "Marauder",
+          "Witch",
+          "Templar",
+          "Duelist",
+          "Ranger",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Greater Volley Support",
         "quest_id": "a4q1"
       },
       "Metadata/Items/Gems/SupportGemHandcastAnticipation": {
@@ -7503,6 +7624,19 @@
           "Witch"
         ],
         "name": "Armageddon Brand",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SkillGemArtilleryBallista": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Artillery Ballista",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SkillGemBallLightning": {
@@ -8207,6 +8341,19 @@
         "name": "Enfeeble",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemEnsnaringArrow": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Ensnaring Arrow",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemEssenceDrain": {
         "classes": [
           "Duelist",
@@ -9494,6 +9641,19 @@
         "name": "Shockwave Totem",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemShrapnelBallista": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Shrapnel Ballista",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemShrapnelShot": {
         "classes": [
           "Duelist",
@@ -9504,7 +9664,7 @@
           "Templar",
           "Witch"
         ],
-        "name": "Shrapnel Shot",
+        "name": "Galvanic Arrow",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SkillGemShrapnelTrap": {
@@ -10222,6 +10382,32 @@
         "name": "Arcane Surge Support",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SupportGemArrowNova": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Arrow Nova Support",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SupportGemBarrage": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Barrage Support",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SupportGemBlasphemy": {
         "classes": [
           "Duelist",
@@ -10818,6 +11004,19 @@
           "Witch"
         ],
         "name": "Greater Multiple Projectiles Support",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SupportGemGreaterVolley": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Greater Volley Support",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SupportGemHandcastAnticipation": {
@@ -11454,7 +11653,7 @@
           "Templar",
           "Witch"
         ],
-        "name": "Ranged Attack Totem Support",
+        "name": "Ballista Totem Support",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SupportGemRapidDecay": {

@@ -12,7 +12,8 @@ class default_monster_stats(Parser_Module):
                 'evasion': row['Evasion'],
                 'accuracy': row['Accuracy'],
                 'life': row['Life'],
-                'ally_life': row['AllyLife']
+                'ally_life': row['AllyLife'],
+                'armour': row['Armour'],
             }
         write_json(root, data_path, 'default_monster_stats')
 

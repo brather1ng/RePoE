@@ -520,7 +520,7 @@ class GemConverter:
         divisor = 50 if are_quality_stats else 1
         tr = tf.get_translation(
             tags=[s['id'] for s in for_level],
-            values=[s['value'] / divisor for s in for_level],
+            values=[s['value'] // divisor for s in for_level],
             full_result=True
         )
         divisor = 20 if are_quality_stats else 1
