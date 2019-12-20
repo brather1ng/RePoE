@@ -453,7 +453,7 @@ class GemConverter:
             damage_effectiveness = for_level['damage_effectiveness'] \
                 if 'damage_effectiveness' in for_level else 0
             properties.append({
-                "text": "Damage Effectiveness: {0}%",
+                "text": "Effectiveness of Added Damage: {0}%",
                 "value": damage_effectiveness + 100
             })
 
