@@ -920,7 +920,7 @@
           [],
           []
         ],
-        "string": "Consumes Socketed Support Gems when they reach Maximum Level\nCan Consume {0} Support Gem\nHas not Consumed any Gems"
+        "string": "Consumes Socketed Uncorrupted Support Gems when they reach Maximum Level\nCan Consume {0} Uncorrupted Support Gem\nHas not Consumed any Gems"
       },
       {
         "condition": [
@@ -938,7 +938,7 @@
           [],
           []
         ],
-        "string": "Consumes Socketed Support Gems when they reach Maximum Level\nCan Consume {0} additional Support Gem"
+        "string": "Consumes Socketed Uncorrupted Support Gems when they reach Maximum Level\nCan Consume {0} additional Uncorrupted Support Gem"
       },
       {
         "condition": [
@@ -958,7 +958,7 @@
           [],
           []
         ],
-        "string": "Consumes Socketed Support Gems when they reach Maximum Level\nCan Consume {0} Support Gems\nHas not Consumed any Gems"
+        "string": "Consumes Socketed Uncorrupted Support Gems when they reach Maximum Level\nCan Consume {0} Uncorrupted Support Gems\nHas not Consumed any Gems"
       },
       {
         "condition": [
@@ -975,7 +975,7 @@
           [],
           []
         ],
-        "string": "Consumes Socketed Support Gems when they reach Maximum Level\nCan Consume {0} additional Support Gems"
+        "string": "Consumes Socketed Uncorrupted Support Gems when they reach Maximum Level\nCan Consume {0} additional Uncorrupted Support Gems"
       },
       {
         "condition": [
@@ -125874,12 +125874,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Area contains additional Monsters that Convert when Killed"
+        "string": "Area contains {0} additional packs of Monsters that Convert when Killed"
       }
     ],
     "ids": [

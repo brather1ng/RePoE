@@ -12729,7 +12729,7 @@
     "name": "Crusader's Exalted Orb",
     "properties": {
       "description": "Adds Crusader influence and a new Crusader modifier to a rare item",
-      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 20% Quality applied by Catalysts on use.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -12754,7 +12754,7 @@
     "name": "Hunter's Exalted Orb",
     "properties": {
       "description": "Adds Hunter influence and a new Hunter modifier to a rare item",
-      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 20% Quality applied by Catalysts on use.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -12779,7 +12779,7 @@
     "name": "Redeemer's Exalted Orb",
     "properties": {
       "description": "Adds Redeemer influence and a new Redeemer modifier to a rare item",
-      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 20% Quality applied by Catalysts on use.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -12804,7 +12804,7 @@
     "name": "Warlord's Exalted Orb",
     "properties": {
       "description": "Adds Warlord influence and a new Warlord modifier to a rare item",
-      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+      "directions": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 20% Quality applied by Catalysts on use.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -13471,7 +13471,7 @@
     "name": "Orb of Augmentation",
     "properties": {
       "description": "Enchants a magic item with a new random modifier",
-      "directions": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers. Removes 2% Quality applied by Catalysts on use.",
+      "directions": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 2% Quality applied by Catalysts on use.",
       "stack_size": 30,
       "stack_size_currency_tab": 5000
     },
@@ -13496,7 +13496,7 @@
     "name": "Exalted Orb",
     "properties": {
       "description": "Enchants a rare item with a new random modifier",
-      "directions": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers. Removes 20% Quality applied by Catalysts on use.",
+      "directions": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 20% Quality applied by Catalysts on use.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -18285,7 +18285,7 @@
     "name": "Orb of Annulment",
     "properties": {
       "description": "Removes a random modifier from an item",
-      "directions": "Right click this item then left click on a magic or rare item to apply it. Removes 20% Quality applied by Catalysts on use.",
+      "directions": "Right click this item then left click on a magic or rare item to apply it. The item's Catalyst quality decreases the chance of removing a modifier which matches the quality type. Removes 20% Quality applied by Catalysts on use.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
     },
@@ -18847,7 +18847,7 @@
     "name": "Regal Orb",
     "properties": {
       "description": "Upgrades a magic item to a rare item",
-      "directions": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added. Removes 5% Quality applied by Catalysts on use.",
+      "directions": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 5% Quality applied by Catalysts on use.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -21431,7 +21431,7 @@
     "item_class": "DivinationCard",
     "name": "Monochrome",
     "properties": {
-      "description": "<currencyitem>{10x Sextants}",
+      "description": "<currencyitem>{10x Sextant}",
       "directions": "",
       "stack_size": 3,
       "stack_size_currency_tab": 5000
@@ -26912,7 +26912,7 @@
     "item_class": "DivinationCard",
     "name": "Underground Forest",
     "properties": {
-      "description": "<currencyitem>{10x Master Cartographer's Sextant}",
+      "description": "<currencyitem>{10x Awakened Sextant}",
       "directions": "",
       "stack_size": 4,
       "stack_size_currency_tab": 5000
