@@ -190,6 +190,18 @@ class ActiveSkillType(IntEnum):
     ballista = 84
     # Gem tag equivalent
     nova = 85
+    # Similar to buff, not used on support gems
+    unknown_86 = 86
+    # Similar to buff, not used on support gems
+    unknown_87 = 87
+    # Set for 4 of the 5 mine active skill gems (not for Smoke Mine), which all deal damage
+    damaging_mine = 88
+    # Gem tag equivalent (not translated, see gem_tags.json)
+    banner = 89
+    # Set for the Bow skills that shoot upwards (Rain of Arrows, Blast Rain, Mirror Arrow, Blink Arrow)
+    shoots_arrows_upwards = 90
+    # Allows Second Wind Support
+    second_wind_supportable = 91
 
 
 @unique
@@ -231,6 +243,7 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemBackstab",
     "Metadata/Items/Gems/SkillGemBladeTrap",
     "Metadata/Items/Gems/SkillGemBlitz",
+    "Metadata/Items/Gems/SkillGemBloodWhirl",
     "Metadata/Items/Gems/SkillGemBoneArmour",
     "Metadata/Items/Gems/SkillGemCaptureMonster",
     "Metadata/Items/Gems/SkillGemCoilingAssault",
@@ -250,6 +263,7 @@ UNRELEASED_ITEMS = {
     "Metadata/Items/Gems/SkillGemNewPunishment",
     "Metadata/Items/Gems/SkillGemNewShockNova",
     "Metadata/Items/Gems/SkillGemQuickBlock",
+    "Metadata/Items/Gems/SkillGemProjectilePortal",
     "Metadata/Items/Gems/SkillGemRendingSteel",
     "Metadata/Items/Gems/SkillGemReplicate",
     "Metadata/Items/Gems/SkillGemRighteousLightning",

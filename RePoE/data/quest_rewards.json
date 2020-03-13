@@ -852,6 +852,13 @@
         "name": "Ice Shot",
         "type": "Active Skill Gem"
       },
+      "Metadata/Items/Gems/SkillGemKineticBolt": {
+        "classes": [
+          "Witch"
+        ],
+        "name": "Kinetic Bolt",
+        "type": "Active Skill Gem"
+      },
       "Metadata/Items/Gems/SkillGemLightningTendrils": {
         "classes": [
           "Witch",
@@ -2162,6 +2169,15 @@
     "act": 2,
     "name": "Intruders in Black",
     "rewards": {
+      "Metadata/Items/Gems/SkillGemArcaneCloak": {
+        "classes": [
+          "Witch",
+          "Templar",
+          "Shadow"
+        ],
+        "name": "Arcane Cloak",
+        "type": "Active Skill Gem"
+      },
       "Metadata/Items/Gems/SkillGemArcticArmour": {
         "classes": [
           "Witch",
@@ -2170,6 +2186,13 @@
           "Scion"
         ],
         "name": "Arctic Armour",
+        "type": "Active Skill Gem"
+      },
+      "Metadata/Items/Gems/SkillGemBladeBlast": {
+        "classes": [
+          "Shadow"
+        ],
+        "name": "Blade Blast",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemBloodRage": {
@@ -2224,7 +2247,6 @@
         "classes": [
           "Duelist",
           "Ranger",
-          "Shadow",
           "Scion"
         ],
         "name": "Frenzy",
@@ -2501,6 +2523,13 @@
         "name": "Zealotry",
         "type": "Active Skill Gem"
       },
+      "Metadata/Items/Gems/SkillGemSpellslinger": {
+        "classes": [
+          "Witch"
+        ],
+        "name": "Spellslinger",
+        "type": "Active Skill Gem"
+      },
       "Metadata/Items/Gems/SkillGemVengeance": {
         "classes": [
           "Marauder"
@@ -2566,6 +2595,15 @@
     "act": 3,
     "name": "A Fixture of Fate",
     "rewards": {
+      "Metadata/Items/Gems/SupportGemArchmage": {
+        "classes": [
+          "Witch",
+          "Templar",
+          "Shadow"
+        ],
+        "name": "Archmage Support",
+        "type": "Support Skill Gem"
+      },
       "Metadata/Items/Gems/SupportGemBlasphemy": {
         "classes": [
           "Witch",
@@ -2644,7 +2682,6 @@
         "classes": [
           "Witch",
           "Templar",
-          "Shadow",
           "Scion"
         ],
         "name": "Fire Penetration Support",
@@ -2783,6 +2820,14 @@
           "Shadow"
         ],
         "name": "Swift Affliction Support",
+        "type": "Support Skill Gem"
+      },
+      "Metadata/Items/Gems/SupportGemSecondWind": {
+        "classes": [
+          "Ranger",
+          "Shadow"
+        ],
+        "name": "Second Wind Support",
         "type": "Support Skill Gem"
       }
     }
@@ -3079,13 +3124,6 @@
         "name": "Flamethrower Trap",
         "type": "Active Skill Gem"
       },
-      "Metadata/Items/Gems/SkillGemFrostBoltNova": {
-        "classes": [
-          "Templar"
-        ],
-        "name": "Vortex",
-        "type": "Active Skill Gem"
-      },
       "Metadata/Items/Gems/SkillGemGlacialCascade": {
         "classes": [
           "Witch"
@@ -3172,6 +3210,14 @@
           "Scion"
         ],
         "name": "Soulrend",
+        "type": "Active Skill Gem"
+      },
+      "Metadata/Items/Gems/SkillGemStormBind": {
+        "classes": [
+          "Witch",
+          "Templar"
+        ],
+        "name": "Stormbind",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemTectonicSlam": {

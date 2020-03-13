@@ -532,6 +532,16 @@
         "name": "Infernal Blow",
         "quest_id": "a1q3"
       },
+      "Metadata/Items/Gems/SkillGemKineticBolt": {
+        "classes": [
+          "Witch",
+          "Ranger",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Kinetic Bolt",
+        "quest_id": "a1q1"
+      },
       "Metadata/Items/Gems/SkillGemLacerate": {
         "classes": [
           "Marauder",
@@ -1525,6 +1535,16 @@
     "act": 2,
     "name": "Yeena",
     "rewards": {
+      "Metadata/Items/Gems/SkillGemArcaneCloak": {
+        "classes": [
+          "Witch",
+          "Templar",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Arcane Cloak",
+        "quest_id": "a2q9"
+      },
       "Metadata/Items/Gems/SkillGemArcticArmour": {
         "classes": [
           "Witch",
@@ -1535,6 +1555,17 @@
           "Scion"
         ],
         "name": "Arctic Armour",
+        "quest_id": "a2q9"
+      },
+      "Metadata/Items/Gems/SkillGemBladeBlast": {
+        "classes": [
+          "Witch",
+          "Templar",
+          "Ranger",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Blade Blast",
         "quest_id": "a2q9"
       },
       "Metadata/Items/Gems/SkillGemBloodRage": {
@@ -2667,6 +2698,26 @@
         "name": "Zealotry",
         "quest_id": "a3q1"
       },
+      "Metadata/Items/Gems/SkillGemSpellslinger": {
+        "classes": [
+          "Witch",
+          "Templar",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Spellslinger",
+        "quest_id": "a3q1"
+      },
+      "Metadata/Items/Gems/SkillGemStormBind": {
+        "classes": [
+          "Witch",
+          "Templar",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Stormbind",
+        "quest_id": "a3q8"
+      },
       "Metadata/Items/Gems/SkillGemTectonicSlam": {
         "classes": [
           "Marauder",
@@ -2765,6 +2816,16 @@
         ],
         "name": "Wrath",
         "quest_id": "a3q1"
+      },
+      "Metadata/Items/Gems/SupportGemArchmage": {
+        "classes": [
+          "Witch",
+          "Templar",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Archmage Support",
+        "quest_id": "a3q12"
       },
       "Metadata/Items/Gems/SupportGemBlasphemy": {
         "classes": [
@@ -3088,6 +3149,18 @@
         "name": "Inspiration Support",
         "quest_id": "a3q12"
       },
+      "Metadata/Items/Gems/SupportGemSecondWind": {
+        "classes": [
+          "Witch",
+          "Templar",
+          "Duelist",
+          "Ranger",
+          "Shadow",
+          "Scion"
+        ],
+        "name": "Second Wind Support",
+        "quest_id": "a3q12"
+      },
       "Metadata/Items/Gems/SupportGemSlowerProjectiles": {
         "classes": [
           "Duelist",
@@ -3188,6 +3261,19 @@
         "name": "Arc",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemArcaneCloak": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Arcane Cloak",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemArcticArmour": {
         "classes": [
           "Duelist",
@@ -3277,6 +3363,19 @@
           "Witch"
         ],
         "name": "Bear Trap",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SkillGemBladeBlast": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Blade Blast",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SkillGemBladeVortex": {
@@ -4566,6 +4665,19 @@
         "name": "Kinetic Blast",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemKineticBolt": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Kinetic Bolt",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemLacerate": {
         "classes": [
           "Duelist",
@@ -5307,6 +5419,19 @@
         "name": "Zealotry",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemSpellslinger": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Spellslinger",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemSpiritOffering": {
         "classes": [
           "Duelist",
@@ -5357,6 +5482,19 @@
           "Witch"
         ],
         "name": "Steelskin",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SkillGemStormBind": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Stormbind",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SkillGemStormBrand": {
@@ -5851,6 +5989,19 @@
           "Witch"
         ],
         "name": "Arcane Surge Support",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SupportGemArchmage": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Archmage Support",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SupportGemArrowNova": {
@@ -6880,6 +7031,19 @@
         "name": "Ruthless Support",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SupportGemSecondWind": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Second Wind Support",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SupportGemShockwave": {
         "classes": [
           "Duelist",
@@ -7587,6 +7751,19 @@
         "name": "Arc",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemArcaneCloak": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Arcane Cloak",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemArcticArmour": {
         "classes": [
           "Duelist",
@@ -7689,6 +7866,19 @@
           "Witch"
         ],
         "name": "Berserk",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SkillGemBladeBlast": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Blade Blast",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SkillGemBladeVortex": {
@@ -9004,6 +9194,19 @@
         "name": "Kinetic Blast",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemKineticBolt": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Kinetic Bolt",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemLacerate": {
         "classes": [
           "Duelist",
@@ -9758,6 +9961,19 @@
         "name": "Zealotry",
         "quest_id": ""
       },
+      "Metadata/Items/Gems/SkillGemSpellslinger": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Spellslinger",
+        "quest_id": ""
+      },
       "Metadata/Items/Gems/SkillGemSpiritOffering": {
         "classes": [
           "Duelist",
@@ -9808,6 +10024,19 @@
           "Witch"
         ],
         "name": "Steelskin",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SkillGemStormBind": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Stormbind",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SkillGemStormBrand": {
@@ -10380,6 +10609,19 @@
           "Witch"
         ],
         "name": "Arcane Surge Support",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SupportGemArchmage": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Archmage Support",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SupportGemArrowNova": {
@@ -11719,6 +11961,19 @@
           "Witch"
         ],
         "name": "Ruthless Support",
+        "quest_id": ""
+      },
+      "Metadata/Items/Gems/SupportGemSecondWind": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Second Wind Support",
         "quest_id": ""
       },
       "Metadata/Items/Gems/SupportGemShockwave": {
