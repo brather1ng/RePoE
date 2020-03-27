@@ -22493,7 +22493,7 @@
     "item_class": "DivinationCard",
     "name": "Squandered Prosperity",
     "properties": {
-      "description": " <uniqueitem>{Perandus Manor}\r\n<corrupted>{Corrupted}",
+      "description": "<uniqueitem>{Perandus Manor}\r\n<default>{Watchstone Count:} <normal>{4}\r\n<corrupted>{Corrupted}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -25256,7 +25256,7 @@
     "item_class": "DivinationCard",
     "name": "The Mayor",
     "properties": {
-      "description": "<uniqueitem>{The Perandus Manor}",
+      "description": "<uniqueitem>{The Perandus Manor}\r\n<default>{Watchstone Count:} <normal>{4}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -31955,7 +31955,7 @@
   },
   "Metadata/Items/Gems/SkillGemKineticBolt": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 5,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
