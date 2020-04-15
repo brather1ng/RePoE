@@ -1310,7 +1310,7 @@
       },
       "Metadata/Items/Gems/SkillGemLightningArrow": {
         "classes": [
-          "Duelist"
+          "Ranger"
         ],
         "name": "Lightning Arrow",
         "type": "Active Skill Gem"
@@ -1355,15 +1355,14 @@
       },
       "Metadata/Items/Gems/SkillGemShatteringSteel": {
         "classes": [
-          "Ranger",
-          "Shadow"
+          "Duelist"
         ],
         "name": "Shattering Steel",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemSiegeBallista": {
         "classes": [
-          "Templar"
+          "Ranger"
         ],
         "name": "Siege Ballista",
         "type": "Active Skill Gem"
@@ -1462,7 +1461,7 @@
       },
       "Metadata/Items/Gems/SkillGemBloodAndSand": {
         "classes": [
-          "Templar"
+          "Duelist"
         ],
         "name": "Blood and Sand",
         "type": "Active Skill Gem"
@@ -1611,8 +1610,7 @@
       },
       "Metadata/Items/Gems/SkillGemWarBanner": {
         "classes": [
-          "Witch",
-          "Shadow"
+          "Duelist"
         ],
         "name": "War Banner",
         "type": "Active Skill Gem"
@@ -2091,11 +2089,7 @@
       },
       "Metadata/Items/Gems/SupportGemTrapAndMineDamage": {
         "classes": [
-          "Templar",
-          "Marauder",
-          "Duelist",
-          "Ranger",
-          "Scion"
+          "Shadow"
         ],
         "name": "Trap and Mine Damage Support",
         "type": "Support Skill Gem"
@@ -2158,8 +2152,10 @@
       },
       "Metadata/Items/QuestItems/SkillBooks/Book-a2q5": {
         "classes": [
-          "Witch",
+          "Duelist",
+          "Marauder",
           "Ranger",
+          "Scion",
           "Shadow",
           "Templar",
           "Witch"
@@ -2383,7 +2379,7 @@
       },
       "Metadata/Items/Gems/SkillGemCriticalWeakness": {
         "classes": [
-          "Duelist"
+          "Shadow"
         ],
         "name": "Assassin's Mark",
         "type": "Active Skill Gem"
@@ -2475,7 +2471,7 @@
       },
       "Metadata/Items/Gems/SkillGemPlagueBearer": {
         "classes": [
-          "Witch"
+          "Shadow"
         ],
         "name": "Plague Bearer",
         "type": "Active Skill Gem"
