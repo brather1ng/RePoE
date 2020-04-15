@@ -9,6 +9,7 @@ from PyPoE.poe.constants import MOD_DOMAIN
 
 from RePoE.parser.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS
 
+
 def get_id_or_none(relational_file_cell):
     return None if relational_file_cell is None else relational_file_cell['Id']
 
@@ -68,6 +69,6 @@ def get_release_state(item_id):
 def ignore_mod_domain(domain):
     whitelist = {
         MOD_DOMAIN.ITEM, MOD_DOMAIN.FLASK, MOD_DOMAIN.AREA, MOD_DOMAIN.CRAFTED, MOD_DOMAIN.MISC,
-        MOD_DOMAIN.ATLAS, MOD_DOMAIN.ABYSS_JEWEL, MOD_DOMAIN.DELVE
+        MOD_DOMAIN.ATLAS, MOD_DOMAIN.ABYSS_JEWEL, MOD_DOMAIN.DELVE, MOD_DOMAIN.AFFLICTION_JEWEL,
     }
     return domain not in whitelist

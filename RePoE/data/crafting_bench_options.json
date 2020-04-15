@@ -88,7 +88,7 @@
     "mod_id": "StrDexIntMasterMapQuantity8"
   },
   {
-    "bench_group": "MapEssenceLeagueCrafted",
+    "bench_group": "MapExtraStrongBoxes",
     "bench_tier": 0,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 2
@@ -97,10 +97,10 @@
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapEssenceLeagueCrafted__"
+    "mod_id": "MapExtraStrongBoxes"
   },
   {
-    "bench_group": "MapAnarchyLeagueCrafted",
+    "bench_group": "AbyssLeagueCrafted",
     "bench_tier": 0,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 2
@@ -109,19 +109,7 @@
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapAnarchyExiles"
-  },
-  {
-    "bench_group": "MapExtraShrines",
-    "bench_tier": 0,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollRare": 3
-    },
-    "item_classes": [
-      "Map"
-    ],
-    "master": "Zana",
-    "mod_id": "MapExtraShrinesCrafted_"
+    "mod_id": "AbyssLeagueCrafted"
   },
   {
     "bench_group": "MapBloodlinesLeagueCrafted",
@@ -136,7 +124,19 @@
     "mod_id": "MapBloodlinesLeagueCrafted"
   },
   {
-    "bench_group": "MapNemesisExtraRaresZana",
+    "bench_group": "MapExtraShrines",
+    "bench_tier": 0,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 3
+    },
+    "item_classes": [
+      "Map"
+    ],
+    "master": "Zana",
+    "mod_id": "MapExtraShrinesCrafted_"
+  },
+  {
+    "bench_group": "MapPerandusLeagueCrafted",
     "bench_tier": 0,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
@@ -145,7 +145,7 @@
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapNemesisZana"
+    "mod_id": "MapPerandusLeagueCrafted"
   },
   {
     "bench_group": "MapBeyondLeagueCrafted",
@@ -160,16 +160,16 @@
     "mod_id": "MapBeyondLeagueCrafted"
   },
   {
-    "bench_group": "MapLegionLeagueCrafted",
+    "bench_group": "MapBlightLeagueCrafted",
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyRerollRare": 6
+      "Metadata/Items/Currency/CurrencyRerollRare": 8
     },
     "item_classes": [
       "Map"
     ],
     "master": "Zana",
-    "mod_id": "MapLegionLeagueCrafted"
+    "mod_id": "MapBlightLeagueCrafted_"
   },
   {
     "bench_group": "IncreasedLife",
@@ -8776,8 +8776,7 @@
       "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
-      "Helmet",
-      "Body Armour"
+      "Helmet"
     ],
     "master": "Jun",
     "mod_id": "JunMaster2MaximumZombieAndSkeleton1_"

@@ -13538,6 +13538,607 @@
       "id": "CurrencyAddModToRareShard"
     }
   },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbAbyss": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Abyssal Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Abyss Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbAbyss.dds",
+      "id": "CurrencyAfflictionOrbAbyss"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbArmour": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Armoursmith's Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Armour reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbArmour.dds",
+      "id": "CurrencyAfflictionOrbArmour"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbBlight": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Blighted Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Blight reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbBlight.dds",
+      "id": "CurrencyAfflictionOrbBlight"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbBreach": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Obscured Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Breach Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbBreach.dds",
+      "id": "CurrencyAfflictionOrbBreach"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbCurrency": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Fine Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Currency Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbCurrency.dds",
+      "id": "CurrencyAfflictionOrbCurrency"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbDivinationCards": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Diviner's Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Divination Cards reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbDivinationCards.dds",
+      "id": "CurrencyAfflictionOrbDivinationCards"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbEssences": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Whispering Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Essences reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbEssence.dds",
+      "id": "CurrencyAfflictionOrbEssences"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbFossils": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Fossilised Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Fossils reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbFossils.dds",
+      "id": "CurrencyAfflictionOrbFossils"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbFragments": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Fragmented Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Fragments reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbFragments.dds",
+      "id": "CurrencyAfflictionOrbFragments"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbGems": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Thaumaturge's Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Gems reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbGems.dds",
+      "id": "CurrencyAfflictionOrbGems_"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbGeneric": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Generic Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbGeneric.dds",
+      "id": "CurrencyAfflictionOrbGeneric"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbHarbinger": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Foreboding Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Harbinger Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbHarbinger.dds",
+      "id": "CurrencyAfflictionOrbHarbinger"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbIncubators": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Timeless Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Legion reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbLegion.dds",
+      "id": "CurrencyAfflictionOrbIncubators"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbLabyrinth": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Imperial Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Labyrinth Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbLabyrinth.dds",
+      "id": "CurrencyAfflictionOrbLabyrinth"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbMaps": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Cartographer's Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Map Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbMaps.dds",
+      "id": "CurrencyAfflictionOrbMaps"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbMetamorphosis": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Amorphous Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Metamorph reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbMetamorph.dds",
+      "id": "CurrencyAfflictionOrbMetamorphosis"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbPerandus": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Decadent Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Perandus Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbPerandus.dds",
+      "id": "CurrencyAfflictionOrbPerandus"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbProphecies": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Portentous Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Prophecy Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbProphecies.dds",
+      "id": "CurrencyAfflictionOrbProphecies"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbScarabs": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Skittering Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Scarabs reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbScarabs.dds",
+      "id": "CurrencyAfflictionOrbScarabs"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbTalismans": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Primal Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Talismans reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbTalismans.dds",
+      "id": "CurrencyAfflictionOrbTalismans_"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbTrinkets": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Jeweller's Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Trinkets reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbTrinkets.dds",
+      "id": "CurrencyAfflictionOrbTrinkets_"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbUniques": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Singular Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Unique Items reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbUniques.dds",
+      "id": "CurrencyAfflictionOrbUniques"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbWeapons": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Blacksmith's Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium with the Weapons reward type",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbWeapons.dds",
+      "id": "CurrencyAfflictionOrbWeapons"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAfflictionShard": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Simulacrum Splinter",
+    "properties": {
+      "description": "",
+      "directions": "Combine 300 Splinters to create a Simulacrum.",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyAfflictionFragment",
+      "stack_size": 300,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/DeliriumSplinter.dds",
+      "id": "CurrencyAfflictionSplinter"
+    }
+  },
   "Metadata/Items/Currency/CurrencyArmourQuality": {
     "domain": "undefined",
     "drop_level": 1,
@@ -20148,6 +20749,31 @@
       "id": "ChaoticDisposition"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardCouncilOfCats": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Council of Cats",
+    "properties": {
+      "description": "<uniqueitem>{Farrul Item}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardCouncilOfCats_"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardCovetedPossession": {
     "domain": "undefined",
     "drop_level": 1,
@@ -21867,7 +22493,7 @@
     "item_class": "DivinationCard",
     "name": "Squandered Prosperity",
     "properties": {
-      "description": " <uniqueitem>{Perandus Manor}\r\n<corrupted>{Corrupted}",
+      "description": "<uniqueitem>{Perandus Manor}\r\n<default>{Watchstone Count:} <normal>{4}\r\n<corrupted>{Corrupted}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -22573,6 +23199,31 @@
       "id": "TheChainsThatBind"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheCheater": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Cheater",
+    "properties": {
+      "description": "<size:30>{<gemitem>{Level 6 Awakened Support Gem}}\r\n<default>{Quality:} <augmented>{+20%}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheCheater"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheChosen": {
     "domain": "undefined",
     "drop_level": 1,
@@ -23134,6 +23785,58 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheDrunkenAristocrat"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheEasyStroll": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Easy Stroll",
+    "properties": {
+      "description": "<rareitem>{Terrace Map}\r\n<default>{Modifiers:} <normal>{8}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheEasyStroll"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheEldritchDecay": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Eldritch Decay",
+    "properties": {
+      "description": "<whiteitem>{Uber Elder Fragment}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "shaper_divination",
+      "elder_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheEldritchDecay_"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheEncroachingDarkness": {
@@ -24553,7 +25256,7 @@
     "item_class": "DivinationCard",
     "name": "The Mayor",
     "properties": {
-      "description": "<uniqueitem>{The Perandus Manor}",
+      "description": "<uniqueitem>{The Perandus Manor}\r\n<default>{Watchstone Count:} <normal>{4}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -25043,7 +25746,7 @@
     "item_class": "DivinationCard",
     "name": "The Price of Protection",
     "properties": {
-      "description": "<normal>{Elder Chateau Map}\r\n<default>{Map Tier:} <normal>{16}",
+      "description": "<normal>{Chateau Map}\r\n<default>{Watchstone Count:} <normal>{4}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -25108,6 +25811,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheProfessor"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheProgenyOfLunaris": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Progeny of Lunaris",
+    "properties": {
+      "description": "<uniqueitem>{Dying Sun}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "shaper_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheProgenyOfLunaris"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardThePuzzle": {
@@ -25752,6 +26481,32 @@
       "id": "TheStormcaller"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheStrategist": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Strategist",
+    "properties": {
+      "description": "<uniqueitem>{Inspired Learning}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheStrategist"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheSummoner": {
     "domain": "undefined",
     "drop_level": 1,
@@ -25954,6 +26709,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheThrone"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheTinkerersTable": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Tinkerer's Table",
+    "properties": {
+      "description": "<currencyitem>{5x Fossil}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheTinkerersTable"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTower": {
@@ -28569,6 +29349,26 @@
       "id": "SkillGemArc"
     }
   },
+  "Metadata/Items/Gems/SkillGemArcaneCloak": {
+    "domain": "undefined",
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Arcane Cloak",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ArcaneCloak.dds",
+      "id": "SkillGemArcaneCloak"
+    }
+  },
   "Metadata/Items/Gems/SkillGemArcticArmour": {
     "domain": "undefined",
     "drop_level": 16,
@@ -28748,6 +29548,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/BeserkGem.dds",
       "id": "SkillGemBerserk"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemBladeBlast": {
+    "domain": "undefined",
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Blade Blast",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BladeBurst.dds",
+      "id": "SkillGemBladeBlast_"
     }
   },
   "Metadata/Items/Gems/SkillGemBladeTrap": {
@@ -28951,6 +29771,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/BloodRage.dds",
       "id": "SkillGemBloodRage"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemBloodWhirl": {
+    "domain": "undefined",
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "[DNT]Blood Whirl",
+    "properties": {},
+    "release_state": "unreleased",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Cyclone.dds",
+      "id": "SkillGemCyclone"
     }
   },
   "Metadata/Items/Gems/SkillGemBoneArmour": {
@@ -31113,6 +31953,28 @@
       "id": "SkillGemArcaneBurst"
     }
   },
+  "Metadata/Items/Gems/SkillGemKineticBolt": {
+    "domain": "undefined",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Kinetic Bolt",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "up_to_level_2_gem",
+      "up_to_level_8_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ZigZagWandSkill.dds",
+      "id": "SkillGemZigZagWand"
+    }
+  },
   "Metadata/Items/Gems/SkillGemLacerate": {
     "domain": "undefined",
     "drop_level": 12,
@@ -31842,6 +32704,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/PrideAuraGem.dds",
       "id": "SkillGemPride"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemProjectilePortal": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "DNT Projectile Portal",
+    "properties": {},
+    "release_state": "unreleased",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ExplosiveArrow.dds",
+      "id": "SkillGemExplosiveArrow"
     }
   },
   "Metadata/Items/Gems/SkillGemProjectileWeakness": {
@@ -32697,6 +33579,26 @@
       "id": "SkillGemSpellDamageAura"
     }
   },
+  "Metadata/Items/Gems/SkillGemSpellslinger": {
+    "domain": "undefined",
+    "drop_level": 24,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Spellslinger",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Spellslinger.dds",
+      "id": "SkillGemSpellslinger_"
+    }
+  },
   "Metadata/Items/Gems/SkillGemSpiritOffering": {
     "domain": "undefined",
     "drop_level": 12,
@@ -32797,6 +33699,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/QuickGuardGem.dds",
       "id": "SkillGemSteelskin"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemStormBind": {
+    "domain": "undefined",
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Stormbind",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/StormbindSkillGem.dds",
+      "id": "SkillGemStormbind"
     }
   },
   "Metadata/Items/Gems/SkillGemStormBrand": {
@@ -34759,6 +35681,27 @@
       "id": "SupportGemArcaneSurge"
     }
   },
+  "Metadata/Items/Gems/SupportGemArchmage": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Archmage Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/ManaweaveSupportGem.dds",
+      "id": "SupportGemArchmage_"
+    }
+  },
   "Metadata/Items/Gems/SupportGemArrowNova": {
     "domain": "undefined",
     "drop_level": 8,
@@ -36348,7 +37291,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "Awakened Increased Area Of Effect Support",
+    "name": "Awakened Increased Area of Effect Support",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -37516,6 +38459,27 @@
       "id": "SupportGemRuthless_"
     }
   },
+  "Metadata/Items/Gems/SupportGemSecondWind": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Second Wind Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SecondWindSupport.dds",
+      "id": "SupportGemAdditionalCooldown"
+    }
+  },
   "Metadata/Items/Gems/SupportGemShockwave": {
     "domain": "undefined",
     "drop_level": 18,
@@ -38100,7 +39064,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "Awakened Elemental Damage With Attacks Support",
+    "name": "Awakened Elemental Damage with Attacks Support",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -38248,6 +39212,72 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Jewels/basicint.dds",
       "id": "JewelInt"
+    }
+  },
+  "Metadata/Items/Jewels/JewelPassiveTreeExpansionLarge": {
+    "domain": "affliction_jewel",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Jewel",
+    "name": "Large Cluster Jewel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewel",
+      "not_for_sale",
+      "expansion_jewel_large",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Jewels/NewGemBase3.dds",
+      "id": "ClusterJewelLarge"
+    }
+  },
+  "Metadata/Items/Jewels/JewelPassiveTreeExpansionMedium": {
+    "domain": "affliction_jewel",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Jewel",
+    "name": "Medium Cluster Jewel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewel",
+      "not_for_sale",
+      "expansion_jewel_medium",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Jewels/NewGemBase2.dds",
+      "id": "ClusterJewelMedium"
+    }
+  },
+  "Metadata/Items/Jewels/JewelPassiveTreeExpansionSmall": {
+    "domain": "affliction_jewel",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Jewel",
+    "name": "Small Cluster Jewel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewel",
+      "not_for_sale",
+      "expansion_jewel_small",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Jewels/NewGemBase1.dds",
+      "id": "ClusterJewelSmall__"
     }
   },
   "Metadata/Items/Jewels/JewelPrismatic": {
@@ -40977,6 +42007,42 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.dds",
       "id": "Dagger9"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Daggers/EtherealBlade1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Dagger",
+    "name": "Ethereal Blade",
+    "properties": {
+      "attack_time": 667,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 8,
+      "physical_damage_min": 4,
+      "range": 10
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 9,
+      "intelligence": 6,
+      "level": 1,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "dagger",
+      "attack_dagger",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger1.dds",
+      "id": "EtherealBladeHeld_"
     }
   },
   "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe1": {
@@ -47265,6 +48331,7 @@
       "strength": 72
     },
     "tags": [
+      "warstaff",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -47302,6 +48369,7 @@
       "strength": 85
     },
     "tags": [
+      "warstaff",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -47375,6 +48443,7 @@
       "strength": 94
     },
     "tags": [
+      "warstaff",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -47484,6 +48553,7 @@
       "strength": 113
     },
     "tags": [
+      "warstaff",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -47521,6 +48591,7 @@
       "strength": 113
     },
     "tags": [
+      "warstaff",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -47594,6 +48665,7 @@
       "strength": 113
     },
     "tags": [
+      "warstaff",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -47703,6 +48775,7 @@
       "strength": 27
     },
     "tags": [
+      "warstaff",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -47740,6 +48813,7 @@
       "strength": 43
     },
     "tags": [
+      "warstaff",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -47813,6 +48887,7 @@
       "strength": 59
     },
     "tags": [
+      "warstaff",
       "staff",
       "attack_staff",
       "two_hand_weapon",
