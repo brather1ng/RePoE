@@ -5749,7 +5749,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Socketed Skills deal {0}% less Attack Damage"
       }
@@ -6017,7 +6019,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Socketed Skills have {0}% reduced Attack Speed"
       }
@@ -6052,7 +6056,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Socketed Skills have {0}% reduced Cast Speed"
       }
@@ -6106,7 +6112,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Socketed Skills deal {0}% less Spell Damage"
       }
@@ -24727,6 +24735,7 @@
         ],
         "index_handlers": [
           [
+            "negate",
             "divide_by_twelve"
           ]
         ],
@@ -30029,7 +30038,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Physical Damage with Ranged Weapons"
       }
@@ -33189,32 +33200,11 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Effect of Aura Buffs on you"
+        "string": "{0}% increased effect of Non-Curse Auras from your Skills on your Minions"
       }
     ],
     "ids": [
-      "aura_effect_on_self_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% increased Effect of Aura Buffs on your Minions"
-      }
-    ],
-    "ids": [
-      "minions_have_aura_effect_+%"
+      "minions_have_non_curse_aura_effect_+%_from_parent_skills"
     ]
   },
   {
@@ -38590,7 +38580,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Chests have {0}% reduced Item Quantity"
       }
@@ -38625,7 +38617,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Chests have {0}% reduced Item Rarity"
       }
@@ -50162,7 +50156,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Attacks with this Weapon have {0}% reduced Physical Damage per 250 Evasion Rating"
       }
@@ -50197,7 +50193,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Attack Damage per 450 Evasion Rating"
       }
@@ -52088,7 +52086,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Minions have {0}% reduced Area of Effect"
       }
@@ -54867,6 +54867,7 @@
         ],
         "index_handlers": [
           [
+            "negate",
             "times_twenty"
           ]
         ],
@@ -55624,7 +55625,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Ball Lightning Damage"
       }
@@ -58458,7 +58461,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Warcry Speed"
       }
@@ -59081,7 +59086,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less chance to Evade Melee Attacks during Onslaught"
       }
@@ -59116,7 +59123,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less chance to Evade Projectile Attacks during Onslaught"
       }
@@ -62307,7 +62316,7 @@
             "negate"
           ]
         ],
-        "string": "Hits against Nearby Enemies have {0} reduced Critical Strike Chance"
+        "string": "Hits against Nearby Enemies have {0}% reduced Critical Strike Chance"
       }
     ],
     "ids": [
@@ -73369,7 +73378,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Critical Strike Chance against Enemies on Full Life"
       }
@@ -74154,7 +74165,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Bleeding Duration per 12 Intelligence"
       }
@@ -82716,7 +82729,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Attack and Cast Speed if you've taken a Savage\nHit Recently"
       }
@@ -82751,7 +82766,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less Damage"
       }
@@ -86712,7 +86729,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Golem Damage for each Type of Golem you have Summoned"
       }
@@ -86747,7 +86766,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Golem Damage per Summoned Golem"
       }
@@ -89587,7 +89608,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Physical Damage taken while moving"
       }
@@ -96512,7 +96535,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Attack Speed if you've Killed Recently"
       }
@@ -96751,7 +96776,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Attack Speed while affected by Precision"
       }
@@ -97043,7 +97070,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Effect of Aura Buffs on You for each Herald affecting you"
+        "string": "Aura Buffs from Skills have {0}% increased Effect on you for each Herald affecting you"
       },
       {
         "condition": [
@@ -97059,11 +97086,11 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Effect of Aura Buffs on You for each Herald affecting you"
+        "string": "Aura Buffs from Skills have {0}% increased Effect on you for each Herald affecting you"
       }
     ],
     "ids": [
-      "aura_effect_on_you_+%_per_herald_effecting_you"
+      "aura_effect_on_self_from_skills_+%_per_herald_effecting_you"
     ]
   },
   {
@@ -102739,7 +102766,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Buff Effect on Low Energy Shield"
       }
@@ -105299,7 +105328,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Chaos Damage with Attack Skills"
       }
@@ -105334,7 +105365,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Chaos Damage with Spell Skills"
       }
@@ -106440,7 +106473,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Cold Damage with Attack Skills"
       }
@@ -106475,7 +106510,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Cold Damage with Spell Skills"
       }
@@ -109343,7 +109380,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Damage if you've Frozen an Enemy Recently"
       }
@@ -112669,7 +112708,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Elemental Damage with Attack Skills"
       }
@@ -112704,7 +112745,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Elemental Damage with Attack Skills per Power Charge"
       }
@@ -115347,7 +115390,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Fire Damage with Attack Skills"
       }
@@ -115382,7 +115427,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Fire Damage with Spell Skills"
       }
@@ -116402,7 +116449,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Frostbolt Projectiles gain {0}% reduced Projectile Speed per second"
       }
@@ -117076,15 +117125,32 @@
     "English": [
       {
         "condition": [
-          {}
+          {
+            "max": 1,
+            "min": 1
+          }
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Gain an Endurance Charge every second if you've been Hit Recently"
+        "string": "Gain {0} Endurance Charge every second if you've been Hit Recently"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Gain {0} Endurance Charges every second if you've been Hit Recently"
       }
     ],
     "ids": [
@@ -118165,6 +118231,7 @@
         ],
         "index_handlers": [
           [
+            "negate",
             "milliseconds_to_seconds"
           ]
         ],
@@ -123385,7 +123452,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Lightning Damage with Attack Skills"
       }
@@ -123420,7 +123489,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Lightning Damage with Spell Skills"
       }
@@ -133038,7 +133109,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Damage Over Time during Flask Effect"
       }
@@ -134052,7 +134125,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "With at least 40 Intelligence in Radius, Frostbolt Projectiles gain {0}% reduced Projectile Speed per second"
       }
@@ -146481,7 +146556,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Rogue Exiles deal {0}% reduced Damage"
       }
@@ -146630,7 +146707,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Rogue Exiles have {0}% reduced Maximum Life"
       }
@@ -154358,7 +154437,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Movement Speed while Bleeding"
       }
@@ -155030,7 +155111,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Effect of Non-Curse Auras from your Skills on Enemies"
       }
@@ -156892,7 +156975,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Physical Damage with Attack Skills"
       }
@@ -156927,7 +157012,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Physical Damage with Spell Skills"
       }
@@ -157333,7 +157420,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Poison Duration for each Poison you have inflicted Recently"
       }
@@ -179853,7 +179942,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less Attack Speed while Totem is Active"
       }
@@ -179888,7 +179979,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less Melee Damage while Totem is Active"
       }
@@ -179944,7 +180037,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Attack Speed while Totem is Active"
       }
@@ -179979,7 +180074,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Melee Damage while Totem is Active"
       }
@@ -180230,7 +180327,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Knockback Distance"
       }
@@ -180923,7 +181022,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Stun Threshold reduction on enemies at Maximum charge distance"
       }
@@ -182047,7 +182148,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less Critical Strike Chance"
       }
@@ -182553,7 +182656,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Stun Duration on enemies"
       }
@@ -183474,7 +183579,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Armour"
       }
@@ -184473,7 +184580,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Blinding duration"
       }
@@ -187026,7 +187135,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Damage with Hits and Ailments against Burning Enemies"
       }
@@ -190642,7 +190753,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less Damage for each remaining Chain"
       }
@@ -190677,7 +190790,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less Damage for each time beam has Chained"
       }
@@ -191712,7 +191827,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% reduced Damage with Bleeding"
       }
@@ -197019,7 +197136,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less Damage with Bleeding"
       }
@@ -197209,7 +197328,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Runes have {0}% less Area of Effect for each time they have been Improved"
       }
@@ -198660,7 +198781,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "Supported Attacks deal {0}% less Damage with Bleeding"
       }
@@ -198985,7 +199108,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "{0}% less Damage with Ignite"
       }

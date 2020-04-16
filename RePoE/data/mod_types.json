@@ -1669,7 +1669,9 @@
       "High"
     ],
     "tags": [
-      "life"
+      "life",
+      "attack",
+      "speed"
     ]
   },
   "AfflictionNotableAdvanceGuard": {
@@ -1749,7 +1751,8 @@
     ],
     "tags": [
       "life",
-      "physical"
+      "physical",
+      "chaos"
     ]
   },
   "AfflictionNotableAncestralReach": {
@@ -1782,7 +1785,8 @@
       "High"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "speed"
     ]
   },
   "AfflictionNotableArcaneHeroism": {
@@ -1819,7 +1823,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "elemental"
+    ]
   },
   "AfflictionNotableBasicsofPain": {
     "sell_price_types": [
@@ -1927,7 +1933,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "caster"
+    ]
   },
   "AfflictionNotableBrewedforPotency": {
     "sell_price_types": [
@@ -2027,7 +2035,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "caster"
+    ]
   },
   "AfflictionNotableCirclingOblivion": {
     "sell_price_types": [
@@ -2090,9 +2100,7 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": [
-      "attack"
-    ]
+    "tags": []
   },
   "AfflictionNotableConjuredWall": {
     "sell_price_types": [
@@ -2296,7 +2304,8 @@
       "minion",
       "physical",
       "chaos",
-      "life"
+      "life",
+      "speed"
     ]
   },
   "AfflictionNotableDrivetheDestruction": {
@@ -2541,7 +2550,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "life"
+    ]
   },
   "AfflictionNotableFollowThrough": {
     "sell_price_types": [
@@ -2614,7 +2625,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "caster"
+    ]
   },
   "AfflictionNotableGrimOath": {
     "sell_price_types": [
@@ -2670,7 +2683,8 @@
       "High"
     ],
     "tags": [
-      "mana"
+      "mana",
+      "aura"
     ]
   },
   "AfflictionNotableHexBreaker": {
@@ -2711,7 +2725,10 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "speed",
+      "caster"
+    ]
   },
   "AfflictionNotableHulkingCorpses": {
     "sell_price_types": [
@@ -2764,14 +2781,17 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "caster"
+    ]
   },
   "AfflictionNotableInvigoratingPortents": {
     "sell_price_types": [
       "High"
     ],
     "tags": [
-      "minion"
+      "minion",
+      "speed"
     ]
   },
   "AfflictionNotableIronBreaker": {
@@ -2857,7 +2877,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "speed"
     ]
   },
   "AfflictionNotableMartialProwess": {
@@ -2874,7 +2895,8 @@
       "High"
     ],
     "tags": [
-      "aura"
+      "aura",
+      "mana"
     ]
   },
   "AfflictionNotableMasterofFear": {
@@ -2943,7 +2965,8 @@
       "High"
     ],
     "tags": [
-      "fire"
+      "fire",
+      "life"
     ]
   },
   "AfflictionNotableMysticalWard": {
@@ -2968,7 +2991,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "speed"
+    ]
   },
   "AfflictionNotableNonFlammable": {
     "sell_price_types": [
@@ -3051,7 +3076,8 @@
       "High"
     ],
     "tags": [
-      "life"
+      "life",
+      "physical"
     ]
   },
   "AfflictionNotablePeakVigour": {
@@ -3148,7 +3174,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "attack"
+    ]
   },
   "AfflictionNotableProvocateur": {
     "sell_price_types": [
@@ -3170,7 +3198,9 @@
     ],
     "tags": [
       "lightning",
-      "defences"
+      "defences",
+      "aura",
+      "mana"
     ]
   },
   "AfflictionNotablePureCommander": {
@@ -3179,7 +3209,10 @@
     ],
     "tags": [
       "aura",
-      "elemental"
+      "elemental",
+      "cold",
+      "fire",
+      "lightning"
     ]
   },
   "AfflictionNotablePureGuile": {
@@ -3187,7 +3220,9 @@
       "High"
     ],
     "tags": [
-      "cold"
+      "cold",
+      "aura",
+      "mana"
     ]
   },
   "AfflictionNotablePureMight": {
@@ -3195,7 +3230,9 @@
       "High"
     ],
     "tags": [
-      "fire"
+      "fire",
+      "aura",
+      "mana"
     ]
   },
   "AfflictionNotablePurposefulHarbinger": {
@@ -3259,7 +3296,10 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "speed",
+      "caster"
+    ]
   },
   "AfflictionNotableRend": {
     "sell_price_types": [
@@ -3413,7 +3453,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "caster"
+    ]
   },
   "AfflictionNotableSelfFulfillingProphecy": {
     "sell_price_types": [
@@ -3757,7 +3799,9 @@
     ],
     "tags": [
       "aura",
-      "elemental"
+      "cold",
+      "fire",
+      "lightning"
     ]
   },
   "AfflictionNotableVeteranDefender": {
@@ -3840,7 +3884,10 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "aura",
+      "mana"
+    ]
   },
   "AfflictionNotableWarningCall": {
     "sell_price_types": [

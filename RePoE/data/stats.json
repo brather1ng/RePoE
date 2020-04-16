@@ -3803,12 +3803,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "aura_effect_on_self_+%": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "aura_effect_on_you_+%_per_herald_effecting_you": {
+  "aura_effect_on_self_from_skills_+%_per_herald_effecting_you": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -8128,6 +8123,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "cannot_gain_rage_from_bloodscent": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "cannot_gain_rage_from_kaoms_primacy": {
     "alias": {},
     "is_aliased": false,
@@ -11244,6 +11244,11 @@
     "is_local": false
   },
   "combined_attack_all_damage_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "combined_attack_and_cast_speed_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -42073,17 +42078,17 @@
     "is_aliased": false,
     "is_local": false
   },
-  "minions_have_aura_effect_+%": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "minions_have_chest_summon_indicator": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "minions_have_labyrinth_trap_degen_effect_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "minions_have_non_curse_aura_effect_+%_from_parent_skills": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -44169,6 +44174,11 @@
     "is_local": false
   },
   "non_curse_aura_effect_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "non_curse_aura_effect_+%_from_parent_skills": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -57277,7 +57287,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "virtual_aura_effect_on_self_pluspercent": {
+  "virtual_aura_effect_on_self_from_skills_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
