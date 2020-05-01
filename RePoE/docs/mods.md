@@ -51,10 +51,10 @@ as value. That description object has the following fields:
   has is taken. If the object with that tag `weight` greater than zero, the mod can
   spawn on the item and the weight defines the relative weight of it spawning. If it 
   has `weight` zero, the mod can not spawn.  
-  The mod `AddedChaosDamageCorrupted1`,  for example, has `no_attack_mods` with 
-  weight 0, `ring` with weight 1000 and `default` with weight 0. It can therefore 
-  spawn on items that do
-  not have Catarina's "Cannot roll Attack Mods" mod and are rings, but not on
+  The mod `AddedColdDamage1`,  for example, has `no_attack_mods` with 
+  weight 0, `ring`, `amulet`, `quiver` and `gloves` with weight 500 and `default` with
+  weight 0. It can therefore spawn on items that do not have Catarina's
+  "Cannot roll Attack Mods" mod and are rings, amulets, quivers or gloves, but not on
   any other item.  
   The possible tags can be found in `tags.json`. To get the tags a base item has,
   see `base_items.json`.
