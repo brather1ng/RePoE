@@ -5,7 +5,7 @@ size, item class and tags, as well as attribute requirements and properties.
 
 Only bases for equippable items (weapons, armor, jewellery, jewels, flasks, ...), currency and
 gems are included. For the exact included item classes, see the whitelist at
-[`RePoE.base_items.ITEM_CLASS_WHITELIST`](https://github.com/brather1ng/RePoE/blob/master/RePoE/base_items.py#L93). 
+[`base_items.ITEM_CLASS_WHITELIST`](https://github.com/brather1ng/RePoE/blob/master/RePoE/parser/modules/base_items.py#L100). 
 
 Properties specific to skill gems and essences are not included. See `gems.json` and 
 `gem_tooltips.json` for skill gems and `essences.json` for essences.
@@ -21,7 +21,7 @@ the base item as a value. The description object has the following fields:
 - `item_class`: The item class id of the base.
 - `name`: The name under which items of the base are displayed in-game.
 - `release_state`: In what state that item is currently in-game. See
-  [`RePoE.parser.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L173)
+  [`constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/parser/constants.py#L220)
   for possible values and their meaning.
 - `tags`: The tags all items of the base have. This determines the mods that can spawn on items
   of this base and allows for classification beyond just `item_class`.
