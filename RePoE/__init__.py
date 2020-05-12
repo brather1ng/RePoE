@@ -1,9 +1,6 @@
 import json
 import os
 
-from RePoE.parser.modules.base_items import base_items
-from RePoE.parser.modules.crafting_bench_options import crafting_bench_options
-
 #directory that this __init__ file lives in
 __REPOE_DIR__, _ = os.path.split(__file__)
 
@@ -37,7 +34,6 @@ stats = load_json("stats.json")
 stat_translations = load_json("stat_translations.json")
 tags = load_json("tags.json")
 vendor_rewards = load_json("vendor_rewards.json")
-
 
 
 def _get_all_json_files():
