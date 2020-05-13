@@ -1,6 +1,8 @@
 import argparse
 
-from RePoE import add_jsons_to_global
+import RePoE
+from importlib import reload
+
 from RePoE.parser.modules import get_parser_modules
 
 from RePoE.parser.util import load_ggpk, create_relational_reader, create_translation_file_cache, \
@@ -36,7 +38,9 @@ def main(data_path='./data/'):
     for parser_module in selected_modules:
         print("Running module '%s'" % parser_module.__name__)
         parser_module.write(ggpk=ggpk, data_path=data_path, relational_reader=rr, translation_file_cache=tfc, ot_file_cache=otfc)
-    add_jsons_to_global()
+    
+    #This forces the globals to be up to date with what we just parsed, in case someone uses `run_parser` within a script
+    reload(RePoE)
 
 
 
