@@ -36,6 +36,7 @@ stat_translations = load_json("stat_translations.json")
 tags = load_json("tags.json")
 vendor_rewards = load_json("vendor_rewards.json")
 cluster_jewels = load_json("cluster_jewels.json")
+cluster_jewel_notables = load_json("cluster_jewel_notables.json")
 
 
 def _get_all_json_files():
