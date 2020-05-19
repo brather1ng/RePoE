@@ -73,9 +73,8 @@ The following data is currently available:
   which rewards.
 - `vendor_rewards.json`: Describes the gems available for sale from vendors after completing
   a quest, along with the classes that can buy the gem.
-
-
-
+- `cluster_jewels.json`: Describes how cluster jewels can be generated and how they influence the passive tree. 
+  
 
 ## Credits
 

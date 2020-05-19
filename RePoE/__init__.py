@@ -7,6 +7,7 @@ __REPOE_DIR__, _ = os.path.split(__file__)
 #full path to ./data
 __DATA_PATH__ = os.path.join(__REPOE_DIR__, "data", "")
 
+
 def load_json(json_file_path):
     file_path = __DATA_PATH__ + f"{json_file_path}"
     with open(file_path) as json_data:
@@ -34,6 +35,7 @@ stats = load_json("stats.json")
 stat_translations = load_json("stat_translations.json")
 tags = load_json("tags.json")
 vendor_rewards = load_json("vendor_rewards.json")
+cluster_jewels = load_json("cluster_jewels.json")
 
 
 def _get_all_json_files():
