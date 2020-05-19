@@ -12,7 +12,9 @@ class cluster_jewels(Parser_Module):
                 skills[size] = []
             skills[size].append({
                 'id': row['PassiveSkillsKey']['Id'],
-                'stats': {stat['Id']: value for stat, value in row['PassiveSkillsKey']['Stats']}
+                'name': row['PassiveSkillsKey']['Name'],
+                'stats': {stat['Id']: value for stat, value in row['PassiveSkillsKey']['Stats']},
+                'tag': row['TagsKey']['Id']
             })
 
         data = {}

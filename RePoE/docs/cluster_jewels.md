@@ -18,4 +18,7 @@ of cluster jewel. These values have the following members:
   ("Added Small Passive Skills (also) grant: ...").
   The value is an array of objects with each object having the following values:
   - `id`: Id of the passive skill.
+  - `name`: Name of the passive skill.
   - `stats`: Object with stat ids as keys (see `stats.json`) and the stat values as values.
+  - `tag`: Tag that is added to the item when it has the stat on it (maybe only if added as an enchant). Influences
+    the spawning of other mods, see `mods.json`.
