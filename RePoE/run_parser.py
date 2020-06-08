@@ -38,7 +38,7 @@ def main(data_path='./data/'):
     for parser_module in selected_modules:
         print("Running module '%s'" % parser_module.__name__)
         parser_module.write(ggpk=ggpk, data_path=data_path, relational_reader=rr, translation_file_cache=tfc, ot_file_cache=otfc)
-    
+        
     #This forces the globals to be up to date with what we just parsed, in case someone uses `run_parser` within a script
     reload(RePoE)
 
