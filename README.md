@@ -22,6 +22,7 @@ open an Issue or Pull Request for that.
 - Install RePoE
   * Clone RePoE and go into its folder
   * install: `pip install -e .`  
+  * install pre-commit: `pre-commit install`
 
 You can now access the data using `from RePoE import mods, characters` which returns the current 
 dicts found in the files `mods.json, characters.json`
