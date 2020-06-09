@@ -1,10 +1,10 @@
 import json
 import os
 
-#directory that this __init__ file lives in
+# directory that this __init__ file lives in
 __REPOE_DIR__, _ = os.path.split(__file__)
 
-#full path to ./data
+# full path to ./data
 __DATA_PATH__ = os.path.join(__REPOE_DIR__, "data", "")
 
 
@@ -17,6 +17,7 @@ def load_json(json_file_path):
             print(
                 f"Warning: {json_file_path} failed to decode json \n Recommended to execute run_parser.py to fix"
             )
+
 
 base_items = load_json("base_items.json")
 characters = load_json("characters.json")
@@ -48,12 +49,16 @@ def _get_all_json_files():
     ]
     return json_files
 
+
 def _assert_all_json_files_accounted_for():
     json_files = _get_all_json_files()
     for json_file in json_files:
         json_file_stripped = json_file[:-5]
-        assert json_file_stripped in globals(), f"the following json file needs to be added to __init__ load: {json_file}"
-        
+        assert (
+            json_file_stripped in globals()
+        ), f"the following json file needs to be added to __init__ load: {json_file}"
+
+
 _assert_all_json_files_accounted_for()
 
 if __name__ == "__main__":
