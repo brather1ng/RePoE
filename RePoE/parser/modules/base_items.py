@@ -145,6 +145,7 @@ ITEM_CLASS_WHITELIST = {
     "Jewel",
     "AbyssJewel",
     "DivinationCard",
+    "Map",
 }
 
 ITEM_CLASS_BLACKLIST = {
@@ -165,7 +166,6 @@ ITEM_CLASS_BLACKLIST = {
     "QuestItem",
     "Incubator",
     "Microtransaction",
-    "Map",
 }
 
 
