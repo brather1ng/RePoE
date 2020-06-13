@@ -9056,7 +9056,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Consumes a Void Charge to Trigger Level {0} Void Shot when you fire Arrows"
+        "string": "Consumes a Void Charge to Trigger Level {0} Void Shot when you fire Arrows with a Non-Triggered Skill"
       }
     ],
     "ids": [
@@ -40464,12 +40464,12 @@
           {}
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Area has patches of shocking ground"
+        "string": "Area has patches of Shocking Ground which increase Damage taken by {0}%"
       }
     ],
     "ids": [
@@ -88643,7 +88643,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Despair has {0}% increased Mana Reservation"
+        "string": "Despair has {0}% increased Mana Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -88659,7 +88659,7 @@
             "negate"
           ]
         ],
-        "string": "Despair has {0}% reduced Mana Reservation"
+        "string": "Despair has {0}% reduced Mana Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -88680,7 +88680,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Conductivity has {0}% increased Mana Reservation"
+        "string": "Conductivity has {0}% increased Mana Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -88696,7 +88696,7 @@
             "negate"
           ]
         ],
-        "string": "Conductivity has {0}% reduced Mana Reservation"
+        "string": "Conductivity has {0}% reduced Mana Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -88717,7 +88717,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Flammability has {0}% increased Mana Reservation"
+        "string": "Flammability has {0}% increased Mana Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -88733,7 +88733,7 @@
             "negate"
           ]
         ],
-        "string": "Flammability has {0}% reduced Mana Reservation"
+        "string": "Flammability has {0}% reduced Mana Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -88754,7 +88754,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Frostbite has {0}% increased Mana Reservation"
+        "string": "Frostbite has {0}% increased Mana Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -88770,7 +88770,7 @@
             "negate"
           ]
         ],
-        "string": "Frostbite has {0}% reduced Mana Reservation"
+        "string": "Frostbite has {0}% reduced Mana Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -88791,7 +88791,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Temporal Chains has {0}% increased Mana Reservation"
+        "string": "Temporal Chains has {0}% increased Mana Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -88807,7 +88807,7 @@
             "negate"
           ]
         ],
-        "string": "Temporal Chains has {0}% reduced Mana Reservation"
+        "string": "Temporal Chains has {0}% reduced Mana Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -88828,7 +88828,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Vulnerability has {0}% increased Mana Reservation"
+        "string": "Vulnerability has {0}% increased Mana Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -88844,7 +88844,7 @@
             "negate"
           ]
         ],
-        "string": "Vulnerability has {0}% reduced Mana Reservation"
+        "string": "Vulnerability has {0}% reduced Mana Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -112882,7 +112882,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Create Shocked Ground when Hit with an Attack"
+        "string": "Create Chilled Ground when Hit with an Attack"
       }
     ],
     "ids": [
@@ -144346,7 +144346,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Curse Skills have {0}% increased Mana Reservation"
+        "string": "{0}% increased Mana Reservation of Curse Auras"
       },
       {
         "condition": [
@@ -144362,7 +144362,7 @@
             "negate"
           ]
         ],
-        "string": "Curse Skills have {0}% reduced Mana Reservation"
+        "string": "{0}% reduced Mana Reservation of Curse Auras"
       }
     ],
     "ids": [
@@ -180500,6 +180500,28 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Insanity effects while delirious"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "additional_insanity_effects_while_delirious"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -180730,6 +180752,26 @@
     "hidden": true,
     "ids": [
       "base_monster_will_be_deleted_on_death"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Bleeding while moving deals {0}% of base damage"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "bleeding_moving_damage_%_of_base_override"
     ]
   },
   {
@@ -181887,6 +181929,28 @@
           }
         ],
         "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Movement skill animations can be skipped"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "enable_movement_skill_animation_skipping"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
           "#"
         ],
         "index_handlers": [
@@ -182331,6 +182395,28 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Skill weapon restrictions are ignored"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "ignore_skill_weapon_restrictions"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -182345,6 +182431,45 @@
     "hidden": true,
     "ids": [
       "intelligence_per_level"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "milliseconds_to_seconds"
+          ]
+        ],
+        "string": "Impale lasts {0} second"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "milliseconds_to_seconds"
+          ]
+        ],
+        "string": "Impale lasts {0} seconds"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "impaled_debuff_base_duration_ms"
     ]
   },
   {
@@ -182455,6 +182580,26 @@
     "hidden": true,
     "ids": [
       "is_shocked"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0} item drop slots"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "item_drop_slots"
     ]
   },
   {
@@ -184554,6 +184699,26 @@
         "index_handlers": [
           []
         ],
+        "string": "Can have up to {0} Azurite Stacks"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "max_azurite_debuff_stacks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Can have up to {0} Corrupted Blood Rain Stacks"
       }
     ],
@@ -184594,6 +184759,66 @@
         "index_handlers": [
           []
         ],
+        "string": "Can have up to {0} Darkness Stacks"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "max_delve_degen_stacks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Can have up to {0} Fire Beam Stacks"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "max_fire_beam_stacks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Can have up to {0} Frost Nova Stacks"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "max_frost_nova_stacks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Can have up to {0} Explosive Arrow Stacks"
       }
     ],
@@ -184620,6 +184845,26 @@
     "hidden": true,
     "ids": [
       "max_rampage_stacks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Can have up to {0} Talisman degen Stacks"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "max_talisman_degen_stacks"
     ]
   },
   {
@@ -184752,12 +184997,166 @@
         "index_handlers": [
           []
         ],
+        "string": "Can have up to {0} Righteous Charges"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "maximum_righteous_charges"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Melee Damage counts as {0}% more for Stuns"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "melee_hit_damage_stun_multiplier_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Minions deal {0}% increased Damage per 10 Rampage Stacks"
       }
     ],
     "hidden": true,
     "ids": [
       "minion_damage_+%_per_10_rampage_stacks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Minions take {0}% more Damage from Guillotine Traps"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Minions take {0}% less Damage from Guillotine Traps"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "minion_damage_taken_+%_from_guillotine_traps_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Minions take {0}% more Damage from Spike Traps"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Minions take {0}% less Damage from Spike Traps"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "minion_damage_taken_+%_from_spike_traps_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Minions take {0}% more Damage over Time by Labyrinth Traps"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Minions take {0}% less Damage over Time by Labyrinth Traps"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "minions_have_labyrinth_trap_degen_effect_+%"
     ]
   },
   {
@@ -184950,6 +185349,44 @@
     "hidden": true,
     "ids": [
       "monster_base_type_attack_cast_speed_+%_and_damage_-%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monsters deal {0}% more Bleeding Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Monsters deal {0}% less Bleeding Damage"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "monster_bleeding_damage_+%_final"
     ]
   },
   {
@@ -185510,6 +185947,44 @@
           }
         ],
         "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monsters deal {0}% more Ignite Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Monsters deal {0}% less Ignite Damage"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "monster_ignite_damage_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
           "ignore"
         ],
         "index_handlers": [
@@ -185613,12 +186088,50 @@
             "negate"
           ]
         ],
-        "string": "Monster deals {0}% less Damage against Minions3"
+        "string": "Monster deals {0}% less Damage against Minions"
       }
     ],
     "hidden": true,
     "ids": [
       "monster_penalty_against_minions_damage_+%_final_vs_player_minions"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monsters deal {0}% more Poison Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Monsters deal {0}% less Poison Damage"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "monster_poison_damage_+%_final"
     ]
   },
   {
@@ -185924,6 +186437,84 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monster non-physical Daamge counts as {0}% more for Stun"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "non_physical_hit_damage_stun_multiplier_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% more Damage per Frenzy Charge"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "object_inherent_damage_+%_final_per_frenzy_charge"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Melee hits have {0}% more Stun Duration"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Melee hits have {0}% less Stun Duration"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "object_inherent_melee_hit_stun_duration_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -186081,6 +186672,26 @@
     "hidden": true,
     "ids": [
       "removes_%_mana_on_hit"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Melee range scaled by model size"
+      }
+    ],
+    "hidden": true,
+    "ids": [
+      "scale_melee_range_to_actor_scale"
     ]
   },
   {
