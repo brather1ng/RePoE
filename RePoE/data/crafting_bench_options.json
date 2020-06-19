@@ -6038,6 +6038,36 @@
   },
   {
     "actions": {
+      "add_mod": "EinharMasterReducedElementalAilmentEffect1"
+    },
+    "bench_group": "ReducedElementalAilmentEffectOnSelf",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 1
+    },
+    "item_classes": [
+      "Boots",
+      "Gloves"
+    ],
+    "master": "Helena"
+  },
+  {
+    "actions": {
+      "add_mod": "EinharMasterReducedElementalAilmentEffect2_"
+    },
+    "bench_group": "ReducedElementalAilmentEffectOnSelf",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 2
+    },
+    "item_classes": [
+      "Boots",
+      "Gloves"
+    ],
+    "master": "Helena"
+  },
+  {
+    "actions": {
       "add_mod": "EinharMasterShieldAttackBlock1"
     },
     "bench_group": "IncreasedShieldBlockPercentage",
@@ -6145,6 +6175,21 @@
     },
     "item_classes": [
       "Body Armour"
+    ],
+    "master": "Helena"
+  },
+  {
+    "actions": {
+      "add_mod": "EinharMasterLightRadiusScalesWithEnergyShield1"
+    },
+    "bench_group": "LightRadiusScalesWithEnergyShield",
+    "bench_tier": 0,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
+    },
+    "item_classes": [
+      "Helmet",
+      "Ring"
     ],
     "master": "Helena"
   },
@@ -6698,6 +6743,36 @@
     "item_classes": [
       "Shield",
       "Amulet"
+    ],
+    "master": "Helena"
+  },
+  {
+    "actions": {
+      "add_mod": "EinharMasterWarcrySpeed1"
+    },
+    "bench_group": "WarcrySpeed",
+    "bench_tier": 0,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 6
+    },
+    "item_classes": [
+      "Amulet"
+    ],
+    "master": "Helena"
+  },
+  {
+    "actions": {
+      "add_mod": "CraftedTravelSkillsCannotBeExerted"
+    },
+    "bench_group": "TravelSkillsCannotBeExerted",
+    "bench_tier": 0,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 1
+    },
+    "item_classes": [
+      "Ring",
+      "Amulet",
+      "Belt"
     ],
     "master": "Helena"
   },
@@ -13210,7 +13285,7 @@
     "actions": {
       "add_mod": "JunMaster2WolfOnKill1"
     },
-    "bench_group": "SummonWolfOnKill",
+    "bench_group": "SummonWolfOnKillOld",
     "bench_tier": 0,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 3

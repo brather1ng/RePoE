@@ -13461,6 +13461,31 @@
       "id": "CurrencyAddAtlasModMid"
     }
   },
+  "Metadata/Items/Currency/CurrencyAddGemExperience": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Facetor's Lens",
+    "properties": {
+      "description": "Adds stored experience to a gem, up to its maximum level.",
+      "directions": "Right click this item then left click a gem to apply it.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/CurrencyGemExperience.dds",
+      "id": "CurrencyGemExperience"
+    }
+  },
   "Metadata/Items/Currency/CurrencyAddModToMagic": {
     "domain": "undefined",
     "drop_level": 1,
@@ -17938,6 +17963,156 @@
       "id": "CurrencyGemQuality"
     }
   },
+  "Metadata/Items/Currency/CurrencyHarbingerBlessingBelt": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Time-light Scroll",
+    "properties": {
+      "description": "Upgrades The Flow Untethered to a more powerful version",
+      "directions": "Right click this item then left click an applicable Harbinger unique item to upgrade it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Harvest/HarbingerTokenBelt.dds",
+      "id": "CurrencyHarbingerBlessingBelt"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyHarbingerBlessingHelmet": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Deregulation Scroll",
+    "properties": {
+      "description": "Upgrades The Tempest's Binding to a more powerful version",
+      "directions": "Right click this item then left click an applicable Harbinger unique item to upgrade it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Harvest/HarbingerTokenHelm.dds",
+      "id": "CurrencyHarbingerBlessingHelmet"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyHarbingerBlessingQuiver": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Fragmentation Scroll",
+    "properties": {
+      "description": "Upgrades The Fracturing Spinner to a more powerful version",
+      "directions": "Right click this item then left click an applicable Harbinger unique item to upgrade it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Harvest/HarbingerTokenQuiver.dds",
+      "id": "CurrencyHarbingerBlessingQuiver"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyHarbingerBlessingShield": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Specularity Scroll",
+    "properties": {
+      "description": "Upgrades The Unshattered Will to a more powerful version",
+      "directions": "Right click this item then left click an applicable Harbinger unique item to upgrade it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Harvest/HarbingerTokenShield.dds",
+      "id": "CurrencyHarbingerBlessingShield"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyHarbingerBlessingStaff": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Haemocombustion Scroll",
+    "properties": {
+      "description": "Upgrades The Enmity Divine to a more powerful version",
+      "directions": "Right click this item then left click an applicable Harbinger unique item to upgrade it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Harvest/HarbingerTokenStaff.dds",
+      "id": "CurrencyHarbingerBlessingStaff"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyHarbingerBlessingSword": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Electroshock Scroll",
+    "properties": {
+      "description": "Upgrades The Rippling Thoughts to a more powerful version",
+      "directions": "Right click this item then left click an applicable Harbinger unique item to upgrade it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Harvest/HarbingerTokenSword.dds",
+      "id": "CurrencyHarbingerBlessingSword"
+    }
+  },
   "Metadata/Items/Currency/CurrencyIdentification": {
     "domain": "undefined",
     "drop_level": 1,
@@ -18601,7 +18776,7 @@
     "properties": {
       "description": "Adds an enchantment to an item, or replaces an existing enchantment",
       "directions": "Left click on the skull and then left click on the item you wish to modify.",
-      "stack_size": 3,
+      "stack_size": 9,
       "stack_size_currency_tab": 0
     },
     "release_state": "released",
@@ -19411,6 +19586,31 @@
       "id": "CurrencyStrongboxQuality"
     }
   },
+  "Metadata/Items/Currency/CurrencyStrongboxQualityInfused": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Infused Engineer's Orb",
+    "properties": {
+      "description": "Greatly improves the quality and rewards of a Strongbox and strengthens its defenders",
+      "directions": "Right click this item then left click a Strongbox to apply it.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/InfusedEngineersOrb.dds",
+      "id": "CurrencyStrongboxQualityInfused"
+    }
+  },
   "Metadata/Items/Currency/CurrencyStrongboxQualityShard": {
     "domain": "undefined",
     "drop_level": 8,
@@ -19984,6 +20184,32 @@
       "id": "CurrencyMushrune6"
     }
   },
+  "Metadata/Items/Currency/Mushrune6b": {
+    "domain": "undefined",
+    "drop_level": 48,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Indigo Oil",
+    "properties": {
+      "description": "",
+      "directions": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "mushrune",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Oils/IndigoOil.dds",
+      "id": "CurrencyMushrune6b"
+    }
+  },
   "Metadata/Items/Currency/Mushrune7": {
     "domain": "undefined",
     "drop_level": 52,
@@ -20088,6 +20314,33 @@
       "id": "DivinationCardADabOfInk"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardAFamiliarCall": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "A Familiar Call",
+    "properties": {
+      "description": "<magicitem>{Jewellery of Farrul}\r\n<default>{Item Level:} <normal>{100}\r\n<default>{Shaper + Hunter Item}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "shaper_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardAFamiliarCall_"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardAMothersPartingGift": {
     "domain": "undefined",
     "drop_level": 1,
@@ -20112,6 +20365,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "AMothersPartingGift"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardANoteInTheWind": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "A Note in the Wind",
+    "properties": {
+      "description": "<prophecy>{Song of the Sekhema}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardANoteInTheWind"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardAbandonedWealth": {
@@ -21283,6 +21561,32 @@
       "id": "GemcuttersPromise"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardGiftOfAsenath": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Gift of Asenath",
+    "properties": {
+      "description": "<uniqueitem>{Asenath's Gentle Touch}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardGiftOfAsenath"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardGiftOfTheGemlingQueen": {
     "domain": "undefined",
     "drop_level": 1,
@@ -22150,6 +22454,32 @@
       "id": "DivinationCardNooksCrown"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardPeacefulMoments": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Peaceful Moments",
+    "properties": {
+      "description": "<uniqueitem>{Timeless Jewel}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardPeacefulMoments"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardPerfection": {
     "domain": "undefined",
     "drop_level": 1,
@@ -22227,6 +22557,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardPrideOfTheFirstOnes"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardPrometheusArmoury": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Prometheus' Armoury",
+    "properties": {
+      "description": "<rareitem>{One-Hand Weapon}\r\n<default>{Item Level:} <normal>{100}\r\n<default>{Double-Influenced Item}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "weapon_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardPrometheusArmoury"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardProsperity": {
@@ -22736,6 +23092,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheAvenger"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheAwakened": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Awakened",
+    "properties": {
+      "description": "<rareitem>{Jewellery}\r\n<default>{Item Level:} <normal>{86}\r\n<default>{Double-Influenced Item}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheAwakened"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBargain": {
@@ -24480,6 +24862,32 @@
       "id": "DivinationCardTheGoldenEra"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheGreatestIntentions": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Greatest Intentions",
+    "properties": {
+      "description": "<uniqueitem>{The Saviour}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "weapon_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheGreatestIntentions"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheHaleHeart": {
     "domain": "undefined",
     "drop_level": 1,
@@ -24581,6 +24989,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardTheHeroicShot"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheHiveOfKnowledge": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Hive of Knowledge",
+    "properties": {
+      "description": "<uniqueitem>{Machina Mitts}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheHiveOfKnowledge"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheHoarder": {
@@ -25064,6 +25498,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheLion"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheLongCon": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Long Con",
+    "properties": {
+      "description": "<currencyitem>{Elderslayer's Exalted Orb}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheLongCon__"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLordInBlack": {
@@ -26633,6 +27092,32 @@
       "id": "TheSurvivalist"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheSustenance": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Sustenance",
+    "properties": {
+      "description": "<uniqueitem>{Energy From Within}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheSustenance"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheSwordKingsSalute": {
     "domain": "undefined",
     "drop_level": 1,
@@ -26811,6 +27296,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheTrial"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheTumbleweed": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Tumbleweed",
+    "properties": {
+      "description": "<whiteitem>{Wasteland Map}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheTumbleweed"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTwilightMoon": {
@@ -27196,6 +27706,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheWeb"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheWhiteKnight": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The White Knight",
+    "properties": {
+      "description": "<whiteitem>{Six-Link Astral Plate}\r\n<default>{Item Level:} <normal>{100}\r\n<default>{Crusader Item}",
+      "directions": "",
+      "stack_size": 8,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheWhiteKnight"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWiltedRose": {
@@ -29230,12 +29766,12 @@
   },
   "Metadata/Items/Gems/SkillGemAbyssalCry": {
     "domain": "undefined",
-    "drop_level": 34,
+    "drop_level": 24,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "Abyssal Cry",
+    "name": "Infernal Cry",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -29244,8 +29780,28 @@
       "default"
     ],
     "visual_identity": {
-      "dds_file": "Art/2DItems/Gems/AbyssalCry.dds",
+      "dds_file": "Art/2DItems/Gems/InfernalCry.dds",
       "id": "SkillGemAbyssalCry"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemAncestralCry": {
+    "domain": "undefined",
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Ancestral Cry",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/AncestralCry.dds",
+      "id": "SkillGemAncestralCry"
     }
   },
   "Metadata/Items/Gems/SkillGemAncestralWarchief": {
@@ -29369,6 +29925,26 @@
       "id": "SkillGemArcaneCloak"
     }
   },
+  "Metadata/Items/Gems/SkillGemArcanistBrand": {
+    "domain": "undefined",
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Arcanist Brand",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ArcanistBrandGem.dds",
+      "id": "SkillGemBrandSupport"
+    }
+  },
   "Metadata/Items/Gems/SkillGemArcticArmour": {
     "domain": "undefined",
     "drop_level": 16,
@@ -29396,7 +29972,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "Arctic Breath",
+    "name": "Creeping Frost",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -30688,6 +31264,26 @@
       "id": "SkillGemEarthquake"
     }
   },
+  "Metadata/Items/Gems/SkillGemEarthshatter": {
+    "domain": "undefined",
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Earthshatter",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/SpikeSlamGem.dds",
+      "id": "SkillGemSpikeSlam"
+    }
+  },
   "Metadata/Items/Gems/SkillGemElementalHit": {
     "domain": "undefined",
     "drop_level": 12,
@@ -30752,7 +31348,7 @@
   },
   "Metadata/Items/Gems/SkillGemEnduringCry": {
     "domain": "undefined",
-    "drop_level": 16,
+    "drop_level": 10,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31403,6 +31999,26 @@
       "id": "SkillGemFrostblink"
     }
   },
+  "Metadata/Items/Gems/SkillGemGeneralsCry": {
+    "domain": "undefined",
+    "drop_level": 24,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "General's Cry",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/GeneralsCry.dds",
+      "id": "SkillGemSpiritualCry"
+    }
+  },
   "Metadata/Items/Gems/SkillGemGlacialCascade": {
     "domain": "undefined",
     "drop_level": 28,
@@ -31931,6 +32547,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Sweep.dds",
       "id": "SkillGemSweep"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemIntimidatingCry": {
+    "domain": "undefined",
+    "drop_level": 10,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Intimidating Cry",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/IntimidatingCry.dds",
+      "id": "SkillGemIntimidatingCry"
     }
   },
   "Metadata/Items/Gems/SkillGemKineticBlast": {
@@ -32484,6 +33120,26 @@
       "id": "SkillGemOrbOfStorms"
     }
   },
+  "Metadata/Items/Gems/SkillGemPenanceBrand": {
+    "domain": "undefined",
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Penance Brand",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/PenanceBrandGem.dds",
+      "id": "SkillGemPenanceBrand__"
+    }
+  },
   "Metadata/Items/Gems/SkillGemPerforate": {
     "domain": "undefined",
     "drop_level": 5,
@@ -32911,7 +33567,7 @@
   },
   "Metadata/Items/Gems/SkillGemRallyingCry": {
     "domain": "undefined",
-    "drop_level": 10,
+    "drop_level": 24,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -32925,7 +33581,7 @@
       "default"
     ],
     "visual_identity": {
-      "dds_file": "Art/2DItems/Gems/InspiringCry.dds",
+      "dds_file": "Art/2DItems/Gems/RallyingCrySkillGem.dds",
       "id": "SkillGemRallyingCry"
     }
   },
@@ -33192,6 +33848,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/SearingBond.dds",
       "id": "SkillGemSearingBond"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemSeismicCry": {
+    "domain": "undefined",
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Seismic Cry",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/SeismicCrySkillGem.dds",
+      "id": "SkillGemSeismicCry"
     }
   },
   "Metadata/Items/Gems/SkillGemSerpentStrike": {
@@ -35318,6 +35994,26 @@
       "id": "SkillGemFrostFury"
     }
   },
+  "Metadata/Items/Gems/SkillGemWintertideBrand": {
+    "domain": "undefined",
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Wintertide Brand",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/WintertideBrandGem.dds",
+      "id": "SkillGemWintertideBrand"
+    }
+  },
   "Metadata/Items/Gems/SkillGemWither": {
     "domain": "undefined",
     "drop_level": 10,
@@ -36904,6 +37600,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/SupportPlus/FirePenetrationPlus.dds",
       "id": "SupportGemFirePenetrationPlus__"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemFistOfWar": {
+    "domain": "undefined",
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Fist of War Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/FistOfWarGem.dds",
+      "id": "SupportGemFistOfWar"
     }
   },
   "Metadata/Items/Gems/SupportGemFork": {
@@ -38781,6 +39498,27 @@
       "id": "SupportGemAdditionalTrapMine"
     }
   },
+  "Metadata/Items/Gems/SupportGemSwiftbrand": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Swiftbrand Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SwiftbrandSupportGem.dds",
+      "id": "SupportGemRapidActivation"
+    }
+  },
   "Metadata/Items/Gems/SupportGemTemporaryForTutorial": {
     "domain": "undefined",
     "drop_level": 1,
@@ -38928,6 +39666,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/SupportPlus/UnleashPlus.dds",
       "id": "SupportGemUnleashPlus"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemUrgentOrders": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Urgent Orders Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/UrgentOrdersSupport.dds",
+      "id": "SupportGemUrgentOrders"
     }
   },
   "Metadata/Items/Gems/SupportGemVaalSoulHarvesting": {
@@ -48622,6 +49381,28 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Maps/HarbingerYellow.dds",
       "id": "MapWorldsHarbingerMid"
+    }
+  },
+  "Metadata/Items/Maps/MapWorldsHarbingerUber": {
+    "domain": "area",
+    "drop_level": 83,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Harbinger Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "beach",
+      "not_for_sale",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/HarbingerRed.dds",
+      "id": "MapWorldsHarbingerHigh"
     }
   },
   "Metadata/Items/Maps/MapWorldsHauntedMansion": {
@@ -58454,8 +59235,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 500,
-      "physical_damage_max": 13,
-      "physical_damage_min": 7,
+      "physical_damage_max": 15,
+      "physical_damage_min": 8,
       "range": 13
     },
     "release_state": "released",
@@ -58523,7 +59304,7 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 600,
-      "physical_damage_max": 70,
+      "physical_damage_max": 69,
       "physical_damage_min": 17,
       "range": 120
     },
@@ -58558,7 +59339,7 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 600,
-      "physical_damage_max": 54,
+      "physical_damage_max": 55,
       "physical_damage_min": 26,
       "range": 120
     },
@@ -58667,7 +59448,7 @@
     "properties": {
       "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 66,
+      "physical_damage_max": 67,
       "physical_damage_min": 17,
       "range": 120
     },
@@ -58739,7 +59520,7 @@
     "properties": {
       "attack_time": 667,
       "critical_strike_chance": 500,
-      "physical_damage_max": 66,
+      "physical_damage_max": 67,
       "physical_damage_min": 22,
       "range": 120
     },
@@ -58774,7 +59555,7 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 600,
-      "physical_damage_max": 101,
+      "physical_damage_max": 100,
       "physical_damage_min": 25,
       "range": 120
     },
@@ -58809,7 +59590,7 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 600,
-      "physical_damage_max": 80,
+      "physical_damage_max": 81,
       "physical_damage_min": 39,
       "range": 120
     },
@@ -58954,7 +59735,7 @@
       "attack_time": 690,
       "critical_strike_chance": 500,
       "physical_damage_max": 78,
-      "physical_damage_min": 19,
+      "physical_damage_min": 20,
       "range": 120
     },
     "release_state": "released",
@@ -58990,7 +59771,7 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 500,
-      "physical_damage_max": 91,
+      "physical_damage_max": 92,
       "physical_damage_min": 35,
       "range": 120
     },
@@ -59356,7 +60137,7 @@
     "properties": {
       "attack_time": 714,
       "critical_strike_chance": 550,
-      "physical_damage_max": 65,
+      "physical_damage_max": 66,
       "physical_damage_min": 44,
       "range": 120
     },
@@ -59395,8 +60176,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 600,
-      "physical_damage_max": 17,
-      "physical_damage_min": 8,
+      "physical_damage_max": 19,
+      "physical_damage_min": 9,
       "range": 13
     },
     "release_state": "released",
@@ -59432,8 +60213,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 660,
-      "physical_damage_max": 98,
-      "physical_damage_min": 33,
+      "physical_damage_max": 114,
+      "physical_damage_min": 38,
       "range": 13
     },
     "release_state": "released",
@@ -59470,8 +60251,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 630,
-      "physical_damage_max": 100,
-      "physical_damage_min": 48,
+      "physical_damage_max": 117,
+      "physical_damage_min": 56,
       "range": 13
     },
     "release_state": "released",
@@ -59508,8 +60289,8 @@
     "properties": {
       "attack_time": 870,
       "critical_strike_chance": 650,
-      "physical_damage_max": 125,
-      "physical_damage_min": 42,
+      "physical_damage_max": 145,
+      "physical_damage_min": 48,
       "range": 13
     },
     "release_state": "released",
@@ -59544,8 +60325,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 610,
-      "physical_damage_max": 104,
-      "physical_damage_min": 56,
+      "physical_damage_max": 121,
+      "physical_damage_min": 65,
       "range": 13
     },
     "release_state": "released",
@@ -59582,8 +60363,8 @@
     "properties": {
       "attack_time": 870,
       "critical_strike_chance": 620,
-      "physical_damage_max": 141,
-      "physical_damage_min": 47,
+      "physical_damage_max": 165,
+      "physical_damage_min": 55,
       "range": 13
     },
     "release_state": "released",
@@ -59618,8 +60399,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 600,
-      "physical_damage_max": 103,
-      "physical_damage_min": 62,
+      "physical_damage_max": 120,
+      "physical_damage_min": 72,
       "range": 13
     },
     "release_state": "released",
@@ -59645,7 +60426,7 @@
     "domain": "item",
     "drop_level": 60,
     "implicits": [
-      "StaffBlockPercentImplicitStaff1"
+      "StaffBlockPercentImplicitStaff2"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -59653,9 +60434,9 @@
     "name": "Ezomyte Staff",
     "properties": {
       "attack_time": 800,
-      "critical_strike_chance": 700,
-      "physical_damage_max": 137,
-      "physical_damage_min": 46,
+      "critical_strike_chance": 730,
+      "physical_damage_max": 160,
+      "physical_damage_min": 53,
       "range": 13
     },
     "release_state": "released",
@@ -59683,7 +60464,7 @@
     "domain": "item",
     "drop_level": 64,
     "implicits": [
-      "StaffBlockPercentImplicitStaff2"
+      "StaffBlockPercentImplicitStaff3"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -59691,9 +60472,9 @@
     "name": "Maelstr\u00f6m Staff",
     "properties": {
       "attack_time": 800,
-      "critical_strike_chance": 650,
-      "physical_damage_max": 126,
-      "physical_damage_min": 61,
+      "critical_strike_chance": 680,
+      "physical_damage_max": 147,
+      "physical_damage_min": 71,
       "range": 13
     },
     "release_state": "released",
@@ -59730,8 +60511,8 @@
     "properties": {
       "attack_time": 870,
       "critical_strike_chance": 700,
-      "physical_damage_max": 147,
-      "physical_damage_min": 49,
+      "physical_damage_max": 171,
+      "physical_damage_min": 57,
       "range": 13
     },
     "release_state": "released",
@@ -59757,7 +60538,7 @@
     "domain": "item",
     "drop_level": 68,
     "implicits": [
-      "StaffBlockPercentImplicitStaff1"
+      "StaffSpellBlockPercentImplicitStaff__1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -59765,9 +60546,9 @@
     "name": "Judgement Staff",
     "properties": {
       "attack_time": 769,
-      "critical_strike_chance": 630,
-      "physical_damage_max": 117,
-      "physical_damage_min": 63,
+      "critical_strike_chance": 650,
+      "physical_damage_max": 136,
+      "physical_damage_min": 73,
       "range": 13
     },
     "release_state": "released",
@@ -59804,8 +60585,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 620,
-      "physical_damage_max": 27,
-      "physical_damage_min": 9,
+      "physical_damage_max": 31,
+      "physical_damage_min": 10,
       "range": 13
     },
     "release_state": "released",
@@ -59840,8 +60621,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 600,
-      "physical_damage_max": 35,
-      "physical_damage_min": 21,
+      "physical_damage_max": 41,
+      "physical_damage_min": 24,
       "range": 13
     },
     "release_state": "released",
@@ -59876,8 +60657,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 640,
-      "physical_damage_max": 36,
-      "physical_damage_min": 12,
+      "physical_damage_max": 42,
+      "physical_damage_min": 14,
       "range": 13
     },
     "release_state": "released",
@@ -59914,8 +60695,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 620,
-      "physical_damage_max": 49,
-      "physical_damage_min": 24,
+      "physical_damage_max": 57,
+      "physical_damage_min": 27,
       "range": 13
     },
     "release_state": "released",
@@ -59952,8 +60733,8 @@
     "properties": {
       "attack_time": 870,
       "critical_strike_chance": 650,
-      "physical_damage_max": 70,
-      "physical_damage_min": 23,
+      "physical_damage_max": 81,
+      "physical_damage_min": 27,
       "range": 13
     },
     "release_state": "released",
@@ -59988,8 +60769,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 610,
-      "physical_damage_max": 65,
-      "physical_damage_min": 35,
+      "physical_damage_max": 76,
+      "physical_damage_min": 41,
       "range": 13
     },
     "release_state": "released",
@@ -60026,8 +60807,8 @@
     "properties": {
       "attack_time": 870,
       "critical_strike_chance": 620,
-      "physical_damage_max": 88,
-      "physical_damage_min": 29,
+      "physical_damage_max": 102,
+      "physical_damage_min": 34,
       "range": 13
     },
     "release_state": "released",
@@ -60062,8 +60843,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 600,
-      "physical_damage_max": 73,
-      "physical_damage_min": 44,
+      "physical_damage_max": 86,
+      "physical_damage_min": 51,
       "range": 13
     },
     "release_state": "released",
@@ -60098,8 +60879,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 600,
-      "physical_damage_max": 73,
-      "physical_damage_min": 35,
+      "physical_damage_max": 85,
+      "physical_damage_min": 41,
       "range": 13
     },
     "release_state": "released",
@@ -60136,8 +60917,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 600,
-      "physical_damage_max": 118,
-      "physical_damage_min": 57,
+      "physical_damage_max": 138,
+      "physical_damage_min": 66,
       "range": 13
     },
     "release_state": "released",
@@ -60174,8 +60955,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 600,
-      "physical_damage_max": 125,
-      "physical_damage_min": 60,
+      "physical_damage_max": 145,
+      "physical_damage_min": 70,
       "range": 13
     },
     "release_state": "released",
@@ -60210,8 +60991,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 17,
-      "physical_damage_min": 10,
+      "physical_damage_max": 20,
+      "physical_damage_min": 12,
       "range": 13
     },
     "release_state": "released",
@@ -60244,8 +61025,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 79,
-      "physical_damage_min": 53,
+      "physical_damage_max": 92,
+      "physical_damage_min": 61,
       "range": 13
     },
     "release_state": "released",
@@ -60278,8 +61059,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 500,
-      "physical_damage_max": 105,
-      "physical_damage_min": 63,
+      "physical_damage_max": 123,
+      "physical_damage_min": 74,
       "range": 13
     },
     "release_state": "released",
@@ -60312,8 +61093,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 88,
-      "physical_damage_min": 65,
+      "physical_damage_max": 103,
+      "physical_damage_min": 76,
       "range": 13
     },
     "release_state": "released",
@@ -60346,8 +61127,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 104,
-      "physical_damage_min": 69,
+      "physical_damage_max": 121,
+      "physical_damage_min": 81,
       "range": 13
     },
     "release_state": "released",
@@ -60378,10 +61159,10 @@
     "item_class": "Two Hand Axe",
     "name": "Karui Chopper",
     "properties": {
-      "attack_time": 870,
+      "attack_time": 952,
       "critical_strike_chance": 500,
-      "physical_damage_max": 125,
-      "physical_damage_min": 80,
+      "physical_damage_max": 189,
+      "physical_damage_min": 121,
       "range": 13
     },
     "release_state": "released",
@@ -60406,16 +61187,18 @@
   "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe15": {
     "domain": "item",
     "drop_level": 60,
-    "implicits": [],
+    "implicits": [
+      "BleedDotMultiplier2HImplicit1"
+    ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Axe",
     "name": "Sundering Axe",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 128,
-      "physical_damage_min": 62,
+      "physical_damage_max": 155,
+      "physical_damage_min": 74,
       "range": 13
     },
     "release_state": "released",
@@ -60446,10 +61229,10 @@
     "item_class": "Two Hand Axe",
     "name": "Ezomyte Axe",
     "properties": {
-      "attack_time": 769,
-      "critical_strike_chance": 500,
-      "physical_damage_max": 108,
-      "physical_damage_min": 72,
+      "attack_time": 741,
+      "critical_strike_chance": 570,
+      "physical_damage_max": 131,
+      "physical_damage_min": 87,
       "range": 13
     },
     "release_state": "released",
@@ -60474,16 +61257,18 @@
   "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe17": {
     "domain": "item",
     "drop_level": 64,
-    "implicits": [],
+    "implicits": [
+      "LocalMaimOnHit2HImplicit_1"
+    ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Axe",
     "name": "Vaal Axe",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 870,
       "critical_strike_chance": 500,
-      "physical_damage_max": 131,
-      "physical_damage_min": 79,
+      "physical_damage_max": 174,
+      "physical_damage_min": 104,
       "range": 13
     },
     "release_state": "released",
@@ -60514,10 +61299,10 @@
     "item_class": "Two Hand Axe",
     "name": "Despot Axe",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 103,
-      "physical_damage_min": 76,
+      "physical_damage_max": 122,
+      "physical_damage_min": 90,
       "range": 13
     },
     "release_state": "released",
@@ -60549,9 +61334,9 @@
     "name": "Void Axe",
     "properties": {
       "attack_time": 800,
-      "critical_strike_chance": 500,
-      "physical_damage_max": 114,
-      "physical_damage_min": 76,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 144,
+      "physical_damage_min": 96,
       "range": 13
     },
     "release_state": "released",
@@ -60584,8 +61369,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 25,
-      "physical_damage_min": 16,
+      "physical_damage_max": 30,
+      "physical_damage_min": 19,
       "range": 13
     },
     "release_state": "released",
@@ -60618,8 +61403,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 33,
-      "physical_damage_min": 16,
+      "physical_damage_max": 39,
+      "physical_damage_min": 19,
       "range": 13
     },
     "release_state": "released",
@@ -60652,8 +61437,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 37,
-      "physical_damage_min": 25,
+      "physical_damage_max": 43,
+      "physical_damage_min": 29,
       "range": 13
     },
     "release_state": "released",
@@ -60686,8 +61471,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 51,
-      "physical_damage_min": 31,
+      "physical_damage_max": 60,
+      "physical_damage_min": 36,
       "range": 13
     },
     "release_state": "released",
@@ -60720,8 +61505,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 50,
-      "physical_damage_min": 37,
+      "physical_damage_max": 58,
+      "physical_damage_min": 43,
       "range": 13
     },
     "release_state": "released",
@@ -60754,8 +61539,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 62,
-      "physical_damage_min": 42,
+      "physical_damage_max": 73,
+      "physical_damage_min": 49,
       "range": 13
     },
     "release_state": "released",
@@ -60788,8 +61573,8 @@
     "properties": {
       "attack_time": 870,
       "critical_strike_chance": 500,
-      "physical_damage_max": 78,
-      "physical_damage_min": 50,
+      "physical_damage_max": 91,
+      "physical_damage_min": 58,
       "range": 13
     },
     "release_state": "released",
@@ -60822,8 +61607,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 85,
-      "physical_damage_min": 41,
+      "physical_damage_max": 99,
+      "physical_damage_min": 48,
       "range": 13
     },
     "release_state": "released",
@@ -60858,8 +61643,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 500,
-      "physical_damage_max": 71,
-      "physical_damage_min": 45,
+      "physical_damage_max": 83,
+      "physical_damage_min": 53,
       "range": 13
     },
     "release_state": "released",
@@ -60896,8 +61681,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 500,
-      "physical_damage_max": 118,
-      "physical_damage_min": 75,
+      "physical_damage_max": 138,
+      "physical_damage_min": 88,
       "range": 13
     },
     "release_state": "released",
@@ -60934,8 +61719,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 500,
-      "physical_damage_max": 125,
-      "physical_damage_min": 80,
+      "physical_damage_max": 152,
+      "physical_damage_min": 97,
       "range": 13
     },
     "release_state": "released",
@@ -60972,8 +61757,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 13,
-      "physical_damage_min": 9,
+      "physical_damage_max": 16,
+      "physical_damage_min": 10,
       "range": 13
     },
     "release_state": "released",
@@ -61008,8 +61793,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 70,
-      "physical_damage_min": 47,
+      "physical_damage_max": 81,
+      "physical_damage_min": 54,
       "range": 13
     },
     "release_state": "released",
@@ -61044,8 +61829,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 88,
-      "physical_damage_min": 47,
+      "physical_damage_max": 103,
+      "physical_damage_min": 55,
       "range": 13
     },
     "release_state": "released",
@@ -61080,8 +61865,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 500,
-      "physical_damage_max": 92,
-      "physical_damage_min": 62,
+      "physical_damage_max": 108,
+      "physical_damage_min": 72,
       "range": 13
     },
     "release_state": "released",
@@ -61116,8 +61901,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 89,
-      "physical_damage_min": 66,
+      "physical_damage_max": 104,
+      "physical_damage_min": 77,
       "range": 13
     },
     "release_state": "released",
@@ -61143,17 +61928,17 @@
     "domain": "item",
     "drop_level": 57,
     "implicits": [
-      "StunDurationImplicitMace1"
+      "StunDurationImplicitMace2"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Mace",
     "name": "Karui Maul",
     "properties": {
-      "attack_time": 909,
+      "attack_time": 1000,
       "critical_strike_chance": 500,
-      "physical_damage_max": 118,
-      "physical_damage_min": 79,
+      "physical_damage_max": 168,
+      "physical_damage_min": 112,
       "range": 13
     },
     "release_state": "released",
@@ -61179,17 +61964,17 @@
     "domain": "item",
     "drop_level": 59,
     "implicits": [
-      "StunDurationImplicitMace1"
+      "AreaDamageImplicitMace1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Mace",
     "name": "Colossus Mallet",
     "properties": {
-      "attack_time": 800,
-      "critical_strike_chance": 500,
-      "physical_damage_max": 118,
-      "physical_damage_min": 57,
+      "attack_time": 769,
+      "critical_strike_chance": 550,
+      "physical_damage_max": 135,
+      "physical_damage_min": 65,
       "range": 13
     },
     "release_state": "released",
@@ -61215,17 +62000,17 @@
     "domain": "item",
     "drop_level": 61,
     "implicits": [
-      "StunDurationImplicitMace2"
+      "StunThresholdReductionImplicitMace3_"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Mace",
     "name": "Piledriver",
     "properties": {
-      "attack_time": 769,
+      "attack_time": 741,
       "critical_strike_chance": 500,
-      "physical_damage_max": 100,
-      "physical_damage_min": 67,
+      "physical_damage_max": 115,
+      "physical_damage_min": 77,
       "range": 13
     },
     "release_state": "released",
@@ -61251,7 +62036,7 @@
     "domain": "item",
     "drop_level": 63,
     "implicits": [
-      "StunDurationImplicitMace1"
+      "DoubleDamageChanceImplicitMace1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -61260,8 +62045,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 117,
-      "physical_damage_min": 63,
+      "physical_damage_max": 138,
+      "physical_damage_min": 74,
       "range": 13
     },
     "release_state": "released",
@@ -61287,17 +62072,17 @@
     "domain": "item",
     "drop_level": 65,
     "implicits": [
-      "StunDurationImplicitMace1"
+      "PercentageStrengthImplicitMace1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Mace",
     "name": "Imperial Maul",
     "properties": {
-      "attack_time": 833,
+      "attack_time": 909,
       "critical_strike_chance": 500,
-      "physical_damage_max": 111,
-      "physical_damage_min": 74,
+      "physical_damage_max": 153,
+      "physical_damage_min": 102,
       "range": 13
     },
     "release_state": "released",
@@ -61323,17 +62108,17 @@
     "domain": "item",
     "drop_level": 67,
     "implicits": [
-      "StunDurationImplicitMace1"
+      "ChanceForDoubleStunDurationImplicitMace_1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Mace",
     "name": "Terror Maul",
     "properties": {
-      "attack_time": 800,
-      "critical_strike_chance": 500,
-      "physical_damage_max": 102,
-      "physical_damage_min": 75,
+      "attack_time": 870,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 137,
+      "physical_damage_min": 101,
       "range": 13
     },
     "release_state": "released",
@@ -61368,8 +62153,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 21,
-      "physical_damage_min": 14,
+      "physical_damage_max": 25,
+      "physical_damage_min": 17,
       "range": 13
     },
     "release_state": "released",
@@ -61404,8 +62189,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 29,
-      "physical_damage_min": 14,
+      "physical_damage_max": 33,
+      "physical_damage_min": 16,
       "range": 13
     },
     "release_state": "released",
@@ -61440,8 +62225,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 32,
-      "physical_damage_min": 21,
+      "physical_damage_max": 38,
+      "physical_damage_min": 25,
       "range": 13
     },
     "release_state": "released",
@@ -61476,8 +62261,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 42,
-      "physical_damage_min": 23,
+      "physical_damage_max": 49,
+      "physical_damage_min": 27,
       "range": 13
     },
     "release_state": "released",
@@ -61512,8 +62297,8 @@
     "properties": {
       "attack_time": 833,
       "critical_strike_chance": 500,
-      "physical_damage_max": 51,
-      "physical_damage_min": 34,
+      "physical_damage_max": 60,
+      "physical_damage_min": 40,
       "range": 13
     },
     "release_state": "released",
@@ -61548,8 +62333,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 53,
-      "physical_damage_min": 39,
+      "physical_damage_max": 62,
+      "physical_damage_min": 46,
       "range": 13
     },
     "release_state": "released",
@@ -61584,8 +62369,8 @@
     "properties": {
       "attack_time": 909,
       "critical_strike_chance": 500,
-      "physical_damage_max": 73,
-      "physical_damage_min": 49,
+      "physical_damage_max": 85,
+      "physical_damage_min": 57,
       "range": 13
     },
     "release_state": "released",
@@ -61620,8 +62405,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 76,
-      "physical_damage_min": 37,
+      "physical_damage_max": 88,
+      "physical_damage_min": 43,
       "range": 13
     },
     "release_state": "released",
@@ -61656,8 +62441,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 58,
-      "physical_damage_min": 39,
+      "physical_damage_max": 68,
+      "physical_damage_min": 45,
       "range": 13
     },
     "release_state": "released",
@@ -61694,8 +62479,8 @@
     "properties": {
       "attack_time": 800,
       "critical_strike_chance": 500,
-      "physical_damage_max": 97,
-      "physical_damage_min": 64,
+      "physical_damage_max": 113,
+      "physical_damage_min": 75,
       "range": 13
     },
     "release_state": "released",
@@ -61730,10 +62515,10 @@
     "item_class": "Two Hand Mace",
     "name": "Coronal Maul",
     "properties": {
-      "attack_time": 800,
+      "attack_time": 833,
       "critical_strike_chance": 500,
-      "physical_damage_max": 110,
-      "physical_damage_min": 74,
+      "physical_damage_max": 136,
+      "physical_damage_min": 91,
       "range": 13
     },
     "release_state": "released",
@@ -61770,8 +62555,8 @@
     "properties": {
       "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 13,
-      "physical_damage_min": 7,
+      "physical_damage_max": 16,
+      "physical_damage_min": 8,
       "range": 13
     },
     "release_state": "released",
@@ -61806,8 +62591,8 @@
     "properties": {
       "attack_time": 741,
       "critical_strike_chance": 500,
-      "physical_damage_max": 72,
-      "physical_damage_min": 39,
+      "physical_damage_max": 84,
+      "physical_damage_min": 45,
       "range": 13
     },
     "release_state": "released",
@@ -61833,7 +62618,7 @@
     "domain": "item",
     "drop_level": 48,
     "implicits": [
-      "AccuracyPercentImplicitSword1"
+      "AccuracyPercentImplicit2HSword1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -61842,8 +62627,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 87,
-      "physical_damage_min": 42,
+      "physical_damage_max": 102,
+      "physical_damage_min": 49,
       "range": 13
     },
     "release_state": "released",
@@ -61878,8 +62663,8 @@
     "properties": {
       "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 76,
-      "physical_damage_min": 46,
+      "physical_damage_max": 89,
+      "physical_damage_min": 54,
       "range": 13
     },
     "release_state": "released",
@@ -61905,7 +62690,7 @@
     "domain": "item",
     "drop_level": 54,
     "implicits": [
-      "AccuracyPercentImplicitSword2"
+      "AccuracyPercentImplicit2HSword2_"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -61914,8 +62699,8 @@
     "properties": {
       "attack_time": 741,
       "critical_strike_chance": 500,
-      "physical_damage_max": 93,
-      "physical_damage_min": 45,
+      "physical_damage_max": 109,
+      "physical_damage_min": 52,
       "range": 13
     },
     "release_state": "released",
@@ -61950,8 +62735,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 109,
-      "physical_damage_min": 47,
+      "physical_damage_max": 128,
+      "physical_damage_min": 55,
       "range": 13
     },
     "release_state": "released",
@@ -61977,17 +62762,17 @@
     "domain": "item",
     "drop_level": 59,
     "implicits": [
-      "AccuracyPercentImplicitSword1"
+      "AccuracyPercentImplicit2HSword1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Sword",
     "name": "Reaver Sword",
     "properties": {
-      "attack_time": 690,
+      "attack_time": 667,
       "critical_strike_chance": 500,
-      "physical_damage_max": 86,
-      "physical_damage_min": 52,
+      "physical_damage_max": 104,
+      "physical_damage_min": 62,
       "range": 13
     },
     "release_state": "released",
@@ -62013,17 +62798,17 @@
     "domain": "item",
     "drop_level": 61,
     "implicits": [
-      "IncreasedAccuracy2hSwordImplicit8"
+      "CriticalMultiplierImplicitSword2H1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Sword",
     "name": "Ezomyte Blade",
     "properties": {
-      "attack_time": 741,
-      "critical_strike_chance": 500,
-      "physical_damage_max": 102,
-      "physical_damage_min": 55,
+      "attack_time": 714,
+      "critical_strike_chance": 650,
+      "physical_damage_max": 115,
+      "physical_damage_min": 62,
       "range": 13
     },
     "release_state": "released",
@@ -62049,7 +62834,7 @@
     "domain": "item",
     "drop_level": 63,
     "implicits": [
-      "AccuracyPercentImplicitSword1"
+      "IncreasedAccuracy2hSwordImplicit9"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -62058,8 +62843,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 113,
-      "physical_damage_min": 55,
+      "physical_damage_max": 142,
+      "physical_damage_min": 68,
       "range": 13
     },
     "release_state": "released",
@@ -62085,17 +62870,17 @@
     "domain": "item",
     "drop_level": 65,
     "implicits": [
-      "IncreasedAccuracy2hSwordImplicit9"
+      "StrengthDexterityImplicitSword_1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Sword",
     "name": "Lion Sword",
     "properties": {
-      "attack_time": 714,
+      "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 94,
-      "physical_damage_min": 57,
+      "physical_damage_max": 115,
+      "physical_damage_min": 69,
       "range": 13
     },
     "release_state": "released",
@@ -62121,7 +62906,7 @@
     "domain": "item",
     "drop_level": 67,
     "implicits": [
-      "AccuracyPercentImplicitSword2"
+      "WeaponElementalDamageImplicitSword1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -62130,8 +62915,8 @@
     "properties": {
       "attack_time": 741,
       "critical_strike_chance": 500,
-      "physical_damage_max": 108,
-      "physical_damage_min": 52,
+      "physical_damage_max": 129,
+      "physical_damage_min": 62,
       "range": 13
     },
     "release_state": "released",
@@ -62166,8 +62951,8 @@
     "properties": {
       "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 23,
-      "physical_damage_min": 10,
+      "physical_damage_max": 26,
+      "physical_damage_min": 11,
       "range": 13
     },
     "release_state": "released",
@@ -62193,7 +62978,7 @@
     "domain": "item",
     "drop_level": 12,
     "implicits": [
-      "AccuracyPercentImplicitSword1"
+      "AccuracyPercentImplicit2HSword1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -62202,8 +62987,8 @@
     "properties": {
       "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 25,
-      "physical_damage_min": 15,
+      "physical_damage_max": 29,
+      "physical_damage_min": 17,
       "range": 13
     },
     "release_state": "released",
@@ -62238,8 +63023,8 @@
     "properties": {
       "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 33,
-      "physical_damage_min": 18,
+      "physical_damage_max": 38,
+      "physical_damage_min": 20,
       "range": 13
     },
     "release_state": "released",
@@ -62265,7 +63050,7 @@
     "domain": "item",
     "drop_level": 22,
     "implicits": [
-      "AccuracyPercentImplicitSword1"
+      "AccuracyPercentImplicit2HSword1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -62274,8 +63059,8 @@
     "properties": {
       "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 41,
-      "physical_damage_min": 20,
+      "physical_damage_max": 48,
+      "physical_damage_min": 23,
       "range": 13
     },
     "release_state": "released",
@@ -62310,8 +63095,8 @@
     "properties": {
       "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 43,
-      "physical_damage_min": 26,
+      "physical_damage_max": 50,
+      "physical_damage_min": 30,
       "range": 13
     },
     "release_state": "released",
@@ -62337,7 +63122,7 @@
     "domain": "item",
     "drop_level": 32,
     "implicits": [
-      "AccuracyPercentImplicitSword2"
+      "AccuracyPercentImplicit2HSword2_"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -62346,8 +63131,8 @@
     "properties": {
       "attack_time": 741,
       "critical_strike_chance": 500,
-      "physical_damage_max": 56,
-      "physical_damage_min": 27,
+      "physical_damage_max": 65,
+      "physical_damage_min": 31,
       "range": 13
     },
     "release_state": "released",
@@ -62382,8 +63167,8 @@
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
-      "physical_damage_max": 68,
-      "physical_damage_min": 29,
+      "physical_damage_max": 79,
+      "physical_damage_min": 34,
       "range": 13
     },
     "release_state": "released",
@@ -62409,7 +63194,7 @@
     "domain": "item",
     "drop_level": 40,
     "implicits": [
-      "AccuracyPercentImplicitSword1"
+      "AccuracyPercentImplicit2HSword1"
     ],
     "inventory_height": 4,
     "inventory_width": 2,
@@ -62418,8 +63203,8 @@
     "properties": {
       "attack_time": 690,
       "critical_strike_chance": 500,
-      "physical_damage_max": 56,
-      "physical_damage_min": 34,
+      "physical_damage_max": 65,
+      "physical_damage_min": 39,
       "range": 13
     },
     "release_state": "released",
@@ -62489,8 +63274,8 @@
     "properties": {
       "attack_time": 741,
       "critical_strike_chance": 600,
-      "physical_damage_max": 58,
-      "physical_damage_min": 35,
+      "physical_damage_max": 68,
+      "physical_damage_min": 41,
       "range": 13
     },
     "release_state": "released",
@@ -62527,8 +63312,8 @@
     "properties": {
       "attack_time": 741,
       "critical_strike_chance": 600,
-      "physical_damage_max": 89,
-      "physical_damage_min": 54,
+      "physical_damage_max": 104,
+      "physical_damage_min": 63,
       "range": 13
     },
     "release_state": "released",
@@ -62564,9 +63349,9 @@
     "name": "Exquisite Blade",
     "properties": {
       "attack_time": 741,
-      "critical_strike_chance": 600,
-      "physical_damage_max": 94,
-      "physical_damage_min": 56,
+      "critical_strike_chance": 570,
+      "physical_damage_max": 112,
+      "physical_damage_min": 67,
       "range": 13
     },
     "release_state": "released",

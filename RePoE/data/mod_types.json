@@ -78,7 +78,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "AccuracyAuraSkill": {
@@ -86,7 +87,8 @@
       "UniqueHigh"
     ],
     "tags": [
-      "aura"
+      "aura",
+      "critical"
     ]
   },
   "AccuracyIfNoEnemySlainRecently": {
@@ -159,6 +161,12 @@
       "speed"
     ]
   },
+  "ActivateHeraldOfThunderOnShock": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "ActorSize": {
     "sell_price_types": [
       "UniqueMedium"
@@ -173,7 +181,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AddedArmourWhileStationary": {
     "sell_price_types": [
@@ -256,7 +266,8 @@
       "High"
     ],
     "tags": [
-      "cold"
+      "cold",
+      "critical"
     ]
   },
   "AddedColdDamagePerDexterity": {
@@ -457,7 +468,8 @@
       "High"
     ],
     "tags": [
-      "fire"
+      "fire",
+      "critical"
     ]
   },
   "AddedFireDamagePerStrength": {
@@ -617,7 +629,8 @@
       "High"
     ],
     "tags": [
-      "lightning"
+      "lightning",
+      "critical"
     ]
   },
   "AddedLightningDamagePerDexInRadius": {
@@ -813,7 +826,8 @@
       "High"
     ],
     "tags": [
-      "physical"
+      "physical",
+      "critical"
     ]
   },
   "AddedPhysicalDamageOnFrozenEnemies": {
@@ -1014,7 +1028,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AdditionalBlockChancePerEnduranceChargeUber": {
     "sell_price_types": [
@@ -1080,33 +1096,41 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AdditionalCriticalStrikeChanceWithAttacks": {
     "sell_price_types": [
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "AdditionalCriticalStrikeChanceWithCatAspect": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AdditionalCriticalStrikeChanceWithSpells": {
     "sell_price_types": [
       "High"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "AdditionalCriticalStrikeMultiplierUnderFlaskEffect": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AdditionalCurseMaximumPowerCharge": {
     "sell_price_types": [
@@ -1314,6 +1338,10 @@
       "physical"
     ]
   },
+  "AfflictionAddExtraContentWeighting": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "AfflictionJewelSmallPassivesGrantAreaOfEffect": {
     "sell_price_types": [
       "High"
@@ -1410,7 +1438,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionJewelSmallPassivesGrantCurseAreaOfEffect": {
     "sell_price_types": [
@@ -1712,7 +1742,9 @@
     "tags": [
       "cold",
       "speed",
-      "life"
+      "life",
+      "attack",
+      "caster"
     ]
   },
   "AfflictionNotableAncestralEcho": {
@@ -1720,7 +1752,9 @@
       "High"
     ],
     "tags": [
-      "speed"
+      "speed",
+      "attack",
+      "caster"
     ]
   },
   "AfflictionNotableAncestralGuidance": {
@@ -1810,7 +1844,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "AfflictionNotableAssertDominance": {
@@ -1831,7 +1866,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotableBattleHardened": {
     "sell_price_types": [
@@ -1895,6 +1932,14 @@
       "life"
     ]
   },
+  "AfflictionNotableBlizzardCaller": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "cold"
+    ]
+  },
   "AfflictionNotableBloodscent": {
     "sell_price_types": [
       "High"
@@ -1918,7 +1963,8 @@
     ],
     "tags": [
       "minion",
-      "life"
+      "life",
+      "attack"
     ]
   },
   "AfflictionNotableBornofChaos": {
@@ -2002,7 +2048,9 @@
     ],
     "tags": [
       "minion",
-      "speed"
+      "speed",
+      "attack",
+      "caster"
     ]
   },
   "AfflictionNotableCapacitor": {
@@ -2205,7 +2253,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "AfflictionNotableDeepChill": {
@@ -2249,7 +2298,8 @@
     ],
     "tags": [
       "attack",
-      "poison"
+      "poison",
+      "life"
     ]
   },
   "AfflictionNotableDisorientingDisplay": {
@@ -2381,7 +2431,8 @@
     "tags": [
       "caster",
       "defences",
-      "speed"
+      "speed",
+      "attack"
     ]
   },
   "AfflictionNotableEternalSuffering": {
@@ -2420,6 +2471,14 @@
       "speed"
     ]
   },
+  "AfflictionNotableExploitWeakness": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "physical"
+    ]
+  },
   "AfflictionNotableExplosiveForce": {
     "sell_price_types": [
       "High"
@@ -2445,7 +2504,8 @@
     "tags": [
       "fire",
       "cold",
-      "lightning"
+      "lightning",
+      "critical"
     ]
   },
   "AfflictionNotableEyetoEye": {
@@ -2527,7 +2587,8 @@
       "High"
     ],
     "tags": [
-      "fire"
+      "fire",
+      "critical"
     ]
   },
   "AfflictionNotableFirstAmongEquals": {
@@ -2584,7 +2645,9 @@
     ],
     "tags": [
       "physical",
-      "speed"
+      "speed",
+      "attack",
+      "caster"
     ]
   },
   "AfflictionNotableGenius": {
@@ -2600,7 +2663,9 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "defences",
+      "critical"
     ]
   },
   "AfflictionNotableGladiatorsFortitude": {
@@ -2618,7 +2683,8 @@
     ],
     "tags": [
       "attack",
-      "speed"
+      "speed",
+      "critical"
     ]
   },
   "AfflictionNotableGrandDesign": {
@@ -2638,6 +2704,16 @@
       "chaos"
     ]
   },
+  "AfflictionNotableGroundedCommander": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "aura",
+      "elemental",
+      "lightning"
+    ]
+  },
   "AfflictionNotableGuerillaTactics": {
     "sell_price_types": [
       "High"
@@ -2650,15 +2726,16 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotableHauntingShout": {
     "sell_price_types": [
       "High"
     ],
     "tags": [
-      "attack",
-      "caster"
+      "attack"
     ]
   },
   "AfflictionNotableHeartofIron": {
@@ -2683,8 +2760,7 @@
       "High"
     ],
     "tags": [
-      "mana",
-      "aura"
+      "mana"
     ]
   },
   "AfflictionNotableHexBreaker": {
@@ -2813,7 +2889,7 @@
       "High"
     ],
     "tags": [
-      "physical"
+      "speed"
     ]
   },
   "AfflictionNotableLifefromDeath": {
@@ -2831,6 +2907,14 @@
     ],
     "tags": [
       "mana"
+    ]
+  },
+  "AfflictionNotableLordofDrought": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "fire"
     ]
   },
   "AfflictionNotableLowTolerance": {
@@ -2861,7 +2945,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotableMartialMastery": {
     "sell_price_types": [
@@ -2951,6 +3037,14 @@
       "mana"
     ]
   },
+  "AfflictionNotableMiseryEverlasting": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "chaos"
+    ]
+  },
   "AfflictionNotableMobMentality": {
     "sell_price_types": [
       "High"
@@ -3035,7 +3129,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "AfflictionNotableOverlord": {
@@ -3060,7 +3155,8 @@
     ],
     "tags": [
       "physical",
-      "chaos"
+      "chaos",
+      "critical"
     ]
   },
   "AfflictionNotableParalysis": {
@@ -3114,26 +3210,33 @@
       "High"
     ],
     "tags": [
-      "aura"
+      "aura",
+      "critical"
     ]
   },
   "AfflictionNotablePreciseFocus": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotablePreciseRetaliation": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotablePressurePoints": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotablePrimordialBond": {
     "sell_price_types": [
@@ -3182,7 +3285,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotablePureAgony": {
     "sell_price_types": [
@@ -3248,7 +3353,10 @@
       "High"
     ],
     "tags": [
-      "speed"
+      "speed",
+      "attack",
+      "caster",
+      "critical"
     ]
   },
   "AfflictionNotableQuickandDeadly": {
@@ -3272,7 +3380,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "attack"
+    ]
   },
   "AfflictionNotableRazeandPillage": {
     "sell_price_types": [
@@ -3323,7 +3433,9 @@
       "High"
     ],
     "tags": [
-      "speed"
+      "speed",
+      "attack",
+      "caster"
     ]
   },
   "AfflictionNotableReplenishingPresence": {
@@ -3414,7 +3526,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotableSavourtheMoment": {
     "sell_price_types": [
@@ -3457,11 +3571,21 @@
       "caster"
     ]
   },
+  "AfflictionNotableSelfControl": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "defences"
+    ]
+  },
   "AfflictionNotableSelfFulfillingProphecy": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotableSepticSpells": {
     "sell_price_types": [
@@ -3507,7 +3631,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AfflictionNotableSleeplessSentries": {
     "sell_price_types": [
@@ -3561,7 +3687,9 @@
       "High"
     ],
     "tags": [
-      "speed"
+      "speed",
+      "attack",
+      "caster"
     ]
   },
   "AfflictionNotableSpringBack": {
@@ -3658,6 +3786,14 @@
       "chaos"
     ]
   },
+  "AfflictionNotableSublimeForm": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "defences"
+    ]
+  },
   "AfflictionNotableSublimeSensation": {
     "sell_price_types": [
       "High"
@@ -3667,12 +3803,23 @@
       "defences"
     ]
   },
+  "AfflictionNotableSummerCommander": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "aura",
+      "elemental",
+      "fire"
+    ]
+  },
   "AfflictionNotableSupercharge": {
     "sell_price_types": [
       "High"
     ],
     "tags": [
-      "lightning"
+      "lightning",
+      "critical"
     ]
   },
   "AfflictionNotableSurefootedStriker": {
@@ -3680,7 +3827,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "AfflictionNotableSurgingVitality": {
@@ -3696,7 +3844,8 @@
       "High"
     ],
     "tags": [
-      "elemental"
+      "elemental",
+      "critical"
     ]
   },
   "AfflictionNotableTemperedArrowheads": {
@@ -3705,6 +3854,14 @@
     ],
     "tags": [
       "attack"
+    ]
+  },
+  "AfflictionNotableTempttheStorm": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "lightning"
     ]
   },
   "AfflictionNotableThaumophage": {
@@ -3721,7 +3878,8 @@
       "High"
     ],
     "tags": [
-      "lightning"
+      "lightning",
+      "critical"
     ]
   },
   "AfflictionNotableTitanicSwings": {
@@ -3746,13 +3904,23 @@
       "life"
     ]
   },
+  "AfflictionNotableUncompromising": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "defences"
+    ]
+  },
   "AfflictionNotableUnholyGrace": {
     "sell_price_types": [
       "High"
     ],
     "tags": [
       "chaos",
-      "speed"
+      "speed",
+      "attack",
+      "caster"
     ]
   },
   "AfflictionNotableUnspeakableGifts": {
@@ -3818,7 +3986,8 @@
       "High"
     ],
     "tags": [
-      "minion"
+      "minion",
+      "critical"
     ]
   },
   "AfflictionNotableViciousGuard": {
@@ -3894,7 +4063,7 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "defences"
     ]
   },
   "AfflictionNotableWastingAffliction": {
@@ -3947,7 +4116,18 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
+    ]
+  },
+  "AfflictionNotableWinterCommander": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "aura",
+      "elemental",
+      "cold"
     ]
   },
   "AfflictionNotableWinterProwler": {
@@ -4202,7 +4382,9 @@
     "sell_price_types": [
       "UniqueVeryHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AlwaysHits": {
     "sell_price_types": [
@@ -4255,7 +4437,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AngerIncreasedFireDamage": {
     "sell_price_types": [
@@ -4519,6 +4703,12 @@
     ],
     "tags": []
   },
+  "AreaOfEffectSandStance": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
   "AreaOfEffectSupported": {
     "sell_price_types": [
       "High"
@@ -4562,6 +4752,12 @@
       "defences",
       "jewellery_defense"
     ]
+  },
+  "ArmourAppliesToLightningDamage": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
   },
   "ArmourAsLifeRegnerationOnBlock": {
     "sell_price_types": [
@@ -4744,6 +4940,14 @@
     ],
     "tags": []
   },
+  "ArrowsIfHaventUsedDashRecently": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ],
+    "tags": [
+      "attack"
+    ]
+  },
   "ArrowsThatPierceCauseBleeding": {
     "sell_price_types": [
       "UniqueLow"
@@ -4762,7 +4966,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AspectOfSpiderDuration": {
     "sell_price_types": [
@@ -5097,6 +5303,19 @@
       "fire"
     ]
   },
+  "AttackSpeedAfterSavageHitTaken": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "AttackSpeedChangedStance": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "attack",
+      "speed"
+    ]
+  },
   "AttackSpeedDoubleDamage": {
     "sell_price_types": [
       "High"
@@ -5138,7 +5357,8 @@
     ],
     "tags": [
       "attack",
-      "speed"
+      "speed",
+      "critical"
     ]
   },
   "AttackSpeedIfEnemyKilledRecently": {
@@ -5148,6 +5368,15 @@
     "tags": [
       "speed",
       "attack"
+    ]
+  },
+  "AttackSpeedIfHaventUsedDashRecently": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "attack",
+      "speed"
     ]
   },
   "AttackSpeedIncreasedWhileIgnited": {
@@ -5328,7 +5557,9 @@
     "sell_price_types": [
       "UniqueVeryHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "AttacksBleedOnHitWithCatsStealth": {
     "sell_price_types": [
@@ -5767,7 +5998,8 @@
   "AxeCriticalStrikeMultiplier": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "AxeIncreasedAccuracyRating": {
@@ -5863,7 +6095,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "BearTrapSkill": {
     "sell_price_types": [
@@ -5980,7 +6214,8 @@
   "BestiaryMod18": {
     "sell_price_types": [],
     "tags": [
-      "speed"
+      "speed",
+      "critical"
     ]
   },
   "BestiaryMod19": {
@@ -6046,7 +6281,8 @@
   "BestiaryModTigerSpiritBossMinions": {
     "sell_price_types": [],
     "tags": [
-      "speed"
+      "speed",
+      "critical"
     ]
   },
   "BestiaryModYellowMonsters": {
@@ -6107,6 +6343,26 @@
       "bleed"
     ]
   },
+  "BleedDotMultiplier": {
+    "sell_price_types": [],
+    "tags": [
+      "bleed"
+    ]
+  },
+  "BleedDotMultiplierPerFrenzyCharge": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "bleed"
+    ]
+  },
+  "BleedDotMultiplierPerRagePerEquippedAxe": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "BleedDuration": {
     "sell_price_types": [
       "UniqueLow"
@@ -6121,7 +6377,8 @@
     ],
     "tags": [
       "bleed",
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "BleedOnHitAndDamage": {
@@ -6136,7 +6393,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "BleedOnMeleeHitChance": {
     "sell_price_types": [
@@ -6267,6 +6526,10 @@
     ],
     "tags": []
   },
+  "BlightEnchantmentArcTowerSapChance": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "BlightEnchantmentChillingTowerChillEffect": {
     "sell_price_types": [
       "Special"
@@ -6381,6 +6644,14 @@
     ],
     "tags": []
   },
+  "BlightEnchantmentFlamethrowerTowerScorchChance": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "BlightEnchantmentFreezeboltTowerBrittleChance": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "BlightEnchantmentFrostboltNovaTowerDamage": {
     "sell_price_types": [
       "Special"
@@ -6403,6 +6674,10 @@
     "sell_price_types": [
       "Special"
     ],
+    "tags": []
+  },
+  "BlightEnchantmentGlacialCageTowerAreaOfEffect": {
+    "sell_price_types": [],
     "tags": []
   },
   "BlightEnchantmentGlacialCageTowerCooldown": {
@@ -6433,7 +6708,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "BlightEnchantmentImbuingTowerDamage": {
     "sell_price_types": [
@@ -6445,6 +6722,10 @@
     "sell_price_types": [
       "Special"
     ],
+    "tags": []
+  },
+  "BlightEnchantmentImbuingTowerOnslaught": {
+    "sell_price_types": [],
     "tags": []
   },
   "BlightEnchantmentImbuingTowerRange": {
@@ -6477,10 +6758,18 @@
     ],
     "tags": []
   },
+  "BlightEnchantmentLightningStormTowerStormsOnEnemies": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "BlightEnchantmentMeteorTowerAdditionalMeteor": {
     "sell_price_types": [
       "Special"
     ],
+    "tags": []
+  },
+  "BlightEnchantmentMeteorTowerBurningGround": {
+    "sell_price_types": [],
     "tags": []
   },
   "BlightEnchantmentMeteorTowerDamage": {
@@ -6511,6 +6800,10 @@
     "sell_price_types": [
       "Special"
     ],
+    "tags": []
+  },
+  "BlightEnchantmentScoutTowerMinionsInflictMalediction": {
+    "sell_price_types": [],
     "tags": []
   },
   "BlightEnchantmentScoutTowerRange": {
@@ -6567,6 +6860,10 @@
     ],
     "tags": []
   },
+  "BlightEnchantmentSentinelTowerMinionsHaveLifeLeech": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "BlightEnchantmentSentinelTowerRange": {
     "sell_price_types": [
       "Special"
@@ -6615,6 +6912,10 @@
     ],
     "tags": []
   },
+  "BlightEnchantmentSmotheringTowerFreezeShockIgniteChance": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "BlightEnchantmentSmotheringTowerRange": {
     "sell_price_types": [
       "Special"
@@ -6643,6 +6944,10 @@
     "sell_price_types": [
       "Special"
     ],
+    "tags": []
+  },
+  "BlightEnchantmentStoneGazeTowerPetrifiedEnemiesTakeIncreasedDamage": {
+    "sell_price_types": [],
     "tags": []
   },
   "BlightEnchantmentStoneGazeTowerPetrifyDuration": {
@@ -6705,10 +7010,18 @@
     ],
     "tags": []
   },
+  "BlightEnchantmentTemporalTowerStunImmunity": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "BlightEnchantmentTemporalTowerTick": {
     "sell_price_types": [
       "Special"
     ],
+    "tags": []
+  },
+  "BlightEnchantmentTowerDamagePerTowerType": {
+    "sell_price_types": [],
     "tags": []
   },
   "BlightFireType": {
@@ -6752,6 +7065,10 @@
     "tags": []
   },
   "BlightFragmentMushrune6": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "BlightFragmentMushrune6b": {
     "sell_price_types": [],
     "tags": []
   },
@@ -6841,6 +7158,18 @@
     ],
     "tags": []
   },
+  "BlindDoesNotAffectHitChance": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
+  "BlindDoesNotAffectLightRadius": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
   "BlindEnemiesWhenHit": {
     "sell_price_types": [
       "High"
@@ -6862,6 +7191,12 @@
   "BlindOnHitSupported": {
     "sell_price_types": [
       "High"
+    ],
+    "tags": []
+  },
+  "BlindReflectedToSelf": {
+    "sell_price_types": [
+      "UniqueHigh"
     ],
     "tags": []
   },
@@ -7022,7 +7357,8 @@
   "BowCriticalStrikeMultiplier": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "BowIncreasedAccuracyRating": {
@@ -7051,6 +7387,12 @@
   },
   "BrandDamagePerDevotion": {
     "sell_price_types": [],
+    "tags": []
+  },
+  "BrandDuration": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
     "tags": []
   },
   "BreachChaosUnique": {
@@ -7249,6 +7591,12 @@
       "fire"
     ]
   },
+  "CallToArms": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "CanInflictMultipleIgnites": {
     "sell_price_types": [
       "UniqueVeryHigh"
@@ -7434,6 +7782,12 @@
     "sell_price_types": [],
     "tags": []
   },
+  "CannotBlockWithNoEnergyShield": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
   "CannotCastSpells": {
     "sell_price_types": [
       "UniqueLow"
@@ -7442,11 +7796,15 @@
   },
   "CannotCrit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CannotCritNonShockedEnemies": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CannotDealSpellDamage": {
     "sell_price_types": [
@@ -7518,7 +7876,9 @@
   },
   "CannotLeechFromCriticalStrikes": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CannotLeechLife": {
     "sell_price_types": [
@@ -7545,6 +7905,12 @@
     ]
   },
   "CannotLoseCrabBarriersIfLostRecently": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "CannotPenetrateResistances": {
     "sell_price_types": [
       "UniqueLow"
     ],
@@ -7585,7 +7951,8 @@
       "UniqueHigh"
     ],
     "tags": [
-      "cold"
+      "cold",
+      "critical"
     ]
   },
   "CastSocketedLightningSpellsOnHit": {
@@ -7639,7 +8006,8 @@
     ],
     "tags": [
       "caster",
-      "speed"
+      "speed",
+      "critical"
     ]
   },
   "CastSpeedIfEnemyKilledRecently": {
@@ -7805,14 +8173,17 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CausesPoisonOnCrit": {
     "sell_price_types": [
       "UniqueLow"
     ],
     "tags": [
-      "poison"
+      "poison",
+      "critical"
     ]
   },
   "CausticArrowThresholdJewel1": {
@@ -7953,7 +8324,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ChanceToBlockIfDamagedRecently": {
     "sell_price_types": [
@@ -8137,7 +8510,9 @@
     "sell_price_types": [
       "UniqueVeryHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ChanceToGainOnslaughtOnFlaskUse": {
     "sell_price_types": [
@@ -8331,13 +8706,17 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ChanceToTakeCriticalStrikeUpdated": {
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ChanceToUnnerveOnHit": {
     "sell_price_types": [
@@ -8376,7 +8755,8 @@
       "Special"
     ],
     "tags": [
-      "chaos"
+      "chaos",
+      "critical"
     ]
   },
   "ChaosCritMultiplierForJewel": {
@@ -8384,7 +8764,8 @@
       "Special"
     ],
     "tags": [
-      "chaos"
+      "chaos",
+      "critical"
     ]
   },
   "ChaosDamage": {
@@ -9243,7 +9624,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "mana"
+      "mana",
+      "jewellery_quality_ignore"
     ]
   },
   "ClaritySkillReduced": {
@@ -9285,12 +9667,15 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ClawCriticalStrikeMultiplier": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "ClawDamageModsAlsoAffectUnarmed": {
@@ -9383,7 +9768,8 @@
       "Medium"
     ],
     "tags": [
-      "cold"
+      "cold",
+      "critical"
     ]
   },
   "ColdCritMultiplierForJewel": {
@@ -9391,7 +9777,8 @@
       "High"
     ],
     "tags": [
-      "cold"
+      "cold",
+      "critical"
     ]
   },
   "ColdDamage": {
@@ -9774,7 +10161,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ConductivityOnHitLevel": {
     "sell_price_types": [],
@@ -9808,7 +10197,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ConsecratedGroundOnBlock": {
     "sell_price_types": [
@@ -9826,7 +10217,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ConsumesSupportGemsUnique": {
     "sell_price_types": [
@@ -9835,6 +10228,12 @@
     "tags": []
   },
   "ControlledDestructionSupport": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
+  "ControlledDestructionSupportLevel10Boolean": {
     "sell_price_types": [
       "UniqueHigh"
     ],
@@ -10139,25 +10538,32 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CritChanceAndCriticalStrikeMultiplierIfEnemyShatteredRecently": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CritChanceForJewel": {
     "sell_price_types": [
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritChancePercentPerStrength": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CritChanceShockedEnemies": {
     "sell_price_types": [
@@ -10165,7 +10571,8 @@
     ],
     "tags": [
       "lightning",
-      "jewellery_elemental"
+      "jewellery_elemental",
+      "critical"
     ]
   },
   "CritChanceWithAxeForJewel": {
@@ -10173,7 +10580,8 @@
       "Low"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritChanceWithBowForJewel": {
@@ -10181,7 +10589,8 @@
       "Low"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritChanceWithClawForJewel": {
@@ -10189,7 +10598,8 @@
       "Low"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritChanceWithDaggerForJewel": {
@@ -10197,7 +10607,8 @@
       "Low"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritChanceWithMaceForJewel": {
@@ -10205,7 +10616,8 @@
       "Low"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritChanceWithStaffForJewel": {
@@ -10213,7 +10625,8 @@
       "Low"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritChanceWithSwordForJewel": {
@@ -10221,7 +10634,8 @@
       "Low"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritChanceWithWandForJewel": {
@@ -10229,27 +10643,33 @@
       "Low"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritMultiIfDealtNonCritRecently": {
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CritMultiplierForJewel": {
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CritMultiplierWithAxeForJewel": {
     "sell_price_types": [
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritMultiplierWithBowForJewel": {
@@ -10257,7 +10677,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritMultiplierWithClawForJewel": {
@@ -10265,7 +10686,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritMultiplierWithDaggerForJewel": {
@@ -10273,7 +10695,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritMultiplierWithMaceForJewel": {
@@ -10281,7 +10704,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritMultiplierWithStaffForJewel": {
@@ -10289,7 +10713,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritMultiplierWithSwordForJewel": {
@@ -10297,7 +10722,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CritMultiplierWithWandForJewel": {
@@ -10305,40 +10731,54 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
+    ]
+  },
+  "CriticalBleedDotMultiplier": {
+    "sell_price_types": [],
+    "tags": [
+      "bleed",
+      "critical"
     ]
   },
   "CriticalChanceAgainstBlindedEnemies": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalChanceAgainstEnemiesOnFullLife": {
     "sell_price_types": [
       "UniqueMedium"
     ],
     "tags": [
-      "life"
+      "life",
+      "critical"
     ]
   },
   "CriticalChanceAndAddedChaosDamageIfHaveCritRecently": {
     "sell_price_types": [],
     "tags": [
-      "chaos"
+      "chaos",
+      "critical"
     ]
   },
   "CriticalChanceAndElementalDamagePercentIfHaveCritRecently": {
     "sell_price_types": [],
     "tags": [
       "elemental",
-      "jewellery_elemental"
+      "jewellery_elemental",
+      "critical"
     ]
   },
   "CriticalChanceAndGainFrenzyChargeOnCriticalStrikePercent": {
     "sell_price_types": [],
     "tags": [
-      "speed"
+      "speed",
+      "critical"
     ]
   },
   "CriticalChanceIncreasedByUncappedLightningResistance": {
@@ -10346,36 +10786,47 @@
       "UniqueHigh"
     ],
     "tags": [
-      "lightning"
+      "lightning",
+      "critical"
     ]
   },
   "CriticalMultiplierIs100": {
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalMultiplierPer100DexterityAura": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalMultiplierPerBlockChance": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalMultiplierPerPowerCharge": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalMultiplierSupportedTwoHanded": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeAttackLifeLeech": {
     "sell_price_types": [
@@ -10383,14 +10834,17 @@
     ],
     "tags": [
       "life",
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CriticalStrikeChance": {
     "sell_price_types": [
       "Medium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceAgainstBleedingEnemies": {
     "sell_price_types": [
@@ -10398,7 +10852,8 @@
     ],
     "tags": [
       "attack",
-      "bleed"
+      "bleed",
+      "critical"
     ]
   },
   "CriticalStrikeChanceAgainstPoisonedEnemies": {
@@ -10407,99 +10862,131 @@
     ],
     "tags": [
       "attack",
-      "poison"
+      "poison",
+      "critical"
     ]
   },
   "CriticalStrikeChanceAt200Intelligence": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceDaggerImplicit1": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceDaggerImplicit2": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceDaggerImplicit3": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceFinal": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceForForkingArrows": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceIfKilledRecently": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceIfNoCriticalStrikeDealtRecently": {
     "sell_price_types": [
       "Medium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceIfNoCriticalStrikeDealtRecentlyUber": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceInMainHand": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChancePerEnduranceCharge": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChancePerFrenzyCharge": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChancePerLevel": {
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChancePerPowerCharge": {
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChancePerStackableJewel": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeChanceSpellsSupported": {
     "sell_price_types": [
       "High"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "CriticalStrikeChanceSpellsTwoHandedPowerCharge": {
@@ -10507,7 +10994,8 @@
       "High"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "CriticalStrikeChanceSupported": {
@@ -10515,7 +11003,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CriticalStrikeChanceTwoHandedCritChanceRecently": {
@@ -10523,7 +11012,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CriticalStrikeChanceTwoHandedCritMultiRecently": {
@@ -10531,72 +11021,95 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "CriticalStrikeMultiplier": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierAgainstEnemiesOnFullLife": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierIfBlockedRecentlyUber": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierIfDexterityHigherThanIntelligence": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierIfEnemySlainRecently": {
     "sell_price_types": [
       "Medium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierIfHaventCritRecently": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierIfRareOrUniqueEnemyNearby": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierIs250": {
     "sell_price_types": [
       "UniqueVeryHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierPerGreenSocket": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierPerUnallocatedStrengthJewel": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikeMultiplierSupported": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikesDealIncreasedLightningDamage": {
     "sell_price_types": [
@@ -10609,41 +11122,55 @@
   },
   "CriticalStrikesDealNoDamage": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikesDoNotFreeze": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikesLeechIsInstant": {
     "sell_price_types": [
       "UniqueVeryHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalStrikesNotAlwaysApplyAilments": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CriticalWeaknessSkill": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CritsBlindChanceWithCatsStealth": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CritsHaveCullingStrike": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CullingAgainstBurningEnemies": {
     "sell_price_types": [
@@ -10655,7 +11182,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CullingStrike": {
     "sell_price_types": [
@@ -10667,7 +11196,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CullingStrikeOnBleedingEnemiesUber": {
     "sell_price_types": [
@@ -10679,6 +11210,24 @@
   },
   "CullingStrikePoachersMark": {
     "sell_price_types": [],
+    "tags": []
+  },
+  "Curse25PercentHinderEnemy": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "Curse50PercentCurseEffect": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "Curse75PercentEnemyDamageTaken": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
     "tags": []
   },
   "CurseAreaOfEffect": {
@@ -10760,7 +11309,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "CurseOnHitDespair": {
     "sell_price_types": [
@@ -10926,7 +11477,8 @@
   "DaggerCriticalStrikeMultiplier": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "DaggerIncreasedAccuracyRating": {
@@ -10981,6 +11533,12 @@
   },
   "DamageAgainstSpidersWhileSpider": {
     "sell_price_types": [],
+    "tags": []
+  },
+  "DamageBypassEnergyShieldBlock": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
     "tags": []
   },
   "DamageChilledEnemies": {
@@ -11277,7 +11835,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "DamageTakenPerSiphoningChargeOnSkillUse": {
     "sell_price_types": [],
@@ -11398,6 +11958,12 @@
   "DealNoNonElementalDamage": {
     "sell_price_types": [
       "UniqueMedium"
+    ],
+    "tags": []
+  },
+  "DealNoNonLightningDamage": {
+    "sell_price_types": [
+      "UniqueLow"
     ],
     "tags": []
   },
@@ -11567,7 +12133,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "DeterminationReducedReflectedPhysicalDamage": {
     "sell_price_types": [
@@ -11686,6 +12254,12 @@
   },
   "DisablePartyScalingForChests": {
     "sell_price_types": [],
+    "tags": []
+  },
+  "DisableTravelSkillsExceptDash": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ],
     "tags": []
   },
   "DisablesOtherRingSlot": {
@@ -11807,7 +12381,9 @@
   },
   "DisplayGrantsCriticalStrikeMultiplier": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "DisplayGrantsCullingStrike": {
     "sell_price_types": [
@@ -12134,7 +12710,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "DisplaySocketedGemsSupportedByIncreasedMinionDamage": {
     "sell_price_types": [
@@ -12201,6 +12779,14 @@
       "cold"
     ]
   },
+  "DisplaySupportedByBonechill": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "cold"
+    ]
+  },
   "DisplaySupportedByColdPenetration": {
     "sell_price_types": [
       "UniqueLow"
@@ -12210,6 +12796,12 @@
     ]
   },
   "DisplaySupportedByEcho": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "DisplaySupportedByEchoLevel10Boolean": {
     "sell_price_types": [
       "UniqueLow"
     ],
@@ -12331,7 +12923,9 @@
   },
   "DoedreCurseZoneAuraEnfeeble": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "DoedreCurseZoneAuraTemporalChains": {
     "sell_price_types": [],
@@ -12356,6 +12950,12 @@
     "tags": []
   },
   "DoubleDamagePer500Strength": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "DoubleDamageStunnedRecently": {
     "sell_price_types": [
       "UniqueLow"
     ],
@@ -12441,12 +13041,39 @@
     "sell_price_types": [],
     "tags": []
   },
+  "DualStrikeThresholdJewelAxe": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "DualStrikeThresholdJewelClaw": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "DualStrikeThresholdJewelDagger": {
+    "sell_price_types": [],
+    "tags": [
+      "critical"
+    ]
+  },
+  "DualStrikeThresholdJewelDamageRadius": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "DualStrikeThresholdJewelMace": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "DualStrikeThresholdJewelSword": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "DualWieldingCritChanceForJewel": {
     "sell_price_types": [
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "DualWieldingCritMultiplierForJewel": {
@@ -12454,7 +13081,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "DualWieldingPhysicalDamage": {
@@ -12485,6 +13113,10 @@
     "tags": []
   },
   "DuplicatesRingStats": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "ESLeechFromAttacksNotRemovedOnFullES": {
     "sell_price_types": [],
     "tags": []
   },
@@ -12561,7 +13193,8 @@
       "High"
     ],
     "tags": [
-      "elemental"
+      "elemental",
+      "critical"
     ]
   },
   "ElementalCritMultiplierForJewel": {
@@ -12569,7 +13202,8 @@
       "VeryHigh"
     ],
     "tags": [
-      "elemental"
+      "elemental",
+      "critical"
     ]
   },
   "ElementalDamageCanShock": {
@@ -12838,7 +13472,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EmberwakeLessBurningDamage": {
     "sell_price_types": [],
@@ -12848,7 +13484,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentAbyssalCryDamage": {
     "sell_price_types": [
@@ -12867,7 +13505,8 @@
       "Special"
     ],
     "tags": [
-      "chaos"
+      "chaos",
+      "critical"
     ]
   },
   "EnchantmentAddedFireDamageOnKill": {
@@ -12929,6 +13568,18 @@
     "tags": []
   },
   "EnchantmentAncestorTotemSlashRadius": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentAncestralCryExertedDamage": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentAncestralCryMinimumPower": {
     "sell_price_types": [
       "Special"
     ],
@@ -13015,6 +13666,24 @@
     ],
     "tags": []
   },
+  "EnchantmentArcaneSurge": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentArcanistBrandCastSpeed": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentArcanistBrandUnnerve": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "EnchantmentArcitcBreathDamage": {
     "sell_price_types": [
       "Special"
@@ -13082,13 +13751,17 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentAssassinsMarkDuration": {
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentAttackAndCastSpeedOnKill": {
     "sell_price_types": [
@@ -13210,7 +13883,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentBladeVortexDamage": {
     "sell_price_types": [
@@ -13240,7 +13915,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentBladefallDamage": {
     "sell_price_types": [
@@ -13309,6 +13986,12 @@
     "tags": []
   },
   "EnchantmentBlightSecondarySkillDuration": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentBlind": {
     "sell_price_types": [
       "Special"
     ],
@@ -13490,7 +14173,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentChaosGolemElementalResistances": {
     "sell_price_types": [
@@ -13613,7 +14298,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentColdProjectileMineDamage": {
     "sell_price_types": [
@@ -13660,6 +14347,12 @@
     "tags": []
   },
   "EnchantmentConductivityDuration": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentConsecratedGround": {
     "sell_price_types": [
       "Special"
     ],
@@ -13753,7 +14446,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentCycloneAttackSpeed": {
     "sell_price_types": [
@@ -13927,7 +14622,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentDominatingBlowAdditionalMagic": {
     "sell_price_types": [
@@ -13977,7 +14674,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentDoubleSlashRadius": {
     "sell_price_types": [
@@ -13997,7 +14696,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentDoubleStrikeDamage": {
     "sell_price_types": [
@@ -14029,7 +14730,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentDualStrikeDamage": {
     "sell_price_types": [
@@ -14043,6 +14746,12 @@
     ],
     "tags": []
   },
+  "EnchantmentEarthquakeDamagePerDuration": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "EnchantmentEarthquakeDuration": {
     "sell_price_types": [
       "Special"
@@ -14050,6 +14759,24 @@
     "tags": []
   },
   "EnchantmentEarthquakeRadius": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentEarthshatterDamage": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentEarthshatterRadius": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentEarthshatterSpikes": {
     "sell_price_types": [
       "Special"
     ],
@@ -14088,6 +14815,18 @@
     "tags": []
   },
   "EnchantmentElementalWeaknessDuration": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentElusive": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentEnduringCryAdditionalCharge": {
     "sell_price_types": [
       "Special"
     ],
@@ -14178,6 +14917,12 @@
     "tags": []
   },
   "EnchantmentExplosiveArrowRadius": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentExposure": {
     "sell_price_types": [
       "Special"
     ],
@@ -14315,7 +15060,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentFlameSurgeDamage": {
     "sell_price_types": [
@@ -14359,7 +15106,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentFlameblastDamage": {
     "sell_price_types": [
@@ -14454,6 +15203,12 @@
     "tags": []
   },
   "EnchantmentFlickerStrikeDamagePerFrenzyCharge": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentFortify": {
     "sell_price_types": [
       "Special"
     ],
@@ -14616,6 +15371,18 @@
     "tags": []
   },
   "EnchantmentGalvanicArrowProjectileSpeed": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentGeneralsCryAdditionalWarrior": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentGeneralsCryCooldownSpeed": {
     "sell_price_types": [
       "Special"
     ],
@@ -14805,6 +15572,12 @@
       "aura"
     ]
   },
+  "EnchantmentHinder": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "EnchantmentHolyRelicBuffEffect": {
     "sell_price_types": [
       "Special"
@@ -14947,13 +15720,17 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentIceSpearSecondFormCriticalStrikeChance": {
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentIceTrapColdPenetration": {
     "sell_price_types": [
@@ -15046,6 +15823,36 @@
     "tags": []
   },
   "EnchantmentInfernalBlowRadius": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentInfernalCryCombustAreaOfEffect": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentInfernalCryCooldownSpeed": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentIntimidate": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentIntimidatingCryAreaOfEffect": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentIntimidatingCryCooldownSpeed": {
     "sell_price_types": [
       "Special"
     ],
@@ -15218,7 +16025,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentLightningTendrilsDamage": {
     "sell_price_types": [
@@ -15341,6 +16150,12 @@
     "tags": []
   },
   "EnchantmentMagmaOrbRadius": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentMaim": {
     "sell_price_types": [
       "Special"
     ],
@@ -15518,7 +16333,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentOfReflectionWhenHit": {
     "sell_price_types": [
@@ -15562,6 +16379,12 @@
     ],
     "tags": []
   },
+  "EnchantmentOnslaught": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "EnchantmentOrbOfStormsCastSpeed": {
     "sell_price_types": [
       "Special"
@@ -15571,6 +16394,24 @@
     ]
   },
   "EnchantmentOrbOfStormsDamage": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentPenanceBrandCastSpeed": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentPenanceBrandDamage": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentPenanceBrandRadius": {
     "sell_price_types": [
       "Special"
     ],
@@ -15601,6 +16442,12 @@
     "tags": []
   },
   "EnchantmentPhaseRunPercentChanceToNotConsumeFrenzyCharges": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentPhasing": {
     "sell_price_types": [
       "Special"
     ],
@@ -15790,6 +16637,12 @@
       "aura"
     ]
   },
+  "EnchantmentRage": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "EnchantmentRainOfArrowsAdditionalSequenceChance": {
     "sell_price_types": [
       "Special"
@@ -15832,7 +16685,25 @@
       "minion"
     ]
   },
+  "EnchantmentRallyingCryAdditionalExert": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "EnchantmentRallyingCryBuffEffect": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentRallyingCryBuffEffectOldDivide3": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentRallyingCryBuffEffectOldDivide5": {
     "sell_price_types": [
       "Special"
     ],
@@ -15973,6 +16844,18 @@
     "tags": [
       "speed"
     ]
+  },
+  "EnchantmentSeismicCryExertedDamage": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentSeismicCryMinimumPower": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
   },
   "EnchantmentShatteringSteelAdditionalProjectile": {
     "sell_price_types": [
@@ -16331,7 +17214,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentSplitArrowDamage": {
     "sell_price_types": [
@@ -16451,7 +17336,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentStormCloudRadius": {
     "sell_price_types": [
@@ -16583,6 +17470,12 @@
     ],
     "tags": []
   },
+  "EnchantmentSunderWaveSpeed": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "EnchantmentSweepDamage": {
     "sell_price_types": [
       "Special"
@@ -16607,6 +17500,12 @@
     ],
     "tags": []
   },
+  "EnchantmentTaunt": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "EnchantmentTectonicSlamAreaOfEffect": {
     "sell_price_types": [
       "Special"
@@ -16626,6 +17525,18 @@
     "tags": []
   },
   "EnchantmentTectonicSlamOLDChanceToChargedSlamPer2": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentTectonicSlamSideCrackChance": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentTectonicSlamSideCrackChancePer2": {
     "sell_price_types": [
       "Special"
     ],
@@ -16659,7 +17570,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentTornadoShotDamage": {
     "sell_price_types": [
@@ -16686,6 +17599,12 @@
     "tags": []
   },
   "EnchantmentToxicRainPhysicalAddedAsChaos": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentUnnerve": {
     "sell_price_types": [
       "Special"
     ],
@@ -16721,7 +17640,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnchantmentViperStrikeDamage": {
     "sell_price_types": [
@@ -16872,7 +17793,31 @@
     ],
     "tags": []
   },
+  "EnchantmentWinterBrandChillEfffect": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentWinterBrandDamage": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentWinterBrandStages": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "EnchantmentWinterOrbDamage": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
+  "EnchantmentWither": {
     "sell_price_types": [
       "Special"
     ],
@@ -17002,6 +17947,14 @@
       "life"
     ]
   },
+  "EnemiesCrushedWithRage": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "physical"
+    ]
+  },
   "EnemiesDestroyedOnKill": {
     "sell_price_types": [
       "UniqueMedium"
@@ -17045,6 +17998,12 @@
   "EnemiesIgnitedTakeIncreasedDamage": {
     "sell_price_types": [
       "UniqueLow"
+    ],
+    "tags": []
+  },
+  "EnemiesKilledApplyImpaleDamage": {
+    "sell_price_types": [
+      "UniqueHigh"
     ],
     "tags": []
   },
@@ -17095,7 +18054,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EnemyExtraDamageRollsOnFullLife": {
     "sell_price_types": [
@@ -17449,7 +18410,9 @@
   },
   "EssenceDaemonAlternatingBuffsCrit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "EssenceDaemonAlternatingBuffsDamage": {
     "sell_price_types": [],
@@ -17475,6 +18438,12 @@
   },
   "EssenceInsectSummonedOnDeath": {
     "sell_price_types": [],
+    "tags": []
+  },
+  "EternalYouth": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
     "tags": []
   },
   "EtherealKnivesThresholdJewel": {
@@ -17539,6 +18508,14 @@
       "jewellery_defense"
     ]
   },
+  "EvasionRatingIfUsedDashRecently": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "defences"
+    ]
+  },
   "EvasionRatingIfYouHaveHitAnEnemyRecently": {
     "sell_price_types": [
       "High"
@@ -17580,6 +18557,12 @@
       "defences",
       "jewellery_defense"
     ]
+  },
+  "EvasionRatingSandStance": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
   },
   "EvasionRatingWhileMoving": {
     "sell_price_types": [
@@ -17637,6 +18620,14 @@
   "EverythingEverywhereWarbands": {
     "sell_price_types": [],
     "tags": []
+  },
+  "ExertedAttackDamage": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "attack"
+    ]
   },
   "ExileElementalDamageIncreaseRotation": {
     "sell_price_types": [],
@@ -17707,6 +18698,14 @@
   },
   "FasterBleedDamage": {
     "sell_price_types": [],
+    "tags": [
+      "bleed"
+    ]
+  },
+  "FasterBleedPerFrenzyCharge": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
     "tags": [
       "bleed"
     ]
@@ -17821,7 +18820,8 @@
       "Medium"
     ],
     "tags": [
-      "fire"
+      "fire",
+      "critical"
     ]
   },
   "FireCritMultiplierForJewel": {
@@ -17829,7 +18829,8 @@
       "High"
     ],
     "tags": [
-      "fire"
+      "fire",
+      "critical"
     ]
   },
   "FireDamage": {
@@ -18305,6 +19306,12 @@
     ],
     "tags": []
   },
+  "FireballThresholdJewel3": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ],
+    "tags": []
+  },
   "FishingBiteSensitivity": {
     "sell_price_types": [
       "UniqueLow"
@@ -18517,7 +19524,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskChanceToNotConsumeCharges": {
     "sell_price_types": [
@@ -18535,13 +19544,17 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskChargeOnCritMaximumFrenzyCharge": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskChargeRecoveryDuringFlaskEffect": {
     "sell_price_types": [
@@ -18553,7 +19566,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskChargesUsed": {
     "sell_price_types": [
@@ -18583,7 +19598,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskConsumesFrenzyCharges": {
     "sell_price_types": [
@@ -18613,6 +19630,10 @@
     "sell_price_types": [
       "High"
     ],
+    "tags": []
+  },
+  "FlaskDurationConsumedPerUse": {
+    "sell_price_types": [],
     "tags": []
   },
   "FlaskEffect": {
@@ -18703,7 +19724,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskFullRechargeOnHit": {
     "sell_price_types": [
@@ -18715,7 +19738,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskGainEnduranceCharge": {
     "sell_price_types": [
@@ -18733,7 +19758,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskGainVaalSoulPerSecond": {
     "sell_price_types": [
@@ -18765,7 +19792,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskImmuneToDamage": {
     "sell_price_types": [
@@ -18955,7 +19984,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FlaskVaalSkillDamage": {
     "sell_price_types": [
@@ -19123,6 +20154,12 @@
       "attack"
     ]
   },
+  "FragileRegrowthLifeRegeneration": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "FreezeChanceAndDuration": {
     "sell_price_types": [
       "High"
@@ -19177,11 +20214,21 @@
     ],
     "tags": []
   },
+  "FrenzyChargeOnCritCloseRange": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": [
+      "critical"
+    ]
+  },
   "FrenzyChargeOnCriticalHit": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "FrenzyChargeOnHitChance": {
     "sell_price_types": [
@@ -19301,7 +20348,8 @@
     ],
     "tags": [
       "minion",
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "GainArmourEqualToManaReserved": {
@@ -19347,7 +20395,8 @@
       "UniqueHigh"
     ],
     "tags": [
-      "mana"
+      "mana",
+      "critical"
     ]
   },
   "GainDebilitatingPresence": {
@@ -19377,7 +20426,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "GainEnduranceChargeOnHittingBleedingEnemy": {
@@ -19408,13 +20458,17 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GainEnduranceChargeWhenTakeCriticalStrike": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GainEnduranceChargeWhileStationary": {
     "sell_price_types": [
@@ -19595,7 +20649,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "poison"
+      "poison",
+      "critical"
     ]
   },
   "GainPowerChargeOnKillingFrozenEnemy": {
@@ -19608,11 +20663,15 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GainPowerChargesOnUsingWarcry": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GainRandomChargeOnBlock": {
     "sell_price_types": [
@@ -19705,6 +20764,12 @@
   },
   "GladiatorBossEliteSharingEnduranceCharges": {
     "sell_price_types": [],
+    "tags": []
+  },
+  "GlancingBlows": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
     "tags": []
   },
   "GlimpseOfEternityWhenHit": {
@@ -19809,17 +20874,23 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GlobalCriticalStrikeChanceAgainstChilled": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GlobalCriticalStrikeChanceCorruptedItem": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GlobalDamageOverTimeMultiplier": {
     "sell_price_types": [
@@ -19881,7 +20952,9 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GlobalFlaskLifeRecovery": {
     "sell_price_types": [
@@ -20236,7 +21309,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GrantAviansAspectToAllies": {
     "sell_price_types": [
@@ -20290,6 +21365,12 @@
     "sell_price_types": [],
     "tags": []
   },
+  "GrantsBrandDetonate": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "GrantsCatAspect": {
     "sell_price_types": [],
     "tags": []
@@ -20307,6 +21388,12 @@
   "GrantsDarktongueKiss": {
     "sell_price_types": [
       "UniqueVeryHigh"
+    ],
+    "tags": []
+  },
+  "GrantsDash": {
+    "sell_price_types": [
+      "UniqueMedium"
     ],
     "tags": []
   },
@@ -20450,7 +21537,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "GroundTarOnHitTaken": {
     "sell_price_types": [
@@ -20472,6 +21561,86 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
+    "tags": []
+  },
+  "HarvestAlternateArmourQualityColdResistance": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateArmourQualityDexterity": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateArmourQualityFireResistance": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateArmourQualityIncreasedLife": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateArmourQualityIncreasedMana": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateArmourQualityIntelligence": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateArmourQualityLightningResistance": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateArmourQualityStrength": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateWeaponQualityAccuracyRatingIncrease": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateWeaponQualityAreaOfEffect": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateWeaponQualityElementalDamagePercent": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateWeaponQualityLocalCriticalStrikeChance": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateWeaponQualityLocalIncreasedAttackSpeed": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestAlternateWeaponQualityLocalMeleeWeaponRange": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestFlaskEnchantmentChargesUsedLoweredOnUse": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestFlaskEnchantmentDurationLoweredOnUse": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestFlaskEnchantmentEffectLoweredOnUse": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestFlaskEnchantmentMaximumChargesLoweredOnUse": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestLeague": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HarvestLeagueCrafted": {
+    "sell_price_types": [],
     "tags": []
   },
   "HasNoSockets": {
@@ -20568,7 +21737,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "HatredAuraEffect": {
     "sell_price_types": [],
@@ -20863,6 +22034,12 @@
       "cold"
     ]
   },
+  "HeraldOfThunderBoltFrequency": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
   "HeraldOfThunderBuffEffect": {
     "sell_price_types": [],
     "tags": []
@@ -20999,7 +22176,9 @@
   },
   "HungryLoopSupportedByAwakenedCastOnCrit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "HungryLoopSupportedByAwakenedCastWhileChannelling": {
     "sell_price_types": [],
@@ -21131,7 +22310,9 @@
   },
   "HungryLoopSupportedByCastOnCrit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "HungryLoopSupportedByCastOnDamageTaken": {
     "sell_price_types": [],
@@ -21278,6 +22459,10 @@
       "fire"
     ]
   },
+  "HungryLoopSupportedByFistofWar": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "HungryLoopSupportedByFlee": {
     "sell_price_types": [],
     "tags": []
@@ -21336,11 +22521,15 @@
   },
   "HungryLoopSupportedByIncreasedCriticalDamage": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "HungryLoopSupportedByIncreasedCriticalStrikes": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "HungryLoopSupportedByIncreasedDuration": {
     "sell_price_types": [],
@@ -21513,7 +22702,9 @@
   },
   "HungryLoopSupportedByPowerChargeOnCrit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "HungryLoopSupportedByPulverise": {
     "sell_price_types": [],
@@ -21605,6 +22796,10 @@
     "sell_price_types": [],
     "tags": []
   },
+  "HungryLoopSupportedBySwiftBrand": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "HungryLoopSupportedByTrap": {
     "sell_price_types": [],
     "tags": []
@@ -21622,6 +22817,10 @@
     "tags": []
   },
   "HungryLoopSupportedByUnleash": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "HungryLoopSupportedByUrgentOrders": {
     "sell_price_types": [],
     "tags": []
   },
@@ -21825,6 +23024,12 @@
     "tags": [
       "physical"
     ]
+  },
+  "Impaler": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
   },
   "IncreaseBleedDurationPerIntelligence": {
     "sell_price_types": [
@@ -22411,7 +23616,8 @@
       "UniqueHigh"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "IncreasedCriticalStrikeChanceWithAvatarOfFire": {
@@ -22419,12 +23625,15 @@
       "UniqueMedium"
     ],
     "tags": [
-      "fire"
+      "fire",
+      "critical"
     ]
   },
   "IncreasedCriticalStrikeUnderFlaskEffect": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "IncreasedDaggerDamageForJewel": {
     "sell_price_types": [
@@ -23025,7 +24234,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "IncreasedMeleePhysicalDamageAgainstIgnitedEnemies": {
     "sell_price_types": [
@@ -23151,7 +24362,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "IncreasedProjectileDamageForEachChain": {
     "sell_price_types": [],
@@ -23355,7 +24568,9 @@
   },
   "IncursionMonsterCrits": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "IncursionMonsterDamageMap": {
     "sell_price_types": [],
@@ -23411,7 +24626,9 @@
   },
   "IncursionTempestWeightTier2": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "IncursionTempestWeightTier3": {
     "sell_price_types": [],
@@ -23771,6 +24988,148 @@
     ],
     "tags": []
   },
+  "JewelImplicitAuraAreaOfEffect": {
+    "sell_price_types": [],
+    "tags": [
+      "aura"
+    ]
+  },
+  "JewelImplicitChanceToAvoidChill": {
+    "sell_price_types": [],
+    "tags": [
+      "cold"
+    ]
+  },
+  "JewelImplicitChanceToAvoidFreeze": {
+    "sell_price_types": [],
+    "tags": [
+      "cold"
+    ]
+  },
+  "JewelImplicitChanceToAvoidIgnite": {
+    "sell_price_types": [],
+    "tags": [
+      "fire"
+    ]
+  },
+  "JewelImplicitChanceToAvoidPoison": {
+    "sell_price_types": [],
+    "tags": [
+      "poison"
+    ]
+  },
+  "JewelImplicitChanceToAvoidShock": {
+    "sell_price_types": [],
+    "tags": [
+      "lightning"
+    ]
+  },
+  "JewelImplicitChanceToAvoidStun": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "JewelImplicitDamageTakenGainedAsMana": {
+    "sell_price_types": [],
+    "tags": [
+      "mana"
+    ]
+  },
+  "JewelImplicitEnduranceChargeDuration": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "JewelImplicitEnergyShieldRechargeRate": {
+    "sell_price_types": [],
+    "tags": [
+      "defences"
+    ]
+  },
+  "JewelImplicitFlaskDuration": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "JewelImplicitFrenzyChargeDuration": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "JewelImplicitLifeLeechRate": {
+    "sell_price_types": [],
+    "tags": [
+      "life"
+    ]
+  },
+  "JewelImplicitLifeRegeneration": {
+    "sell_price_types": [],
+    "tags": [
+      "life"
+    ]
+  },
+  "JewelImplicitLightRadius": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "JewelImplicitManaLeechRate": {
+    "sell_price_types": [],
+    "tags": [
+      "mana"
+    ]
+  },
+  "JewelImplicitMinionLife": {
+    "sell_price_types": [],
+    "tags": [
+      "minion"
+    ]
+  },
+  "JewelImplicitMovementSpeed": {
+    "sell_price_types": [],
+    "tags": [
+      "speed"
+    ]
+  },
+  "JewelImplicitPowerChargeDuration": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "JewelImplicitReducedChillEffect": {
+    "sell_price_types": [],
+    "tags": [
+      "cold"
+    ]
+  },
+  "JewelImplicitReducedElementalReflect": {
+    "sell_price_types": [],
+    "tags": [
+      "elemental"
+    ]
+  },
+  "JewelImplicitReducedFreezeDuration": {
+    "sell_price_types": [],
+    "tags": [
+      "cold"
+    ]
+  },
+  "JewelImplicitReducedIgniteDuration": {
+    "sell_price_types": [],
+    "tags": [
+      "fire"
+    ]
+  },
+  "JewelImplicitReducedPhysicalReflect": {
+    "sell_price_types": [],
+    "tags": [
+      "physical"
+    ]
+  },
+  "JewelImplicitReducedShockEffect": {
+    "sell_price_types": [],
+    "tags": [
+      "lightning"
+    ]
+  },
+  "JewelImplicitTotemPlacementSpeed": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "JewelIntToDex": {
     "sell_price_types": [
       "UniqueMedium"
@@ -23869,7 +25228,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "KnockbackChanceForJewel": {
     "sell_price_types": [
@@ -23890,6 +25251,22 @@
     "tags": []
   },
   "LabyrinthArrowTrapDamageTaken": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "LabyrinthChestsOverride": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "LabyrinthCommonIzaroScaling": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "LabyrinthCommonMonsterScaling": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "LabyrinthCommonScaling": {
     "sell_price_types": [],
     "tags": []
   },
@@ -23921,6 +25298,22 @@
     "sell_price_types": [],
     "tags": []
   },
+  "LabyrinthEnchantModLevelRangeUp": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "LabyrinthExtraIzaroScaling": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "LabyrinthExtraMonsterScaling": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "LabyrinthExtraPackSize": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "LabyrinthGuillotineTrapDamageTaken": {
     "sell_price_types": [],
     "tags": []
@@ -23930,6 +25323,10 @@
     "tags": []
   },
   "LabyrinthIzaroObjectivesLifeCruelMerciless": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "LabyrinthOwnerExtraEnchants": {
     "sell_price_types": [],
     "tags": []
   },
@@ -24525,7 +25922,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "life"
+      "life",
+      "critical"
     ]
   },
   "LifeLeechOnCritPermyriad": {
@@ -24533,7 +25931,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "life"
+      "life",
+      "critical"
     ]
   },
   "LifeLeechOnFrozenEnemies": {
@@ -24625,6 +26024,18 @@
       "UniqueLow"
     ],
     "tags": []
+  },
+  "LifeManaESLeechRate": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ],
+    "tags": [
+      "life",
+      "mana",
+      "defences",
+      "jewellery_defense",
+      "jewellery_resource"
+    ]
   },
   "LifeOnCorpseRemoval": {
     "sell_price_types": [
@@ -24793,6 +26204,12 @@
       "life"
     ]
   },
+  "LifeRegenerationBloodStance": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
   "LifeRegenerationIfBlockedRecently": {
     "sell_price_types": [
       "UniqueLow"
@@ -24917,6 +26334,14 @@
       "life"
     ]
   },
+  "LifeRegenerationRatePercentagePerTotem": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "life"
+    ]
+  },
   "LifeRegenerationRateWhileMoving": {
     "sell_price_types": [
       "Medium"
@@ -25005,6 +26430,12 @@
     ],
     "tags": []
   },
+  "LightRadiusScalesWithEnergyShield": {
+    "sell_price_types": [
+      "Special"
+    ],
+    "tags": []
+  },
   "LightningAddedAsChaos": {
     "sell_price_types": [
       "High"
@@ -25033,7 +26464,8 @@
       "Medium"
     ],
     "tags": [
-      "lightning"
+      "lightning",
+      "critical"
     ]
   },
   "LightningCritMultiplierForJewel": {
@@ -25041,7 +26473,8 @@
       "High"
     ],
     "tags": [
-      "lightning"
+      "lightning",
+      "critical"
     ]
   },
   "LightningDamage": {
@@ -25342,11 +26775,19 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "LightningResistConvertedToSpellBlockChanceScaledJewel": {
     "sell_price_types": [
       "UniqueMedium"
+    ],
+    "tags": []
+  },
+  "LightningResistNoReduction": {
+    "sell_price_types": [
+      "UniqueLow"
     ],
     "tags": []
   },
@@ -25364,7 +26805,8 @@
       "Low"
     ],
     "tags": [
-      "lightning"
+      "lightning",
+      "critical"
     ]
   },
   "LightningResistanceForJewel": {
@@ -25441,7 +26883,8 @@
       "UniqueMedium"
     ],
     "tags": [
-      "lightning"
+      "lightning",
+      "critical"
     ]
   },
   "LightningTendrilsThresholdJewel": {
@@ -25516,7 +26959,9 @@
     "sell_price_types": [
       "UniqueVeryHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "LocalAlwaysInflictElementalAilments": {
     "sell_price_types": [
@@ -25636,7 +27081,9 @@
   },
   "LocalAttacksAlwaysCrit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "LocalAttributeRequirements": {
     "sell_price_types": [
@@ -25752,7 +27199,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "critical"
     ]
   },
   "LocalCausesBleedingOnCrit50PercentChance": {
@@ -25760,7 +27208,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "critical"
     ]
   },
   "LocalCausesPoisonOnCrit": {
@@ -25768,7 +27217,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "poison"
+      "poison",
+      "critical"
     ]
   },
   "LocalChanceForBleedingDamage100FinalInflictedWithThisWeapon": {
@@ -25955,20 +27405,24 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "LocalCriticalStrikeChanceAndLocalItemQuality": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "LocalCriticalStrikeMultiplier": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "LocalDamageConversionToRandomElement": {
     "sell_price_types": [
@@ -26233,7 +27687,9 @@
   },
   "LocalFlaskCriticalStrikeChanceDuringFlaskEffect": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "LocalFlaskInstantRecoverPercentOfLife": {
     "sell_price_types": [
@@ -26762,7 +28218,8 @@
     ],
     "tags": [
       "attack",
-      "physical"
+      "physical",
+      "critical"
     ]
   },
   "LocalIncreasedPhysicalDamagePercentAndCritMulti": {
@@ -26771,7 +28228,8 @@
     ],
     "tags": [
       "attack",
-      "physical"
+      "physical",
+      "critical"
     ]
   },
   "LocalIncreasedPhysicalDamagePercentAndLeech": {
@@ -26834,7 +28292,8 @@
     ],
     "tags": [
       "attack",
-      "physical"
+      "physical",
+      "critical"
     ]
   },
   "LocalIncreasedPhysicalDamagePercentProjectileAttackDamage": {
@@ -27295,7 +28754,9 @@
   },
   "LuckyCriticalsDuringFocus": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "LunarisGuardGloomElementalDaemon": {
     "sell_price_types": [],
@@ -27321,7 +28782,8 @@
   "MaceCriticalStrikeMultiplier": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "MaceIncreasedAccuracyRating": {
@@ -27362,12 +28824,17 @@
     "sell_price_types": [],
     "tags": []
   },
+  "MagmaOrbThresholdJewel2": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "MaimOnCrit": {
     "sell_price_types": [
       "UniqueLow"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "MaimOnHitWithRangedAbyssJewel": {
@@ -27385,6 +28852,12 @@
     ]
   },
   "MainHandChanceToIgnite": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "MaledictionOnBlindWhileBlinded": {
     "sell_price_types": [
       "UniqueLow"
     ],
@@ -28320,7 +29793,9 @@
   },
   "MapAtlasPlayersCriticalChance": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapAtlasPlayersCursedWithSilence": {
     "sell_price_types": [],
@@ -28526,6 +30001,10 @@
     "sell_price_types": [],
     "tags": []
   },
+  "MapBossSurroundedByTormentedSpirits": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "MapBossesSpawnZombieGiant": {
     "sell_price_types": [],
     "tags": []
@@ -28672,7 +30151,9 @@
   },
   "MapCorruptedSideAreaMonsterCriticalStrikesAndDamage": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapCorruptedSideAreaMonsterDamage": {
     "sell_price_types": [],
@@ -28968,6 +30449,10 @@
     "sell_price_types": [],
     "tags": []
   },
+  "MapDoesntConsumeSextantCharge": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "MapDoryanisMachinariumDisplay": {
     "sell_price_types": [],
     "tags": []
@@ -29143,6 +30628,18 @@
     "tags": [
       "speed"
     ]
+  },
+  "MapGainsRandomZanaMod": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "MapHarbingerBehaviourVariationOverride": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "MapHarbingerPortalAdditionalFragments": {
+    "sell_price_types": [],
+    "tags": []
   },
   "MapHasOxygen": {
     "sell_price_types": [
@@ -29520,6 +31017,10 @@
     "sell_price_types": [],
     "tags": []
   },
+  "MapMetamorphLeagueCrafted": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "MapMetamorphosisLeague": {
     "sell_price_types": [],
     "tags": []
@@ -29648,23 +31149,33 @@
   },
   "MapMonsterCriticalStrikeChance": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonsterCriticalStrikeMultiplier": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonsterCriticalStrikesAndDamage": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonsterCriticalStrikesAndDamageMap2Tier": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonsterCriticalStrikesAndDamageMapWorlds": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonsterDamage": {
     "sell_price_types": [],
@@ -30138,11 +31649,15 @@
   },
   "MapMonsterPower": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonsterPowerMap2Tier": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonsterShockAvoidance": {
     "sell_price_types": [],
@@ -30226,11 +31741,15 @@
   },
   "MapMonstersBaseSelfCriticalMultiplierMap2Tier": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonstersBaseSelfCriticalMultiplierMapWorlds": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonstersCantBeSlowedOrTaunted": {
     "sell_price_types": [],
@@ -30294,7 +31813,9 @@
   },
   "MapMonstersPowerChargeOnHit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapMonstersReflectCurses": {
     "sell_price_types": [
@@ -30970,7 +32491,9 @@
   },
   "MapSimulacrumCriticals": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MapSimulacrumCurseResistanceAndCurseOnHit": {
     "sell_price_types": [],
@@ -31704,10 +33227,18 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MaxQuality": {
     "sell_price_types": [],
+    "tags": []
+  },
+  "MaxRagePerEquippedSword": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
     "tags": []
   },
   "MaximumAttackDodgeChance": {
@@ -31764,7 +33295,17 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
+  },
+  "MaximumESLeechAmount": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "defences"
+    ]
   },
   "MaximumElementalResistanceImplicit": {
     "sell_price_types": [],
@@ -31984,6 +33525,12 @@
       "minion"
     ]
   },
+  "MaximumRage": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "MaximumResistanceWithNoEnduranceCharges": {
     "sell_price_types": [
       "UniqueMedium"
@@ -32067,7 +33614,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "MeleeCritMultiplierForJewel": {
@@ -32075,7 +33623,8 @@
       "VeryHigh"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "MeleeDamage": {
@@ -32177,7 +33726,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MeleeWeaponRangeAtMaximumFrenzyCharges": {
     "sell_price_types": [
@@ -32229,13 +33780,17 @@
     "sell_price_types": [
       "Medium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MineCritMultiplierForJewel": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MineDamageForJewel": {
     "sell_price_types": [
@@ -32337,7 +33892,9 @@
   },
   "MinimumPowerCharges": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MinionAccuracyRating": {
     "sell_price_types": [],
@@ -32561,6 +34118,12 @@
       "jewellery_elemental"
     ]
   },
+  "MinionChaosDamageDoesNotBypassES": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "MinionChaosResistance": {
     "sell_price_types": [
       "Medium"
@@ -32723,6 +34286,12 @@
       "elemental"
     ]
   },
+  "MinionEnergyShieldRechargeDelay": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
   "MinionFlaskChargesUsed": {
     "sell_price_types": [
       "UniqueLow"
@@ -32751,6 +34320,12 @@
     "tags": [
       "minion"
     ]
+  },
+  "MinionHitsIgnoreResistanceWithES": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
   },
   "MinionHitsOnlyKillIgnitedEnemies": {
     "sell_price_types": [
@@ -32782,6 +34357,12 @@
     "tags": [
       "minion"
     ]
+  },
+  "MinionLifeConvertedToEnergyShield": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
   },
   "MinionLifeForJewel": {
     "sell_price_types": [
@@ -33012,6 +34593,10 @@
     "sell_price_types": [],
     "tags": []
   },
+  "MoltenStrikeThresholdJewel2": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "MonsterAbyssDropModifiers": {
     "sell_price_types": [],
     "tags": []
@@ -33122,7 +34707,9 @@
   },
   "MonsterAuraAccuracyAndCrit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MonsterAuraAddedColdDamage": {
     "sell_price_types": [],
@@ -33138,7 +34725,9 @@
   },
   "MonsterAuraAlwaysCrit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MonsterAuraCannotDie": {
     "sell_price_types": [],
@@ -33332,7 +34921,9 @@
   },
   "MonsterBloodlinesSharedPowerCharge": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MonsterBloodlinesShockingAura": {
     "sell_price_types": [],
@@ -33422,7 +35013,9 @@
   },
   "MonsterCastsCriticalWeaknessCurseText": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MonsterCastsDischargeText": {
     "sell_price_types": [],
@@ -33645,11 +35238,15 @@
   },
   "MonsterCriticalStrikeAndAccuracy": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MonsterCriticalStrikes": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MonsterCurseCastSpeed": {
     "sell_price_types": [],
@@ -33915,15 +35512,21 @@
   },
   "MonsterGainsPowerChargeAsKilled": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MonsterGainsPowerChargeOnHit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MonsterGainsPowerChargeOnKinDeath": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "MonsterGrantsFrenzyChargesToAlliesOnDeath": {
     "sell_price_types": [],
@@ -34004,7 +35607,8 @@
   "MonsterIncreasedCastSpeedPerPowerCharge": {
     "sell_price_types": [],
     "tags": [
-      "speed"
+      "speed",
+      "critical"
     ]
   },
   "MonsterIncreasedMinionLife": {
@@ -34130,12 +35734,6 @@
     "tags": []
   },
   "MonsterMovementVelocity": {
-    "sell_price_types": [],
-    "tags": [
-      "speed"
-    ]
-  },
-  "MonsterMovementVelocityPerTenLevels": {
     "sell_price_types": [],
     "tags": [
       "speed"
@@ -34409,6 +36007,10 @@
     "sell_price_types": [],
     "tags": []
   },
+  "MonsterStunRepeatImmunity": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "MonsterSummonSewerZombieGiant": {
     "sell_price_types": [],
     "tags": []
@@ -34660,6 +36262,14 @@
   "MovementSpeedIfNotDamagedRecently": {
     "sell_price_types": [
       "Medium"
+    ],
+    "tags": [
+      "speed"
+    ]
+  },
+  "MovementSpeedIfUsedDashRecently": {
+    "sell_price_types": [
+      "UniqueLow"
     ],
     "tags": [
       "speed"
@@ -34970,7 +36580,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "NearbyEnemiesChilledOnBlock": {
     "sell_price_types": [],
@@ -34988,13 +36600,17 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "NearbyEnemiesHaveIncreasedChanceToBeCrit2": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "NearbyEnemiesHaveReducedAllResistances": {
     "sell_price_types": [
@@ -35057,6 +36673,12 @@
       "lightning"
     ]
   },
+  "NearbyEnemyLightningResistanceEqual": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "NearbyEnemyPhysicalDamageTaken": {
     "sell_price_types": [
       "High"
@@ -35094,7 +36716,17 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
+  },
+  "NoCriticalStrikeMultiplier": {
+    "sell_price_types": [
+      "High"
+    ],
+    "tags": [
+      "critical"
+    ]
   },
   "NoEnergyShieldRecharge": {
     "sell_price_types": [],
@@ -35208,11 +36840,15 @@
     "sell_price_types": [
       "Special"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "NonCriticalStrikesDealNoDamage": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "NonInstantManaRecoveryAlsoAffectsLife": {
     "sell_price_types": [
@@ -35226,6 +36862,12 @@
   "NormalMonsterItemQuantity": {
     "sell_price_types": [
       "UniqueMedium"
+    ],
+    "tags": []
+  },
+  "NotablesGrantManaCostAndSpellDamage": {
+    "sell_price_types": [
+      "UniqueHigh"
     ],
     "tags": []
   },
@@ -35352,7 +36994,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "OneHandedCritChanceForJewel": {
@@ -35360,7 +37003,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "OneHandedMeleeAttackSpeedForJewel": {
@@ -35490,6 +37134,22 @@
       "speed"
     ]
   },
+  "OshabiCombatVineBlue": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "OshabiCombatVineGreen": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "OshabiCombatVineOrange": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "OshabiCombatVineRed": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "PainAttunement": {
     "sell_price_types": [
       "UniqueHigh"
@@ -35527,6 +37187,12 @@
     ]
   },
   "PassivesGrantTrapMineAddedPhysical": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
+  "PassivesGrantUnarmedAttackSpeed": {
     "sell_price_types": [
       "UniqueHigh"
     ],
@@ -35666,7 +37332,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PermanentPhantasm": {
     "sell_price_types": [
@@ -35830,7 +37498,8 @@
     ],
     "tags": [
       "physical",
-      "fire"
+      "fire",
+      "critical"
     ]
   },
   "PhysicalDamageAddedAsRandomElement": {
@@ -35884,6 +37553,15 @@
     ]
   },
   "PhysicalDamageConvertToChaosImplicit": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": [
+      "chaos",
+      "physical"
+    ]
+  },
+  "PhysicalDamageConvertToChaosPerLevel": {
     "sell_price_types": [
       "UniqueHigh"
     ],
@@ -35976,6 +37654,14 @@
   "PhysicalDamageOverTimeTaken": {
     "sell_price_types": [
       "High"
+    ],
+    "tags": [
+      "physical"
+    ]
+  },
+  "PhysicalDamagePerRage": {
+    "sell_price_types": [
+      "UniqueLow"
     ],
     "tags": [
       "physical"
@@ -36560,79 +38246,104 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnBlock": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnBlockUber": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnCriticalStrikeChance": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnHit": {
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnHitWebbedEnemy": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnKillChance": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnKnockback": {
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnManaSpent": {
     "sell_price_types": [
       "UniqueHigh"
     ],
     "tags": [
-      "mana"
+      "mana",
+      "critical"
     ]
   },
   "PowerChargeOnMeleeStun": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnNonCrit": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnStun": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerChargeOnTrapThrow": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PowerFrenzyOrEnduranceChargeOnKill": {
     "sell_price_types": [],
@@ -36652,7 +38363,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PrecisionIncreasedAttackDamage": {
     "sell_price_types": [
@@ -36670,7 +38383,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "PrideChanceForDoubleDamage": {
     "sell_price_types": [
@@ -36729,11 +38444,19 @@
     "sell_price_types": [],
     "tags": []
   },
+  "ProfaneGroundInsteadOfConsecratedGround": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "ProjectileAttackCriticalStrikeChance": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ProjectileAttackDamage": {
     "sell_price_types": [],
@@ -36787,6 +38510,12 @@
   },
   "ProjectileDamageAndProjectileSpeed": {
     "sell_price_types": [],
+    "tags": []
+  },
+  "ProjectileDamageBloodStance": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
     "tags": []
   },
   "ProjectileDamageForJewel": {
@@ -36898,6 +38627,14 @@
     "tags": []
   },
   "ProjectilesGainPercentOfNonChaosAsChaos": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ],
+    "tags": [
+      "chaos"
+    ]
+  },
+  "ProjectilesGainPercentOfNonChaosAsChaos2": {
     "sell_price_types": [
       "UniqueMedium"
     ],
@@ -37219,6 +38956,10 @@
     "sell_price_types": [],
     "tags": []
   },
+  "QualityAffectsLifeAndManaInstead": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "QuillRainWeaponDamageFinalPercent": {
     "sell_price_types": [
       "UniqueMedium"
@@ -37243,7 +38984,9 @@
   },
   "RageOnAttackCrit": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "RagingSpiritAlwaysIgnite": {
     "sell_price_types": [
@@ -37280,6 +39023,14 @@
     "tags": [
       "minion",
       "jewellery_resource"
+    ]
+  },
+  "RagingSpiritSplashDamage": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "fire"
     ]
   },
   "RaiseSpectreManaCost": {
@@ -37332,6 +39083,18 @@
   "RandomCurseOnHitChance": {
     "sell_price_types": [
       "UniqueMedium"
+    ],
+    "tags": []
+  },
+  "RandomSupport1": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
+  "RandomSupport2": {
+    "sell_price_types": [
+      "UniqueHigh"
     ],
     "tags": []
   },
@@ -37494,7 +39257,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ReducedCurseEffect": {
     "sell_price_types": [
@@ -37509,6 +39274,12 @@
     "tags": []
   },
   "ReducedDamageIfTakenASavageHitRecently": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "ReducedElementalAilmentEffectOnSelf": {
     "sell_price_types": [
       "UniqueLow"
     ],
@@ -37550,13 +39321,17 @@
   },
   "ReducedExtraDamageFromCrits": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ReducedExtraDamageFromCritsWithNoPowerCharges": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ReducedFreezeDuration": {
     "sell_price_types": [
@@ -37653,6 +39428,12 @@
     ]
   },
   "ReducedShockDuration": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "ReducedShockEffectOnSelf": {
     "sell_price_types": [
       "UniqueLow"
     ],
@@ -37757,6 +39538,10 @@
     "tags": [
       "bleed"
     ]
+  },
+  "RemoveCorruptionUntilNextModification": {
+    "sell_price_types": [],
+    "tags": []
   },
   "RemoveFreezeOnFlaskUse": {
     "sell_price_types": [
@@ -37936,6 +39721,12 @@
       "jewellery_attack"
     ]
   },
+  "SacredBastion": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "SacrificeLifeOnSpellSkill": {
     "sell_price_types": [],
     "tags": []
@@ -37947,6 +39738,22 @@
     "tags": []
   },
   "ScarabModBeasts": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "ScarabModBeastsFamilyCaverns": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "ScarabModBeastsFamilyDeep": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "ScarabModBeastsFamilySands": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "ScarabModBeastsFamilyWilds": {
     "sell_price_types": [],
     "tags": []
   },
@@ -38128,7 +39935,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "ShieldCritMultiplierForJewel": {
@@ -38136,7 +39944,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "ShieldDefencesPerDevotion": {
@@ -38292,6 +40101,12 @@
       "UniqueHigh"
     ],
     "tags": []
+  },
+  "ShockedGroundWhileMoving": {
+    "sell_price_types": [],
+    "tags": [
+      "lightning"
+    ]
   },
   "ShocksReflectToSelf": {
     "sell_price_types": [
@@ -38465,7 +40280,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "SocketedAttackCriticalStrikeChance": {
@@ -38473,7 +40289,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "SocketedAttacksDamageFinal": {
@@ -38691,7 +40508,9 @@
   },
   "SocketedSkillsCriticalChance": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "SocketedSkillsHaveReducedManaCost": {
     "sell_price_types": [
@@ -38714,7 +40533,8 @@
       "High"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SocketedSpellCriticalStrikeChance": {
@@ -38722,7 +40542,8 @@
       "High"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SocketedSpellsDamageFinal": {
@@ -38757,6 +40578,12 @@
     "tags": [
       "speed"
     ]
+  },
+  "SoulTether": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
   },
   "SparkSkillEffectDuration": {
     "sell_price_types": [
@@ -38801,7 +40628,8 @@
       "UniqueMedium"
     ],
     "tags": [
-      "minion"
+      "minion",
+      "critical"
     ]
   },
   "SpectreDamage": {
@@ -39243,7 +41071,8 @@
       "High"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCritMultiplierForJewel": {
@@ -39251,43 +41080,50 @@
       "VeryHigh"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCriticalChanceWithDualWield": {
     "sell_price_types": [],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCriticalChanceWithShield": {
     "sell_price_types": [],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCriticalChanceWithStaff": {
     "sell_price_types": [],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCriticalMultiplierWithDualWield": {
     "sell_price_types": [],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCriticalMultiplierWithShield": {
     "sell_price_types": [],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCriticalMultiplierWithStaff": {
     "sell_price_types": [],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCriticalStrikeChance": {
@@ -39295,7 +41131,8 @@
       "Medium"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCriticalStrikeChanceIfKilledRecently": {
@@ -39303,25 +41140,31 @@
       "UniqueLow"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellCriticalStrikeChancePerLife": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "SpellCriticalStrikeChancePerSpectre": {
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "SpellCriticalStrikeMultiplierIfNotKilledRecently": {
     "sell_price_types": [
       "UniqueLow"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SpellDamage": {
@@ -39389,13 +41232,17 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "SpellDamageIfYouHaveCritRecently": {
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "SpellDamageIncreasedPerLevel": {
     "sell_price_types": [
@@ -39601,6 +41448,14 @@
       "caster"
     ]
   },
+  "SpellsAlwaysCritFinalRepeat": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "critical"
+    ]
+  },
   "SpellsAreDisabled": {
     "sell_price_types": [
       "UniqueHigh"
@@ -39617,6 +41472,14 @@
     "sell_price_types": [],
     "tags": [
       "speed"
+    ]
+  },
+  "SpellsCriticalMultiplierFinalRepeat": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "critical"
     ]
   },
   "SpellsDoubleDamageChance": {
@@ -39637,6 +41500,14 @@
     ],
     "tags": [
       "caster"
+    ]
+  },
+  "SpellsNeverCritExceptFinalRepeat": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "critical"
     ]
   },
   "SpiritBurstOnSkillUseUnique": {
@@ -39711,7 +41582,8 @@
   "StaffCriticalStrikeMultiplier": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "StaffIncreasedAccuracyRating": {
@@ -39738,12 +41610,26 @@
     ],
     "tags": []
   },
+  "StaffSpellBlockPercent": {
+    "sell_price_types": [
+      "Medium"
+    ],
+    "tags": []
+  },
   "StaffSpellDamageForJewel": {
     "sell_price_types": [
       "Low"
     ],
     "tags": [
       "caster"
+    ]
+  },
+  "StalkingPustuleOnKill": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "chaos"
     ]
   },
   "StanceAfflictionDemonRun": {
@@ -39755,6 +41641,30 @@
     "tags": []
   },
   "StanceChieftainRuckus": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "StanceHarvestBossVinePhase": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "StanceHarvestBrambleHulkRun": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "StanceHarvestCatBossProwl": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "StanceHarvestCatBossStealth": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "StanceHarvestOshabiCrownOfThorns": {
+    "sell_price_types": [],
+    "tags": []
+  },
+  "StanceHarvestStriderRun": {
     "sell_price_types": [],
     "tags": []
   },
@@ -39818,7 +41728,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "StarterPassiveJewel4": {
     "sell_price_types": [
@@ -39960,6 +41872,10 @@
     "sell_price_types": [],
     "tags": []
   },
+  "StrongboxDropAdditionalSpecialHarvestItems": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "StrongboxEnrageEnchantment": {
     "sell_price_types": [],
     "tags": []
@@ -40026,11 +41942,19 @@
     ],
     "tags": []
   },
+  "SummonAdditionalBrand": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
   "SummonDoubleOnCrit": {
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "SummonMaximumNumberOfSocketedTotems": {
     "sell_price_types": [],
@@ -40085,6 +42009,14 @@
       "UniqueHigh"
     ],
     "tags": []
+  },
+  "SummonWolfOnCrit": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ],
+    "tags": [
+      "critical"
+    ]
   },
   "SummonWolfOnKill": {
     "sell_price_types": [
@@ -40162,14 +42094,17 @@
     ],
     "tags": [
       "attack",
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "SupportedByCastOnCritWeapon": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "SupportedByCastOnDamageTaken": {
     "sell_price_types": [
@@ -40215,6 +42150,14 @@
     ],
     "tags": []
   },
+  "SupportedByChanceToBleed": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "bleed"
+    ]
+  },
   "SupportedByClusterTrap": {
     "sell_price_types": [
       "UniqueLow"
@@ -40225,7 +42168,9 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "SupportedByEnduranceChargeOnStunWeapon": {
     "sell_price_types": [
@@ -40287,6 +42232,18 @@
   "SupportedByInspirationWeapon": {
     "sell_price_types": [
       "High"
+    ],
+    "tags": []
+  },
+  "SupportedByIntensify": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "SupportedByIntensifyLevel10Boolean": {
+    "sell_price_types": [
+      "UniqueLow"
     ],
     "tags": []
   },
@@ -40387,7 +42344,9 @@
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "SupportedByProjectileSpeed": {
     "sell_price_types": [
@@ -40467,6 +42426,12 @@
     ],
     "tags": []
   },
+  "SupremeEgo": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "SwordAttackSpeed": {
     "sell_price_types": [
       "UniqueHigh"
@@ -40493,7 +42458,8 @@
   "SwordCriticalStrikeMultiplier": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "SwordIncreasedAccuracyRating": {
@@ -40628,12 +42594,19 @@
       "High"
     ],
     "tags": [
-      "speed"
+      "speed",
+      "critical"
     ]
   },
   "TakeDamagePerLevelWhileHerEmbrace": {
     "sell_price_types": [
       "UniqueHigh"
+    ],
+    "tags": []
+  },
+  "TakeDamageWhenHeraldOfThunderHits": {
+    "sell_price_types": [
+      "UniqueLow"
     ],
     "tags": []
   },
@@ -40648,7 +42621,9 @@
     "sell_price_types": [
       "UniqueVeryHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "TakesDamageWhenAttacked": {
     "sell_price_types": [],
@@ -40786,6 +42761,12 @@
     ],
     "tags": []
   },
+  "TheAgnostic": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "ThisWeaponWeaponElementalDamage": {
     "sell_price_types": [
       "UniqueLow"
@@ -40828,7 +42809,9 @@
   },
   "TormentHauntedMonsterBootlegger": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "TormentHauntedMonsterBuccaneer": {
     "sell_price_types": [],
@@ -41102,7 +43085,9 @@
   },
   "TormentTouchedMonsterBootlegger": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "TormentTouchedMonsterBuccaneer": {
     "sell_price_types": [],
@@ -41418,13 +43403,17 @@
     "sell_price_types": [
       "Medium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "TrapCritMultiplierForJewel": {
     "sell_price_types": [
       "High"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "TrapDamage": {
     "sell_price_types": [
@@ -41546,6 +43535,10 @@
     ],
     "tags": []
   },
+  "TravelSkillsCannotBeExerted": {
+    "sell_price_types": [],
+    "tags": []
+  },
   "TriggerArcaneWakeSkillUnique": {
     "sell_price_types": [],
     "tags": []
@@ -41587,6 +43580,14 @@
       "UniqueHigh"
     ],
     "tags": []
+  },
+  "TriggerGoreShockwaveOnMeleeHitWith150Strength": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "attack"
+    ]
   },
   "TriggerRainOfArrowsOnBowAttack": {
     "sell_price_types": [
@@ -41650,7 +43651,9 @@
   },
   "TriggeredConsecrate": {
     "sell_price_types": [],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "TriggeredElementalAegisSkill": {
     "sell_price_types": [
@@ -41675,6 +43678,12 @@
     "tags": [
       "lightning"
     ]
+  },
+  "TriggeredLightningWarp": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ],
+    "tags": []
   },
   "TriggeredSummonLesserShrine": {
     "sell_price_types": [
@@ -41711,7 +43720,8 @@
       "High"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "TwoHandFireDamageWeaponPrefix": {
@@ -41768,7 +43778,8 @@
       "Medium"
     ],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "TwoHandedMeleeAttackSpeedForJewel": {
@@ -41870,7 +43881,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "UnholyMightBuff": {
     "sell_price_types": [
@@ -41894,7 +43907,9 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "UnholyMightOnKill10SecondsPercentChance": {
     "sell_price_types": [
@@ -41918,7 +43933,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "UnholyMightOnMeleeKill": {
     "sell_price_types": [
@@ -41931,6 +43948,14 @@
       "UniqueHigh"
     ],
     "tags": []
+  },
+  "UnholyMightOnZeroEnergyShield": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "chaos"
+    ]
   },
   "UniqueAnimateWeapon": {
     "sell_price_types": [
@@ -42110,6 +44135,12 @@
     ],
     "tags": []
   },
+  "UnleashSealGainFrequency": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "UnwaveringStance": {
     "sell_price_types": [],
     "tags": []
@@ -42160,7 +44191,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "VaalPactMaximumEnduranceCharge": {
     "sell_price_types": [
@@ -42198,13 +44231,17 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "VaalSkillCriticalStrikeMultiplier": {
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "VaalSkillDamage": {
     "sell_price_types": [
@@ -42342,7 +44379,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "life"
+      "life",
+      "jewellery_quality_ignore"
     ]
   },
   "VoidShotOnSkillUse": {
@@ -42358,6 +44396,30 @@
     "tags": [
       "poison"
     ]
+  },
+  "VolleyFirstPointPierce": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "VolleyFourthPointChain": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "VolleySecondPointFork": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
+  "VolleyThirdPointReturn": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
   },
   "VulnerabilityAuraDuringFlaskEffect": {
     "sell_price_types": [
@@ -42403,7 +44465,8 @@
   "WandCriticalStrikeMultiplier": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "critical"
     ]
   },
   "WandIncreasedAccuracyRating": {
@@ -42424,6 +44487,12 @@
       "attack"
     ]
   },
+  "WarcryAreaOfEffect": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
   "WarcryCooldownIs2Seconds": {
     "sell_price_types": [
       "UniqueHigh"
@@ -42438,9 +44507,35 @@
     "sell_price_types": [],
     "tags": []
   },
+  "WarcryGrantsArcaneSurge": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
+  "WarcryInfiniteEnemyPower": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
   "WarcryKnockback": {
     "sell_price_types": [
       "UniqueMedium"
+    ],
+    "tags": []
+  },
+  "WarcrySpeed": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": [
+      "speed"
+    ]
+  },
+  "WarcryTauntChaosExplosion": {
+    "sell_price_types": [
+      "UniqueHigh"
     ],
     "tags": []
   },
@@ -42461,6 +44556,17 @@
   "WeaponHowling": {
     "sell_price_types": [],
     "tags": []
+  },
+  "WeaponPhysicalDamageAddedAsColdOrLightning": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ],
+    "tags": [
+      "physical",
+      "cold",
+      "lightning",
+      "jewellery_elemental"
+    ]
   },
   "WeaponPhysicalDamageAddedAsRandomElement": {
     "sell_price_types": [
@@ -42544,7 +44650,8 @@
       "High"
     ],
     "tags": [
-      "caster"
+      "caster",
+      "critical"
     ]
   },
   "WeaponSpellDamageReducedMana": {
@@ -42572,6 +44679,24 @@
     ],
     "tags": []
   },
+  "WindDancer": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
+  "WitherGrantsElementalDamageTaken": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ],
+    "tags": []
+  },
+  "WitherOnHitChance": {
+    "sell_price_types": [
+      "UniqueLow"
+    ],
+    "tags": []
+  },
   "WrathAuraEffect": {
     "sell_price_types": [],
     "tags": []
@@ -42580,7 +44705,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "WrathIncreasedLightningDamage": {
     "sell_price_types": [
@@ -42702,7 +44829,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ],
-    "tags": []
+    "tags": [
+      "critical"
+    ]
   },
   "ZealotryCriticalStrikesPenetratesElementalResistances": {
     "sell_price_types": [
@@ -42710,7 +44839,8 @@
     ],
     "tags": [
       "elemental",
-      "jewellery_elemental"
+      "jewellery_elemental",
+      "critical"
     ]
   },
   "ZealotryGainArcaneSurgeFor4SecondsWhenYouCreateConsecratedGround": {

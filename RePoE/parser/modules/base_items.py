@@ -166,6 +166,8 @@ ITEM_CLASS_BLACKLIST = {
     "QuestItem",
     "Incubator",
     "Microtransaction",
+    "HarvestInfrastructure",
+    "HarvestSeed",
 }
 
 
