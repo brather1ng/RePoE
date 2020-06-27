@@ -11,11 +11,7 @@ from RePoE.parser.util import write_json, call_with_default_args, get_release_st
 
 
 def _create_default_dict(relation):
-    d = {
-        row["BaseItemTypesKey"]["Id"]: row
-        for row in relation
-        if row["BaseItemTypesKey"] is not None
-    }
+    d = {row["BaseItemTypesKey"]["Id"]: row for row in relation if row["BaseItemTypesKey"] is not None}
     return defaultdict(lambda: None, d)
 
 
@@ -66,9 +62,7 @@ def _convert_flask_properties(flask_row, properties):
 def _convert_flask_buff(flask_row, item_object):
     if flask_row is None or flask_row["BuffDefinitionsKey"] is None:
         return None
-    stats_values = zip(
-        flask_row["BuffDefinitionsKey"]["StatsKeys"], flask_row["BuffStatValues"]
-    )
+    stats_values = zip(flask_row["BuffDefinitionsKey"]["StatsKeys"], flask_row["BuffStatValues"])
     item_object["grants_buff"] = {
         "id": flask_row["BuffDefinitionsKey"]["Id"],
         "stats": {},
@@ -100,9 +94,7 @@ def _convert_currency_properties(currency_row, properties):
     properties["stack_size"] = currency_row["Stacks"]
     properties["directions"] = currency_row["Directions"]
     if currency_row["FullStack_BaseItemTypesKey"]:
-        properties["full_stack_turns_into"] = currency_row[
-            "FullStack_BaseItemTypesKey"
-        ]["Id"]
+        properties["full_stack_turns_into"] = currency_row["FullStack_BaseItemTypesKey"]["Id"]
     properties["description"] = currency_row["Description"]
     properties["stack_size_currency_tab"] = currency_row["CurrencyTab_StackSize"]
 
@@ -173,12 +165,8 @@ ITEM_CLASS_BLACKLIST = {
 
 class base_items(Parser_Module):
     @staticmethod
-    def write(
-        ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache
-    ):
-        attribute_requirements = _create_default_dict(
-            relational_reader["ComponentAttributeRequirements.dat"]
-        )
+    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
+        attribute_requirements = _create_default_dict(relational_reader["ComponentAttributeRequirements.dat"])
         armour_types = _create_default_dict(relational_reader["ComponentArmour.dat"])
         shield_types = _create_default_dict(relational_reader["ShieldTypes.dat"])
         flask_types = _create_default_dict(relational_reader["Flasks.dat"])
@@ -197,13 +185,9 @@ class base_items(Parser_Module):
             elif item["ItemClassesKey"]["Id"] in ITEM_CLASS_WHITELIST:
                 pass
             else:
-                raise ValueError(
-                    f"Unknown item class, not in whitelist or blacklist: {item['ItemClassesKey']['Id']}"
-                )
+                raise ValueError(f"Unknown item class, not in whitelist or blacklist: {item['ItemClassesKey']['Id']}")
 
-            inherited_tags = list(
-                ot_file_cache[item["InheritsFrom"] + ".ot"]["Base"]["tag"]
-            )
+            inherited_tags = list(ot_file_cache[item["InheritsFrom"] + ".ot"]["Base"]["tag"])
             item_id = item["Id"]
             properties = {}
             _convert_armour_properties(armour_types[item_id], properties)
@@ -224,18 +208,14 @@ class base_items(Parser_Module):
                     "id": item["ItemVisualIdentityKey"]["Id"],
                     "dds_file": item["ItemVisualIdentityKey"]["DDSFile"],
                 },
-                "requirements": _convert_requirements(
-                    attribute_requirements[item_id], item["DropLevel"]
-                ),
+                "requirements": _convert_requirements(attribute_requirements[item_id], item["DropLevel"]),
                 "properties": properties,
                 "release_state": get_release_state(item_id).name,
                 "domain": item["ModDomainsKey"].name.lower(),
             }
             _convert_flask_buff(flask_types[item_id], root[item_id])
 
-        print(
-            f"Skipped the following item classes for base_items {skipped_item_classes}"
-        )
+        print(f"Skipped the following item classes for base_items {skipped_item_classes}")
         write_json(root, data_path, "base_items")
 
 

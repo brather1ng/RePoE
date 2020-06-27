@@ -219,11 +219,11 @@ class ActiveSkillType(IntEnum):
 @unique
 class CooldownBypassType(IntEnum):
     # Cooldown can be bypassed by expending an endurance charge
-    expend_endurance_charge = 1,
+    expend_endurance_charge = (1,)
     # Cooldown can be bypassed by expending a frenzy charge
-    expend_frenzy_charge = 2,
+    expend_frenzy_charge = (2,)
     # Cooldown can be bypassed by expending a power charge
-    expend_power_charge = 3,
+    expend_power_charge = (3,)
     # Cooldown can not be bypassed
     none = 4
 
@@ -231,11 +231,11 @@ class CooldownBypassType(IntEnum):
 @unique
 class ReleaseState(Enum):
     # Item never existed in any released version of the game.
-    unreleased = 0,
+    unreleased = (0,)
     # Item currently exists in the in-game.
-    released = 1,
+    released = (1,)
     # Item can no longer be obtained (excluding via trade from other players).
-    legacy = 2,
+    legacy = (2,)
     # Item can only be obtained with unique rarity (and is not unreleased).
     # If the unique is not always corrupted (as for Ruby Amulet's unique), a non-unique item with
     # the base can be obtained by corrupting uniques to rares.
@@ -346,26 +346,26 @@ UNIQUE_ONLY_ITEMS = {
 # Therefore, each stat_descriptions file is written into a different file (except active_skill_gem_stat_descriptions
 # because I don't think it is required)
 WRITTEN_FILES = {
-    ('stat_descriptions.txt', ''),
-    ('chest_stat_descriptions.txt', '/strongbox'),
-    ('gem_stat_descriptions.txt', '/support_gem'),
-    ('skill_stat_descriptions.txt', '/skill'),
-    ('aura_skill_stat_descriptions.txt', '/aura_skill'),
-    ('banner_aura_skill_stat_descriptions.txt', '/banner_aura_skill'),
-    ('beam_skill_stat_descriptions.txt', '/beam_skill'),
-    ('brand_skill_stat_descriptions.txt', '/brand_skill'),
-    ('buff_skill_stat_descriptions.txt', '/buff_skill'),
-    ('curse_skill_stat_descriptions.txt', '/curse_skill'),
-    ('debuff_skill_stat_descriptions.txt', '/debuff_skill'),
-    ('minion_skill_stat_descriptions.txt', '/minion_skill'),
-    ('minion_attack_skill_stat_descriptions.txt', '/minion_attack_skill'),
-    ('minion_spell_skill_stat_descriptions.txt', '/minion_spell_skill'),
-    ('offering_skill_stat_descriptions.txt', '/offering_skill'),
-    ('variable_duration_skill_stat_descriptions.txt', '/variable_duration_skill'),
-    ('map_stat_descriptions.txt', '/areas'),
-    ('atlas_stat_descriptions.txt', '/atlas'),
-    ('passive_skill_stat_descriptions.txt', '/passive_skill'),
-    ('passive_skill_aura_stat_descriptions.txt', '/passive_skill_aura'),
-    ('monster_stat_descriptions.txt', '/monster'),
+    ("stat_descriptions.txt", ""),
+    ("chest_stat_descriptions.txt", "/strongbox"),
+    ("gem_stat_descriptions.txt", "/support_gem"),
+    ("skill_stat_descriptions.txt", "/skill"),
+    ("aura_skill_stat_descriptions.txt", "/aura_skill"),
+    ("banner_aura_skill_stat_descriptions.txt", "/banner_aura_skill"),
+    ("beam_skill_stat_descriptions.txt", "/beam_skill"),
+    ("brand_skill_stat_descriptions.txt", "/brand_skill"),
+    ("buff_skill_stat_descriptions.txt", "/buff_skill"),
+    ("curse_skill_stat_descriptions.txt", "/curse_skill"),
+    ("debuff_skill_stat_descriptions.txt", "/debuff_skill"),
+    ("minion_skill_stat_descriptions.txt", "/minion_skill"),
+    ("minion_attack_skill_stat_descriptions.txt", "/minion_attack_skill"),
+    ("minion_spell_skill_stat_descriptions.txt", "/minion_spell_skill"),
+    ("offering_skill_stat_descriptions.txt", "/offering_skill"),
+    ("variable_duration_skill_stat_descriptions.txt", "/variable_duration_skill"),
+    ("map_stat_descriptions.txt", "/areas"),
+    ("atlas_stat_descriptions.txt", "/atlas"),
+    ("passive_skill_stat_descriptions.txt", "/passive_skill"),
+    ("passive_skill_aura_stat_descriptions.txt", "/passive_skill_aura"),
+    ("monster_stat_descriptions.txt", "/monster"),
 }
-STAT_TRANSLATION_DICT = {game_file: 'stat_translations' + repoe_file for game_file, repoe_file in WRITTEN_FILES}
+STAT_TRANSLATION_DICT = {game_file: "stat_translations" + repoe_file for game_file, repoe_file in WRITTEN_FILES}
