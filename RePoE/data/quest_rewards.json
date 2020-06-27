@@ -307,7 +307,7 @@
     "act": 11,
     "name": "Picking Up the Pieces",
     "rewards": {
-      "Metadata/Items/Maps/MapWorldsBeach": {
+      "Metadata/Items/Maps/MapWorldsDesert": {
         "classes": [
           "Duelist",
           "Marauder",
@@ -317,10 +317,10 @@
           "Templar",
           "Witch"
         ],
-        "name": "Beach Map",
+        "name": "Desert Map",
         "type": "Map"
       },
-      "Metadata/Items/Maps/MapWorldsJungleValley": {
+      "Metadata/Items/Maps/MapWorldsGorge": {
         "classes": [
           "Duelist",
           "Marauder",
@@ -330,10 +330,10 @@
           "Templar",
           "Witch"
         ],
-        "name": "Jungle Valley Map",
+        "name": "Glacier Map",
         "type": "Map"
       },
-      "Metadata/Items/Maps/MapWorldsPier": {
+      "Metadata/Items/Maps/MapWorldsLookout": {
         "classes": [
           "Duelist",
           "Marauder",
@@ -343,10 +343,10 @@
           "Templar",
           "Witch"
         ],
-        "name": "Pier Map",
+        "name": "Lookout Map",
         "type": "Map"
       },
-      "Metadata/Items/Maps/MapWorldsWharf": {
+      "Metadata/Items/Maps/MapWorldsTropicalIsland": {
         "classes": [
           "Duelist",
           "Marauder",
@@ -356,7 +356,7 @@
           "Templar",
           "Witch"
         ],
-        "name": "Wharf Map",
+        "name": "Tropical Island Map",
         "type": "Map"
       }
     }
@@ -989,6 +989,14 @@
         "name": "Bodyswap",
         "type": "Active Skill Gem"
       },
+      "Metadata/Items/Gems/SkillGemEnduringCry": {
+        "classes": [
+          "Marauder",
+          "Duelist"
+        ],
+        "name": "Enduring Cry",
+        "type": "Active Skill Gem"
+      },
       "Metadata/Items/Gems/SkillGemFlameDash": {
         "classes": [
           "Witch",
@@ -1004,6 +1012,14 @@
           "Shadow"
         ],
         "name": "Siphoning Trap",
+        "type": "Active Skill Gem"
+      },
+      "Metadata/Items/Gems/SkillGemIntimidatingCry": {
+        "classes": [
+          "Marauder",
+          "Duelist"
+        ],
+        "name": "Intimidating Cry",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemLeapSlam": {
@@ -1029,15 +1045,6 @@
           "Ranger"
         ],
         "name": "Precision",
-        "type": "Active Skill Gem"
-      },
-      "Metadata/Items/Gems/SkillGemRallyingCry": {
-        "classes": [
-          "Templar",
-          "Marauder",
-          "Duelist"
-        ],
-        "name": "Rallying Cry",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemShieldCharge": {
@@ -1213,7 +1220,7 @@
         "classes": [
           "Witch"
         ],
-        "name": "Arctic Breath",
+        "name": "Creeping Frost",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemBladeVortex": {
@@ -1229,6 +1236,14 @@
           "Marauder"
         ],
         "name": "Chain Hook",
+        "type": "Active Skill Gem"
+      },
+      "Metadata/Items/Gems/SkillGemEarthshatter": {
+        "classes": [
+          "Marauder",
+          "Duelist"
+        ],
+        "name": "Earthshatter",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemElementalHit": {
@@ -1378,6 +1393,7 @@
       },
       "Metadata/Items/Gems/SkillGemStormBrand": {
         "classes": [
+          "Witch",
           "Templar"
         ],
         "name": "Storm Brand",
@@ -1442,6 +1458,14 @@
           "Shadow"
         ],
         "name": "Volatile Dead",
+        "type": "Active Skill Gem"
+      },
+      "Metadata/Items/Gems/SkillGemWintertideBrand": {
+        "classes": [
+          "Witch",
+          "Templar"
+        ],
+        "name": "Wintertide Brand",
         "type": "Active Skill Gem"
       }
     }
@@ -2169,6 +2193,14 @@
     "act": 2,
     "name": "Intruders in Black",
     "rewards": {
+      "Metadata/Items/Gems/SkillGemAncestralCry": {
+        "classes": [
+          "Marauder",
+          "Duelist"
+        ],
+        "name": "Ancestral Cry",
+        "type": "Active Skill Gem"
+      },
       "Metadata/Items/Gems/SkillGemArcaneCloak": {
         "classes": [
           "Witch",
@@ -2217,16 +2249,6 @@
           "Witch"
         ],
         "name": "Desecrate",
-        "type": "Active Skill Gem"
-      },
-      "Metadata/Items/Gems/SkillGemEnduringCry": {
-        "classes": [
-          "Templar",
-          "Marauder",
-          "Duelist",
-          "Scion"
-        ],
-        "name": "Enduring Cry",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemEnsnaringArrow": {
@@ -2315,9 +2337,18 @@
       },
       "Metadata/Items/Gems/SkillGemRecallBrands": {
         "classes": [
+          "Witch",
           "Templar"
         ],
         "name": "Brand Recall",
+        "type": "Active Skill Gem"
+      },
+      "Metadata/Items/Gems/SkillGemSeismicCry": {
+        "classes": [
+          "Marauder",
+          "Duelist"
+        ],
+        "name": "Seismic Cry",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemSummonSkitterbots": {
@@ -2352,6 +2383,13 @@
     "act": 3,
     "name": "Lost in Love",
     "rewards": {
+      "Metadata/Items/Gems/SkillGemAbyssalCry": {
+        "classes": [
+          "Marauder"
+        ],
+        "name": "Infernal Cry",
+        "type": "Active Skill Gem"
+      },
       "Metadata/Items/Gems/SkillGemAnger": {
         "classes": [
           "Marauder",
@@ -2443,6 +2481,13 @@
         "name": "Frostbite",
         "type": "Active Skill Gem"
       },
+      "Metadata/Items/Gems/SkillGemGeneralsCry": {
+        "classes": [
+          "Marauder"
+        ],
+        "name": "General's Cry",
+        "type": "Active Skill Gem"
+      },
       "Metadata/Items/Gems/SkillGemGrace": {
         "classes": [
           "Duelist",
@@ -2512,6 +2557,13 @@
           "Witch"
         ],
         "name": "Purity of Elements",
+        "type": "Active Skill Gem"
+      },
+      "Metadata/Items/Gems/SkillGemRallyingCry": {
+        "classes": [
+          "Duelist"
+        ],
+        "name": "Rallying Cry",
         "type": "Active Skill Gem"
       },
       "Metadata/Items/Gems/SkillGemSpellDamageAura": {
@@ -2829,6 +2881,22 @@
         ],
         "name": "Second Wind Support",
         "type": "Support Skill Gem"
+      },
+      "Metadata/Items/Gems/SupportGemSwiftbrand": {
+        "classes": [
+          "Witch",
+          "Templar"
+        ],
+        "name": "Swiftbrand Support",
+        "type": "Support Skill Gem"
+      },
+      "Metadata/Items/Gems/SupportGemUrgentOrders": {
+        "classes": [
+          "Marauder",
+          "Duelist"
+        ],
+        "name": "Urgent Orders Support",
+        "type": "Support Skill Gem"
       }
     }
   },
@@ -2986,6 +3054,7 @@
       },
       "Metadata/Items/Gems/SkillGemArmageddonBrand": {
         "classes": [
+          "Witch",
           "Templar"
         ],
         "name": "Armageddon Brand",
@@ -3161,6 +3230,14 @@
         "name": "Lightning Spire Trap",
         "type": "Active Skill Gem"
       },
+      "Metadata/Items/Gems/SkillGemPenanceBrand": {
+        "classes": [
+          "Witch",
+          "Templar"
+        ],
+        "name": "Penance Brand",
+        "type": "Active Skill Gem"
+      },
       "Metadata/Items/Gems/SkillGemPestilentStrike": {
         "classes": [
           "Shadow"
@@ -3275,6 +3352,14 @@
     "act": 4,
     "name": "The Eternal Nightmare",
     "rewards": {
+      "Metadata/Items/Gems/SkillGemArcanistBrand": {
+        "classes": [
+          "Witch",
+          "Templar"
+        ],
+        "name": "Arcanist Brand",
+        "type": "Active Skill Gem"
+      },
       "Metadata/Items/Gems/SupportGemBarrage": {
         "classes": [
           "Duelist",
@@ -3334,6 +3419,15 @@
           "Scion"
         ],
         "name": "Decay Support",
+        "type": "Support Skill Gem"
+      },
+      "Metadata/Items/Gems/SupportGemFistOfWar": {
+        "classes": [
+          "Templar",
+          "Marauder",
+          "Duelist"
+        ],
+        "name": "Fist of War Support",
         "type": "Support Skill Gem"
       },
       "Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles": {
@@ -3452,19 +3546,6 @@
     "act": 4,
     "name": "Breaking the Seal",
     "rewards": {
-      "Metadata/Items/Gems/SkillGemAbyssalCry": {
-        "classes": [
-          "Witch",
-          "Templar",
-          "Marauder",
-          "Duelist",
-          "Ranger",
-          "Shadow",
-          "Scion"
-        ],
-        "name": "Abyssal Cry",
-        "type": "Active Skill Gem"
-      },
       "Metadata/Items/Gems/SkillGemBerserk": {
         "classes": [
           "Marauder"
@@ -4890,6 +4971,120 @@
         ],
         "name": "Scroll of Wisdom",
         "type": "StackableCurrency"
+      }
+    }
+  },
+  "harvest1": {
+    "act": 1,
+    "name": "The Sacred Grove",
+    "rewards": {
+      "Metadata/Items/Harvest/HarvestPole": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Pylon",
+        "type": "HarvestInfrastructure"
+      }
+    }
+  },
+  "harvest2": {
+    "act": 1,
+    "name": "Lifeforce Collector",
+    "rewards": {
+      "Metadata/Items/Harvest/HarvestExtractorRed": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Wild Lifeforce Collector",
+        "type": "HarvestInfrastructure"
+      }
+    }
+  },
+  "harvest3": {
+    "act": 1,
+    "name": "Lifeforce Disperser",
+    "rewards": {
+      "Metadata/Items/Harvest/HarvestSprinkler": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Disperser",
+        "type": "HarvestInfrastructure"
+      }
+    }
+  },
+  "harvest4": {
+    "act": 1,
+    "name": "Lifeforce Storage",
+    "rewards": {
+      "Metadata/Items/Harvest/HarvestTank": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Storage Tank",
+        "type": "HarvestInfrastructure"
+      }
+    }
+  },
+  "harvestseedsblue": {
+    "act": 1,
+    "name": "Different Seeds",
+    "rewards": {
+      "Metadata/Items/Harvest/HarvestExtractorBlue": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Primal Lifeforce Collector",
+        "type": "HarvestInfrastructure"
+      }
+    }
+  },
+  "harvestseedsgreen": {
+    "act": 1,
+    "name": "New Seeds",
+    "rewards": {
+      "Metadata/Items/Harvest/HarvestExtractorGreen": {
+        "classes": [
+          "Duelist",
+          "Marauder",
+          "Ranger",
+          "Scion",
+          "Shadow",
+          "Templar",
+          "Witch"
+        ],
+        "name": "Vivid Lifeforce Collector",
+        "type": "HarvestInfrastructure"
       }
     }
   }

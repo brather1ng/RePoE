@@ -189,7 +189,7 @@
         "id": "affliction_fire_damage_over_time_multiplier",
         "name": "Fire Damage over Time Multiplier",
         "stats": {
-          "fire_dot_multiplier_+": 5
+          "fire_dot_multiplier_+": 4
         },
         "tag": "affliction_fire_damage_over_time_multiplier"
       },
@@ -197,7 +197,7 @@
         "id": "affliction_chaos_damage_over_time_multiplier",
         "name": "Chaos Damage over Time Multiplier",
         "stats": {
-          "chaos_dot_multiplier_+": 5
+          "chaos_dot_multiplier_+": 4
         },
         "tag": "affliction_chaos_damage_over_time_multiplier"
       },
@@ -205,7 +205,7 @@
         "id": "affliction_physical_damage_over_time_multiplier",
         "name": "Physical Damage over Time Multiplier",
         "stats": {
-          "physical_dot_multiplier_+": 5
+          "physical_dot_multiplier_+": 4
         },
         "tag": "affliction_physical_damage_over_time_multiplier"
       },
@@ -213,7 +213,7 @@
         "id": "affliction_cold_damage_over_time_multiplier",
         "name": "Cold Damage over Time Multiplier",
         "stats": {
-          "cold_dot_multiplier_+": 5
+          "cold_dot_multiplier_+": 4
         },
         "tag": "affliction_cold_damage_over_time_multiplier"
       },
@@ -267,9 +267,9 @@
       },
       {
         "id": "affliction_warcry_buff_effect",
-        "name": "Warcry Buff Effect",
+        "name": "Exerted Attack Damage",
         "stats": {
-          "warcry_buff_effect_+%": 15
+          "empowered_attack_damage_+%": 20
         },
         "tag": "affliction_warcry_buff_effect"
       },

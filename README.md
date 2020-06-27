@@ -46,7 +46,7 @@ The following data is currently available:
   are aliased depending on main-hand or off-hand.
 - `mods.json`: Describes mod ids. Defines which items they can appear on and what
   stats with what values they have.
-- `crafting_bench_options.json`: Describes master craftable mods. Defines which
+- `crafting_bench_options.json`: Describes master crafting options. Defines which
   masters can craft them at which level on which items.
 - `npc_master.json`: Describes the master's signature mods and on which items they
   can appear.

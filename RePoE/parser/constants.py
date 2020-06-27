@@ -202,6 +202,18 @@ class ActiveSkillType(IntEnum):
     shoots_arrows_upwards = 90
     # Allows Second Wind Support
     second_wind_supportable = 91
+    # Set for Molten Strike, allows Chain Support without the Chaining type/tag
+    chain_supportable = 92
+    # Set for Vaal skills, excludes Archmage Support
+    archmage_exclude = 93
+    # Allows Fist of War Support; set for all Slam skills except Vaal Ancestral Warchief
+    fist_of_war_supportable = 94
+    # Gem tag equivalent
+    stance = 95
+    # Added by GeneralsCrySupport, excludes Multistrike Support and Spell Echo Support
+    generals_cry_support_repeat_exclude = 96
+    # Added by GeneralsCrySupport, excludes Fist of War Support
+    generals_cry_support_fist_of_war_exclude = 97
 
 
 @unique
