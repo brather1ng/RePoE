@@ -7,6 +7,11 @@ class quest_rewards(Parser_Module):
     def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
         all_classes = ["Duelist", "Marauder", "Ranger", "Scion", "Shadow", "Templar", "Witch"]
+
+        for quest_row in relational_reader["Quest.dat"]:
+            quest_id = quest_row["Id"]
+            root[quest_id] = {"name": quest_row["Name"], "act": quest_row["Act"], "rewards": {}}
+
         for reward_row in relational_reader["QuestRewards.dat"]:
             if reward_row["BaseItemTypesKey"] is None:
                 continue
@@ -14,9 +19,6 @@ class quest_rewards(Parser_Module):
             quest = reward_row["QuestRewardOffersKey"]["QuestKey"]
             quest_id = quest["Id"]
             reward_id = reward_row["BaseItemTypesKey"]["Id"]
-
-            if quest_id not in root:
-                root[quest_id] = {"name": quest["Name"], "act": quest["Act"], "rewards": {}}
             rewards = root[quest_id]["rewards"]
 
             if reward_id not in rewards:
