@@ -70,7 +70,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "AccuracyAndCritsForJewel": {
@@ -306,7 +307,9 @@
       "cold",
       "jewellery_elemental",
       "jewellery_attack",
-      "jewellery_caster"
+      "jewellery_caster",
+      "attack",
+      "caster"
     ]
   },
   "AddedColdDamageWhileNoLifeReserved": {
@@ -489,7 +492,9 @@
       "fire",
       "jewellery_elemental",
       "jewellery_attack",
-      "jewellery_caster"
+      "jewellery_caster",
+      "attack",
+      "caster"
     ]
   },
   "AddedFireDamageToBowAttacksCorrupted": {
@@ -672,7 +677,9 @@
       "lightning",
       "jewellery_elemental",
       "jewellery_attack",
-      "jewellery_caster"
+      "jewellery_caster",
+      "attack",
+      "caster"
     ]
   },
   "AddedLightningDamageToBowAttacksCorrupted": {
@@ -867,7 +874,9 @@
       "High"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack",
+      "physical"
     ]
   },
   "AddedPhysicalDamageVsPoisonedEnemies": {
@@ -4952,13 +4961,17 @@
     "sell_price_types": [
       "UniqueLow"
     ],
-    "tags": []
+    "tags": [
+      "attack",
+      "bleed"
+    ]
   },
   "ArrowsThatPierceCauseBleeding25Percent": {
     "sell_price_types": [
       "UniqueLow"
     ],
     "tags": [
+      "attack",
       "bleed"
     ]
   },
@@ -5009,7 +5022,9 @@
     "tags": [
       "speed",
       "jewellery_attack",
-      "jewellery_caster"
+      "jewellery_caster",
+      "attack",
+      "caster"
     ]
   },
   "AttackAndCastSpeedCorruptedItem": {
@@ -5165,7 +5180,8 @@
       "UniqueMedium"
     ],
     "tags": [
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "AttackDamageAgainstBleeding": {
@@ -5173,7 +5189,8 @@
       "UniqueMedium"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "AttackDamageCorruptedItem": {
@@ -5223,7 +5240,8 @@
     ],
     "tags": [
       "defences",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "AttackDamagePerMana": {
@@ -5246,7 +5264,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "AttackDamageWhileHoldingShield": {
@@ -5385,7 +5404,8 @@
     ],
     "tags": [
       "speed",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "AttackSpeedKilledRecently": {
@@ -5587,7 +5607,10 @@
     "sell_price_types": [
       "UniqueMedium"
     ],
-    "tags": []
+    "tags": [
+      "attack",
+      "bleed"
+    ]
   },
   "AttacksCauseBleedingOnCursedEnemyHit25Percent": {
     "sell_price_types": [
@@ -5647,7 +5670,8 @@
       "UniqueMedium"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "AuraAddedChaosDamagePerWhiteSocket": {
@@ -6386,7 +6410,8 @@
       "High"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "BleedOnMeleeCriticalStrike": {
@@ -6394,7 +6419,9 @@
       "UniqueMedium"
     ],
     "tags": [
-      "critical"
+      "critical",
+      "bleed",
+      "attack"
     ]
   },
   "BleedOnMeleeHitChance": {
@@ -6403,7 +6430,8 @@
     ],
     "tags": [
       "bleed",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "BleedOnSelfDealChaosDamage": {
@@ -6426,7 +6454,8 @@
       "High"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "BleedingDamageChanceWeaponSuffix": {
@@ -6434,7 +6463,8 @@
       "High"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "BleedingDamagePerEnduranceCharge": {
@@ -6456,7 +6486,8 @@
       "High"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "BleedingEnemiesExplode": {
@@ -8035,7 +8066,8 @@
     ],
     "tags": [
       "speed",
-      "jewellery_caster"
+      "jewellery_caster",
+      "caster"
     ]
   },
   "CastSpeedOnFullLife": {
@@ -8282,7 +8314,8 @@
     ],
     "tags": [
       "bleed",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "ChanceToBleedIgnitedEnemies": {
@@ -8774,7 +8807,8 @@
     ],
     "tags": [
       "chaos",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "ChaosDamageAndChaosSkillDuration": {
@@ -9442,7 +9476,8 @@
       "UniqueMedium"
     ],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "ChillEffect": {
@@ -11205,7 +11240,9 @@
       "High"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "physical",
+      "attack"
     ]
   },
   "CullingStrikePoachersMark": {
@@ -18140,7 +18177,8 @@
   "EnergyShieldDamageTakenPerMinute": {
     "sell_price_types": [],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "EnergyShieldDelay": {
@@ -18148,7 +18186,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "EnergyShieldDelayDuringFlaskEffect": {
@@ -18262,7 +18301,8 @@
       "UniqueMedium"
     ],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "EnergyShieldPerLevel": {
@@ -18334,7 +18374,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "EnergyShieldRegenerationPerMinute": {
@@ -18722,7 +18763,8 @@
     ],
     "tags": [
       "jewellery_elemental",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "FasterIgniteDamage": {
@@ -23227,7 +23269,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "IncreasedArmourWhileBleeding": {
@@ -23871,7 +23914,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "IncreasedEvasionForJewel": {
@@ -23904,7 +23948,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "IncreasedEvasionRatingWhileLeeching": {
@@ -24420,7 +24465,8 @@
     ],
     "tags": [
       "jewellery_elemental",
-      "jewellery_caster"
+      "jewellery_caster",
+      "caster"
     ]
   },
   "IncreasedSpellDamageWhileShocked": {
@@ -24505,7 +24551,8 @@
     ],
     "tags": [
       "jewellery_elemental",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "IncreasedWeaponElementalDamagePercent": {
@@ -25451,7 +25498,8 @@
   "LeftRingSlotMaximumEnergyShield": {
     "sell_price_types": [],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "LeftRingSlotNoEnergyShieldRegen": {
@@ -25582,7 +25630,8 @@
     ],
     "tags": [
       "life",
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "LifeAndEnergyShieldRecoveryRatePerPowerCharge": {
@@ -27226,7 +27275,8 @@
       "High"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "LocalChanceForPoisonDamage100FinalInflictedWithThisWeapon": {
@@ -27234,7 +27284,8 @@
       "High"
     ],
     "tags": [
-      "poison"
+      "poison",
+      "attack"
     ]
   },
   "LocalChanceForPoisonDamage300FinalInflictedWithThisWeapon": {
@@ -27250,7 +27301,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "LocalChanceToIntimidateOnHit": {
@@ -27774,7 +27826,9 @@
     "tags": [
       "speed",
       "jewellery_caster",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack",
+      "caster"
     ]
   },
   "LocalGolemLifeAddedAsES": {
@@ -27783,7 +27837,8 @@
     ],
     "tags": [
       "minion",
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "LocalGolemLifeRegeneration": {
@@ -28164,25 +28219,31 @@
   "LocalIncreasedPhysicalDamageAndBleedChance": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "physical",
+      "bleed"
     ]
   },
   "LocalIncreasedPhysicalDamageAndBlindChance": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "physical"
     ]
   },
   "LocalIncreasedPhysicalDamageAndImpaleChance": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "physical"
     ]
   },
   "LocalIncreasedPhysicalDamageAndPoisonChance": {
     "sell_price_types": [],
     "tags": [
-      "attack"
+      "attack",
+      "physical",
+      "poison"
     ]
   },
   "LocalIncreasedPhysicalDamagePercentAndAccuracyRating": {
@@ -29014,7 +29075,8 @@
     ],
     "tags": [
       "mana",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "ManaGainPerTargetForJewel": {
@@ -29174,7 +29236,8 @@
     ],
     "tags": [
       "mana",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "ManaLeechRatePerCorrupteditem": {
@@ -33326,7 +33389,8 @@
     ],
     "tags": [
       "life",
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "MaximumEnergyShieldFromBodyArmour": {
@@ -33408,7 +33472,8 @@
     ],
     "tags": [
       "life",
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "MaximumLifeIncreasePercent": {
@@ -33640,7 +33705,8 @@
       "UniqueMedium"
     ],
     "tags": [
-      "bleed"
+      "bleed",
+      "attack"
     ]
   },
   "MeleeDamageAndMeleeRange": {
@@ -33671,7 +33737,8 @@
     ],
     "tags": [
       "life",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "MeleeDamageTaken": {
@@ -38218,7 +38285,8 @@
     ],
     "tags": [
       "poison",
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "PoisonSpreadAndHealOnPoisonedKill": {
@@ -39647,7 +39715,8 @@
       "UniqueHigh"
     ],
     "tags": [
-      "jewellery_defense"
+      "jewellery_defense",
+      "defences"
     ]
   },
   "RightRingSlotMaximumMana": {
@@ -39710,7 +39779,8 @@
       "UniqueHigh"
     ],
     "tags": [
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "RyuslathaMinimumDamageModifier": {
@@ -39718,7 +39788,8 @@
       "UniqueMedium"
     ],
     "tags": [
-      "jewellery_attack"
+      "jewellery_attack",
+      "attack"
     ]
   },
   "SacredBastion": {
@@ -41217,7 +41288,8 @@
       "UniqueLow"
     ],
     "tags": [
-      "jewellery_caster"
+      "jewellery_caster",
+      "caster"
     ]
   },
   "SpellDamageForJewel": {

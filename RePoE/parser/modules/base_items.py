@@ -160,6 +160,7 @@ ITEM_CLASS_BLACKLIST = {
     "Microtransaction",
     "HarvestInfrastructure",
     "HarvestSeed",
+    "HarvestPlantBooster",
 }
 
 

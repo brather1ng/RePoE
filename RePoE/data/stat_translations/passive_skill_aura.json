@@ -8107,7 +8107,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Level {0} Abyssal Cry Skill"
+        "string": "Grants Level {0} Intimidating Cry Skill"
       }
     ],
     "ids": [
@@ -28579,7 +28579,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Bow Attacks fire {0} additional Arrows if you haven\u2019t Cast Dash recently"
+        "string": "Bow Attacks fire {0} additional Arrows if you haven't Cast Dash recently"
       }
     ],
     "ids": [
@@ -40641,6 +40641,43 @@
     ],
     "ids": [
       "fortify_effect_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Melee Cold Damage while you have Fortify"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Melee Cold Damage while you have Fortify"
+      }
+    ],
+    "ids": [
+      "melee_cold_damage_+%_while_fortify_is_active"
     ]
   },
   {
@@ -104615,7 +104652,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Attack Speed if you haven\u2019t Cast Dash recently"
+        "string": "{0}% increased Attack Speed if you haven't Cast Dash recently"
       },
       {
         "condition": [
@@ -104631,7 +104668,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Attack Speed if you haven\u2019t Cast Dash recently"
+        "string": "{0}% reduced Attack Speed if you haven't Cast Dash recently"
       }
     ],
     "ids": [
@@ -116970,7 +117007,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Critical Strike Chance if you haven\u2019t Blocked Recently"
+        "string": "{0}% increased Critical Strike Chance if you haven't Blocked Recently"
       },
       {
         "condition": [
@@ -116986,7 +117023,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Critical Strike Chance if you haven\u2019t Blocked Recently"
+        "string": "{0}% reduced Critical Strike Chance if you haven't Blocked Recently"
       }
     ],
     "ids": [
@@ -124517,7 +124554,7 @@
             "per_minute_to_per_second"
           ]
         ],
-        "string": "Regenerate {0}% of Energy Shield per second if you\u2019ve Cursed an Enemy Recently"
+        "string": "Regenerate {0}% of Energy Shield per second if you've Cursed an Enemy Recently"
       }
     ],
     "ids": [
@@ -124540,7 +124577,7 @@
             "per_minute_to_per_second"
           ]
         ],
-        "string": "Regenerate {0}% of Energy Shield per second if you\u2019ve Killed an Enemy Recently"
+        "string": "Regenerate {0}% of Energy Shield per second if you've Killed an Enemy Recently"
       }
     ],
     "ids": [
@@ -173086,7 +173123,7 @@
         "index_handlers": [
           []
         ],
-        "string": "You lose Rage {0}% faster"
+        "string": "Inherent loss of Rage is {0}% faster"
       },
       {
         "condition": [
@@ -173102,7 +173139,7 @@
             "negate"
           ]
         ],
-        "string": "You lose Rage {0}% slower"
+        "string": "Inherent loss of Rage is {0}% slower"
       }
     ],
     "ids": [
@@ -178859,7 +178896,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Attack Speed if you\u2019ve changed Stance Recently"
+        "string": "{0}% increased Attack Speed if you've changed Stance Recently"
       },
       {
         "condition": [
@@ -178875,7 +178912,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Attack Speed if you\u2019ve changed Stance Recently"
+        "string": "{0}% reduced Attack Speed if you've changed Stance Recently"
       }
     ],
     "ids": [
