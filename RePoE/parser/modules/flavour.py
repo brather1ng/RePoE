@@ -7,14 +7,10 @@ class flavour(Parser_Module):
     def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
         for flavour in relational_reader["FlavourText.dat"]:
-            obj = {
-                "text": flavour["Text"],
-                "num": flavour["Unknown0"]
-            }
             if flavour["Id"] in root:
                 print("Duplicate flavour id:", flavour["Id"])
             else:
-                root[flavour["Id"]] = obj
+                root[flavour["Id"]] = flavour["Text"]
 
         write_json(root, data_path, "flavour")
 
