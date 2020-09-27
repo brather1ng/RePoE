@@ -4,7 +4,7 @@ from RePoE.parser.util import call_with_default_args, write_json
 
 def _convert_mods(row):
     class_to_key = {
-        "Amulet": "AmuletsModsKey",
+        "Amulet": "Amulet_ModsKey",
         "Belt": "Belt_ModsKey",
         "Body Armour": "BodyArmour_ModsKey",
         "Boots": "Boots_ModsKey",

@@ -7,12 +7,12 @@ from RePoE.parser import Parser_Module
 def _convert_tags(n_ids, tags, tags_types):
     f = ["ignore" for _ in range(n_ids)]
     for tag, tag_type in zip(tags, tags_types):
-        if tag_type == "%":
+        if tag_type == "+d":
+            f[tag] = "+#"
+        elif tag_type == "d":
             f[tag] = "#"
-        elif tag_type == "d%":
-            f[tag] = "#%"
-        elif tag_type.startswith("$") and "d" in tag_type:
-            f[tag] = tag_type[1:].replace("d", "#")
+        elif tag_type == "":
+            f[tag] = "#"
         else:
             print("Unknown tag type:", tag_type)
     return f

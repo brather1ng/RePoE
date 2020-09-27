@@ -161,6 +161,14 @@ ITEM_CLASS_BLACKLIST = {
     "HarvestInfrastructure",
     "HarvestSeed",
     "HarvestPlantBooster",
+    "Trinket",
+    "HeistContract",
+    "HeistBlueprint",
+    "HeistEquipmentWeapon",
+    "HeistEquipmentTool",
+    "HeistEquipmentUtility",
+    "HeistEquipmentReward",
+    "HeistObjective",
 }
 
 

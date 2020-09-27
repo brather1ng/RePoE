@@ -69,7 +69,7 @@
     "changes_quality": false,
     "corrupted_essence_chance": 0,
     "descriptions": [
-      "More Poison or Bleeding modifiers",
+      "More Physical Ailment or Chaos Ailment modifiers",
       "No Elemental modifiers"
     ],
     "enchants": false,
@@ -80,18 +80,6 @@
     "negative_mod_weights": [
       {
         "tag": "elemental",
-        "weight": 0
-      },
-      {
-        "tag": "fire",
-        "weight": 0
-      },
-      {
-        "tag": "cold",
-        "weight": 0
-      },
-      {
-        "tag": "lightning",
         "weight": 0
       }
     ],
@@ -169,10 +157,6 @@
       {
         "tag": "chaos",
         "weight": 1000
-      },
-      {
-        "tag": "poison",
-        "weight": 500
       }
     ],
     "rolls_lucky": false,
@@ -224,8 +208,8 @@
     "enchants": false,
     "forbidden_tags": [
       "jewel",
-      "map",
-      "abyss_jewel"
+      "abyss_jewel",
+      "map"
     ],
     "forced_mods": [],
     "mirrors": false,
@@ -245,7 +229,7 @@
     "changes_quality": false,
     "corrupted_essence_chance": 0,
     "descriptions": [
-      "More Armour, Energy Shield or Evasion modifiers",
+      "More Defence modifiers",
       "No Life modifiers"
     ],
     "enchants": false,
@@ -279,7 +263,7 @@
     "corrupted_essence_chance": 0,
     "descriptions": [
       "More Elemental modifiers",
-      "No Poison or Bleeding modifiers"
+      "No Physical Ailment or Chaos Ailment Modifiers"
     ],
     "enchants": false,
     "forbidden_tags": [],
@@ -298,20 +282,8 @@
     ],
     "positive_mod_weights": [
       {
-        "tag": "fire",
-        "weight": 500
-      },
-      {
-        "tag": "cold",
-        "weight": 500
-      },
-      {
-        "tag": "lightning",
-        "weight": 500
-      },
-      {
         "tag": "elemental",
-        "weight": 1000
+        "weight": 600
       }
     ],
     "rolls_lucky": false,
@@ -381,30 +353,25 @@
       "DelveDexterityGemLevel1",
       "DelveIntelligenceGemLevel1"
     ],
-    "allowed_tags": [
-      "weapon",
-      "body_armour",
-      "gloves",
-      "boots",
-      "helmet",
-      "shield",
-      "ring"
-    ],
+    "allowed_tags": [],
     "blocked_descriptions": [],
     "changes_quality": false,
     "corrupted_essence_chance": 0,
     "descriptions": [
-      "More Socketed Gem Level modifiers"
+      "More Gem modifiers"
     ],
     "enchants": false,
-    "forbidden_tags": [],
+    "forbidden_tags": [
+      "map",
+      "jewel"
+    ],
     "forced_mods": [],
     "mirrors": false,
     "name": "Faceted Fossil",
     "negative_mod_weights": [],
     "positive_mod_weights": [
       {
-        "tag": "gem_level",
+        "tag": "gem",
         "weight": 1000
       }
     ],
@@ -422,7 +389,7 @@
     "corrupted_essence_chance": 0,
     "descriptions": [
       "More Life modifiers",
-      "No Armour, Energy Shield or Evasion modifiers"
+      "No Defence modifiers"
     ],
     "enchants": false,
     "forbidden_tags": [],
@@ -433,10 +400,6 @@
       {
         "tag": "defences",
         "weight": 0
-      },
-      {
-        "tag": "flat_life_regen",
-        "weight": 10
       }
     ],
     "positive_mod_weights": [
@@ -469,10 +432,6 @@
     "negative_mod_weights": [
       {
         "tag": "physical",
-        "weight": 0
-      },
-      {
-        "tag": "bleed",
         "weight": 0
       }
     ],
@@ -546,7 +505,7 @@
     "changes_quality": false,
     "corrupted_essence_chance": 0,
     "descriptions": [
-      "More Minion or Aura modifiers"
+      "More Minion, Aura or Curse modifiers"
     ],
     "enchants": false,
     "forbidden_tags": [
@@ -563,6 +522,10 @@
       },
       {
         "tag": "aura",
+        "weight": 1000
+      },
+      {
+        "tag": "curse",
         "weight": 1000
       }
     ],
@@ -611,20 +574,12 @@
       {
         "tag": "chaos",
         "weight": 0
-      },
-      {
-        "tag": "poison",
-        "weight": 0
       }
     ],
     "positive_mod_weights": [
       {
         "tag": "physical",
         "weight": 1000
-      },
-      {
-        "tag": "bleed",
-        "weight": 500
       }
     ],
     "rolls_lucky": false,
