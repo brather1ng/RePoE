@@ -53,8 +53,6 @@ The following data is currently available:
 - `gems.json`: Describes skill gems and skill gem effects only provided by mods.
 - `gem_tags.json`: Simple object that contains all gem tags with their internal id as
   keys and their translation as value.
-- `gem_tooltips.json`: Describes tooltips for skill gems and skill gem effects only
-  provided by mods.
 - `base_items.json`: Describes base item types. Contains information applicable to
   all item types, e.g. inventory size, item class and tags, as well as attribute
   requirements and properties.
