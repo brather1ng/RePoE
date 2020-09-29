@@ -53,8 +53,6 @@ The following data is currently available:
 - `gems.json`: Describes skill gems and skill gem effects only provided by mods.
 - `gem_tags.json`: Simple object that contains all gem tags with their internal id as
   keys and their translation as value.
-- `gem_tooltips.json`: Describes tooltips for skill gems and skill gem effects only
-  provided by mods.
 - `base_items.json`: Describes base item types. Contains information applicable to
   all item types, e.g. inventory size, item class and tags, as well as attribute
   requirements and properties.
@@ -71,10 +69,6 @@ The following data is currently available:
   auxillary effects of the fossils.
 - `mod_types.json`: Describes the types of mods with sell price information and the tags
   relevant for fossil crafting.
-- `quest_rewards.json`: Describes the quest rewards given, along with which classes get
-  which rewards.
-- `vendor_rewards.json`: Describes the gems available for sale from vendors after completing
-  a quest, along with the classes that can buy the gem.
 - `cluster_jewels.json`: Describes how cluster jewels can be generated and how they influence the passive tree. 
 - `cluster_jewel_notables.json`: Lists the notable and keystone passive skills that can appear on cluster jewels.
   

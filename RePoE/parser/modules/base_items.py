@@ -161,12 +161,20 @@ ITEM_CLASS_BLACKLIST = {
     "HarvestInfrastructure",
     "HarvestSeed",
     "HarvestPlantBooster",
+    "Trinket",
+    "HeistContract",
+    "HeistBlueprint",
+    "HeistEquipmentWeapon",
+    "HeistEquipmentTool",
+    "HeistEquipmentUtility",
+    "HeistEquipmentReward",
+    "HeistObjective",
 }
 
 
 class base_items(Parser_Module):
     @staticmethod
-    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         attribute_requirements = _create_default_dict(relational_reader["ComponentAttributeRequirements.dat"])
         armour_types = _create_default_dict(relational_reader["ComponentArmour.dat"])
         shield_types = _create_default_dict(relational_reader["ShieldTypes.dat"])

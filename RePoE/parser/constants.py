@@ -63,157 +63,158 @@ class ActiveSkillType(IntEnum):
     # Set for Molten Shell, Vaal Molten Shell and Of Thunder glove enchant; added by Blasphemy Support; unknown purpose
     unknown_27 = 27
     # Gem tag equivalent
-    curse = 28
+    physical = 28
     # Gem tag equivalent
-    physical = 29
+    fire = 29
     # Gem tag equivalent
-    fire = 30
+    cold = 30
     # Gem tag equivalent
-    cold = 31
-    # Gem tag equivalent
-    lightning = 32
+    lightning = 31
     # Skill can be triggered by trigger gems
-    triggerable = 33
+    triggerable = 32
     # Gem tag equivalent
-    trap = 34
+    trap = 33
     # Gem tag equivalent
-    movement = 35
+    movement = 34
     # Skill directly deals damage over time
-    deals_damage_over_time = 36
+    deals_damage_over_time = 35
     # Gem tag equivalent
-    mine = 37
+    mine = 36
     # Skill is triggered
-    triggered = 38
+    triggered = 37
     # Gem tag equivalent
-    vaal = 39
+    vaal = 38
     # Gem tag equivalent
-    aura = 40
+    aura = 39
     # Unused for skill gems
-    unknown_41 = 41
+    unknown_40 = 40
     # Skill is a projectile attack;
     # allows Iron Grip, Physical Projectile Attack Damage and Point Blank Support
-    projectile_attack = 42
+    projectile_attack = 41
     # Gem tag equivalent
-    chaos = 43
+    chaos = 42
     # Unused for processed active skills; excluded by Faster and Slower Projectiles Support
-    unknown_44 = 44
+    unknown_43 = 43
     # Set for Burning Arrow, Cleave, Dual Strike, Glacial Hammer, Vigilant Strike;
     # these have threshold jewels that add AoE components;
     # allows Increased AoE and Concentrated Effect Support
-    can_have_aoe = 45
+    can_have_aoe = 44
     # Set in minion_types for skills that summon minions that might use projectile skills, e.g. Animate Weapon.
     # Allows the same support gems as the projectile tag.
-    minion_maybe_projectile = 46
+    minion_maybe_projectile = 45
     # Set for Burning Arrow, Vaal Burning Arrow;
     # these have threshold jewels that add duration components;
     # allows Increased/Less Duration and Rapid Decay Support
-    can_have_duration = 47
+    can_have_duration = 46
     # Set for Animate Weapon and related item skills (the triggered version, Animate Guardian's Weapon).
     # Allows some projectile and attack related supports.
-    animate_weapon = 48
+    animate_weapon = 47
     # Gem tag equivalent
-    channelling = 49
+    channelling = 48
     # Allows Controlled Destruction Support for skills that don't have attack or hits but should be supportable, e.g.
     # Blight. Also allows Iron Will Support. Only Siphoning Trap has this tag and not iron_will_supportable_not_hit.
-    controlled_destruction_supportable_not_hit = 50
+    controlled_destruction_supportable_not_hit = 49
     # Set for automatically triggered spells granted by item;
     # prevents Cast on/when/while x, Spell Totem, Remote Mine and Trap Support
-    trigger_item_granted = 51
+    trigger_item_granted = 50
     # Gem tag equivalent
-    golem = 52
+    golem = 51
     # Gem tag equivalent
-    herald = 53
+    herald = 52
     # Used for Death's Oath's aura and added by Blasphemy
-    aura_debuff = 54
+    aura_debuff = 53
     # Skill can not be supported by Ruthless Support. Only used for Cyclone and Vaal Cyclone.
-    not_ruthless_supportable = 55
+    not_ruthless_supportable = 54
     # Set for the minions of Summon Skeleton and Vaal Summon Skeletons; required by Iron Will Support
-    iron_will_supportable_minion = 56
+    iron_will_supportable_minion = 55
     # Skill can be supported by Spell Cascade Support. Seems to be only set for very few spells?
-    spell_cascade_supportable = 57
+    spell_cascade_supportable = 56
     # Skill can be supported by Volley Support
-    volley_supportable = 58
+    volley_supportable = 57
     # Skill can be supported by Mirage Archer Support
-    mirage_archer_supportable = 59
+    mirage_archer_supportable = 58
     # Set for Vaal Fireball and Vaal Spark, disallows Volley Support
-    volley_exclude_60 = 60
+    volley_exclude_59 = 59
     # Set for Spectral Shield Throw, disallows Volley Support
-    volley_exclude_61 = 61
+    volley_exclude_60 = 60
     # Set for Manifest Dancing Dervish, disallows Summon Phantasm on Kill Support
-    phantasm_on_kill_exclude = 62
+    phantasm_on_kill_exclude = 61
     # Set for Rain of Arrows and Vaal Rain of Arrows, allows Lesser and Greater Multiple Projectiles
-    rain_of_arrows = 63
+    rain_of_arrows = 62
     # Gem tag equivalent
-    warcry = 64
+    warcry = 63
     # Skill cast is instant
-    instant = 65
+    instant = 64
     # Set for the brand skills, not Brand Recall
-    brand = 66
+    brand = 65
     # Set for Detonated Dead, unknown purpose
-    unknown_67 = 67
+    unknown_66 = 66
     # Skill chills without counting as a hit
-    non_hit_chill = 68
+    non_hit_chill = 67
     # Skill creates chilling areas
-    chilling_area = 69
+    chilling_area = 68
     # Skill is a Curse (compared to "curse", Bane and Raise Spectre's minions don't have this)
-    curse_skill = 70
+    curse_skill = 69
     # Skill can be supported by Unleash Support
-    unleash_supportable = 71
+    unleash_supportable = 70
     # Added and allowed by SupportAuraDuration, not used anywhere else.
-    unknown_72 = 72
+    unknown_71 = 71
     # Skill can be supported by Intensify Support
-    intensify_supportable = 73
+    intensify_supportable = 72
     # These three types change how allowed_types and excluded_types of support gems are interpreted. The types are
     # processed in
     # order. Except for the following three, they are checked against the active skill's types and the result (true or
     # false) is pushed onto a stack. These three types instead change the values that are already on the stack:
     # - Pops two values from the stack and pushes the result of or'ing them
-    boolean_or = 74
+    boolean_or = 73
     # - Pops two values from the stack and pushes the result of and'ing them
-    boolean_and = 75
+    boolean_and = 74
     # - Pops one value from the stack and pushes the inverted value
-    boolean_not = 76
+    boolean_not = 75
     # Skill is no attack but can be supported by Maim Support
-    maim_supportable_aura = 77
+    maim_supportable_aura = 76
     # Skill summons mions
-    summons_minions = 78
+    summons_minions = 77
     # Gem tag equivalent
-    guard = 79
+    guard = 78
     # Gem tag equivalent
-    travel = 80
+    travel = 79
     # Gem tag equivalent
-    blink = 81
-    aura_duration_supportable = 82
+    blink = 80
+    aura_duration_supportable = 81
     # Skill fires secondary projectiles and can't be supported by Arrow Nova or Volley Support
-    secondary_projectile = 83
+    secondary_projectile = 82
     # Skill is a ballista totem skill (natively, not via support gem)
-    ballista = 84
+    ballista = 83
     # Gem tag equivalent
-    nova = 85
+    nova = 84
+    # Similar to buff, not used on support gems
+    unknown_85 = 85
     # Similar to buff, not used on support gems
     unknown_86 = 86
-    # Similar to buff, not used on support gems
-    unknown_87 = 87
     # Set for 4 of the 5 mine active skill gems (not for Smoke Mine), which all deal damage
-    damaging_mine = 88
+    damaging_mine = 87
     # Gem tag equivalent (not translated, see gem_tags.json)
-    banner = 89
+    banner = 88
     # Set for the Bow skills that shoot upwards (Rain of Arrows, Blast Rain, Mirror Arrow, Blink Arrow)
-    shoots_arrows_upwards = 90
+    shoots_arrows_upwards = 89
     # Allows Second Wind Support
-    second_wind_supportable = 91
+    second_wind_supportable = 90
     # Set for Molten Strike, allows Chain Support without the Chaining type/tag
-    chain_supportable = 92
+    chain_supportable = 91
     # Set for Vaal skills, excludes Archmage Support
-    archmage_exclude = 93
+    archmage_exclude = 92
     # Allows Fist of War Support; set for all Slam skills except Vaal Ancestral Warchief
-    fist_of_war_supportable = 94
+    fist_of_war_supportable = 93
     # Gem tag equivalent
-    stance = 95
+    stance = 94
     # Added by GeneralsCrySupport, excludes Multistrike Support and Spell Echo Support
-    generals_cry_support_repeat_exclude = 96
+    generals_cry_support_repeat_exclude = 95
     # Added by GeneralsCrySupport, excludes Fist of War Support
-    generals_cry_support_fist_of_war_exclude = 97
+    generals_cry_support_fist_of_war_exclude = 96
+    steel = 97
+    hex = 98
+    mark = 99
 
 
 @unique

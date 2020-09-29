@@ -61,6 +61,8 @@ recursion.
   is an object containing the stat id (`id`) and value (`value`) of the stat. The
   value is the value with 1000 quality, divide by 1000 to get the value per
   point of quality.
+  `set` specifies which set of alternative quality the stat belongs to. `set: 0` is the default gem, other numbers are
+  for alternative quality variants.
 - `stat_requirements`: Character stats required to equip and use the skill.
   Only set for skills that exist as actual gem item (see below).
   Is an object that has the fields `str`, `dex` and `int`, each containing the

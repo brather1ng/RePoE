@@ -315,6 +315,52 @@
       "id": "Amulet9"
     }
   },
+  "Metadata/Items/Amulets/AmuletE1": {
+    "domain": "item",
+    "drop_level": 75,
+    "implicits": [
+      "CanHaveEveryInfluenceTypeImplicitE1"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Amulet",
+    "name": "Astrolabe Amulet",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "amulet",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Amulets/HeistAmulet1.dds",
+      "id": "AmuletExperimented1"
+    }
+  },
+  "Metadata/Items/Amulets/AmuletE2": {
+    "domain": "item",
+    "drop_level": 25,
+    "implicits": [
+      "MaxPrefixMaxSuffixModEffectImplicitE1"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Amulet",
+    "name": "Simplex Amulet",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "amulet",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Amulets/HeistAmulet2.dds",
+      "id": "AmuletE2"
+    }
+  },
   "Metadata/Items/Amulets/Talismans/Talisman1_1": {
     "domain": "item",
     "drop_level": 1,
@@ -10252,6 +10298,111 @@
       "id": "ShieldDex4"
     }
   },
+  "Metadata/Items/Armours/Shields/ShieldDexE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "ChanceToInflictBrittleOnEnemyOnBlockImplicitE1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Shield",
+    "name": "Endothermic Buckler",
+    "properties": {
+      "block": 22,
+      "evasion": 112,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 76,
+      "intelligence": 0,
+      "level": 30,
+      "strength": 0
+    },
+    "tags": [
+      "dex_armour",
+      "dex_shield",
+      "not_for_sale",
+      "shield",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Shields/DexHeistShield.dds",
+      "id": "DexShieldExperimented1"
+    }
+  },
+  "Metadata/Items/Armours/Shields/ShieldDexE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "ChanceToInflictBrittleOnEnemyOnBlockImplicitE1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Shield",
+    "name": "Polar Buckler",
+    "properties": {
+      "block": 22,
+      "evasion": 185,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 121,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "dex_armour",
+      "dex_shield",
+      "not_for_sale",
+      "shield",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Shields/DexHeistShield.dds",
+      "id": "DexShieldExperimented1"
+    }
+  },
+  "Metadata/Items/Armours/Shields/ShieldDexE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "ChanceToInflictBrittleOnEnemyOnBlockImplicitE1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Shield",
+    "name": "Cold-attuned Buckler",
+    "properties": {
+      "block": 22,
+      "evasion": 302,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 159,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "dex_armour",
+      "dex_shield",
+      "not_for_sale",
+      "shield",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Shields/DexHeistShield.dds",
+      "id": "DexShieldExperimented1"
+    }
+  },
   "Metadata/Items/Armours/Shields/ShieldDexInt1": {
     "domain": "item",
     "drop_level": 5,
@@ -11243,6 +11394,111 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Armours/Shields/ShieldInt4.dds",
       "id": "ShieldInt4"
+    }
+  },
+  "Metadata/Items/Armours/Shields/ShieldIntE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "ChanceToInflictSapOnEnemyOnBlockImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Shield",
+    "name": "Exhausting Spirit Shield",
+    "properties": {
+      "block": 20,
+      "energy_shield": 23,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 76,
+      "level": 30,
+      "strength": 0
+    },
+    "tags": [
+      "int_armour",
+      "focus",
+      "not_for_sale",
+      "shield",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Shields/IntHeistShield.dds",
+      "id": "IntShieldExperimented1"
+    }
+  },
+  "Metadata/Items/Armours/Shields/ShieldIntE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "ChanceToInflictSapOnEnemyOnBlockImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Shield",
+    "name": "Subsuming Spirit Shield",
+    "properties": {
+      "block": 20,
+      "energy_shield": 36,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 121,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "int_armour",
+      "focus",
+      "not_for_sale",
+      "shield",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Shields/IntHeistShield.dds",
+      "id": "IntShieldExperimented1"
+    }
+  },
+  "Metadata/Items/Armours/Shields/ShieldIntE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "ChanceToInflictSapOnEnemyOnBlockImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Shield",
+    "name": "Transfer-attuned Spirit Shield",
+    "properties": {
+      "block": 20,
+      "energy_shield": 53,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 159,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "int_armour",
+      "focus",
+      "not_for_sale",
+      "shield",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Shields/IntHeistShield.dds",
+      "id": "IntShieldExperimented1"
     }
   },
   "Metadata/Items/Armours/Shields/ShieldStr1": {
@@ -12270,6 +12526,111 @@
       "id": "ShieldStrDex5"
     }
   },
+  "Metadata/Items/Armours/Shields/ShieldStrE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "ChanceToInflictScorchOnEnemyOnBlockImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Shield",
+    "name": "Exothermic Tower Shield",
+    "properties": {
+      "armour": 125,
+      "block": 23,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 30,
+      "strength": 76
+    },
+    "tags": [
+      "str_armour",
+      "str_shield",
+      "not_for_sale",
+      "shield",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Shields/HeistShield.dds",
+      "id": "StrShieldExperimented1_"
+    }
+  },
+  "Metadata/Items/Armours/Shields/ShieldStrE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "ChanceToInflictScorchOnEnemyOnBlockImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Shield",
+    "name": "Magmatic Tower Shield",
+    "properties": {
+      "armour": 205,
+      "block": 23,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 121
+    },
+    "tags": [
+      "str_armour",
+      "str_shield",
+      "not_for_sale",
+      "shield",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Shields/HeistShield.dds",
+      "id": "StrShieldExperimented1_"
+    }
+  },
+  "Metadata/Items/Armours/Shields/ShieldStrE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "ChanceToInflictScorchOnEnemyOnBlockImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Shield",
+    "name": "Heat-attuned Tower Shield",
+    "properties": {
+      "armour": 440,
+      "block": 23,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 159
+    },
+    "tags": [
+      "str_armour",
+      "str_shield",
+      "not_for_sale",
+      "shield",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Shields/HeistShield.dds",
+      "id": "StrShieldExperimented1_"
+    }
+  },
   "Metadata/Items/Armours/Shields/ShieldStrInt1": {
     "domain": "item",
     "drop_level": 7,
@@ -13072,6 +13433,50 @@
       "id": "BeltDemigods1"
     }
   },
+  "Metadata/Items/Belts/BeltE1": {
+    "domain": "item",
+    "drop_level": 20,
+    "implicits": [
+      "CannotUseFlaskInFifthSlotImplicitE1_"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 2,
+    "item_class": "Belt",
+    "name": "Micro-Distillery Belt",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "belt",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Belts/HeistBelt1.dds",
+      "id": "BeltE1"
+    }
+  },
+  "Metadata/Items/Belts/BeltE2": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "SummonTauntingContraptionOnFlaskUseImplicitE1"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 2,
+    "item_class": "Belt",
+    "name": "Mechalarm Belt",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "belt",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Belts/HeistBelt2.dds",
+      "id": "BeltE2_"
+    }
+  },
   "Metadata/Items/Classic/MysteryLeaguestone": {
     "domain": "undefined",
     "drop_level": 1,
@@ -13401,6 +13806,7 @@
     "requirements": null,
     "tags": [
       "high_level_map",
+      "sextant",
       "currency",
       "default"
     ],
@@ -13427,6 +13833,7 @@
     "requirements": null,
     "tags": [
       "high_level_map",
+      "sextant",
       "currency",
       "default"
     ],
@@ -13453,6 +13860,7 @@
     "requirements": null,
     "tags": [
       "high_level_map",
+      "sextant",
       "currency",
       "default"
     ],
@@ -13495,7 +13903,7 @@
     "item_class": "StackableCurrency",
     "name": "Orb of Augmentation",
     "properties": {
-      "description": "Enchants a magic item with a new random modifier",
+      "description": "Augments a magic item with a new random modifier",
       "directions": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 2% Quality applied by Catalysts on use.",
       "stack_size": 30,
       "stack_size_currency_tab": 5000
@@ -13520,7 +13928,7 @@
     "item_class": "StackableCurrency",
     "name": "Exalted Orb",
     "properties": {
-      "description": "Enchants a rare item with a new random modifier",
+      "description": "Augments a rare item with a new random modifier",
       "directions": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 20% Quality applied by Catalysts on use.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -13580,6 +13988,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13605,6 +14014,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13630,6 +14040,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13655,6 +14066,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13680,6 +14092,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13705,6 +14118,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13730,6 +14144,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13755,6 +14170,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13780,6 +14196,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13805,6 +14222,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13830,6 +14248,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13855,6 +14274,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13880,6 +14300,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13905,6 +14326,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13930,6 +14352,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13955,6 +14378,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -13980,6 +14404,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -14005,6 +14430,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -14030,6 +14456,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -14055,6 +14482,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -14080,6 +14508,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -14105,6 +14534,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -14130,6 +14560,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -14156,6 +14587,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "affliction_orb",
       "currency",
       "default"
     ],
@@ -14589,7 +15021,7 @@
     "item_class": "StackableCurrency",
     "name": "Corroded Fossil",
     "properties": {
-      "description": "More Poison or Bleeding modifiers\r\nNo Elemental modifiers",
+      "description": "More Physical Ailment or Chaos Ailment modifiers\r\nNo Elemental modifiers",
       "directions": "Place in a Resonator to influence item crafting.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
@@ -14714,7 +15146,7 @@
     "item_class": "StackableCurrency",
     "name": "Dense Fossil",
     "properties": {
-      "description": "More Armour, Energy Shield or Evasion modifiers\r\nNo Life Modifiers",
+      "description": "More Defence modifiers\r\nNo Life Modifiers",
       "directions": "Place in a Resonator to influence item crafting.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
@@ -14739,7 +15171,7 @@
     "item_class": "StackableCurrency",
     "name": "Prismatic Fossil",
     "properties": {
-      "description": "More Elemental modifiers\r\nNo Poison or Bleeding modifiers",
+      "description": "More Elemental modifiers\r\nNo Physical Ailment or Chaos Ailment modifiers",
       "directions": "Place in a Resonator to influence item crafting.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
@@ -14814,7 +15246,7 @@
     "item_class": "StackableCurrency",
     "name": "Faceted Fossil",
     "properties": {
-      "description": "More Socketed Gem Level modifiers",
+      "description": "More Gem modifiers",
       "directions": "Place in a Resonator to influence item crafting.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -14839,7 +15271,7 @@
     "item_class": "StackableCurrency",
     "name": "Pristine Fossil",
     "properties": {
-      "description": "More Life modifiers\r\nNo Armour, Energy Shield or Evasion modifiers",
+      "description": "More Life modifiers\r\nNo Defence modifiers",
       "directions": "Place in a Resonator to influence item crafting.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
@@ -14939,7 +15371,7 @@
     "item_class": "StackableCurrency",
     "name": "Bound Fossil",
     "properties": {
-      "description": "More Minion or Aura modifiers",
+      "description": "More Minion, Aura or Curse modifiers",
       "directions": "Place in a Resonator to influence item crafting.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
@@ -18113,6 +18545,56 @@
       "id": "CurrencyHarbingerBlessingSword"
     }
   },
+  "Metadata/Items/Currency/CurrencyHeistArmourEnchant": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Tailoring Orb",
+    "properties": {
+      "description": "Adds or replaces an enchantment on body armour. This may reforge the body armour's sockets.",
+      "directions": "Right click this item then left click on the item you wish to modify.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/DivineEnchantWeaponCurrency.dds",
+      "id": "CurrencyHeistArmourEnchant"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyHeistWeaponEnchant": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Tempering Orb",
+    "properties": {
+      "description": "Adds or replaces an enchantment on a weapon. This may reforge the weapon's sockets.",
+      "directions": "Right click this item then left click on the item you wish to modify.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/DivineEnchantBodyArmourCurrency.dds",
+      "id": "CurrencyHeistWeaponEnchant"
+    }
+  },
   "Metadata/Items/Currency/CurrencyIdentification": {
     "domain": "undefined",
     "drop_level": 1,
@@ -18607,6 +19089,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "catalyst",
       "currency",
       "default"
     ],
@@ -18632,6 +19115,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "catalyst",
       "currency",
       "default"
     ],
@@ -18657,6 +19141,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "catalyst",
       "currency",
       "default"
     ],
@@ -18682,6 +19167,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "catalyst",
       "currency",
       "default"
     ],
@@ -18707,6 +19193,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "catalyst",
       "currency",
       "default"
     ],
@@ -18732,6 +19219,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "catalyst",
       "currency",
       "default"
     ],
@@ -18757,6 +19245,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "catalyst",
       "currency",
       "default"
     ],
@@ -19284,6 +19773,31 @@
       "id": "CurrencyRerollRareShard"
     }
   },
+  "Metadata/Items/Currency/CurrencyRerollSkillQualityType": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Prime Regrading Lens",
+    "properties": {
+      "description": "Change the type of quality of a skill gem with quality to another random quality",
+      "directions": "Right click this item then left click a skill gem to apply it.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/AlternateSkillGemCurrency.dds",
+      "id": "CurrencyRerollSkillQualityType___"
+    }
+  },
   "Metadata/Items/Currency/CurrencyRerollSocketColours": {
     "domain": "undefined",
     "drop_level": 2,
@@ -19357,6 +19871,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/CurrencyRerollSocketNumbers.dds",
       "id": "CurrencyRerollSocketNumbers"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyRerollSupportQualityType": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Secondary Regrading Lens",
+    "properties": {
+      "description": "Change the type of quality of a support gem with quality to another random quality",
+      "directions": "Right click this item then left click a support gem to apply it.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/AlternateSupportGemCurrency.dds",
+      "id": "CurrencyRerollSupportQualityType"
     }
   },
   "Metadata/Items/Currency/CurrencyRerollUnique": {
@@ -20876,6 +21415,31 @@
       "id": "BowyersDream"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardBrothersStash": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Brother's Stash",
+    "properties": {
+      "description": "<currencyitem>{5x Exalted Orb}",
+      "directions": "",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardBrothersStash_"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardBuriedTreasure": {
     "domain": "undefined",
     "drop_level": 1,
@@ -21077,6 +21641,32 @@
       "id": "CovetedPossession"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardCursedWords": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Cursed Words",
+    "properties": {
+      "description": "<uniqueitem>{Maw of Mischief}",
+      "directions": "",
+      "stack_size": 13,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardCursedWords"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardDarkDreams": {
     "domain": "undefined",
     "drop_level": 1,
@@ -21229,6 +21819,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardDemigodsWager"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardDesecratedVirtue": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Desecrated Virtue",
+    "properties": {
+      "description": "<size:29>{<gemitem>{Level 6 Awakened Support Gem}}\r\n<default>{Quality:} <augmented>{+23%}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 9,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardDesecratedVirtue"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardDestinedToCrumble": {
@@ -22916,6 +23531,32 @@
       "id": "DivinationCardSuccorOfTheSinless"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheAcademic": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Academic",
+    "properties": {
+      "description": "<uniqueitem>{Inspired Learning}",
+      "directions": "",
+      "stack_size": 8,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheAcademic"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheAdmirer": {
     "domain": "undefined",
     "drop_level": 1,
@@ -23223,6 +23864,31 @@
       "id": "TheBetrayal"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheBitterBlossom": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Bitter Blossom",
+    "properties": {
+      "description": "<gemitem>{Level 21 Chaos Gem}\r\n<default>{Quality:} <augmented>{+23%}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheBitterBlossom"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheBlazingFire": {
     "domain": "undefined",
     "drop_level": 1,
@@ -23349,6 +24015,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheBrittleEmperor"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheCache": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Cache",
+    "properties": {
+      "description": "<uniqueitem>{Jewellery}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheCache_"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCacophony": {
@@ -24888,6 +25580,32 @@
       "id": "DivinationCardTheGreatestIntentions"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheGulf": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Gulf",
+    "properties": {
+      "description": "<uniqueitem>{Thread of Hope}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheGulf"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheHaleHeart": {
     "domain": "undefined",
     "drop_level": 1,
@@ -25294,6 +26012,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheJewellersBoon"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheJournalist": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Journalist",
+    "properties": {
+      "description": "<rareitem>{Helmet}\r\n<default>{Double-Veiled Item}",
+      "directions": "",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheJournalist"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheJourney": {
@@ -27452,6 +28196,32 @@
       "id": "TheUndisputed"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheUnexpectedPrize": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Unexpected Prize",
+    "properties": {
+      "description": "<size:29>{<uniqueitem>{Attribute Transforming Jewel}}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheUnexpectedPrize"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheUnion": {
     "domain": "undefined",
     "drop_level": 1,
@@ -27588,7 +28358,7 @@
     "item_class": "DivinationCard",
     "name": "The Void",
     "properties": {
-      "description": "",
+      "description": " ",
       "directions": "",
       "stack_size": 1,
       "stack_size_currency_tab": 5000
@@ -28193,6 +28963,31 @@
       "id": "TreasureHunter"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTriskaidekaphobia": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Triskaidekaphobia",
+    "properties": {
+      "description": "<size:26>{<rareitem>{Map}}\r\n<size:26>{<default>{Map Tier:} <normal>{13}\r\n<default>{Quality:} <augmented>{+13%}\r\n<default>{Delirium:} <normal>{100%}\r\n<default>{Modifiers:} <normal>{8}\r\n<corrupted>{Corrupted}}",
+      "directions": "",
+      "stack_size": 13,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTriskaidekaphobia"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTurnTheOtherCheek": {
     "domain": "undefined",
     "drop_level": 1,
@@ -28219,6 +29014,32 @@
       "id": "TurnTheOtherCheek"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardUnchained": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Unchained",
+    "properties": {
+      "description": "<uniqueitem>{Facebreaker}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardUnchained"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardUndergroundForest": {
     "domain": "undefined",
     "drop_level": 1,
@@ -28242,6 +29063,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardUndergroundForest"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardUnrequitedLove": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Unrequited Love",
+    "properties": {
+      "description": "<currencyitem>{19x Mirror Shard}",
+      "directions": "",
+      "stack_size": 16,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardUnrequitedLove"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardVanity": {
@@ -30246,6 +31092,26 @@
       "id": "SkillGemBlastRain"
     }
   },
+  "Metadata/Items/Gems/SkillGemBlazingSalvo": {
+    "domain": "undefined",
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Blazing Salvo",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Ember.dds",
+      "id": "SkillGemEmber_"
+    }
+  },
   "Metadata/Items/Gems/SkillGemBlight": {
     "domain": "undefined",
     "drop_level": 5,
@@ -30814,6 +31680,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/CorpseWarp.dds",
       "id": "SkillGemBodyswap_"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemCracklingLance": {
+    "domain": "undefined",
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Crackling Lance",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/DisentegrateGem.dds",
+      "id": "SkillGemDisintegrate"
     }
   },
   "Metadata/Items/Gems/SkillGemCriticalWeakness": {
@@ -31592,7 +32478,7 @@
   },
   "Metadata/Items/Gems/SkillGemFirestorm": {
     "domain": "undefined",
-    "drop_level": 12,
+    "drop_level": 28,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31649,6 +32535,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/FlameTotem.dds",
       "id": "SkillGemFlameTotem"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemFlameWall": {
+    "domain": "undefined",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Flame Wall",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Firewall.dds",
+      "id": "SkillGemFirewall"
     }
   },
   "Metadata/Items/Gems/SkillGemFlameWhip": {
@@ -31936,6 +32842,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/FrostBomb.dds",
       "id": "SkillGemFrostBomb"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemFrostShield": {
+    "domain": "undefined",
+    "drop_level": 34,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Frost Shield",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/FrostGlobe.dds",
+      "id": "SkillGemFrostGlobe"
     }
   },
   "Metadata/Items/Gems/SkillGemFrostWall": {
@@ -32283,6 +33209,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/HeraldofThunder.dds",
       "id": "SkillGemHeraldOfThunder"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemHexblast": {
+    "domain": "undefined",
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Hexblast",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/DoomBlastSkillGem.dds",
+      "id": "SkillGemDoomBlast"
     }
   },
   "Metadata/Items/Gems/SkillGemIceCrash": {
@@ -33389,7 +34335,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "Projectile Weakness",
+    "name": "Sniper's Mark",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -34073,6 +35019,26 @@
       "id": "SkillGemSiegeBallista"
     }
   },
+  "Metadata/Items/Gems/SkillGemSigilOfPower": {
+    "domain": "undefined",
+    "drop_level": 34,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Sigil of Power",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/CircleofPowerSkillGem.dds",
+      "id": "SkillGemCircleOfPower"
+    }
+  },
   "Metadata/Items/Gems/SkillGemSlashTotem": {
     "domain": "undefined",
     "drop_level": 12,
@@ -34315,6 +35281,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/SplitArrow.dds",
       "id": "SkillGemSplitArrow"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemSplittingSteel": {
+    "domain": "undefined",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Splitting Steel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/ImpactingSteelGem.dds",
+      "id": "SkillGemSplittingSteel"
     }
   },
   "Metadata/Items/Gems/SkillGemStaticStrike": {
@@ -35796,7 +36782,7 @@
   },
   "Metadata/Items/Gems/SkillGemVitality": {
     "domain": "undefined",
-    "drop_level": 24,
+    "drop_level": 10,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -35812,6 +36798,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Vitality.dds",
       "id": "SkillGemVitality"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemVoidSphere": {
+    "domain": "undefined",
+    "drop_level": 34,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Void Sphere",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BlackHole.dds",
+      "id": "SkillGemBlackHole"
     }
   },
   "Metadata/Items/Gems/SkillGemVolatileDead": {
@@ -37208,7 +38214,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "Curse On Hit Support",
+    "name": "Hextouch Support",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -37229,7 +38235,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "Awakened Curse On Hit Support",
+    "name": "Awakened Hextouch Support",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -37313,7 +38319,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "Deathmark Support",
+    "name": "Predator Support",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -37409,6 +38415,28 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/SupportPlus/ElementalFocusPlus.dds",
       "id": "SupportGemElementalFocusPlus"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemElementalPenetration": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Elemental Penetration Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/ElementalPenetration.dds",
+      "id": "SupportGemElementalPenetration"
     }
   },
   "Metadata/Items/Gems/SupportGemElementalProliferation": {
@@ -37978,6 +39006,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/impale.dds",
       "id": "SupportGemImpale"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemImpendingDoom": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Impending Doom Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/ViciousHexSupport.dds",
+      "id": "SupportGemImpendingDoom"
     }
   },
   "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect": {
@@ -38920,6 +39969,27 @@
       "id": "SupportGemPierce"
     }
   },
+  "Metadata/Items/Gems/SupportGemPinpoint": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Pinpoint Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/ProjectileIntensity.dds",
+      "id": "SupportGemProjectileIntensity"
+    }
+  },
   "Metadata/Items/Gems/SupportGemPointBlank": {
     "domain": "undefined",
     "drop_level": 18,
@@ -39835,6 +40905,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/SupportPlus/WeaponElementalDamagePlus.dds",
       "id": "SupportGemWeaponElementalDamagePlus"
+    }
+  },
+  "Metadata/Items/Heist/HeistCoin": {
+    "domain": "undefined",
+    "drop_level": 4,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Rogue's Marker",
+    "properties": {
+      "description": "Creates a portal to the Rogue Harbour from a Town or Hideout\nUsed as Currency for services in the Rogue Harbour",
+      "directions": "Right click on this item while in a Town or Hideout to use it.",
+      "stack_size": 50000,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "heist_coin",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Heist/HeistCoinCurrency.dds",
+      "id": "HeistCoin"
     }
   },
   "Metadata/Items/Jewels/JewelAbyssCaster": {
@@ -52058,6 +53154,52 @@
       "id": "RingDemigods1"
     }
   },
+  "Metadata/Items/Rings/RingE1": {
+    "domain": "item",
+    "drop_level": 25,
+    "implicits": [
+      "MaxPrefixMaxSuffixImplicitE1__"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Ring",
+    "name": "Cogwork Ring",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "ring",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Rings/HeistRing1.dds",
+      "id": "RingE1"
+    }
+  },
+  "Metadata/Items/Rings/RingE2": {
+    "domain": "item",
+    "drop_level": 25,
+    "implicits": [
+      "MaxPrefixMaxSuffixImplicitE2_"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Ring",
+    "name": "Geodesic Ring",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "ring",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Rings/HeistRing2.dds",
+      "id": "RingE2"
+    }
+  },
   "Metadata/Items/Rings/RingVictor1": {
     "domain": "item",
     "drop_level": 15,
@@ -52871,6 +54013,117 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.dds",
       "id": "Claw2"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "LocalAddedChaosDamageImplicitE1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Claw",
+    "name": "Shadow Fangs",
+    "properties": {
+      "attack_time": 625,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 24,
+      "physical_damage_min": 13,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 54,
+      "intelligence": 54,
+      "level": 30,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "claw",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.dds",
+      "id": "ClawExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "LocalAddedChaosDamageImplicitE2"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Claw",
+    "name": "Malign Fangs",
+    "properties": {
+      "attack_time": 625,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 37,
+      "physical_damage_min": 20,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 86,
+      "intelligence": 86,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "claw",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.dds",
+      "id": "ClawExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "LocalAddedChaosDamageImplicitE3_"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Claw",
+    "name": "Void Fangs",
+    "properties": {
+      "attack_time": 625,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 41,
+      "physical_damage_min": 22,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 113,
+      "intelligence": 113,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "claw",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.dds",
+      "id": "ClawExperimented1"
     }
   },
   "Metadata/Items/Weapons/OneHandWeapons/Claws/ClawM1": {
@@ -53786,6 +55039,120 @@
       "id": "Dagger2"
     }
   },
+  "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "LocalAllDamageCanPoisonImplicitE1_"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Dagger",
+    "name": "Hollowpoint Dagger",
+    "properties": {
+      "attack_time": 714,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 46,
+      "physical_damage_min": 12,
+      "range": 10
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 54,
+      "intelligence": 54,
+      "level": 30,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "dagger",
+      "attack_dagger",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.dds",
+      "id": "DaggerExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "LocalAllDamageCanPoisonImplicitE1_"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Dagger",
+    "name": "Pressurised Dagger",
+    "properties": {
+      "attack_time": 714,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 71,
+      "physical_damage_min": 18,
+      "range": 10
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 86,
+      "intelligence": 86,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "dagger",
+      "attack_dagger",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.dds",
+      "id": "DaggerExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "LocalAllDamageCanPoisonImplicitE1_"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Dagger",
+    "name": "Pneumatic Dagger",
+    "properties": {
+      "attack_time": 714,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 79,
+      "physical_damage_min": 20,
+      "range": 10
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 121,
+      "intelligence": 121,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "dagger",
+      "attack_dagger",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.dds",
+      "id": "DaggerExperimented1"
+    }
+  },
   "Metadata/Items/Weapons/OneHandWeapons/Daggers/DaggerM1": {
     "domain": "item",
     "drop_level": 36,
@@ -53937,6 +55304,117 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger1.dds",
       "id": "EtherealBladeHeld_"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Daggers/RuneDaggerE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "TriggerFlameDashOnSocketedSkillUseImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Rune Dagger",
+    "name": "Flickerflame Blade",
+    "properties": {
+      "attack_time": 690,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 47,
+      "physical_damage_min": 12,
+      "range": 10
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 54,
+      "intelligence": 54,
+      "level": 30,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "dagger",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.dds",
+      "id": "RuneDaggerExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Daggers/RuneDaggerE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "TriggerFlameDashOnSocketedSkillUseImplicitE2"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Rune Dagger",
+    "name": "Flashfire Blade",
+    "properties": {
+      "attack_time": 690,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 73,
+      "physical_damage_min": 18,
+      "range": 10
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 86,
+      "intelligence": 86,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "dagger",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.dds",
+      "id": "RuneDaggerExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Daggers/RuneDaggerE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "TriggerFlameDashOnSocketedSkillUseImplicitE3_"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Rune Dagger",
+    "name": "Infernal Blade",
+    "properties": {
+      "attack_time": 690,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 85,
+      "physical_damage_min": 21,
+      "range": 10
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 121,
+      "intelligence": 121,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "dagger",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.dds",
+      "id": "RuneDaggerExperimented1"
     }
   },
   "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe1": {
@@ -54687,6 +56165,117 @@
       "id": "OneHandAxe2"
     }
   },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "MaximumRageImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Axe",
+    "name": "Maltreatment Axe",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 44,
+      "physical_damage_min": 21,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 34,
+      "intelligence": 0,
+      "level": 30,
+      "strength": 78
+    },
+    "tags": [
+      "not_for_sale",
+      "axe",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.dds",
+      "id": "OneHandAxeExperimented1_"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "MaximumRageImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Axe",
+    "name": "Disapprobation Axe",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 67,
+      "physical_damage_min": 32,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 54,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 124
+    },
+    "tags": [
+      "not_for_sale",
+      "axe",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.dds",
+      "id": "OneHandAxeExperimented1_"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "MaximumRageImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Axe",
+    "name": "Psychotic Axe",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 79,
+      "physical_damage_min": 38,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 84,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 163
+    },
+    "tags": [
+      "not_for_sale",
+      "axe",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.dds",
+      "id": "OneHandAxeExperimented1_"
+    }
+  },
   "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxeM1": {
     "domain": "item",
     "drop_level": 35,
@@ -55242,7 +56831,7 @@
     "inventory_height": 3,
     "inventory_width": 2,
     "item_class": "One Hand Mace",
-    "name": "Pernarch",
+    "name": "Pernach",
     "properties": {
       "attack_time": 769,
       "critical_strike_chance": 500,
@@ -55591,6 +57180,117 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.dds",
       "id": "OneHandMace2"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "TriggeredFieryImpactOnHitWithWeaponImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Mace",
+    "name": "Flare Mace",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 41,
+      "physical_damage_min": 20,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 30,
+      "strength": 101
+    },
+    "tags": [
+      "not_for_sale",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.dds",
+      "id": "OneHandMaceExperimented1_"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "TriggeredFieryImpactOnHitWithWeaponImplicitE2_"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Mace",
+    "name": "Crack Mace",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 64,
+      "physical_damage_min": 31,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 161
+    },
+    "tags": [
+      "not_for_sale",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.dds",
+      "id": "OneHandMaceExperimented1_"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "TriggeredFieryImpactOnHitWithWeaponImplicitE3"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Mace",
+    "name": "Boom Mace",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 81,
+      "physical_damage_min": 39,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 218
+    },
+    "tags": [
+      "not_for_sale",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.dds",
+      "id": "OneHandMaceExperimented1_"
     }
   },
   "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/OneHandMaceM1": {
@@ -56521,6 +58221,117 @@
       "id": "Sceptre2"
     }
   },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "KeystoneElementalOverloadSceptreImplicit1_"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Sceptre",
+    "name": "Oscillating Sceptre",
+    "properties": {
+      "attack_time": 690,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 34,
+      "physical_damage_min": 23,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 64,
+      "level": 30,
+      "strength": 44
+    },
+    "tags": [
+      "not_for_sale",
+      "sceptre",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.dds",
+      "id": "SceptreExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "KeystoneElementalEquilibriumSceptreImplicit1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Sceptre",
+    "name": "Stabilising Sceptre",
+    "properties": {
+      "attack_time": 690,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 52,
+      "physical_damage_min": 35,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 102,
+      "level": 50,
+      "strength": 71
+    },
+    "tags": [
+      "not_for_sale",
+      "sceptre",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.dds",
+      "id": "SceptreExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "SecretsOfSufferingKeystoneSceptreImplicit1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Sceptre",
+    "name": "Alternating Sceptre",
+    "properties": {
+      "attack_time": 690,
+      "critical_strike_chance": 630,
+      "physical_damage_max": 61,
+      "physical_damage_min": 41,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 131,
+      "level": 70,
+      "strength": 95
+    },
+    "tags": [
+      "not_for_sale",
+      "sceptre",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.dds",
+      "id": "SceptreExperimented1"
+    }
+  },
   "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/SceptreM1": {
     "domain": "item",
     "drop_level": 36,
@@ -57430,6 +59241,117 @@
       "id": "OneHandSword2"
     }
   },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "LocalDamageConversionToRandomElementImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Sword",
+    "name": "Fickle Spiritblade",
+    "properties": {
+      "attack_time": 625,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 33,
+      "physical_damage_min": 18,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 54,
+      "intelligence": 0,
+      "level": 30,
+      "strength": 54
+    },
+    "tags": [
+      "not_for_sale",
+      "sword",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.dds",
+      "id": "OneHandSwordExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "LocalDamageConversionToRandomElementImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Sword",
+    "name": "Capricious Spiritblade",
+    "properties": {
+      "attack_time": 625,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 51,
+      "physical_damage_min": 27,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 94,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 94
+    },
+    "tags": [
+      "not_for_sale",
+      "sword",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.dds",
+      "id": "OneHandSwordExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "LocalDamageConversionToRandomElementImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Sword",
+    "name": "Anarchic Spiritblade",
+    "properties": {
+      "attack_time": 625,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 63,
+      "physical_damage_min": 34,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 121,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 121
+    },
+    "tags": [
+      "not_for_sale",
+      "sword",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.dds",
+      "id": "OneHandSwordExperimented1"
+    }
+  },
   "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordM1": {
     "domain": "item",
     "drop_level": 34,
@@ -57517,10 +59439,10 @@
     "item_class": "One Hand Sword",
     "name": "Tiger Hook",
     "properties": {
-      "attack_time": 870,
+      "attack_time": 714,
       "critical_strike_chance": 500,
-      "physical_damage_max": 105,
-      "physical_damage_min": 49,
+      "physical_damage_max": 80,
+      "physical_damage_min": 37,
       "range": 11
     },
     "release_state": "released",
@@ -59107,6 +61029,120 @@
       "id": "WandAtlas1"
     }
   },
+  "Metadata/Items/Weapons/OneHandWeapons/Wands/WandE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "GainRandomChargeEvery6SecondsImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Wand",
+    "name": "Assembler Wand",
+    "properties": {
+      "attack_time": 714,
+      "critical_strike_chance": 750,
+      "physical_damage_max": 30,
+      "physical_damage_min": 16,
+      "range": 120
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 101,
+      "level": 30,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "wand",
+      "ranged",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.dds",
+      "id": "WandExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Wands/WandE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "GainRandomChargeEvery6SecondsImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Wand",
+    "name": "Congregator Wand",
+    "properties": {
+      "attack_time": 714,
+      "critical_strike_chance": 750,
+      "physical_damage_max": 46,
+      "physical_damage_min": 25,
+      "range": 120
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 168,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "wand",
+      "ranged",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.dds",
+      "id": "WandExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/OneHandWeapons/Wands/WandE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "GainRandomChargeEvery6SecondsImplicitE1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Wand",
+    "name": "Accumulator Wand",
+    "properties": {
+      "attack_time": 714,
+      "critical_strike_chance": 750,
+      "physical_damage_max": 54,
+      "physical_damage_min": 29,
+      "range": 120
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 237,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "wand",
+      "ranged",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.dds",
+      "id": "WandExperimented1"
+    }
+  },
   "Metadata/Items/Weapons/OneHandWeapons/Wands/WandM1": {
     "domain": "item",
     "drop_level": 34,
@@ -60046,6 +62082,120 @@
       "id": "Bow2"
     }
   },
+  "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "LocalAddedFireDamageImplicitE1_"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Bow",
+    "name": "Hedron Bow",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 550,
+      "physical_damage_max": 13,
+      "physical_damage_min": 9,
+      "range": 120
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 101,
+      "intelligence": 0,
+      "level": 30,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "bow",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.dds",
+      "id": "BowExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "LocalAddedFireDamageImplicitE2_"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Bow",
+    "name": "Foundry Bow",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 550,
+      "physical_damage_max": 20,
+      "physical_damage_min": 13,
+      "range": 120
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 161,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "bow",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.dds",
+      "id": "BowExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "LocalAddedFireDamageImplicitE3_"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Bow",
+    "name": "Solarine Bow",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 550,
+      "physical_damage_max": 24,
+      "physical_damage_min": 16,
+      "range": 120
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 212,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "bow",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.dds",
+      "id": "BowExperimented1"
+    }
+  },
   "Metadata/Items/Weapons/TwoHandWeapons/Bows/BowM1": {
     "domain": "item",
     "drop_level": 36,
@@ -60866,6 +63016,117 @@
       "id": "Staff3"
     }
   },
+  "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "EnergyShieldLocalDisplaySpendEnergyShieldForCostsBeforeManaForSocketedSkillsImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Staff",
+    "name": "Transformer Staff",
+    "properties": {
+      "attack_time": 800,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 66,
+      "physical_damage_min": 36,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 54,
+      "level": 30,
+      "strength": 54
+    },
+    "tags": [
+      "not_for_sale",
+      "staff",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.dds",
+      "id": "StaffExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "EnergyShieldLocalDisplaySpendEnergyShieldForCostsBeforeManaForSocketedSkillsImplicitE2"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Staff",
+    "name": "Reciprocation Staff",
+    "properties": {
+      "attack_time": 800,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 102,
+      "physical_damage_min": 55,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 86,
+      "level": 50,
+      "strength": 86
+    },
+    "tags": [
+      "not_for_sale",
+      "staff",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.dds",
+      "id": "StaffExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "EnergyShieldLocalDisplaySpendEnergyShieldForCostsBeforeManaForSocketedSkillsImplicitE3"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Staff",
+    "name": "Battery Staff",
+    "properties": {
+      "attack_time": 800,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 120,
+      "physical_damage_min": 65,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 117,
+      "level": 70,
+      "strength": 117
+    },
+    "tags": [
+      "not_for_sale",
+      "staff",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.dds",
+      "id": "StaffExperimented1"
+    }
+  },
   "Metadata/Items/Weapons/TwoHandWeapons/Staves/StaffM1": {
     "domain": "item",
     "drop_level": 36,
@@ -60978,6 +63239,120 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.dds",
       "id": "Staff8"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/Staves/WarstaffE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "MaximumPowerandEnduranceChargesImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Warstaff",
+    "name": "Capacity Rod",
+    "properties": {
+      "attack_time": 800,
+      "critical_strike_chance": 700,
+      "physical_damage_max": 73,
+      "physical_damage_min": 39,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 54,
+      "level": 30,
+      "strength": 54
+    },
+    "tags": [
+      "not_for_sale",
+      "staff",
+      "attack_staff",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.dds",
+      "id": "WarstaffExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/Staves/WarstaffE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "MaximumPowerandEnduranceChargesImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Warstaff",
+    "name": "Potentiality Rod",
+    "properties": {
+      "attack_time": 800,
+      "critical_strike_chance": 700,
+      "physical_damage_max": 113,
+      "physical_damage_min": 61,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 86,
+      "level": 50,
+      "strength": 86
+    },
+    "tags": [
+      "not_for_sale",
+      "staff",
+      "attack_staff",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.dds",
+      "id": "WarstaffExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/Staves/WarstaffE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "MaximumPowerandEnduranceChargesImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Warstaff",
+    "name": "Eventuality Rod",
+    "properties": {
+      "attack_time": 800,
+      "critical_strike_chance": 700,
+      "physical_damage_max": 144,
+      "physical_damage_min": 78,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 117,
+      "level": 70,
+      "strength": 117
+    },
+    "tags": [
+      "not_for_sale",
+      "staff",
+      "attack_staff",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.dds",
+      "id": "WarstaffExperimented1"
     }
   },
   "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe1": {
@@ -61628,6 +64003,117 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.dds",
       "id": "TwoHandAxe3"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "LocalMaximumQualityImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Two Hand Axe",
+    "name": "Prime Cleaver",
+    "properties": {
+      "attack_time": 741,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 56,
+      "physical_damage_min": 36,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 30,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "axe",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.dds",
+      "id": "TwoHandAxeExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "LocalMaximumQualityImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Two Hand Axe",
+    "name": "Honed Cleaver",
+    "properties": {
+      "attack_time": 741,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 86,
+      "physical_damage_min": 55,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "axe",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.dds",
+      "id": "TwoHandAxeExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "LocalMaximumQualityImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Two Hand Axe",
+    "name": "Apex Cleaver",
+    "properties": {
+      "attack_time": 741,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 101,
+      "physical_damage_min": 65,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "axe",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.dds",
+      "id": "TwoHandAxeExperimented1"
     }
   },
   "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeM1": {
@@ -62426,6 +64912,117 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.dds",
       "id": "TwoHandMace3"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "WarcriesExertAnAdditionalAttackImplicitE1_"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Two Hand Mace",
+    "name": "Blunt Force Condenser",
+    "properties": {
+      "attack_time": 870,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 64,
+      "physical_damage_min": 39,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 30,
+      "strength": 101
+    },
+    "tags": [
+      "not_for_sale",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.dds",
+      "id": "TwoHandMaceExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "WarcriesExertAnAdditionalAttackImplicitE1_"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Two Hand Mace",
+    "name": "Crushing Force Magnifier",
+    "properties": {
+      "attack_time": 870,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 103,
+      "physical_damage_min": 62,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 161
+    },
+    "tags": [
+      "not_for_sale",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.dds",
+      "id": "TwoHandMaceExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "WarcriesExertAnAdditionalAttackImplicitE1_"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Two Hand Mace",
+    "name": "Impact Force Propagator ",
+    "properties": {
+      "attack_time": 870,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 135,
+      "physical_damage_min": 81,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 220
+    },
+    "tags": [
+      "not_for_sale",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.dds",
+      "id": "TwoHandMaceExperimented1"
     }
   },
   "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceM1": {
@@ -63259,6 +65856,117 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword1.dds",
       "id": "TwoHandSword1Keyblade"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordE1": {
+    "domain": "item",
+    "drop_level": 30,
+    "implicits": [
+      "AttackCriticalStrikesIgnoreElementalResistancesImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Two Hand Sword",
+    "name": "Rebuking Blade",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 63,
+      "physical_damage_min": 34,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 54,
+      "intelligence": 0,
+      "level": 30,
+      "strength": 54
+    },
+    "tags": [
+      "not_for_sale",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.dds",
+      "id": "TwoHandSwordExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordE2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "AttackCriticalStrikesIgnoreElementalResistancesImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Two Hand Sword",
+    "name": "Blasting Blade",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 97,
+      "physical_damage_min": 52,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 86,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 86
+    },
+    "tags": [
+      "not_for_sale",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.dds",
+      "id": "TwoHandSwordExperimented1"
+    }
+  },
+  "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordE3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "AttackCriticalStrikesIgnoreElementalResistancesImplicitE1"
+    ],
+    "inventory_height": 4,
+    "inventory_width": 2,
+    "item_class": "Two Hand Sword",
+    "name": "Banishing Blade",
+    "properties": {
+      "attack_time": 769,
+      "critical_strike_chance": 600,
+      "physical_damage_max": 114,
+      "physical_damage_min": 61,
+      "range": 13
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 130,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 130
+    },
+    "tags": [
+      "not_for_sale",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.dds",
+      "id": "TwoHandSwordExperimented1"
     }
   },
   "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSwordM1": {

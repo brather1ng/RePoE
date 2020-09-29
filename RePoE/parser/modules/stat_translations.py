@@ -7,12 +7,12 @@ from RePoE.parser import Parser_Module
 def _convert_tags(n_ids, tags, tags_types):
     f = ["ignore" for _ in range(n_ids)]
     for tag, tag_type in zip(tags, tags_types):
-        if tag_type == "%":
+        if tag_type == "+d":
+            f[tag] = "+#"
+        elif tag_type == "d":
             f[tag] = "#"
-        elif tag_type == "d%":
-            f[tag] = "#%"
-        elif tag_type.startswith("$") and "d" in tag_type:
-            f[tag] = tag_type[1:].replace("d", "#")
+        elif tag_type == "":
+            f[tag] = "#"
         else:
             print("Unknown tag type:", tag_type)
     return f
@@ -82,7 +82,7 @@ def _get_stat_translations(tag_set, translations, custom_translations):
 
 class stat_translations(Parser_Module):
     @staticmethod
-    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         tag_set = set()
         for in_file, out_file in STAT_TRANSLATION_DICT.items():
             translations = translation_file_cache[in_file].translations

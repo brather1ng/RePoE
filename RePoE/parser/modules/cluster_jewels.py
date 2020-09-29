@@ -4,7 +4,7 @@ from RePoE.parser import Parser_Module
 
 class cluster_jewels(Parser_Module):
     @staticmethod
-    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         skills = {}
         for row in relational_reader["PassiveTreeExpansionSkills.dat"]:
             size = row["PassiveTreeExpansionJewelSizesKey"]["Name"]
