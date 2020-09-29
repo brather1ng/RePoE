@@ -4,7 +4,7 @@ from RePoE.parser import Parser_Module
 
 class flavour(Parser_Module):
     @staticmethod
-    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
         for flavour in relational_reader["FlavourText.dat"]:
             if flavour["Id"] in root:

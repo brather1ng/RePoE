@@ -4,7 +4,7 @@ from RePoE.parser import Parser_Module
 
 class mod_types(Parser_Module):
     @staticmethod
-    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         mod_types = {
             row["Name"]: {
                 "sell_price_types": [key["Id"] for key in row["ModSellPriceTypesKeys"]],

@@ -27,7 +27,7 @@ class crafting_bench_options(Parser_Module):
         return actions
 
     @staticmethod
-    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = []
         for row in relational_reader["CraftingBenchOptions.dat"]:
             if row["RequiredLevel"] > 100 or row["IsDisabled"]:

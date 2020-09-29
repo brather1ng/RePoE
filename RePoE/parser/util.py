@@ -2,7 +2,7 @@ import json
 import io
 
 from PyPoE.poe.file.dat import RelationalReader
-from PyPoE.poe.file.ggpk import GGPKFile
+from PyPoE.poe.file.file_system import FileSystem
 from PyPoE.poe.file.ot import OTFileCache
 from PyPoE.poe.file.translations import TranslationFileCache
 from PyPoE.poe.constants import MOD_DOMAIN
@@ -23,40 +23,37 @@ def write_json(root_obj, data_path, file_name):
     print(" Done!")
 
 
-def load_ggpk(ggpk_path):
-    ggpk = GGPKFile()
-    ggpk.read(ggpk_path)
-    ggpk.directory_build()
-    return ggpk
+def load_file_system(ggpk_path):
+    return FileSystem(ggpk_path)
 
 
-def create_relational_reader(ggpk):
+def create_relational_reader(file_system):
     opt = {
         "use_dat_value": False,
         "auto_build_index": True,
     }
-    return RelationalReader(path_or_ggpk=ggpk, files=["Stats.dat"], read_options=opt)
+    return RelationalReader(path_or_file_system=file_system, files=["Stats.dat"], read_options=opt)
 
 
-def create_translation_file_cache(ggpk):
-    return TranslationFileCache(path_or_ggpk=ggpk)
+def create_translation_file_cache(file_system):
+    return TranslationFileCache(path_or_file_system=file_system)
 
 
-def create_ot_file_cache(ggpk):
-    return OTFileCache(path_or_ggpk=ggpk)
+def create_ot_file_cache(file_system):
+    return OTFileCache(path_or_file_system=file_system)
 
 
-DEFAULT_GGPK_PATH = "C:/Program Files (x86)/Grinding Gear Games/Path of Exile/Content.ggpk"
+DEFAULT_GGPK_PATH = "C:/Program Files (x86)/Grinding Gear Games/Path of Exile"
 
 
 def call_with_default_args(write_func):
-    ggpk = load_ggpk(DEFAULT_GGPK_PATH)
+    file_system = load_file_system(DEFAULT_GGPK_PATH)
     write_func(
-        ggpk=ggpk,
+        file_system=file_system,
         data_path="../../data/",
-        relational_reader=create_relational_reader(ggpk),
-        translation_file_cache=create_translation_file_cache(ggpk),
-        ot_file_cache=create_ot_file_cache(ggpk),
+        relational_reader=create_relational_reader(file_system),
+        translation_file_cache=create_translation_file_cache(file_system),
+        ot_file_cache=create_ot_file_cache(file_system),
     )
 
 

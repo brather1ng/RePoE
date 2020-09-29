@@ -102,9 +102,8 @@ def _handle_primitives(representative, per_level):
 class GemConverter:
     regex_number = re.compile(r"-?\d+(\.\d+)?")
 
-    def __init__(self, ggpk, relational_reader, translation_file_cache):
+    def __init__(self, file_system, relational_reader):
         self.relational_reader = relational_reader
-        self.translation_file_cache = translation_file_cache
 
         self.gepls = {}
         for gepl in self.relational_reader["GrantedEffectsPerLevel.dat"]:
@@ -343,9 +342,9 @@ class GemConverter:
 
 class gems(Parser_Module):
     @staticmethod
-    def write(ggpk, data_path, relational_reader, translation_file_cache, **kwargs):
+    def write(file_system, data_path, relational_reader, translation_file_cache, **kwargs):
         gems = {}
-        converter = GemConverter(ggpk, relational_reader, translation_file_cache)
+        converter = GemConverter(file_system, relational_reader)
 
         # Skills from gems
         for gem in relational_reader["SkillGems.dat"]:

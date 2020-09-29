@@ -32,7 +32,7 @@ def _convert_mods(row):
 
 class essences(Parser_Module):
     @staticmethod
-    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         essences = {
             row["BaseItemTypesKey"]["Id"]: {
                 "name": row["BaseItemTypesKey"]["Name"],

@@ -13,7 +13,7 @@ def _convert_alias_stats(alias_stats_key_1, alias_stats_key_2):
 
 class stats(Parser_Module):
     @staticmethod
-    def write(ggpk, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
         previous = set()
         for stat in relational_reader["Stats.dat"]:
