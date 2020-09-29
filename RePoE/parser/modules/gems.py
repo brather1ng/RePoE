@@ -112,6 +112,13 @@ class GemConverter:
                 self.gepls[ge_id] = []
             self.gepls[ge_id].append(gepl)
 
+        self.granted_effect_quality_stats = {}
+        for geq in self.relational_reader["GrantedEffectQualityStats.dat"]:
+            ge_id = geq["GrantedEffectsKey"]["Id"]
+            if ge_id not in self.granted_effect_quality_stats:
+                self.granted_effect_quality_stats[ge_id] = []
+            self.granted_effect_quality_stats[ge_id].append(geq)
+
         self.tags = {}
         for tag in self.relational_reader["GemTags.dat"]:
             name = tag["Tag"]
@@ -134,7 +141,7 @@ class GemConverter:
             )
 
         self.skill_stat_filter = StatFilterFile()
-        self.skill_stat_filter.read(ggpk["Metadata/StatDescriptions/skillpopup_stat_filters.txt"].record.extract())
+        self.skill_stat_filter.read(file_system.get_file("Metadata/StatDescriptions/skillpopup_stat_filters.txt"))
 
     def _convert_active_skill(self, active_skill):
         stat_conversions = {}
@@ -209,8 +216,10 @@ class GemConverter:
         r["stats"] = stats
 
         q_stats = []
-        for k, v in gepl["QualityStats"]:
-            q_stats.append({"id": k["Id"], "value": v})
+        if gepl["GrantedEffectsKey"]["Id"] in self.granted_effect_quality_stats:
+            for geq in self.granted_effect_quality_stats[gepl["GrantedEffectsKey"]["Id"]]:
+                for k, v in zip(geq["StatsKeys"], geq["StatsValuesPermille"]):
+                    q_stats.append({"id": k["Id"], "value": v, "set": geq["SetId"]})
         r["quality_stats"] = q_stats
 
         if multipliers is not None:
@@ -332,7 +341,6 @@ class GemConverter:
     def _get_translation_file_name(self, active_skill):
         if active_skill is None:
             return "gem_stat_descriptions.txt"
-        return "skill_stat_descriptions.txt"
         stat_filter_group = self.skill_stat_filter.skills.get(active_skill["id"])
         if stat_filter_group is not None:
             return stat_filter_group.translation_file_path.replace("Metadata/StatDescriptions/", "")
