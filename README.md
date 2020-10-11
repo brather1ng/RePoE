@@ -14,11 +14,12 @@ open an Issue or Pull Request for that.
 
 ## Use as a Package
 
-- Install Python 3.6 or later (PyPoE recommends Python 3.7) and Git
+- Install Python 3.7 or later (PyPoE recommends Python 3.7) and Git
 - Install [PyPoE](https://github.com/OmegaK2/PyPoE):
   * Clone PyPoE and go into its folder
   * Minimal install: `pip install -e .`
   * Full install: `pip install -e .[full]` (not required for RePoE)
+- To be able to decompress GGG's bundle files, PyPoE expects an ooz.exe or libooz.dll in its path.
 - Install RePoE
   * Clone RePoE and go into its folder
   * install: `pip install -e .`  
