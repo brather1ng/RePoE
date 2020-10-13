@@ -138,6 +138,7 @@ ITEM_CLASS_WHITELIST = {
     "AbyssJewel",
     "DivinationCard",
     "Map",
+    "MapFragment",
 }
 
 ITEM_CLASS_BLACKLIST = {
@@ -151,7 +152,6 @@ ITEM_CLASS_BLACKLIST = {
     "DelveSocketableCurrency",
     "UniqueFragment",
     "IncursionItem",
-    "MapFragment",
     "MetamorphosisDNA",
     "HideoutDoodad",
     "LabyrinthMapItem",

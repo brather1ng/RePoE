@@ -41207,6 +41207,1836 @@
       "id": "JewelTimeless"
     }
   },
+  "Metadata/Items/MapFragments/CurrencyAfflictionFragment": {
+    "domain": "undefined",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Simulacrum",
+    "properties": {
+      "description": "",
+      "directions": "Open a Delirium portal by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "affliction_splinter",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/DeliriumFragment.dds",
+      "id": "AfflictionFragment"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentChaos": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Chayula's Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Chayula's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/BreachFragmentsChaos.dds",
+      "id": "BreachFragmentChaos"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentChaos2": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Chayula's Charged Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Chayula's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/ChayulasChargedBreachstone.dds",
+      "id": "BreachFragmentChaosCharged"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentChaos3": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Chayula's Enriched Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Chayula's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone3",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/ChayulasEnrichedBreachstone.dds",
+      "id": "BreachFragmentChaosEnriched_"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentChaos4": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Chayula's Pure Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Chayula's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone4",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/ChayulasPureBreachstone.dds",
+      "id": "BreachFragmentChaosPure"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentCold": {
+    "domain": "undefined",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Tul's Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Tul's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/BreachFragmentsCold.dds",
+      "id": "BreachFragmentCold"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentCold2": {
+    "domain": "undefined",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Tul's Charged Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Tul's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/TulsChargedBreachstone.dds",
+      "id": "BreachFragmentColdCharged"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentCold3": {
+    "domain": "undefined",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Tul's Enriched Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Tul's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone3",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/TulsEnrichedBreachstone.dds",
+      "id": "BreachFragmentColdEnriched"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentCold4": {
+    "domain": "undefined",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Tul's Pure Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Tul's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone4",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/TulsPureBreachstone.dds",
+      "id": "BreachFragmentColdPure"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentFire": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Xoph's Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Xoph's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/BreachFragmentsFire.dds",
+      "id": "BreachFragmentFire"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentFire2": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Xoph's Charged Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Xoph's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/XophsChargedBreachstone.dds",
+      "id": "BreachFragmentFireCharged"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentFire3": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Xoph's Enriched Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Xoph's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone3",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/XophsEnrichedBreachstone.dds",
+      "id": "BreachFragmentFireEnriched"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentFire4": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Xoph's Pure Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Xoph's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone4",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/XophsPureBreachstone.dds",
+      "id": "BreachFragmentFirePure"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentLightning": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Esh's Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Esh's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/BreachFragmentsLightning.dds",
+      "id": "BreachFragmentLightning"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentLightning2": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Esh's Charged Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Esh's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/EshsChargedBreachstone.dds",
+      "id": "BreachFragmentLightningCharged"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentLightning3": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Esh's Enriched Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Esh's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone3",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/EshsEnrichedBreachstone.dds",
+      "id": "BreachFragmentLightningEnriched_"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentLightning4": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Esh's Pure Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Esh's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone4",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/EshsPureBreachstone.dds",
+      "id": "BreachFragmentLightningPure"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentPhysical": {
+    "domain": "undefined",
+    "drop_level": 76,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Uul-Netol's Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Uul-Netol's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/BreachFragmentsPhysical.dds",
+      "id": "BreachFragmentPhysical"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentPhysical2": {
+    "domain": "undefined",
+    "drop_level": 76,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Uul-Netol's Charged Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Uul-Netol's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/UulNetolsChargedBreachstone.dds",
+      "id": "BreachFragmentPhysicalCharged"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentPhysical3": {
+    "domain": "undefined",
+    "drop_level": 76,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Uul-Netol's Enriched Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Uul-Netol's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone3",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/UulNetolsEnrichedBreachstone.dds",
+      "id": "BreachFragmentPhysicalEnriched"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyBreachFragmentPhysical4": {
+    "domain": "undefined",
+    "drop_level": 76,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Uul-Netol's Pure Breachstone",
+    "properties": {
+      "description": "",
+      "directions": "Travel to Uul-Netol's Domain by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "breachstone4",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Breach/UulNetolsPureBreachstone.dds",
+      "id": "BreachFragmentPhysicalPure"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyElderFragment1": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of Enslavement",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMapGuardianFire.dds",
+      "id": "ElderFragment1"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyElderFragment2": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of Eradication",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMapGuardianLightning.dds",
+      "id": "ElderFragment2"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyElderFragment3": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of Constriction",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMapGuardianHoly.dds",
+      "id": "ElderFragment3"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyElderFragment4": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of Purification",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMapGuardianChaos.dds",
+      "id": "ElderFragment4"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyElderFragmentsComplete": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Key to Decay",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/ElderComplete.dds",
+      "id": "ElderFragmentsComplete"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyFragmentPantheonFlask": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Divine Vessel",
+    "properties": {
+      "description": "Unique Boss deals 10% increased Damage\r\nUnique Boss has 10% increased Attack and Cast Speed\r\nUnique Boss has 10% increased Life\r\nUnique Boss has 20% increased Area of Effect",
+      "directions": "Can be used in a personal Map Device, allowing you to capture the Soul of the Map's Boss. The Vessel containing the captured Soul can be retrieved from the Map Device. You must be in the Map when the boss is defeated.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "high_level_map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/SinFlaskEmpty.dds",
+      "id": "FragmentPantheonFlask"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyLegionFragmentEternal": {
+    "domain": "undefined",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Timeless Eternal Emblem",
+    "properties": {
+      "description": "",
+      "directions": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/EternalEmpireFragment.dds",
+      "id": "LegionFragmentEternal"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyLegionFragmentKarui": {
+    "domain": "undefined",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Timeless Karui Emblem",
+    "properties": {
+      "description": "",
+      "directions": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/KaruiFragment.dds",
+      "id": "LegionFragmentKarui"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyLegionFragmentMaraketh": {
+    "domain": "undefined",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Timeless Maraketh Emblem",
+    "properties": {
+      "description": "",
+      "directions": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/MarakethFragment.dds",
+      "id": "LegionFragmentMaraketh"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyLegionFragmentTemplar": {
+    "domain": "undefined",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Timeless Templar Emblem",
+    "properties": {
+      "description": "",
+      "directions": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/TemplarFragment.dds",
+      "id": "LegionFragmentTemplar"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyLegionFragmentVaal": {
+    "domain": "undefined",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Timeless Vaal Emblem",
+    "properties": {
+      "description": "",
+      "directions": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/VaalFragment.dds",
+      "id": "LegionFragmentVaal_"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyOfferingToTheGoddess": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Offering to the Goddess",
+    "properties": {
+      "description": "",
+      "directions": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth. You must have completed the six different Trials of Ascendancy found in Maps in order to access this area.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Labyrinth.dds",
+      "id": "OfferingToTheGoddess"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyOfferingToTheGoddessDedication": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Dedication to the Goddess",
+    "properties": {
+      "description": "",
+      "directions": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth of Potential. You must have completed the six different Trials of Ascendancy found in Maps in order to access this area.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/LabyrinthHarvestInfused2.dds",
+      "id": "DedicationToTheGoddess"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyOfferingToTheGoddessGift": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gift to the Goddess",
+    "properties": {
+      "description": "",
+      "directions": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth of Opportunity. You must have completed the six different Trials of Ascendancy found in Maps in order to access this area.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/LabyrinthHarvestInfused1.dds",
+      "id": "GiftToTheGoddess"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyOfferingToTheGoddessTribute": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Tribute to the Goddess",
+    "properties": {
+      "description": "",
+      "directions": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth of Fortune. You must have completed the six different Trials of Ascendancy found in Maps in order to access this area.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/LabyrinthHarvest.dds",
+      "id": "TributeToTheGoddess"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyProphecyFragment1": {
+    "domain": "undefined",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Eber's Key",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/PaleCourt01.dds",
+      "id": "ProphecyFragment1"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyProphecyFragment2": {
+    "domain": "undefined",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Yriel's Key",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/PaleCourt02.dds",
+      "id": "ProphecyFragment2"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyProphecyFragment3": {
+    "domain": "undefined",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Inya's Key",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/PaleCourt03.dds",
+      "id": "ProphecyFragment3"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyProphecyFragment4": {
+    "domain": "undefined",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Volkuur's Key",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/PaleCourt04.dds",
+      "id": "ProphecyFragment4_"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyProphecyFragmentsComplete": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "MapFragment",
+    "name": "Pale Court Set",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/PaleCourtComplete.dds",
+      "id": "ProphecyFragmentsComplete_"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyShaperFragment1": {
+    "domain": "undefined",
+    "drop_level": 84,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of the Phoenix",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMaps/FragmentPhoenix.dds",
+      "id": "ShaperFragment1"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyShaperFragment2": {
+    "domain": "undefined",
+    "drop_level": 84,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of the Minotaur",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMaps/FragmentMinotaur.dds",
+      "id": "ShaperFragment2"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyShaperFragment3": {
+    "domain": "undefined",
+    "drop_level": 84,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of the Chimera",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMaps/FragmentChimera.dds",
+      "id": "ShaperFragment3"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyShaperFragment4": {
+    "domain": "undefined",
+    "drop_level": 84,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of the Hydra",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMaps/FragmentHydra.dds",
+      "id": "ShaperFragment4"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyShaperFragmentsComplete": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "MapFragment",
+    "name": "Key to the Crucible",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/ShaperComplete.dds",
+      "id": "ShaperFragmentsComplete"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyUberElderFragment1": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of Terror",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberElder01.dds",
+      "id": "UberElderFragment1"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyUberElderFragment2": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of Emptiness",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberElder02.dds",
+      "id": "UberElderFragment2"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyUberElderFragment3": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of Shape",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberElder03.dds",
+      "id": "UberElderFragment3"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyUberElderFragment4": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of Knowledge",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberElder04.dds",
+      "id": "UberElderFragment4"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyUberElderFragmentsComplete": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Maddening Object",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberElderComplete.dds",
+      "id": "UberElderFragmentsComplete"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragment1_1": {
+    "domain": "undefined",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Sacrifice at Midnight",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri1",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Vaal01.dds",
+      "id": "VaalFragment1_1"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragment1_2": {
+    "domain": "undefined",
+    "drop_level": 36,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Sacrifice at Dawn",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri1",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Vaal02.dds",
+      "id": "VaalFragment1_2"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragment1_3": {
+    "domain": "undefined",
+    "drop_level": 36,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Sacrifice at Noon",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri1",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Vaal03.dds",
+      "id": "VaalFragment1_3"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragment1_4": {
+    "domain": "undefined",
+    "drop_level": 36,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Sacrifice at Dusk",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri1",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Vaal04.dds",
+      "id": "VaalFragment1_4"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragment2_1": {
+    "domain": "undefined",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Mortal Rage",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberVaal01.dds",
+      "id": "VaalFragment2_1"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragment2_2": {
+    "domain": "undefined",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Mortal Hope",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberVaal02.dds",
+      "id": "VaalFragment2_2"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragment2_3": {
+    "domain": "undefined",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Mortal Ignorance",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberVaal03.dds",
+      "id": "VaalFragment2_3"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragment2_4": {
+    "domain": "undefined",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Mortal Grief",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberVaal04.dds",
+      "id": "VaalFragment2_4"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragments1Complete": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "MapFragment",
+    "name": "Sacrifice Set",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/VaalComplete.dds",
+      "id": "VaalFragments1Complete"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyVaalFragments2Complete": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "MapFragment",
+    "name": "Mortal Set",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberVaalComplete.dds",
+      "id": "VaalFragments2Complete"
+    }
+  },
+  "Metadata/Items/MapFragments/FragmentPantheonFlask": {
+    "domain": "map_device",
+    "drop_level": 68,
+    "implicits": [
+      "PantheonFlask"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Divine Vessel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "high_level_map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/SinFlaskEmpty.dds",
+      "id": "FragmentPantheonFlask"
+    }
+  },
+  "Metadata/Items/MapFragments/ProphecyFragment1": {
+    "domain": "map_device",
+    "drop_level": 60,
+    "implicits": [
+      "ProphecyFragmentImplicit"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Eber's Key",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/PaleCourt01.dds",
+      "id": "ProphecyFragment1"
+    }
+  },
+  "Metadata/Items/MapFragments/ProphecyFragment2": {
+    "domain": "map_device",
+    "drop_level": 60,
+    "implicits": [
+      "ProphecyFragmentImplicit"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Yriel's Key",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/PaleCourt02.dds",
+      "id": "ProphecyFragment2"
+    }
+  },
+  "Metadata/Items/MapFragments/ProphecyFragment3": {
+    "domain": "map_device",
+    "drop_level": 60,
+    "implicits": [
+      "ProphecyFragmentImplicit"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Inya's Key",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/PaleCourt03.dds",
+      "id": "ProphecyFragment3"
+    }
+  },
+  "Metadata/Items/MapFragments/ProphecyFragment4": {
+    "domain": "map_device",
+    "drop_level": 60,
+    "implicits": [
+      "ProphecyFragmentImplicit"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Volkuur's Key",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/PaleCourt04.dds",
+      "id": "ProphecyFragment4_"
+    }
+  },
+  "Metadata/Items/MapFragments/ShaperFragment1": {
+    "domain": "map_device",
+    "drop_level": 84,
+    "implicits": [
+      "ShaperFragmentImplicit"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of the Phoenix",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMaps/FragmentPhoenix.dds",
+      "id": "ShaperFragment1"
+    }
+  },
+  "Metadata/Items/MapFragments/ShaperFragment2": {
+    "domain": "map_device",
+    "drop_level": 84,
+    "implicits": [
+      "ShaperFragmentImplicit"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of the Minotaur",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMaps/FragmentMinotaur.dds",
+      "id": "ShaperFragment2"
+    }
+  },
+  "Metadata/Items/MapFragments/ShaperFragment3": {
+    "domain": "map_device",
+    "drop_level": 84,
+    "implicits": [
+      "ShaperFragmentImplicit"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of the Chimera",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMaps/FragmentChimera.dds",
+      "id": "ShaperFragment3"
+    }
+  },
+  "Metadata/Items/MapFragments/ShaperFragment4": {
+    "domain": "map_device",
+    "drop_level": 84,
+    "implicits": [
+      "ShaperFragmentImplicit"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fragment of the Hydra",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/AtlasMaps/FragmentHydra.dds",
+      "id": "ShaperFragment4"
+    }
+  },
+  "Metadata/Items/MapFragments/VaalFragment1_1": {
+    "domain": "map_device",
+    "drop_level": 60,
+    "implicits": [
+      "VaalFragmentImplicit1"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Sacrifice at Midnight",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri1",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Vaal01.dds",
+      "id": "VaalFragment1_1"
+    }
+  },
+  "Metadata/Items/MapFragments/VaalFragment1_2": {
+    "domain": "map_device",
+    "drop_level": 36,
+    "implicits": [
+      "VaalFragmentImplicit1"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Sacrifice at Dawn",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri1",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Vaal02.dds",
+      "id": "VaalFragment1_2"
+    }
+  },
+  "Metadata/Items/MapFragments/VaalFragment1_3": {
+    "domain": "map_device",
+    "drop_level": 36,
+    "implicits": [
+      "VaalFragmentImplicit1"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Sacrifice at Noon",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri1",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Vaal03.dds",
+      "id": "VaalFragment1_3"
+    }
+  },
+  "Metadata/Items/MapFragments/VaalFragment1_4": {
+    "domain": "map_device",
+    "drop_level": 36,
+    "implicits": [
+      "VaalFragmentImplicit1"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Sacrifice at Dusk",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri1",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Vaal04.dds",
+      "id": "VaalFragment1_4"
+    }
+  },
+  "Metadata/Items/MapFragments/VaalFragment2_1": {
+    "domain": "map_device",
+    "drop_level": 70,
+    "implicits": [
+      "VaalFragmentImplicit2"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Mortal Rage",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberVaal01.dds",
+      "id": "VaalFragment2_1"
+    }
+  },
+  "Metadata/Items/MapFragments/VaalFragment2_2": {
+    "domain": "map_device",
+    "drop_level": 70,
+    "implicits": [
+      "VaalFragmentImplicit2"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Mortal Hope",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberVaal02.dds",
+      "id": "VaalFragment2_2"
+    }
+  },
+  "Metadata/Items/MapFragments/VaalFragment2_3": {
+    "domain": "map_device",
+    "drop_level": 70,
+    "implicits": [
+      "VaalFragmentImplicit2"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Mortal Ignorance",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberVaal03.dds",
+      "id": "VaalFragment2_3"
+    }
+  },
+  "Metadata/Items/MapFragments/VaalFragment2_4": {
+    "domain": "map_device",
+    "drop_level": 70,
+    "implicits": [
+      "VaalFragmentImplicit2"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Mortal Grief",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "atziri2",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/UberVaal04.dds",
+      "id": "VaalFragment2_4"
+    }
+  },
   "Metadata/Items/Maps/Map2Tier10_1": {
     "domain": "area",
     "drop_level": 77,
@@ -53221,6 +55051,1506 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Rings/RingoftheVictor.dds",
       "id": "RingOfTheVictor"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBeasts1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Bestiary Scarab",
+    "properties": {
+      "description": "Area contains Einhar\r\nArea contains an additional Red Beast",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabBeasts.dds",
+      "id": "ScarabBeasts1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBeasts2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Bestiary Scarab",
+    "properties": {
+      "description": "Area contains Einhar\r\nArea contains 2 additional Red Beasts",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabBeasts.dds",
+      "id": "ScarabBeasts2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBeasts3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Bestiary Scarab",
+    "properties": {
+      "description": "Area contains Einhar\r\nArea contains 3 additional Red Beasts",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabBeasts.dds",
+      "id": "ScarabBeasts3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBeasts4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Bestiary Scarab",
+    "properties": {
+      "description": "Area contains Einhar\r\nArea contains 5 additional Red Beasts from The Wilds\r\nCannot be used alongside a Bestiary Scarab",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabBeasts.dds",
+      "id": "ScarabBeasts4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBeasts4a": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Farric Lure",
+    "properties": {
+      "description": "Area contains Einhar\r\nArea contains 4 additional Red Beasts from The Wilds\r\nCannot be used alongside a Bestiary Scarab",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Bestiary/CurrencyCatAspect.dds",
+      "id": "LureWilds"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBeasts4b": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Saqawine Lure",
+    "properties": {
+      "description": "Area contains Einhar\r\nArea contains 4 additional Red Beasts from The Sands\r\nCannot be used alongside a Bestiary Scarab",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Bestiary/CurrencySnakeAspect.dds",
+      "id": "LureSands"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBeasts4c": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Fenumal Lure",
+    "properties": {
+      "description": "Area contains Einhar\r\nArea contains 4 additional Red Beasts from The Caverns\r\nCannot be used alongside a Bestiary Scarab",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Bestiary/CurrencySpiderAspect.dds",
+      "id": "LureCaverns"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBeasts4d": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Craicic Lure",
+    "properties": {
+      "description": "Area contains Einhar\r\nArea contains 4 additional Red Beasts from The Deep\r\nCannot be used alongside a Bestiary Scarab",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Bestiary/CurrencyCrabAspect.dds",
+      "id": "LureDeep"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBreach1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Breach Scarab",
+    "properties": {
+      "description": "Area contains an additional Breach",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabBreach.dds",
+      "id": "ScarabBreach1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBreach2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Breach Scarab",
+    "properties": {
+      "description": "Area contains 2 additional Breaches",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabBreach.dds",
+      "id": "ScarabBreach2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBreach3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Breach Scarab",
+    "properties": {
+      "description": "Area contains 3 additional Breaches",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabBreach.dds",
+      "id": "ScarabBreach3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBreach4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Breach Scarab",
+    "properties": {
+      "description": "Area contains 5 additional Breaches",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabBreach.dds",
+      "id": "ScarabBreach4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabDivinationCards1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Divination Scarab",
+    "properties": {
+      "description": "50% more Divination Cards found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabDivination.dds",
+      "id": "ScarabDivinationCards1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabDivinationCards2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Divination Scarab",
+    "properties": {
+      "description": "100% more Divination Cards found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabDivination.dds",
+      "id": "ScarabDivinationCards2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabDivinationCards3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Divination Scarab",
+    "properties": {
+      "description": "150% more Divination Cards found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabDivination.dds",
+      "id": "ScarabDivinationCards3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabDivinationCards4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Divination Scarab",
+    "properties": {
+      "description": "250% more Divination Cards found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabDivination.dds",
+      "id": "ScarabDivinationCards4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabElderRares1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Elder Scarab",
+    "properties": {
+      "description": "Adds Elder Influence outcome to Map Area\r\n30% more Rare Elder Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabElder.dds",
+      "id": "ScarabElderRares1_"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabElderRares2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Elder Scarab",
+    "properties": {
+      "description": "Adds Elder Influence outcome to Map Area\r\n60% more Rare Elder Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabElder.dds",
+      "id": "ScarabElderRares2_"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabElderRares3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Elder Scarab",
+    "properties": {
+      "description": "Adds Elder Influence outcome to Map Area\r\n90% more Rare Elder Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabElder.dds",
+      "id": "ScarabElderRares3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabElderRares4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Elder Scarab",
+    "properties": {
+      "description": "Adds Elder Influence outcome to Map Area\r\n150% more Rare Elder Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabElder.dds",
+      "id": "ScarabElderRares4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabHarbinger1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Harbinger Scarab",
+    "properties": {
+      "description": "Area contains 2 additional Harbingers",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabHarbingers.dds",
+      "id": "ScarabHarbinger1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabHarbinger2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Harbinger Scarab",
+    "properties": {
+      "description": "Area contains 3 additional Harbingers",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabHarbingers.dds",
+      "id": "ScarabHarbinger2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabHarbinger3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Harbinger Scarab",
+    "properties": {
+      "description": "Area contains 4 additional Harbingers",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabHarbingers.dds",
+      "id": "ScarabHarbinger3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabHarbinger4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Harbinger Scarab",
+    "properties": {
+      "description": "Area contains 7 additional Harbingers",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabHarbingers.dds",
+      "id": "ScarabHarbinger4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabLegion1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Legion Scarab",
+    "properties": {
+      "description": "Area contains an additional Legion Encounter",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabLegion.dds",
+      "id": "ScarabLegion1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabLegion2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Legion Scarab",
+    "properties": {
+      "description": "Area contains an additional Legion Encounter\r\nEach Legion contains a War Hoard",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabLegion.dds",
+      "id": "ScarabLegion2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabLegion3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Legion Scarab",
+    "properties": {
+      "description": "Area contains an additional Legion Encounter\r\nEach Legion contains a War Hoard\r\nEach Legion is accompanied by a General",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabLegion.dds",
+      "id": "ScarabLegion3_"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabLegion4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Legion Scarab",
+    "properties": {
+      "description": "Area contains 2 additional Legion Encounters\r\nEach Legion contains a War Hoard\r\nEach Legion is accompanied by a General",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabLegion.dds",
+      "id": "ScarabLegion4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabMaps1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Cartography Scarab",
+    "properties": {
+      "description": "20% more Maps found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabMaps.dds",
+      "id": "ScarabMaps1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabMaps2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Cartography Scarab",
+    "properties": {
+      "description": "35% more Maps found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabMaps.dds",
+      "id": "ScarabMaps2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabMaps3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Cartography Scarab",
+    "properties": {
+      "description": "50% more Maps found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabMaps.dds",
+      "id": "ScarabMaps3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabMaps4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Cartography Scarab",
+    "properties": {
+      "description": "85% more Maps found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabMaps.dds",
+      "id": "ScarabMaps4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabMetamorph1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Metamorph Scarab",
+    "properties": {
+      "description": "Area contains Metamorph Monsters",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabMetamorph.dds",
+      "id": "ScarabMetamorph1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabMetamorph2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Metamorph Scarab",
+    "properties": {
+      "description": "Area contains Metamorph Monsters\r\nMetamorph Bosses which drop an Itemised Sample drop an additional Itemised Sample",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabMetamorph.dds",
+      "id": "ScarabMetamorph2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabMetamorph3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Metamorph Scarab",
+    "properties": {
+      "description": "Area contains Metamorph Monsters\r\nMetamorph Bosses which drop an Itemised Sample drop an additional Itemised Sample\r\nAll Metamorph Monsters have Rewards",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabMetamorph.dds",
+      "id": "ScarabMetamorph3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabMetamorph4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Metamorph Scarab",
+    "properties": {
+      "description": "Area contains Metamorph Monsters\r\nMetamorph Bosses which drop an Itemised Sample drop two additional Itemised Samples\r\nAll Metamorph Monsters have Rewards",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabMetamorph.dds",
+      "id": "ScarabMetamorph4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabPerandus1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Perandus Scarab",
+    "properties": {
+      "description": "Area contains 2 additional Perandus Chests\r\nArea has a 33% chance to contain Cadiro Perandus",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabPerandus.dds",
+      "id": "ScarabPerandus1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabPerandus2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Perandus Scarab",
+    "properties": {
+      "description": "Area contains 3 additional Perandus Chests\r\nArea has a 66% chance to contain Cadiro Perandus",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabPerandus.dds",
+      "id": "ScarabPerandus2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabPerandus3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Perandus Scarab",
+    "properties": {
+      "description": "Area contains 4 additional Perandus Chests\r\nArea contains Cadiro Perandus",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabPerandus.dds",
+      "id": "ScarabPerandus3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabPerandus4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Perandus Scarab",
+    "properties": {
+      "description": "Area contains 7 additional Perandus Chests\r\nArea contains Cadiro Perandus",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabPerandus.dds",
+      "id": "ScarabPerandus4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabShaperRares1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Shaper Scarab",
+    "properties": {
+      "description": "Adds Shaper Influence outcome to Map Area\r\n30% more Rare Shaper Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabShaper.dds",
+      "id": "ScarabShaperRares1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabShaperRares2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Shaper Scarab",
+    "properties": {
+      "description": "Adds Shaper Influence outcome to Map Area\r\n60% more Rare Shaper Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabShaper.dds",
+      "id": "ScarabShaperRares2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabShaperRares3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Shaper Scarab",
+    "properties": {
+      "description": "Adds Shaper Influence outcome to Map Area\r\n90% more Rare Shaper Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabShaper.dds",
+      "id": "ScarabShaperRares3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabShaperRares4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Shaper Scarab",
+    "properties": {
+      "description": "Adds Shaper Influence outcome to Map Area\r\n150% more Rare Shaper Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabShaper.dds",
+      "id": "ScarabShaperRares4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabStrongbox1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Ambush Scarab",
+    "properties": {
+      "description": "Area contains 3 additional Strongboxes",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabStrongboxes.dds",
+      "id": "ScarabStrongbox1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabStrongbox2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Ambush Scarab",
+    "properties": {
+      "description": "Area contains 4 additional Strongboxes",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabStrongboxes.dds",
+      "id": "ScarabStrongbox2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabStrongbox3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Ambush Scarab",
+    "properties": {
+      "description": "Area contains 5 additional Strongboxes",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabStrongboxes.dds",
+      "id": "ScarabStrongbox3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabStrongbox4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Ambush Scarab",
+    "properties": {
+      "description": "Area contains 9 additional Strongboxes",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabStrongboxes.dds",
+      "id": "ScarabStrongbox4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabSulphite1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Sulphite Scarab",
+    "properties": {
+      "description": "Area contains Niko\r\nMap owner gains 20% more Sulphite",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabSulphite.dds",
+      "id": "ScarabSulphite1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabSulphite2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Sulphite Scarab",
+    "properties": {
+      "description": "Area contains Niko\r\nMap owner gains 40% more Sulphite",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabSulphite.dds",
+      "id": "ScarabSulphite2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabSulphite3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Sulphite Scarab",
+    "properties": {
+      "description": "Area contains Niko\r\nMap owner gains 60% more Sulphite",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabSulphite.dds",
+      "id": "ScarabSulphite3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabSulphite4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Sulphite Scarab",
+    "properties": {
+      "description": "Area contains Niko\r\nMap owner gains 100% more Sulphite",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabSulphite.dds",
+      "id": "ScarabSulphite4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabTorment1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Torment Scarab",
+    "properties": {
+      "description": "Area contains 3 additional Tormented Spirits",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabTorment.dds",
+      "id": "ScarabTorment1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabTorment2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Torment Scarab",
+    "properties": {
+      "description": "Area contains 5 additional Tormented Spirits",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabTorment.dds",
+      "id": "ScarabTorment2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabTorment3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Torment Scarab",
+    "properties": {
+      "description": "Area contains 7 additional Tormented Spirits",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabTorment.dds",
+      "id": "ScarabTorment3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabTorment4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Torment Scarab",
+    "properties": {
+      "description": "Area contains 12 additional Tormented Spirits",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabTorment.dds",
+      "id": "ScarabTorment4"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabUniques1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Reliquary Scarab",
+    "properties": {
+      "description": "50% more Unique Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabUnique.dds",
+      "id": "ScarabUniques1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabUniques2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Reliquary Scarab",
+    "properties": {
+      "description": "100% more Unique Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabUnique.dds",
+      "id": "ScarabUniques2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabUniques3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Reliquary Scarab",
+    "properties": {
+      "description": "150% more Unique Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabUnique.dds",
+      "id": "ScarabUniques3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabUniques4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Reliquary Scarab",
+    "properties": {
+      "description": "250% more Unique Items found in Area",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabUnique.dds",
+      "id": "ScarabUniques4"
     }
   },
   "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw1": {
