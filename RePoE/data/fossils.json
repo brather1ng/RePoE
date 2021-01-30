@@ -198,7 +198,18 @@
   },
   "Metadata/Items/Currency/CurrencyDelveCraftingCorruptEssence": {
     "added_mods": [],
-    "allowed_tags": [],
+    "allowed_tags": [
+      "weapon",
+      "body_armour",
+      "gloves",
+      "boots",
+      "helmet",
+      "shield",
+      "amulet",
+      "belt",
+      "ring",
+      "quiver"
+    ],
     "blocked_descriptions": [],
     "changes_quality": false,
     "corrupted_essence_chance": 100,
@@ -206,11 +217,7 @@
       "Has a Corrupt Essence modifier"
     ],
     "enchants": false,
-    "forbidden_tags": [
-      "jewel",
-      "abyss_jewel",
-      "map"
-    ],
+    "forbidden_tags": [],
     "forced_mods": [],
     "mirrors": false,
     "name": "Glyphic Fossil",
@@ -361,10 +368,7 @@
       "More Gem modifiers"
     ],
     "enchants": false,
-    "forbidden_tags": [
-      "map",
-      "jewel"
-    ],
+    "forbidden_tags": [],
     "forced_mods": [],
     "mirrors": false,
     "name": "Faceted Fossil",
@@ -508,9 +512,7 @@
       "More Minion, Aura or Curse modifiers"
     ],
     "enchants": false,
-    "forbidden_tags": [
-      "map"
-    ],
+    "forbidden_tags": [],
     "forced_mods": [],
     "mirrors": false,
     "name": "Bound Fossil",
@@ -636,9 +638,7 @@
       "Can have any Fossil modifiers"
     ],
     "enchants": false,
-    "forbidden_tags": [
-      "map"
-    ],
+    "forbidden_tags": [],
     "forced_mods": [],
     "mirrors": false,
     "name": "Tangled Fossil",
@@ -748,7 +748,11 @@
       "Has a Vaal modifier"
     ],
     "enchants": false,
-    "forbidden_tags": [],
+    "forbidden_tags": [
+      "heist_contract",
+      "heist_blueprint",
+      "heist_equipment"
+    ],
     "forced_mods": [
       "DelveWeaponVaalSoulCost1h1_",
       "DelveWeaponVaalSoulCost2h1",

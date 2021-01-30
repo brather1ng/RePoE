@@ -5105,6 +5105,102 @@
       "id": "BootsDexInt4"
     }
   },
+  "Metadata/Items/Armours/Boots/BootsDexRitual1": {
+    "domain": "item",
+    "drop_level": 20,
+    "implicits": [
+      "AddedLightningDamagePerAccuracyReducedAccuracyImplicitR1_"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Cloudwhisper Boots",
+    "properties": {
+      "evasion": 68
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 39,
+      "intelligence": 0,
+      "level": 20,
+      "strength": 0
+    },
+    "tags": [
+      "dex_armour",
+      "not_for_sale",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/RitualDexBoots.dds",
+      "id": "BootsDexR1"
+    }
+  },
+  "Metadata/Items/Armours/Boots/BootsDexRitual2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "AddedLightningDamagePerAccuracyReducedAccuracyImplicitR2_"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Windbreak Boots",
+    "properties": {
+      "evasion": 164
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 89,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "dex_armour",
+      "not_for_sale",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/RitualDexBoots.dds",
+      "id": "BootsDexR2"
+    }
+  },
+  "Metadata/Items/Armours/Boots/BootsDexRitual3": {
+    "domain": "item",
+    "drop_level": 80,
+    "implicits": [
+      "AddedLightningDamagePerAccuracyReducedAccuracyImplicitR3"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Stormrider Boots",
+    "properties": {
+      "evasion": 236
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 124,
+      "intelligence": 0,
+      "level": 80,
+      "strength": 0
+    },
+    "tags": [
+      "dex_armour",
+      "not_for_sale",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/RitualDexBoots.dds",
+      "id": "BootsDexR3"
+    }
+  },
   "Metadata/Items/Armours/Boots/BootsInt1": {
     "domain": "item",
     "drop_level": 3,
@@ -5364,6 +5460,102 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Armours/Boots/BootsInt4.dds",
       "id": "BootsInt4"
+    }
+  },
+  "Metadata/Items/Armours/Boots/BootsIntRitual1": {
+    "domain": "item",
+    "drop_level": 20,
+    "implicits": [
+      "MovementSkillCooldownReducedMoveSpeedImplicitR1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Duskwalk Slippers",
+    "properties": {
+      "energy_shield": 14
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 39,
+      "level": 20,
+      "strength": 0
+    },
+    "tags": [
+      "int_armour",
+      "not_for_sale",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/RitualIntBoots.dds",
+      "id": "BootsIntR1"
+    }
+  },
+  "Metadata/Items/Armours/Boots/BootsIntRitual2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "MovementSkillCooldownReducedMoveSpeedImplicitR2_"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Nightwind Slippers",
+    "properties": {
+      "energy_shield": 32
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 89,
+      "level": 50,
+      "strength": 0
+    },
+    "tags": [
+      "int_armour",
+      "not_for_sale",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/RitualIntBoots.dds",
+      "id": "BootsIntR2_"
+    }
+  },
+  "Metadata/Items/Armours/Boots/BootsIntRitual3": {
+    "domain": "item",
+    "drop_level": 80,
+    "implicits": [
+      "MovementSkillCooldownReducedMoveSpeedImplicitR3_"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Dreamquest Slippers",
+    "properties": {
+      "energy_shield": 47
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 124,
+      "level": 80,
+      "strength": 0
+    },
+    "tags": [
+      "int_armour",
+      "not_for_sale",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/RitualIntBoots.dds",
+      "id": "BootsIntR3"
     }
   },
   "Metadata/Items/Armours/Boots/BootsStr1": {
@@ -6107,6 +6299,102 @@
       "id": "BootsStrInt3"
     }
   },
+  "Metadata/Items/Armours/Boots/BootsStrRitual1": {
+    "domain": "item",
+    "drop_level": 20,
+    "implicits": [
+      "ChanceToBlockAndDamageTakenFromBlockedHitsImplicitR1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Basemetal Treads",
+    "properties": {
+      "armour": 68
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 20,
+      "strength": 39
+    },
+    "tags": [
+      "str_armour",
+      "not_for_sale",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/RitualStrBoots.dds",
+      "id": "BootsStrR1"
+    }
+  },
+  "Metadata/Items/Armours/Boots/BootsStrRitual2": {
+    "domain": "item",
+    "drop_level": 50,
+    "implicits": [
+      "ChanceToBlockAndDamageTakenFromBlockedHitsImplicitR2__"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Darksteel Treads",
+    "properties": {
+      "armour": 164
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 50,
+      "strength": 89
+    },
+    "tags": [
+      "str_armour",
+      "not_for_sale",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/RitualStrBoots.dds",
+      "id": "BootsStrR2"
+    }
+  },
+  "Metadata/Items/Armours/Boots/BootsStrRitual3": {
+    "domain": "item",
+    "drop_level": 80,
+    "implicits": [
+      "ChanceToBlockAndDamageTakenFromBlockedHitsImplicitR3"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Brimstone Treads",
+    "properties": {
+      "armour": 236
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 80,
+      "strength": 124
+    },
+    "tags": [
+      "str_armour",
+      "not_for_sale",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/RitualStrBoots.dds",
+      "id": "BootsStrR3"
+    }
+  },
   "Metadata/Items/Armours/Boots/BootsStrTemp": {
     "domain": "item",
     "drop_level": 1,
@@ -6769,6 +7057,102 @@
       "id": "GlovesDexInt3"
     }
   },
+  "Metadata/Items/Armours/Gloves/GlovesDexRitual1": {
+    "domain": "item",
+    "drop_level": 10,
+    "implicits": [
+      "MainHandOffHandDamage1_"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Gauche Gloves",
+    "properties": {
+      "evasion": 35
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 18,
+      "intelligence": 0,
+      "level": 10,
+      "strength": 0
+    },
+    "tags": [
+      "dex_armour",
+      "not_for_sale",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/RitualDexGloves.dds",
+      "id": "GlovesDexR1"
+    }
+  },
+  "Metadata/Items/Armours/Gloves/GlovesDexRitual2": {
+    "domain": "item",
+    "drop_level": 40,
+    "implicits": [
+      "MainHandOffHandDamage2"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Southswing Gloves",
+    "properties": {
+      "evasion": 132
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 59,
+      "intelligence": 0,
+      "level": 40,
+      "strength": 0
+    },
+    "tags": [
+      "dex_armour",
+      "not_for_sale",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/RitualDexGloves.dds",
+      "id": "GlovesDexR2"
+    }
+  },
+  "Metadata/Items/Armours/Gloves/GlovesDexRitual3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "MainHandOffHandDamage3_"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Sinistral Gloves",
+    "properties": {
+      "evasion": 236
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 101,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "dex_armour",
+      "not_for_sale",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/RitualDexGloves.dds",
+      "id": "GlovesDexR3_"
+    }
+  },
   "Metadata/Items/Armours/Gloves/GlovesInt1": {
     "domain": "item",
     "drop_level": 3,
@@ -7028,6 +7412,102 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Armours/Gloves/GlovesInt4.dds",
       "id": "GlovesInt4"
+    }
+  },
+  "Metadata/Items/Armours/Gloves/GlovesIntRitual1": {
+    "domain": "item",
+    "drop_level": 10,
+    "implicits": [
+      "GainManaOnManaPaidManaCost1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Leyline Gloves",
+    "properties": {
+      "energy_shield": 8
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 18,
+      "level": 10,
+      "strength": 0
+    },
+    "tags": [
+      "int_armour",
+      "not_for_sale",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/RitualIntGloves.dds",
+      "id": "GlovesIntR1"
+    }
+  },
+  "Metadata/Items/Armours/Gloves/GlovesIntRitual2": {
+    "domain": "item",
+    "drop_level": 40,
+    "implicits": [
+      "GainManaOnManaPaidManaCost2"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Aetherwind Gloves",
+    "properties": {
+      "energy_shield": 26
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 59,
+      "level": 40,
+      "strength": 0
+    },
+    "tags": [
+      "int_armour",
+      "not_for_sale",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/RitualIntGloves.dds",
+      "id": "GlovesIntR2"
+    }
+  },
+  "Metadata/Items/Armours/Gloves/GlovesIntRitual3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "GainManaOnManaPaidManaCost3____"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Nexus Gloves",
+    "properties": {
+      "energy_shield": 45
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 101,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "int_armour",
+      "not_for_sale",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/RitualIntGloves.dds",
+      "id": "GlovesIntR3"
     }
   },
   "Metadata/Items/Armours/Gloves/GlovesStr1": {
@@ -7771,6 +8251,102 @@
       "id": "GlovesStrInt3"
     }
   },
+  "Metadata/Items/Armours/Gloves/GlovesStrRitual1": {
+    "domain": "item",
+    "drop_level": 10,
+    "implicits": [
+      "ExertedDamageWarcryCooldown1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Taxing Gauntlets",
+    "properties": {
+      "armour": 35
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 10,
+      "strength": 18
+    },
+    "tags": [
+      "str_armour",
+      "not_for_sale",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/RitualStrGloves.dds",
+      "id": "GlovesStrR1"
+    }
+  },
+  "Metadata/Items/Armours/Gloves/GlovesStrRitual2": {
+    "domain": "item",
+    "drop_level": 40,
+    "implicits": [
+      "ExertedDamageWarcryCooldown2"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Gruelling Gauntlets",
+    "properties": {
+      "armour": 132
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 40,
+      "strength": 59
+    },
+    "tags": [
+      "str_armour",
+      "not_for_sale",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/RitualStrGloves.dds",
+      "id": "GlovesStrR2_"
+    }
+  },
+  "Metadata/Items/Armours/Gloves/GlovesStrRitual3": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "ExertedDamageWarcryCooldown3"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Debilitation Gauntlets",
+    "properties": {
+      "armour": 236
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 0,
+      "level": 70,
+      "strength": 101
+    },
+    "tags": [
+      "str_armour",
+      "not_for_sale",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/RitualStrGloves.dds",
+      "id": "GlovesStrR3"
+    }
+  },
   "Metadata/Items/Armours/Helmets/HelmetAtlas1": {
     "domain": "item",
     "drop_level": 73,
@@ -8455,6 +9031,105 @@
       "id": "HelmetDexInt9"
     }
   },
+  "Metadata/Items/Armours/Helmets/HelmetDexIntRitual1": {
+    "domain": "item",
+    "drop_level": 15,
+    "implicits": [
+      "AddedColdDamageColdPenetration1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Gale Crown",
+    "properties": {
+      "energy_shield": 9,
+      "evasion": 42
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 20,
+      "intelligence": 20,
+      "level": 15,
+      "strength": 0
+    },
+    "tags": [
+      "dex_int_armour",
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/HelmetDexIntR.dds",
+      "id": "HelmetDexIntR1_"
+    }
+  },
+  "Metadata/Items/Armours/Helmets/HelmetDexIntRitual2": {
+    "domain": "item",
+    "drop_level": 45,
+    "implicits": [
+      "AddedColdDamageColdPenetration2"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Winter Crown",
+    "properties": {
+      "energy_shield": 24,
+      "evasion": 122
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 51,
+      "intelligence": 51,
+      "level": 45,
+      "strength": 0
+    },
+    "tags": [
+      "dex_int_armour",
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/HelmetDexIntR.dds",
+      "id": "HelmetDexIntR2"
+    }
+  },
+  "Metadata/Items/Armours/Helmets/HelmetDexIntRitual3": {
+    "domain": "item",
+    "drop_level": 75,
+    "implicits": [
+      "AddedColdDamageColdPenetration3"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Blizzard Crown",
+    "properties": {
+      "energy_shield": 36,
+      "evasion": 185
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 79,
+      "intelligence": 79,
+      "level": 75,
+      "strength": 0
+    },
+    "tags": [
+      "dex_int_armour",
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/HelmetDexIntR.dds",
+      "id": "HelmetDexIntR3"
+    }
+  },
   "Metadata/Items/Armours/Helmets/HelmetInt1": {
     "domain": "item",
     "drop_level": 3,
@@ -9042,7 +9717,7 @@
     "inventory_height": 2,
     "inventory_width": 2,
     "item_class": "Helmet",
-    "name": "Samite Helmet",
+    "name": "Samnite Helmet",
     "properties": {
       "armour": 276
     },
@@ -9393,6 +10068,105 @@
       "id": "HelmetStrDex9"
     }
   },
+  "Metadata/Items/Armours/Helmets/HelmetStrDexRitual1": {
+    "domain": "item",
+    "drop_level": 15,
+    "implicits": [
+      "FortifyEffectCrushed1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Sorrow Mask",
+    "properties": {
+      "armour": 42,
+      "evasion": 42
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 20,
+      "intelligence": 0,
+      "level": 15,
+      "strength": 20
+    },
+    "tags": [
+      "str_dex_armour",
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/HelmetStrDexR.dds",
+      "id": "HelmetStrDexR1"
+    }
+  },
+  "Metadata/Items/Armours/Helmets/HelmetStrDexRitual2": {
+    "domain": "item",
+    "drop_level": 45,
+    "implicits": [
+      "FortifyEffectCrushed2_"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Atonement Mask",
+    "properties": {
+      "armour": 122,
+      "evasion": 122
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 51,
+      "intelligence": 0,
+      "level": 45,
+      "strength": 51
+    },
+    "tags": [
+      "str_dex_armour",
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/HelmetStrDexR.dds",
+      "id": "HelmetStrDexR2"
+    }
+  },
+  "Metadata/Items/Armours/Helmets/HelmetStrDexRitual3": {
+    "domain": "item",
+    "drop_level": 75,
+    "implicits": [
+      "FortifyEffectCrushed3_"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Penitent Mask",
+    "properties": {
+      "armour": 185,
+      "evasion": 185
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 79,
+      "intelligence": 0,
+      "level": 75,
+      "strength": 79
+    },
+    "tags": [
+      "str_dex_armour",
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/HelmetStrDexR.dds",
+      "id": "HelmetStrDexR3___"
+    }
+  },
   "Metadata/Items/Armours/Helmets/HelmetStrInt1": {
     "domain": "item",
     "drop_level": 5,
@@ -9691,6 +10465,105 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Armours/Helmets/HelmetStrInt9.dds",
       "id": "HelmetStrInt9"
+    }
+  },
+  "Metadata/Items/Armours/Helmets/HelmetStrIntRitual1": {
+    "domain": "item",
+    "drop_level": 15,
+    "implicits": [
+      "SocketedGemsApplyExposureReducedResistsImplicitR1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Imp Crown",
+    "properties": {
+      "armour": 42,
+      "energy_shield": 9
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 20,
+      "level": 15,
+      "strength": 20
+    },
+    "tags": [
+      "str_int_armour",
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/MaskCrown.dds",
+      "id": "HelmetStrIntR1_"
+    }
+  },
+  "Metadata/Items/Armours/Helmets/HelmetStrIntRitual2": {
+    "domain": "item",
+    "drop_level": 45,
+    "implicits": [
+      "SocketedGemsApplyExposureReducedResistsImplicitR2"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Demon Crown",
+    "properties": {
+      "armour": 122,
+      "energy_shield": 24
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 51,
+      "level": 45,
+      "strength": 51
+    },
+    "tags": [
+      "str_int_armour",
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/MaskCrown.dds",
+      "id": "HelmetStrIntR2"
+    }
+  },
+  "Metadata/Items/Armours/Helmets/HelmetStrIntRitual3": {
+    "domain": "item",
+    "drop_level": 75,
+    "implicits": [
+      "SocketedGemsApplyExposureReducedResistsImplicitR3___"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Helmet",
+    "name": "Archdemon Crown",
+    "properties": {
+      "armour": 185,
+      "energy_shield": 36
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 79,
+      "level": 75,
+      "strength": 79
+    },
+    "tags": [
+      "str_int_armour",
+      "not_for_sale",
+      "helmet",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Helmets/MaskCrown.dds",
+      "id": "HelmetStrIntR3"
     }
   },
   "Metadata/Items/Armours/Helmets/HelmetWreath1": {
@@ -13842,6 +14715,33 @@
       "id": "CurrencyAddAtlasModHigh"
     }
   },
+  "Metadata/Items/Currency/CurrencyAddAtlasModMaven": {
+    "domain": "undefined",
+    "drop_level": 83,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Elevated Sextant",
+    "properties": {
+      "description": "Adds or rerolls a modifier on a Watchstone.",
+      "directions": "Right click this item then left click a Watchstone to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "high_level_map",
+      "sextant",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/AtlasRadiusTier4.dds",
+      "id": "CurrencyAddAtlasModMaven"
+    }
+  },
   "Metadata/Items/Currency/CurrencyAddAtlasModMid": {
     "domain": "undefined",
     "drop_level": 73,
@@ -14620,6 +15520,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/CurrencyArmourQuality.dds",
       "id": "CurrencyArmourQuality"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyAtlasPassiveRefund": {
+    "domain": "undefined",
+    "drop_level": 78,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Orb of Unmaking",
+    "properties": {
+      "description": "Grants an atlas passive skill refund point",
+      "directions": "Right click on this item to use it.",
+      "stack_size": 40,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/RegretOrb.dds",
+      "id": "CurrencyAtlasPassiveRefund"
     }
   },
   "Metadata/Items/Currency/CurrencyBreachChaosShard": {
@@ -18656,7 +19581,7 @@
     "item_class": "StackableCurrency",
     "name": "Imprint",
     "properties": {
-      "description": "Restores an imprinted item onto the original",
+      "description": "Restores an imprinted item onto the original. Can't be applied to Fractured Items",
       "directions": "Right click this item then left click on the imprinted original item to restore its modifiers. An imprint cannot be dropped or traded to other players.",
       "stack_size": 1,
       "stack_size_currency_tab": 0
@@ -18681,7 +19606,7 @@
     "item_class": "StackableCurrency",
     "name": "Eternal Orb",
     "properties": {
-      "description": "Creates an imprint of an item for later restoration",
+      "description": "Creates an imprint of an item for later restoration. The imprint can't be applied to Fractured Items",
       "directions": "Right click this item then left click on an item to create an imprint. This imprint can later be used to restore this specific item to that imprinted state.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -20000,6 +20925,57 @@
       "id": "CurrencyRhoaFeather"
     }
   },
+  "Metadata/Items/Currency/CurrencyRitualSplinter": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Ritual Splinter",
+    "properties": {
+      "description": "",
+      "directions": "Combine 100 Splinters to create a Ritual Vessel.",
+      "full_stack_turns_into": "Metadata/Items/Currency/CurrencyRitualStone",
+      "stack_size": 100,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Ritual/RitualSplinter.dds",
+      "id": "CurrencyRitualSplinter_"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyRitualStone": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Ritual Vessel",
+    "properties": {
+      "description": "Stores the monsters slain for the first time from a completed Ritual Altar for future use",
+      "directions": "Right-click this item then left-click a Ritual Altar to store the monsters from the completed Ritual in this item. Cannot be used on a Ritual in a map opened with a Blood-Filled Vessel.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Ritual/Effigy.dds",
+      "id": "CurrencyRitualStone_"
+    }
+  },
   "Metadata/Items/Currency/CurrencySealMapHigh": {
     "domain": "undefined",
     "drop_level": 1,
@@ -20175,6 +21151,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/EngineersShard.dds",
       "id": "CurrencyStrongboxQualityShard"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyUpgradeInfluenceMod": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Maven's Orb",
+    "properties": {
+      "description": "Removes one Influenced Modifier from an item with at least two Influenced Modifiers and upgrades another Influenced Modifier. Upgrading a modifier of the highest tier transforms the modifier into an Elevated Modifier. Attempting to upgrade an Elevated Modifier rerolls its values. Can be used on Body Armours, Boots, Gloves and Helmets.",
+      "directions": "Right click this item then left click an item with at least two Influenced Modifiers to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/MavenOrb.dds",
+      "id": "MavenOrb"
     }
   },
   "Metadata/Items/Currency/CurrencyUpgradeMagicToRare": {
@@ -20956,6 +21957,31 @@
       "id": "AbandonedWealth"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardAcclimatisation": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Acclimatisation",
+    "properties": {
+      "description": "<currencyitem>{20x Orb of Alteration}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardAcclimatisation"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardAkilsProphecy": {
     "domain": "undefined",
     "drop_level": 1,
@@ -21413,6 +22439,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "BowyersDream"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardBrotherhoodInExile": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Brotherhood in Exile",
+    "properties": {
+      "description": "<uniqueitem>{One With Nothing}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardBrotherhoodInExile"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardBrothersStash": {
@@ -21881,7 +22933,7 @@
     "item_class": "DivinationCard",
     "name": "Dialla's Subjugation",
     "properties": {
-      "description": "<size:31>{<gemitem>{Superior Support Gem}\r\n<default>{Quality:} <augmented>{+23%}\r\n<corrupted>{Corrupted}}",
+      "description": "<size:31>{<gemitem>{Support Gem}\r\n<default>{Quality:} <augmented>{+23%}\r\n<corrupted>{Corrupted}}",
       "directions": "",
       "stack_size": 7,
       "stack_size_currency_tab": 5000
@@ -21948,6 +23000,32 @@
       "id": "DoedresMadness"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardDrapedInDreams": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Draped in Dreams",
+    "properties": {
+      "description": "<whiteitem>{Six-Linked Body Armour}\r\n<default>{Item Level:} <normal>{100}\r\n<default>{Influenced Item}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardDrapedInDreams"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardDyingAnguish": {
     "domain": "undefined",
     "drop_level": 1,
@@ -21957,7 +23035,7 @@
     "item_class": "DivinationCard",
     "name": "Dying Anguish",
     "properties": {
-      "description": "<gemitem>{Superior Level 19 Gem}\r\n<default>{Quality:} <augmented>{+19%}",
+      "description": "<gemitem>{Level 19 Gem}\r\n<default>{Alternate Quality:} <augmented>{+19%}",
       "directions": "",
       "stack_size": 8,
       "stack_size_currency_tab": 5000
@@ -21971,6 +23049,34 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DyingAnguish"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardDyingLight": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Dying Light",
+    "properties": {
+      "description": "<rareitem>{Diamond Ring}\r\n<default>{Item Level:} <normal>{100}\r\n<default>{Shaper + Elder Item}",
+      "directions": "",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "shaper_divination",
+      "elder_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardDyingLight"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardEarthDrinker": {
@@ -22100,6 +23206,31 @@
       "id": "DivinationCardEtchedInBlood"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardFatefulMeeting": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Fateful Meeting",
+    "properties": {
+      "description": "<uniqueitem>{League-Specific Item}\r\n<default>{Double-Influenced Item}\r\n<default>{Item Level:} <normal>{97}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 9,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardFatefulMeeting"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardForbiddenPower": {
     "domain": "undefined",
     "drop_level": 1,
@@ -22160,7 +23291,7 @@
     "item_class": "DivinationCard",
     "name": "Gemcutter's Promise",
     "properties": {
-      "description": "<gemitem>{Superior Gem}\r\n<default>{Quality:} <augmented>{+20%}",
+      "description": "<gemitem>{Gem}\r\n<default>{Quality:} <augmented>{+20%}",
       "directions": "",
       "stack_size": 3,
       "stack_size_currency_tab": 5000
@@ -22301,6 +23432,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "HarmonyOfSouls"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardHauntingShadows": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Haunting Shadows",
+    "properties": {
+      "description": "<uniqueitem>{Metamorph Item}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardHauntingShadows"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardHerMask": {
@@ -22585,6 +23741,33 @@
       "id": "JackInTheBox"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardKeepersCorruption": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Keeper's Corruption",
+    "properties": {
+      "description": "<magicitem>{Eldritch Bone Helmet (Concentrated Effect)}\r\n<default>{Item Level:} <normal>{89}\r\n<default>{Elder Item}",
+      "directions": "",
+      "stack_size": 7,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "elder_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardKeepersCorruption"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardLantadorsLostLove": {
     "domain": "undefined",
     "drop_level": 1,
@@ -22735,6 +23918,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "LostWorlds"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardLoveThroughIce": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Love Through Ice",
+    "properties": {
+      "description": "<uniqueitem>{Unnatural Instinct}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardLoveThroughIce"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardLoyalty": {
@@ -23328,6 +24537,32 @@
       "id": "Rebirth"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardRecklessAmbition": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Reckless Ambition",
+    "properties": {
+      "description": "<uniqueitem>{Omeyocan}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardRecklessAmbition"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardRemembrance": {
     "domain": "undefined",
     "drop_level": 1,
@@ -23453,6 +24688,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "ShardOfFate"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardSocietysRemorse": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Society's Remorse",
+    "properties": {
+      "description": "<currencyitem>{10x Orb of Alteration}",
+      "directions": "",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardSocietysRemorse"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardSquanderedProsperity": {
@@ -23709,6 +24969,33 @@
       "id": "TheArtist"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheAstromancer": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Astromancer",
+    "properties": {
+      "description": "<size:27>{<uniqueitem>{The Eternity Shroud}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}}",
+      "directions": "",
+      "stack_size": 7,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "shaper_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheAstromancer_"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheAvenger": {
     "domain": "undefined",
     "drop_level": 1,
@@ -23810,6 +25097,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheBattleBorn"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheBearWoman": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Bear Woman",
+    "properties": {
+      "description": "<magicitem>{Fecund Ursine Pelt}\r\n<default>{Warlord Item}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheBearWoman"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBeast": {
@@ -24720,7 +26033,7 @@
     "item_class": "DivinationCard",
     "name": "The Doppelganger",
     "properties": {
-      "description": "<gemitem>{Superior Mirror Arrow}\r\n<default>{Quality:} <augmented>{+20%}",
+      "description": "<gemitem>{Mirror Arrow}\r\n<default>{Quality:} <augmented>{+20%}",
       "directions": "",
       "stack_size": 2,
       "stack_size_currency_tab": 5000
@@ -26269,6 +27582,32 @@
       "id": "DivinationCardTheLongCon__"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheLongWatch": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Long Watch",
+    "properties": {
+      "description": "<uniqueitem>{The Vigil}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheLongWatch"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheLordInBlack": {
     "domain": "undefined",
     "drop_level": 1,
@@ -26810,6 +28149,31 @@
       "id": "ThePact"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardThePatient": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Patient",
+    "properties": {
+      "description": "<divination>{The Nurse}",
+      "directions": "",
+      "stack_size": 8,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardThePatient"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardThePenitent": {
     "domain": "undefined",
     "drop_level": 1,
@@ -27128,7 +28492,7 @@
     "item_class": "DivinationCard",
     "name": "The Realm",
     "properties": {
-      "description": "<gemitem>{Superior Portal}",
+      "description": "<gemitem>{Portal}\r\n<default>{Quality:} <augmented>{+1-20%}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -27719,7 +29083,7 @@
     "item_class": "DivinationCard",
     "name": "The Summoner",
     "properties": {
-      "description": "<gemitem>{Superior Minion Gem}\r\n<default>{Quality:} <augmented>{+20%}",
+      "description": "<gemitem>{Minion Gem}\r\n<default>{Quality:} <augmented>{+20%}",
       "directions": "",
       "stack_size": 6,
       "stack_size_currency_tab": 5000
@@ -28504,6 +29868,32 @@
       "id": "DivinationCardTheWhiteKnight"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheWhiteout": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Whiteout",
+    "properties": {
+      "description": "<uniqueitem>{Cospri's Malice}",
+      "directions": "",
+      "stack_size": 8,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "weapon_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheWhiteout"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheWiltedRose": {
     "domain": "undefined",
     "drop_level": 1,
@@ -29202,7 +30592,7 @@
     "item_class": "DivinationCard",
     "name": "Volatile Power",
     "properties": {
-      "description": "<gemitem>{Superior Vaal Gem}\r\n<default>{Quality:} <augmented>{+20%}\r\n<corrupted>{Corrupted}",
+      "description": "<gemitem>{Vaal Gem}\r\n<default>{Quality:} <augmented>{+20%}\r\n<corrupted>{Corrupted}",
       "directions": "",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
@@ -31134,6 +32524,26 @@
       "id": "SkillGemBlight"
     }
   },
+  "Metadata/Items/Gems/SkillGemBlindingAura": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Blinding Aura",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BlindingAura.dds",
+      "id": "SkillGemBlindingAura"
+    }
+  },
   "Metadata/Items/Gems/SkillGemBlinkArrow": {
     "domain": "undefined",
     "drop_level": 10,
@@ -31161,7 +32571,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "DNT Blitz",
+    "name": "[UNUSED] Blitz",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -31222,7 +32632,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "[DNT]Blood Whirl",
+    "name": "[UNUSED] Blood Whirl",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -31242,7 +32652,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "[DNT] Bone Armour",
+    "name": "[UNUSED] Bone Armour",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -31467,7 +32877,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "[DNT] Coiling Assault",
+    "name": "[UNUSED] Coiling Assault",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -31840,6 +33250,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/QuickDashGem.dds",
       "id": "SkillGemDash"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemDeathAura": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Death Aura",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/DeathAura.dds",
+      "id": "SkillGemDeathAura_"
     }
   },
   "Metadata/Items/Gems/SkillGemDecoyTotem": {
@@ -32292,6 +33722,26 @@
       "id": "SkillGemEnsnaringArrow"
     }
   },
+  "Metadata/Items/Gems/SkillGemEnvy": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Envy",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Envy.dds",
+      "id": "SkillGemEnvy"
+    }
+  },
   "Metadata/Items/Gems/SkillGemEssenceDrain": {
     "domain": "undefined",
     "drop_level": 12,
@@ -32635,6 +34085,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Flammability.dds",
       "id": "SkillGemFlammability"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemFlammableShot": {
+    "domain": "undefined",
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Flammable Shot",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BurningArrow.dds",
+      "id": "SkillGemFlammableShot"
     }
   },
   "Metadata/Items/Gems/SkillGemFleshAndStone": {
@@ -32987,6 +34457,26 @@
       "id": "SkillGemGlacialHammer"
     }
   },
+  "Metadata/Items/Gems/SkillGemGluttonyOfElements": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Gluttony of Elements",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/GluttonyOfElements.dds",
+      "id": "SkillGemGluttonyOfElements"
+    }
+  },
   "Metadata/Items/Gems/SkillGemGrace": {
     "domain": "undefined",
     "drop_level": 24,
@@ -33229,6 +34719,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/DoomBlastSkillGem.dds",
       "id": "SkillGemDoomBlast"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemHydrosphere": {
+    "domain": "undefined",
+    "drop_level": 34,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Hydrosphere",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Hydrosphere.dds",
+      "id": "SkillGemHydrosphere_"
     }
   },
   "Metadata/Items/Gems/SkillGemIceCrash": {
@@ -33826,7 +35336,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "Magma Orb",
+    "name": "Rolling Magma",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -34315,7 +35825,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "DNT Projectile Portal",
+    "name": "[UNUSED] Projectile Portal",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -34436,7 +35946,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "[DNT] Quick Block",
+    "name": "[UNUSED] Quick Block",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -34640,7 +36150,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "[DNT] Replicate",
+    "name": "[UNUSED] Replicate",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -34823,7 +36333,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "[DNT] Serpent Strike",
+    "name": "[UNUSED] Serpent Strike",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -35066,7 +36576,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Active Skill Gem",
-    "name": "[DNT] Slice And Dice",
+    "name": "[UNUSED] Slice And Dice",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -38356,7 +39866,7 @@
   },
   "Metadata/Items/Gems/SupportGemEfficacy": {
     "domain": "undefined",
-    "drop_level": 31,
+    "drop_level": 8,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -38366,6 +39876,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "up_to_level_8_gem",
       "support_gem",
       "gem",
       "default"
@@ -38889,7 +40400,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "DNT Handcast Rapid Fire",
+    "name": "[UNUSED] Handcast Rapid Fire",
     "properties": {},
     "release_state": "unreleased",
     "requirements": null,
@@ -40674,6 +42185,27 @@
       "id": "SupportGemTrapCooldownRecovery"
     }
   },
+  "Metadata/Items/Gems/SupportGemTrinity": {
+    "domain": "undefined",
+    "drop_level": 18,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Trinity Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/TrinitySupportGem.dds",
+      "id": "SupportGemTrinity"
+    }
+  },
   "Metadata/Items/Gems/SupportGemUnboundAilments": {
     "domain": "undefined",
     "drop_level": 8,
@@ -40909,7 +42441,7 @@
   },
   "Metadata/Items/Heist/HeistCoin": {
     "domain": "undefined",
-    "drop_level": 4,
+    "drop_level": 48,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -41992,6 +43524,56 @@
       "id": "LegionFragmentVaal_"
     }
   },
+  "Metadata/Items/MapFragments/CurrencyMavenKey": {
+    "domain": "undefined",
+    "drop_level": 83,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "The Maven's Writ",
+    "properties": {
+      "description": "",
+      "directions": "Open a portal to Absence of Mercy and Empathy by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Atlas/MavenKey.dds",
+      "id": "MavenKey"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyMavenKeyFragment": {
+    "domain": "undefined",
+    "drop_level": 83,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Crescent Splinter",
+    "properties": {
+      "description": "",
+      "directions": "Combine 10 Crescent Splinters to create The Maven's Writ.",
+      "full_stack_turns_into": "Metadata/Items/MapFragments/CurrencyMavenKey",
+      "stack_size": 10,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Atlas/MavenKeyFragment.dds",
+      "id": "MavenKeyFragment"
+    }
+  },
   "Metadata/Items/MapFragments/CurrencyOfferingToTheGoddess": {
     "domain": "undefined",
     "drop_level": 1,
@@ -42775,6 +44357,30 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Maps/PaleCourt04.dds",
       "id": "ProphecyFragment4_"
+    }
+  },
+  "Metadata/Items/MapFragments/RitualFragment": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Blood-filled Vessel",
+    "properties": {
+      "description": "",
+      "directions": "Can be used in a personal Map Device alongside a Map to add the monsters stored from a previous Ritual Altar to a Ritual Altar in that Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Ritual/BloodSoakedEffigy.dds",
+      "id": "CurrencyRitualFragment_"
     }
   },
   "Metadata/Items/MapFragments/ShaperFragment1": {
@@ -51289,6 +52895,28 @@
       "id": "MapWorldsCatacomb"
     }
   },
+  "Metadata/Items/Maps/MapWorldsBrambleValley": {
+    "domain": "area",
+    "drop_level": 81,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Bramble Valley Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "mountain",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/Bramblefall.dds",
+      "id": "MapWorldsBramblefall"
+    }
+  },
   "Metadata/Items/Maps/MapWorldsBurialChambers": {
     "domain": "area",
     "drop_level": 70,
@@ -51569,6 +53197,28 @@
       "id": "MapWorldsCitySquare"
     }
   },
+  "Metadata/Items/Maps/MapWorldsColdRiver": {
+    "domain": "area",
+    "drop_level": 78,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Cold River Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "forest",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/ColdRiver.dds",
+      "id": "MapWorldsColdRiver"
+    }
+  },
   "Metadata/Items/Maps/MapWorldsColonnade": {
     "domain": "area",
     "drop_level": 78,
@@ -51779,6 +53429,28 @@
       "id": "MapWorldsCrimsonTemple"
     }
   },
+  "Metadata/Items/Maps/MapWorldsCrimsonTownship": {
+    "domain": "area",
+    "drop_level": 79,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Crimson Township Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "urban",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/CrimsonTownship.dds",
+      "id": "MapWorldsCrimsonTownship"
+    }
+  },
   "Metadata/Items/Maps/MapWorldsCrystalOre": {
     "domain": "area",
     "drop_level": 79,
@@ -51943,6 +53615,28 @@
       "id": "MapWorldsDig"
     }
   },
+  "Metadata/Items/Maps/MapWorldsDrySea": {
+    "domain": "area",
+    "drop_level": 81,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Dry Sea Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "beach",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/DesertShipGraveyard.dds",
+      "id": "MapWorldsDrySea"
+    }
+  },
   "Metadata/Items/Maps/MapWorldsDunes": {
     "domain": "area",
     "drop_level": 74,
@@ -52104,6 +53798,96 @@
       "id": "MapWorldsFloodedMine"
     }
   },
+  "Metadata/Items/Maps/MapWorldsForbiddenWoods": {
+    "domain": "area",
+    "drop_level": 77,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Forbidden Woods Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "forest",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/ForbiddenWoods.dds",
+      "id": "MapWorldsForbiddenWoods"
+    }
+  },
+  "Metadata/Items/Maps/MapWorldsForkingRiver": {
+    "domain": "area",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Forking River Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "mountain",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/ForkingRiver.dds",
+      "id": "MapWorldsForkingRiver"
+    }
+  },
+  "Metadata/Items/Maps/MapWorldsFoundry": {
+    "domain": "area",
+    "drop_level": 82,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Foundry Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "temple",
+      "indoors_area",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/ThaumaturgyDungeon.dds",
+      "id": "MapWorldsThaumaturgistsLair"
+    }
+  },
+  "Metadata/Items/Maps/MapWorldsFrozenCabins": {
+    "domain": "area",
+    "drop_level": 69,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Frozen Cabins Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "cave",
+      "indoors_area",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/FrozenCabins.dds",
+      "id": "MapWorldsFrozenCabins"
+    }
+  },
   "Metadata/Items/Maps/MapWorldsGardens": {
     "domain": "area",
     "drop_level": 74,
@@ -52194,6 +53978,28 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/Glacier.dds",
       "id": "MapWorldsGorge"
+    }
+  },
+  "Metadata/Items/Maps/MapWorldsGraveTrough": {
+    "domain": "area",
+    "drop_level": 78,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Grave Trough Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "mountain",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/Burn.dds",
+      "id": "MapWorldsBurn"
     }
   },
   "Metadata/Items/Maps/MapWorldsGraveyard": {
@@ -53565,6 +55371,29 @@
       "id": "MapWorldsBoulevard"
     }
   },
+  "Metadata/Items/Maps/MapWorldsSilo": {
+    "domain": "area",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Silo Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "dungeon",
+      "indoors_area",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/RobotTunnelSilo.dds",
+      "id": "MapWorldsSilo"
+    }
+  },
   "Metadata/Items/Maps/MapWorldsSpiderForest": {
     "domain": "area",
     "drop_level": 78,
@@ -53633,6 +55462,28 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/FungalCaverns.dds",
       "id": "MapWorldsSprings_"
+    }
+  },
+  "Metadata/Items/Maps/MapWorldsStagnation": {
+    "domain": "area",
+    "drop_level": 76,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Map",
+    "name": "Stagnation Map",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "forest",
+      "map",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/Atlas2Maps/New/Stagnation.dds",
+      "id": "MapWorldsStagnation_"
     }
   },
   "Metadata/Items/Maps/MapWorldsStrand": {
@@ -69448,6 +71299,43 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/TheGoddessUnleashed.dds",
       "id": "OneHandSwordC"
+    }
+  },
+  "Metadata/items/Weapons/OneHandWeapons/OneHandSwords/OneHandSwordDemigods1": {
+    "domain": "item",
+    "drop_level": 1,
+    "implicits": [
+      "AllAttributesImplicitDemigodOneHandSword1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "One Hand Sword",
+    "name": "Golden Blade",
+    "properties": {
+      "attack_time": 909,
+      "critical_strike_chance": 500,
+      "physical_damage_max": 23,
+      "physical_damage_min": 3,
+      "range": 11
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 8,
+      "intelligence": 0,
+      "level": 1,
+      "strength": 8
+    },
+    "tags": [
+      "not_for_sale",
+      "sword",
+      "one_hand_weapon",
+      "onehand",
+      "weapon",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/DemigodsAuthority.dds",
+      "id": "UniqueOneHandSwordDemigods1"
     }
   }
 }

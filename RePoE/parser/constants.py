@@ -215,6 +215,8 @@ class ActiveSkillType(IntEnum):
     steel = 97
     hex = 98
     mark = 99
+    aegis = 100
+    orb = 101
 
 
 @unique

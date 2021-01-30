@@ -169,6 +169,7 @@ ITEM_CLASS_BLACKLIST = {
     "HeistEquipmentUtility",
     "HeistEquipmentReward",
     "HeistObjective",
+    "HiddenItem",
 }
 
 
