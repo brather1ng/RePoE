@@ -139,6 +139,7 @@ ITEM_CLASS_WHITELIST = {
     "DivinationCard",
     "Map",
     "MapFragment",
+    "AtlasRegionUpgradeItem",
 }
 
 ITEM_CLASS_BLACKLIST = {
@@ -147,7 +148,6 @@ ITEM_CLASS_BLACKLIST = {
     "Leaguestone",
     "LabyrinthItem",
     "PantheonSoul",
-    "AtlasRegionUpgradeItem",
     "DelveStackableSocketableCurrency",
     "DelveSocketableCurrency",
     "UniqueFragment",
