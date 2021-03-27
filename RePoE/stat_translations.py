@@ -25,4 +25,27 @@ passive_skill = load_json("passive_skill.json", __STAT_TRANSLATION_PATH__)
 passive_skill_aura = load_json("passive_skill_aura.json", __STAT_TRANSLATION_PATH__)
 monster = load_json("monster.json", __STAT_TRANSLATION_PATH__)
 
+all = [
+    strongbox,
+    support_gem,
+    skill,
+    aura_skill,
+    banner_aura_skill,
+    beam_skill,
+    brand_skill,
+    buff_skill,
+    curse_skill,
+    debuff_skill,
+    minion_skill,
+    minion_attack_skill,
+    minion_spell_skill,
+    offering_skill,
+    variable_duration_skill,
+    areas,
+    atlas,
+    passive_skill,
+    passive_skill_aura,
+    monster,
+]
+
 _assert_all_json_files_accounted_for(__STAT_TRANSLATION_PATH__)
