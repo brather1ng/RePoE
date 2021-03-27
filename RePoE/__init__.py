@@ -49,7 +49,7 @@ def _get_all_json_files(base_path=__DATA_PATH__):
 def _assert_all_json_files_accounted_for(base_path=__DATA_PATH__):
     json_files = _get_all_json_files(base_path=__DATA_PATH__)
     for json_file in json_files:
-        json_file_stripped = json_file[:-5]
+        json_file_stripped, _, _ = json_file.partition(".json")
         assert (
             json_file_stripped in globals()
         ), f"the following json file needs to be added to __init__ load: {json_file}"
