@@ -8,8 +8,8 @@ __REPOE_DIR__, _ = os.path.split(__file__)
 __DATA_PATH__ = os.path.join(__REPOE_DIR__, "data", "")
 
 
-def load_json(json_file_path):
-    file_path = __DATA_PATH__ + f"{json_file_path}"
+def load_json(json_file_path, base_path=__DATA_PATH__):
+    file_path = base_path + f"{json_file_path}"
     with open(file_path) as json_data:
         try:
             return json.load(json_data)
@@ -36,20 +36,20 @@ cluster_jewels = load_json("cluster_jewels.json")
 cluster_jewel_notables = load_json("cluster_jewel_notables.json")
 
 
-def _get_all_json_files():
+def _get_all_json_files(base_path=__DATA_PATH__):
     """get all json files in /data"""
     json_files = [
         pos_json
-        for pos_json in os.listdir(__DATA_PATH__)
+        for pos_json in os.listdir(base_path)
         if pos_json.endswith(".json") and not pos_json.endswith(".min.json")
     ]
     return json_files
 
 
-def _assert_all_json_files_accounted_for():
-    json_files = _get_all_json_files()
+def _assert_all_json_files_accounted_for(base_path=__DATA_PATH__):
+    json_files = _get_all_json_files(base_path=__DATA_PATH__)
     for json_file in json_files:
-        json_file_stripped = json_file[:-5]
+        json_file_stripped, _, _ = json_file.partition(".json")
         assert (
             json_file_stripped in globals()
         ), f"the following json file needs to be added to __init__ load: {json_file}"
