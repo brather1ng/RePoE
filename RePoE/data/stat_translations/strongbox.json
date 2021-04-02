@@ -43278,7 +43278,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains an extra Shrine"
+        "string": "Area contains an additional Shrine"
       },
       {
         "condition": [
@@ -43292,7 +43292,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains {0} extra Shrines"
+        "string": "Area contains {0} additional Shrines"
       }
     ],
     "ids": [
@@ -43496,7 +43496,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains an extra Strongbox"
+        "string": "Area contains an additional Strongbox"
       },
       {
         "condition": [
@@ -43510,7 +43510,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains {0} extra Strongboxes"
+        "string": "Area contains {0} additional Strongboxes"
       }
     ],
     "ids": [
@@ -49019,7 +49019,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Ignited Enemies you hit are destroyed on Kill"
+        "string": "Ignited Enemies Killed by your Hits are destroyed"
       }
     ],
     "ids": [
@@ -49057,7 +49057,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% additional chance for Slain monsters to drop Scrolls of Wisdom"
+        "string": "{0}% chance for Slain monsters to drop an additional Scroll of Wisdom"
       }
     ],
     "ids": [
@@ -171123,7 +171123,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains an extra Gloom Shrine"
+        "string": "Area contains an additional Gloom Shrine"
       },
       {
         "condition": [
@@ -171137,7 +171137,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains {0} extra Gloom Shrines"
+        "string": "Area contains {0} additional Gloom Shrines"
       }
     ],
     "ids": [
@@ -171159,7 +171159,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains an extra Harbinger"
+        "string": "Area contains an additional Harbinger"
       },
       {
         "condition": [
@@ -171173,7 +171173,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains {0} extra Harbingers"
+        "string": "Area contains {0} additional Harbingers"
       }
     ],
     "ids": [
@@ -171195,7 +171195,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains an extra Resonating Shrine"
+        "string": "Area contains an additional Resonating Shrine"
       },
       {
         "condition": [
@@ -171209,7 +171209,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area contains {0} extra Resonating Shrines"
+        "string": "Area contains {0} additional Resonating Shrines"
       }
     ],
     "ids": [
@@ -197247,13 +197247,15 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "per_minute_to_per_second"
+          ]
         ],
         "string": "Totems Regenerate {0}% of Life per second"
       }
     ],
     "ids": [
-      "totems_regenerate_%_life_per_second"
+      "totems_regenerate_%_life_per_minute"
     ]
   },
   {
