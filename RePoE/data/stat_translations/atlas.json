@@ -48958,7 +48958,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Ignited Enemies you hit are destroyed on Kill"
+        "string": "Ignited Enemies Killed by your Hits are destroyed"
       }
     ],
     "ids": [
@@ -48996,7 +48996,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% additional chance for Slain monsters to drop Scrolls of Wisdom"
+        "string": "{0}% chance for Slain monsters to drop an additional Scroll of Wisdom"
       }
     ],
     "ids": [
@@ -194708,13 +194708,15 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "per_minute_to_per_second"
+          ]
         ],
         "string": "Totems Regenerate {0}% of Life per second"
       }
     ],
     "ids": [
-      "totems_regenerate_%_life_per_second"
+      "totems_regenerate_%_life_per_minute"
     ]
   },
   {
@@ -201806,12 +201808,12 @@
           }
         ],
         "format": [
-          "#"
+          "+#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Areas have {0}% additional chance to contain an Abyss"
+        "string": "Areas have {0}% chance to contain an Abyss"
       }
     ],
     "ids": [
@@ -202356,12 +202358,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Areas contain an additional Rogue Exile for every {0} additional\ncontent types applied to Areas"
+        "string": "Areas contain additional Rogue Exiles based on the amount of extra content in Areas"
       }
     ],
     "ids": [
@@ -202417,12 +202419,12 @@
           {}
         ],
         "format": [
-          "#"
+          "+#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Areas have {0}% additional chance to contain a mirror of Delirium"
+        "string": "Areas have {0}% chance to contain a mirror of Delirium"
       }
     ],
     "ids": [
@@ -203614,12 +203616,12 @@
           {}
         ],
         "format": [
-          "#"
+          "+#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Areas have {0}% additional chance to contain a Blight Encounter"
+        "string": "Areas have {0}% chance to contain a Blight Encounter"
       }
     ],
     "ids": [
@@ -206935,12 +206937,12 @@
           {}
         ],
         "format": [
-          "#"
+          "+#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "The Elder has an additional {0}% chance to drop a Watcher's Eye"
+        "string": "The Elder has {0}% chance to drop a Watcher's Eye"
       }
     ],
     "ids": [
@@ -208518,12 +208520,12 @@
           {}
         ],
         "format": [
-          "#"
+          "+#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Areas have {0}% additional chance to contain a Legion Encounter"
+        "string": "Areas have {0}% chance to contain a Legion Encounter"
       }
     ],
     "ids": [
@@ -209129,7 +209131,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas have {0}% chance to grant an additional Mission on Completion"
+        "string": "Areas have +{0}% chance to grant an Atlas Mission on Completion"
       }
     ],
     "ids": [
@@ -209289,12 +209291,12 @@
           {}
         ],
         "format": [
-          "#"
+          "+#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Areas have {0}% additional chance to contain a Metamorph Encounter"
+        "string": "Areas have {0}% chance to contain a Metamorph Encounter"
       }
     ],
     "ids": [
@@ -209500,7 +209502,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain an extra Gloom Shrine"
+        "string": "Areas contain an additional Gloom Shrine"
       },
       {
         "condition": [
@@ -209514,7 +209516,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain {0} extra Gloom Shrines"
+        "string": "Areas contain {0} additional Gloom Shrines"
       }
     ],
     "ids": [
@@ -209536,7 +209538,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain an extra Harbinger"
+        "string": "Areas contain an additional Harbinger"
       },
       {
         "condition": [
@@ -209550,7 +209552,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain {0} extra Harbingers"
+        "string": "Areas contain {0} additional Harbingers"
       }
     ],
     "ids": [
@@ -209608,7 +209610,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain an extra Resonating Shrine"
+        "string": "Areas contain an additional Resonating Shrine"
       },
       {
         "condition": [
@@ -209622,7 +209624,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain {0} extra Resonating Shrines"
+        "string": "Areas contain {0} additional Resonating Shrines"
       }
     ],
     "ids": [
@@ -209644,7 +209646,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain an extra Shrine"
+        "string": "Areas contain an additional Shrine"
       },
       {
         "condition": [
@@ -209658,7 +209660,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain {0} extra Shrines"
+        "string": "Areas contain {0} additional Shrines"
       }
     ],
     "ids": [
@@ -209680,7 +209682,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain an extra Strongbox"
+        "string": "Areas contain an additional Strongbox"
       },
       {
         "condition": [
@@ -209694,7 +209696,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Areas contain {0} extra Strongboxes"
+        "string": "Areas contain {0} additional Strongboxes"
       }
     ],
     "ids": [
@@ -210535,7 +210537,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Timeless Splinters dropped by Legion Monsters in Areas have {0}% chance to drop as Timeless Emblems instead"
+        "string": "Timeless Splinters dropped in Areas have {0}% chance to drop as Timeless Emblems instead"
       }
     ],
     "ids": [
@@ -210700,12 +210702,12 @@
           {}
         ],
         "format": [
-          "#"
+          "+#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Areas have {0}% additional chance to contain a Smuggler\u2019s Cache"
+        "string": "Areas have {0}% chance to contain a Smuggler\u2019s Cache"
       }
     ],
     "ids": [
@@ -212051,7 +212053,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Zana Missions in Areas have double the number of Map options"
+        "string": "Zana Missions in Areas have double the Base number of Map options"
       }
     ],
     "ids": [

@@ -6273,6 +6273,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "base_phasing_without_visual": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "base_physical_damage_%_of_maximum_energy_shield_taken_per_minute": {
     "alias": {},
     "is_aliased": false,
@@ -6699,6 +6704,11 @@
     "is_local": false
   },
   "base_totem_range": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_track_mana_spent_recently_from_skill": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -15603,6 +15613,11 @@
     "is_local": false
   },
   "damage_cannot_be_reflected": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "damage_cannot_be_reflected_or_leech_if_used_by_other_object": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -54668,6 +54683,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "phasing_with_visual": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "phys_cascade_trap_base_interval_duration_ms": {
     "alias": {},
     "is_aliased": false,
@@ -59125,6 +59145,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "skill_buff_grant_critical_strike_multiplier_+": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "skill_buff_grants_attack_and_cast_speed_+%": {
     "alias": {},
     "is_aliased": false,
@@ -59191,6 +59216,11 @@
     "is_local": false
   },
   "skill_cannot_be_stunned": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "skill_cannot_gain_repeat_bonuses": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -64805,7 +64835,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "totems_regenerate_%_life_per_second": {
+  "totems_regenerate_%_life_per_minute": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -67218,6 +67248,11 @@
     "is_local": false
   },
   "virtual_damage_+%_vs_abyssal_monsters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_damage_cannot_be_reflected": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
