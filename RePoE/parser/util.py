@@ -7,7 +7,7 @@ from PyPoE.poe.file.ot import OTFileCache
 from PyPoE.poe.file.translations import TranslationFileCache
 from PyPoE.poe.constants import MOD_DOMAIN
 
-from RePoE.parser.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS
+from RePoE.parser.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS, WRITTEN_FILES
 
 
 def get_id_or_none(relational_file_cell):
@@ -48,7 +48,7 @@ DEFAULT_GGPK_PATH = "C:/Program Files (x86)/Grinding Gear Games/Path of Exile"
 
 def call_with_default_args(write_func):
     file_system = load_file_system(DEFAULT_GGPK_PATH)
-    write_func(
+    return write_func(
         file_system=file_system,
         data_path="../../data/",
         relational_reader=create_relational_reader(file_system),
@@ -80,3 +80,19 @@ def ignore_mod_domain(domain):
         MOD_DOMAIN.AFFLICTION_JEWEL,
     }
     return domain not in whitelist
+
+
+def find_missing_stat_descriptions(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    node = file_system.build_directory()
+    keys = list(node["Metadata"]["StatDescriptions"].children.keys())
+
+    missing_keys = []
+    for key in keys:
+        if "descriptions.txt" in key:
+            if key not in [written_file[0] for written_file in WRITTEN_FILES]:
+                missing_keys.append(key)
+    return missing_keys
+
+
+if __name__ == "__main__":
+    print(call_with_default_args(find_missing_stat_descriptions))

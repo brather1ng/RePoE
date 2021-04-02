@@ -1,5 +1,5 @@
 """A module to handle importing the specific stat_translation jsons"""
-from RePoE import load_json, _assert_all_json_files_accounted_for, _get_all_json_files, __DATA_PATH__
+from RePoE import load_json, _assert_all_json_files_accounted_for, __DATA_PATH__
 import os
 
 __STAT_TRANSLATION_PATH__ = os.path.join(__DATA_PATH__, "stat_translations", "")
