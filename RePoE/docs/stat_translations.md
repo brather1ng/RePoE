@@ -70,7 +70,7 @@ formatted as `-(20 to 10)`).
 
 `index_handlers` are applied to values before formatting. These change the actual
 values, see 
-[`PyPoE.poe.file.translations`, line 1883ff](https://github.com/OmegaK2/PyPoE/blob/dev/PyPoE/poe/file/translations.py#L1883)
+[`PyPoE.poe.file.translations`, line 2071ff](https://github.com/OmegaK2/PyPoE/blob/dev/PyPoE/poe/file/translations.py#L2071)
 for their Python definitions.
 If, for example, `divide_by_one_hundred` is a handler for a value, the value must
 be divided by 100 before being formatted.
