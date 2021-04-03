@@ -1,6 +1,7 @@
 import json
 import io
 
+from PyPoE import __DATA_PATH__
 from PyPoE.poe.file.dat import RelationalReader
 from PyPoE.poe.file.file_system import FileSystem
 from PyPoE.poe.file.ot import OTFileCache
@@ -50,7 +51,7 @@ def call_with_default_args(write_func):
     file_system = load_file_system(DEFAULT_GGPK_PATH)
     write_func(
         file_system=file_system,
-        data_path="../../data/",
+        data_path=__DATA_PATH__,
         relational_reader=create_relational_reader(file_system),
         translation_file_cache=create_translation_file_cache(file_system),
         ot_file_cache=create_ot_file_cache(file_system),
