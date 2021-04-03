@@ -84,14 +84,9 @@ def ignore_mod_domain(domain):
 
 def find_missing_stat_descriptions(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
     node = file_system.build_directory()
-    keys = list(node["Metadata"]["StatDescriptions"].children.keys())
-
-    missing_keys = []
-    for key in keys:
-        if "descriptions.txt" in key:
-            if key not in [written_file[0] for written_file in WRITTEN_FILES]:
-                missing_keys.append(key)
-    return missing_keys
+    keys = node["Metadata"]["StatDescriptions"].children.keys()
+    written_game_files = [written_game_file for written_game_file, _ in WRITTEN_FILES]
+    return [key for key in keys if "descriptions.txt" in key and key not in written_game_files]
 
 
 if __name__ == "__main__":
