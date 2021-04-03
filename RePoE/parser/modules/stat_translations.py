@@ -1,5 +1,5 @@
 from PyPoE.poe.file.translations import get_custom_translation_file
-from RePoE.parser.util import write_json, call_with_default_args
+from RePoE.parser.util import find_missing_stat_descriptions, write_json, call_with_default_args
 from RePoE.parser.constants import STAT_TRANSLATION_DICT
 from RePoE.parser import Parser_Module
 
@@ -83,6 +83,15 @@ def _get_stat_translations(tag_set, translations, custom_translations):
 class stat_translations(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
+        missing_stat_descriptions = find_missing_stat_descriptions(
+            file_system, data_path, relational_reader, translation_file_cache, ot_file_cache
+        )
+        if missing_stat_descriptions:
+            raise ValueError(
+                f"The following stat descriptions are currently not accounted for: {missing_stat_descriptions}, \
+                    please add to WRITTEN_FILES in constants.py"
+            )
+
         tag_set = set()
         for in_file, out_file in STAT_TRANSLATION_DICT.items():
             translations = translation_file_cache[in_file].translations

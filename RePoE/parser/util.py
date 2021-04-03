@@ -87,7 +87,3 @@ def find_missing_stat_descriptions(file_system, data_path, relational_reader, tr
     keys = node["Metadata"]["StatDescriptions"].children.keys()
     written_game_files = [written_game_file for written_game_file, _ in WRITTEN_FILES]
     return [key for key in keys if "descriptions.txt" in key and key not in written_game_files]
-
-
-if __name__ == "__main__":
-    print(call_with_default_args(find_missing_stat_descriptions))
