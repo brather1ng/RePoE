@@ -346,8 +346,7 @@ UNIQUE_ONLY_ITEMS = {
 
 # The stat description files can include each other and can override stats from included files. E.g. the same stat
 # may have different translations on active and support gems. Because of that, they can't simply be merged together
-# Therefore, each stat_descriptions file is written into a different file (except active_skill_gem_stat_descriptions
-# because I don't think it is required)
+# Therefore, each stat_descriptions file is written into a different file
 WRITTEN_FILES = {
     ("stat_descriptions.txt", ""),
     ("chest_stat_descriptions.txt", "/strongbox"),
