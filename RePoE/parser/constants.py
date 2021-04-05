@@ -346,8 +346,7 @@ UNIQUE_ONLY_ITEMS = {
 
 # The stat description files can include each other and can override stats from included files. E.g. the same stat
 # may have different translations on active and support gems. Because of that, they can't simply be merged together
-# Therefore, each stat_descriptions file is written into a different file (except active_skill_gem_stat_descriptions
-# because I don't think it is required)
+# Therefore, each stat_descriptions file is written into a different file
 WRITTEN_FILES = {
     ("stat_descriptions.txt", ""),
     ("chest_stat_descriptions.txt", "/strongbox"),
@@ -370,5 +369,9 @@ WRITTEN_FILES = {
     ("passive_skill_stat_descriptions.txt", "/passive_skill"),
     ("passive_skill_aura_stat_descriptions.txt", "/passive_skill_aura"),
     ("monster_stat_descriptions.txt", "/monster"),
+    ("heist_equipment_stat_descriptions.txt", "/heist_equipment"),
+    ("leaguestone_stat_descriptions.txt", "/leaguestone"),
+    ("active_skill_gem_stat_descriptions.txt", "/active_skill_gem"),
+    ("advanced_mod_stat_descriptions.txt", "/advanced_mod"),
 }
 STAT_TRANSLATION_DICT = {game_file: "stat_translations" + repoe_file for game_file, repoe_file in WRITTEN_FILES}
