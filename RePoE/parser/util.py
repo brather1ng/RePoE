@@ -82,7 +82,7 @@ def ignore_mod_domain(domain):
     return domain not in whitelist
 
 
-def find_missing_stat_descriptions(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
+def find_missing_stat_descriptions(file_system):
     node = file_system.build_directory()
     keys = node["Metadata"]["StatDescriptions"].children.keys()
     written_game_files = [written_game_file for written_game_file, _ in WRITTEN_FILES]

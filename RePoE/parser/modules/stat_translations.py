@@ -83,9 +83,7 @@ def _get_stat_translations(tag_set, translations, custom_translations):
 class stat_translations(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
-        missing_stat_descriptions = find_missing_stat_descriptions(
-            file_system, data_path, relational_reader, translation_file_cache, ot_file_cache
-        )
+        missing_stat_descriptions = find_missing_stat_descriptions(file_system)
         if missing_stat_descriptions:
             raise ValueError(
                 f"The following stat descriptions are currently not accounted for: {missing_stat_descriptions}, \
