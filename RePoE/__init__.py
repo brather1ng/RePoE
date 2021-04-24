@@ -34,6 +34,7 @@ stat_translations = load_json("stat_translations.json")
 tags = load_json("tags.json")
 cluster_jewels = load_json("cluster_jewels.json")
 cluster_jewel_notables = load_json("cluster_jewel_notables.json")
+cost_types = load_json("cost_types.json")
 
 
 def _get_all_json_files(base_path=__DATA_PATH__):

@@ -8203,6 +8203,129 @@
   },
   {
     "actions": {
+      "add_mod": "JunMaster2PhysicalDamageOverTimeMultiplier2h1"
+    },
+    "bench_group": "PhysicalDamageOverTimeMultiplier",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Jun"
+  },
+  {
+    "actions": {
+      "add_mod": "JunMaster2PhysicalDamageOverTimeMultiplier2h2"
+    },
+    "bench_group": "PhysicalDamageOverTimeMultiplier",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Jun"
+  },
+  {
+    "actions": {
+      "add_mod": "JunMaster2PhysicalDamageOverTimeMultiplier2h3____"
+    },
+    "bench_group": "PhysicalDamageOverTimeMultiplier",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
+    },
+    "item_classes": [
+      "Two Hand Axe",
+      "Two Hand Mace",
+      "Two Hand Sword",
+      "Staff",
+      "Warstaff",
+      "Bow"
+    ],
+    "master": "Jun"
+  },
+  {
+    "actions": {
+      "add_mod": "JunMaster2PhysicalDamageOverTimeMultiplier1h1"
+    },
+    "bench_group": "PhysicalDamageOverTimeMultiplier",
+    "bench_tier": 1,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollMagic": 8
+    },
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Jun"
+  },
+  {
+    "actions": {
+      "add_mod": "JunMaster2PhysicalDamageOverTimeMultiplier1h2__"
+    },
+    "bench_group": "PhysicalDamageOverTimeMultiplier",
+    "bench_tier": 2,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
+    },
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Jun"
+  },
+  {
+    "actions": {
+      "add_mod": "JunMaster2PhysicalDamageOverTimeMultiplier1h3__"
+    },
+    "bench_group": "PhysicalDamageOverTimeMultiplier",
+    "bench_tier": 3,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
+    },
+    "item_classes": [
+      "Dagger",
+      "Rune Dagger",
+      "One Hand Axe",
+      "One Hand Mace",
+      "One Hand Sword",
+      "Claw",
+      "Sceptre",
+      "Thrusting One Hand Sword",
+      "Wand"
+    ],
+    "master": "Jun"
+  },
+  {
+    "actions": {
       "add_mod": "JunMaster2ColdDamageOverTimeMultiplier2h1_"
     },
     "bench_group": "ColdDamageOverTimeMultiplier",
@@ -12137,25 +12260,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2AllDamage1"
-    },
-    "bench_group": "AllDamage",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyUpgradeToRare": 4
-    },
-    "item_classes": [
-      "Ring",
-      "Belt"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2AllDamage2_"
     },
     "bench_group": "AllDamage",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
@@ -12170,7 +12278,7 @@
       "add_mod": "JunMaster2AllDamage3"
     },
     "bench_group": "AllDamage",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
@@ -12330,25 +12438,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2DamageWhileLeeching1"
-    },
-    "bench_group": "DamageWhileLeeching",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
-    },
-    "item_classes": [
-      "Gloves",
-      "Amulet"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2DamageWhileLeeching2"
     },
     "bench_group": "DamageWhileLeeching",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 3
     },
@@ -12363,7 +12456,7 @@
       "add_mod": "JunMaster2DamageWhileLeeching3"
     },
     "bench_group": "DamageWhileLeeching",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
@@ -12375,39 +12468,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2SocketedGemQuality1_"
-    },
-    "bench_group": "SocketedGemQuality",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyGemQuality": 4
-    },
-    "item_classes": [
-      "Dagger",
-      "Rune Dagger",
-      "One Hand Axe",
-      "One Hand Mace",
-      "One Hand Sword",
-      "Claw",
-      "Sceptre",
-      "Thrusting One Hand Sword",
-      "Wand",
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Warstaff",
-      "Bow",
-      "Shield"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2SocketedGemQuality2"
     },
     "bench_group": "SocketedGemQuality",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyGemQuality": 8
     },
@@ -12436,7 +12500,7 @@
       "add_mod": "JunMaster2SocketedGemQuality3"
     },
     "bench_group": "SocketedGemQuality",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
@@ -12462,29 +12526,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2BleedOnHitGained2h1"
-    },
-    "bench_group": "LocalAddedPhysicalDamageAndCausesBleeding",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollMagic": 6
-    },
-    "item_classes": [
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Warstaff",
-      "Bow"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2BleedOnHitGained2h2"
     },
     "bench_group": "LocalAddedPhysicalDamageAndCausesBleeding",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
@@ -12503,7 +12548,7 @@
       "add_mod": "JunMaster2BleedOnHitGained2h3_"
     },
     "bench_group": "LocalAddedPhysicalDamageAndCausesBleeding",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
@@ -12519,32 +12564,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2BleedOnHitGained1h1"
-    },
-    "bench_group": "LocalAddedPhysicalDamageAndCausesBleeding",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollMagic": 6
-    },
-    "item_classes": [
-      "Dagger",
-      "Rune Dagger",
-      "One Hand Axe",
-      "One Hand Mace",
-      "One Hand Sword",
-      "Claw",
-      "Sceptre",
-      "Thrusting One Hand Sword",
-      "Wand"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2BleedOnHitGained1h2_"
     },
     "bench_group": "LocalAddedPhysicalDamageAndCausesBleeding",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
@@ -12566,7 +12589,7 @@
       "add_mod": "JunMaster2BleedOnHitGained1h3_"
     },
     "bench_group": "LocalAddedPhysicalDamageAndCausesBleeding",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
@@ -12611,24 +12634,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2DamageDuringFlaskEffect1"
-    },
-    "bench_group": "DamageDuringFlaskEffect",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyFlaskQuality": 6
-    },
-    "item_classes": [
-      "Gloves"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2DamageDuringFlaskEffect2_"
     },
     "bench_group": "DamageDuringFlaskEffect",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
@@ -12642,7 +12651,7 @@
       "add_mod": "JunMaster2DamageDuringFlaskEffect3"
     },
     "bench_group": "DamageDuringFlaskEffect",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
@@ -12653,24 +12662,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2ItemRarityFromRareAndUniqueEnemies1_"
-    },
-    "bench_group": "RareOrUniqueMonsterDroppedItemRarity",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyUpgradeRandomly": 4
-    },
-    "item_classes": [
-      "Helmet"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2ItemRarityFromRareAndUniqueEnemies2"
     },
     "bench_group": "RareOrUniqueMonsterDroppedItemRarity",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeRandomly": 8
     },
@@ -12684,7 +12679,7 @@
       "add_mod": "JunMaster2ItemRarityFromRareAndUniqueEnemies3"
     },
     "bench_group": "RareOrUniqueMonsterDroppedItemRarity",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeMagicToRare": 4
     },
@@ -12695,29 +12690,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2FireAddedAsChaos2h1_"
-    },
-    "bench_group": "FireAddedAsChaos",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyCorrupt": 4
-    },
-    "item_classes": [
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Warstaff",
-      "Bow"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2FireAddedAsChaos2h2"
     },
     "bench_group": "FireAddedAsChaos",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 6
     },
@@ -12736,7 +12712,7 @@
       "add_mod": "JunMaster2FireAddedAsChaos2h3_"
     },
     "bench_group": "FireAddedAsChaos",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 8
     },
@@ -12752,33 +12728,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2FireAddedAsChaos1h1"
-    },
-    "bench_group": "FireAddedAsChaos",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyCorrupt": 4
-    },
-    "item_classes": [
-      "Dagger",
-      "Rune Dagger",
-      "One Hand Axe",
-      "One Hand Mace",
-      "One Hand Sword",
-      "Claw",
-      "Sceptre",
-      "Thrusting One Hand Sword",
-      "Wand",
-      "Shield"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2FireAddedAsChaos1h2"
     },
     "bench_group": "FireAddedAsChaos",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 6
     },
@@ -12801,7 +12754,7 @@
       "add_mod": "JunMaster2FireAddedAsChaos1h3_"
     },
     "bench_group": "FireAddedAsChaos",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 8
     },
@@ -12821,29 +12774,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2ColdAddedAsChaos2h1"
-    },
-    "bench_group": "ColdAddedAsChaos",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyCorrupt": 4
-    },
-    "item_classes": [
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Warstaff",
-      "Bow"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2ColdAddedAsChaos2h2"
     },
     "bench_group": "ColdAddedAsChaos",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 6
     },
@@ -12862,7 +12796,7 @@
       "add_mod": "JunMaster2ColdAddedAsChaos2h3"
     },
     "bench_group": "ColdAddedAsChaos",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 8
     },
@@ -12878,33 +12812,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2ColdAddedAsChaos1h1"
-    },
-    "bench_group": "ColdAddedAsChaos",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyCorrupt": 4
-    },
-    "item_classes": [
-      "Dagger",
-      "Rune Dagger",
-      "One Hand Axe",
-      "One Hand Mace",
-      "One Hand Sword",
-      "Claw",
-      "Sceptre",
-      "Thrusting One Hand Sword",
-      "Wand",
-      "Shield"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2ColdAddedAsChaos1h2"
     },
     "bench_group": "ColdAddedAsChaos",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 6
     },
@@ -12927,7 +12838,7 @@
       "add_mod": "JunMaster2ColdAddedAsChaos1h3"
     },
     "bench_group": "ColdAddedAsChaos",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 8
     },
@@ -12947,29 +12858,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2LightningAddedAsChaos2h1_"
-    },
-    "bench_group": "LightningAddedAsChaos",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyCorrupt": 4
-    },
-    "item_classes": [
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Warstaff",
-      "Bow"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2LightningAddedAsChaos2h2"
     },
     "bench_group": "LightningAddedAsChaos",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 6
     },
@@ -12988,7 +12880,7 @@
       "add_mod": "JunMaster2LightningAddedAsChaos2h3___"
     },
     "bench_group": "LightningAddedAsChaos",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 8
     },
@@ -13004,33 +12896,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2LightningAddedAsChaos1h1_"
-    },
-    "bench_group": "LightningAddedAsChaos",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyCorrupt": 4
-    },
-    "item_classes": [
-      "Dagger",
-      "Rune Dagger",
-      "One Hand Axe",
-      "One Hand Mace",
-      "One Hand Sword",
-      "Claw",
-      "Sceptre",
-      "Thrusting One Hand Sword",
-      "Wand",
-      "Shield"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2LightningAddedAsChaos1h2__"
     },
     "bench_group": "LightningAddedAsChaos",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 6
     },
@@ -13053,7 +12922,7 @@
       "add_mod": "JunMaster2LightningAddedAsChaos1h3"
     },
     "bench_group": "LightningAddedAsChaos",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 8
     },
@@ -13073,29 +12942,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2PhysicalAddedAsChaos2h1"
-    },
-    "bench_group": "PhysicalAddedAsChaos",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyCorrupt": 4
-    },
-    "item_classes": [
-      "Two Hand Axe",
-      "Two Hand Mace",
-      "Two Hand Sword",
-      "Staff",
-      "Warstaff",
-      "Bow"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2PhysicalAddedAsChaos2h2"
     },
     "bench_group": "PhysicalAddedAsChaos",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 6
     },
@@ -13114,7 +12964,7 @@
       "add_mod": "JunMaster2PhysicalAddedAsChaos2h3"
     },
     "bench_group": "PhysicalAddedAsChaos",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 8
     },
@@ -13130,33 +12980,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2PhysicalAddedAsChaos1h1_"
-    },
-    "bench_group": "PhysicalAddedAsChaos",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyCorrupt": 4
-    },
-    "item_classes": [
-      "Dagger",
-      "Rune Dagger",
-      "One Hand Axe",
-      "One Hand Mace",
-      "One Hand Sword",
-      "Claw",
-      "Sceptre",
-      "Thrusting One Hand Sword",
-      "Wand",
-      "Shield"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2PhysicalAddedAsChaos1h2_"
     },
     "bench_group": "PhysicalAddedAsChaos",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 6
     },
@@ -13179,7 +13006,7 @@
       "add_mod": "JunMaster2PhysicalAddedAsChaos1h3"
     },
     "bench_group": "PhysicalAddedAsChaos",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyCorrupt": 8
     },
@@ -13199,24 +13026,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2PercentageAllAttributes1"
-    },
-    "bench_group": "PercentageAllAttributes",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollMagic": 4
-    },
-    "item_classes": [
-      "Body Armour"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2PercentageAllAttributes2"
     },
     "bench_group": "PercentageAllAttributes",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
@@ -13230,23 +13043,9 @@
       "add_mod": "JunMaster2PercentageAllAttributes3"
     },
     "bench_group": "PercentageAllAttributes",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
-    },
-    "item_classes": [
-      "Body Armour"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
-      "add_mod": "JunMaster2LifeAddedAsEnergyShield1"
-    },
-    "bench_group": "LifeAddedAsEnergyShield",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyAddModToMagic": 3
     },
     "item_classes": [
       "Body Armour"
@@ -13258,7 +13057,7 @@
       "add_mod": "JunMaster2LifeAddedAsEnergyShield2"
     },
     "bench_group": "LifeAddedAsEnergyShield",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
@@ -13272,7 +13071,7 @@
       "add_mod": "JunMaster2LifeAddedAsEnergyShield3"
     },
     "bench_group": "LifeAddedAsEnergyShield",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
@@ -13297,24 +13096,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2PhysicalDamageTakenAsFirePercent1_"
-    },
-    "bench_group": "PhysicalDamageTakenAsFirePercent",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollRare": 3
-    },
-    "item_classes": [
-      "Helmet"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2PhysicalDamageTakenAsFirePercent2_"
     },
     "bench_group": "PhysicalDamageTakenAsFirePercent",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyModValues": 1
     },
@@ -13328,7 +13113,7 @@
       "add_mod": "JunMaster2PhysicalDamageTakenAsFirePercent3"
     },
     "bench_group": "PhysicalDamageTakenAsFirePercent",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
@@ -13339,24 +13124,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2AvoidFreeze1"
-    },
-    "bench_group": "AvoidFreeze",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollMagic": 8
-    },
-    "item_classes": [
-      "Boots"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2AvoidFreeze2_"
     },
     "bench_group": "AvoidFreeze",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
@@ -13370,7 +13141,7 @@
       "add_mod": "JunMaster2AvoidFreeze3"
     },
     "bench_group": "AvoidFreeze",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
@@ -13381,24 +13152,10 @@
   },
   {
     "actions": {
-      "add_mod": "JunMaster2CriticalMultiplierOnShatter1"
-    },
-    "bench_group": "CritChanceAndCriticalStrikeMultiplierIfEnemyShatteredRecently",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollMagic": 4
-    },
-    "item_classes": [
-      "Ring"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
       "add_mod": "JunMaster2CriticalMultiplierOnShatter2"
     },
     "bench_group": "CritChanceAndCriticalStrikeMultiplierIfEnemyShatteredRecently",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
@@ -13412,23 +13169,9 @@
       "add_mod": "JunMaster2CriticalMultiplierOnShatter3"
     },
     "bench_group": "CritChanceAndCriticalStrikeMultiplierIfEnemyShatteredRecently",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
-    },
-    "item_classes": [
-      "Ring"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
-      "add_mod": "JunMaster2IncreasedChaosAndPhysicalDamage1"
-    },
-    "bench_group": "IncreasedChaosAndPhysicalDamage",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollMagic": 4
     },
     "item_classes": [
       "Ring"
@@ -13440,7 +13183,7 @@
       "add_mod": "JunMaster2IncreasedChaosAndPhysicalDamage2"
     },
     "bench_group": "IncreasedChaosAndPhysicalDamage",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
@@ -13454,23 +13197,9 @@
       "add_mod": "JunMaster2IncreasedChaosAndPhysicalDamage3_"
     },
     "bench_group": "IncreasedChaosAndPhysicalDamage",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
-    },
-    "item_classes": [
-      "Ring"
-    ],
-    "master": "Jun"
-  },
-  {
-    "actions": {
-      "add_mod": "JunMaster2IncreasedFireAndLightningDamage1_"
-    },
-    "bench_group": "IncreasedFireAndLightningDamage",
-    "bench_tier": 1,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollMagic": 4
     },
     "item_classes": [
       "Ring"
@@ -13482,7 +13211,7 @@
       "add_mod": "JunMaster2IncreasedFireAndLightningDamage2"
     },
     "bench_group": "IncreasedFireAndLightningDamage",
-    "bench_tier": 2,
+    "bench_tier": 1,
     "cost": {
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
@@ -13496,7 +13225,7 @@
       "add_mod": "JunMaster2IncreasedFireAndLightningDamage3_"
     },
     "bench_group": "IncreasedFireAndLightningDamage",
-    "bench_tier": 3,
+    "bench_tier": 2,
     "cost": {
       "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
@@ -14971,6 +14700,20 @@
     },
     "item_classes": [
       "Amulet"
+    ],
+    "master": "Jun"
+  },
+  {
+    "actions": {
+      "add_mod": "JunMaster2FocusCooldownRecovery1_"
+    },
+    "bench_group": "FocusCooldownRecovery",
+    "bench_tier": 0,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 3
+    },
+    "item_classes": [
+      "Boots"
     ],
     "master": "Jun"
   },

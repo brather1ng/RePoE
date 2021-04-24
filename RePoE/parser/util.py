@@ -1,13 +1,13 @@
 import json
 import io
 
-from PyPoE import __DATA_PATH__
 from PyPoE.poe.file.dat import RelationalReader
 from PyPoE.poe.file.file_system import FileSystem
 from PyPoE.poe.file.ot import OTFileCache
 from PyPoE.poe.file.translations import TranslationFileCache
 from PyPoE.poe.constants import MOD_DOMAIN
 
+from RePoE import __DATA_PATH__
 from RePoE.parser.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS, WRITTEN_FILES
 
 

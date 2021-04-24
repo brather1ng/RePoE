@@ -86,8 +86,8 @@ class stat_translations(Parser_Module):
         missing_stat_descriptions = find_missing_stat_descriptions(file_system)
         if missing_stat_descriptions:
             raise ValueError(
-                f"The following stat descriptions are currently not accounted for: {missing_stat_descriptions}, \
-                    please add to WRITTEN_FILES in constants.py"
+                f"The following stat descriptions are currently not accounted for: {missing_stat_descriptions},"
+                + " please add to WRITTEN_FILES in constants.py"
             )
 
         tag_set = set()

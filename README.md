@@ -16,6 +16,7 @@ open an Issue or Pull Request for that.
 
 - Install Python 3.7 or later (PyPoE recommends Python 3.7) and Git
 - Install [PyPoE](https://github.com/OmegaK2/PyPoE):
+  * Note: until PyPoE is updated again, RePoE only works with my fork of PyPoE (https://github.com/brather1ng/PyPoE)
   * Clone PyPoE and go into its folder
   * Minimal install: `pip install -e .`
   * Full install: `pip install -e .[full]` (not required for RePoE)
@@ -72,6 +73,7 @@ The following data is currently available:
   relevant for fossil crafting.
 - `cluster_jewels.json`: Describes how cluster jewels can be generated and how they influence the passive tree. 
 - `cluster_jewel_notables.json`: Lists the notable and keystone passive skills that can appear on cluster jewels.
+- `cost_types.json`: Defines the resource cost types used in `gems.json`.
   
 
 ## Credits

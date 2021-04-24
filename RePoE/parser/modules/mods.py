@@ -79,6 +79,7 @@ class mods(Parser_Module):
                 "grants_effects": _convert_granted_effects(mod["GrantedEffectsPerLevelKeys"]),
                 "is_essence_only": mod["IsEssenceOnlyModifier"] > 0,
                 "adds_tags": _convert_tags_keys(mod["TagsKeys"]),
+                "implicit_tags": _convert_tags_keys(mod["ImplicitTagsKeys"]),
             }
             if mod["Id"] in root:
                 print("Duplicate mod id:", mod["Id"])

@@ -191,9 +191,11 @@ class GemConverter:
             r["stored_uses"] = gepl["StoredUses"]
 
         if is_support:
-            r["mana_multiplier"] = gepl["ManaMultiplier"]
+            r["cost_multiplier"] = gepl["ManaMultiplier"]
         else:
-            r["mana_cost"] = gepl["ManaCost"]
+            r["costs"] = {}
+            for cost_type, cost_amount in gepl["Costs"]:
+                r["costs"][cost_type["Id"]] = cost_amount
             if gepl["DamageEffectiveness"] != 0:
                 r["damage_effectiveness"] = gepl["DamageEffectiveness"]
             if gepl["DamageMultiplier"] != 0:
@@ -204,9 +206,8 @@ class GemConverter:
                 r["attack_speed_multiplier"] = gepl["AttackSpeedMultiplier"]
             if gepl["VaalSouls"] > 0:
                 r["vaal"] = {"souls": gepl["VaalSouls"], "stored_uses": gepl["VaalStoredUses"]}
-        mana_reservation_override = gepl["ManaReservationOverride"]
-        if mana_reservation_override > 0:
-            r["mana_reservation_override"] = mana_reservation_override
+
+        r["reservations"] = self._convert_reservations(gepl)
 
         stats = []
         for k, v in gepl["Stats"]:
@@ -239,6 +240,19 @@ class GemConverter:
                 stat_requirements[stat_type] = req
             r["stat_requirements"] = stat_requirements
 
+        return r
+
+    @staticmethod
+    def _convert_reservations(gepl):
+        r = {}
+        if gepl["ManaReservationFlat"] > 0:
+            r["mana_flat"] = gepl["ManaReservationFlat"]
+        if gepl["ManaReservationPercent"] > 0:
+            r["mana_percent"] = gepl["ManaReservationPercent"] / 100
+        if gepl["LifeReservationFlat"] > 0:
+            r["life_flat"] = gepl["LifeReservationFlat"]
+        if gepl["LifeReservationPercent"] > 0:
+            r["life_percent"] = gepl["LifeReservationPercent"] / 100
         return r
 
     def _convert_base_item_specific(self, base_item_type, obj):

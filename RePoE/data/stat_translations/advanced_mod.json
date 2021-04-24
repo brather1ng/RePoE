@@ -245,6 +245,25 @@
         "index_handlers": [
           []
         ],
+        "string": "Can roll Totem Modifiers"
+      }
+    ],
+    "ids": [
+      "display_item_generation_can_roll_totem_affixes"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Prefixes Cannot Be Changed"
       }
     ],
@@ -400,6 +419,25 @@
     ],
     "ids": [
       "item_generation_local_maximum_mod_required_level_override"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Unveiled Modifier magnitudes"
+      }
+    ],
+    "ids": [
+      "unveiled_mod_effect_+%"
     ]
   },
   {
@@ -996,7 +1034,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger a Socketed Warcry Skill when you lose Endurance Charges"
+        "string": "{0}% chance to Trigger a Socketed Warcry Skill when you lose Endurance Charges, with a 0.25 second Cooldown"
       },
       {
         "condition": [
@@ -1010,7 +1048,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger a Socketed Warcry Skill when you lose Endurance Charges"
+        "string": "Trigger a Socketed Warcry Skill on losing Endurance Charges, with a 0.25 second Cooldown"
       }
     ],
     "ids": [
@@ -1936,6 +1974,25 @@
         "index_handlers": [
           []
         ],
+        "string": "Socketed Gems are Supported by Level {0} Bloodthirst"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_gems_supported_by_level_x_bloodthirst"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Socketed Gems are Supported by Level {0} Bonechill"
       }
     ],
@@ -2411,6 +2468,25 @@
         "index_handlers": [
           []
         ],
+        "string": "Socketed Gems are Supported by Level {0} Cruelty"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_gems_supported_by_level_x_fragility"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Socketed Gems are Supported by Level {0} Charged Traps"
       }
     ],
@@ -2720,6 +2796,25 @@
     ],
     "ids": [
       "local_display_socketed_gems_supported_by_level_x_life_gain_on_hit"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Gems are Supported by Level {0} Lifetap"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_gems_supported_by_level_x_lifetap"
     ]
   },
   {
@@ -3285,7 +3380,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Non-Channelling Bow Skills are Triggered by Snipe"
+        "string": "Socketed Non-Channelling Bow Skills are Triggered by Snipe\nSocketed Triggered Bow Skills gain a 0.05 second Cooldown"
       }
     ],
     "ids": [
@@ -4312,7 +4407,9 @@
         ],
         "index_handlers": [
           [],
-          []
+          [
+            "display_indexable_support"
+          ]
         ],
         "string": "Socketed Gems are Supported by Level {0} {1}"
       }
@@ -4335,7 +4432,9 @@
         ],
         "index_handlers": [
           [],
-          []
+          [
+            "display_indexable_support"
+          ]
         ],
         "string": "Socketed Gems are Supported by Level {0} {1}"
       }
@@ -4479,7 +4578,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Gems are Supported by Level {0} Blood Magic"
+        "string": "Socketed Gems are Supported by Level {0} Arrogance"
       }
     ],
     "ids": [
@@ -5522,7 +5621,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Gems have Blood Magic"
+        "string": "Socketed Gems Cost and Reserve Life instead of Mana"
       }
     ],
     "ids": [
@@ -5543,7 +5642,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Gems have {0}% increased Mana Reservation"
+        "string": "Socketed Gems have {0}% increased Reservation"
       },
       {
         "condition": [
@@ -5559,7 +5658,7 @@
             "negate"
           ]
         ],
-        "string": "Socketed Gems have {0}% reduced Mana Reservation"
+        "string": "Socketed Gems have {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -5580,7 +5679,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Gems Reserve No Mana"
+        "string": "Socketed Gems have no Reservation"
       }
     ],
     "ids": [
@@ -5599,7 +5698,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Skill Gems get a {0}% Mana Multiplier"
+        "string": "Socketed Skill Gems get a {0}% Cost & Reservation Multiplier"
       }
     ],
     "ids": [
@@ -5917,7 +6016,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger a Socketed Spell when you Attack with a Bow"
+        "string": "{0}% chance to Trigger a Socketed Spell when you Attack with a Bow, with a 0.3 second Cooldown"
       },
       {
         "condition": [
@@ -5931,7 +6030,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger a Socketed Spell when you Attack with a Bow"
+        "string": "Trigger a Socketed Spell when you Attack with a Bow, with a 0.3 second Cooldown"
       }
     ],
     "ids": [
@@ -6157,6 +6256,25 @@
         "index_handlers": [
           []
         ],
+        "string": "Socketed Gems deal {0}% more Damage while on Low Life"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_gems_damage_+%_final_while_on_low_life"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Socketed Gems deal {0}% more Elemental Damage"
       }
     ],
@@ -6235,7 +6353,7 @@
           [],
           []
         ],
-        "string": "Socketed Gems deal {0} to {1} additional Fire Damage"
+        "string": "Socketed Gems deal {0} to {1} Added Fire Damage"
       }
     ],
     "ids": [
@@ -6274,7 +6392,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Movement Skills have no Mana Cost"
+        "string": "Socketed Movement Skills Cost no Mana"
       }
     ],
     "ids": [
@@ -6511,6 +6629,393 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills have {0}% increased Area of Effect"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Socketed Vaal Skills have {0}% reduced Area of Effect"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_area_of_effect_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills have {0}% increased Aura Effect"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Socketed Vaal Skills have {0}% reduced Aura Effect"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_aura_effect_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills deal {0}% more Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Socketed Vaal Skills deal {0}% less Damage"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_damage_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills have {0}% increased Skill Effect Duration"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Socketed Vaal Skills have {0}% reduced Skill Effect Duration"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_effect_duration_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills grant Elusive when Used"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_elusive_on_use"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Damage with Hits from Socketed Vaal Skills is Lucky"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Damage with Hits from Socketed Vaal Skills is Unlucky"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_extra_damage_rolls"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Hits from Socketed Vaal Skills ignore Enemy Monster Physical Damage Reduction"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_ignore_monster_phys_reduction"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Hits from Socketed Vaal Skills ignore Enemy Monster Resistances"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_ignore_monster_resistances"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills have {0}% increased Projectile Speed"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Socketed Vaal Skills have {0}% reduced Projectile Speed"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_projectile_speed_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills have {0}% increased Soul Gain Prevention Duration"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Socketed Vaal Skills have {0}% reduced Soul Gain Prevention Duration"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_soul_gain_prevention_duration_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills require {0}% more Souls per Use"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Socketed Vaal Skills require {0}% less Souls per Use"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_soul_requirement_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills can store Souls for {0} additional Use"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Socketed Vaal Skills can store Souls for {0} additional Uses"
+      }
+    ],
+    "ids": [
+      "local_display_socketed_vaal_skills_store_uses_+"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -6524,6 +7029,25 @@
     ],
     "ids": [
       "local_display_spend_energy_shield_for_costs_before_mana_for_socketed_skills"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "You have Tailwind if you've used a Socketed Vaal Skill Recently"
+      }
+    ],
+    "ids": [
+      "local_display_tailwind_if_socketed_vaal_skill_used_recently"
     ]
   },
   {
@@ -6802,7 +7326,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Socketed Curse Gems have {0}% increased Mana Reservation"
+        "string": "Socketed Curse Gems have {0}% increased Reservation"
       },
       {
         "condition": [
@@ -6818,7 +7342,7 @@
             "negate"
           ]
         ],
-        "string": "Socketed Curse Gems have {0}% reduced Mana Reservation"
+        "string": "Socketed Curse Gems have {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -7516,6 +8040,25 @@
         "index_handlers": [
           []
         ],
+        "string": "Grants Level {0} Blood Sacrament Skill"
+      }
+    ],
+    "ids": [
+      "local_display_grants_skill_blood_sacrament_level"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Grants Level {0} Vitality Skill"
       }
     ],
@@ -8048,7 +8591,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Level {0} Wintertide Brand"
+        "string": "Grants Level {0} Wintertide Brand Skill"
       }
     ],
     "ids": [
@@ -8148,6 +8691,25 @@
     ],
     "ids": [
       "local_display_grants_skill_brand_detonate_level"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Grants Call of Steel"
+      }
+    ],
+    "ids": [
+      "local_display_grants_skill_call_of_steel"
     ]
   },
   {
@@ -8629,7 +9191,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger Level 20 Summon Spectral Wolf on Critical Strike with this Weapon"
+        "string": "{0}% chance to Trigger Level 25 Summon Spectral Wolf on Critical Strike with this Weapon"
       },
       {
         "condition": [
@@ -8643,7 +9205,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger Level 20 Summon Spectral Wolf on Critical Strike with this Weapon"
+        "string": "Trigger Level 25 Summon Spectral Wolf on Critical Strike with this Weapon"
       }
     ],
     "ids": [
@@ -8730,6 +9292,25 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Grants Level {0} Queen's Demand Skill"
+      }
+    ],
+    "ids": [
+      "local_display_grants_level_X_queens_demand_skill"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "max": 3,
             "min": 3
@@ -8781,7 +9362,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger Socketed Minion Spells on Kill with this Weapon"
+        "string": "Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses"
       },
       {
         "condition": [
@@ -8796,7 +9377,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon"
+        "string": "{0}% chance to Trigger Socketed Minion Spells on Kill with this Weapon\nMinion Spells Triggered by this Item have a 0.25 second Cooldown with 5 Uses"
       }
     ],
     "ids": [
@@ -8820,7 +9401,7 @@
           [],
           []
         ],
-        "string": "Trigger Socketed Spells when\nyou Spend at least {0} Mana to Use a Skill"
+        "string": "Trigger Socketed Spells when\nyou Spend at least {0} Mana to Use a Skill, with a 0.1 second Cooldown"
       },
       {
         "condition": [
@@ -8833,9 +9414,11 @@
         ],
         "index_handlers": [
           [],
-          []
+          [
+            "canonical_stat"
+          ]
         ],
-        "string": "{1}% chance to Trigger Socketed Spells when\nyou Spend at least {0} Mana to Use a Skill"
+        "string": "{1}% chance to Trigger Socketed Spells when\nyou Spend at least {0} Mana to Use a Skill, with a 0.1 second Cooldown"
       }
     ],
     "ids": [
@@ -8858,7 +9441,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger a Socketed Bow Skill when you Attack with a Bow"
+        "string": "{0}% chance to Trigger a Socketed Bow Skill when you Attack with a Bow, with a 1 second Cooldown"
       },
       {
         "condition": [
@@ -8872,7 +9455,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger a Socketed Bow Skill when you Attack with a Bow"
+        "string": "Trigger a Socketed Bow Skill when you Attack with a Bow, with a 1 second Cooldown"
       }
     ],
     "ids": [
@@ -9195,7 +9778,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Triggers Level {0} Primal Aegis when Allocated\nPrimal Aegis can take 100 Damage per Allocated Notable Passive Skill"
+        "string": "Triggers Level {0} Primal Aegis when Allocated\nPrimal Aegis can take 75 Elemental Damage per Allocated Notable Passive Skill"
       }
     ],
     "ids": [
@@ -9211,12 +9794,12 @@
           }
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Cast Level 20 Fire Burst on Hit"
+        "string": "Cast Level 20 Fire Burst on Hit"
       }
     ],
     "ids": [
@@ -9671,6 +10254,44 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Queen's Demand can Trigger Level {0} Flames of Judgement"
+      }
+    ],
+    "ids": [
+      "local_display_trigger_level_X_atziri_flameblast"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Queen's Demand can Trigger Level {0} Storm of Judgement"
+      }
+    ],
+    "ids": [
+      "local_display_trigger_level_X_atziri_storm_call"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "min": 1
           }
@@ -10052,7 +10673,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger Socketed Curse Skill when you cast a Curse Skill"
+        "string": "{0}% chance to Trigger Socketed Curse Skill when you cast a Curse Skill, with a 0.25 second Cooldown"
       },
       {
         "condition": [
@@ -10066,7 +10687,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger Socketed Curse Skill when you cast a Curse Skill"
+        "string": "Trigger Socketed Curse Skill when you cast a Curse Skill, with a 0.25 second Cooldown"
       }
     ],
     "ids": [
@@ -10180,7 +10801,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger a Socketed Lightning Spell on Hit\nSocketed Lightning Spells deal 100% increased Spell Damage if Triggered"
+        "string": "Trigger a Socketed Lightning Spell on Hit, with a 0.15 second Cooldown\nSocketed Lightning Spells deal 100% increased Spell Damage if Triggered"
       },
       {
         "condition": [
@@ -10195,7 +10816,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger a Socketed Lightning Spell on Hit\nSocketed Lightning Spells deal 100% increased Spell Damage if Triggered"
+        "string": "{0}% chance to Trigger a Socketed Lightning Spell on Hit, with a 0.15 second Cooldown\nSocketed Lightning Spells deal 100% increased Spell Damage if Triggered"
       }
     ],
     "ids": [
@@ -10214,7 +10835,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger a Socketed Cold Spell on Melee Critical Strike"
+        "string": "Trigger a Socketed Cold Spell on Melee Critical Strike, with a 0.15 second Cooldown"
       }
     ],
     "ids": [
@@ -10236,7 +10857,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger a Socketed Bow Skill when you Cast a Spell while wielding a Bow"
+        "string": "{0}% chance to Trigger a Socketed Bow Skill when you Cast a Spell while wielding a Bow, with a 1 second Cooldown"
       },
       {
         "condition": [
@@ -10250,7 +10871,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger a Socketed Bow Skill when you Cast a Spell while wielding a Bow"
+        "string": "Trigger a Socketed Bow Skill when you Cast a Spell while\nwielding a Bow, with a 1 second Cooldown"
       }
     ],
     "ids": [
@@ -10272,7 +10893,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger a Socketed Spell when you Attack with this Weapon"
+        "string": "{0}% chance to Trigger a Socketed Spell when you Attack with this Weapon, with a 0.15 second Cooldown"
       },
       {
         "condition": [
@@ -10286,11 +10907,34 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger a Socketed Spell when you Attack with this Weapon"
+        "string": "Trigger a Socketed Spell when you Attack with this Weapon, with a 0.15 second Cooldown"
       }
     ],
     "ids": [
       "trigger_socketed_spell_on_attack_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "milliseconds_to_seconds"
+          ]
+        ],
+        "string": "Trigger a Socketed Spell when you Use a Skill, with a {0} second Cooldown"
+      }
+    ],
+    "ids": [
+      "local_weapon_trigger_socketed_spell_on_skill_use_display_cooldown_ms"
     ]
   },
   {
@@ -10308,7 +10952,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger a Socketed Spell when you Use a Skill"
+        "string": "{0}% chance to Trigger a Socketed Spell when you Use a Skill, with a 8 second Cooldown"
       },
       {
         "condition": [
@@ -10322,7 +10966,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger a Socketed Spell when you Use a Skill"
+        "string": "Trigger a Socketed Spell when you Use a Skill, with a 8 second Cooldown"
       }
     ],
     "ids": [
@@ -10344,7 +10988,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance to Trigger Socketed Spells when you Focus"
+        "string": "{0}% chance to Trigger Socketed Spells when you Focus, with a 0.25 second Cooldown"
       },
       {
         "condition": [
@@ -10358,7 +11002,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Trigger Socketed Spells when you Focus"
+        "string": "Trigger Socketed Spells when you Focus, with a 0.25 second Cooldown"
       }
     ],
     "ids": [
@@ -12105,7 +12749,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Immunity to Bleeding during Flask effect\nRemoves Bleeding on use"
+        "string": "Immunity to Bleeding and Corrupted Blood during Flask effect\nRemoves Bleeding and Corrupted Blood on use"
       }
     ],
     "ids": [
@@ -12424,6 +13068,25 @@
     ],
     "ids": [
       "local_no_attribute_requirements"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Has no Energy Shield"
+      }
+    ],
+    "ids": [
+      "local_no_energy_shield"
     ]
   },
   {
@@ -14233,6 +14896,43 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Chaos Damage over Time"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Chaos Damage over Time"
+      }
+    ],
+    "ids": [
+      "chaos_damage_over_time_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Damage when on Low Life"
       },
       {
@@ -15297,6 +15997,25 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% to Damage over Time Multiplier with Attack Skills"
+      }
+    ],
+    "ids": [
+      "damage_over_time_multiplier_+_with_attacks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% to Physical Damage over Time Multiplier"
       }
     ],
@@ -15354,6 +16073,25 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% to Physical Damage over Time Multiplier with Attack Skills"
+      }
+    ],
+    "ids": [
+      "physical_damage_over_time_multiplier_+_with_attacks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% to Fire Damage over Time Multiplier"
       }
     ],
@@ -15378,6 +16116,25 @@
     ],
     "ids": [
       "critical_ignite_dot_multiplier_+"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% to Fire Damage over Time Multiplier with Attack Skills"
+      }
+    ],
+    "ids": [
+      "fire_damage_over_time_multiplier_+_with_attacks"
     ]
   },
   {
@@ -15525,6 +16282,25 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% to Chaos Damage over Time Multiplier with Attack Skills"
+      }
+    ],
+    "ids": [
+      "chaos_damage_over_time_multiplier_+_with_attacks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% to Damage over Time Multiplier for Poison from Critical Strikes"
       }
     ],
@@ -15549,6 +16325,25 @@
     ],
     "ids": [
       "poison_dot_multiplier_+"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% to Damage over Time Multiplier for Poison inflicted with this Weapon"
+      }
+    ],
+    "ids": [
+      "local_poison_dot_multiplier_+"
     ]
   },
   {
@@ -24828,6 +25623,117 @@
           }
         ],
         "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased maximum Life and reduced Fire Resistance"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced maximum Life and increased Fire Resistance"
+      }
+    ],
+    "ids": [
+      "maximum_life_+%_and_fire_resistance_-%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased maximum Mana and reduced Cold Resistance"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced maximum Mana and increased Cold Resistance"
+      }
+    ],
+    "ids": [
+      "maximum_mana_+%_and_cold_resistance_-%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Global maximum Energy Shield and reduced Lightning Resistance"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Global maximum Energy Shield and increased Lightning Resistance"
+      }
+    ],
+    "ids": [
+      "maximum_energy_shield_+%_and_lightning_resistance_-%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
           "ignore"
         ],
         "index_handlers": [
@@ -27643,7 +28549,7 @@
             "per_minute_to_per_second"
           ]
         ],
-        "string": "{0}% of Maximum Life to Maximum total Recovery per second from Life Leech"
+        "string": "{0}% to Maximum total Life Recovery per second from Leech"
       }
     ],
     "ids": [
@@ -27664,7 +28570,7 @@
             "per_minute_to_per_second"
           ]
         ],
-        "string": "{0}% of Maximum Energy Shield to maximum total Recovery per second from Energy Shield Leech"
+        "string": "{0}% to Maximum total Energy Shield Recovery per second from Leech"
       }
     ],
     "ids": [
@@ -27704,7 +28610,7 @@
             "per_minute_to_per_second"
           ]
         ],
-        "string": "{0}% of Maximum Mana to maximum total Recovery per second from Mana Leech"
+        "string": "{0}% Maximum total Mana Recovery per second from Leech"
       }
     ],
     "ids": [
@@ -27725,7 +28631,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Maximum total Recovery per second from Life Leech"
+        "string": "{0}% increased Maximum total Life Recovery per second from Leech"
       },
       {
         "condition": [
@@ -27741,7 +28647,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Maximum total Recovery per second from Life Leech"
+        "string": "{0}% reduced Maximum total Life Recovery per second from Leech"
       }
     ],
     "ids": [
@@ -27764,7 +28670,7 @@
             "divide_by_twelve"
           ]
         ],
-        "string": "{0}% increased Maximum total Recovery per second from Life Leech"
+        "string": "{0}% increased Maximum total Life Recovery per second from Leech"
       },
       {
         "condition": [
@@ -27781,7 +28687,7 @@
             "divide_by_twelve"
           ]
         ],
-        "string": "{0}% reduced Maximum total Recovery per second from Life Leech"
+        "string": "{0}% reduced Maximum total Life Recovery per second from Leech"
       }
     ],
     "ids": [
@@ -27802,7 +28708,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Maximum total Recovery per second from Mana Leech"
+        "string": "{0}% increased Maximum total Mana Recovery per second from Leech"
       },
       {
         "condition": [
@@ -27818,7 +28724,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Maximum total Recovery per second from Mana Leech"
+        "string": "{0}% reduced Maximum total Mana Recovery per second from Leech"
       }
     ],
     "ids": [
@@ -27839,7 +28745,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Maximum total Recovery per second from Energy Shield Leech"
+        "string": "{0}% increased Maximum total Energy Shield Recovery per second from Leech"
       },
       {
         "condition": [
@@ -27855,7 +28761,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Maximum total Recovery per second from Energy Shield Leech"
+        "string": "{0}% reduced Maximum total Energy Shield Recovery per second from Leech"
       }
     ],
     "ids": [
@@ -27876,7 +28782,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Maximum total Recovery per second from Energy Shield Leech while affected by Zealotry"
+        "string": "{0}% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry"
       },
       {
         "condition": [
@@ -27892,7 +28798,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Maximum total Recovery per second from Energy Shield Leech while affected by Zealotry"
+        "string": "{0}% reduced Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry"
       }
     ],
     "ids": [
@@ -27915,7 +28821,7 @@
             "divide_by_six"
           ]
         ],
-        "string": "{0}% increased Maximum total Recovery per second from Energy Shield Leech while affected by Zealotry"
+        "string": "{0}% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry"
       }
     ],
     "ids": [
@@ -29246,6 +30152,27 @@
     ],
     "ids": [
       "do_not_chain"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Arrows Chain {0} times"
+      }
+    ],
+    "ids": [
+      "arrow_chains_+"
     ]
   },
   {
@@ -31935,6 +32862,80 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Cost of Skills"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Cost of Skills"
+      }
+    ],
+    "ids": [
+      "base_cost_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Life Cost of Skills"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Life Cost of Skills"
+      }
+    ],
+    "ids": [
+      "base_life_cost_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% reduced Mana Cost of Skills"
       },
       {
@@ -31956,6 +32957,43 @@
     ],
     "ids": [
       "base_mana_cost_-%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Rage Cost of Skills"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Rage Cost of Skills"
+      }
+    ],
+    "ids": [
+      "base_rage_cost_+%"
     ]
   },
   {
@@ -32030,6 +33068,25 @@
     ],
     "ids": [
       "mana_cost_+%_when_on_low_life"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0} to Total Life Cost of Skills"
+      }
+    ],
+    "ids": [
+      "skill_life_cost_+"
     ]
   },
   {
@@ -32720,25 +33777,6 @@
     ],
     "ids": [
       "local_extra_socket"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Blood Magic"
-      }
-    ],
-    "ids": [
-      "use_life_in_place_of_mana"
     ]
   },
   {
@@ -34212,7 +35250,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Minions deal {0}% increased Damage per 10 Dexterity"
+        "string": "Minions deal {0}% increased Damage per 5 Dexterity"
       },
       {
         "condition": [
@@ -34228,11 +35266,11 @@
             "negate"
           ]
         ],
-        "string": "Minions deal {0}% reduced Damage per 10 Dexterity"
+        "string": "Minions deal {0}% reduced Damage per 5 Dexterity"
       }
     ],
     "ids": [
-      "minion_damage_+%_per_10_dex"
+      "minion_damage_+%_per_5_dex"
     ]
   },
   {
@@ -36777,628 +37815,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Lightning Damage to Wand Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_lightning_damage_with_wand",
-      "attack_maximum_added_lightning_damage_with_wand"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Fire Damage to Wand Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_fire_damage_with_wand",
-      "attack_maximum_added_fire_damage_with_wand"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Cold Damage to Wand Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_cold_damage_with_wand",
-      "attack_maximum_added_cold_damage_with_wand"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Physical Damage to Bow Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_physical_damage_with_bow",
-      "attack_maximum_added_physical_damage_with_bow"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Cold Damage to Axe Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_cold_damage_with_axes",
-      "attack_maximum_added_cold_damage_with_axes"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Cold Damage to Bow Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_cold_damage_with_bows",
-      "attack_maximum_added_cold_damage_with_bows"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Cold Damage to Claw Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_cold_damage_with_claws",
-      "attack_maximum_added_cold_damage_with_claws"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Cold Damage to Dagger Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_cold_damage_with_daggers",
-      "attack_maximum_added_cold_damage_with_daggers"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Cold Damage to Mace or Sceptre Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_cold_damage_with_maces",
-      "attack_maximum_added_cold_damage_with_maces"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Cold Damage to Staff Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_cold_damage_with_staves",
-      "attack_maximum_added_cold_damage_with_staves"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Cold Damage to Sword Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_cold_damage_with_swords",
-      "attack_maximum_added_cold_damage_with_swords"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Fire Damage to Axe Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_fire_damage_with_axes",
-      "attack_maximum_added_fire_damage_with_axes"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Fire Damage to Bow Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_fire_damage_with_bow",
-      "attack_maximum_added_fire_damage_with_bow"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Fire Damage to Claw Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_fire_damage_with_claws",
-      "attack_maximum_added_fire_damage_with_claws"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Fire Damage to Dagger Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_fire_damage_with_daggers",
-      "attack_maximum_added_fire_damage_with_daggers"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Fire Damage to Mace or Sceptre Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_fire_damage_with_maces",
-      "attack_maximum_added_fire_damage_with_maces"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Fire Damage to Staff Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_fire_damage_with_staves",
-      "attack_maximum_added_fire_damage_with_staves"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Fire Damage to Sword Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_fire_damage_with_swords",
-      "attack_maximum_added_fire_damage_with_swords"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Lightning Damage to Axe Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_lightning_damage_with_axes",
-      "attack_maximum_added_lightning_damage_with_axes"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Lightning Damage to Bow Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_lightning_damage_with_bows",
-      "attack_maximum_added_lightning_damage_with_bows"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Lightning Damage to Claw Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_lightning_damage_with_claws",
-      "attack_maximum_added_lightning_damage_with_claws"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Lightning Damage to Dagger Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_lightning_damage_with_daggers",
-      "attack_maximum_added_lightning_damage_with_daggers"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Lightning Damage to Mace or Sceptre Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_lightning_damage_with_maces",
-      "attack_maximum_added_lightning_damage_with_maces"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Lightning Damage to Staff Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_lightning_damage_with_staves",
-      "attack_maximum_added_lightning_damage_with_staves"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Lightning Damage to Sword Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_lightning_damage_with_swords",
-      "attack_maximum_added_lightning_damage_with_swords"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Physical Damage to Attacks while holding a Shield"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_physical_damage_while_holding_a_shield",
-      "attack_maximum_added_physical_damage_while_holding_a_shield"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Physical Damage to Unarmed Attacks"
-      }
-    ],
-    "ids": [
-      "attack_minimum_added_physical_damage_while_unarmed",
-      "attack_maximum_added_physical_damage_while_unarmed"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "#",
-          "#"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Adds {0} to {1} Physical Damage to Axe Attacks"
+        "string": "{0} to {1} Added Physical Damage with Axe Attacks"
       }
     ],
     "ids": [
@@ -37421,7 +37838,30 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Physical Damage to Claw Attacks"
+        "string": "{0} to {1} Added Physical Damage with Bow Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_physical_damage_with_bow",
+      "attack_maximum_added_physical_damage_with_bow"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Physical Damage with Claw Attacks"
       }
     ],
     "ids": [
@@ -37444,7 +37884,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Physical Damage to Dagger Attacks"
+        "string": "{0} to {1} Added Physical Damage with Dagger Attacks"
       }
     ],
     "ids": [
@@ -37467,7 +37907,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Physical Damage to Mace or Sceptre Attacks"
+        "string": "{0} to {1} Added Physical Damage with Mace or Sceptre Attacks"
       }
     ],
     "ids": [
@@ -37490,7 +37930,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Physical Damage to Staff Attacks"
+        "string": "{0} to {1} Added Physical Damage with Staff Attacks"
       }
     ],
     "ids": [
@@ -37513,7 +37953,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Physical Damage to Sword Attacks"
+        "string": "{0} to {1} Added Physical Damage with Sword Attacks"
       }
     ],
     "ids": [
@@ -37536,7 +37976,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Physical Damage to Wand Attacks"
+        "string": "{0} to {1} Added Physical Damage with Wand Attacks"
       }
     ],
     "ids": [
@@ -37559,7 +37999,674 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Chaos Damage to Spells while Dual Wielding"
+        "string": "{0} to {1} Added Physical Damage with Unarmed Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_physical_damage_while_unarmed",
+      "attack_maximum_added_physical_damage_while_unarmed"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Physical Damage with Attacks while holding a Shield"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_physical_damage_while_holding_a_shield",
+      "attack_maximum_added_physical_damage_while_holding_a_shield"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Fire Damage with Axe Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_fire_damage_with_axes",
+      "attack_maximum_added_fire_damage_with_axes"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Fire Damage with Bow Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_fire_damage_with_bow",
+      "attack_maximum_added_fire_damage_with_bow"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Fire Damage with Claw Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_fire_damage_with_claws",
+      "attack_maximum_added_fire_damage_with_claws"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Fire Damage with Dagger Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_fire_damage_with_daggers",
+      "attack_maximum_added_fire_damage_with_daggers"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Fire Damage with Mace or Sceptre Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_fire_damage_with_maces",
+      "attack_maximum_added_fire_damage_with_maces"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Fire Damage with Staff Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_fire_damage_with_staves",
+      "attack_maximum_added_fire_damage_with_staves"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Fire Damage with Sword Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_fire_damage_with_swords",
+      "attack_maximum_added_fire_damage_with_swords"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Fire Damage with Wand Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_fire_damage_with_wand",
+      "attack_maximum_added_fire_damage_with_wand"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Cold Damage with Axe Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_cold_damage_with_axes",
+      "attack_maximum_added_cold_damage_with_axes"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Cold Damage with Bow Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_cold_damage_with_bows",
+      "attack_maximum_added_cold_damage_with_bows"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Cold Damage with Claw Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_cold_damage_with_claws",
+      "attack_maximum_added_cold_damage_with_claws"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Cold Damage with Dagger Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_cold_damage_with_daggers",
+      "attack_maximum_added_cold_damage_with_daggers"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Cold Damage with Mace or Sceptre Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_cold_damage_with_maces",
+      "attack_maximum_added_cold_damage_with_maces"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Cold Damage with Staff Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_cold_damage_with_staves",
+      "attack_maximum_added_cold_damage_with_staves"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Cold Damage with Sword Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_cold_damage_with_swords",
+      "attack_maximum_added_cold_damage_with_swords"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Cold Damage with Wand Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_cold_damage_with_wand",
+      "attack_maximum_added_cold_damage_with_wand"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Lightning Damage with Axe Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_lightning_damage_with_axes",
+      "attack_maximum_added_lightning_damage_with_axes"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Lightning Damage with Bow Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_lightning_damage_with_bows",
+      "attack_maximum_added_lightning_damage_with_bows"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Lightning Damage with Claw Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_lightning_damage_with_claws",
+      "attack_maximum_added_lightning_damage_with_claws"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Lightning Damage with Dagger Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_lightning_damage_with_daggers",
+      "attack_maximum_added_lightning_damage_with_daggers"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Lightning Damage with Mace or Sceptre Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_lightning_damage_with_maces",
+      "attack_maximum_added_lightning_damage_with_maces"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Lightning Damage with Staff Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_lightning_damage_with_staves",
+      "attack_maximum_added_lightning_damage_with_staves"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Lightning Damage with Sword Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_lightning_damage_with_swords",
+      "attack_maximum_added_lightning_damage_with_swords"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Lightning Damage with Wand Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_lightning_damage_with_wand",
+      "attack_maximum_added_lightning_damage_with_wand"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Chaos Damage with Bow Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_chaos_damage_with_bows",
+      "attack_maximum_added_chaos_damage_with_bows"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Chaos Damage with Claw Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_chaos_damage_with_claws",
+      "attack_maximum_added_chaos_damage_with_claws"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Chaos Damage with Dagger Attacks"
+      }
+    ],
+    "ids": [
+      "attack_minimum_added_chaos_damage_with_daggers",
+      "attack_maximum_added_chaos_damage_with_daggers"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
+        "string": "{0} to {1} Added Spell Chaos Damage while Dual Wielding"
       }
     ],
     "ids": [
@@ -37582,7 +38689,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Chaos Damage to Spells while holding a Shield"
+        "string": "{0} to {1} Added Spell Chaos Damage while holding a Shield"
       }
     ],
     "ids": [
@@ -37605,7 +38712,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Chaos Damage to Spells while wielding a Two Handed Weapon"
+        "string": "{0} to {1} Added Spell Chaos Damage while wielding a Two Handed Weapon"
       }
     ],
     "ids": [
@@ -37628,7 +38735,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Cold Damage to Spells while Dual Wielding"
+        "string": "{0} to {1} Added Spell Cold Damage while Dual Wielding"
       }
     ],
     "ids": [
@@ -37651,7 +38758,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Cold Damage to Spells while holding a Shield"
+        "string": "{0} to {1} Added Spell Cold Damage while holding a Shield"
       }
     ],
     "ids": [
@@ -37674,7 +38781,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Cold Damage to Spells while wielding a Two Handed Weapon"
+        "string": "{0} to {1} Added Spell Cold Damage while wielding a Two Handed Weapon"
       }
     ],
     "ids": [
@@ -37697,7 +38804,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Fire Damage to Spells while Dual Wielding"
+        "string": "{0} to {1} Added Spell Fire Damage while Dual Wielding"
       }
     ],
     "ids": [
@@ -37720,7 +38827,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Fire Damage to Spells while holding a Shield"
+        "string": "{0} to {1} Added Spell Fire Damage while holding a Shield"
       }
     ],
     "ids": [
@@ -37743,7 +38850,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Fire Damage to Spells while wielding a Two Handed Weapon"
+        "string": "{0} to {1} Added Spell Fire Damage while wielding a Two Handed Weapon"
       }
     ],
     "ids": [
@@ -37766,7 +38873,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Lightning Damage to Spells while Dual Wielding"
+        "string": "{0} to {1} Added Spell Lightning Damage while Dual Wielding"
       }
     ],
     "ids": [
@@ -37789,7 +38896,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Lightning Damage to Spells while holding a Shield"
+        "string": "{0} to {1} Added Spell Lightning Damage while holding a Shield"
       }
     ],
     "ids": [
@@ -37812,7 +38919,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Lightning Damage to Spells while wielding a Two Handed Weapon"
+        "string": "{0} to {1} Added Spell Lightning Damage while wielding a Two Handed Weapon"
       }
     ],
     "ids": [
@@ -37835,7 +38942,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Physical Damage to Spells while Dual Wielding"
+        "string": "{0} to {1} Added Spell Physical Damage while Dual Wielding"
       }
     ],
     "ids": [
@@ -37858,7 +38965,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Physical Damage to Spells while holding a Shield"
+        "string": "{0} to {1} Added Spell Physical Damage while holding a Shield"
       }
     ],
     "ids": [
@@ -37881,7 +38988,7 @@
           [],
           []
         ],
-        "string": "Adds {0} to {1} Physical Damage to Spells while wielding a Two Handed Weapon"
+        "string": "{0} to {1} Added Spell Physical Damage while wielding a Two Handed Weapon"
       }
     ],
     "ids": [
@@ -38184,6 +39291,27 @@
     ],
     "ids": [
       "skill_area_of_effect_+%_per_power_charge"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Area of Effect per Power Charge, up to a maximum of 50%"
+      }
+    ],
+    "ids": [
+      "skill_area_of_effect_+%_per_power_charge_up_to_50%"
     ]
   },
   {
@@ -38859,7 +39987,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased total Recovery per second from Life Leech"
+        "string": "{0}% increased Recovery per second from Life Leech"
       },
       {
         "condition": [
@@ -38875,7 +40003,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced total Recovery per second from Life Leech"
+        "string": "{0}% reduced Recovery per second from Life Leech"
       }
     ],
     "ids": [
@@ -40749,7 +41877,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Reserved"
+        "string": "{0}% increased Life Reservation of Skills"
       },
       {
         "condition": [
@@ -40765,11 +41893,85 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Reserved"
+        "string": "{0}% reduced Life Reservation of Skills"
+      }
+    ],
+    "ids": [
+      "base_life_reservation_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Mana Reservation of Skills"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Mana Reservation of Skills"
       }
     ],
     "ids": [
       "base_mana_reservation_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Reservation of Skills"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Reservation of Skills"
+      }
+    ],
+    "ids": [
+      "base_reservation_+%"
     ]
   },
   {
@@ -41648,7 +42850,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Fortify duration"
+        "string": "{0}% increased Fortify Duration"
       },
       {
         "condition": [
@@ -41664,7 +42866,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Fortify duration"
+        "string": "{0}% reduced Fortify Duration"
       }
     ],
     "ids": [
@@ -46615,6 +47817,43 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Mana Regeneration Rate while Shocked"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Mana Regeneration Rate while Shocked"
+      }
+    ],
+    "ids": [
+      "mana_regeneration_rate_+%_while_shocked"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Light Radius while Phasing"
       },
       {
@@ -50057,11 +51296,30 @@
         "index_handlers": [
           []
         ],
-        "string": "Increases and Reductions to Damage of Vaal Skills also apply to Non-Vaal Skills"
+        "string": "Increases and Reductions to Damage with Vaal Skills also apply to Non-Vaal Skills"
       }
     ],
     "ids": [
       "additive_vaal_skill_damage_modifiers_apply_to_all_skills"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Vaal Attack Skills Cost Rage instead of requiring Souls to Use"
+      }
+    ],
+    "ids": [
+      "vaal_attack_rage_cost_instead_of_souls_per_use"
     ]
   },
   {
@@ -52269,7 +53527,7 @@
         "index_handlers": [
           []
         ],
-        "string": "You have Fortify during Effect of any Life Flask"
+        "string": "You have Fortify while Recovering Life from a Life Flask"
       }
     ],
     "ids": [
@@ -52789,7 +54047,9 @@
           [
             "milliseconds_to_seconds"
           ],
-          []
+          [
+            "canonical_stat"
+          ]
         ],
         "string": "{1}% increased Movement Speed for {0} seconds on Throwing a Trap"
       }
@@ -53192,6 +54452,25 @@
     ],
     "ids": [
       "base_deal_no_physical_damage"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Deal no Non-Physical Damage"
+      }
+    ],
+    "ids": [
+      "deal_no_non_physical_damage"
     ]
   },
   {
@@ -53934,7 +55213,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Your Skills have no Mana Cost during Flask effect"
+        "string": "Your Skills Cost no Mana during Flask effect"
       }
     ],
     "ids": [
@@ -57176,6 +58455,27 @@
     ],
     "ids": [
       "life_gained_on_enemy_death_per_frenzy_charge"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Recover {0}% of Life on Kill if you've Spent Life Recently"
+      }
+    ],
+    "ids": [
+      "life_%_gained_on_kill_if_spent_life_recently"
     ]
   },
   {
@@ -61477,7 +62777,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Vaal Skills deal {0}% increased Damage"
+        "string": "{0}% increased Damage with Vaal Skills"
       },
       {
         "condition": [
@@ -61493,7 +62793,7 @@
             "negate"
           ]
         ],
-        "string": "Vaal Skills deal {0}% reduced Damage"
+        "string": "{0}% reduced Damage with Vaal Skills"
       }
     ],
     "ids": [
@@ -61662,7 +62962,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased total Recovery per second from Life Leech for each Corrupted Item Equipped"
+        "string": "{0}% increased Recovery per second from Life Leech for each Corrupted Item Equipped"
       },
       {
         "condition": [
@@ -61678,7 +62978,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced total Recovery per second from Life Leech for each Corrupted Item Equipped"
+        "string": "{0}% reduced Recovery per second from Life Leech for each Corrupted Item Equipped"
       }
     ],
     "ids": [
@@ -61834,6 +63134,43 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Soul Gain Prevention Duration"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Soul Gain Prevention Duration"
+      }
+    ],
+    "ids": [
+      "vaal_skill_soul_gain_preventation_duration_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Vaal Skill Critical Strike Chance"
       },
       {
@@ -61909,7 +63246,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Cost of Totem Skills that cast an Aura"
+        "string": "{0}% increased Cost of Aura Skills that summon Totems"
       },
       {
         "condition": [
@@ -61925,7 +63262,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Cost of Totem Skills that cast an Aura"
+        "string": "{0}% reduced Cost of Aura Skills that summon Totems"
       }
     ],
     "ids": [
@@ -62118,6 +63455,25 @@
     ],
     "ids": [
       "no_energy_shield_recovery"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "You count as on Full Life while you are Cursed with Vulnerability"
+      }
+    ],
+    "ids": [
+      "you_count_as_full_life_while_affected_by_vulnerability"
     ]
   },
   {
@@ -66605,6 +67961,43 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Effect of Arcane Surge on you per\nHypnotic Eye Jewel affecting you, up to a maximum of 40%"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Effect of Arcane Surge on you per\nHypnotic Eye Jewel affecting you"
+      }
+    ],
+    "ids": [
+      "arcane_surge_effect_on_self_+%_per_caster_abyss_jewel_up_to_+40%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Effect of Arcane Surge on you"
       },
       {
@@ -67194,6 +68587,64 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Effect of Shocks you inflict during Flask effect"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Effect of Shocks you inflict during Flask effect"
+      }
+    ],
+    "ids": [
+      "local_unique_vinktars_flask_shock_effect_+%_during_flask_effect"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Shocks you inflict during Flask effect spread to other Enemies in a radius of {0}"
+      }
+    ],
+    "ids": [
+      "local_unique_vinktars_flask_shock_proliferation_radius_during_flask_effect"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {},
           {}
         ],
@@ -67318,6 +68769,25 @@
     ],
     "ids": [
       "explode_on_kill_%_chaos_damage_to_deal"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Enemies you Kill have a {0}% chance to Explode, dealing a tenth of their maximum Life as Physical Damage"
+      }
+    ],
+    "ids": [
+      "explode_enemies_for_10%_life_as_physical_on_kill_chance_%"
     ]
   },
   {
@@ -69906,6 +71376,25 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Removes Corrupted Blood when you use a Flask"
+      }
+    ],
+    "ids": [
+      "remove_corrupted_blood_when_you_use_a_flask"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "min": 1
           }
@@ -70134,6 +71623,44 @@
     ],
     "ids": [
       "local_display_nearby_enemies_are_blinded"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Nearby Enemies are Crushed"
+      }
+    ],
+    "ids": [
+      "local_display_nearby_enemies_are_crushed"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Nearby Enemies have Malediction"
+      }
+    ],
+    "ids": [
+      "local_display_nearby_enemies_have_malediction"
     ]
   },
   {
@@ -70755,7 +72282,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Anger has {0}% increased Mana Reservation"
+        "string": "Anger has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -70771,7 +72298,7 @@
             "negate"
           ]
         ],
-        "string": "Anger has {0}% reduced Mana Reservation"
+        "string": "Anger has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -71997,7 +73524,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Movement Skills cost no Mana"
+        "string": "Movement Skills Cost no Mana"
       }
     ],
     "ids": [
@@ -75366,6 +76893,25 @@
     ],
     "ids": [
       "virtual_energy_shield_recharge_rate_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Arrows Fork"
+      }
+    ],
+    "ids": [
+      "arrows_fork"
     ]
   },
   {
@@ -81776,7 +83322,7 @@
           [],
           []
         ],
-        "string": "Minions deal {0} to {1} Added Attack Physical Damage"
+        "string": "Minions deal {0} to {1} additional Attack Physical Damage"
       }
     ],
     "ids": [
@@ -81868,7 +83414,7 @@
           [],
           []
         ],
-        "string": "Minions deal {0} to {1} Added Lightning Damage"
+        "string": "Minions deal {0} to {1} additional Lightning Damage"
       }
     ],
     "ids": [
@@ -90461,7 +92007,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Arctic Armour has {0}% increased Mana Reservation"
+        "string": "Arctic Armour has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90477,7 +92023,7 @@
             "negate"
           ]
         ],
-        "string": "Arctic Armour has {0}% reduced Mana Reservation"
+        "string": "Arctic Armour has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90498,7 +92044,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Herald of Ash has {0}% increased Mana Reservation"
+        "string": "Herald of Ash has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90514,7 +92060,7 @@
             "negate"
           ]
         ],
-        "string": "Herald of Ash has {0}% reduced Mana Reservation"
+        "string": "Herald of Ash has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90535,7 +92081,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Herald of Ice has {0}% increased Mana Reservation"
+        "string": "Herald of Ice has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90551,7 +92097,7 @@
             "negate"
           ]
         ],
-        "string": "Herald of Ice has {0}% reduced Mana Reservation"
+        "string": "Herald of Ice has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90572,7 +92118,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Herald of Thunder has {0}% increased Mana Reservation"
+        "string": "Herald of Thunder has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90588,7 +92134,7 @@
             "negate"
           ]
         ],
-        "string": "Herald of Thunder has {0}% reduced Mana Reservation"
+        "string": "Herald of Thunder has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90609,7 +92155,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Clarity has {0}% increased Mana Reservation"
+        "string": "Clarity has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90625,7 +92171,7 @@
             "negate"
           ]
         ],
-        "string": "Clarity has {0}% reduced Mana Reservation"
+        "string": "Clarity has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90646,7 +92192,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Hatred has {0}% increased Mana Reservation"
+        "string": "Hatred has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90662,7 +92208,7 @@
             "negate"
           ]
         ],
-        "string": "Hatred has {0}% reduced Mana Reservation"
+        "string": "Hatred has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90683,7 +92229,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Purity of Ice has {0}% increased Mana Reservation"
+        "string": "Purity of Ice has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90699,7 +92245,7 @@
             "negate"
           ]
         ],
-        "string": "Purity of Ice has {0}% reduced Mana Reservation"
+        "string": "Purity of Ice has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90720,7 +92266,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Determination has {0}% increased Mana Reservation"
+        "string": "Determination has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90736,7 +92282,7 @@
             "negate"
           ]
         ],
-        "string": "Determination has {0}% reduced Mana Reservation"
+        "string": "Determination has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90757,7 +92303,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Discipline has {0}% increased Mana Reservation"
+        "string": "Discipline has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90773,7 +92319,7 @@
             "negate"
           ]
         ],
-        "string": "Discipline has {0}% reduced Mana Reservation"
+        "string": "Discipline has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90794,7 +92340,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Purity of Elements has {0}% increased Mana Reservation"
+        "string": "Purity of Elements has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90810,7 +92356,7 @@
             "negate"
           ]
         ],
-        "string": "Purity of Elements has {0}% reduced Mana Reservation"
+        "string": "Purity of Elements has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90831,7 +92377,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Purity of Fire has {0}% increased Mana Reservation"
+        "string": "Purity of Fire has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90847,7 +92393,7 @@
             "negate"
           ]
         ],
-        "string": "Purity of Fire has {0}% reduced Mana Reservation"
+        "string": "Purity of Fire has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90868,7 +92414,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Purity of Lightning has {0}% increased Mana Reservation"
+        "string": "Purity of Lightning has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90884,7 +92430,7 @@
             "negate"
           ]
         ],
-        "string": "Purity of Lightning has {0}% reduced Mana Reservation"
+        "string": "Purity of Lightning has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90905,7 +92451,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Vitality has {0}% increased Mana Reservation"
+        "string": "Vitality has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90921,7 +92467,7 @@
             "negate"
           ]
         ],
-        "string": "Vitality has {0}% reduced Mana Reservation"
+        "string": "Vitality has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90942,7 +92488,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Wrath has {0}% increased Mana Reservation"
+        "string": "Wrath has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90958,7 +92504,7 @@
             "negate"
           ]
         ],
-        "string": "Wrath has {0}% reduced Mana Reservation"
+        "string": "Wrath has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -90979,7 +92525,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grace has {0}% increased Mana Reservation"
+        "string": "Grace has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -90995,7 +92541,7 @@
             "negate"
           ]
         ],
-        "string": "Grace has {0}% reduced Mana Reservation"
+        "string": "Grace has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -91016,7 +92562,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Haste has {0}% increased Mana Reservation"
+        "string": "Haste has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -91032,7 +92578,7 @@
             "negate"
           ]
         ],
-        "string": "Haste has {0}% reduced Mana Reservation"
+        "string": "Haste has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -91053,7 +92599,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Despair has {0}% increased Mana Reservation if Cast as an Aura"
+        "string": "Despair has {0}% increased Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -91069,7 +92615,7 @@
             "negate"
           ]
         ],
-        "string": "Despair has {0}% reduced Mana Reservation if Cast as an Aura"
+        "string": "Despair has {0}% reduced Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -91090,7 +92636,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Conductivity has {0}% increased Mana Reservation if Cast as an Aura"
+        "string": "Conductivity has {0}% increased Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -91106,7 +92652,7 @@
             "negate"
           ]
         ],
-        "string": "Conductivity has {0}% reduced Mana Reservation if Cast as an Aura"
+        "string": "Conductivity has {0}% reduced Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -91127,7 +92673,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Flammability has {0}% increased Mana Reservation if Cast as an Aura"
+        "string": "Flammability has {0}% increased Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -91143,7 +92689,7 @@
             "negate"
           ]
         ],
-        "string": "Flammability has {0}% reduced Mana Reservation if Cast as an Aura"
+        "string": "Flammability has {0}% reduced Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -91164,7 +92710,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Frostbite has {0}% increased Mana Reservation if Cast as an Aura"
+        "string": "Frostbite has {0}% increased Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -91180,7 +92726,7 @@
             "negate"
           ]
         ],
-        "string": "Frostbite has {0}% reduced Mana Reservation if Cast as an Aura"
+        "string": "Frostbite has {0}% reduced Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -91201,7 +92747,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Temporal Chains has {0}% increased Mana Reservation if Cast as an Aura"
+        "string": "Temporal Chains has {0}% increased Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -91217,7 +92763,7 @@
             "negate"
           ]
         ],
-        "string": "Temporal Chains has {0}% reduced Mana Reservation if Cast as an Aura"
+        "string": "Temporal Chains has {0}% reduced Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -91238,7 +92784,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Vulnerability has {0}% increased Mana Reservation if Cast as an Aura"
+        "string": "Vulnerability has {0}% increased Reservation if Cast as an Aura"
       },
       {
         "condition": [
@@ -91254,7 +92800,7 @@
             "negate"
           ]
         ],
-        "string": "Vulnerability has {0}% reduced Mana Reservation if Cast as an Aura"
+        "string": "Vulnerability has {0}% reduced Reservation if Cast as an Aura"
       }
     ],
     "ids": [
@@ -93739,7 +95285,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Warcries cost no Mana"
+        "string": "Warcries have no Cost"
       }
     ],
     "ids": [
@@ -96710,7 +98256,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance that if you would gain Endurance Charges, you instead gain up to your maximum number of Endurance Charges"
+        "string": "{0}% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges"
       }
     ],
     "ids": [
@@ -97728,7 +99274,7 @@
           [],
           []
         ],
-        "string": "{0} to {1} Cold Damage per Frenzy Charge"
+        "string": "{0} to {1} Added Cold Damage per Frenzy Charge"
       }
     ],
     "ids": [
@@ -97963,6 +99509,124 @@
     ],
     "ids": [
       "map_packs_have_pop_up_traps"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "milliseconds_to_seconds"
+          ]
+        ],
+        "string": "Gain Defiance for 10 seconds on losing Life to an Enemy Hit, no more than once every {0} seconds"
+      }
+    ],
+    "ids": [
+      "gain_defiance_when_lose_life_to_hit_once_per_x_ms"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Armour per Defiance"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Armour per Defiance"
+      }
+    ],
+    "ids": [
+      "armour_+%_per_defiance"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Maximum total Life Recovery per second from Leech while you have Defiance"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Maximum total Life Recovery per second from Leech while you have Defiance"
+      }
+    ],
+    "ids": [
+      "maximum_total_life_recovery_per_second_from_leech_+%_while_have_defiance"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "At {0} Defiance, take Reflected Physical Damage equal to maximum Life, then lose all Defiance"
+      }
+    ],
+    "ids": [
+      "lose_all_defiance_and_take_max_life_as_damage_on_reaching_x_defiance"
     ]
   },
   {
@@ -99308,7 +100972,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Cost of Skills for each 200 total Mana you have Spent Recently"
+        "string": "{0}% increased Cost of Skills for each 200 total Mana Spent Recently"
       },
       {
         "condition": [
@@ -99324,7 +100988,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Cost of Skills for each 200 total Mana you have Spent Recently"
+        "string": "{0}% reduced Cost of Skills for each 200 total Mana Spent Recently"
       }
     ],
     "ids": [
@@ -99524,6 +101188,25 @@
     ],
     "ids": [
       "chance_to_gain_max_crab_stacks_when_you_would_gain_a_crab_stack_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0} to Maximum Blood Charges"
+      }
+    ],
+    "ids": [
+      "maximum_blood_scythe_charges"
     ]
   },
   {
@@ -102684,7 +104367,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Anger Reserves no Mana"
+        "string": "Anger has no Reservation"
       }
     ],
     "ids": [
@@ -107461,6 +109144,42 @@
     "English": [
       {
         "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Attacks that Fire Projectiles Consume up to {0} additional Steel Shard"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Attacks that Fire Projectiles Consume up to {0} additional Steel Shards"
+      }
+    ],
+    "ids": [
+      "steel_ammo_consumed_per_use_with_attacks_that_fire_projectiles"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -108462,7 +110181,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Reservation of Banner Skills"
+        "string": "{0}% increased Reservation of Banner Skills"
       },
       {
         "condition": [
@@ -108478,7 +110197,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Reservation of Banner Skills"
+        "string": "{0}% reduced Reservation of Banner Skills"
       }
     ],
     "ids": [
@@ -108497,7 +110216,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Banner Skills Reserve no Mana"
+        "string": "Banner Skills have no Reservation"
       }
     ],
     "ids": [
@@ -114215,7 +115934,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Flesh and Stone has {0}% increased Mana Reservation"
+        "string": "Flesh and Stone has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -114231,7 +115950,7 @@
             "negate"
           ]
         ],
-        "string": "Flesh and Stone has {0}% reduced Mana Reservation"
+        "string": "Flesh and Stone has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -114399,6 +116118,80 @@
         "index_handlers": [
           []
         ],
+        "string": "Reap deals {0}% increased Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Reap deals {0}% reduced Damage"
+      }
+    ],
+    "ids": [
+      "bloodreap_damage_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Reap Area of Effect"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Reap Area of Effect"
+      }
+    ],
+    "ids": [
+      "bloodreap_skill_area_of_effect_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Summoned Carrion Golems deal {0}% increased Damage"
       },
       {
@@ -114550,6 +116343,43 @@
     ],
     "ids": [
       "boots_implicit_accuracy_rating_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% more Life"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% less Life"
+      }
+    ],
+    "ids": [
+      "boss_maximum_life_+%_final"
     ]
   },
   {
@@ -115287,6 +117117,25 @@
         "index_handlers": [
           []
         ],
+        "string": "You cannot gain Rage during Soul Gain Prevention"
+      }
+    ],
+    "ids": [
+      "cannot_gain_rage_during_soul_gain_prevention"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Enemies Cannot Leech Energy Shield From you"
       }
     ],
@@ -115806,7 +117655,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Aspect of the Cat Reserves no Mana"
+        "string": "Aspect of the Cat has no Reservation"
       }
     ],
     "ids": [
@@ -117024,7 +118873,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% chance when you pay a Skill's Mana Cost to gain that much Mana"
+        "string": "{0}% chance when you pay a Skill's Cost to gain that much Mana"
       }
     ],
     "ids": [
@@ -117478,6 +119327,25 @@
     ],
     "ids": [
       "chance_to_shock_chilled_enemies_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% chance to throw up to 4 additional Traps"
+      }
+    ],
+    "ids": [
+      "chance_to_throw_4_additional_traps_%"
     ]
   },
   {
@@ -118650,7 +120518,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Clarity Reserves no Mana"
+        "string": "Clarity has no Reservation"
       }
     ],
     "ids": [
@@ -120491,6 +122359,101 @@
     ],
     "ids": [
       "corrosive_shroud_poison_dot_multiplier_+_while_aura_active"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Corrupting Fever has {0}% chance to inflict an additional Corrupted Blood Debuff"
+      }
+    ],
+    "ids": [
+      "corrupting_fever_apply_additional_corrupted_blood_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Corrupting Fever deals {0}% increased Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Corrupting Fever deals {0}% reduced Damage"
+      }
+    ],
+    "ids": [
+      "corrupting_fever_damage_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Corrupting Fever Duration"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Corrupting Fever Duration"
+      }
+    ],
+    "ids": [
+      "corrupting_fever_duration_+%"
     ]
   },
   {
@@ -122420,6 +124383,29 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "milliseconds_to_seconds"
+          ]
+        ],
+        "string": "Crush Enemies for {0} seconds when you Hit them while they are on Full Life"
+      }
+    ],
+    "ids": [
+      "crush_on_hit_ms_vs_full_life_enemies"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -122982,6 +124968,43 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Damage for each Poison on you"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Damage for each Poison on you"
+      }
+    ],
+    "ids": [
+      "damage_+%_per_poison_stack"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Damage per Raised Zombie"
       },
       {
@@ -123003,6 +125026,25 @@
     ],
     "ids": [
       "damage_+%_per_raised_zombie"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Damage cannot be Reflected"
+      }
+    ],
+    "ids": [
+      "damage_cannot_be_reflected"
     ]
   },
   {
@@ -123639,6 +125681,43 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Damage with Skills that Cost Life"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Damage with Skills that Cost Life"
+      }
+    ],
+    "ids": [
+      "damage_+%_if_skill_costs_life"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Damage if you've used a Travel Skill Recently"
       },
       {
@@ -123964,7 +126043,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Damage per Frenzy, Power or Endurance Charge"
+        "string": "{0}% increased Damage per Endurance, Frenzy or Power Charge"
       },
       {
         "condition": [
@@ -123980,11 +126059,48 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Damage per Frenzy, Power or Endurance Charge"
+        "string": "{0}% reduced Damage per Endurance, Frenzy or Power Charge"
       }
     ],
     "ids": [
       "damage_+%_per_frenzy_power_or_endurance_charge"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Damage for each Poison on you up to a maximum of 75%"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Damage for each Poison on you"
+      }
+    ],
+    "ids": [
+      "damage_+%_per_poison_up_to_75%"
     ]
   },
   {
@@ -124556,7 +126672,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Non-Vaal Skills deal {0}% increased Damage during Soul Gain Prevention"
+        "string": "{0}% increased Damage with Non-Vaal Skills during Soul Gain Prevention"
       },
       {
         "condition": [
@@ -124572,7 +126688,7 @@
             "negate"
           ]
         ],
-        "string": "Non-Vaal Skills deal {0}% reduced Damage during Soul Gain Prevention"
+        "string": "{0}% reduced Damage with Non-Vaal Skills during Soul Gain Prevention"
       }
     ],
     "ids": [
@@ -125466,7 +127582,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Your Hits inflict Decay, dealing 500 Chaos Damage per second for 8 seconds"
+        "string": "Your Hits inflict Decay, dealing 700 Chaos Damage per second for 8 seconds"
       }
     ],
     "ids": [
@@ -125786,7 +127902,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Malevolence has {0}% increased Mana Reservation"
+        "string": "Malevolence has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -125802,7 +127918,7 @@
             "negate"
           ]
         ],
-        "string": "Malevolence has {0}% reduced Mana Reservation"
+        "string": "Malevolence has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -125821,7 +127937,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Malevolence Reserves no Mana"
+        "string": "Malevolence has no Reservation"
       }
     ],
     "ids": [
@@ -125935,7 +128051,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Determination Reserves no Mana"
+        "string": "Determination has no Reservation"
       }
     ],
     "ids": [
@@ -126159,7 +128275,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Discipline Reserves no Mana"
+        "string": "Discipline has no Reservation"
       }
     ],
     "ids": [
@@ -126783,6 +128899,43 @@
     ],
     "ids": [
       "dodge_spells_chance_%_while_moving"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% more Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% less Damage"
+      }
+    ],
+    "ids": [
+      "doedre_aura_damage_+%_final"
     ]
   },
   {
@@ -130216,7 +132369,7 @@
             "per_minute_to_per_second"
           ]
         ],
-        "string": "Regenerate {0} Energy Shield per Second per Poison on you, up to 250 per second"
+        "string": "Regenerate {0} Energy Shield per Second per Poison on you, up to 400 per second"
       }
     ],
     "ids": [
@@ -130428,7 +132581,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Envy Reserves no Mana"
+        "string": "Envy has no Reservation"
       }
     ],
     "ids": [
@@ -131072,6 +133225,99 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Exsanguinate has a {0}% chance to Chain an additional time"
+      }
+    ],
+    "ids": [
+      "exsanguinate_additional_chain_chance_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Exsanguinate deals {0}% increased Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Exsanguinate deals {0}% reduced Damage"
+      }
+    ],
+    "ids": [
+      "exsanguinate_damage_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Exsanguinate Duration"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Exsanguinate Duration"
+      }
+    ],
+    "ids": [
+      "exsanguinate_duration_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "min": 1
           }
@@ -131101,6 +133347,41 @@
     ],
     "ids": [
       "extra_critical_rolls_during_focus"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Your Critical Strike Chance is Lucky while on Low Life"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Your Critical Strike Chance is Unlucky while on Low Life"
+      }
+    ],
+    "ids": [
+      "extra_critical_rolls_while_on_low_life"
     ]
   },
   {
@@ -134525,6 +136806,25 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill"
+      }
+    ],
+    "ids": [
+      "gain_frenzy_power_endurance_charges_on_vaal_skill_use"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "min": 1
           }
@@ -134673,6 +136973,27 @@
     ],
     "ids": [
       "gain_maximum_power_charges_on_power_charge_gained_%_chance"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Gain up to maximum Power Charges when you use a Vaal Skill"
+      }
+    ],
+    "ids": [
+      "gain_maximum_power_charges_on_vaal_skill_use"
     ]
   },
   {
@@ -136320,7 +138641,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grace Reserves no Mana"
+        "string": "Grace has no Reservation"
       }
     ],
     "ids": [
@@ -136397,7 +138718,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% more Damage with Bleeding"
+        "string": "{0}% more Physical Damage over Time"
       },
       {
         "condition": [
@@ -136413,11 +138734,11 @@
             "negate"
           ]
         ],
-        "string": "{0}% less Damage with Bleeding"
+        "string": "{0}% less Physical Damage over Time"
       }
     ],
     "ids": [
-      "gratuitous_violence_bleeding_damage_+%_final"
+      "gratuitous_violence_physical_damage_over_time_+%_final"
     ]
   },
   {
@@ -136712,7 +139033,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Haste Reserves no Mana"
+        "string": "Haste has no Reservation"
       }
     ],
     "ids": [
@@ -136731,7 +139052,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Hatred Reserves no Mana"
+        "string": "Hatred has no Reservation"
       }
     ],
     "ids": [
@@ -137126,12 +139447,12 @@
           }
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Alert Level increases every ten seconds"
+        "string": "Alert Level increases by {0}% per second"
       },
       {
         "condition": [
@@ -137140,14 +139461,14 @@
           }
         ],
         "format": [
-          "ignore"
+          "#"
         ],
         "index_handlers": [
           [
             "negate"
           ]
         ],
-        "string": "Alert Level reduces every ten seconds"
+        "string": "Alert Level reduces by {0}% per second"
       }
     ],
     "ids": [
@@ -141536,7 +143857,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Herald of Agony has {0}% increased Mana Reservation"
+        "string": "Herald of Agony has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -141552,7 +143873,7 @@
             "negate"
           ]
         ],
-        "string": "Herald of Agony has {0}% reduced Mana Reservation"
+        "string": "Herald of Agony has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -141814,7 +144135,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Herald of Purity has {0}% increased Mana Reservation"
+        "string": "Herald of Purity has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -141830,7 +144151,7 @@
             "negate"
           ]
         ],
-        "string": "Herald of Purity has {0}% reduced Mana Reservation"
+        "string": "Herald of Purity has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -141959,7 +144280,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Reservation of Herald Skills"
+        "string": "{0}% increased Reservation of Herald Skills"
       },
       {
         "condition": [
@@ -141975,7 +144296,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Reservation of Herald Skills"
+        "string": "{0}% reduced Reservation of Herald Skills"
       }
     ],
     "ids": [
@@ -144878,7 +147199,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Area is infested with Fungal Growths"
+        "string": "Area is infested with Fungal Growths\nMap's Item Quantity Modifiers also affect Blight Chest count at 20% value"
       }
     ],
     "ids": [
@@ -144962,6 +147283,25 @@
     ],
     "ids": [
       "kaoms_primacy_gain_rage_on_attack_crit_cooldown_ms"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Shepherd of Souls"
+      }
+    ],
+    "ids": [
+      "keystone_shepherd_of_souls"
     ]
   },
   {
@@ -145708,7 +148048,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Lancing Steel has {0}% chance count as consuming Steel Shards without Consuming them"
+        "string": "Lancing Steel has {0}% chance to count as consuming Steel Shards without Consuming them"
       }
     ],
     "ids": [
@@ -146385,7 +148725,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Life Leeched per Second is doubled"
+        "string": "Total Recovery per second from Life Leech is doubled"
       }
     ],
     "ids": [
@@ -146661,6 +149001,29 @@
     ],
     "ids": [
       "life_recovery_rate_+%_while_affected_by_vitality"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "per_minute_to_per_second"
+          ]
+        ],
+        "string": "Regenerate {0}% of Life per second if you have Stunned an Enemy Recently"
+      }
+    ],
+    "ids": [
+      "life_regeneration_%_per_minute_if_stunned_an_enemy_recently"
     ]
   },
   {
@@ -149660,6 +152023,25 @@
         "index_handlers": [
           []
         ],
+        "string": "1 Added Passive Skill is Blood Artist"
+      }
+    ],
+    "ids": [
+      "local_affliction_notable_blood_artist"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "1 Added Passive Skill is Bloodscent"
       }
     ],
@@ -152534,6 +154916,25 @@
     ],
     "ids": [
       "local_affliction_notable_peak_vigour"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "1 Added Passive Skill is Phlebotomist"
+      }
+    ],
+    "ids": [
+      "local_affliction_notable_phlebotomist"
     ]
   },
   {
@@ -156518,6 +158919,117 @@
           }
         ],
         "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Hits with this Weapon Freeze Enemies as though dealing {0}% more Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Hits with this Weapon Freeze Enemies as though dealing {0}% less Damage"
+      }
+    ],
+    "ids": [
+      "local_hits_with_this_weapon_freeze_as_though_damage_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Hits with this Weapon Shock Enemies as though dealing {0}% more Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Hits with this Weapon Shock Enemies as though dealing {0}% less Damage"
+      }
+    ],
+    "ids": [
+      "local_hits_with_this_weapon_shock_as_though_damage_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Ignites inflicted with this Weapon deal {0}% more Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Ignites inflicted with this Weapon deal {0}% less Damage"
+      }
+    ],
+    "ids": [
+      "local_ignite_damage_+%_final_with_this_weapon"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
           "ignore"
         ],
         "index_handlers": [
@@ -156897,7 +159409,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "tree_expansion_jewel_passive"
+          ]
         ],
         "string": "{0}"
       }
@@ -158284,7 +160798,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Vaal Skills deal {0}% increased Damage during effect"
+        "string": "{0}% increased Damage with Vaal Skills during effect"
       },
       {
         "condition": [
@@ -158300,7 +160814,7 @@
             "negate"
           ]
         ],
-        "string": "Vaal Skills deal {0}% reduced Damage during effect"
+        "string": "{0}% reduced Damage with Vaal Skills during effect"
       }
     ],
     "ids": [
@@ -158377,7 +160891,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Vaal Skills have {0}% increased Soul Cost during effect"
+        "string": "Vaal Skills require {0}% increased Souls Per Use during effect"
       },
       {
         "condition": [
@@ -158393,7 +160907,7 @@
             "negate"
           ]
         ],
-        "string": "Vaal Skills have {0}% reduced Soul Cost during effect"
+        "string": "Vaal Skills require {0}% reduced Souls Per Use during effect"
       }
     ],
     "ids": [
@@ -160817,6 +163331,41 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Main Hand Critical Strike Chance per\nMurderous Eye Jewel affecting you, up to a maximum of 100%"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% reduced Main Hand Critical Strike Chance per\nMurderous Eye Jewel affecting you"
+      }
+    ],
+    "ids": [
+      "main_hand_critical_strike_chance_+%_per_melee_abyss_jewel_up_to_+100%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -160957,7 +163506,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Cost of Channelling Skills"
+        "string": "{0}% increased Cost of Channelling Skills"
       },
       {
         "condition": [
@@ -160973,7 +163522,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Cost of Channelling Skills"
+        "string": "{0}% reduced Cost of Channelling Skills"
       }
     ],
     "ids": [
@@ -160994,7 +163543,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Cost of Skills that throw Traps or Mines"
+        "string": "{0}% increased Cost of Skills that throw Traps or Mines"
       },
       {
         "condition": [
@@ -161010,7 +163559,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Cost of Skills that throw Traps or Mines"
+        "string": "{0}% reduced Cost of Skills that throw Traps or Mines"
       }
     ],
     "ids": [
@@ -161031,7 +163580,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Cost of Skills that throw Traps"
+        "string": "{0}% increased Cost of Skills that throw Traps"
       },
       {
         "condition": [
@@ -161047,7 +163596,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Cost of Skills that throw Traps"
+        "string": "{0}% reduced Cost of Skills that throw Traps"
       }
     ],
     "ids": [
@@ -161945,7 +164494,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Reservation of Skills that throw Mines"
+        "string": "{0}% increased Reservation of Skills that throw Mines"
       },
       {
         "condition": [
@@ -161961,7 +164510,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Reservation of Skills that throw Mines"
+        "string": "{0}% reduced Reservation of Skills that throw Mines"
       }
     ],
     "ids": [
@@ -161982,7 +164531,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Reserved per 250 total Attributes"
+        "string": "{0}% increased Reservation of Skills per 250 total Attributes"
       },
       {
         "condition": [
@@ -161998,7 +164547,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Reserved per 250 total Attributes"
+        "string": "{0}% reduced Reservation of Skills per 250 total Attributes"
       }
     ],
     "ids": [
@@ -162019,7 +164568,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Reservation of Curse Aura Skills"
+        "string": "{0}% increased Reservation of Curse Aura Skills"
       },
       {
         "condition": [
@@ -162035,7 +164584,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Reservation of Curse Aura Skills"
+        "string": "{0}% reduced Reservation of Curse Aura Skills"
       }
     ],
     "ids": [
@@ -162076,6 +164625,78 @@
     ],
     "ids": [
       "manifest_dancing_dervish_number_of_additional_copies"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Abysses in Area have {0}% increased chance to lead to an Abyssal Depths"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Abysses in Area have {0}% reduced chance to lead to an Abyssal Depths"
+      }
+    ],
+    "ids": [
+      "map_abyss_depths_chance_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Abysses in Area spawn {0}% increased Monsters"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Abysses in Area spawn {0}% reduced Monsters"
+      }
+    ],
+    "ids": [
+      "map_abyss_monster_spawn_amount_+%"
     ]
   },
   {
@@ -162150,6 +164771,42 @@
     ],
     "ids": [
       "map_additional_red_beasts"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 99,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas have {0}% chance to contain an additional pack of Rogue Exiles"
+      },
+      {
+        "condition": [
+          {
+            "min": 100
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain an additional pack of Rogue Exiles"
+      }
+    ],
+    "ids": [
+      "map_additional_rogue_exile_pack_%_chance"
     ]
   },
   {
@@ -162801,6 +165458,25 @@
         "index_handlers": [
           []
         ],
+        "string": "Areas contain Ritual Altars"
+      }
+    ],
+    "ids": [
+      "map_area_contains_rituals"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Area contains a Tormented Embezzler"
       }
     ],
@@ -163027,6 +165703,42 @@
           }
         ],
         "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas have {0}% chance to contain Ritual Altars"
+      },
+      {
+        "condition": [
+          {
+            "min": 100
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas contain Ritual Altars"
+      }
+    ],
+    "ids": [
+      "map_area_ritual_additional_chance_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 99,
+            "min": 1
+          }
+        ],
+        "format": [
           "#"
         ],
         "index_handlers": [
@@ -163094,6 +165806,100 @@
       {
         "condition": [
           {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Blight Chests drop an additional Reward"
+      }
+    ],
+    "ids": [
+      "map_blight_chests_repeat_drops_count"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Blight Monsters in Areas spawn {0}% faster"
+      }
+    ],
+    "ids": [
+      "map_blight_encounter_spawn_rate_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Lanes of Blight Encounters in Areas have {0}% chance for an additional Reward Chest"
+      }
+    ],
+    "ids": [
+      "map_blight_lane_additional_chest_chance_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Lanes of Blight Encounters in Areas have an additional Reward Chest"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Lanes of Blight Encounters in Areas have {0} additional Reward Chests"
+      }
+    ],
+    "ids": [
+      "map_blight_lane_additional_chests"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
             "min": 1
           }
         ],
@@ -163124,6 +165930,59 @@
     ],
     "ids": [
       "map_blight_tower_cost_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Blight Encounters in Areas contain up to {0} additional Blight Boss"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Blight Encounters in Areas contain up to {0} additional Blight Bosses"
+      }
+    ],
+    "ids": [
+      "map_blight_up_to_X_additional_bosses"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Encounter duration is {0} seconds shorter"
+      }
+    ],
+    "ids": [
+      "map_blighted_map_encounter_duration_-_sec"
     ]
   },
   {
@@ -163192,6 +166051,25 @@
     ],
     "ids": [
       "map_bloodline_packs_drop_x_additional_rare_items"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Blueprints that drop in Areas have {0}% chance to be fully Revealed"
+      }
+    ],
+    "ids": [
+      "map_blueprint_drop_revealed_chance_%"
     ]
   },
   {
@@ -163643,6 +166521,27 @@
       {
         "condition": [
           {
+            "min": 100
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Area contains The Sacred Grove"
+      }
+    ],
+    "ids": [
+      "map_chance_for_area_%_to_contain_harvest"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
             "max": 1,
             "min": 1
           }
@@ -164063,6 +166962,73 @@
     ],
     "ids": [
       "map_contains_chayula_breach"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Map contains Baran's Citadel\nItem Quantity increases amount of Rewards Baran drops by 20% of its value"
+      },
+      {
+        "condition": [
+          {
+            "max": 2,
+            "min": 2
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Map contains Veritania's Citadel\nItem Quantity increases amount of Rewards Veritania drops by 20% of its value"
+      },
+      {
+        "condition": [
+          {
+            "max": 3,
+            "min": 3
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Map contains Al-Hezmin's Citadel\nItem Quantity increases amount of Rewards Al-Hezmin drops by 20% of its value"
+      },
+      {
+        "condition": [
+          {
+            "max": 4,
+            "min": 4
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Map contains Drox's Citadel\nItem Quantity increases amount of Rewards Drox drops by 20% of its value"
+      }
+    ],
+    "ids": [
+      "map_contains_citadel"
     ]
   },
   {
@@ -165725,7 +168691,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "affliction_reward_type"
+          ]
         ],
         "string": "Delirium Reward Type: {0}"
       }
@@ -165744,7 +168712,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "affliction_reward_type"
+          ]
         ],
         "string": "Delirium Reward Type: {0}"
       }
@@ -165763,7 +168733,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "affliction_reward_type"
+          ]
         ],
         "string": "Delirium Reward Type: {0}"
       }
@@ -165782,7 +168754,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "affliction_reward_type"
+          ]
         ],
         "string": "Delirium Reward Type: {0}"
       }
@@ -165801,7 +168775,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "affliction_reward_type"
+          ]
         ],
         "string": "Delirium Reward Type: {0}"
       }
@@ -166217,6 +169193,42 @@
     ],
     "ids": [
       "map_harbingers_drops_additional_currency_shards"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 99,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Harbingers in Areas have {0}% chance to be replaced by a powerful Harbinger boss"
+      },
+      {
+        "condition": [
+          {
+            "min": 100
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Harbingers in Areas are replaced by a powerful Harbinger boss"
+      }
+    ],
+    "ids": [
+      "map_harbingers_%_chance_to_be_replaced_as_atlas_boss"
     ]
   },
   {
@@ -168611,6 +171623,61 @@
     ],
     "ids": [
       "map_metamorph_boss_drops_additional_itemised_organs"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Metamorph Boss Organs found in Areas always have at least 1 reward"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Metamorph Boss Organs found in Areas always have at least {0} rewards"
+      }
+    ],
+    "ids": [
+      "map_metamorph_itemised_boss_min_rewards"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Metamorph Boss Organs found in Areas construct more difficult Metamorph Bosses"
+      }
+    ],
+    "ids": [
+      "map_metamorph_itemised_boss_more_difficult"
     ]
   },
   {
@@ -172612,6 +175679,172 @@
     "English": [
       {
         "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Ritual Altars in Areas allow rerolling Favours an additional time"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Ritual Altars in Areas allow rerolling Favours {0} additional times"
+      }
+    ],
+    "ids": [
+      "map_ritual_additional_reward_rerolls"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Areas with Rituals Altars always have {0} Rituals Altars"
+      }
+    ],
+    "ids": [
+      "map_ritual_encounter_count_override"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rerolling Favours at Ritual Altars in Areas costs {0}% more Tribute"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Rerolling Favours at Ritual Altars in Areas costs {0}% less Tribute"
+      }
+    ],
+    "ids": [
+      "map_ritual_rewards_reroll_cost_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monsters Sacrificed at Ritual Altars in Areas grant {0}% increased Tribute"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Monsters Sacrificed at Ritual Altars in Areas grant {0}% reduced Tribute"
+      }
+    ],
+    "ids": [
+      "map_ritual_tribute_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased chance of Ritual Altars with Special Rewards"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced chance of Ritual Altars with Special Rewards"
+      }
+    ],
+    "ids": [
+      "map_ritual_uber_rune_type_weighting_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -173123,11 +176356,49 @@
         "index_handlers": [
           []
         ],
+        "string": "Area contains a Smuggler's Cache"
+      }
+    ],
+    "ids": [
+      "map_spawn_heist_smugglers_cache"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Areas contain Temporal Incursions"
       }
     ],
     "ids": [
       "map_spawn_incursion_encounters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Area contains {0} additional Smuggler's Caches"
+      }
+    ],
+    "ids": [
+      "map_spawn_x_additional_heist_smugglers_caches"
     ]
   },
   {
@@ -176443,7 +179714,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Warbands in the Area have {0} additional Elites Members"
+        "string": "Warbands in the Area have {0} additional Elite Members"
       }
     ],
     "ids": [
@@ -176968,7 +180239,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Maximum total Recovery per second from Life Leech is doubled"
+        "string": "Maximum total Life Recovery per second from Leech is doubled"
       }
     ],
     "ids": [
@@ -176989,7 +180260,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Maximum total Recovery per second from Life Leech if you've taken a Savage Hit Recently"
+        "string": "{0}% increased Life Maximum total Recovery per second from Leech if you've taken a Savage Hit Recently"
       },
       {
         "condition": [
@@ -177005,7 +180276,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Maximum total Recovery per second from Life Leech if you've taken a Savage Hit Recently"
+        "string": "{0}% reduced Life Maximum total Recovery per second from Leech if you've taken a Savage Hit Recently"
       }
     ],
     "ids": [
@@ -177906,6 +181177,101 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}"
+      }
+    ],
+    "ids": [
+      "metamorphosis_boss_item_reward_slot_1_index"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}"
+      }
+    ],
+    "ids": [
+      "metamorphosis_boss_item_reward_slot_2_index"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}"
+      }
+    ],
+    "ids": [
+      "metamorphosis_boss_item_reward_slot_3_index"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}"
+      }
+    ],
+    "ids": [
+      "metamorphosis_boss_item_reward_slot_4_index"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}"
+      }
+    ],
+    "ids": [
+      "metamorphosis_boss_item_reward_slot_5_index"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "min": 1
           }
@@ -178414,6 +181780,29 @@
           [],
           []
         ],
+        "string": "{0} to {1} added Fire Damage per 100 of Maximum Life or Maximum Mana, whichever is lower"
+      }
+    ],
+    "ids": [
+      "minimum_added_fire_damage_per_100_lowest_of_max_life_mana",
+      "maximum_added_fire_damage_per_100_lowest_of_max_life_mana"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {},
+          {}
+        ],
+        "format": [
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          []
+        ],
         "string": "{0} to {1} Fire Damage per Endurance Charge"
       }
     ],
@@ -178822,6 +182211,25 @@
     ],
     "ids": [
       "minimum_frenzy_charges_at_devotion_threshold"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0} to Minimum Endurance, Frenzy and Power Charges"
+      }
+    ],
+    "ids": [
+      "minimum_frenzy_power_endurance_charges"
     ]
   },
   {
@@ -179446,6 +182854,25 @@
     ],
     "ids": [
       "minion_damage_against_ignited_enemies_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Minions have {0}% to Damage over Time Multiplier per\nGhastly Eye Jewel affecting you, up to a maximum of +30%"
+      }
+    ],
+    "ids": [
+      "minion_damage_over_time_multiplier_+_per_minion_abyss_jewel_up_to_+30"
     ]
   },
   {
@@ -180627,7 +184054,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "passive_hash"
+          ]
         ],
         "string": "Allocates {0}"
       }
@@ -180646,7 +184075,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "passive_hash"
+          ]
         ],
         "string": "Allocates {0}"
       }
@@ -181448,6 +184879,43 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Movement Speed for each Poison on you up to a maximum of 50%"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Movement Speed for each Poison on you"
+      }
+    ],
+    "ids": [
+      "movement_speed_+%_per_poison_up_to_50%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Movement Speed per Power Charge"
       },
       {
@@ -181839,6 +185307,43 @@
     ],
     "ids": [
       "movement_speed_+%_while_you_have_infusion"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Movement Speed for each Poison on you"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Movement Speed for each Poison on you"
+      }
+    ],
+    "ids": [
+      "movement_velocity_+%_per_poison_stack"
     ]
   },
   {
@@ -183323,6 +186828,25 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% to Off Hand Critical Strike Multiplier per\nMurderous Eye Jewel affecting you, up to a maximum of +50%"
+      }
+    ],
+    "ids": [
+      "off_hand_critical_strike_multiplier_+_per_melee_abyss_jewel_up_to_+50"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "min": 1
           }
@@ -183813,6 +187337,43 @@
     ],
     "ids": [
       "permanently_intimidate_enemy_on_block"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Petrified Blood has {0}% increased Reservation"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Petrified Blood has {0}% reduced Reservation"
+      }
+    ],
+    "ids": [
+      "petrified_blood_reservation_+%"
     ]
   },
   {
@@ -184937,6 +188498,48 @@
           }
         ],
         "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% to Physical Damage over Time Multiplier if you've dealt a Critical Strike Recently"
+      }
+    ],
+    "ids": [
+      "physical_dot_multiplier_+_if_crit_recently"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% to Physical Damage over Time Multiplier if you've Spent Life Recently"
+      }
+    ],
+    "ids": [
+      "physical_dot_multiplier_+_if_spent_life_recently"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
           "#"
         ],
         "index_handlers": [
@@ -185819,7 +189422,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Precision has 50% less Mana Reservation"
+        "string": "Precision has 50% less Reservation"
       }
     ],
     "ids": [
@@ -185840,7 +189443,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Precision has {0}% increased Mana Reservation"
+        "string": "Precision has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -185856,7 +189459,7 @@
             "negate"
           ]
         ],
-        "string": "Precision has {0}% reduced Mana Reservation"
+        "string": "Precision has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -185875,7 +189478,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Precision Reserves no Mana"
+        "string": "Precision has no Reservation"
       }
     ],
     "ids": [
@@ -186043,7 +189646,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Pride has {0}% increased Mana Reservation"
+        "string": "Pride has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -186059,7 +189662,7 @@
             "negate"
           ]
         ],
-        "string": "Pride has {0}% reduced Mana Reservation"
+        "string": "Pride has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -186115,7 +189718,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Pride Reserves no Mana"
+        "string": "Pride has no Reservation"
       }
     ],
     "ids": [
@@ -186139,6 +189742,25 @@
     ],
     "ids": [
       "pride_your_impaled_debuff_lasts_+_additional_hits"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Projectiles have {0}% chance to be able to Chain when colliding with terrain per\nSearching Eye Jewel affecting you, up to a maximum of 20%"
+      }
+    ],
+    "ids": [
+      "projecitle_chance_to_be_able_to_chain_from_terrain_%_per_ranged_abyss_jewel_up_to_20%"
     ]
   },
   {
@@ -186804,7 +190426,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Purity of Elements Reserves no Mana"
+        "string": "Purity of Elements has no Reservation"
       }
     ],
     "ids": [
@@ -186823,7 +190445,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Purity of Fire Reserves no Mana"
+        "string": "Purity of Fire has no Reservation"
       }
     ],
     "ids": [
@@ -186842,7 +190464,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Purity of Ice Reserves no Mana"
+        "string": "Purity of Ice has no Reservation"
       }
     ],
     "ids": [
@@ -186861,7 +190483,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Purity of Lightning Reserves no Mana"
+        "string": "Purity of Lightning has no Reservation"
       }
     ],
     "ids": [
@@ -188535,7 +192157,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Hatred has {0}% more Mana Reservation"
+        "string": "Hatred has {0}% more Reservation"
       },
       {
         "condition": [
@@ -188551,7 +192173,7 @@
             "negate"
           ]
         ],
-        "string": "Hatred has {0}% less Mana Reservation"
+        "string": "Hatred has {0}% less Reservation"
       }
     ],
     "ids": [
@@ -188653,6 +192275,43 @@
     ],
     "ids": [
       "revive_golems_if_killed_by_enemies_ms"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rogue Exiles have {0}% more Maximum Life"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Rogue Exiles have {0}% less Maximum Life"
+      }
+    ],
+    "ids": [
+      "rogue_trader_map_rogue_exile_maximum_life_+%_final"
     ]
   },
   {
@@ -190850,6 +194509,44 @@
         "index_handlers": [
           []
         ],
+        "string": "Channelling Skills have {0} to Total Life Cost"
+      }
+    ],
+    "ids": [
+      "skill_life_cost_+_with_channelling_skills"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Non-Channelling Skills have {0} to Total Life Cost"
+      }
+    ],
+    "ids": [
+      "skill_life_cost_+_with_non_channelling_skills"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0} to Total Mana Cost of Skills while affected by Clarity"
       }
     ],
@@ -190869,30 +194566,11 @@
         "index_handlers": [
           []
         ],
-        "string": "Channelling Skills have {0} to Total Mana Cost"
+        "string": "Channelling Skills have {0} to Total Cost"
       }
     ],
     "ids": [
       "skill_mana_cost_+_with_channelling_skills"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "+#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Non-Channelling Skills have {0} to Total Mana Cost while affected by Clarity"
-      }
-    ],
-    "ids": [
-      "skill_mana_cost_+_with_non_channelling_skills_while_affected_by_clarity"
     ]
   },
   {
@@ -190921,16 +194599,71 @@
           {}
         ],
         "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Non-Channelling Skills have {0} to Total Mana Cost while affected by Clarity"
+      }
+    ],
+    "ids": [
+      "skill_mana_cost_+_with_non_channelling_skills_while_affected_by_clarity"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
           "ignore"
         ],
         "index_handlers": [
           []
         ],
-        "string": "Skills Cost no Mana while Focussed"
+        "string": "Skills Cost no Mana or Life while Focussed"
       }
     ],
     "ids": [
       "skills_cost_no_mana_while_focused"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Skills Fire {0} additional Projectile for 4 seconds after\nyou consume a total of 12 Steel Shards"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Skills Fire {0} additional Projectiles for 4 seconds after\nyou consume a total of 12 Steel Shards"
+      }
+    ],
+    "ids": [
+      "skills_fire_x_additional_projectiles_for_4_seconds_after_consuming_12_steel_ammo"
     ]
   },
   {
@@ -193473,6 +197206,43 @@
         "index_handlers": [
           []
         ],
+        "string": "{0}% increased Reservation of Stance Skills"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Reservation of Stance Skills"
+      }
+    ],
+    "ids": [
+      "stance_skill_reservation_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "{0}% increased Area of Effect while in Sand Stance"
       },
       {
@@ -194452,7 +198222,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Summon Skitterbots has {0}% increased Mana Reservation"
+        "string": "Summon Skitterbots has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -194468,7 +198238,7 @@
             "negate"
           ]
         ],
-        "string": "Summon Skitterbots has {0}% reduced Mana Reservation"
+        "string": "Summon Skitterbots has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -196065,6 +199835,25 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0} to Level of all Totem Skill Gems"
+      }
+    ],
+    "ids": [
+      "totem_skill_gem_level_+"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "min": 1
           }
@@ -196435,6 +200224,25 @@
     ],
     "ids": [
       "travel_skills_cannot_be_exerted"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Poison you inflict with Travel Skills is Reflected to you if you\nhave fewer than 5 Poisons on you"
+      }
+    ],
+    "ids": [
+      "travel_skills_poison_reflected_to_self_up_to_5_poisons"
     ]
   },
   {
@@ -196849,6 +200657,25 @@
     ],
     "ids": [
       "unaffected_by_ignite"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Unaffected by Ignite or Shock if Maximum Life and Maximum Mana are within 500"
+      }
+    ],
+    "ids": [
+      "unaffected_by_ignite_and_shock_while_max_life_mana_within_500"
     ]
   },
   {
@@ -198100,6 +201927,25 @@
     "English": [
       {
         "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0} to Level of all Vaal Skill Gems"
+      }
+    ],
+    "ids": [
+      "vaal_skill_gem_level_+"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {
             "min": 1
           }
@@ -198110,7 +201956,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Soul Cost of Vaal Skills"
+        "string": "Vaal Skills require {0}% increased Souls Per Use"
       },
       {
         "condition": [
@@ -198126,11 +201972,32 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Soul Cost of Vaal Skills"
+        "string": "Vaal Skills require {0}% reduced Souls Per Use"
       }
     ],
     "ids": [
       "vaal_skill_soul_cost_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Vaal Skills have {0}% chance to regain consumed Souls when used"
+      }
+    ],
+    "ids": [
+      "vaal_skill_soul_refund_chance_%"
     ]
   },
   {
@@ -198382,7 +202249,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Vitality Reserves no Mana"
+        "string": "Vitality has no Reservation"
       }
     ],
     "ids": [
@@ -199520,7 +203387,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Wrath Reserves no Mana"
+        "string": "Wrath has no Reservation"
       }
     ],
     "ids": [
@@ -200297,7 +204164,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Zealotry has {0}% increased Mana Reservation"
+        "string": "Zealotry has {0}% increased Reservation"
       },
       {
         "condition": [
@@ -200313,7 +204180,7 @@
             "negate"
           ]
         ],
-        "string": "Zealotry has {0}% reduced Mana Reservation"
+        "string": "Zealotry has {0}% reduced Reservation"
       }
     ],
     "ids": [
@@ -200332,11 +204199,30 @@
         "index_handlers": [
           []
         ],
-        "string": "Zealotry Reserves no Mana"
+        "string": "Zealotry has no Reservation"
       }
     ],
     "ids": [
       "zealotry_reserves_no_mana"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Chaos Resistance is Zero"
+      }
+    ],
+    "ids": [
+      "zero_chaos_resistance"
     ]
   },
   {
@@ -200899,6 +204785,25 @@
         "index_handlers": [
           []
         ],
+        "string": "Divine Flesh"
+      }
+    ],
+    "ids": [
+      "keystone_divine_flesh"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Eldritch Battery"
       }
     ],
@@ -200961,6 +204866,25 @@
     ],
     "ids": [
       "keystone_eternal_youth"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Everlasting Sacrifice"
+      }
+    ],
+    "ids": [
+      "keystone_everlasting_sacrifice"
     ]
   },
   {
@@ -201480,25 +205404,6 @@
         "index_handlers": [
           []
         ],
-        "string": "Vaal Pact"
-      }
-    ],
-    "ids": [
-      "keystone_vampirism"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Wicked Ward"
       }
     ],
@@ -201615,7 +205520,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Attacks have Blood Magic"
+        "string": "Attacks Cost Life instead of Mana"
       }
     ],
     "ids": [
@@ -201862,7 +205767,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Skills which throw Traps have Blood Magic"
+        "string": "Skills which throw Traps Cost Life instead of Mana"
       }
     ],
     "ids": [
@@ -203002,7 +206907,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Mana Cost of Skills per 10 Devotion"
+        "string": "{0}% increased Cost of Skills per 10 Devotion"
       },
       {
         "condition": [
@@ -203018,7 +206923,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Mana Cost of Skills per 10 Devotion"
+        "string": "{0}% reduced Cost of Skills per 10 Devotion"
       }
     ],
     "ids": [

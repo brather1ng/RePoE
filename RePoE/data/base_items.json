@@ -49,6 +49,31 @@
       "id": "AmuletAtlas2"
     }
   },
+  "Metadata/Items/Amulet/AmuletAtlas3": {
+    "domain": "item",
+    "drop_level": 74,
+    "implicits": [
+      "ReducedEnergyShieldDelayImplicit1_"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Amulet",
+    "name": "Seaglass Amulet",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "atlas_base_type",
+      "amuletatlas3",
+      "amulet",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Amulets/CrescentAmulet.dds",
+      "id": "AmuletAtlas3"
+    }
+  },
   "Metadata/Items/Amulet/AmuletVictor1": {
     "domain": "item",
     "drop_level": 1,
@@ -64,6 +89,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "demigods",
       "amulet",
       "default"
     ],
@@ -1222,6 +1248,7 @@
     "tags": [
       "str_dex_int_armour",
       "not_for_sale",
+      "demigods",
       "body_armour",
       "armour",
       "default"
@@ -3824,7 +3851,9 @@
   "Metadata/Items/Armours/BodyArmours/BodyStrDexInt1": {
     "domain": "item",
     "drop_level": 72,
-    "implicits": [],
+    "implicits": [
+      "GlobalVaalGemsLevelImplicit1_"
+    ],
     "inventory_height": 3,
     "inventory_width": 2,
     "item_class": "Body Armour",
@@ -3852,6 +3881,39 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Armours/BodyArmours/SacrificialGarb.dds",
       "id": "BodySacrificialGarb"
+    }
+  },
+  "Metadata/Items/Armours/BodyArmours/BodyStrDexInt2": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Body Armour",
+    "name": "Grasping Mail",
+    "properties": {
+      "armour": 217,
+      "energy_shield": 42,
+      "evasion": 217,
+      "movement_speed": -3
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 60,
+      "intelligence": 60,
+      "level": 70,
+      "strength": 60
+    },
+    "tags": [
+      "str_dex_int_armour",
+      "not_for_sale",
+      "body_armour",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/BodyArmours/GraspingMail.dds",
+      "id": "BodyStrDexInt2"
     }
   },
   "Metadata/Items/Armours/BodyArmours/BodyStrInt1": {
@@ -4516,6 +4578,41 @@
       "id": "BootsAtlas3"
     }
   },
+  "Metadata/Items/Armours/Boots/BootsAtlas4": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "ChaosResistImplicitBoots1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Boots",
+    "name": "Blessed Boots",
+    "properties": {
+      "energy_shield": 31,
+      "evasion": 112
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 56,
+      "intelligence": 76,
+      "level": 70,
+      "strength": 0
+    },
+    "tags": [
+      "not_for_sale",
+      "atlas_base_type",
+      "bootsatlasdexint",
+      "dex_int_armour",
+      "boots",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Boots/HalfTonedBoots.dds",
+      "id": "BootsAtlas4_"
+    }
+  },
   "Metadata/Items/Armours/Boots/BootsDemigods1": {
     "domain": "item",
     "drop_level": 12,
@@ -4536,6 +4633,7 @@
     },
     "tags": [
       "not_for_sale",
+      "demigods",
       "boots",
       "armour",
       "default"
@@ -6527,6 +6625,41 @@
       "id": "GlovesAtlasStr"
     }
   },
+  "Metadata/Items/Armours/Gloves/GlovesAtlasStrInt": {
+    "domain": "item",
+    "drop_level": 70,
+    "implicits": [
+      "DegenerationDamageImplicit1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Gloves",
+    "name": "Apothecary's Gloves",
+    "properties": {
+      "armour": 108,
+      "energy_shield": 27
+    },
+    "release_state": "released",
+    "requirements": {
+      "dexterity": 0,
+      "intelligence": 58,
+      "level": 70,
+      "strength": 46
+    },
+    "tags": [
+      "not_for_sale",
+      "atlas_base_type",
+      "glovesatlasstrint",
+      "str_int_armour",
+      "gloves",
+      "armour",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Armours/Gloves/ChemistGloves.dds",
+      "id": "GlovesAtlasStrInt"
+    }
+  },
   "Metadata/Items/Armours/Gloves/GlovesDemigods1": {
     "domain": "item",
     "drop_level": 12,
@@ -6547,6 +6680,7 @@
     },
     "tags": [
       "not_for_sale",
+      "demigods",
       "gloves",
       "armour",
       "default"
@@ -8402,6 +8536,7 @@
     },
     "tags": [
       "not_for_sale",
+      "demigods",
       "helmet",
       "armour",
       "default"
@@ -10586,6 +10721,7 @@
     },
     "tags": [
       "not_for_sale",
+      "demigods",
       "helmet",
       "armour",
       "default"
@@ -10618,6 +10754,7 @@
     },
     "tags": [
       "not_for_sale",
+      "demigods",
       "shield",
       "armour",
       "default"
@@ -15429,6 +15566,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "demigods",
       "belt",
       "default"
     ],
@@ -16822,7 +16960,7 @@
     "item_class": "StackableCurrency",
     "name": "Blessing of Chayula",
     "properties": {
-      "description": "Upgrades a breach unique item to a more powerful version",
+      "description": "Upgrades a breach unique item or breachstone to a more powerful version",
       "directions": "Right click this item then left click an applicable breach unique item to upgrade it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -16848,7 +16986,7 @@
     "item_class": "StackableCurrency",
     "name": "Blessing of Tul",
     "properties": {
-      "description": "Upgrades a breach unique item to a more powerful version",
+      "description": "Upgrades a breach unique item or breachstone to a more powerful version",
       "directions": "Right click this item then left click an applicable breach unique item to upgrade it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -16874,7 +17012,7 @@
     "item_class": "StackableCurrency",
     "name": "Blessing of Xoph",
     "properties": {
-      "description": "Upgrades a breach unique item to a more powerful version",
+      "description": "Upgrades a breach unique item or breachstone to a more powerful version",
       "directions": "Right click this item then left click an applicable breach unique item to upgrade it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -16900,7 +17038,7 @@
     "item_class": "StackableCurrency",
     "name": "Blessing of Esh",
     "properties": {
-      "description": "Upgrades a breach unique item to a more powerful version",
+      "description": "Upgrades a breach unique item or breachstone to a more powerful version",
       "directions": "Right click this item then left click an applicable breach unique item to upgrade it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -16926,7 +17064,7 @@
     "item_class": "StackableCurrency",
     "name": "Blessing of Uul-Netol",
     "properties": {
-      "description": "Upgrades a breach unique item to a more powerful version",
+      "description": "Upgrades a breach unique item or breachstone to a more powerful version",
       "directions": "Right click this item then left click an applicable breach unique item to upgrade it.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -17452,7 +17590,7 @@
     "item_class": "StackableCurrency",
     "name": "Fractured Fossil",
     "properties": {
-      "description": "Creates a mirrored copy",
+      "description": "Creates a split copy. Cannot be used to split Influenced,\r\nEnchanted, Fractured, or Synthesised items.",
       "directions": "Place in a Resonator to influence item crafting.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -17782,8 +17920,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Anger",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -17886,8 +18024,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Anguish",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -18068,8 +18206,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Contempt",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -18224,8 +18362,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Doubt",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -18302,8 +18440,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Dread",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -18380,8 +18518,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Envy",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -18536,8 +18674,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Fear",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -18718,8 +18856,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Greed",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -18900,8 +19038,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Hatred",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -19082,8 +19220,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Loathing",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -19160,8 +19298,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Misery",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -19290,8 +19428,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Rage",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -19368,8 +19506,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Scorn",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -19524,8 +19662,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Sorrow",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -19628,8 +19766,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Spite",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -19758,8 +19896,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Suffering",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -19914,8 +20052,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Torment",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -20096,8 +20234,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Woe",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -20226,8 +20364,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Wrath",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -20330,8 +20468,8 @@
     "item_class": "StackableCurrency",
     "name": "Screaming Essence of Zeal",
     "properties": {
-      "description": "Upgrades a normal item to rare with one guaranteed property",
-      "directions": "Right click this item then left click a normal item to apply it.",
+      "description": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+      "directions": "Right click this item then left click a normal or rare item to apply it.",
       "stack_size": 9,
       "stack_size_currency_tab": 5000
     },
@@ -21206,6 +21344,32 @@
       "id": "CurrencyJewelleryQualityCaster"
     }
   },
+  "Metadata/Items/Currency/CurrencyJewelleryQualityCritical": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Unstable Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Critical modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "catalyst",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/CriticalModifierCatalyst.dds",
+      "id": "CurrencyJewelleryQualityCritical"
+    }
+  },
   "Metadata/Items/Currency/CurrencyJewelleryQualityDefense": {
     "domain": "undefined",
     "drop_level": 1,
@@ -21258,6 +21422,32 @@
       "id": "CurrencyJewelleryQualityElemental"
     }
   },
+  "Metadata/Items/Currency/CurrencyJewelleryQualityPhysicalChaos": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Noxious Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Physical and Chaos Damage modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "catalyst",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/ChaosPhysicalCatalyst.dds",
+      "id": "CurrencyJewelleryQualityPhysicalChaos"
+    }
+  },
   "Metadata/Items/Currency/CurrencyJewelleryQualityResistance": {
     "domain": "undefined",
     "drop_level": 1,
@@ -21308,6 +21498,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/Catalysts/FertileCatalyst.dds",
       "id": "CurrencyJewelleryQualityResource"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyJewelleryQualitySpeed": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Accelerating Catalyst",
+    "properties": {
+      "description": "Adds quality that enhances Speed modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+      "directions": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower-rarity jewellery. The maximum quality is 20%.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "catalyst",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Catalysts/SpeedModifierCatalyst.dds",
+      "id": "CurrencyJewelleryQualitySpeed"
     }
   },
   "Metadata/Items/Currency/CurrencyLabyrinthEnchant": {
@@ -21557,7 +21773,7 @@
     "properties": {
       "description": "",
       "directions": "Trade coins to Cadiro Perandus.",
-      "stack_size": 1000,
+      "stack_size": 5000,
       "stack_size_currency_tab": 50000
     },
     "release_state": "released",
@@ -21827,6 +22043,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/ChaosShard.dds",
       "id": "CurrencyRerollRareShard"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyRerollRareVeiled": {
+    "domain": "undefined",
+    "drop_level": 61,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Veiled Chaos Orb",
+    "properties": {
+      "description": "Reforges a rare item with new random modifiers, including a Veiled modifier. Can only be used on items that can have a Veiled modifier.",
+      "directions": "Right click this item then left click a rare item to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/VeiledChaosOrb.dds",
+      "id": "CurrencyRerollRareVeiled"
     }
   },
   "Metadata/Items/Currency/CurrencyRerollSkillQualityType": {
@@ -22518,7 +22759,7 @@
   },
   "Metadata/Items/Currency/CurrencyUpgradeToRareAndSetSockets": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 25,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -22543,7 +22784,7 @@
   },
   "Metadata/Items/Currency/CurrencyUpgradeToRareAndSetSocketsShard": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 25,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -22959,9 +23200,35 @@
       "id": "CurrencyMushrune9"
     }
   },
-  "Metadata/Items/DivinationCards/DivinationCardADabOfInk": {
+  "Metadata/Items/Currency/MushruneCorrupt": {
     "domain": "undefined",
     "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Tainted Oil",
+    "properties": {
+      "description": "",
+      "directions": "Can be combined with other Oils at Cassia to Enchant Corrupted Rings, Amulets or Blighted Maps.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "mushrune",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Oils/VaalOil.dds",
+      "id": "CurrencyMushruneCorrupt"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardADabOfInk": {
+    "domain": "undefined",
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -22987,7 +23254,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAFamiliarCall": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23012,9 +23279,35 @@
       "id": "DivinationCardAFamiliarCall_"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardAModestRequest": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "A Modest Request",
+    "properties": {
+      "description": "<uniqueitem>{Megalomaniac}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardAModestRequest"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardAMothersPartingGift": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23040,7 +23333,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardANoteInTheWind": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 44,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23065,7 +23358,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAbandonedWealth": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23090,7 +23383,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAcclimatisation": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23115,7 +23408,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAkilsProphecy": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23140,7 +23433,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAlluringBounty": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23165,7 +23458,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAloneInTheDarkness": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 33,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23190,7 +23483,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAnarchysPrice": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 48,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23216,7 +23509,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardArroganceOfTheVaal": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23241,7 +23534,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAssassinsFavour": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23267,7 +23560,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAtzirisArsenal": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23293,7 +23586,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAudacity": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 52,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23319,7 +23612,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAzyransReward": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23345,7 +23638,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBaitedExpectations": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23370,7 +23663,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBeautyThroughDeath": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 56,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23395,7 +23688,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBirthOfTheThree": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23421,7 +23714,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBlessingOfGod": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23447,7 +23740,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBlindVenture": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23473,7 +23766,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBoonOfJustice": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23498,7 +23791,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBoonOfTheFirstOnes": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23523,7 +23816,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBoundlessRealms": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 58,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23548,7 +23841,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBowyersDream": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23572,9 +23865,35 @@
       "id": "BowyersDream"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardBrokenPromises": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Broken Promises",
+    "properties": {
+      "description": "<whiteitem>{Diamond Ring}\r\n<default>{Item Level:} <normal>{87}\r\n<enchanted>{Two-Implicit}\r\n<enchanted>{Synthesised}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardBrokenPromises"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardBrotherhoodInExile": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 32,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23600,7 +23919,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBrothersStash": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23623,9 +23942,34 @@
       "id": "DivinationCardBrothersStash_"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardBrushPaintAndPalette": {
+    "domain": "undefined",
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Brush, Paint and Palette",
+    "properties": {
+      "description": "<divination>{The Artist}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardBrushPaintAndPalette"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardBuriedTreasure": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23650,7 +23994,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardBurningBlood": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 70,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23676,7 +24020,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardCallToTheFirstOnes": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23701,7 +24045,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardCameriasCut": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23726,7 +24070,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardCartographersDelight": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23751,7 +24095,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardChaoticDisposition": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23776,7 +24120,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardCouncilOfCats": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23801,7 +24145,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardCovetedPossession": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23826,7 +24170,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardCursedWords": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 55,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23852,7 +24196,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDarkDreams": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23879,7 +24223,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDarkTemptation": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 42,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23903,9 +24247,35 @@
       "id": "DivinationCardDarkTemptation"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardDeadlyJoy": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Deadly Joy",
+    "properties": {
+      "description": "<uniqueitem>{Torrent's Reclamation}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardDeadlyJoy"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardDeath": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 51,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23931,7 +24301,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDeathlyDesigns": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23981,7 +24351,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDemigodsWager": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 35,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24006,7 +24376,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDesecratedVirtue": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24031,7 +24401,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDestinedToCrumble": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24057,7 +24427,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDiallasSubjugation": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24082,7 +24452,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDivineJustice": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 56,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24108,7 +24478,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDoedresMadness": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24133,7 +24503,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDrapedInDreams": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24159,7 +24529,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDyingAnguish": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24184,7 +24554,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDyingLight": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24212,7 +24582,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardEarthDrinker": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24237,7 +24607,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardEchoesOfLove": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 41,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24263,7 +24633,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardEmperorOfPurity": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 50,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24289,7 +24659,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardEmperorsLuck": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24314,7 +24684,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardEtchedInBlood": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 58,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24339,7 +24709,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardFatefulMeeting": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24364,7 +24734,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardForbiddenPower": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 45,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24390,7 +24760,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardFriendship": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 34,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24415,7 +24785,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardGemcuttersPromise": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24440,7 +24810,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardGiftOfAsenath": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24466,7 +24836,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardGiftOfTheGemlingQueen": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24491,7 +24861,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardGlimmerOfHope": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 38,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24517,7 +24887,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardGraveKnowledge": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24542,7 +24912,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHarmonyOfSouls": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24567,7 +24937,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHauntingShadows": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24592,7 +24962,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHerMask": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24617,7 +24987,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHeterochromia": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24643,7 +25013,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHope": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24669,7 +25039,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHouseOfMirrors": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 35,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24694,7 +25064,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHubris": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24720,7 +25090,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHumility": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24746,7 +25116,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHuntersResolve": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24772,7 +25142,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardHuntersReward": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24798,7 +25168,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardImmortalResolve": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 45,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24823,7 +25193,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardImperialLegacy": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24849,7 +25219,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardJackInTheBox": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24874,7 +25244,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardKeepersCorruption": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24901,7 +25271,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLantadorsLostLove": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24927,7 +25297,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLastHope": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 53,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24952,7 +25322,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLeftToFate": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -24977,7 +25347,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLightAndTruth": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 31,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25003,7 +25373,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLingeringRemnants": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25028,7 +25398,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLostWorlds": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25053,7 +25423,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLoveThroughIce": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25079,7 +25449,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLoyalty": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25104,7 +25474,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLuckOfTheVaal": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 47,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25129,7 +25499,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLuckyConnections": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25154,7 +25524,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardLuckyDeck": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 38,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25177,9 +25547,35 @@
       "id": "LuckyDeck"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardLuminousTrove": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Luminous Trove",
+    "properties": {
+      "description": "<uniqueitem>{Voices}",
+      "directions": "",
+      "stack_size": 7,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardLuminousTrove"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardLysahsRespite": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25205,7 +25601,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardMawrBlaidd": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25231,7 +25627,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardMercilessArmament": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25257,7 +25653,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardMightIsRight": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 30,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25283,7 +25679,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardMitts": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25309,7 +25705,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardMonochrome": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25334,7 +25730,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardMoreIsNeverEnough": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25359,7 +25755,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardNoTraces": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25384,7 +25780,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardNooksCrown": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25411,7 +25807,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardPeacefulMoments": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25437,7 +25833,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardPerfection": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25462,9 +25858,34 @@
       "id": "Perfection"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardPrejudice": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Prejudice",
+    "properties": {
+      "description": "<uniqueitem>{Item}\r\n<default>{Influenced Item}",
+      "directions": "",
+      "stack_size": 7,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardPrejudice"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardPrideBeforeTheFall": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 51,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25490,7 +25911,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardPrideOfTheFirstOnes": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25516,7 +25937,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardPrometheusArmoury": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25542,7 +25963,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardProsperity": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 61,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25568,7 +25989,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardRainOfChaos": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25593,7 +26014,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardRainTempter": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25618,7 +26039,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardRats": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 41,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25644,7 +26065,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardRebirth": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25670,7 +26091,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardRecklessAmbition": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25696,7 +26117,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardRemembrance": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25722,7 +26143,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardSambodhisVow": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 70,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25745,9 +26166,34 @@
       "id": "DivinationCardSambodhisVow"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardSambodhisWisdom": {
+    "domain": "undefined",
+    "drop_level": 58,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Sambodhi's Wisdom",
+    "properties": {
+      "description": "<prophecy>{A Master Seeks Help (Jun)}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardSambodhisWisdom"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardScholarOfTheSeas": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25772,7 +26218,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardSevenYearsBadLuck": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 35,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25797,7 +26243,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardShardOfFate": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25823,7 +26269,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardSocietysRemorse": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25848,7 +26294,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardSquanderedProsperity": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25873,7 +26319,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardStruckByLightning": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 70,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25899,7 +26345,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardSuccorOfTheSinless": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 79,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25924,7 +26370,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheAcademic": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 38,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25950,7 +26396,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheAdmirer": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 70,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -25973,9 +26419,35 @@
       "id": "TheAdmirer"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheAdventuringSpirit": {
+    "domain": "undefined",
+    "drop_level": 39,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Adventuring Spirit",
+    "properties": {
+      "description": "<uniqueitem>{Victario's Influence}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheAdventuringSpirit"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheAesthete": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26000,7 +26472,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheArchmagesRightHand": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26026,7 +26498,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheArenaChampion": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26051,7 +26523,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheArmyOfBlood": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 26,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26077,7 +26549,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheArtist": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26102,7 +26574,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheAstromancer": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26129,7 +26601,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheAvenger": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 45,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26155,7 +26627,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheAwakened": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26181,7 +26653,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBargain": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26206,7 +26678,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBattleBorn": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26232,7 +26704,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBearWoman": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26258,7 +26730,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBeast": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 35,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26284,7 +26756,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBetrayal": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26310,7 +26782,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBitterBlossom": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26335,7 +26807,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBlazingFire": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 47,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26361,7 +26833,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBody": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26387,7 +26859,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBones": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26412,7 +26884,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBreach": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26437,7 +26909,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBrittleEmperor": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26463,7 +26935,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCache": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26489,7 +26961,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCacophony": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26514,7 +26986,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCalling": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26537,9 +27009,34 @@
       "id": "TheCalling"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheCardSharp": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Card Sharp",
+    "properties": {
+      "description": "<whiteitem>{Divination Scarab}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheCardSharp"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheCarrionCrow": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26565,7 +27062,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCartographer": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 39,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26590,7 +27087,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCataclysm": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26615,7 +27112,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCatalyst": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26640,7 +27137,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCelestialJusticar": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 47,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26666,7 +27163,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCelestialStone": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26693,7 +27190,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheChainsThatBind": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 38,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26719,7 +27216,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCheater": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26744,7 +27241,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheChosen": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26770,7 +27267,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheComingStorm": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 45,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26796,7 +27293,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheConduit": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 52,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26822,7 +27319,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCraving": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26847,7 +27344,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheCursedKing": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26873,7 +27370,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDamned": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26898,7 +27395,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDapperProdigy": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26924,7 +27421,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDarkMage": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 50,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26950,7 +27447,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDarkestDream": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -26976,7 +27473,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDeal": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27001,7 +27498,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDeceiver": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27027,7 +27524,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDeepOnes": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 49,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27053,7 +27550,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDemon": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27079,7 +27576,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDemoness": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27105,7 +27602,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDevastator": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27131,7 +27628,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDoctor": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 30,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27157,7 +27654,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDoppelganger": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27182,7 +27679,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDragon": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27207,7 +27704,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDragonsHeart": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27232,7 +27729,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDreamer": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27257,7 +27754,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDreamland": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27282,7 +27779,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheDrunkenAristocrat": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27307,7 +27804,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheEasyStroll": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27332,7 +27829,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheEldritchDecay": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27359,7 +27856,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheEncroachingDarkness": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27384,7 +27881,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheEndlessDarkness": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27411,7 +27908,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheEndurance": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27437,7 +27934,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheEnlightened": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 60,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27460,9 +27957,35 @@
       "id": "TheEnlightened"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheEnthusiasts": {
+    "domain": "undefined",
+    "drop_level": 54,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Enthusiasts",
+    "properties": {
+      "description": "<uniqueitem>{Victario's Influence}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheEnthusiasts"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheEscape": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 56,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27486,9 +28009,35 @@
       "id": "DivinationCardTheEscape"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheEternalWar": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Eternal War",
+    "properties": {
+      "description": "<uniqueitem>{Timeless Jewel}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheEternalWar"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheEthereal": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 51,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27514,7 +28063,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheExplorer": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27539,7 +28088,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheEyeOfTerror": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27564,7 +28113,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheEyeOfTheDragon": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27590,7 +28139,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFathomlessDepths": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 70,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27616,7 +28165,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFeast": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 45,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27642,7 +28191,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFiend": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 30,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27668,7 +28217,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFishmonger": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27693,7 +28242,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFletcher": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 27,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27718,7 +28267,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFlorasGift": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 60,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27744,7 +28293,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFool": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27769,7 +28318,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFormlessSea": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 51,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27795,7 +28344,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheForsaken": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27821,7 +28370,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFox": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27846,7 +28395,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheGambler": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27871,7 +28420,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheGarishPower": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27897,7 +28446,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheGemcutter": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27922,7 +28471,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheGentleman": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27948,7 +28497,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheGladiator": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 55,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -27974,7 +28523,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheGoldenEra": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28000,7 +28549,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheGreatestIntentions": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28026,7 +28575,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheGulf": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28052,7 +28601,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheHaleHeart": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28078,7 +28627,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheHarvester": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 28,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28104,7 +28653,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheHermit": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28130,7 +28679,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheHeroicShot": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28155,7 +28704,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheHiveOfKnowledge": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28181,7 +28730,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheHoarder": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28204,9 +28753,34 @@
       "id": "TheHoarder"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheHook": {
+    "domain": "undefined",
+    "drop_level": 81,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Hook",
+    "properties": {
+      "description": "<uniqueitem>{Watchstone}",
+      "directions": "",
+      "stack_size": 8,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheHook"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheHunger": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 38,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28231,7 +28805,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheImmortal": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 35,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28256,7 +28830,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheIncantation": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 25,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28282,7 +28856,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheInnocent": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28307,7 +28881,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheInoculated": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 59,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28333,7 +28907,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheInsatiable": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 28,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28359,7 +28933,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheInventor": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28384,7 +28958,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheIronBard": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 45,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28409,7 +28983,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheJester": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28435,7 +29009,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheJewellersBoon": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 30,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28460,7 +29034,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheJournalist": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 58,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28486,7 +29060,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheJourney": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28511,7 +29085,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheKingsBlade": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 60,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28537,7 +29111,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheKingsHeart": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 51,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28563,7 +29137,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLanding": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28588,7 +29162,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLastOneStanding": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28614,7 +29188,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLich": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 30,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28640,7 +29214,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLifeThief": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28665,7 +29239,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLion": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28690,7 +29264,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLongCon": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28715,7 +29289,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLongWatch": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28741,7 +29315,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLordInBlack": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 75,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28767,7 +29341,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLordOfCelebration": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28794,7 +29368,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLover": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28820,7 +29394,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLunarisPriestess": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 37,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28846,7 +29420,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheMadKing": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 27,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28871,7 +29445,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheMaster": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28897,7 +29471,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheMasterArtisan": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28922,7 +29496,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheMayor": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28947,7 +29521,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheMercenary": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28973,7 +29547,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheMessenger": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -28998,7 +29572,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheMetalsmithsGift": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29024,7 +29598,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheMountain": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29050,7 +29624,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheNurse": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 30,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29075,7 +29649,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheOath": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 47,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29101,7 +29675,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheObscured": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29126,7 +29700,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheOffering": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 47,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29152,7 +29726,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheOldMan": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29178,7 +29752,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheOneWithAll": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29204,7 +29778,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheOpulecent": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29230,7 +29804,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePackLeader": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 48,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29256,7 +29830,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePact": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 51,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29282,7 +29856,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePatient": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 30,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29307,7 +29881,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePenitent": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 34,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29333,7 +29907,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePoet": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29359,7 +29933,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePolymath": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29385,7 +29959,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePorcupine": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 38,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29411,7 +29985,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePriceOfLoyalty": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 79,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29437,7 +30011,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePriceOfProtection": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29463,7 +30037,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePrimordial": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29488,7 +30062,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheProfessor": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29513,7 +30087,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheProgenyOfLunaris": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29539,7 +30113,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePuzzle": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29564,7 +30138,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheQueen": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29590,7 +30164,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheRabidRhoa": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 75,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29616,7 +30190,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheRealm": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29641,7 +30215,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheRisk": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 49,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29667,7 +30241,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheRiteOfElements": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29692,7 +30266,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheRoadToPower": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29718,7 +30292,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheRuthlessCeinture": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29744,7 +30318,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSacrifice": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29770,7 +30344,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSaintsTreasure": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29795,7 +30369,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSamuraisEye": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29822,7 +30396,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheScarredMeadow": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29848,7 +30422,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheScavenger": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 47,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29874,7 +30448,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheScholar": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29899,7 +30473,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSeeker": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 35,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29924,7 +30498,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSephirot": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 35,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29947,9 +30521,34 @@
       "id": "TheSephirot"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheShortcut": {
+    "domain": "undefined",
+    "drop_level": 23,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Shortcut",
+    "properties": {
+      "description": "<magicitem>{Quicksilver Flask of Adrenaline}\r\n<default>{Item Level:} <normal>{100}",
+      "directions": "",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheShortcut__"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheSideQuest": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -29974,7 +30573,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSigil": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 58,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30000,7 +30599,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSiren": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 25,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30026,7 +30625,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSkeleton": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30051,7 +30650,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSoul": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 49,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30077,7 +30676,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSparkAndTheFlame": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30103,7 +30702,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSpoiledPrince": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30129,7 +30728,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheStandoff": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30155,7 +30754,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheStormcaller": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 50,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30181,7 +30780,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheStrategist": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 38,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30207,7 +30806,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSummoner": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30232,7 +30831,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSun": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 49,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30258,7 +30857,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSurgeon": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30283,7 +30882,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSurveyor": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30308,7 +30907,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSurvivalist": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30333,7 +30932,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSustenance": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30359,7 +30958,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSwordKingsSalute": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30385,7 +30984,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheThaumaturgist": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30411,7 +31010,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheThrone": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 51,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30437,7 +31036,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTinkerersTable": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 33,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30462,7 +31061,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTower": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30488,7 +31087,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTraitor": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30514,7 +31113,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTrial": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30539,7 +31138,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTumbleweed": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30564,7 +31163,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTwilightMoon": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30589,7 +31188,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTwins": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 75,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30615,7 +31214,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTyrant": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30641,7 +31240,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheUndaunted": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30666,7 +31265,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheUndisputed": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30693,7 +31292,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheUnexpectedPrize": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30719,7 +31318,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheUnion": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30744,7 +31343,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheValkyrie": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30769,7 +31368,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheValleyOfSteelBoxes": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 51,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30794,7 +31393,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheVast": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30820,7 +31419,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheVisionary": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 53,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30846,7 +31445,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheVoid": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30871,7 +31470,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWarden": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30897,7 +31496,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWarlord": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 75,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30923,7 +31522,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWatcher": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 52,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30949,7 +31548,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWeb": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -30975,7 +31574,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWhiteKnight": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31001,7 +31600,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWhiteout": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 51,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31027,7 +31626,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWiltedRose": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31052,7 +31651,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWind": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 53,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31078,7 +31677,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWitch": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31103,7 +31702,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWolf": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 45,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31128,7 +31727,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWolfsLegacy": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31153,7 +31752,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWolfsShadow": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 47,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31179,7 +31778,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWolvenKingsBite": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 58,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31204,7 +31803,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWolverine": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31230,7 +31829,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWorldEater": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31257,7 +31856,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWrath": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31282,7 +31881,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWretched": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31308,7 +31907,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThirstForKnowledge": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 36,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31334,7 +31933,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThreeFacesInTheDark": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31359,7 +31958,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThreeVoices": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31384,7 +31983,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThunderousSkies": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31410,7 +32009,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTimeLostRelic": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31435,7 +32034,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTranquillity": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 48,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31461,7 +32060,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTreasureHunter": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31486,7 +32085,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTriskaidekaphobia": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31511,7 +32110,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTurnTheOtherCheek": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31537,7 +32136,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardUnchained": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 54,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31563,7 +32162,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardUndergroundForest": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31588,7 +32187,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardUnrequitedLove": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 35,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31613,7 +32212,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardVanity": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31639,7 +32238,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardVilePower": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31664,7 +32263,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardViniasToken": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31689,7 +32288,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardVoidOfTheElements": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31716,7 +32315,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardVolatilePower": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31741,7 +32340,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardWealthAndPower": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -31762,6 +32361,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "WealthAndPower"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardWintersEmbrace": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Winter's Embrace",
+    "properties": {
+      "description": "<uniqueitem>{Circle of Fear}\r\n<enchanted>{Three-Implicit}\r\n<enchanted>{Synthesised}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardWintersEmbrace_"
     }
   },
   "Metadata/Items/Flasks/FlaskHybrid1": {
@@ -33776,6 +34401,26 @@
       "id": "SkillGemCyclone"
     }
   },
+  "Metadata/Items/Gems/SkillGemBloodreap": {
+    "domain": "undefined",
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Reap",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BloodreapGem.dds",
+      "id": "SkillGemBloodreap"
+    }
+  },
   "Metadata/Items/Gems/SkillGemBoneArmour": {
     "domain": "undefined",
     "drop_level": 5,
@@ -34221,6 +34866,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/CorpseWarp.dds",
       "id": "SkillGemBodyswap_"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemCorruptingFever": {
+    "domain": "undefined",
+    "drop_level": 16,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Corrupting Fever",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/CorruptedBloodStream.dds",
+      "id": "SkillGemCorruptingFever_"
     }
   },
   "Metadata/Items/Gems/SkillGemCracklingLance": {
@@ -34933,6 +35598,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/ExplosiveArrow.dds",
       "id": "SkillGemExplosiveArrow"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemExsanguinate": {
+    "domain": "undefined",
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Exsanguinate",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/BloodTendrilsSkillGem.dds",
+      "id": "SkillGemExsanguinate_"
     }
   },
   "Metadata/Items/Gems/SkillGemFireBeam": {
@@ -36767,6 +37452,26 @@
       "id": "SkillGemMambaStrike"
     }
   },
+  "Metadata/Items/Gems/SkillGemPetrifiedBlood": {
+    "domain": "undefined",
+    "drop_level": 24,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Petrified Blood",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/PetrifiedBloodGem.dds",
+      "id": "SkillGemPetrifiedBlood"
+    }
+  },
   "Metadata/Items/Gems/SkillGemPhaseRun": {
     "domain": "undefined",
     "drop_level": 34,
@@ -37204,6 +37909,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "level_capped_gem",
       "gem",
       "default"
     ],
@@ -38539,6 +39245,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38559,6 +39266,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38579,6 +39287,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38599,6 +39308,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38620,6 +39330,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38640,6 +39351,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38660,6 +39372,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38680,6 +39393,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38700,6 +39414,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38721,6 +39436,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38741,6 +39457,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38762,6 +39479,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38782,6 +39500,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38802,6 +39521,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38822,6 +39542,7 @@
     "release_state": "unreleased",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38843,6 +39564,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38863,6 +39585,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38883,6 +39606,7 @@
     "release_state": "unreleased",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38904,6 +39628,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38924,6 +39649,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38945,6 +39671,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38965,6 +39692,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -38986,6 +39714,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39006,6 +39735,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39026,6 +39756,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39046,6 +39777,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39066,6 +39798,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39086,6 +39819,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39106,6 +39840,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39127,6 +39862,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39148,6 +39884,7 @@
     "requirements": null,
     "tags": [
       "level_capped_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39168,6 +39905,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39188,6 +39926,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39208,6 +39947,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39228,6 +39968,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39249,6 +39990,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39269,6 +40011,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39289,6 +40032,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39309,6 +40053,7 @@
     "release_state": "unreleased",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -39330,6 +40075,7 @@
     "requirements": null,
     "tags": [
       "up_to_level_8_gem",
+      "vaal_gem",
       "gem",
       "default"
     ],
@@ -40201,7 +40947,7 @@
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "Support Skill Gem",
-    "name": "Blood Magic Support",
+    "name": "Arrogance Support",
     "properties": {},
     "release_state": "released",
     "requirements": null,
@@ -40234,6 +40980,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/Bloodlust.dds",
       "id": "SupportGemBloodlust_"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemBloodthirst": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Bloodthirst Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/BloodPriceSupportGem.dds",
+      "id": "SupportGemBloodthirst"
     }
   },
   "Metadata/Items/Gems/SupportGemBonechill": {
@@ -40825,6 +41592,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/SupportPlus/ControlledDestructionPlus.dds",
       "id": "SupportGemControlledDestructionPlus"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemCruelty": {
+    "domain": "undefined",
+    "drop_level": 18,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Cruelty Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/Fragility.dds",
+      "id": "SupportGemCruelty"
     }
   },
   "Metadata/Items/Gems/SupportGemCullingStrike": {
@@ -42011,6 +42799,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/LifeLeech.dds",
       "id": "SupportGemLifeLeech"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemLifetap": {
+    "domain": "undefined",
+    "drop_level": 8,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Lifetap Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/LifeTap.dds",
+      "id": "SupportGemLifetap"
     }
   },
   "Metadata/Items/Gems/SupportGemLightningPenetration": {
@@ -43434,6 +44243,7 @@
     "release_state": "unreleased",
     "requirements": null,
     "tags": [
+      "vaal_gem",
       "support_gem",
       "gem",
       "default"
@@ -44533,6 +45343,30 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Maps/SinFlaskEmpty.dds",
       "id": "FragmentPantheonFlask"
+    }
+  },
+  "Metadata/Items/MapFragments/CurrencyHarvestBossKey": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Sacred Blossom",
+    "properties": {
+      "description": "",
+      "directions": "Open a portal to the Sacred Grove by using this item in a personal Map Device. Can only be used once.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Maps/OshabiMap.dds",
+      "id": "HarvestBossKey"
     }
   },
   "Metadata/Items/MapFragments/CurrencyLegionFragmentEternal": {
@@ -53631,6 +54465,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -53653,6 +54488,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "temple",
       "map",
@@ -53722,6 +54558,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -53766,6 +54603,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "swamp",
       "map",
       "default"
@@ -53788,6 +54626,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "indoors_area",
       "map",
@@ -53811,6 +54650,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "dungeon",
       "map",
@@ -53834,6 +54674,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -53856,6 +54697,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "map",
       "default"
@@ -53878,6 +54720,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -53900,6 +54743,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "temple",
       "dungeon",
@@ -53926,6 +54770,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -53948,6 +54793,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "beach",
       "map",
       "default"
@@ -53970,6 +54816,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "cannot_be_twinned",
       "map",
@@ -53993,6 +54840,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "swamp",
       "map",
       "default"
@@ -54039,6 +54887,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "cannot_be_twinned",
       "map",
@@ -54062,6 +54911,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "dungeon",
       "swamp",
       "forest",
@@ -54087,6 +54937,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "dungeon",
       "indoors_area",
@@ -54134,6 +54985,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "map",
       "default"
@@ -54181,6 +55033,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -54226,6 +55079,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "temple",
       "cannot_be_twinned",
       "map",
@@ -54271,6 +55125,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "dungeon",
       "temple",
@@ -54320,6 +55175,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -54342,6 +55198,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -54364,6 +55221,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -54408,6 +55266,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "temple",
       "indoors_area",
@@ -54432,6 +55291,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "cannot_be_twinned",
       "beach",
       "swamp",
@@ -54480,6 +55340,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "dungeon",
       "indoors_area",
@@ -54504,6 +55365,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "swamp",
       "urban",
@@ -54528,6 +55390,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "beach",
       "swamp",
       "map",
@@ -54551,6 +55414,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "temple",
       "indoors_area",
       "map",
@@ -54574,6 +55438,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -54642,6 +55507,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -54664,6 +55530,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "dungeon",
       "temple",
       "urban",
@@ -54690,6 +55557,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "cave",
       "mountain",
       "map",
@@ -54713,6 +55581,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "beach",
       "forest",
       "cannot_be_twinned",
@@ -54737,6 +55606,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "cannot_be_twinned",
       "map",
@@ -54760,6 +55630,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "beach",
       "map",
       "default"
@@ -54782,6 +55653,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "beach",
       "map",
       "default"
@@ -54827,6 +55699,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "swamp",
       "mountain",
       "map",
@@ -54896,6 +55769,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "forest",
       "cannot_be_twinned",
@@ -54943,7 +55817,9 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
+      "cannot_be_twinned",
       "map",
       "default"
     ],
@@ -54965,6 +55841,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "map",
       "default"
@@ -54987,6 +55864,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "temple",
       "indoors_area",
       "map",
@@ -55056,6 +55934,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "cave",
       "mountain",
       "map",
@@ -55079,6 +55958,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "swamp",
       "map",
@@ -55125,6 +56005,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "map",
       "default"
@@ -55147,6 +56028,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "swamp",
       "temple",
       "cannot_be_twinned",
@@ -55282,6 +56164,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "indoors_area",
       "map",
@@ -55332,6 +56215,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "map",
       "default"
@@ -55354,6 +56238,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "cannot_be_twinned",
       "map",
@@ -55377,6 +56262,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "temple",
       "map",
       "default"
@@ -55399,6 +56285,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -55467,6 +56354,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "indoors_area",
       "dungeon",
       "map",
@@ -55490,6 +56378,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "beach",
       "forest",
       "cannot_be_twinned",
@@ -55514,6 +56403,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "swamp",
       "beach",
       "map",
@@ -55537,6 +56427,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "map",
       "default"
@@ -55605,6 +56496,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "swamp",
       "map",
       "default"
@@ -55676,6 +56568,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "cave",
       "map",
@@ -55699,6 +56592,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "cave",
       "mountain",
       "swamp",
@@ -55748,6 +56642,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "temple",
       "indoors_area",
@@ -55772,6 +56667,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "swamp",
       "map",
       "default"
@@ -55841,6 +56737,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -55910,6 +56807,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "indoors_area",
       "dungeon",
       "temple",
@@ -55935,6 +56833,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "forest",
       "map",
@@ -55958,6 +56857,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "dungeon",
       "indoors_area",
@@ -55983,6 +56883,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -56077,6 +56978,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -56099,6 +57001,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "map",
       "default"
@@ -56121,6 +57024,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "temple",
       "swamp",
@@ -56145,6 +57049,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -56167,6 +57072,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "swamp",
       "map",
@@ -56190,6 +57096,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "swamp",
       "map",
       "default"
@@ -56212,6 +57119,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -56234,6 +57142,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -56256,6 +57165,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "forest",
       "map",
@@ -56279,6 +57189,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "beach",
       "swamp",
       "cannot_be_twinned",
@@ -56303,6 +57214,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "dungeon",
       "temple",
       "urban",
@@ -56377,6 +57289,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "dungeon",
       "indoors_area",
       "map",
@@ -56423,6 +57336,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "indoors_area",
       "map",
@@ -56446,6 +57360,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "beach",
       "can_be_infected_map",
       "map",
@@ -56469,6 +57384,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "temple",
       "dungeon",
       "indoors_area",
@@ -56493,6 +57409,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "cannot_be_twinned",
       "map",
@@ -56516,8 +57433,10 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "dungeon",
       "indoors_area",
+      "cannot_be_twinned",
       "map",
       "default"
     ],
@@ -56539,6 +57458,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -56561,6 +57481,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "indoors_area",
       "cave",
       "forest",
@@ -56609,6 +57530,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -56631,6 +57553,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "beach",
       "map",
       "default"
@@ -56653,6 +57576,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "map",
       "default"
@@ -56675,6 +57599,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "mountain",
       "cannot_be_twinned",
       "map",
@@ -56723,6 +57648,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "temple",
       "urban",
       "indoors_area",
@@ -56747,6 +57673,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "cannot_be_twinned",
       "map",
@@ -56770,6 +57697,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "indoors_area",
       "forest",
       "map",
@@ -56793,6 +57721,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "dungeon",
       "cannot_be_twinned",
       "urban",
@@ -56889,6 +57818,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "forest",
       "map",
       "default"
@@ -56934,6 +57864,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "cave",
       "indoors_area",
       "map",
@@ -57005,6 +57936,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "indoors_area",
       "map",
@@ -57028,6 +57960,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "indoors_area",
       "dungeon",
       "temple",
@@ -57053,6 +57986,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "cave",
       "mountain",
       "map",
@@ -57101,6 +58035,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "cave",
       "mountain",
       "map",
@@ -57146,6 +58081,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "can_be_infected_map",
       "urban",
       "map",
       "default"
@@ -57462,6 +58398,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Quivers/QuiverBlunt.dds",
       "id": "Quiver9"
+    }
+  },
+  "Metadata/Items/Quivers/QuiverAtlas1": {
+    "domain": "item",
+    "drop_level": 74,
+    "implicits": [
+      "SummonTotemCastSpeedImplicit1"
+    ],
+    "inventory_height": 3,
+    "inventory_width": 2,
+    "item_class": "Quiver",
+    "name": "Artillery Quiver",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "atlas_base_type",
+      "quiveratlas1",
+      "quiver",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Quivers/ChiselQuiver.dds",
+      "id": "QuiverAtlas1__"
     }
   },
   "Metadata/Items/Quivers/QuiverDescent": {
@@ -57944,6 +58905,31 @@
       "id": "RingAtlas4"
     }
   },
+  "Metadata/Items/Rings/RingAtlas5": {
+    "domain": "item",
+    "drop_level": 78,
+    "implicits": [
+      "IncreasedChaosDamageImplicit1_"
+    ],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Ring",
+    "name": "Iolite Ring",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "not_for_sale",
+      "atlas_base_type",
+      "ringatlas5",
+      "ring",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Rings/ChaosDmgRing.dds",
+      "id": "RingAtlas5"
+    }
+  },
   "Metadata/Items/Rings/RingDemigods1": {
     "domain": "item",
     "drop_level": 12,
@@ -57959,6 +58945,7 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "demigods",
       "ring",
       "default"
     ],
@@ -58028,12 +59015,113 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
+      "demigods",
       "ring",
       "default"
     ],
     "visual_identity": {
       "dds_file": "Art/2DItems/Rings/RingoftheVictor.dds",
       "id": "RingOfTheVictor"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabAbyss1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Abyss Scarab",
+    "properties": {
+      "description": "Area contains an additional Abyss",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabAbyss.dds",
+      "id": "ScarabAbyss1_"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabAbyss2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Abyss Scarab",
+    "properties": {
+      "description": "Area contains an additional Abyss\r\nAbysses in Areas spawn 50% increased Monsters",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabAbyss.dds",
+      "id": "ScarabAbyss2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabAbyss3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Abyss Scarab",
+    "properties": {
+      "description": "Area contains 2 additional Abysses\r\nAbysses in Areas spawn 50% increased Monsters",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabAbyss.dds",
+      "id": "ScarabAbyss3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabAbyss4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Abyss Scarab",
+    "properties": {
+      "description": "Area contains 3 additional Abysses\r\nAbysses in Areas spawn 100% increased Monsters",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabAbyss.dds",
+      "id": "ScarabAbyss4"
     }
   },
   "Metadata/Items/Scarabs/ScarabBeasts1": {
@@ -58234,6 +59322,106 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/Bestiary/CurrencyCrabAspect.dds",
       "id": "LureDeep"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBlight1": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Rusted Blight Scarab",
+    "properties": {
+      "description": "Area contains an additional Blight Encounter",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "rusted_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/LesserScarabBlight.dds",
+      "id": "ScarabBlight1"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBlight2": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Polished Blight Scarab",
+    "properties": {
+      "description": "Area contains an additional Blight Encounter\r\nBlight Encounters contain an additional Blight Boss",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "polished_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/NormalScarabBlight.dds",
+      "id": "ScarabBlight2"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBlight3": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Gilded Blight Scarab",
+    "properties": {
+      "description": "Area contains an additional Blight Encounter\r\nBlight Encounters contain an additional Blight Boss\r\n50% chance for Blight Chests to contain an additional Reward",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gilded_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/GreaterScarabBlight.dds",
+      "id": "ScarabBlight3"
+    }
+  },
+  "Metadata/Items/Scarabs/ScarabBlight4": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "MapFragment",
+    "name": "Winged Blight Scarab",
+    "properties": {
+      "description": "Area contains an additional Blight Encounter\r\nBlight Encounters contain an additional Blight Boss\r\n50% chance for Blight Chests to contain an additional Reward\r\nLanes of Blight Encounters in Areas have an additional Reward Chest",
+      "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
+      "stack_size": 1,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewelled_scarab",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabBlight.dds",
+      "id": "ScarabBlight4"
     }
   },
   "Metadata/Items/Scarabs/ScarabBreach1": {
@@ -71310,7 +72498,7 @@
     "inventory_height": 4,
     "inventory_width": 2,
     "item_class": "Two Hand Mace",
-    "name": "Impact Force Propagator ",
+    "name": "Impact Force Propagator",
     "properties": {
       "attack_time": 870,
       "critical_strike_chance": 500,
@@ -72459,6 +73647,7 @@
     },
     "tags": [
       "not_for_sale",
+      "demigods",
       "sword",
       "one_hand_weapon",
       "onehand",

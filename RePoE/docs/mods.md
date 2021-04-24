@@ -62,8 +62,9 @@ as value. That description object has the following fields:
   The weights are percentage multipliers to the spawn weight obtained through 
   `spawn_weights`. If `generation_weights` is empty, the spawn weight is not modified.
 - `type`: gives a finer grouping than the `group`. This descriptor refers to an entry 
-  in `mod_types.json` which has with it a list of tags affecting fossil crafting
-  and the effect of the mod on the vendor sell price
+  in `mod_types.json` which has with it the effect of the mod on the vendor sell price
+- `implicit_tags`: A list of the tags which apply to crafting methods like fossils and
+  harvest crafting.
 
 See `tags.json` for the possible tags, though not all of those are relevant for mods.
 See `mod_types.json` for the possible types.

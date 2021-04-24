@@ -41,10 +41,11 @@ recursion.
 - `stored_uses`: Number of uses of the skill that can be stored. Each time the cooldown
   runs out, a use is stored. Up to this maximum. 1 in most cases. This field is only
   set for spells with a cooldown.
-- `mana_multiplier`: Mana multiplier of the support gem. Only set for support gems.
-- `mana_cost`: Mana cost required to cast the skill. Only set for active skills.
-- `mana_reservation_override`: Set mana cost of supported skill to mana reservation
-  of this amount (in percent). Only set for Blasphemy.
+- `cost_multiplier`: Cost multiplier of the support gem. Only set for support gems.
+- `costs`: Array of objects containing the costs required to cast the skill. Only set for active skills.
+  The keys are the spent resource (see `cost_types.json` for possible values) and the values the resource value.
+- `reservations`: Arrays of objects containing the reservations made when casting the skill.
+  Possible keys: `(mana|life)_(percent|flat)`. The values are the flat or percentage reservation values.
 - `damage_effectiveness`: Damage effectiveness of the skill. Only set when not 0.
   Acts as a multiplier on added damage from support gems and other sources.
   Given as percentage with 0 = 100%.
