@@ -69,5 +69,7 @@ as value. That description object has the following fields:
 See `tags.json` for the possible tags, though not all of those are relevant for mods.
 See `mod_types.json` for the possible types.
 
-Only mods of the domains 'item', 'flask', 'area', 'master', 'jewel' and 'atlas' are 
-included. If you need other domains, just ask.
+Only mods of the domains listed in
+[`RePoE.parser.util.ignore_mod_domain.whitelist`](https://github.com/brather1ng/RePoE/blob/master/RePoE/parser/util.py#L71) are 
+included. If you need other domains, just ask or add them yourself and open a pull
+request.
