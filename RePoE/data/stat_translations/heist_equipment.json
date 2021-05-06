@@ -1460,7 +1460,9 @@
           "+#"
         ],
         "index_handlers": [
-          []
+          [
+            "milliseconds_to_seconds_halved"
+          ]
         ],
         "string": "{0} seconds to Lockdown Timer"
       }

@@ -139835,7 +139835,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_2dp_if_required"
+          ]
         ],
         "string": "Alert Level increases by {0}% per second"
       },
@@ -139850,6 +139852,7 @@
         ],
         "index_handlers": [
           [
+            "divide_by_one_hundred_2dp_if_required",
             "negate"
           ]
         ],
@@ -178966,7 +178969,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
@@ -178985,7 +178990,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
@@ -179004,7 +179011,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
@@ -179023,7 +179032,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
@@ -179042,7 +179053,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
@@ -205140,7 +205153,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Magic Monsters in Areas have {0}% chance to drop an additional Basic Currency Item"
       }
@@ -205159,7 +205174,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Magic Monsters in Areas have {0}% chance to drop an additional Gem with Quality"
       }
@@ -205178,7 +205195,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Magic Monsters in Areas have {0}% chance to drop an additional Rare Armour Item"
       }
@@ -205197,7 +205216,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Magic Monsters in Areas have {0}% chance to drop an additional Rare Jewellery Item"
       }
@@ -205216,7 +205237,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Magic Monsters in Areas have {0}% chance to drop an additional Rare Weapon"
       }
@@ -206189,7 +206212,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "{0}% chance in Areas for Amulets to drop as Anointed Talismans instead"
       }
@@ -206438,7 +206463,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_0dp"
+          ]
         ],
         "string": "Items found in Areas have {0}% increased chance to be Influenced"
       }
@@ -207136,7 +207163,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Blight Chests in Areas have {0}% chance to Duplicate contained Items"
       }
@@ -207497,7 +207526,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_0dp"
+          ]
         ],
         "string": "Unique Map Bosses have {0}% chance to drop an additional Atlas Base Type"
       }
@@ -207516,7 +207547,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Unique Bosses have {0}% chance to drop an additional Divination Card"
       }
@@ -207535,7 +207568,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_0dp"
+          ]
         ],
         "string": "Unique Bosses have {0}% chance to drop an Elder Guardian Map (Tier 14+)"
       }
@@ -207554,7 +207589,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Unique Bosses have {0}% chance to drop an additional Essence"
       }
@@ -207573,7 +207610,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Unique Bosses have {0}% chance to drop an additional Sacrifice Fragment"
       }
@@ -207592,7 +207631,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_0dp"
+          ]
         ],
         "string": "Unique Map Bosses have {0}% chance to drop additional Map Currency Items"
       }
@@ -207611,7 +207652,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Unique Bosses have {0}% chance to drop an additional Map Item"
       }
@@ -207630,7 +207673,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Unique Bosses have {0}% chance to drop an additional Scarab"
       }
@@ -207649,7 +207694,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_0dp"
+          ]
         ],
         "string": "Unique Bosses have {0}% chance to drop a Shaper Guardian Map (Tier 14+)"
       }
@@ -207668,7 +207715,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Unique Bosses have {0}% chance to drop an additional Silver Coin"
       }
@@ -207687,7 +207736,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Unique Bosses have {0}% chance to drop an additional Talisman"
       }
@@ -207706,7 +207757,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_0dp"
+          ]
         ],
         "string": "Unique Map Bosses have {0}% chance to drop an additional Unique Item"
       }
@@ -207945,7 +207998,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_1dp"
+          ]
         ],
         "string": "+{0}% chance for a Synthesis Map to drop from Unique Bosses (Tier 11+)"
       }
@@ -209192,7 +209247,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Orbs of Alchemy found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209211,7 +209268,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Orbs of Alteration found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209230,7 +209289,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "{0}% chance in Areas for Orbs of Annulment to drop as 3 Orbs of Annulment instead"
       }
@@ -209249,7 +209310,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Armourer's Scraps found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209268,7 +209331,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "{0}% chance in Areas for Blessed Orbs to drop as 8 Blessed Orbs instead"
       }
@@ -209287,7 +209352,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Orbs of Chance found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209306,7 +209373,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Chaos Orbs found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209325,7 +209394,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Cartographer's Chisels found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209344,7 +209415,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Chromatic Orbs found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209363,7 +209436,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "{0}% chance in Areas for Divine Orbs to drop as 4 Divine Orbs instead"
       }
@@ -209382,7 +209457,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Basic Currency Items found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209401,7 +209478,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Orbs of Fusing found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209420,7 +209499,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "{0}% chance in Areas for Gemcutter's Prisms to drop as 6 Gemcutter's Prisms instead"
       }
@@ -209439,7 +209520,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Jeweller's Orbs found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209458,7 +209541,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "{0}% chance in Areas for Mirrors of Kalandra to drop as 2 Mirrors of Kalandra instead"
       }
@@ -209477,7 +209562,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "{0}% chance in Areas for Regal Orbs to drop as 5 Regal Orbs instead"
       }
@@ -209496,7 +209583,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "{0}% chance in Areas for Orbs of Regret to drop as 20 Orbs of Regret instead"
       }
@@ -209515,7 +209604,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Orbs of Scouring found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209534,7 +209625,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Orbs of Transmutation found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209553,7 +209646,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "{0}% chance in Areas for Vaal Orbs to drop as 7 Vaal Orbs instead"
       }
@@ -209572,7 +209667,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Blacksmith's Whetstones found in Areas have {0}% chance to drop as a full stack"
       }
@@ -209724,7 +209821,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_2dp_if_required"
+          ]
         ],
         "string": "Delirium Monsters in Areas have {0}% increased chance to drop Cluster Jewels"
       },
@@ -209738,7 +209837,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_2dp_if_required"
+          ]
         ],
         "string": "Delirium Monsters in Areas have {0}% reduced chance to drop Cluster Jewels"
       }
@@ -210412,7 +210513,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Map Items have a {0}% chance to drop as a random Unique Map instead in Areas"
       }
@@ -210663,7 +210766,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Items found in Areas have {0}% chance to have the maximum number of Sockets"
       }
@@ -210682,7 +210787,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Items found in Areas have {0}% chance to have 2 additional Sockets"
       }
@@ -211495,7 +211602,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Plants Harvested in Areas have {0}% chance to give an additional Crafting option"
       }
@@ -212071,7 +212180,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Items have {0}% chance to drop fully Linked in Areas"
       }
@@ -212536,7 +212647,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_ten_1dp"
+          ]
         ],
         "string": "Magic Items found in Areas have {0}% chance to be Identified and have a Fractured Modifier"
       }
@@ -214160,7 +214273,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_2dp_if_required"
+          ]
         ],
         "string": "Timeless Splinters dropped in Areas have {0}% chance to drop as Timeless Emblems instead"
       }
@@ -215182,7 +215297,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_2dp_if_required"
+          ]
         ],
         "string": "Monsters in Synthesis Maps have {0}% chance to drop Synthesised Items"
       }

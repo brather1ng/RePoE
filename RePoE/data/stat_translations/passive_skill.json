@@ -139791,7 +139791,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred_2dp_if_required"
+          ]
         ],
         "string": "Alert Level increases by {0}% per second"
       },
@@ -139806,6 +139808,7 @@
         ],
         "index_handlers": [
           [
+            "divide_by_one_hundred_2dp_if_required",
             "negate"
           ]
         ],
@@ -181582,7 +181585,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
@@ -181601,7 +181606,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
@@ -181620,7 +181627,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
@@ -181639,7 +181648,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
@@ -181658,7 +181669,9 @@
           "#"
         ],
         "index_handlers": [
-          []
+          [
+            "metamorphosis_reward_description"
+          ]
         ],
         "string": "{0}"
       }
