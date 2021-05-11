@@ -41,5 +41,8 @@ heist_equipment = _load_json_and_add_to_stat_translations("heist_equipment.json"
 leaguestone = _load_json_and_add_to_stat_translations("leaguestone.json", __STAT_TRANSLATION_PATH__)
 active_skill_gem = _load_json_and_add_to_stat_translations("active_skill_gem.json", __STAT_TRANSLATION_PATH__)
 advanced_mod = _load_json_and_add_to_stat_translations("advanced_mod.json", __STAT_TRANSLATION_PATH__)
+secondary_debuff_skill = _load_json_and_add_to_stat_translations(
+    "secondary_debuff_skill.json", __STAT_TRANSLATION_PATH__
+)
 
 _assert_all_json_files_accounted_for(__STAT_TRANSLATION_PATH__, globals=globals())
