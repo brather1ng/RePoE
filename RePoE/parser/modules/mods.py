@@ -54,9 +54,6 @@ def _convert_tags_keys(tags_keys):
     return r
 
 
-# todo enable when useful
-# ignored mods:
-# - domain of 'monster', 'chest', 'stance', 'leaguestone'
 class mods(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):

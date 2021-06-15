@@ -80,6 +80,7 @@ def ignore_mod_domain(domain):
         MOD_DOMAIN.DELVE,
         MOD_DOMAIN.AFFLICTION_JEWEL,
         MOD_DOMAIN.WATCHSTONE,
+        MOD_DOMAIN.VEILED,
     }
     return domain not in whitelist
 
