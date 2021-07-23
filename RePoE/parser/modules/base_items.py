@@ -1,12 +1,6 @@
 from collections import defaultdict
 
 from RePoE.parser import Parser_Module
-from RePoE.parser.constants import (
-    UNRELEASED_ITEMS,
-    ReleaseState,
-    LEGACY_ITEMS,
-    UNIQUE_ONLY_ITEMS,
-)
 from RePoE.parser.util import write_json, call_with_default_args, get_release_state
 
 
@@ -140,6 +134,7 @@ ITEM_CLASS_WHITELIST = {
     "Map",
     "MapFragment",
     "AtlasRegionUpgradeItem",
+    "ExpeditionLogbook",
 }
 
 ITEM_CLASS_BLACKLIST = {
@@ -177,7 +172,7 @@ class base_items(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         attribute_requirements = _create_default_dict(relational_reader["ComponentAttributeRequirements.dat"])
-        armour_types = _create_default_dict(relational_reader["ComponentArmour.dat"])
+        armour_types = _create_default_dict(relational_reader["ArmourTypes.dat"])
         shield_types = _create_default_dict(relational_reader["ShieldTypes.dat"])
         flask_types = _create_default_dict(relational_reader["Flasks.dat"])
         flask_charges = _create_default_dict(relational_reader["ComponentCharges.dat"])

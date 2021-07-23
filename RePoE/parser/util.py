@@ -8,7 +8,7 @@ from PyPoE.poe.file.translations import TranslationFileCache
 from PyPoE.poe.constants import MOD_DOMAIN
 
 from RePoE import __DATA_PATH__
-from RePoE.parser.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS, WRITTEN_FILES
+from RePoE.parser.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS
 
 
 def get_id_or_none(relational_file_cell):
@@ -83,10 +83,3 @@ def ignore_mod_domain(domain):
         MOD_DOMAIN.VEILED,
     }
     return domain not in whitelist
-
-
-def find_missing_stat_descriptions(file_system):
-    node = file_system.build_directory()
-    keys = node["Metadata"]["StatDescriptions"].children.keys()
-    written_game_files = [written_game_file for written_game_file, _ in WRITTEN_FILES]
-    return [key for key in keys if "descriptions.txt" in key and key not in written_game_files]

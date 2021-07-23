@@ -187,41 +187,41 @@
     "passive_skills": [
       {
         "id": "affliction_fire_damage_over_time_multiplier",
-        "name": "Fire Damage over Time Multiplier",
+        "name": "Fire Damage over Time",
         "stats": {
-          "fire_dot_multiplier_+": 4
+          "burn_damage_+%": 12
         },
         "tag": "affliction_fire_damage_over_time_multiplier"
       },
       {
         "id": "affliction_chaos_damage_over_time_multiplier",
-        "name": "Chaos Damage over Time Multiplier",
+        "name": "Chaos Damage over Time",
         "stats": {
-          "chaos_dot_multiplier_+": 4
+          "chaos_damage_over_time_+%": 12
         },
         "tag": "affliction_chaos_damage_over_time_multiplier"
       },
       {
         "id": "affliction_physical_damage_over_time_multiplier",
-        "name": "Physical Damage over Time Multiplier",
+        "name": "Physical Damage over Time",
         "stats": {
-          "physical_dot_multiplier_+": 4
+          "physical_damage_over_time_+%": 12
         },
         "tag": "affliction_physical_damage_over_time_multiplier"
       },
       {
         "id": "affliction_cold_damage_over_time_multiplier",
-        "name": "Cold Damage over Time Multiplier",
+        "name": "Cold Damage over Time",
         "stats": {
-          "cold_dot_multiplier_+": 4
+          "cold_damage_over_time_+%": 12
         },
         "tag": "affliction_cold_damage_over_time_multiplier"
       },
       {
         "id": "affliction_damage_over_time_multiplier",
-        "name": "Damage over Time Multiplier",
+        "name": "Damage over Time",
         "stats": {
-          "dot_multiplier_+": 4
+          "damage_over_time_+%": 10
         },
         "tag": "affliction_damage_over_time_multiplier"
       },

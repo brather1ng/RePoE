@@ -72,7 +72,6 @@ class mods(Parser_Module):
                 "group": mod["CorrectGroup"],
                 "spawn_weights": _convert_spawn_weights(mod["SpawnWeight"]),
                 "generation_weights": _convert_generation_weights(mod["GenerationWeight"]),
-                "grants_buff": _convert_buff(mod["BuffDefinitionsKey"], mod["BuffValue"]),
                 "grants_effects": _convert_granted_effects(mod["GrantedEffectsPerLevelKeys"]),
                 "is_essence_only": mod["IsEssenceOnlyModifier"] > 0,
                 "adds_tags": _convert_tags_keys(mod["TagsKeys"]),

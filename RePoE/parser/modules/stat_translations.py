@@ -1,6 +1,6 @@
 from PyPoE.poe.file.translations import get_custom_translation_file
-from RePoE.parser.util import find_missing_stat_descriptions, write_json, call_with_default_args
-from RePoE.parser.constants import STAT_TRANSLATION_DICT
+from RePoE.parser.util import write_json, call_with_default_args
+from RePoE.parser.constants import STAT_DESCRIPTION_NAMING_EXCEPTIONS
 from RePoE.parser import Parser_Module
 
 
@@ -80,18 +80,31 @@ def _get_stat_translations(tag_set, translations, custom_translations):
     return root
 
 
+def _build_stat_translation_file_map(file_system):
+    node = file_system.build_directory()
+    not_mappable_files = []
+    for game_file in node["Metadata"]["StatDescriptions"].children.keys():
+        if game_file in STAT_DESCRIPTION_NAMING_EXCEPTIONS:
+            yield game_file, f"stat_translations{STAT_DESCRIPTION_NAMING_EXCEPTIONS[game_file]}"
+        elif game_file.endswith("_stat_descriptions.txt"):
+            suffix_length = len("_stat_descriptions.txt")
+            yield game_file, f"stat_translations/{game_file[:-suffix_length]}"
+        elif game_file.endswith("descriptions.txt"):
+            not_mappable_files.append(game_file)
+
+    if not_mappable_files:
+        raise ValueError(
+            f"The following stat descriptions are currently not accounted for: {not_mappable_files},"
+            + " please add to STAT_DESCRIPTION_NAMING_EXCEPTIONS in constants.py or add a generalized case for them to"
+            + " stat_translations.py::_build_stat_translation_file_map"
+        )
+
+
 class stat_translations(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
-        missing_stat_descriptions = find_missing_stat_descriptions(file_system)
-        if missing_stat_descriptions:
-            raise ValueError(
-                f"The following stat descriptions are currently not accounted for: {missing_stat_descriptions},"
-                + " please add to WRITTEN_FILES in constants.py"
-            )
-
         tag_set = set()
-        for in_file, out_file in STAT_TRANSLATION_DICT.items():
+        for in_file, out_file in _build_stat_translation_file_map(file_system):
             translations = translation_file_cache[in_file].translations
             result = _get_stat_translations(tag_set, translations, get_custom_translation_file().translations)
             write_json(result, data_path, out_file)

@@ -924,6 +924,9 @@
       "UniqueMedium"
     ]
   },
+  "AdrenalineOnWardBreak": {
+    "sell_price_types": []
+  },
   "AfflictionAddExtraContentWeighting": {
     "sell_price_types": []
   },
@@ -4192,6 +4195,9 @@
   "BannerFortifyDuration": {
     "sell_price_types": []
   },
+  "BannerTauntDuration": {
+    "sell_price_types": []
+  },
   "BarrageThreshold": {
     "sell_price_types": [
       "UniqueMedium"
@@ -6662,6 +6668,9 @@
   "ChestItemLevel": {
     "sell_price_types": []
   },
+  "ChestItemLevelVariable": {
+    "sell_price_types": []
+  },
   "ChestItemLinks": {
     "sell_price_types": []
   },
@@ -7896,6 +7905,11 @@
       "High"
     ]
   },
+  "CrushOnHitChance": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
   "CullingAgainstBurningEnemies": {
     "sell_price_types": [
       "UniqueMedium"
@@ -8087,6 +8101,9 @@
   "CustomLeagueImbue": {
     "sell_price_types": []
   },
+  "CustomLeagueMonsterAreaOfEffect": {
+    "sell_price_types": []
+  },
   "CustomLeagueMonsterDamage": {
     "sell_price_types": []
   },
@@ -8174,6 +8191,11 @@
   "DamageBypassEnergyShieldBlock": {
     "sell_price_types": [
       "UniqueHigh"
+    ]
+  },
+  "DamageBypassesWardPercent": {
+    "sell_price_types": [
+      "UniqueMedium"
     ]
   },
   "DamageCannotBeReflected": {
@@ -9706,6 +9728,21 @@
       "Special"
     ]
   },
+  "EnchantmentAbsolutionCastSpeed": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentAbsolutionDuration": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentAbsolutionMinionAreaOfEffect": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
   "EnchantmentAbyssalCryDamage": {
     "sell_price_types": [
       "Special"
@@ -9722,6 +9759,16 @@
     ]
   },
   "EnchantmentAddedFireDamageOnKill": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentAmbushCooldownRecovery": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentAmbushCriticalStrikeMultiplier": {
     "sell_price_types": [
       "Special"
     ]
@@ -9968,6 +10015,16 @@
       "Special"
     ]
   },
+  "EnchantmentBattlemagesCryAdditionalExert": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentBattlemagesCryBuffEffect": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
   "EnchantmentBearTrapCooldownSpeed": {
     "sell_price_types": [
       "Special"
@@ -10004,6 +10061,21 @@
     ]
   },
   "EnchantmentBladeBlastDetonationArea": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentBladeTrapAdditionalRotation": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentBladeTrapDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentBladeTrapRadius": {
     "sell_price_types": [
       "Special"
     ]
@@ -10194,6 +10266,21 @@
     ]
   },
   "EnchantmentBoneOfferingDuration": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentBoneshatterAdditionalTrauma": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentBoneshatterDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentBoneshatterStunDuration": {
     "sell_price_types": [
       "Special"
     ]
@@ -10553,6 +10640,11 @@
       "Special"
     ]
   },
+  "EnchantmentDefianceBannerAuraEffect": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
   "EnchantmentDesecrateAdditionalCorpse": {
     "sell_price_types": [
       "Special"
@@ -10881,6 +10973,21 @@
       "Special"
     ]
   },
+  "EnchantmentExplosiveConcoctionCharges": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentExplosiveConcoctionDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentExplosiveConcoctionRadius": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
   "EnchantmentExposure": {
     "sell_price_types": [
       "Special"
@@ -10897,6 +11004,21 @@
     ]
   },
   "EnchantmentExsanguinateDuration": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentEyeOfWinterDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentEyeOfWinterProjectileSpeed": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentEyeOfWinterShardFrequency": {
     "sell_price_types": [
       "Special"
     ]
@@ -11127,6 +11249,21 @@
     ]
   },
   "EnchantmentFlickerStrikeDamagePerFrenzyCharge": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentForbiddenRiteAdditionalProjectile": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentForbiddenRiteDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentForbiddenRiteProjectileSpeed": {
     "sell_price_types": [
       "Special"
     ]
@@ -11955,6 +12092,21 @@
       "Special"
     ]
   },
+  "EnchantmentManabondDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentManabondPenetrationLowMana": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentManabondRadius": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
   "EnchantmentMirrorArrowAttackSpeed": {
     "sell_price_types": [
       "Special"
@@ -12305,6 +12457,21 @@
       "Special"
     ]
   },
+  "EnchantmentRageVortexAreaOfEffect": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentRageVortexDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentRageVortexSacrificeMoreRage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
   "EnchantmentRainOfArrowsAdditionalSequenceChance": {
     "sell_price_types": [
       "Special"
@@ -12505,6 +12672,21 @@
       "Special"
     ]
   },
+  "EnchantmentShieldCrushAttackSpeed": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentShieldCrushCentralConeArea": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentShieldCrushDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
   "EnchantmentShockNovaDamage": {
     "sell_price_types": [
       "Special"
@@ -12691,6 +12873,21 @@
     ]
   },
   "EnchantmentSparkProjectileSpeed": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentSpectralHelixDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentSpectralHelixExtraRotation": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentSpectralHelixProjectileSpeed": {
     "sell_price_types": [
       "Special"
     ]
@@ -12885,6 +13082,21 @@
       "Special"
     ]
   },
+  "EnchantmentStormRainAdditionalArrow": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentStormRainDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentStormRainFrequency": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
   "EnchantmentStormbindAreaOfEffect": {
     "sell_price_types": [
       "Special"
@@ -12916,6 +13128,11 @@
     ]
   },
   "EnchantmentSummonRagingSpiritDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentSummonReaperCooldownRecovery": {
     "sell_price_types": [
       "Special"
     ]
@@ -12956,6 +13173,16 @@
     ]
   },
   "EnchantmentSummonedRagingSpiritDuration": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentSummonedReaperDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentSummonedReaperPhysicalDamageOverTimeMultiplier": {
     "sell_price_types": [
       "Special"
     ]
@@ -13166,6 +13393,21 @@
     ]
   },
   "EnchantmentVolatileDeadOrbsBoolean": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentVoltaxicBurstDamage": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentVoltaxicBurstDamagePerDuration": {
+    "sell_price_types": [
+      "Special"
+    ]
+  },
+  "EnchantmentVoltaxicBurstRadius": {
     "sell_price_types": [
       "Special"
     ]
@@ -13541,6 +13783,11 @@
   "EnergyShield": {
     "sell_price_types": [
       "Medium"
+    ]
+  },
+  "EnergyShieldAdditiveModifiersInsteadApplyToWard": {
+    "sell_price_types": [
+      "UniqueHigh"
     ]
   },
   "EnergyShieldAndManaForJewel": {
@@ -13928,6 +14175,423 @@
     "sell_price_types": []
   },
   "ExilesEverywhereLeague": {
+    "sell_price_types": []
+  },
+  "ExpeditionLeague": {
+    "sell_price_types": []
+  },
+  "ExpeditionNPCStealth": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierAcrobatic": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierAllDamageFreezesFreezeDuration": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierAllDamageIgnitesIgniteDuration": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierAllDamagePoisonsPoisonDuration": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierAllDamageShocksShockEffect": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierAlwaysCrit": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierAttackBlockSpellBlockMaxBlockChance": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierAtziriFragmentsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierAtziriFragmentsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierBleedOnHitBleedDuration": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierBlightOilsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierBlightOilsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierBreachSplintersChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierBreachSplintersElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierCannotBeCrit": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierCannotBeLeechedFrom": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierChaosPenetration": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierColdPenetration": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierCriticalAgainstFullLife": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierCullingStrikeTwentyPercent": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierDamage": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierDamageAddedAsChaos": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierDamageAttackCastMovementSpeedLowLife": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierDeliriumSplintersChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierDeliriumSplintersElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierElitesDeathGeasOnHit": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierElitesDuplicated": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierElitesPetrifyOnHit": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierElitesRandomCurseOnHit": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierElitesRegenerateLifeEveryFourSeconds": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierEssencesChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierEssencesElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierEternalEmpireEnchantChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierEternalEmpireEnchantElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierEternalEmpireLegionChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierEternalEmpireLegionElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionBasicCurrencyChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionBasicCurrencyElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionCorruptedItemsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionCurrencyQuantityChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionCurrencyQuantityMonster": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionFracturedItemsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionFracturedItemsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionFullyLinkedElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionGemsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionGemsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionInfluencedItemsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionInfluencedtemsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionLogbookQuantityChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionLogbookQuantityMonster": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionMapsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionMapsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionRareArmourChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionRareArmourElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionRareTrinketChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionRareTrinketElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionRareWeaponChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionRareWeaponElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionTalismanChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionTalismanElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionUniqueChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionUniqueElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionVendorCurrencyFactionChest1_1": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionVendorCurrencyFactionChest2_1": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionVendorCurrencyFactionChest3_1": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionVendorCurrencyFactionChest4_1": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionVendorCurrencyFactionElite1_1_": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionVendorCurrencyFactionElite2_1": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionVendorCurrencyFactionElite3_1": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExpeditionVendorCurrencyFactionElite4_1": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierExperience": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierFirePenetration": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierFossilsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierFossilsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierGrantNoFlaskCharges": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierHarbingerCurrencyChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierHarbingerCurrencyElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierHeistContractChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierHeistContractElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierHitsCannotBeEvaded": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierHitsRemoveManaAndEnergyShieldOnHit": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierIgnoreArmour": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierImmuneChaosDamage": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierImmuneColdDamage": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierImmuneFireDamage": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierImmuneLightningDamage": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierImmunePhysicalDamage": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierImmuneStatusAilments": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierImmuneToCurses": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierImpaleOnHitImpaleEffect": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierItemQuantityChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierItemQuantityMonster": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierItemRarityChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierItemRarityMonster": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierKaruiFossilChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierKaruiFossilElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierKaruiShardsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierKaruiShardsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierLegionSplintersChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierLegionSplintersElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierLife": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierLightningPenetration": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierLostMenEssenceChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierLostMenEssenceElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierLostMenUniqueChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierLostMenUniqueElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMagicMonsterChance": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMarakethDivinationChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMarakethDivinationElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMarakethIncubatorChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMarakethIncubatorElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMetamorphCatalystsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMetamorphCatalystsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMonkeyTribeAbyssChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMonkeyTribeAbyssElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMonkeyTribeFragmentsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierMonkeyTribeFragmentsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierPackSize": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierRareMonsterChance": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierReducedDamageTaken": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierResistancesAndMaxResistances": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierSirensBreachChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierSirensBreachElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierSirensScarabChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierSirensScarabElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierSpeed": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierStackedDeckChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierStackedDeckElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierTemplarCatalystChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierTemplarCatalystElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierTemplarDeliriumChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierTemplarDeliriumElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierVaalGemsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierVaalGemsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierVaalOilsChest": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierVaalOilsElite": {
+    "sell_price_types": []
+  },
+  "ExpeditionRelicModifierWard": {
     "sell_price_types": []
   },
   "ExperienceGainForJewel": {
@@ -14461,6 +15125,11 @@
       "UniqueMedium"
     ]
   },
+  "FlaskBuffAccuracyWhileHealing": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
   "FlaskBuffArmourWhileHealing": {
     "sell_price_types": [
       "Medium"
@@ -14472,6 +15141,11 @@
     ]
   },
   "FlaskBuffAttackSpeedWhileHealing": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "FlaskBuffAvoidStunWhileHealing": {
     "sell_price_types": [
       "Medium"
     ]
@@ -14551,6 +15225,11 @@
       "Medium"
     ]
   },
+  "FlaskBuffWardWhileHealing": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
   "FlaskChanceRechargeOnCrit": {
     "sell_price_types": [
       "High"
@@ -14576,9 +15255,19 @@
       "UniqueLow"
     ]
   },
+  "FlaskChargePerSecondUniqueEnemy": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
   "FlaskChargeRecoveryDuringFlaskEffect": {
     "sell_price_types": [
       "UniqueLow"
+    ]
+  },
+  "FlaskChargesFromKillsFinal": {
+    "sell_price_types": [
+      "UniqueHigh"
     ]
   },
   "FlaskChargesOnCrit": {
@@ -14611,15 +15300,31 @@
       "UniqueLow"
     ]
   },
+  "FlaskConsecratedGroundEffectCriticalStrike": {
+    "sell_price_types": [
+      "UniqueLow"
+    ]
+  },
   "FlaskConsumesFrenzyCharges": {
     "sell_price_types": [
       "Special"
     ]
   },
+  "FlaskCriticalStrikeDoTMultiplier": {
+    "sell_price_types": [
+      "UniqueLow"
+    ]
+  },
+  "FlaskCullingStrike": {
+    "sell_price_types": []
+  },
   "FlaskCurseImmunity": {
     "sell_price_types": [
       "High"
     ]
+  },
+  "FlaskDebilitateNearbyEnemiesWhenEffectEnds": {
+    "sell_price_types": []
   },
   "FlaskDispellsBurning": {
     "sell_price_types": [
@@ -14645,6 +15350,9 @@
     ]
   },
   "FlaskEffectAndFlaskChargesGained": {
+    "sell_price_types": []
+  },
+  "FlaskEffectEndsWhenHitByPlayer": {
     "sell_price_types": []
   },
   "FlaskEffectNotRemovedOnFullMana": {
@@ -14682,6 +15390,72 @@
       "UniqueLow"
     ]
   },
+  "FlaskEnchantmentEnkindlingChargesGained": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentEnkindlingChargesUsed": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentEnkindlingDuration": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentEnkindlingEffect": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentEnkindlingMaximumCharges": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorAdjacentFlasks": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorFlaskEffectEnd": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnAffectedByBleed": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnAffectedByChill": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnAffectedByFreeze": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnAffectedByIgnite": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnAffectedByPoison": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnAffectedByShock": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnDamageBlocked": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnFullCharges": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnGuardSkillExpired": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnGuardSkillUsed": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnHittingRareOrUnique": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnTakingSavageHit": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnTravelSkillUsed": {
+    "sell_price_types": []
+  },
+  "FlaskEnchantmentInjectorOnUsingLifeFlask": {
+    "sell_price_types": []
+  },
+  "FlaskEnduranceChargePerSecond": {
+    "sell_price_types": []
+  },
   "FlaskExtraLife": {
     "sell_price_types": []
   },
@@ -14704,6 +15478,9 @@
     "sell_price_types": [
       "Low"
     ]
+  },
+  "FlaskFireColdLightningExposureOnNearbyEnemies": {
+    "sell_price_types": []
   },
   "FlaskFullInstantRecovery": {
     "sell_price_types": [
@@ -14841,6 +15618,9 @@
       "Special"
     ]
   },
+  "FlaskLoseAllEnduranceChargesGainLifePerLostCharge": {
+    "sell_price_types": []
+  },
   "FlaskLoseChargesOnNewArea": {
     "sell_price_types": [
       "UniqueMedium"
@@ -14856,6 +15636,12 @@
       "UniqueLow"
     ]
   },
+  "FlaskMoreWardUnique1": {
+    "sell_price_types": []
+  },
+  "FlaskNonDamagingAilmentIncreasedEffect": {
+    "sell_price_types": []
+  },
   "FlaskPartialInstantRecovery": {
     "sell_price_types": [
       "Low"
@@ -14865,6 +15651,9 @@
     "sell_price_types": [
       "UniqueLow"
     ]
+  },
+  "FlaskRemoveEffectWhenWardBreaks": {
+    "sell_price_types": []
   },
   "FlaskRemovePercentageOfEnergyShield": {
     "sell_price_types": [
@@ -14937,6 +15726,11 @@
   "FlaskVaalSoulPreventionDuration": {
     "sell_price_types": [
       "UniqueMedium"
+    ]
+  },
+  "FlaskWardUnbreakableDuringEffect": {
+    "sell_price_types": [
+      "UniqueHigh"
     ]
   },
   "FlaskZealotsOath": {
@@ -15591,6 +16385,11 @@
       "UniqueMedium"
     ]
   },
+  "GlobalAddedChaosDamageWard": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
   "GlobalAddedColdDamage": {
     "sell_price_types": [
       "UniqueMedium"
@@ -16105,6 +16904,11 @@
   "GrantsStoneGolemSkill": {
     "sell_price_types": [
       "UniqueLow"
+    ]
+  },
+  "GrantsSummonArbalistsSkill": {
+    "sell_price_types": [
+      "UniqueHigh"
     ]
   },
   "GrantsSummonBeast": {
@@ -17735,6 +18539,9 @@
   "HungryLoopSupportedByBarrage": {
     "sell_price_types": []
   },
+  "HungryLoopSupportedByBehead": {
+    "sell_price_types": []
+  },
   "HungryLoopSupportedByBlasphemy": {
     "sell_price_types": []
   },
@@ -17822,6 +18629,9 @@
   "HungryLoopSupportedByDecay": {
     "sell_price_types": []
   },
+  "HungryLoopSupportedByEarthbreaker": {
+    "sell_price_types": []
+  },
   "HungryLoopSupportedByEfficacy": {
     "sell_price_types": []
   },
@@ -17868,6 +18678,9 @@
     "sell_price_types": []
   },
   "HungryLoopSupportedByFlee": {
+    "sell_price_types": []
+  },
+  "HungryLoopSupportedByFocussedBallista": {
     "sell_price_types": []
   },
   "HungryLoopSupportedByFork": {
@@ -18303,6 +19116,9 @@
     "sell_price_types": [
       "UniqueLow"
     ]
+  },
+  "ImpaleChanceForJewel": {
+    "sell_price_types": []
   },
   "ImpaleEffect": {
     "sell_price_types": [
@@ -19666,6 +20482,9 @@
   "ItemsDropCorrupted": {
     "sell_price_types": []
   },
+  "ItemsDropIdentified": {
+    "sell_price_types": []
+  },
   "IzaroDaemon": {
     "sell_price_types": []
   },
@@ -20152,6 +20971,9 @@
     "sell_price_types": [
       "UniqueLow"
     ]
+  },
+  "LevelRequirementOverride": {
+    "sell_price_types": []
   },
   "LifeAddedAsEnergyShield": {
     "sell_price_types": []
@@ -21198,6 +22020,11 @@
       "Medium"
     ]
   },
+  "LocalBaseWardAndLife": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
   "LocalBleedDamageOverTimeMultiplier": {
     "sell_price_types": [
       "UniqueHigh"
@@ -22218,6 +23045,21 @@
   "LocalVeiledModEffect": {
     "sell_price_types": [
       "UniqueMedium"
+    ]
+  },
+  "LocalWard": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "LocalWardAndStunRecoveryPercent": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "LocalWardPercent": {
+    "sell_price_types": [
+      "Medium"
     ]
   },
   "LocalWeaponMoreIgniteDamage": {
@@ -23611,6 +24453,54 @@
   "MapExiles": {
     "sell_price_types": []
   },
+  "MapExpeditionArtifactQuantity": {
+    "sell_price_types": []
+  },
+  "MapExpeditionChestCount": {
+    "sell_price_types": []
+  },
+  "MapExpeditionChestDoubleDropsChance": {
+    "sell_price_types": []
+  },
+  "MapExpeditionCommonChestCount": {
+    "sell_price_types": []
+  },
+  "MapExpeditionEliteMonsterQuantity": {
+    "sell_price_types": []
+  },
+  "MapExpeditionEpicChestCount": {
+    "sell_price_types": []
+  },
+  "MapExpeditionExplosionRadius": {
+    "sell_price_types": []
+  },
+  "MapExpeditionExplosives": {
+    "sell_price_types": []
+  },
+  "MapExpeditionExtraRelicSuffixChance": {
+    "sell_price_types": []
+  },
+  "MapExpeditionMaximumPlacementDistance": {
+    "sell_price_types": []
+  },
+  "MapExpeditionNumberOfMonsterMarkers": {
+    "sell_price_types": []
+  },
+  "MapExpeditionRelics": {
+    "sell_price_types": []
+  },
+  "MapExpeditionSagaAdditionalTerrainFeatures": {
+    "sell_price_types": []
+  },
+  "MapExpeditionSagaContainsBoss": {
+    "sell_price_types": []
+  },
+  "MapExpeditionUncommonChestCount": {
+    "sell_price_types": []
+  },
+  "MapExpeditionVendorRerollCurrencyQuantity": {
+    "sell_price_types": []
+  },
   "MapExtraInvasionBosses": {
     "sell_price_types": []
   },
@@ -24773,6 +25663,9 @@
     "sell_price_types": []
   },
   "MapReducedDamageTakenWhileOnRampage": {
+    "sell_price_types": []
+  },
+  "MapRitualLeagueCrafted": {
     "sell_price_types": []
   },
   "MapRogueExileAttackCastMovementSpeed": {
@@ -26862,6 +27755,9 @@
   "MonsterChaosResistance": {
     "sell_price_types": []
   },
+  "MonsterChilledAura": {
+    "sell_price_types": []
+  },
   "MonsterCleavesText": {
     "sell_price_types": []
   },
@@ -27081,6 +27977,9 @@
   "MonsterGainFrenzyChargeOnKinDeath": {
     "sell_price_types": []
   },
+  "MonsterGainLifeAsWard": {
+    "sell_price_types": []
+  },
   "MonsterGainsEnduranceChargeOnHit": {
     "sell_price_types": []
   },
@@ -27151,6 +28050,9 @@
     "sell_price_types": []
   },
   "MonsterIncreasedCastSpeedPerPowerCharge": {
+    "sell_price_types": []
+  },
+  "MonsterIncreasedIntensityLoss": {
     "sell_price_types": []
   },
   "MonsterIncreasedMinionLife": {
@@ -27475,6 +28377,9 @@
     "sell_price_types": []
   },
   "MonsterTagAncientVaal": {
+    "sell_price_types": []
+  },
+  "MonsterTagExpedition": {
     "sell_price_types": []
   },
   "MonsterTagSynthesised": {
@@ -30150,6 +31055,9 @@
   "Roll6LinkedRandomColourSockets": {
     "sell_price_types": []
   },
+  "RoyaleAdditionalMonsterDrops": {
+    "sell_price_types": []
+  },
   "Runebinder": {
     "sell_price_types": [
       "UniqueHigh"
@@ -30370,9 +31278,19 @@
       "Medium"
     ]
   },
+  "ShieldCritChancePerEsOnShieldJewel1": {
+    "sell_price_types": [
+      "UniqueLow"
+    ]
+  },
   "ShieldCritMultiplierForJewel": {
     "sell_price_types": [
       "High"
+    ]
+  },
+  "ShieldCritMultiplierPerEsOnShieldJewel1": {
+    "sell_price_types": [
+      "UniqueLow"
     ]
   },
   "ShieldDefencesPerDevotion": {
@@ -31489,6 +32407,9 @@
   "SqueakingWhenTakingFireDamage": {
     "sell_price_types": []
   },
+  "StaceScytheHand": {
+    "sell_price_types": []
+  },
   "StaffAttackSpeedForJewel": {
     "sell_price_types": [
       "Low"
@@ -31588,6 +32509,9 @@
     "sell_price_types": []
   },
   "StanceThaneEnrage": {
+    "sell_price_types": []
+  },
+  "StanceVelocity": {
     "sell_price_types": []
   },
   "StanceVilentaEnrage": {
@@ -31818,6 +32742,126 @@
   "SummonAdditionalBrand": {
     "sell_price_types": [
       "UniqueLow"
+    ]
+  },
+  "SummonArbalistAttackSpeed": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChains": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToBleed": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToCrushOnHit": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToDealDoubleDamage": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToIgniteFreezeShock": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToInflictColdExposureonHit": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToInflictFireExposureOnHit": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToInflictLightningExposureOnHit": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToIntimidateFor4SecondsOnHit": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToMaimfor4secondsOnHit": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToPoison": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistChanceToUnnerveFor4SecondsOnHit": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistNumberOfAdditionalProjectiles": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistNumberOfArbalistsAllowed": {
+    "sell_price_types": [
+      "UniqueLow"
+    ]
+  },
+  "SummonArbalistNumberOfSplits": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistPhysicalDamageToAddAsCold": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistPhysicalDamageToAddAsFire": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistPhysicalDamageToAddAsLightning": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistPhysicalDamageToConvertToCold": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistPhysicalDamageToConvertToFire": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistPhysicalDamageToConvertToLightning": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistProjectilesFork": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SummonArbalistTargetsToPierce": {
+    "sell_price_types": [
+      "UniqueMedium"
     ]
   },
   "SummonDoubleOnCrit": {
@@ -33564,6 +34608,12 @@
   "UtilityFlaskSmokeCloud": {
     "sell_price_types": []
   },
+  "UtilityFlaskTaunt": {
+    "sell_price_types": []
+  },
+  "UtilityFlaskWard": {
+    "sell_price_types": []
+  },
   "VaalAttacksUseRageInsteadOfSouls": {
     "sell_price_types": [
       "UniqueHigh"
@@ -33847,6 +34897,11 @@
   "WarcryTauntChaosExplosion": {
     "sell_price_types": [
       "UniqueHigh"
+    ]
+  },
+  "WardDelayRecovery": {
+    "sell_price_types": [
+      "UniqueMedium"
     ]
   },
   "WatchstoneAbyssExperience": {

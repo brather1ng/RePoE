@@ -19,12 +19,6 @@ as value. That description object has the following fields:
 - `stats`: Array of the stats this mod gives. `id` is the stat id and `min` and `max`
   (both inclusive) define the range the stat can roll. These can be resolved with
   `stats.json` and converted to text with `stat_translations.json`.
-- `grants_buff`: The stats of this mod may be applied to allies or enemies around the mod
-  carrier. If they are, this field contains the buff id (resolved in `Buffs.dat`)
-  and the range the buff is applied. If the range is 0 and the buff is applied to
-  allies, it only affects the carrier. The buff referenced by the id specifies
-  the stats of this mod that are applied to others and some information for
-  display purposes.
 - `grants_effects`: Active gem and support gem like effects this mod gives.
   The two fields (`granted_effect_id` and `level`) identify a single row in
   `GrantedEffectsPerLevel.dat`. These can be resolved with `gems.json`:

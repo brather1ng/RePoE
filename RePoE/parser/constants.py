@@ -347,32 +347,9 @@ UNIQUE_ONLY_ITEMS = {
 # The stat description files can include each other and can override stats from included files. E.g. the same stat
 # may have different translations on active and support gems. Because of that, they can't simply be merged together
 # Therefore, each stat_descriptions file is written into a different file
-WRITTEN_FILES = {
-    ("stat_descriptions.txt", ""),
-    ("active_skill_gem_stat_descriptions.txt", "/active_skill_gem"),
-    ("advanced_mod_stat_descriptions.txt", "/advanced_mod"),
-    ("atlas_stat_descriptions.txt", "/atlas"),
-    ("aura_skill_stat_descriptions.txt", "/aura_skill"),
-    ("banner_aura_skill_stat_descriptions.txt", "/banner_aura_skill"),
-    ("beam_skill_stat_descriptions.txt", "/beam_skill"),
-    ("brand_skill_stat_descriptions.txt", "/brand_skill"),
-    ("buff_skill_stat_descriptions.txt", "/buff_skill"),
-    ("chest_stat_descriptions.txt", "/strongbox"),
-    ("curse_skill_stat_descriptions.txt", "/curse_skill"),
-    ("debuff_skill_stat_descriptions.txt", "/debuff_skill"),
-    ("gem_stat_descriptions.txt", "/support_gem"),
-    ("heist_equipment_stat_descriptions.txt", "/heist_equipment"),
-    ("leaguestone_stat_descriptions.txt", "/leaguestone"),
-    ("map_stat_descriptions.txt", "/areas"),
-    ("minion_attack_skill_stat_descriptions.txt", "/minion_attack_skill"),
-    ("minion_skill_stat_descriptions.txt", "/minion_skill"),
-    ("minion_spell_skill_stat_descriptions.txt", "/minion_spell_skill"),
-    ("monster_stat_descriptions.txt", "/monster"),
-    ("offering_skill_stat_descriptions.txt", "/offering_skill"),
-    ("passive_skill_aura_stat_descriptions.txt", "/passive_skill_aura"),
-    ("passive_skill_stat_descriptions.txt", "/passive_skill"),
-    ("secondary_debuff_skill_stat_descriptions.txt", "/secondary_debuff_skill"),
-    ("skill_stat_descriptions.txt", "/skill"),
-    ("variable_duration_skill_stat_descriptions.txt", "/variable_duration_skill"),
+STAT_DESCRIPTION_NAMING_EXCEPTIONS = {
+    "stat_descriptions.txt": "",
+    "chest_stat_descriptions.txt": "/strongbox",
+    "gem_stat_descriptions.txt": "/support_gem",
+    "map_stat_descriptions.txt": "/areas",
 }
-STAT_TRANSLATION_DICT = {game_file: "stat_translations" + repoe_file for game_file, repoe_file in WRITTEN_FILES}
