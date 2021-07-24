@@ -8,7 +8,13 @@ from PyPoE.poe.file.translations import TranslationFileCache
 from PyPoE.poe.constants import MOD_DOMAIN
 
 from RePoE import __DATA_PATH__
-from RePoE.parser.constants import UNRELEASED_ITEMS, ReleaseState, LEGACY_ITEMS, UNIQUE_ONLY_ITEMS
+from RePoE.parser.constants import (
+    UNRELEASED_ITEMS,
+    ReleaseState,
+    LEGACY_ITEMS,
+    UNIQUE_ONLY_ITEMS,
+    STAT_DESCRIPTION_NAMING_EXCEPTIONS,
+)
 
 
 def get_id_or_none(relational_file_cell):
@@ -83,3 +89,19 @@ def ignore_mod_domain(domain):
         MOD_DOMAIN.VEILED,
     }
     return domain not in whitelist
+
+
+def get_stat_translation_file_name(game_file):
+    if game_file in STAT_DESCRIPTION_NAMING_EXCEPTIONS:
+        return f"stat_translations{STAT_DESCRIPTION_NAMING_EXCEPTIONS[game_file]}"
+    elif game_file.endswith("_stat_descriptions.txt"):
+        suffix_length = len("_stat_descriptions.txt")
+        return f"stat_translations/{game_file[:-suffix_length]}"
+    elif game_file.endswith("descriptions.txt"):
+        raise ValueError(
+            f"The following stat description file name is not accounted for: {game_file},"
+            + " please add it to STAT_DESCRIPTION_NAMING_EXCEPTIONS in constants.py or add a generalized case to"
+            + " util.py::get_stat_translation_file_name"
+        )
+    else:
+        return None

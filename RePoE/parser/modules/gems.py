@@ -3,8 +3,14 @@ import re
 from PyPoE.cli.exporter.wiki.parsers.skill import SkillParserShared
 from PyPoE.poe.file.stat_filters import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
-from RePoE.parser.constants import ActiveSkillType, CooldownBypassType, STAT_TRANSLATION_DICT
-from RePoE.parser.util import call_with_default_args, write_json, get_release_state, ignore_mod_domain
+from RePoE.parser.constants import ActiveSkillType, CooldownBypassType
+from RePoE.parser.util import (
+    call_with_default_args,
+    write_json,
+    get_release_state,
+    ignore_mod_domain,
+    get_stat_translation_file_name,
+)
 from RePoE.parser import Parser_Module
 
 
@@ -287,7 +293,7 @@ class GemConverter:
             obj["active_skill"] = self._convert_active_skill(granted_effect["ActiveSkillsKey"])
 
         game_file_name = self._get_translation_file_name(obj.get("active_skill"))
-        obj["stat_translation_file"] = STAT_TRANSLATION_DICT[game_file_name]
+        obj["stat_translation_file"] = get_stat_translation_file_name(game_file_name)
 
         self._convert_base_item_specific(base_item_type, obj)
 

@@ -217,6 +217,10 @@ class ActiveSkillType(IntEnum):
     mark = 99
     aegis = 100
     orb = 101
+    prismatic = 102
+    unknown_103 = 103
+    arcane = 104
+    faster_casting_support_dash_exclude = 105
 
 
 @unique
