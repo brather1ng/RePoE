@@ -13521,7 +13521,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Bleeding for 1 second if used while Bleeding\nRemoves Corrupted Blood when used"
+        "string": "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
       }
     ],
     "ids": [
@@ -13540,7 +13540,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Chill for 1 second if used while Chilled\nGrants Immunity to Freeze for 1 second if used while Frozen"
+        "string": "Grants Immunity to Chill for 4 seconds if used while Chilled\nGrants Immunity to Freeze for 4 seconds if used while Frozen"
       }
     ],
     "ids": [
@@ -13559,7 +13559,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Ignite for 1 second if used while Ignited\nRemoves all Burning when used"
+        "string": "Grants Immunity to Ignite for 4 seconds if used while Ignited\nRemoves all Burning when used"
       }
     ],
     "ids": [
@@ -13578,7 +13578,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Shock for 1 second if used while Shocked"
+        "string": "Grants Immunity to Shock for 4 seconds if used while Shocked"
       }
     ],
     "ids": [
@@ -15237,7 +15237,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Poison for 1 second if used while Poisoned"
+        "string": "Grants Immunity to Poison for 4 seconds if used while Poisoned"
       }
     ],
     "ids": [
@@ -48621,14 +48621,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Vulnerability, with {0}% increased Effect"
+        "string": "Players are Cursed with Vulnerability"
       }
     ],
     "ids": [
@@ -48642,14 +48640,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Enfeeble, with {0}% increased Effect"
+        "string": "Players are Cursed with Enfeeble"
       }
     ],
     "ids": [
@@ -48663,14 +48659,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Temporal Chains, with {0}% increased Effect"
+        "string": "Players are Cursed with Temporal Chains"
       }
     ],
     "ids": [
@@ -48684,14 +48678,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Elemental Weakness, with {0}% increased Effect"
+        "string": "Players are Cursed with Elemental Weakness"
       }
     ],
     "ids": [
@@ -48705,14 +48697,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Punishment, with {0}% increased Effect"
+        "string": "Players are Cursed with Punishment"
       }
     ],
     "ids": [
@@ -48726,14 +48716,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Flammability, with {0}% increased Effect"
+        "string": "Players are Cursed with Flammability"
       }
     ],
     "ids": [
@@ -48747,14 +48735,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Frostbite, with {0}% increased Effect"
+        "string": "Players are Cursed with Frostbite"
       }
     ],
     "ids": [
@@ -48768,14 +48754,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Conductivity, with {0}% increased Effect"
+        "string": "Players are Cursed with Conductivity"
       }
     ],
     "ids": [
@@ -48789,14 +48773,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Despair, with {0}% increased Effect"
+        "string": "Players are Cursed with Despair"
       }
     ],
     "ids": [
@@ -48810,14 +48792,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Silence, with {0}% increased Effect"
+        "string": "Players are Cursed with Silence"
       }
     ],
     "ids": [
@@ -107418,7 +107398,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Effect of Buffs granted by your Active Ancestor Totems"
+        "string": "{0}% increased Effect of Buffs your Ancestor Totems grant while Active"
       },
       {
         "condition": [
@@ -107434,7 +107414,7 @@
             "negate"
           ]
         ],
-        "string": "{0}% reduced Effect of Buffs granted by your Active Ancestor Totems"
+        "string": "{0}% reduced Effect of Buffs your Ancestor Totems grant while Active"
       }
     ],
     "ids": [
@@ -114135,6 +114115,41 @@
     ],
     "ids": [
       "base_energy_shield_leech_from_physical_damage_permyriad"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Damage with Hits is Lucky"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Damage with Hits is Unlucky"
+      }
+    ],
+    "ids": [
+      "base_extra_damage_rolls"
     ]
   },
   {
@@ -134415,7 +134430,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Prismatic Skills Strike cannot choose Cold"
+        "string": "Prismatic Skills cannot choose Cold"
       }
     ],
     "ids": [
@@ -178610,14 +178625,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with a random Hex every 10 seconds, with {0}% increased Effect"
+        "string": "Players are Cursed with a random Hex every 10 seconds"
       }
     ],
     "ids": [

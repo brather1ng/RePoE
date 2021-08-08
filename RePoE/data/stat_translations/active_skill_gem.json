@@ -13494,7 +13494,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Bleeding for 1 second if used while Bleeding\nRemoves Corrupted Blood when used"
+        "string": "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
       }
     ],
     "ids": [
@@ -13513,7 +13513,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Chill for 1 second if used while Chilled\nGrants Immunity to Freeze for 1 second if used while Frozen"
+        "string": "Grants Immunity to Chill for 4 seconds if used while Chilled\nGrants Immunity to Freeze for 4 seconds if used while Frozen"
       }
     ],
     "ids": [
@@ -13532,7 +13532,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Ignite for 1 second if used while Ignited\nRemoves all Burning when used"
+        "string": "Grants Immunity to Ignite for 4 seconds if used while Ignited\nRemoves all Burning when used"
       }
     ],
     "ids": [
@@ -13551,7 +13551,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Shock for 1 second if used while Shocked"
+        "string": "Grants Immunity to Shock for 4 seconds if used while Shocked"
       }
     ],
     "ids": [
@@ -15210,7 +15210,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Grants Immunity to Poison for 1 second if used while Poisoned"
+        "string": "Grants Immunity to Poison for 4 seconds if used while Poisoned"
       }
     ],
     "ids": [
@@ -44449,14 +44449,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Vulnerability, with {0}% increased Effect"
+        "string": "Players are Cursed with Vulnerability"
       }
     ],
     "ids": [
@@ -44470,14 +44468,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Enfeeble, with {0}% increased Effect"
+        "string": "Players are Cursed with Enfeeble"
       }
     ],
     "ids": [
@@ -44491,14 +44487,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Temporal Chains, with {0}% increased Effect"
+        "string": "Players are Cursed with Temporal Chains"
       }
     ],
     "ids": [
@@ -44512,14 +44506,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Elemental Weakness, with {0}% increased Effect"
+        "string": "Players are Cursed with Elemental Weakness"
       }
     ],
     "ids": [
@@ -44533,14 +44525,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Punishment, with {0}% increased Effect"
+        "string": "Players are Cursed with Punishment"
       }
     ],
     "ids": [
@@ -44554,14 +44544,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Flammability, with {0}% increased Effect"
+        "string": "Players are Cursed with Flammability"
       }
     ],
     "ids": [
@@ -44575,14 +44563,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Frostbite, with {0}% increased Effect"
+        "string": "Players are Cursed with Frostbite"
       }
     ],
     "ids": [
@@ -44596,14 +44582,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Conductivity, with {0}% increased Effect"
+        "string": "Players are Cursed with Conductivity"
       }
     ],
     "ids": [
@@ -44617,14 +44601,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Despair, with {0}% increased Effect"
+        "string": "Players are Cursed with Despair"
       }
     ],
     "ids": [
@@ -44638,14 +44620,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with Silence, with {0}% increased Effect"
+        "string": "Players are Cursed with Silence"
       }
     ],
     "ids": [
@@ -107787,6 +107767,41 @@
           }
         ],
         "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Damage with Hits is Lucky"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Damage with Hits is Unlucky"
+      }
+    ],
+    "ids": [
+      "base_extra_damage_rolls"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
           "#"
         ],
         "index_handlers": [
@@ -127129,7 +127144,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Prismatic Skills Strike cannot choose Cold"
+        "string": "Prismatic Skills cannot choose Cold"
       }
     ],
     "ids": [
@@ -170785,14 +170800,12 @@
           {}
         ],
         "format": [
-          "#"
+          "ignore"
         ],
         "index_handlers": [
-          [
-            "multiply_by_four"
-          ]
+          []
         ],
-        "string": "Players are Cursed with a random Hex every 10 seconds, with {0}% increased Effect"
+        "string": "Players are Cursed with a random Hex every 10 seconds"
       }
     ],
     "ids": [
@@ -224629,6 +224642,40 @@
       {
         "condition": [
           {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Maximum {0} Summoned Reaper"
+      },
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Maximum {0} Summoned Reapers"
+      }
+    ],
+    "ids": [
+      "base_number_of_reapers_allowed"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
             "max": 1000,
             "min": 1000
           }
@@ -225464,6 +225511,43 @@
     ],
     "ids": [
       "regenerate_x_life_over_1_second_on_skill_use_or_trigger"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased wave frequency"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced wave frequency"
+      }
+    ],
+    "ids": [
+      "seismic_trap_frequency_+%"
     ]
   },
   {

@@ -221,6 +221,7 @@ class ActiveSkillType(IntEnum):
     unknown_103 = 103
     arcane = 104
     faster_casting_support_dash_exclude = 105
+    unknown_106 = 106
 
 
 @unique
