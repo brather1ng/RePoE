@@ -142,7 +142,7 @@ class GemConverter:
         self.max_totem_id = relational_reader["SkillTotems.dat"].table_rows
         self._skill_totem_life_multipliers = {}
         for row in self.relational_reader["SkillTotemVariations.dat"]:
-            self._skill_totem_life_multipliers[row["SkillTotemsKey"].rowid] = (
+            self._skill_totem_life_multipliers[row["SkillTotemsKey"]] = (
                 row["MonsterVarietiesKey"]["LifeMultiplier"] / 100
             )
 
@@ -165,7 +165,7 @@ class GemConverter:
             "stat_conversions": stat_conversions,
         }
         if is_skill_totem:
-            r["skill_totem_life_multiplier"] = self._skill_totem_life_multipliers[active_skill["SkillTotemId"] - 1]
+            r["skill_totem_life_multiplier"] = self._skill_totem_life_multipliers[active_skill["SkillTotemId"]]
         if active_skill["MinionActiveSkillTypes"]:
             r["minion_types"] = self._select_active_skill_types(active_skill["MinionActiveSkillTypes"])
         return r

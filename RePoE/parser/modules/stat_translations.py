@@ -1,6 +1,5 @@
 from PyPoE.poe.file.translations import get_custom_translation_file
 from RePoE.parser.util import write_json, call_with_default_args, get_stat_translation_file_name
-from RePoE.parser.constants import STAT_DESCRIPTION_NAMING_EXCEPTIONS
 from RePoE.parser import Parser_Module
 
 
