@@ -74,6 +74,7 @@ The following data is currently available:
 - `cluster_jewels.json`: Describes how cluster jewels can be generated and how they influence the passive tree. 
 - `cluster_jewel_notables.json`: Lists the notable and keystone passive skills that can appear on cluster jewels.
 - `cost_types.json`: Defines the resource cost types used in `gems.json`.
+- `active_skill_types.json` List the active skill types used in `gems.json`.
   
 
 ## Credits

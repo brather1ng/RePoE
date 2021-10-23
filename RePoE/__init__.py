@@ -17,6 +17,7 @@ def load_json(json_file_path, base_path=__DATA_PATH__):
             print(f"Warning: {json_file_path} failed to decode json \n Recommended to execute run_parser.py to fix")
 
 
+active_skill_types = load_json("active_skill_types.json")
 base_items = load_json("base_items.json")
 characters = load_json("characters.json")
 crafting_bench_options = load_json("crafting_bench_options.json")
