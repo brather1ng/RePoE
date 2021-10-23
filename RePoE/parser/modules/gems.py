@@ -1,9 +1,8 @@
 import re
 
-from PyPoE.cli.exporter.wiki.parsers.skill import SkillParserShared
 from PyPoE.poe.file.stat_filters import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
-from RePoE.parser.constants import ActiveSkillType, CooldownBypassType
+from RePoE.parser.constants import CooldownBypassType
 from RePoE.parser.util import (
     call_with_default_args,
     write_json,
@@ -181,8 +180,8 @@ class GemConverter:
         }
 
     @staticmethod
-    def _select_active_skill_types(type_ids):
-        return [ActiveSkillType(t).name for t in type_ids]
+    def _select_active_skill_types(type_rows):
+        return [row["Id"] for row in type_rows]
 
     def _convert_gepl(self, gepl, multipliers, is_support):
         r = {
@@ -261,7 +260,8 @@ class GemConverter:
             r["life_percent"] = gepl["LifeReservationPercent"] / 100
         return r
 
-    def _convert_base_item_specific(self, base_item_type, obj):
+    @staticmethod
+    def _convert_base_item_specific(base_item_type, obj):
         if base_item_type is None:
             obj["base_item"] = None
             return
@@ -271,12 +271,6 @@ class GemConverter:
             "display_name": base_item_type["Name"],
             "release_state": get_release_state(base_item_type["Id"]).name,
         }
-
-        key = SkillParserShared._SKILL_ID_TO_PROJECTILE_MAP.get(base_item_type["Name"])
-        if key:
-            obj["projectile_speed"] = self.relational_reader["Projectiles.dat"].index["Id"][
-                "Metadata/Projectiles/" + key
-            ]["ProjectileSpeed"]
 
     def convert(self, base_item_type, granted_effect, secondary_granted_effect, gem_tags, multipliers):
         is_support = granted_effect["IsSupport"]

@@ -58,7 +58,7 @@ recursion.
 - `vaal`: Set for vaal skills. Contains the field `souls` and `stored_uses`.
 - `stats`: Array of the stats this skill provides. Each array element is an object
   containing the stat id (`id`) and value (`value`) of the stat at the given level.
-- `quality_stats`: Array of the quality stats this skill provdes. Each array element 
+- `quality_stats`: Array of the quality stats this skill provides. Each array element 
   is an object containing the stat id (`id`) and value (`value`) of the stat. The
   value is the value with 1000 quality, divide by 1000 to get the value per
   point of quality.
@@ -85,8 +85,6 @@ described below.
   * `release_state`: In what state that item is currently in-game. See
     [`RePoE.parser.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L173)
     for possible values and their meaning. 
-- `projectile_speed`: Projectile speed of the primary projectile of the skill
-  in internal units (per second?).
 - `tags`: Array of the gem tags of the item. See `gem_tags.json` for possible
   values and translations to their in-game display text.
 
@@ -101,7 +99,7 @@ The `active_skill` field is only set for active skills. It has the following fie
 - `display_name`: Name of the skill as shown on in-game tooltips for the item and
   skill. Also used as tab name on the in-game character panel.
 - `description`: Description of the skill as shown on the tooltip of its item.
-- `is_manually_casted`: Whether the skill is manually casted. True for all skills
+- `is_manually_casted`: Whether the skill is manually cast. True for all skills
   except triggered skills.
 - `is_skill_totem`: True iff the skill is a totem.
 - `skill_totem_life_multiplier`: Life multiplier of totems this skill summons.
@@ -111,11 +109,8 @@ The `active_skill` field is only set for active skills. It has the following fie
    applied to this skill. Generally (only?) used for enchantments to map skill
    specific enchant stats to the generic stat of the skill that is affected. Keys
    are the stat that is converted and values the stat the keys are converted to.
-- `types`: Internal types/tags this skill has. See
-  [`RePoE.parser.constants.ActiveSkillType`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L5)
-  for possible values and their meaning. These are reverse-engineered so they
-  might be incorrect. One purpose is to determine the support gems that can
-  support this skill.
+- `types`: Internal types/tags this skill has. See `active_skill_types.json` for the possible values
+  One purpose is to determine the support gems that can support this skill.
 - `minion_types`: Like `types` but for the skills used by minions summoned by this skill.
   If not specified, this skill does not summon minions. These are also used for determining
   whether a support gem can support this skill.
@@ -132,6 +127,6 @@ The `support_gem` field is only set for support gems. It has the following field
   not those provided by mods on items.
 - `allowed_types`: Active skills must have at least one of these types to be supportable
   by this support gem.
-- `excluded_types`: Active skills must have not have any of these types to be supportable
+- `excluded_types`: Active skills must not have any of these types to be supportable
   by this support gem.
 - `added_types`: The active skill types this support gems adds to supported active skills.

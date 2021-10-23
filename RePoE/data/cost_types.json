@@ -1,23 +1,47 @@
 {
   "ES": {
     "format_text": "{0} Energy Shield",
-    "stat": null
+    "stat": "base_es_cost"
+  },
+  "ESPerMinute": {
+    "format_text": "{0) Energy Shield per second",
+    "stat": "base_es_cost_per_minute"
+  },
+  "ESPercentPerMinute": {
+    "format_text": "{0}% Energy Shield per second",
+    "stat": "base_es_cost_%_per_minute"
   },
   "Life": {
     "format_text": "{0} Life",
     "stat": "base_life_cost"
   },
+  "LifePerMinute": {
+    "format_text": "{0} Life per second",
+    "stat": "base_life_cost_per_minute"
+  },
   "LifePercent": {
     "format_text": "{0}% Life",
     "stat": "base_life_cost_%"
+  },
+  "LifePercentPerMinute": {
+    "format_text": "{0}% Life per second",
+    "stat": "base_life_cost_%_per_minute"
   },
   "Mana": {
     "format_text": "{0} Mana",
     "stat": "base_mana_cost"
   },
+  "ManaPerMinute": {
+    "format_text": "{0} Mana per second",
+    "stat": "base_mana_cost_per_minute"
+  },
   "ManaPercent": {
     "format_text": "{0}% Mana",
     "stat": "base_mana_cost_%"
+  },
+  "ManaPercentPerMinute": {
+    "format_text": "{0}% Mana per second",
+    "stat": "base_mana_cost_%_per_minute"
   },
   "Rage": {
     "format_text": "{0} Rage",

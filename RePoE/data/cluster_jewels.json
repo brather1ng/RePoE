@@ -239,7 +239,7 @@
         "stats": {
           "non_curse_aura_effect_+%": 3
         },
-        "tag": "affliction_aura_effect"
+        "tag": "old_do_not_use_affliction_aura_effect"
       },
       {
         "id": "affliction_curse_effect",
@@ -247,7 +247,7 @@
         "stats": {
           "curse_effect_+%": 3
         },
-        "tag": "affliction_curse_effect"
+        "tag": "old_do_not_use_affliction_curse_effect"
       },
       {
         "id": "affliction_damage_while_you_have_a_herald",
@@ -422,7 +422,7 @@
         "id": "affliction_chance_to_block_attack_damage",
         "name": "Chance to Block Attack Damage",
         "stats": {
-          "monster_base_block_%": 1
+          "additional_block_%": 1
         },
         "tag": "affliction_chance_to_block"
       },
@@ -468,9 +468,9 @@
       },
       {
         "id": "affliction_chance_to_dodge_attacks",
-        "name": "Chance to Dodge Attacks",
+        "name": "Chance to Suppress Spell Damage",
         "stats": {
-          "base_chance_to_dodge_%": 1
+          "base_spell_suppression_chance_%": 2
         },
         "tag": "affliction_chance_to_dodge_attacks"
       },
@@ -497,6 +497,22 @@
           "base_intelligence": 10
         },
         "tag": "affliction_intelligence"
+      },
+      {
+        "id": "affliction_reservation_efficiency_small",
+        "name": "Reservation Efficiency",
+        "stats": {
+          "base_mana_reservation_efficiency_+%": 6
+        },
+        "tag": "affliction_reservation_efficiency_small"
+      },
+      {
+        "id": "affliction_curse_effect_small",
+        "name": "Curse Effect",
+        "stats": {
+          "curse_effect_+%": 3
+        },
+        "tag": "affliction_curse_effect_small"
       }
     ],
     "size": "Small",

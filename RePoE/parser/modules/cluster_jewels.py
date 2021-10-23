@@ -14,7 +14,7 @@ class cluster_jewels(Parser_Module):
                 {
                     "id": row["PassiveSkillsKey"]["Id"],
                     "name": row["PassiveSkillsKey"]["Name"],
-                    "stats": {stat["Id"]: value for stat, value in row["PassiveSkillsKey"]["Stats"]},
+                    "stats": {stat["Id"]: value for stat, value in row["PassiveSkillsKey"]["StatsZip"]},
                     "tag": row["TagsKey"]["Id"],
                 }
             )

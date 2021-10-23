@@ -33,10 +33,15 @@ def _convert_requirements(attribute_requirements, drop_level):
 def _convert_armour_properties(armour_row, properties):
     if armour_row is None:
         return
-    _add_if_greater_zero(armour_row["Armour"], "armour", properties)
-    _add_if_greater_zero(armour_row["Evasion"], "evasion", properties)
-    _add_if_greater_zero(armour_row["EnergyShield"], "energy_shield", properties)
+    _add_min_max(armour_row, "Armour", "armour", properties)
+    _add_min_max(armour_row, "Evasion", "evasion", properties)
+    _add_min_max(armour_row, "EnergyShield", "energy_shield", properties)
     _add_if_not_zero(armour_row["IncreasedMovementSpeed"], "movement_speed", properties)
+
+
+def _add_min_max(row, row_key_prefix, key, obj):
+    if row[row_key_prefix + "Min"] > 0:
+        obj[key] = {"min": row[row_key_prefix + "Min"], "max": row[row_key_prefix + "Max"]}
 
 
 def _convert_shield_properties(shield_row, properties):
@@ -135,6 +140,7 @@ ITEM_CLASS_WHITELIST = {
     "MapFragment",
     "AtlasRegionUpgradeItem",
     "ExpeditionLogbook",
+    "IncubatorStackable",
 }
 
 ITEM_CLASS_BLACKLIST = {
