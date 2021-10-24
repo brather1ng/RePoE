@@ -269,6 +269,27 @@
       {
         "condition": [
           {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monsters have {0}% chance to Avoid All Damage from Hits"
+      }
+    ],
+    "ids": [
+      "avoid_damage_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
             "max": 99,
             "min": 1
           }
@@ -443,48 +464,6 @@
     ],
     "ids": [
       "base_bleed_duration_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters have {0}% chance to Dodge Attack Hits"
-      }
-    ],
-    "ids": [
-      "base_chance_to_dodge_%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters have {0}% chance to Dodge Spell Hits"
-      }
-    ],
-    "ids": [
-      "base_chance_to_dodge_spells_%"
     ]
   },
   {

@@ -2736,29 +2736,6 @@
     "English": [
       {
         "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Dodges Attacks while Phasing"
-      }
-    ],
-    "ids": [
-      "chance_to_dodge_attacks_%_while_phasing",
-      "chance_to_dodge_spells_%_while_phased"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
           {
             "min": 1
           }
@@ -2852,65 +2829,6 @@
     "ids": [
       "monster_base_block_%",
       "base_spell_block_%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {
-            "max": 0,
-            "min": 0
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Dodges Attacks"
-      },
-      {
-        "condition": [
-          {
-            "max": 0,
-            "min": 0
-          },
-          {}
-        ],
-        "format": [
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Dodges Spells"
-      },
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Dodges Attacks and Spells"
-      }
-    ],
-    "ids": [
-      "base_chance_to_dodge_%",
-      "base_chance_to_dodge_spells_%"
     ]
   },
   {
