@@ -216,13 +216,13 @@ class base_items(Parser_Module):
                 "implicits": [mod["Id"] for mod in item["Implicit_ModsKeys"]],
                 "tags": [tag["Id"] for tag in item["TagsKeys"]] + inherited_tags,
                 "visual_identity": {
-                    "id": item["ItemVisualIdentityKey"]["Id"],
-                    "dds_file": item["ItemVisualIdentityKey"]["DDSFile"],
+                    "id": item["ItemVisualIdentity"]["Id"],
+                    "dds_file": item["ItemVisualIdentity"]["DDSFile"],
                 },
                 "requirements": _convert_requirements(attribute_requirements[item_id], item["DropLevel"]),
                 "properties": properties,
                 "release_state": get_release_state(item_id).name,
-                "domain": item["ModDomainsKey"].name.lower(),
+                "domain": item["ModDomain"].name.lower(),
             }
             _convert_flask_buff(flask_types[item_id], root[item_id])
 

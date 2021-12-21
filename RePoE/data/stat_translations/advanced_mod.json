@@ -17726,6 +17726,1472 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Lose Blood from Blood Crucible {0}% faster"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Lose Blood from Blood Crucible {0}% slower"
+      }
+    ],
+    "ids": [
+      "map_hellscape_blood_consumed_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Gain Exposed to Corruption stacks twice as frequently\nLose 1 stack of Exposed to Corruption every 5 seconds"
+      }
+    ],
+    "ids": [
+      "map_hellscape_gimmick_double_debuff_gain_lose_debuff_over_time"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "per_minute_to_per_second"
+          ]
+        ],
+        "string": "Take Physical Damage equal to {0}% of Life plus {0}% of Energy Shield per Second per\n1% Blood in the Blood Crucible while you are able to Shift into Nightmare"
+      }
+    ],
+    "ids": [
+      "map_hellscape_gimmick_%_maximum_life_and_es_taken_as_physical_damage_per_minute_per_%_hellscape_charge_while_hellscape_can_be_activated"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Often Shift into Nightmare on Killing a Rare or Unique Enemy"
+      }
+    ],
+    "ids": [
+      "map_hellscape_gimmick_shift_on_killing_rare_unique_kills_drain_resource"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Only shift into Nightmare on reaching maximum Blood\nLose Blood from Blood Crucible 90% slower\nLose 0.4% of Blood on Killing a Scourge Monster\nLose all Blood when you shift out of Nightmare"
+      }
+    ],
+    "ids": [
+      "map_hellscape_gimmick_shift_on_reaching_full_resource_kills_drain_resource"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Only Shift into and out of Nightmare randomly"
+      }
+    ],
+    "ids": [
+      "map_hellscape_gimmick_shift_randomly"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Take {0} Fire Damage when you Shift into or out of Nightmare"
+      }
+    ],
+    "ids": [
+      "map_hellscape_fire_damage_taken_when_switching"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Take {0} Lightning Damage when you Shift into or out of Nightmare"
+      }
+    ],
+    "ids": [
+      "map_hellscape_lightning_damage_taken_when_switching"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monsters in Nightmare deal {0}% more Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Monsters in Nightmare deal {0}% less Damage"
+      }
+    ],
+    "ids": [
+      "map_hellscape_monster_damage_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monsters in Nightmare take {0}% more Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Monsters in Nightmare take {0}% less Damage"
+      }
+    ],
+    "ids": [
+      "map_hellscape_monster_damage_taken_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monsters in Nightmare have {0}% more Maximum Life"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Monsters in Nightmare have {0}% less Maximum Life"
+      }
+    ],
+    "ids": [
+      "map_hellscape_monster_life_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "per_minute_to_per_second"
+          ]
+        ],
+        "string": "Monsters in Nightmare Regenerate {0}% of Life per second"
+      }
+    ],
+    "ids": [
+      "map_hellscape_monster_life_regeneration_rate_per_minute_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Take {0} Physical Damage when you Shift into or out of Nightmare"
+      }
+    ],
+    "ids": [
+      "map_hellscape_physical_damage_taken_when_switching"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Players have {0}% additional Physical Damage Reduction while in Nightmare"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Players have {0}% to Physical Damage Reduction while in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_player_additional_physical_damage_reduction_%_in_hellscape"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Players have {0}% chance to Block Attack Damage while in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_player_block_chance_%_in_hellscape"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Players have {0}% chance to Evade Attack Hits while in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_player_chance_to_evade_attacks_%_in_hellscape"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Players lose {0} Energy Shield per second while in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_player_es_loss_per_second_in_hellscape"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Players lose {0} Life per second while in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_player_life_loss_per_second_in_hellscape"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Players have {0}% increased Movement Speed while in Nightmare"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Players have {0}% reduced Movement Speed while in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_player_movement_speed_+%_final_in_hellscape"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "+#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Players have {0}% chance to Suppress Spell Damage while in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_player_spell_suppression_chance_%_in_hellscape"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Area contains an additional Scourge Boss"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Area contains {0} additional Scourge Bosses"
+      }
+    ],
+    "ids": [
+      "map_hellscape_additional_boss"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Quantity of Items found in Nightmare"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Quantity of Items found in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_hellscape_item_drop_quantity_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Rarity of Items found in Nightmare"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Rarity of Items found in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_hellscape_item_drop_rarity_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Monsters in Nightmare grant {0}% more Experience"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Monsters in Nightmare grant {0}% less Experience"
+      }
+    ],
+    "ids": [
+      "map_hellscape_monster_slain_experience_+%_final"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "{0}% increased Pack size in Nightmare"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "{0}% reduced Pack size in Nightmare"
+      }
+    ],
+    "ids": [
+      "map_hellscape_pack_size_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Abyssal Jewel"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Abyssal Jewels"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_abyss_jewel"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Basic Currency Item"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Basic Currency Items"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_basic_currency_item"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Blight Oil"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Blight Oils"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_blight_oil"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional stack of Breach Splinters"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional stacks of Breach Splinters"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_breach_splinters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional stack of Simulacrum Splinters"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional stacks of Simulacrum Splinters"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_delirium_splinters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Fossil"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Fossils"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_delve_fossil"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Enchanted Item"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Enchanted Items"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_enchanted_item"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Essence"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Essences"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_essence"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional stack of Expedition Currency"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional stacks of Expedition Currency"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_expedition_currency"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Fractured Item"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Fractured Items"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_fractured_item"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Gem"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Gems"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_gem"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Incubator"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Incubators"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_incubator"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Influenced Item"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Influenced Items"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_influence_item"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional stack of Legion Splinters"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional stacks of Legion Splinters"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_legion_splinters"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Map"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Maps"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_map_item"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Catalyst"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Catalysts"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_metamorph_catalyst"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Scarab"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Scarabs"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_scarab"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Scourged Item"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Scourged Items"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_scourged_item"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Stacked Deck"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Stacked Decks"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_stacked_decks"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Tainted Currency Item"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Tainted Currency Items"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_tainted_currency"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Unique Item"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop {0} additional Unique Items"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_additional_unique_item"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop items {0} level higher"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Rare Scourge Monsters drop items {0} levels higher"
+      }
+    ],
+    "ids": [
+      "map_hellscape_rare_monster_drop_items_X_levels_higher"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -104155,496 +105621,6 @@
         "index_handlers": [
           []
         ],
-        "string": "Lose Blood from Blood Crucible {0}% faster"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Lose Blood from Blood Crucible {0}% slower"
-      }
-    ],
-    "ids": [
-      "map_hellscape_blood_consumed_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Gain Exposed to Corruption stacks twice as frequently\nLose 1 stack of Exposed to Corruption every 5 seconds"
-      }
-    ],
-    "ids": [
-      "map_hellscape_gimmick_double_debuff_gain_lose_debuff_over_time"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "per_minute_to_per_second"
-          ]
-        ],
-        "string": "Take Physical Damage equal to {0}% of Life plus {0}% of Energy Shield per Second per\n1% Blood in the Blood Crucible while you are able to Shift into Nightmare"
-      }
-    ],
-    "ids": [
-      "map_hellscape_gimmick_%_maximum_life_and_es_taken_as_physical_damage_per_minute_per_%_hellscape_charge_while_hellscape_can_be_activated"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Only Shift into Nightmare on Killing a Rare or Unique Enemy"
-      }
-    ],
-    "ids": [
-      "map_hellscape_gimmick_shift_on_killing_rare_unique_kills_drain_resource"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Only shift into Nightmare on reaching maximum Blood\nBlood is not lost over time\nLose 0.5% of Blood on Killing a Scourge Monster"
-      }
-    ],
-    "ids": [
-      "map_hellscape_gimmick_shift_on_reaching_full_resource_kills_drain_resource"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Only Shift into and out of Nightmare randomly"
-      }
-    ],
-    "ids": [
-      "map_hellscape_gimmick_shift_randomly"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Take {0} Fire Damage when you Shift into or out of Nightmare"
-      }
-    ],
-    "ids": [
-      "map_hellscape_fire_damage_taken_when_switching"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Take {0} Lightning Damage when you Shift into or out of Nightmare"
-      }
-    ],
-    "ids": [
-      "map_hellscape_lightning_damage_taken_when_switching"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters in Nightmare deal {0}% more Damage"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Monsters in Nightmare deal {0}% less Damage"
-      }
-    ],
-    "ids": [
-      "map_hellscape_monster_damage_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters in Nightmare take {0}% more Damage"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Monsters in Nightmare take {0}% less Damage"
-      }
-    ],
-    "ids": [
-      "map_hellscape_monster_damage_taken_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters in Nightmare have {0}% more Maximum Life"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Monsters in Nightmare have {0}% less Maximum Life"
-      }
-    ],
-    "ids": [
-      "map_hellscape_monster_life_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "per_minute_to_per_second"
-          ]
-        ],
-        "string": "Monsters in Nightmare Regenerate {0}% of Life per second"
-      }
-    ],
-    "ids": [
-      "map_hellscape_monster_life_regeneration_rate_per_minute_%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Take {0} Physical Damage when you Shift into or out of Nightmare"
-      }
-    ],
-    "ids": [
-      "map_hellscape_physical_damage_taken_when_switching"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Players have {0}% additional Physical Damage Reduction while in Nightmare"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "+#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Players have {0}% to Physical Damage Reduction while in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_player_additional_physical_damage_reduction_%_in_hellscape"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "+#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Players have {0}% chance to Block Attack Damage while in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_player_block_chance_%_in_hellscape"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "+#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Players have {0}% chance to Evade Attack Hits while in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_player_chance_to_evade_attacks_%_in_hellscape"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Players lose {0} Energy Shield per second while in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_player_es_loss_per_second_in_hellscape"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Players lose {0} Life per second while in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_player_life_loss_per_second_in_hellscape"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Players have {0}% increased Movement Speed while in Nightmare"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Players have {0}% reduced Movement Speed while in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_player_movement_speed_+%_final_in_hellscape"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "+#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Players have {0}% chance to Suppress Spell Damage while in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_player_spell_suppression_chance_%_in_hellscape"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "{0}% increased Burning Damage if you've Ignited an Enemy Recently"
       },
       {
@@ -107888,982 +108864,6 @@
     ],
     "ids": [
       "area_of_effect_+%_while_you_do_not_have_convergence"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains an additional Scourge Boss"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Area contains {0} additional Scourge Bosses"
-      }
-    ],
-    "ids": [
-      "map_hellscape_additional_boss"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% increased Quantity of Items found in Nightmare"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "{0}% reduced Quantity of Items found in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_hellscape_item_drop_quantity_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% increased Rarity of Items found in Nightmare"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "{0}% reduced Rarity of Items found in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_hellscape_item_drop_rarity_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters in Nightmare grant {0}% more Experience"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "Monsters in Nightmare grant {0}% less Experience"
-      }
-    ],
-    "ids": [
-      "map_hellscape_monster_slain_experience_+%_final"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "{0}% increased Pack size in Nightmare"
-      },
-      {
-        "condition": [
-          {
-            "max": -1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          [
-            "negate"
-          ]
-        ],
-        "string": "{0}% reduced Pack size in Nightmare"
-      }
-    ],
-    "ids": [
-      "map_hellscape_pack_size_+%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Abyssal Jewel"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Abyssal Jewels"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_abyss_jewel"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Basic Currency Item"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Basic Currency Items"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_basic_currency_item"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Blight Oil"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Blight Oils"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_blight_oil"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional stack of Breach Splinters"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional stacks of Breach Splinters"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_breach_splinters"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional stack of Simulacrum Splinters"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional stacks of Simulacrum Splinters"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_delirium_splinters"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Fossil"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Fossils"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_delve_fossil"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Enchanted Item"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Enchanted Items"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_enchanted_item"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Essence"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Essences"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_essence"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional stack of Expedition Currency"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional stacks of Expedition Currency"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_expedition_currency"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Fractured Item"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Fractured Items"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_fractured_item"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Gem"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Gems"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_gem"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Incubator"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Incubators"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_incubator"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Influenced Item"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Influenced Items"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_influence_item"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional stack of Legion Splinters"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional stacks of Legion Splinters"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_legion_splinters"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Map"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Maps"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_map_item"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Catalyst"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Catalysts"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_metamorph_catalyst"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Scarab"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Scarabs"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_scarab"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Scourged Item"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Scourged Items"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_scourged_item"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Stacked Deck"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Stacked Decks"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_stacked_decks"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Tainted Currency Item"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Tainted Currency Items"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_tainted_currency"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Unique Item"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop {0} additional Unique Items"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_additional_unique_item"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop items {0} level higher"
-      },
-      {
-        "condition": [
-          {
-            "min": 2
-          }
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Scourge Monsters drop items {0} levels higher"
-      }
-    ],
-    "ids": [
-      "map_hellscape_rare_monster_drop_items_X_levels_higher"
     ]
   },
   {
@@ -124617,10 +124617,7 @@
     "English": [
       {
         "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
+          {}
         ],
         "format": [
           "ignore"
@@ -124628,19 +124625,7 @@
         "index_handlers": [
           []
         ],
-        "string": "Rare Breach Monsters drop an additional Currency Item"
-      },
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "#"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Rare Breach Monsters drop {0} additional Currency Items"
+        "string": "Rare Breach Monsters drop additional Currency Items"
       }
     ],
     "ids": [
@@ -171580,7 +171565,9 @@
     "English": [
       {
         "condition": [
-          {}
+          {
+            "min": 1
+          }
         ],
         "format": [
           "#"
@@ -171589,6 +171576,22 @@
           []
         ],
         "string": "Nearby Enemies take {0}% increased Physical Damage"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Nearby Enemies take {0}% reduced Physical Damage"
       }
     ],
     "ids": [
@@ -182462,6 +182465,43 @@
     "English": [
       {
         "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Unique Monsters have {0}% increased Maximum Life"
+      },
+      {
+        "condition": [
+          {
+            "max": -1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "negate"
+          ]
+        ],
+        "string": "Unique Monsters have {0}% reduced Maximum Life"
+      }
+    ],
+    "ids": [
+      "map_gauntlet_unique_monster_life_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
           {}
         ],
         "format": [
@@ -189682,6 +189722,42 @@
     ],
     "ids": [
       "map_spawn_x_additional_heist_smugglers_caches"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "max": 1,
+            "min": 1
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Area contains {0} additional Map Boss"
+      },
+      {
+        "condition": [
+          {
+            "min": 2
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Area contains {0} additional Map Bosses"
+      }
+    ],
+    "ids": [
+      "map_spawn_x_random_map_bosses"
     ]
   },
   {

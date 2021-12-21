@@ -1,8 +1,8 @@
 import re
 
+from PyPoE.poe.constants import CooldownBypassTypes
 from PyPoE.poe.file.stat_filters import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
-from RePoE.parser.constants import CooldownBypassType
 from RePoE.parser.util import (
     call_with_default_args,
     write_json,
@@ -138,7 +138,6 @@ class GemConverter:
             elif self.max_levels[base_item] < level:
                 self.max_levels[base_item] = level
 
-        self.max_totem_id = relational_reader["SkillTotems.dat"].table_rows
         self._skill_totem_life_multipliers = {}
         for row in self.relational_reader["SkillTotemVariations.dat"]:
             self._skill_totem_life_multipliers[row["SkillTotemsKey"]] = (
@@ -152,7 +151,7 @@ class GemConverter:
         stat_conversions = {}
         for in_stat, out_stat in zip(active_skill["Input_StatKeys"], active_skill["Output_StatKeys"]):
             stat_conversions[in_stat["Id"]] = out_stat["Id"]
-        is_skill_totem = active_skill["SkillTotemId"] <= self.max_totem_id
+        is_skill_totem = active_skill["SkillTotemId"] is not None
         r = {
             "id": active_skill["Id"],
             "display_name": active_skill["DisplayedName"],
@@ -189,14 +188,13 @@ class GemConverter:
         }
         if gepl["Cooldown"] > 0:
             r["cooldown"] = gepl["Cooldown"]
-            cooldown_bypass_type = CooldownBypassType(gepl["CooldownBypassType"])
-            if cooldown_bypass_type is not CooldownBypassType.none:
-                r["cooldown_bypass_type"] = cooldown_bypass_type.name
+            if gepl["CooldownBypassType"] is not CooldownBypassTypes.NONE:
+                r["cooldown_bypass_type"] = gepl["CooldownBypassType"].name.lower()
         if gepl["StoredUses"] > 0:
             r["stored_uses"] = gepl["StoredUses"]
 
         if is_support:
-            r["cost_multiplier"] = gepl["ManaMultiplier"]
+            r["cost_multiplier"] = gepl["CostMultiplier"]
         else:
             r["costs"] = {}
             for cost_type, cost_amount in gepl["Costs"]:
@@ -284,7 +282,7 @@ class GemConverter:
             obj["support_gem"] = self._convert_support_gem_specific(granted_effect)
         else:
             obj["cast_time"] = granted_effect["CastTime"]
-            obj["active_skill"] = self._convert_active_skill(granted_effect["ActiveSkillsKey"])
+            obj["active_skill"] = self._convert_active_skill(granted_effect["ActiveSkill"])
 
         game_file_name = self._get_translation_file_name(obj.get("active_skill"))
         obj["stat_translation_file"] = get_stat_translation_file_name(game_file_name)

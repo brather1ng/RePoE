@@ -1,16 +1,4 @@
-from enum import IntEnum, unique, Enum
-
-
-@unique
-class CooldownBypassType(IntEnum):
-    # Cooldown can be bypassed by expending an endurance charge
-    expend_endurance_charge = (1,)
-    # Cooldown can be bypassed by expending a frenzy charge
-    expend_frenzy_charge = (2,)
-    # Cooldown can be bypassed by expending a power charge
-    expend_power_charge = (3,)
-    # Cooldown can not be bypassed
-    none = 4
+from enum import unique, Enum
 
 
 @unique

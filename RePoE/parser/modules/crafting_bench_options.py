@@ -1,5 +1,6 @@
 import itertools
 
+from PyPoE.poe.constants import CraftingBenchCustomActions
 from RePoE.parser import Parser_Module
 from RePoE.parser.util import write_json, call_with_default_args
 
@@ -18,9 +19,9 @@ class crafting_bench_options(Parser_Module):
             actions["color_sockets"] = row["SocketColours"]
         if row["Sockets"]:
             actions["change_socket_count"] = row["Sockets"]
-        if row["CraftingBenchCustomAction"] == 0:
+        if row["CraftingBenchCustomAction"] == CraftingBenchCustomActions.REMOVE_CRAFTED_MODS:
             actions["remove_crafted_mods"] = True
-        if row["CraftingBenchCustomAction"] == 1:
+        if row["CraftingBenchCustomAction"] == CraftingBenchCustomActions.REMOVE_ENCHANT_MODS:
             actions["remove_enchantments"] = True
         if len(actions) == 0:
             raise NotImplementedError(f"Crafting option {row['Name']} has an unknown action")

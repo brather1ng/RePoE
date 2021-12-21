@@ -4416,7 +4416,9 @@
           "ignore"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred"
+          ]
         ],
         "string": "<enchanted>{0}% increased Quantity of Items Dropped by Monsters}}"
       },
@@ -4431,7 +4433,8 @@
         ],
         "index_handlers": [
           [
-            "negate"
+            "negate",
+            "divide_by_one_hundred"
           ]
         ],
         "string": "<enchanted>{0}% reduced Quantity of Items Dropped by Monsters}}"
@@ -4451,7 +4454,9 @@
           "ignore"
         ],
         "index_handlers": [
-          []
+          [
+            "divide_by_one_hundred"
+          ]
         ],
         "string": "<enchanted>{0}% increased Rarity of Items Dropped by Monsters}}"
       },
@@ -4466,7 +4471,8 @@
         ],
         "index_handlers": [
           [
-            "negate"
+            "negate",
+            "divide_by_one_hundred"
           ]
         ],
         "string": "<enchanted>{0}% reduced Rarity of Items Dropped by Monsters}}"
