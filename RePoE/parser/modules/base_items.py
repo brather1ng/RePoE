@@ -141,6 +141,7 @@ ITEM_CLASS_WHITELIST = {
     "AtlasRegionUpgradeItem",
     "ExpeditionLogbook",
     "IncubatorStackable",
+    "AtlasUpgradeItem",
 }
 
 ITEM_CLASS_BLACKLIST = {
@@ -171,6 +172,7 @@ ITEM_CLASS_BLACKLIST = {
     "HeistEquipmentReward",
     "HeistObjective",
     "HiddenItem",
+    "ArchnemesisMod",
 }
 
 

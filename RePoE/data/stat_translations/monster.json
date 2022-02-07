@@ -141,6 +141,25 @@
         "index_handlers": [
           []
         ],
+        "string": "Takes Reduced Physical Damage"
+      }
+    ],
+    "ids": [
+      "base_additional_physical_damage_reduction_%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
         "string": "Armoured"
       }
     ],
@@ -167,6 +186,27 @@
     ],
     "ids": [
       "damage_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1
+          }
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Extra Spell Damage"
+      }
+    ],
+    "ids": [
+      "spell_damage_+%"
     ]
   },
   {
@@ -205,6 +245,25 @@
     ],
     "ids": [
       "attack_speed_+%"
+    ]
+  },
+  {
+    "English": [
+      {
+        "condition": [
+          {}
+        ],
+        "format": [
+          "ignore"
+        ],
+        "index_handlers": [
+          []
+        ],
+        "string": "Faster Casting"
+      }
+    ],
+    "ids": [
+      "base_cast_speed_+%"
     ]
   },
   {
