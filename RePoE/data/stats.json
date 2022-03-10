@@ -3196,6 +3196,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "assassin_poison_duration_+%_up_to_100%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "assassinate_passive_critical_strike_chance_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -9039,6 +9044,11 @@
     "is_local": false
   },
   "blighted_map_chest_reward_lucky_count": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "blighted_map_mod_effect_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -16555,11 +16565,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "currently_affected_by_temporal_chains": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "currently_has_no_energy_shield": {
     "alias": {},
     "is_aliased": false,
@@ -20223,6 +20228,11 @@
     "is_local": false
   },
   "display_map_labyrinth_enchant_belts": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "display_map_labyrinth_trial_gives_offering": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -24512,6 +24522,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "firewall_attached_projectile_effect_mtx": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "firewall_buffed_projectile_burn_duration": {
     "alias": {},
     "is_aliased": false,
@@ -27597,7 +27612,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "grant_rampage_kill_to_parent_on_hitting_unique_enemy_%": {
+  "grant_rampage_kill_to_parent_on_hitting_rare_or_unique_enemy_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -28128,6 +28143,11 @@
     "is_local": false
   },
   "has_tailwind": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "has_temporal_chains": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -30102,6 +30122,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "hidden_monster_force_mini_life_bar": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "hide_buff_visuals": {
     "alias": {},
     "is_aliased": false,
@@ -30373,6 +30398,31 @@
     "is_local": false
   },
   "holy_relic_trigger_on_parent_attack_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "horrible_ugly_life_leech_from_chaos_damage_perhundredthousand": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "horrible_ugly_life_leech_from_cold_damage_perhundredthousand": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "horrible_ugly_life_leech_from_fire_damage_perhundredthousand": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "horrible_ugly_life_leech_from_lightning_damage_perhundredthousand": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "horrible_ugly_life_leech_from_physical_damage_perhundredthousand": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -31403,11 +31453,6 @@
     "is_local": false
   },
   "infest_on_hit_duration_ms": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "infinite_hunger_corrosion": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47766,11 +47811,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "map_floor_unlock_time_seconds_UNUSED": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "map_force_bestiary_encounter": {
     "alias": {},
     "is_aliased": false,
@@ -49352,6 +49392,11 @@
     "is_local": false
   },
   "map_level_+": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lock_reason": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -56018,7 +56063,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "minion_grants_rampage_kill_to_parent_on_hitting_unique_enemy_%": {
+  "minion_grants_rampage_kill_to_parent_on_hitting_rare_or_unique_enemy_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -58458,7 +58503,37 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_bottled_faith_visual_effect_on_flask_use_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_dying_sun_projectile_attached_visual_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_hands_high_templar_corruption_implicit_count": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_hands_high_templar_corruption_visual_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_headhunter_visual_effect_on_rare_kill_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_mjolner_visual_effect_on_kill_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_paradoxica_double_damage_visual_effect": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -60019,6 +60094,11 @@
     "is_local": false
   },
   "occultist_stacking_energy_shield_regeneration_rate_per_minute_%_on_kill_for_4_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "occultist_stacking_es_recovery_per_minute_%_up_to_600%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -63376,6 +63456,11 @@
     "is_local": false
   },
   "projectile_angle_variance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "projectile_attached_visual_effect_art_variation": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -70236,6 +70321,11 @@
     "is_local": false
   },
   "stormbind_skill_damage_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "stormfire_burning_damage_+%_per_shocked_enemy_up_to_120%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false

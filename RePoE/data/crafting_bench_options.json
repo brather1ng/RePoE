@@ -4492,7 +4492,8 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff"
+      "Warstaff",
+      "Bow"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4509,7 +4510,8 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff"
+      "Warstaff",
+      "Bow"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4526,7 +4528,8 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff"
+      "Warstaff",
+      "Bow"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4547,8 +4550,7 @@
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4569,8 +4571,7 @@
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4591,8 +4592,7 @@
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4638,7 +4638,8 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff"
+      "Warstaff",
+      "Bow"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4655,7 +4656,8 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff"
+      "Warstaff",
+      "Bow"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4672,7 +4674,8 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff"
+      "Warstaff",
+      "Bow"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4693,8 +4696,7 @@
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4715,8 +4717,7 @@
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4737,8 +4738,7 @@
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4784,7 +4784,8 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff"
+      "Warstaff",
+      "Bow"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4801,7 +4802,8 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff"
+      "Warstaff",
+      "Bow"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4818,7 +4820,8 @@
       "Two Hand Mace",
       "Two Hand Sword",
       "Staff",
-      "Warstaff"
+      "Warstaff",
+      "Bow"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4839,8 +4842,7 @@
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4861,8 +4863,7 @@
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -4883,8 +4884,7 @@
       "Claw",
       "Sceptre",
       "Thrusting One Hand Sword",
-      "Wand",
-      "Bow"
+      "Wand"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -12314,6 +12314,19 @@
     },
     "item_classes": [
       "Gloves"
+    ],
+    "master": "Sister Cassia"
+  },
+  {
+    "actions": {
+      "add_explicit_mod": "JunMaster2SkillsCostNoManaWhileFocused1"
+    },
+    "bench_tier": 0,
+    "cost": {
+      "Metadata/Items/Currency/CurrencyRerollRare": 3
+    },
+    "item_classes": [
+      "Amulet"
     ],
     "master": "Sister Cassia"
   },
