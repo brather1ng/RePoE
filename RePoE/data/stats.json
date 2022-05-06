@@ -3526,11 +3526,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "attack_and_cast_speed_on_attack_cooldown": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "attack_and_cast_speed_per_ghost_dance_stack_+%": {
     "alias": {},
     "is_aliased": false,
@@ -10593,37 +10588,12 @@
     "is_aliased": false,
     "is_local": false
   },
-  "cannot_gain_affliction_action_speed_debuff_when_hit": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "cannot_gain_affliction_damage_taken_debuff_when_hit": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "cannot_gain_affliction_flask_debuff_when_hit": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "cannot_gain_affliction_recovery_rate_debuff_when_hit": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "cannot_gain_bleeding": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "cannot_gain_charges": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "cannot_gain_convergence": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -10683,37 +10653,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "cannot_gain_rage_from_berserker": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "cannot_gain_rage_from_bloodscent": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "cannot_gain_rage_from_glove_implicit": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "cannot_gain_rage_from_kaoms_primacy": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "cannot_gain_rage_from_rage_support": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "cannot_gain_souls": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "cannot_gain_ultimatum_ruin": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -12769,6 +12709,16 @@
     "is_local": false
   },
   "chaos_weakness_mana_reservation_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chaotic_energy_shield_track_chaos_spells_cast_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "character_kill_count": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -20767,11 +20717,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "double_damage_on_spell_cast_cooldown": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "double_doom_effect": {
     "alias": {},
     "is_aliased": false,
@@ -21987,27 +21932,12 @@
     "is_aliased": false,
     "is_local": false
   },
-  "enemies_hitting_you_drop_burning_ground_cooldown": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "enemies_hitting_you_drop_chilled_ground_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
-  "enemies_hitting_you_drop_chilled_ground_cooldown": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "enemies_hitting_you_drop_shocked_ground_%": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "enemies_hitting_you_drop_shocked_ground_cooldown": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -24452,11 +24382,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "firestorm_dont_play_fancy_big_meteor": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "firestorm_drop_burning_ground_duration_ms": {
     "alias": {},
     "is_aliased": false,
@@ -24923,6 +24848,11 @@
     "is_local": false
   },
   "flask_effect_on_self_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "flask_effect_variation": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -41470,6 +41400,14 @@
     "is_aliased": false,
     "is_local": true
   },
+  "local_mtx_weapon_effect_soul_stun_effect": {
+    "alias": {
+      "when_in_main_hand": "main_hand_mtx_weapon_effect_soul_stun_effect",
+      "when_in_off_hand": "off_hand_mtx_weapon_effect_soul_stun_effect"
+    },
+    "is_aliased": true,
+    "is_local": true
+  },
   "local_no_attribute_requirements": {
     "alias": {},
     "is_aliased": false,
@@ -44342,6 +44280,11 @@
     "is_local": false
   },
   "main_hand_minimum_total_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "main_hand_mtx_weapon_effect_soul_stun_effect": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -58503,6 +58446,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_belt_blood_drones_during_flask_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_belt_identify_item_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_bottled_faith_visual_effect_on_flask_use_%_chance": {
     "alias": {},
     "is_aliased": false,
@@ -58528,12 +58481,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_hyrris_ire_alternate_arrow_visuals": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_mjolner_visual_effect_on_kill_%_chance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "mtx_paradoxica_double_damage_visual_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_ring_black_star_level_up_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_weapon_effect_soul_mortar_on_spell_crit": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -59564,6 +59532,11 @@
     "is_local": false
   },
   "number_of_champions_of_light_allowed": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "number_of_chaos_spells_cast_recently": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -60844,6 +60817,11 @@
     "is_local": false
   },
   "off_hand_minimum_total_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "off_hand_mtx_weapon_effect_soul_stun_effect": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -62961,6 +62939,11 @@
     "is_local": false
   },
   "player_non_unique_equipment_found_as_sell_price": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "player_num_main_inventory_slots_filled": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -74250,6 +74233,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "track_number_of_chaos_spells_cast_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "track_number_of_chests_opened_recently": {
     "alias": {},
     "is_aliased": false,
@@ -74306,6 +74294,11 @@
     "is_local": false
   },
   "track_player_has_item_replacement_modifiers": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "track_player_num_main_inventory_slots_filled": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -77477,6 +77470,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "virtual_lowest_elemental_resistance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "virtual_lowest_resonance": {
     "alias": {},
     "is_aliased": false,
@@ -78778,6 +78776,11 @@
     "is_local": false
   },
   "visual_hit_effect_elemental_is_holy": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "visual_hit_effect_fire_is_meteor_shower": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
