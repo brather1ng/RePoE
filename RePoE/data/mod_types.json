@@ -2730,9 +2730,19 @@
       "UniqueVeryHigh"
     ]
   },
+  "AllColdDamageCanIgnite": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
   "AllDamage": {
     "sell_price_types": [
       "UniqueMedium"
+    ]
+  },
+  "AllDamageCanChill": {
+    "sell_price_types": [
+      "UniqueHigh"
     ]
   },
   "AllDamageCanFreeze": {
@@ -2763,6 +2773,11 @@
       "UniqueLow"
     ]
   },
+  "AllDamageTakenCanChill": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
   "AllDefences": {
     "sell_price_types": [
       "UniqueMedium"
@@ -2770,6 +2785,16 @@
   },
   "AllElementalResistanceCorruptedItem": {
     "sell_price_types": []
+  },
+  "AllFireDamageCanShock": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "AllLightningDamageCanFreeze": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
   },
   "AllResistanceAt200Strength": {
     "sell_price_types": [
@@ -3024,7 +3049,9 @@
     ]
   },
   "ArcaneSurgeEffect": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueLow"
+    ]
   },
   "ArcaneSurgeEffectPerCasterAbyssJewel": {
     "sell_price_types": [
@@ -3562,7 +3589,9 @@
     ]
   },
   "ArrowDodging": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "ArrowPierceAppliesToProjectileDamage": {
     "sell_price_types": [
@@ -4194,7 +4223,9 @@
     "sell_price_types": []
   },
   "AvatarOfFire": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "AvianAspectBuffEffect": {
     "sell_price_types": [
@@ -6859,6 +6890,9 @@
       "UniqueHigh"
     ]
   },
+  "ChaosDamageDoesNotBypassEnergyShieldPercent": {
+    "sell_price_types": []
+  },
   "ChaosDamageForJewel": {
     "sell_price_types": [
       "Special"
@@ -7399,6 +7433,9 @@
       "UniqueMedium"
     ]
   },
+  "ChillHitsCauseShattering": {
+    "sell_price_types": []
+  },
   "ChillImmunityWhenChilled": {
     "sell_price_types": [
       "UniqueLow"
@@ -7612,13 +7649,10 @@
   "CleansingAltarDownsideMonsterBurningGroundOnDeath_t1": {
     "sell_price_types": []
   },
+  "CleansingAltarDownsideMonsterChaosDamage": {
+    "sell_price_types": []
+  },
   "CleansingAltarDownsideMonsterConsecratedGroundOnDeath": {
-    "sell_price_types": []
-  },
-  "CleansingAltarDownsideMonsterCurseOnHitDespair": {
-    "sell_price_types": []
-  },
-  "CleansingAltarDownsideMonsterCurseOnHitFlammability": {
     "sell_price_types": []
   },
   "CleansingAltarDownsideMonsterCurseOnHitVulnerability": {
@@ -7628,6 +7662,9 @@
     "sell_price_types": []
   },
   "CleansingAltarDownsideMonsterFireAndChaosResist": {
+    "sell_price_types": []
+  },
+  "CleansingAltarDownsideMonsterFireDamage": {
     "sell_price_types": []
   },
   "CleansingAltarDownsideMonsterFlaskDegenOnHit": {
@@ -7666,7 +7703,7 @@
   "CleansingAltarDownsidePlayerMeteorOnFlaskUse": {
     "sell_price_types": []
   },
-  "CleansingAltarDownsidePlayerReducedArmour": {
+  "CleansingAltarDownsidePlayerReducedArmourAndEvasion": {
     "sell_price_types": []
   },
   "CleansingAltarDownsidePlayerReducedFireAndChaosResist": {
@@ -7675,40 +7712,16 @@
   "CleansingAltarDownsidePlayerScorched": {
     "sell_price_types": []
   },
-  "CleansingAltarUpsideBossCleansingCurrency_t1": {
+  "CleansingAltarUpsideBossCleansingCurrency": {
     "sell_price_types": []
   },
-  "CleansingAltarUpsideBossCleansingCurrency_t2": {
+  "CleansingAltarUpsideBossCleansingInfluencedItems": {
     "sell_price_types": []
   },
-  "CleansingAltarUpsideBossCleansingCurrency_t3": {
+  "CleansingAltarUpsideMonsterCleansingCurrency": {
     "sell_price_types": []
   },
-  "CleansingAltarUpsideBossCleansingInfluencedItemsR": {
-    "sell_price_types": []
-  },
-  "CleansingAltarUpsideBossCleansingInfluencedItemsW": {
-    "sell_price_types": []
-  },
-  "CleansingAltarUpsideBossCleansingInfluencedItemsY": {
-    "sell_price_types": []
-  },
-  "CleansingAltarUpsideMonsterCleansingCurrency_t1": {
-    "sell_price_types": []
-  },
-  "CleansingAltarUpsideMonsterCleansingCurrency_t2": {
-    "sell_price_types": []
-  },
-  "CleansingAltarUpsideMonsterCleansingCurrency_t3": {
-    "sell_price_types": []
-  },
-  "CleansingAltarUpsideMonsterCleansingInfluencedItemsR": {
-    "sell_price_types": []
-  },
-  "CleansingAltarUpsideMonsterCleansingInfluencedItemsW": {
-    "sell_price_types": []
-  },
-  "CleansingAltarUpsideMonsterCleansingInfluencedItemsY": {
+  "CleansingAltarUpsideMonsterCleansingInfluencedItems": {
     "sell_price_types": []
   },
   "CleaveThresholdJewel": {
@@ -10664,7 +10677,9 @@
     "sell_price_types": []
   },
   "EldritchBattery": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "ElementalAilmentImmunityGloriousMadness": {
     "sell_price_types": [
@@ -10839,7 +10854,9 @@
     ]
   },
   "ElementalOverload": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "ElementalPenPerAscendance": {
     "sell_price_types": [
@@ -10899,6 +10916,11 @@
     ]
   },
   "ElementalStatusAilmentDuration": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "ElementalWeaknessNoReservation": {
     "sell_price_types": [
       "UniqueMedium"
     ]
@@ -15094,6 +15116,12 @@
       "UniqueLow"
     ]
   },
+  "EnemiesChilledIncreasedDamageTaken": {
+    "sell_price_types": []
+  },
+  "EnemiesChilledLessDamageDealt": {
+    "sell_price_types": []
+  },
   "EnemiesCrushedWithRage": {
     "sell_price_types": [
       "UniqueLow"
@@ -15496,6 +15524,11 @@
   },
   "EnergyShieldStartsAtZero": {
     "sell_price_types": []
+  },
+  "EnfeebleNoReservation": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
   },
   "EnfeebleOnHit": {
     "sell_price_types": [
@@ -20858,6 +20891,15 @@
   "HungryLoopSupportedByAwakenedElementalFocus": {
     "sell_price_types": []
   },
+  "HungryLoopSupportedByAwakenedEmpower": {
+    "sell_price_types": []
+  },
+  "HungryLoopSupportedByAwakenedEnhance": {
+    "sell_price_types": []
+  },
+  "HungryLoopSupportedByAwakenedEnlighten": {
+    "sell_price_types": []
+  },
   "HungryLoopSupportedByAwakenedFirePenetration": {
     "sell_price_types": []
   },
@@ -22819,7 +22861,9 @@
     "sell_price_types": []
   },
   "IronGrip": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "IronReflexes": {
     "sell_price_types": [
@@ -23154,6 +23198,11 @@
       "UniqueVeryHigh"
     ]
   },
+  "JewelUniqueAllocateDisconnectedPassivesAroundKeystone": {
+    "sell_price_types": [
+      "UniqueVeryHigh"
+    ]
+  },
   "JewelleryAttackQuality": {
     "sell_price_types": []
   },
@@ -23210,6 +23259,9 @@
     "sell_price_types": [
       "UniqueVeryHigh"
     ]
+  },
+  "KillEnemyInstantlyExarchDominant": {
+    "sell_price_types": []
   },
   "KilledMonsterItemRarityOnCrit": {
     "sell_price_types": [
@@ -25896,6 +25948,11 @@
       "UniqueMedium"
     ]
   },
+  "MagicUtilityFlaskEffect": {
+    "sell_price_types": [
+      "UniqueLow"
+    ]
+  },
   "MagicUtilityFlasksAlwaysApply": {
     "sell_price_types": [
       "UniqueVeryHigh"
@@ -26017,6 +26074,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ]
+  },
+  "MalignantMadnessCritEaterDominant": {
+    "sell_price_types": []
   },
   "ManaAndDamageTakenGoesToManaPercent": {
     "sell_price_types": []
@@ -26633,9 +26693,6 @@
     "sell_price_types": []
   },
   "MapAtlasHighValueEnemiesOnOwnTeam": {
-    "sell_price_types": []
-  },
-  "MapAtlasIncursionDefeatingArchitectUpgradesRoomByOneTier": {
     "sell_price_types": []
   },
   "MapAtlasInfluence": {
@@ -30018,7 +30075,9 @@
     ]
   },
   "MinionInstability": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "MinionLargerAggroRadius": {
     "sell_price_types": [
@@ -30325,6 +30384,9 @@
   "MonsterArchnemesisBonebreaker": {
     "sell_price_types": []
   },
+  "MonsterArchnemesisBonebreakerMagic": {
+    "sell_price_types": []
+  },
   "MonsterArchnemesisBonebreakerMinion": {
     "sell_price_types": []
   },
@@ -30352,6 +30414,9 @@
   "MonsterArchnemesisDeadeye": {
     "sell_price_types": []
   },
+  "MonsterArchnemesisDeadeyeMagic": {
+    "sell_price_types": []
+  },
   "MonsterArchnemesisDefender": {
     "sell_price_types": []
   },
@@ -30371,6 +30436,9 @@
     "sell_price_types": []
   },
   "MonsterArchnemesisExecutioner": {
+    "sell_price_types": []
+  },
+  "MonsterArchnemesisFinalGasp": {
     "sell_price_types": []
   },
   "MonsterArchnemesisFlameTouched": {
@@ -30418,6 +30486,9 @@
   "MonsterArchnemesisHeraldOfTheObelisk": {
     "sell_price_types": []
   },
+  "MonsterArchnemesisHeraldOfTheObeliskMagic": {
+    "sell_price_types": []
+  },
   "MonsterArchnemesisHeraldOfTheObeliskMinion": {
     "sell_price_types": []
   },
@@ -30442,6 +30513,9 @@
   "MonsterArchnemesisKitava": {
     "sell_price_types": []
   },
+  "MonsterArchnemesisLightningStorm": {
+    "sell_price_types": []
+  },
   "MonsterArchnemesisLightningWalker": {
     "sell_price_types": []
   },
@@ -30461,6 +30535,9 @@
     "sell_price_types": []
   },
   "MonsterArchnemesisMirrorImage": {
+    "sell_price_types": []
+  },
+  "MonsterArchnemesisMultiProjectiles": {
     "sell_price_types": []
   },
   "MonsterArchnemesisNecromancer": {
@@ -30511,6 +30588,9 @@
   "MonsterArchnemesisSoulEater": {
     "sell_price_types": []
   },
+  "MonsterArchnemesisSpiritWalkersMagic": {
+    "sell_price_types": []
+  },
   "MonsterArchnemesisSplitting": {
     "sell_price_types": []
   },
@@ -30538,6 +30618,9 @@
   "MonsterArchnemesisUnionOfSouls": {
     "sell_price_types": []
   },
+  "MonsterArchnemesisUnionOfSoulsMagic": {
+    "sell_price_types": []
+  },
   "MonsterArchnemesisUnionOfSoulsMinion": {
     "sell_price_types": []
   },
@@ -30551,6 +30634,9 @@
     "sell_price_types": []
   },
   "MonsterArchnemesisVoidTouchedMinion": {
+    "sell_price_types": []
+  },
+  "MonsterArchnemesisVoidspawnOfAbaxothMagic": {
     "sell_price_types": []
   },
   "MonsterArchnemesisVolatileFlameBlood": {
@@ -31303,7 +31389,9 @@
     "sell_price_types": []
   },
   "MonsterMinionInstability": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "MonsterModAuraBase": {
     "sell_price_types": []
@@ -31363,7 +31451,9 @@
     "sell_price_types": []
   },
   "MonsterNemesisOndarsGuile": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "MonsterNemesisPhysicalProjectilesDaemon": {
     "sell_price_types": []
@@ -31441,7 +31531,9 @@
     "sell_price_types": []
   },
   "MonsterPointBlank": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "MonsterPoisonAndEnergyShieldTalisman": {
     "sell_price_types": []
@@ -31557,6 +31649,9 @@
   "MonsterTagSynthesised": {
     "sell_price_types": []
   },
+  "MonsterTaggingSpecificMapBoss": {
+    "sell_price_types": []
+  },
   "MonsterTalismanDifficultyBonus": {
     "sell_price_types": []
   },
@@ -31653,6 +31748,9 @@
     "sell_price_types": []
   },
   "MonstrousTreasure": {
+    "sell_price_types": []
+  },
+  "MoreDamagePerWarcryExerting": {
     "sell_price_types": []
   },
   "MoreLifeBelowLevel11": {
@@ -32168,6 +32266,9 @@
     ]
   },
   "NonChaosDamageAddedAsChaosPerSiphoningCharge": {
+    "sell_price_types": []
+  },
+  "NonChaosDamageBypassEnergyShieldPercent": {
     "sell_price_types": []
   },
   "NonChilledEnemiesBleedAndChill": {
@@ -33134,7 +33235,9 @@
     ]
   },
   "PointBlank": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "PoisonChanceAndDurationForJewel": {
     "sell_price_types": [
@@ -33477,7 +33580,16 @@
   "PrimordialAltarUpsideBossCurrency": {
     "sell_price_types": []
   },
+  "PrimordialAltarUpsideBossDivinationCards": {
+    "sell_price_types": []
+  },
   "PrimordialAltarUpsideBossGemCommon": {
+    "sell_price_types": []
+  },
+  "PrimordialAltarUpsideBossMapCurrency": {
+    "sell_price_types": []
+  },
+  "PrimordialAltarUpsideBossMaps": {
     "sell_price_types": []
   },
   "PrimordialAltarUpsideBossScarab": {
@@ -33489,7 +33601,16 @@
   "PrimordialAltarUpsideMonsterCurrency": {
     "sell_price_types": []
   },
+  "PrimordialAltarUpsideMonsterDivinationCards": {
+    "sell_price_types": []
+  },
   "PrimordialAltarUpsideMonsterGemCommon": {
+    "sell_price_types": []
+  },
+  "PrimordialAltarUpsideMonsterMapCurrency": {
+    "sell_price_types": []
+  },
+  "PrimordialAltarUpsideMonsterMaps": {
     "sell_price_types": []
   },
   "PrimordialAltarUpsideMonsterScarab": {
@@ -33499,6 +33620,9 @@
     "sell_price_types": []
   },
   "PrimordialAltarUpsidePlayerDuplicateDroppedCurrency": {
+    "sell_price_types": []
+  },
+  "PrimordialAltarUpsidePlayerDuplicateDroppedDivinationCards": {
     "sell_price_types": []
   },
   "PrimordialAltarUpsidePlayerDuplicateDroppedGems": {
@@ -33712,6 +33836,11 @@
     ]
   },
   "PrrojectilesPierceWhilePhasing": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "PunishmentNoReservation": {
     "sell_price_types": [
       "UniqueMedium"
     ]
@@ -34864,6 +34993,472 @@
       "OverrideToWisdomFragment"
     ]
   },
+  "SentinelAcceleratingOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelAdrenalineOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDiamondOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneAbyssRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneAdditionalTags": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneAggroRadius": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneAngerAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneArmourRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneBaseDuration": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneBlightRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneBreachRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneCannotAddRewards": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneCannotTagEnemies": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneChainDistance": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneCleanseFish": {
+    "sell_price_types": [
+      "UniqueVeryHigh"
+    ]
+  },
+  "SentinelDroneColdReistAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneCurrencyRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneDebilitateMonster": {
+    "sell_price_types": []
+  },
+  "SentinelDroneDeliriumRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneDestroyOnTag": {
+    "sell_price_types": []
+  },
+  "SentinelDroneDeterminationAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneDisciplineAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneDivinationCardsRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneDuplicateRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneDurationIncrease": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneEmpowermentPerMonsterTagged": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneEssenceRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneExpeditionRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneExtraBeams": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneExtraChains": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneFireResistAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneFossilsRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneFragmentsRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneGemsRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneGraceAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneGrantModsToKiller": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SentinelDroneHarbingerRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneHasteAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneHatredAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneHeistRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneIncreasedDifficulty": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneLegionRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneLightningResistAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneLocalCharge": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneMalevolenceAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneMapsRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneMetamorphosisRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneNoDrops": {
+    "sell_price_types": []
+  },
+  "SentinelDronePetrifyTaggedMonsters": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SentinelDronePlayerTailwindOnSummon": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDronePlayerUnholyMightOnSummon": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDronePurifyCorruptedWater": {
+    "sell_price_types": [
+      "UniqueVeryHigh"
+    ]
+  },
+  "SentinelDronePurityAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneReducedDifficulty": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneRefreshOnUseChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneRewardChancePerMonsterTagged": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneRewardCount": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneRitualRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneScarabsRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneSentinelRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneSpawnWorms": {
+    "sell_price_types": [
+      "UniqueVeryHigh"
+    ]
+  },
+  "SentinelDroneTagDropsCurrencyRewards": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneTagDropsDivinationCards": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneTagDropsFragments": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneTagDropsMaps": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneTagDropsScarabs": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneTagDropsSentinel": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneTagDropsUniques": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "SentinelDroneTagLimitPercentage": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneTagMapQuantityAppliesToRewards": {
+    "sell_price_types": []
+  },
+  "SentinelDroneTagSpecificUnique": {
+    "sell_price_types": [
+      "UniqueLow"
+    ]
+  },
+  "SentinelDroneTaggedMonsterExperience": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneTaggedMonsterItemQuantity": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneTaggedMonsterItemRarity": {
+    "sell_price_types": [
+      "Medium"
+    ]
+  },
+  "SentinelDroneTrinketsRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneUniqueRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneUpgradeToRareChance": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SentinelDroneWeaponRewardChance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneWrathAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelDroneZealotryAura": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelEchoingOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelEnduranceChargeOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelFrenzyChargeOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelGloomOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelImpenetrableOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelLeague": {
+    "sell_price_types": []
+  },
+  "SentinelMassiveOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelOnlyOneUse": {
+    "sell_price_types": []
+  },
+  "SentinelPowerChargeOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelResistanceOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelResonatingOnUse": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SentinelTagBase": {
+    "sell_price_types": []
+  },
+  "SentinelTagDifficulty": {
+    "sell_price_types": []
+  },
+  "SentinelTagDrone3": {
+    "sell_price_types": []
+  },
+  "SentinelTagIncreasedDamage": {
+    "sell_price_types": []
+  },
+  "SentinelTagOnlyRare": {
+    "sell_price_types": []
+  },
+  "SentinelTagOnlyRareOrUnique": {
+    "sell_price_types": []
+  },
   "SetElementalResistances": {
     "sell_price_types": [
       "UniqueLow"
@@ -35189,10 +35784,16 @@
       "UniqueLow"
     ]
   },
+  "SkillEffectDurationPinnaclePresence": {
+    "sell_price_types": []
+  },
   "SkillEffectDurationSupported": {
     "sell_price_types": [
       "High"
     ]
+  },
+  "SkillEffectDurationUniquePresence": {
+    "sell_price_types": []
   },
   "SkillVisualScale": {
     "sell_price_types": []
@@ -35446,6 +36047,14 @@
     "sell_price_types": [
       "UniqueLow"
     ]
+  },
+  "SocketedTriggeredSkillsDoubleDamage": {
+    "sell_price_types": [
+      "UniqueLow"
+    ]
+  },
+  "SocketedWarcryCooldownCount": {
+    "sell_price_types": []
   },
   "SolarisGuardRighteousFireDaemon": {
     "sell_price_types": []
@@ -36531,6 +37140,91 @@
   "StunThresholdReductionUniquePresence": {
     "sell_price_types": []
   },
+  "SublimeVisionAnger": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionClarity": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionDetermination": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionDiscipline": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionGrace": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionHaste": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionHatred": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionMalevolence": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionPrecision": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionPride": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionPurityOfElements": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionPurityOfFire": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionPurityOfIce": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionPurityOfLightning": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionVitality": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionWrath": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
+  "SublimeVisionZealotry": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
   "SummonAdditionalBrand": {
     "sell_price_types": [
       "UniqueLow"
@@ -36679,6 +37373,9 @@
     "sell_price_types": [
       "UniqueHigh"
     ]
+  },
+  "SummonSkeletonsSkeletonIsMage": {
+    "sell_price_types": []
   },
   "SummonSkeletonsSkeletonIsWarrior": {
     "sell_price_types": []
@@ -36842,7 +37539,22 @@
       "UniqueLow"
     ]
   },
+  "SupportedByEmpower": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
   "SupportedByEnduranceChargeOnStunWeapon": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SupportedByEnhance": {
+    "sell_price_types": [
+      "High"
+    ]
+  },
+  "SupportedByEnlighten": {
     "sell_price_types": [
       "High"
     ]
@@ -37034,6 +37746,11 @@
       "UniqueLow"
     ]
   },
+  "SupremeDecadence": {
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
+  },
   "SupremeEgo": {
     "sell_price_types": [
       "UniqueHigh"
@@ -37180,6 +37897,9 @@
       "UniqueVeryHigh"
     ]
   },
+  "TakePhysicalDamagePerWarcryExerting": {
+    "sell_price_types": []
+  },
   "TakesDamageWhenAttacked": {
     "sell_price_types": []
   },
@@ -37225,40 +37945,16 @@
   "TalkingSwordUniqueOneHandSword26": {
     "sell_price_types": []
   },
-  "TangleAltarUpsideBossTangledCurrency_t1": {
+  "TangleAltarUpsideBossTangledCurrency": {
     "sell_price_types": []
   },
-  "TangleAltarUpsideBossTangledCurrency_t2": {
+  "TangleAltarUpsideBossTangledInfluencedItems": {
     "sell_price_types": []
   },
-  "TangleAltarUpsideBossTangledCurrency_t3": {
+  "TangleAltarUpsideMonsterTangledCurrency": {
     "sell_price_types": []
   },
-  "TangleAltarUpsideBossTangledInfluencedItemsR": {
-    "sell_price_types": []
-  },
-  "TangleAltarUpsideBossTangledInfluencedItemsW": {
-    "sell_price_types": []
-  },
-  "TangleAltarUpsideBossTangledInfluencedItemsY": {
-    "sell_price_types": []
-  },
-  "TangleAltarUpsideMonsterTangledCurrency_t1": {
-    "sell_price_types": []
-  },
-  "TangleAltarUpsideMonsterTangledCurrency_t2": {
-    "sell_price_types": []
-  },
-  "TangleAltarUpsideMonsterTangledCurrency_t3": {
-    "sell_price_types": []
-  },
-  "TangleAltarUpsideMonsterTangledInfluencedItemsR": {
-    "sell_price_types": []
-  },
-  "TangleAltarUpsideMonsterTangledInfluencedItemsW": {
-    "sell_price_types": []
-  },
-  "TangleAltarUpsideMonsterTangledInfluencedItemsY": {
+  "TangleAltarUpsideMonsterTangledInfluencedItems": {
     "sell_price_types": []
   },
   "TangledAltarDownsideBossAllDamageCanChill": {
@@ -37291,7 +37987,7 @@
   "TangledAltarDownsideBossPhysicalDamageReduction": {
     "sell_price_types": []
   },
-  "TangledAltarDownsideBossStealCharges": {
+  "TangledAltarDownsideBossSuppressSpells": {
     "sell_price_types": []
   },
   "TangledAltarDownsideBossTangleTentacles": {
@@ -37303,13 +37999,7 @@
   "TangledAltarDownsideMonsterColdAndLightningResist": {
     "sell_price_types": []
   },
-  "TangledAltarDownsideMonsterCrushOnHit": {
-    "sell_price_types": []
-  },
-  "TangledAltarDownsideMonsterCurseWithConductivityOnHit": {
-    "sell_price_types": []
-  },
-  "TangledAltarDownsideMonsterCurseWithFrostbite": {
+  "TangledAltarDownsideMonsterColdDamage": {
     "sell_price_types": []
   },
   "TangledAltarDownsideMonsterCurseWithPunishmentOnHit": {
@@ -37321,7 +38011,10 @@
   "TangledAltarDownsideMonsterGraspingVineStackOnHit": {
     "sell_price_types": []
   },
-  "TangledAltarDownsideMonsterMovementSpeed": {
+  "TangledAltarDownsideMonsterLightningDamage": {
+    "sell_price_types": []
+  },
+  "TangledAltarDownsideMonsterOverwhelm": {
     "sell_price_types": []
   },
   "TangledAltarDownsideMonsterPhysicalDamageReduction": {
@@ -37331,6 +38024,9 @@
     "sell_price_types": []
   },
   "TangledAltarDownsideMonsterShockedGroundOnDeath": {
+    "sell_price_types": []
+  },
+  "TangledAltarDownsideMonsterSpeed": {
     "sell_price_types": []
   },
   "TangledAltarDownsideMonsterSupressSpells": {
@@ -38590,7 +39286,9 @@
     ]
   },
   "UnwaveringStance": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "UpgradedLabyrinthTrial": {
     "sell_price_types": []
@@ -38633,7 +39331,9 @@
     "sell_price_types": []
   },
   "VaalPact": {
-    "sell_price_types": []
+    "sell_price_types": [
+      "UniqueHigh"
+    ]
   },
   "VaalPactIfAllSocketedGemsAreRed": {
     "sell_price_types": [
@@ -38936,6 +39636,11 @@
   "WarcryTauntChaosExplosion": {
     "sell_price_types": [
       "UniqueHigh"
+    ]
+  },
+  "WarcryTauntedEnemiesTakeIncreasedDamage": {
+    "sell_price_types": [
+      "UniqueLow"
     ]
   },
   "WardDelayRecovery": {
@@ -40630,6 +41335,11 @@
     ]
   },
   "YouCannotBeHindered": {
+    "sell_price_types": [
+      "UniqueMedium"
+    ]
+  },
+  "YourAuraEffectOnYou": {
     "sell_price_types": [
       "UniqueMedium"
     ]

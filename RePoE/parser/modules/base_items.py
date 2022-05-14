@@ -142,6 +142,7 @@ ITEM_CLASS_WHITELIST = {
     "ExpeditionLogbook",
     "IncubatorStackable",
     "AtlasUpgradeItem",
+    "SentinelDrone",
 }
 
 ITEM_CLASS_BLACKLIST = {

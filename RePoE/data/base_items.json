@@ -19325,7 +19325,7 @@
     "name": "Orb of Conflict",
     "properties": {
       "description": "Unpredictably raise the strength of one Searing Exarch or Eater of Worlds modifier on an item and lower the strength of another. Lesser modifiers that have their strength lowered will be removed.",
-      "directions": "Right click this item then left click an item to apply it. Can only be used on items that have both a Searing Exarch and an Eater of Worlds implicit modifier. The chance of raising or lowering a modifier depends on its relative strength.",
+      "directions": "Right click this item then left click a non-unique item to apply it. Can only be used on items that have both a Searing Exarch and an Eater of Worlds implicit modifier. The chance of raising or lowering a modifier depends on its relative strength.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
     },
@@ -37737,6 +37737,185 @@
       "id": "AtlasScoutingReport1"
     }
   },
+  "Metadata/Items/Currency/SentinelCurrencyAddMod": {
+    "domain": "undefined",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Augmenting Power Core",
+    "properties": {
+      "description": "Destroys two Sentinels to create a fully-charged Sentinel with a combination of their properties. Sometimes, the resultant item is modified unpredictably, with a higher chance of new random modifiers",
+      "directions": "Right click this item then select two Sentinels to combine.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 400
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_power_core",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/AugmentingPowerCore.dds",
+      "id": "SentinelCurrencyAddMod"
+    }
+  },
+  "Metadata/Items/Currency/SentinelCurrencyArmour": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Armour Recombinator",
+    "properties": {
+      "description": "Destroys two Armours to create a new Armour with a combination of their properties. Sometimes, the resultant item is modified unpredictably",
+      "directions": "Right click this item then select two Armours to combine. These items must be of the same item class.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/ArmourRecombinator.dds",
+      "id": "SentinelCurrencyArmour"
+    }
+  },
+  "Metadata/Items/Currency/SentinelCurrencyBasic": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Power Core",
+    "properties": {
+      "description": "Destroys two Sentinels to create a fully-charged Sentinel with a combination of their properties. Sometimes, the resultant item is modified unpredictably",
+      "directions": "Right click this item then select two Sentinels to combine.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 400
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_power_core",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/PowerCore.dds",
+      "id": "SentinelCurrencyBasic"
+    }
+  },
+  "Metadata/Items/Currency/SentinelCurrencyJewellery": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Jewellery Recombinator",
+    "properties": {
+      "description": "Destroys two Jewellery items to create a new Jewellery item with a combination of their properties. Sometimes, the resultant item is modified unpredictably",
+      "directions": "Right click this item then select two Jewellery items to combine. These items must be of the same item class.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/WeaponRecombinator.dds",
+      "id": "SentinelCurrencyJewellery__"
+    }
+  },
+  "Metadata/Items/Currency/SentinelCurrencyMutate": {
+    "domain": "undefined",
+    "drop_level": 45,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Transforming Power Core",
+    "properties": {
+      "description": "Destroys two Sentinels to create a fully-charged Sentinel with a combination of their properties. Sometimes, the resultant item is modified unpredictably, with a higher chance of a special base type",
+      "directions": "Right click this item then select two Sentinels to combine.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 400
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_power_core",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/TransformingPowerCore.dds",
+      "id": "SentinelCurrencyMutate_"
+    }
+  },
+  "Metadata/Items/Currency/SentinelCurrencyUpgradeMod": {
+    "domain": "undefined",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Amplifying Power Core",
+    "properties": {
+      "description": "Destroys two Sentinels to create a fully-charged Sentinel with a combination of their properties. Sometimes, the resultant item is modified unpredictably, with a higher chance of a upgrading the tier of modifiers",
+      "directions": "Right click this item then select two Sentinels to combine.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 400
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_power_core",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/AmplifyingPowerCore.dds",
+      "id": "SentinelCurrencyUpgradeMod"
+    }
+  },
+  "Metadata/Items/Currency/SentinelCurrencyWeapon": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Weapon Recombinator",
+    "properties": {
+      "description": "Destroys two Weapons or Quivers to create a new Weapon or Quiver with a combination of their properties. Sometimes, the resultant item is modified unpredictably",
+      "directions": "Right click this item then select two Weapons or Quivers to combine. These items must be of the same item class.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/JewelleryRecombinator.dds",
+      "id": "SentinelCurrencyWeapon"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardADabOfInk": {
     "domain": "undefined",
     "drop_level": 23,
@@ -37788,6 +37967,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardAFamiliarCall_"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardAFateWorseThanDeath": {
+    "domain": "undefined",
+    "drop_level": 78,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "A Fate Worse Than Death",
+    "properties": {
+      "description": "<uniqueitem>{Cortex}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardAFateWorseThanDeath"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardAModestRequest": {
@@ -38041,6 +38245,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardAloneInTheDarkness"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardAlteredPerception": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Altered Perception",
+    "properties": {
+      "description": "<currencyitem>{Simulacrum}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardAlteredPerception_"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardAmbitiousObsession": {
@@ -38683,7 +38912,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardCartographersDelight": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 58,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -38758,7 +38987,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardCostlyCurio": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -38859,7 +39088,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardDarkDreams": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -38908,6 +39137,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardDarkTemptation"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardDarkerHalf": {
+    "domain": "undefined",
+    "drop_level": 81,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Darker Half",
+    "properties": {
+      "description": "<currencyitem>{5x Eldritch Chaos Orb}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardDarkerHalf"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardDeadlyJoy": {
@@ -39249,7 +39503,7 @@
     "item_class": "DivinationCard",
     "name": "Draped in Dreams",
     "properties": {
-      "description": "<whiteitem>{Six-Linked Body Armour}\r\n<default>{Item Level:} <normal>{100}\r\n<default>{Influenced Item}",
+      "description": "<whiteitem>{Six-Link Astral Plate}\r\n<default>{Item Level:} <normal>{100}\r\n<default>{Influenced Item}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -39573,6 +39827,58 @@
       "id": "DivinationCardFriendship"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardFromBoneToAshes": {
+    "domain": "undefined",
+    "drop_level": 55,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "From Bone to Ashes",
+    "properties": {
+      "description": "<uniqueitem>{Ngamahu's Flame}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 8,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "weapon_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardFromBoneToAshes_"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardFurtherInvention": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Further Invention",
+    "properties": {
+      "description": "<magicitem>{Helmet}\r\n<default>{Double-Influenced Item}\r\n<default>{Item Level:} <normal>{100}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardFurtherInvention"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardGemcuttersPromise": {
     "domain": "undefined",
     "drop_level": 23,
@@ -39825,6 +40131,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "Heterochromia"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardHome": {
+    "domain": "undefined",
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Home",
+    "properties": {
+      "description": "<gemitem>{Exceptional Gem}\r\n<default>{Quality:} <augmented>{+1-20%}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardHome"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardHope": {
@@ -40683,7 +41014,7 @@
     "item_class": "DivinationCard",
     "name": "Monochrome",
     "properties": {
-      "description": "<currencyitem>{10x Sextant}",
+      "description": "<currencyitem>{2x Elevated Sextant}",
       "directions": "",
       "stack_size": 3,
       "stack_size_currency_tab": 5000
@@ -40856,7 +41187,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardPrejudice": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -41010,7 +41341,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardRainTempter": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 58,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -41083,6 +41414,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "Rebirth"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardRebirthAndRenewal": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Rebirth and Renewal",
+    "properties": {
+      "description": "<currencyitem>{Winged Scarab}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardRebirthAndRenewal"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardRecklessAmbition": {
@@ -41171,7 +41527,7 @@
     "item_class": "DivinationCard",
     "name": "Sambodhi's Wisdom",
     "properties": {
-      "description": "Disabled",
+      "description": "<uniqueitem>{Armour}\r\n<default>{Quality:} <augmented>{+30%}",
       "directions": "",
       "stack_size": 3,
       "stack_size_currency_tab": 5000
@@ -41179,6 +41535,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "armour_divination",
       "divination_card",
       "default"
     ],
@@ -41517,6 +41874,32 @@
       "id": "TheAesthete"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheApothecary": {
+    "domain": "undefined",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Apothecary",
+    "properties": {
+      "description": "<uniqueitem>{Mageblood}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheApothecary"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheArchmagesRightHand": {
     "domain": "undefined",
     "drop_level": 80,
@@ -41545,7 +41928,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheArenaChampion": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -41664,6 +42047,7 @@
     "tags": [
       "armour_divination",
       "shaper_divination",
+      "elder_divination",
       "divination_card",
       "default"
     ],
@@ -41777,7 +42161,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBearWoman": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -41979,6 +42363,32 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardTheBones"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheBrawnyBattleMage": {
+    "domain": "undefined",
+    "drop_level": 80,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Brawny Battle Mage",
+    "properties": {
+      "description": "<magicitem>{Merciless Tornado Wand}\r\n<default>{Item Level:} <normal>{100}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "weapon_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheBrawnyBattleMage"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheBreach": {
@@ -42725,6 +43135,31 @@
       "id": "TheDemoness"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheDestination": {
+    "domain": "undefined",
+    "drop_level": 81,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Destination",
+    "properties": {
+      "description": "<uniqueitem>{Watcher's Eye}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 9,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheDestination"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheDevastator": {
     "domain": "undefined",
     "drop_level": 80,
@@ -42927,9 +43362,35 @@
       "id": "TheDrunkenAristocrat"
     }
   },
-  "Metadata/Items/DivinationCards/DivinationCardTheEasyStroll": {
+  "Metadata/Items/DivinationCards/DivinationCardTheDungeonMaster": {
     "domain": "undefined",
     "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Dungeon Master",
+    "properties": {
+      "description": "<uniqueitem>{Belt}\r\n<default>{Double-Influenced Item}",
+      "directions": "",
+      "stack_size": 7,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheDungeonMaster__"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheEasyStroll": {
+    "domain": "undefined",
+    "drop_level": 73,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -43048,6 +43509,7 @@
     "tags": [
       "weapon_divination",
       "elder_divination",
+      "shaper_divination",
       "divination_card",
       "default"
     ],
@@ -43468,7 +43930,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheForgottenTreasure": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -43542,6 +44004,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheForsaken"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheForwardGaze": {
+    "domain": "undefined",
+    "drop_level": 50,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Forward Gaze",
+    "properties": {
+      "description": "<uniqueitem>{Replica Item}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheForwardGaze"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFox": {
@@ -43957,14 +44444,14 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheHook": {
     "domain": "undefined",
-    "drop_level": 81,
+    "drop_level": 72,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "DivinationCard",
     "name": "The Hook",
     "properties": {
-      "description": "Disabled",
+      "description": "<gemitem>{Level 21 Gem}\r\n<default>{Alternate Quality:} <augmented>{+23%}\r\n<corrupted>{Corrupted}",
       "directions": "",
       "stack_size": 8,
       "stack_size_currency_tab": 5000
@@ -44211,7 +44698,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheJewellersBoon": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -44493,7 +44980,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLongCon": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -44570,7 +45057,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheLordOfCelebration": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -44808,7 +45295,7 @@
     "item_class": "DivinationCard",
     "name": "The Messenger",
     "properties": {
-      "description": "<uniqueitem>{Harbinger Fragment}",
+      "description": "<uniqueitem>{Harbinger Piece}",
       "directions": "",
       "stack_size": 4,
       "stack_size_currency_tab": 5000
@@ -45343,7 +45830,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePriceOfPrescience": {
     "domain": "undefined",
-    "drop_level": 73,
+    "drop_level": 78,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -45368,14 +45855,14 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardThePriceOfProtection": {
     "domain": "undefined",
-    "drop_level": 73,
+    "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "DivinationCard",
     "name": "The Price of Protection",
     "properties": {
-      "description": "<whiteitem>{Map}\r\n<default>{Map Tier:} <normal>{16}",
+      "description": "<size:28>{<rareitem>{Elder Guardian Occupied Map}\r\n<default>{Map Tier:} <normal>{14 to 16}\r\n<default>{Modifiers:} <normal>{8}\r\n<corrupted>{Corrupted}}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -45982,14 +46469,14 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSideQuest": {
     "domain": "undefined",
-    "drop_level": 23,
+    "drop_level": 69,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "DivinationCard",
     "name": "The Side Quest",
     "properties": {
-      "description": "Disabled",
+      "description": "<currencyitem>{20x Scouting Report}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -46291,7 +46778,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSurgeon": {
     "domain": "undefined",
-    "drop_level": 23,
+    "drop_level": 60,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -46622,14 +47109,14 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheTumbleweed": {
     "domain": "undefined",
-    "drop_level": 68,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "DivinationCard",
     "name": "The Tumbleweed",
     "properties": {
-      "description": "<whiteitem>{Map}\r\n<default>{Map Tier:} <normal>{10}",
+      "description": "<size:30>{<magicitem>{Diamond Ring of Redemption}\r\n<default>{Item Level:} <normal>{100}\r\n<default>{Redeemer Item}}",
       "directions": "",
       "stack_size": 2,
       "stack_size_currency_tab": 5000
@@ -46637,6 +47124,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -47594,7 +48082,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTriskaidekaphobia": {
     "domain": "undefined",
-    "drop_level": 73,
+    "drop_level": 80,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -61031,6 +61519,28 @@
       "id": "SupportGemElementalProliferation"
     }
   },
+  "Metadata/Items/Gems/SupportGemEmpowerPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Empower Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "level_capped_gem",
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/EmpowerPlus.dds",
+      "id": "SupportGemEmpowerPlus"
+    }
+  },
   "Metadata/Items/Gems/SupportGemEnduranceChargeOnMeleeStun": {
     "domain": "undefined",
     "drop_level": 18,
@@ -61071,6 +61581,50 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/EnergyShieldLeechsupport.dds",
       "id": "SupportGemEnergyShieldLeech"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemEnhancePlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Enhance Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "level_capped_gem",
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/enhanceplus.dds",
+      "id": "SupportGemEnhancePlus"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemEnlightenPlus": {
+    "domain": "undefined",
+    "drop_level": 72,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Awakened Enlighten Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "level_capped_gem",
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/SupportPlus/Enlightenplus.dds",
+      "id": "SupportGemEnlightenPlus"
     }
   },
   "Metadata/Items/Gems/SupportGemEternalBlessing": {
@@ -74658,6 +75212,7 @@
       "mountain",
       "indoors_area",
       "cave",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -74728,6 +75283,7 @@
       "not_for_sale",
       "indoors_area",
       "cave",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -75080,6 +75636,7 @@
       "indoors_area",
       "dungeon",
       "temple",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -75178,6 +75735,7 @@
       "not_for_sale",
       "cave",
       "mountain",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -75272,6 +75830,7 @@
       "not_for_sale",
       "indoors_area",
       "dungeon",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -75318,6 +75877,7 @@
     "tags": [
       "not_for_sale",
       "urban",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -75533,6 +76093,7 @@
       "cave",
       "mountain",
       "indoors_area",
+      "cannot_possess_boss",
       "map",
       "default"
     ],
@@ -75700,6 +76261,7 @@
       "not_for_sale",
       "indoors_area",
       "dungeon",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -75892,6 +76454,7 @@
       "not_for_sale",
       "indoors_area",
       "dungeon",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76010,6 +76573,7 @@
       "not_for_sale",
       "indoors_area",
       "cave",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76127,6 +76691,7 @@
       "not_for_sale",
       "forest",
       "swamp",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76198,6 +76763,7 @@
       "not_for_sale",
       "mountain",
       "cave",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76525,6 +77091,7 @@
       "urban",
       "temple",
       "indoors_area",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76547,6 +77114,7 @@
     "tags": [
       "not_for_sale",
       "forest",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76665,6 +77233,7 @@
     "tags": [
       "not_for_sale",
       "urban",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76689,6 +77258,7 @@
       "cave",
       "mountain",
       "indoors_area",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76737,6 +77307,7 @@
       "temple",
       "urban",
       "indoors_area",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76907,6 +77478,7 @@
       "indoors_area",
       "dungeon",
       "temple",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -76930,6 +77502,7 @@
       "not_for_sale",
       "indoors_area",
       "dungeon",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -77000,6 +77573,7 @@
       "not_for_sale",
       "indoors_area",
       "temple",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -77265,6 +77839,7 @@
       "not_for_sale",
       "can_be_infected_map",
       "urban",
+      "cannot_possess_boss",
       "map",
       "default"
     ],
@@ -77984,6 +78559,7 @@
       "urban",
       "indoors_area",
       "cannot_be_twinned",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -78008,6 +78584,7 @@
       "indoors_area",
       "dungeon",
       "swamp",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -78077,6 +78654,7 @@
       "not_for_sale",
       "indoors_area",
       "cave",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -78250,6 +78828,7 @@
       "dungeon",
       "swamp",
       "cannot_be_twinned",
+      "can_be_infected_map",
       "map",
       "default"
     ],
@@ -78363,6 +78942,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "trade_market_legacy_item",
       "quiver",
       "default"
     ],
@@ -78385,6 +78965,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "trade_market_legacy_item",
       "quiver",
       "default"
     ],
@@ -78407,6 +78988,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "trade_market_legacy_item",
       "quiver",
       "default"
     ],
@@ -78429,6 +79011,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "trade_market_legacy_item",
       "quiver",
       "default"
     ],
@@ -78562,6 +79145,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "trade_market_legacy_item",
       "quiver",
       "default"
     ],
@@ -78584,6 +79168,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "trade_market_legacy_item",
       "quiver",
       "default"
     ],
@@ -78606,6 +79191,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "trade_market_legacy_item",
       "quiver",
       "default"
     ],
@@ -78628,6 +79214,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "trade_market_legacy_item",
       "quiver",
       "default"
     ],
@@ -79855,7 +80442,6 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
-      "jewelled_scarab",
       "default"
     ],
     "visual_identity": {
@@ -79880,7 +80466,6 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
-      "jewelled_scarab",
       "default"
     ],
     "visual_identity": {
@@ -79905,7 +80490,6 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
-      "jewelled_scarab",
       "default"
     ],
     "visual_identity": {
@@ -79930,7 +80514,6 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
-      "jewelled_scarab",
       "default"
     ],
     "visual_identity": {
@@ -81336,6 +81919,596 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/Scarabs/Tier4ScarabUnique.dds",
       "id": "ScarabUniques4"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelA1": {
+    "domain": "sentinel",
+    "drop_level": 2,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Rusted Stalker Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_a",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemRusted1.dds",
+      "id": "SentinelA1"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelA2": {
+    "domain": "sentinel",
+    "drop_level": 5,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Bronze Stalker Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_a",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemBronze1.dds",
+      "id": "SentinelA2___"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelA3": {
+    "domain": "sentinel",
+    "drop_level": 18,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Cobalt Stalker Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_a",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemBlue1.dds",
+      "id": "SentinelA3"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelA4": {
+    "domain": "sentinel",
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Brimstone Stalker Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_a",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemDark1.dds",
+      "id": "SentinelA4"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelA5": {
+    "domain": "sentinel",
+    "drop_level": 58,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Emberstone Stalker Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_a",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemRed1.dds",
+      "id": "SentinelA5__"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelA6": {
+    "domain": "sentinel",
+    "drop_level": 67,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Obsidian Stalker Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_a",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItem1.dds",
+      "id": "SentinelA6"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelB1": {
+    "domain": "sentinel",
+    "drop_level": 40,
+    "implicits": [
+      "SentinelImplicitOnlyOneUseDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Bronze Pandemonium Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_b",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemBronze2.dds",
+      "id": "SentinelB1"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelB2": {
+    "domain": "sentinel",
+    "drop_level": 46,
+    "implicits": [
+      "SentinelImplicitOnlyOneUseDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Cobalt Pandemonium Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_b",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemBlue2.dds",
+      "id": "SentinelB2"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelB3": {
+    "domain": "sentinel",
+    "drop_level": 54,
+    "implicits": [
+      "SentinelImplicitOnlyOneUseDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Brimstone Pandemonium Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_b",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemDark2.dds",
+      "id": "SentinelB3"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelB4": {
+    "domain": "sentinel",
+    "drop_level": 62,
+    "implicits": [
+      "SentinelImplicitOnlyOneUseDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Emberstone Pandemonium Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_b",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemRed2.dds",
+      "id": "SentinelB4"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelB5": {
+    "domain": "sentinel",
+    "drop_level": 68,
+    "implicits": [
+      "SentinelImplicitOnlyOneUseDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Obsidian Pandemonium Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_b",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItem2.dds",
+      "id": "SentinelB5"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelC1": {
+    "domain": "sentinel",
+    "drop_level": 24,
+    "implicits": [
+      "SentinelImplicitTagOnlyRareOrUniqueDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Bronze Apex Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_c",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemBronze3.dds",
+      "id": "SentinelC1_"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelC2": {
+    "domain": "sentinel",
+    "drop_level": 36,
+    "implicits": [
+      "SentinelImplicitTagOnlyRareOrUniqueDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Cobalt Apex Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_c",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemBlue3.dds",
+      "id": "SentinelC2"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelC3": {
+    "domain": "sentinel",
+    "drop_level": 48,
+    "implicits": [
+      "SentinelImplicitTagOnlyRareOrUniqueDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Brimstone Apex Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_c",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemDark3.dds",
+      "id": "SentinelC3"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelC4": {
+    "domain": "sentinel",
+    "drop_level": 58,
+    "implicits": [
+      "SentinelImplicitTagOnlyRareOrUniqueDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Emberstone Apex Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_c",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemRed3.dds",
+      "id": "SentinelC4"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelC5": {
+    "domain": "sentinel",
+    "drop_level": 66,
+    "implicits": [
+      "SentinelImplicitTagOnlyRareOrUniqueDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Obsidian Apex Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_c",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItem3.dds",
+      "id": "SentinelC5"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelCraftedA1": {
+    "domain": "sentinel",
+    "drop_level": 2,
+    "implicits": [
+      "SentinelImplicitCraftedA1"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Cryptic Stalker Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_a",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemFilthyStone1.dds",
+      "id": "SentinelCraftedA1"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelCraftedA2": {
+    "domain": "sentinel",
+    "drop_level": 68,
+    "implicits": [
+      "SentinelImplicitCraftedA2"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Primeval Stalker Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_a",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemStone1.dds",
+      "id": "SentinelCraftedA2"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelCraftedA3": {
+    "domain": "sentinel",
+    "drop_level": 80,
+    "implicits": [
+      "SentinelImplicitCraftedA3"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Ancient Stalker Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_a",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemBlackWhite1.dds",
+      "id": "SentinelCraftedA3"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelCraftedB1": {
+    "domain": "sentinel",
+    "drop_level": 40,
+    "implicits": [
+      "SentinelImplicitCraftedB1",
+      "SentinelImplicitOnlyOneUseDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Cryptic Pandemonium Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_b",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemFilthyStone2.dds",
+      "id": "SentinelCraftedB1_"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelCraftedB2": {
+    "domain": "sentinel",
+    "drop_level": 68,
+    "implicits": [
+      "SentinelImplicitCraftedB2",
+      "SentinelImplicitOnlyOneUseDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Primeval Pandemonium Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_b",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemStone2.dds",
+      "id": "SentinelCraftedB2"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelCraftedB3": {
+    "domain": "sentinel",
+    "drop_level": 80,
+    "implicits": [
+      "SentinelImplicitCraftedB3",
+      "SentinelImplicitOnlyOneUseDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Ancient Pandemonium Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_b",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemWhiteBlack2.dds",
+      "id": "SentinelCraftedB3"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelCraftedC1": {
+    "domain": "sentinel",
+    "drop_level": 24,
+    "implicits": [
+      "SentinelImplicitCraftedC1",
+      "SentinelImplicitTagOnlyRareOrUniqueDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Cryptic Apex Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_c",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemFilthyStone3.dds",
+      "id": "SentinelCraftedC1"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelCraftedC2": {
+    "domain": "sentinel",
+    "drop_level": 68,
+    "implicits": [
+      "SentinelImplicitCraftedC2",
+      "SentinelImplicitTagOnlyRareOrUniqueDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Primeval Apex Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_c",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemStone3.dds",
+      "id": "SentinelCraftedC2"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelCraftedC3": {
+    "domain": "sentinel",
+    "drop_level": 80,
+    "implicits": [
+      "SentinelImplicitCraftedC3",
+      "SentinelImplicitTagOnlyRareOrUniqueDisplay"
+    ],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Ancient Apex Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_c",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemWhiteBlack3.dds",
+      "id": "SentinelCraftedC3"
+    }
+  },
+  "Metadata/Items/Sentinel/SentinelUniqueMapBossC1": {
+    "domain": "sentinel",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "SentinelDrone",
+    "name": "Cosmic Apex Sentinel",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "sentinel_c",
+      "sentinel_drone",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sentinel/BaseDroneItemUnique3.dds",
+      "id": "SentinelUniqueMapBossC1_"
     }
   },
   "Metadata/Items/Weapons/OneHandWeapons/Claws/Claw1": {
