@@ -7,7 +7,6 @@ from RePoE.parser.util import (
     call_with_default_args,
     write_json,
     get_release_state,
-    ignore_mod_domain,
     get_stat_translation_file_name,
 )
 from RePoE.parser import Parser_Module
@@ -390,8 +389,6 @@ class gems(Parser_Module):
         # Skills from mods
         for mod in relational_reader["Mods.dat"]:
             if mod["GrantedEffectsPerLevelKeys"] is None:
-                continue
-            if ignore_mod_domain(mod["Domain"]):
                 continue
             for granted_effect_per_level in mod["GrantedEffectsPerLevelKeys"]:
                 granted_effect = granted_effect_per_level["GrantedEffectsKey"]

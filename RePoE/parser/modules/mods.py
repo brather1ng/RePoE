@@ -1,5 +1,5 @@
 from PyPoE.poe.constants import MOD_DOMAIN
-from RePoE.parser.util import write_json, call_with_default_args, ignore_mod_domain
+from RePoE.parser.util import write_json, call_with_default_args
 from RePoE.parser import Parser_Module
 
 
@@ -60,8 +60,6 @@ class mods(Parser_Module):
         root = {}
         for mod in relational_reader["Mods.dat"]:
             domain = MOD_DOMAIN_FIX.get(mod["Id"], mod["Domain"])
-            if ignore_mod_domain(domain):
-                continue
             obj = {
                 "required_level": mod["Level"],
                 "stats": _convert_stats(mod["Stats"]),

@@ -5,7 +5,6 @@ from PyPoE.poe.file.dat import RelationalReader
 from PyPoE.poe.file.file_system import FileSystem
 from PyPoE.poe.file.ot import OTFileCache
 from PyPoE.poe.file.translations import TranslationFileCache
-from PyPoE.poe.constants import MOD_DOMAIN
 
 from RePoE import __DATA_PATH__
 from RePoE.parser.constants import (
@@ -72,24 +71,6 @@ def get_release_state(item_id):
     if item_id in UNIQUE_ONLY_ITEMS:
         return ReleaseState.unique_only
     return ReleaseState.released
-
-
-def ignore_mod_domain(domain):
-    whitelist = {
-        MOD_DOMAIN.ITEM,
-        MOD_DOMAIN.FLASK,
-        MOD_DOMAIN.AREA,
-        MOD_DOMAIN.CRAFTED,
-        MOD_DOMAIN.MISC,
-        MOD_DOMAIN.ATLAS,
-        MOD_DOMAIN.ABYSS_JEWEL,
-        MOD_DOMAIN.DELVE,
-        MOD_DOMAIN.AFFLICTION_JEWEL,
-        MOD_DOMAIN.WATCHSTONE,
-        MOD_DOMAIN.VEILED,
-        MOD_DOMAIN.UNVEILED,
-    }
-    return domain not in whitelist
 
 
 def get_stat_translation_file_name(game_file):
