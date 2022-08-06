@@ -59,7 +59,7 @@ recursion.
 - `stats`: Array of the stats this skill provides. Each array element is an object
   containing the stat id (`id`) and value (`value`) of the stat at the given level.
 - `quality_stats`: Array of the quality stats this skill provides. Each array element 
-  is an object containing the stat id (`id`) and value (`value`) of the stat. The
+  is an object containing the stat id (`id`), value (`value`) and weight (`weight`) of the stat. The
   value is the value with 1000 quality, divide by 1000 to get the value per
   point of quality.
   `set` specifies which set of alternative quality the stat belongs to. `set: 0` is the default gem, other numbers are
