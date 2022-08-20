@@ -111,10 +111,17 @@ class GemConverter:
 
         self.gepls = {}
         for gepl in self.relational_reader["GrantedEffectsPerLevel.dat"]:
-            ge_id = gepl["GrantedEffectsKey"]["Id"]
+            ge_id = gepl["GrantedEffect"]["Id"]
             if ge_id not in self.gepls:
                 self.gepls[ge_id] = []
             self.gepls[ge_id].append(gepl)
+
+        self.gesspls = {}
+        for gesspl in self.relational_reader["GrantedEffectStatSetsPerLevel.dat"]:
+            gess_id = gesspl["StatSet"]["Id"]
+            if gess_id not in self.gesspls:
+                self.gesspls[gess_id] = []
+            self.gesspls[gess_id].append(gesspl)
 
         self.granted_effect_quality_stats = {}
         for geq in self.relational_reader["GrantedEffectQualityStats.dat"]:
@@ -181,9 +188,9 @@ class GemConverter:
     def _select_active_skill_types(type_rows):
         return [row["Id"] for row in type_rows]
 
-    def _convert_gepl(self, gepl, multipliers, is_support):
+    def _convert_gepl(self, gepl, gess, gesspl, multipliers, is_support):
         r = {
-            "required_level": gepl["LevelRequirement"],
+            "required_level": gepl["PlayerLevelReq"],
         }
         if gepl["Cooldown"] > 0:
             r["cooldown"] = gepl["Cooldown"]
@@ -198,12 +205,12 @@ class GemConverter:
             r["costs"] = {}
             for cost_type, cost_amount in gepl["Costs"]:
                 r["costs"][cost_type["Id"]] = cost_amount
-            if gepl["DamageEffectiveness"] != 0:
-                r["damage_effectiveness"] = gepl["DamageEffectiveness"]
-            if gepl["DamageMultiplier"] != 0:
-                r["damage_multiplier"] = gepl["DamageMultiplier"]
-            if gepl["CriticalStrikeChance"] > 0:
-                r["crit_chance"] = gepl["CriticalStrikeChance"]
+            if gesspl["DamageEffectiveness"] != 0:
+                r["damage_effectiveness"] = gesspl["DamageEffectiveness"] // 100
+            if gesspl["BaseMultiplier"] != 0:
+                r["damage_multiplier"] = gesspl["BaseMultiplier"]
+            if gesspl["SpellCritChance"] > 0:
+                r["crit_chance"] = gesspl["SpellCritChance"]
             if gepl["AttackSpeedMultiplier"] != 0:
                 r["attack_speed_multiplier"] = gepl["AttackSpeedMultiplier"]
             if gepl["VaalSouls"] > 0:
@@ -212,17 +219,24 @@ class GemConverter:
         r["reservations"] = self._convert_reservations(gepl)
 
         stats = []
-        for k, v in gepl["Stats"]:
+        for k, v in zip(gesspl["FloatStats"], gesspl["BaseResolvedValues"]):
             stats.append({"id": k["Id"], "value": v})
-        for k in gepl["StatsKeys2"]:
+        for k, v in zip(gess["ConstantStats"], gess["ConstantStatsValues"]):
+            stats.append({"id": k["Id"], "value": v})
+        for k, v in zip(gesspl["AdditionalStats"], gesspl["AdditionalStatsValues"]):
+            stats.append({"id": k["Id"], "value": v})
+        for k in gess["ImplicitStats"]:
+            stats.append({"id": k["Id"], "value": 1})
+        for k in gesspl["AdditionalFlags"]:
             stats.append({"id": k["Id"], "value": 1})
         r["stats"] = stats
 
         q_stats = []
-        if gepl["GrantedEffectsKey"]["Id"] in self.granted_effect_quality_stats:
-            for geq in self.granted_effect_quality_stats[gepl["GrantedEffectsKey"]["Id"]]:
-                for k, v in zip(geq["StatsKeys"], geq["StatsValuesPermille"]):
-                    q_stats.append({"id": k["Id"], "value": v, "set": geq["SetId"], weight: geq["Weight"]})
+        for ge in gesspl["GrantedEffects"]:
+            if ge["Id"] in self.granted_effect_quality_stats:
+                for geq in self.granted_effect_quality_stats[ge["Id"]]:
+                    for k, v in zip(geq["StatsKeys"], geq["StatsValuesPermille"]):
+                        q_stats.append({"id": k["Id"], "value": v, "set": geq["SetId"]})
         r["quality_stats"] = q_stats
 
         if multipliers is not None:
@@ -235,10 +249,10 @@ class GemConverter:
                 elif multi == 50:
                     # 50 is from SupportTutorial ("Lesser Reduced Mana Cost Support"), for which I
                     # have no idea what the requirements are.
-                    print("Unknown multiplier (50) for " + gepl["GrantedEffectsKey"]["Id"])
+                    print("Unknown multiplier (50) for " + gepl["GrantedEffect"]["Id"])
                     req = 0
                 else:
-                    req = gem_stat_requirement(gepl["LevelRequirement"], gtype, multi)
+                    req = gem_stat_requirement(gepl["PlayerLevelReq"], gtype, multi)
                 stat_requirements[stat_type] = req
             r["stat_requirements"] = stat_requirements
 
@@ -257,8 +271,7 @@ class GemConverter:
             r["life_percent"] = gepl["LifeReservationPercent"] / 100
         return r
 
-    @staticmethod
-    def _convert_base_item_specific(base_item_type, obj):
+    def _convert_base_item_specific(self, base_item_type, obj):
         if base_item_type is None:
             obj["base_item"] = None
             return
@@ -268,6 +281,8 @@ class GemConverter:
             "display_name": base_item_type["Name"],
             "release_state": get_release_state(base_item_type["Id"]).name,
         }
+        if base_item_type["Id"] in self.max_levels:
+            obj["base_item"]["max_level"] = self.max_levels[base_item_type["Id"]]
 
     def convert(self, base_item_type, granted_effect, secondary_granted_effect, gem_tags, multipliers):
         is_support = granted_effect["IsSupport"]
@@ -294,9 +309,11 @@ class GemConverter:
         # GrantedEffectsPerLevel
         gepls = self.gepls[granted_effect["Id"]]
         gepls.sort(key=lambda g: g["Level"])
+        gess = granted_effect["StatSet"]
+        gesspls = {row["GemLevel"]: row for row in self.gesspls[gess["Id"]]}
         gepls_dict = {}
         for gepl in gepls:
-            gepl_converted = self._convert_gepl(gepl, multipliers, is_support)
+            gepl_converted = self._convert_gepl(gepl, gess, gesspls[gepl["Level"]], multipliers, is_support)
             gepls_dict[gepl["Level"]] = gepl_converted
         obj["per_level"] = gepls_dict
 
@@ -391,7 +408,7 @@ class gems(Parser_Module):
             if mod["GrantedEffectsPerLevelKeys"] is None:
                 continue
             for granted_effect_per_level in mod["GrantedEffectsPerLevelKeys"]:
-                granted_effect = granted_effect_per_level["GrantedEffectsKey"]
+                granted_effect = granted_effect_per_level["GrantedEffect"]
                 ge_id = granted_effect["Id"]
                 if ge_id in gems:
                     # mod effects may exist as gems, those are handled above
