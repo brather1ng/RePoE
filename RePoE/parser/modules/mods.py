@@ -42,8 +42,7 @@ def _convert_granted_effects(granted_effects_per_level):
         return {}
     # These two identify a row in GrantedEffectsPerLevel.dat
     return [
-        {"granted_effect_id": gepl["GrantedEffectsKey"]["Id"], "level": gepl["Level"]}
-        for gepl in granted_effects_per_level
+        {"granted_effect_id": gepl["GrantedEffect"]["Id"], "level": gepl["Level"]} for gepl in granted_effects_per_level
     ]
 
 
@@ -67,7 +66,7 @@ class mods(Parser_Module):
                 "name": mod["Name"],
                 "type": mod["ModTypeKey"]["Name"],
                 "generation_type": mod["GenerationType"].name.lower(),
-                "group": mod["CorrectGroup"],
+                "groups": [family["Id"] for family in mod["Families"]],
                 "spawn_weights": _convert_spawn_weights(mod["SpawnWeight"]),
                 "generation_weights": _convert_generation_weights(mod["GenerationWeight"]),
                 "grants_effects": _convert_granted_effects(mod["GrantedEffectsPerLevelKeys"]),
