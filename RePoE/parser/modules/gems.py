@@ -236,7 +236,7 @@ class GemConverter:
             if ge["Id"] in self.granted_effect_quality_stats:
                 for geq in self.granted_effect_quality_stats[ge["Id"]]:
                     for k, v in zip(geq["StatsKeys"], geq["StatsValuesPermille"]):
-                        q_stats.append({"id": k["Id"], "value": v, "set": geq["SetId"], weight: geq["Weight"]})
+                        q_stats.append({"id": k["Id"], "value": v, "set": geq["SetId"], "weight": geq["Weight"]})
         r["quality_stats"] = q_stats
 
         if multipliers is not None:
