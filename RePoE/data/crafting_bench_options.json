@@ -6089,7 +6089,8 @@
       "Metadata/Items/Currency/CurrencyAddModToMagic": 4
     },
     "item_classes": [
-      "Helmet"
+      "Shield",
+      "Ring"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -6102,7 +6103,7 @@
       "Metadata/Items/Currency/CurrencyUpgradeToRare": 2
     },
     "item_classes": [
-      "Helmet"
+      "Shield"
     ],
     "master": "Niko, Master of the Depths"
   },
@@ -9112,7 +9113,7 @@
     },
     "bench_tier": 2,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 8
     },
     "item_classes": [
       "Two Hand Axe",
@@ -9152,7 +9153,7 @@
     },
     "bench_tier": 2,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 8
     },
     "item_classes": [
       "Dagger",
@@ -10224,7 +10225,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
     "item_classes": [
       "Ring",
@@ -10238,7 +10239,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
     "item_classes": [
       "Ring",
@@ -10252,7 +10253,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
     "item_classes": [
       "Ring",
@@ -10739,7 +10740,7 @@
     },
     "bench_tier": 2,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
     "item_classes": [
       "Belt"
@@ -10869,7 +10870,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Gloves"
@@ -10882,7 +10883,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Gloves"
@@ -10895,7 +10896,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Gloves"
@@ -11101,7 +11102,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Helmet",
@@ -11115,7 +11116,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Helmet",
@@ -11129,7 +11130,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Helmet",
@@ -12057,7 +12058,7 @@
     },
     "bench_tier": 3,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 8
     },
     "item_classes": [
       "Two Hand Axe",
@@ -12119,7 +12120,7 @@
     },
     "bench_tier": 3,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 8
     },
     "item_classes": [
       "Dagger",
@@ -12206,7 +12207,7 @@
     },
     "bench_tier": 3,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Helmet"
@@ -12319,19 +12320,6 @@
   },
   {
     "actions": {
-      "add_explicit_mod": "JunMaster2SkillsCostNoManaWhileFocused1"
-    },
-    "bench_tier": 0,
-    "cost": {
-      "Metadata/Items/Currency/CurrencyRerollRare": 3
-    },
-    "item_classes": [
-      "Amulet"
-    ],
-    "master": "Sister Cassia"
-  },
-  {
-    "actions": {
       "add_explicit_mod": "JunMaster2AllDamage2_"
     },
     "bench_tier": 1,
@@ -12364,7 +12352,7 @@
     },
     "bench_tier": 1,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 8
     },
     "item_classes": [
       "Dagger",
@@ -13085,7 +13073,7 @@
   },
   {
     "actions": {
-      "add_explicit_mod": "JunMaster2LifeAddedAsEnergyShield2"
+      "add_explicit_mod": "JunMaster2PhysicalDamageTakenAsFireAndLightningPercent1"
     },
     "bench_tier": 1,
     "cost": {
@@ -13098,7 +13086,7 @@
   },
   {
     "actions": {
-      "add_explicit_mod": "JunMaster2LifeAddedAsEnergyShield3"
+      "add_explicit_mod": "JunMaster2PhysicalDamageTakenAsFireAndLightningPercent2"
     },
     "bench_tier": 2,
     "cost": {
@@ -13128,7 +13116,7 @@
     },
     "bench_tier": 1,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Helmet"
@@ -13360,7 +13348,7 @@
     },
     "bench_tier": 1,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Dagger",
@@ -13520,7 +13508,7 @@
     },
     "bench_tier": 1,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyRerollRare": 4
     },
     "item_classes": [
       "Dagger",
@@ -14370,7 +14358,7 @@
     },
     "bench_tier": 3,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
     "item_classes": [
       "Amulet"
@@ -14409,7 +14397,7 @@
     },
     "bench_tier": 3,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
     "item_classes": [
       "Amulet"
@@ -14448,7 +14436,7 @@
     },
     "bench_tier": 3,
     "cost": {
-      "Metadata/Items/Currency/CurrencyModValues": 1
+      "Metadata/Items/Currency/CurrencyAddModToRare": 1
     },
     "item_classes": [
       "Amulet"
@@ -14474,7 +14462,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyAddModToRare": 2
+      "Metadata/Items/Currency/CurrencyModValues": 2
     },
     "item_classes": [
       "Dagger",
@@ -14510,7 +14498,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyAddModToRare": 2
+      "Metadata/Items/Currency/CurrencyModValues": 2
     },
     "item_classes": [
       "Dagger",
@@ -14546,7 +14534,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyAddModToRare": 2
+      "Metadata/Items/Currency/CurrencyModValues": 2
     },
     "item_classes": [
       "Dagger",
@@ -14582,7 +14570,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyAddModToRare": 1
+      "Metadata/Items/Currency/CurrencyModValues": 1
     },
     "item_classes": [
       "Dagger",
@@ -14618,7 +14606,7 @@
     },
     "bench_tier": 0,
     "cost": {
-      "Metadata/Items/Currency/CurrencyRerollImplicit": 5
+      "Metadata/Items/Currency/CurrencyModValues": 1
     },
     "item_classes": [
       "Dagger",
